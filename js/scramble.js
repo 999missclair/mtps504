@@ -266,7 +266,8 @@
 
     /* Escape puts a held item back down. Arrow keys walk the tray, so a
        student who has picked an item up does not have to Tab through the
-       whole row to reach the bins. */
+       whole row to reach the bins. Right/Down go forward, Left/Up go back,
+       Home and End jump to the ends — the same in every layout. */
     root.addEventListener('keydown', function (event) {
       if (event.key === 'Escape' && held) {
         var title = held.getAttribute('data-title');
@@ -276,14 +277,28 @@
         putBack.focus();
         return;
       }
-      if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') { return; }
+      /* All four arrows, plus Home and End. The tray is three across at
+         1024px, two across on a phone and one across inside the licence sort
+         — so "the next panel" is to the right on one layout and below it on
+         another. Binding left/right only meant the arrow keys silently
+         stopped matching what a student could see the moment the tray
+         stacked. Both axes walk the same list, in DOM order, which is the
+         order the panels are read in. */
+      var FORWARD  = { ArrowRight: 1, ArrowDown: 1 };
+      var BACKWARD = { ArrowLeft: 1, ArrowUp: 1 };
+      var isEdge = event.key === 'Home' || event.key === 'End';
+      if (!FORWARD[event.key] && !BACKWARD[event.key] && !isEdge) { return; }
       var row = event.target.closest ? event.target.closest('[data-sort-tray]') : null;
       if (!row) { return; }
       var open = items.filter(function (item) { return !item.hidden; });
       var at = open.indexOf(event.target);
       if (at === -1) { return; }
       event.preventDefault();
-      var next = event.key === 'ArrowRight' ? at + 1 : at - 1;
+      var next;
+      if (event.key === 'Home')      { next = 0; }
+      else if (event.key === 'End')  { next = open.length - 1; }
+      else if (FORWARD[event.key])   { next = at + 1; }
+      else                           { next = at - 1; }
       if (next < 0) { next = open.length - 1; }
       if (next >= open.length) { next = 0; }
       open[next].focus();

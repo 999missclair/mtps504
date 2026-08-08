@@ -22,11 +22,24 @@
 
   var TOPICS = ['slides-basics', 'finding-images', 'crediting-images', 'when-it-breaks'];
 
-  function announce(message) {
-    var region = document.createElement('p');
+  /* ONE live region, reused. The first version made a new one on every
+     announcement, which left a growing stack of live regions on the page —
+     a screen reader has to keep watching all of them, and a repeated message
+     can be read from the wrong one. */
+  function liveRegion() {
+    var region = document.getElementById('ff-help-live');
+    if (region) { return region; }
+    region = document.createElement('p');
+    region.id = 'ff-help-live';
     region.className = 'visually-hidden';
     region.setAttribute('aria-live', 'polite');
     document.body.appendChild(region);
+    return region;
+  }
+
+  function announce(message) {
+    var region = liveRegion();
+    region.textContent = '';
     window.setTimeout(function () { region.textContent = message; }, 60);
   }
 
@@ -63,9 +76,19 @@
       section.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' });
     }
 
-    if (announceIt) {
-      var heading = section.querySelector('h2');
-      announce(heading ? heading.textContent + '. ' + TOPICS.length + ' topics on this page.' : '');
+    /* Move the keyboard, not only the scrollbar. This happens whether the
+       student got here by pressing a chip or by pressing the ? button on
+       another page — arriving at ?topic=when-it-breaks and finding the
+       keyboard still at the top of the document is the same bug either way.
+       tabindex="-1" makes the heading focusable without adding a Tab stop. */
+    var heading = section.querySelector('h2');
+    if (heading) {
+      heading.setAttribute('tabindex', '-1');
+      heading.focus({ preventScroll: true });
+    }
+
+    if (announceIt && heading) {
+      announce(heading.textContent + '. ' + TOPICS.length + ' topics on this page.');
     }
   }
 
@@ -79,13 +102,6 @@
       chip.addEventListener('click', function (event) {
         event.preventDefault();
         goToTopic(chip.getAttribute('data-chip'), false);
-        var section = document.getElementById(chip.getAttribute('data-chip'));
-        var heading = section && section.querySelector('h2');
-        if (heading) {
-          /* Move the keyboard with the page, not just the scrollbar. */
-          heading.setAttribute('tabindex', '-1');
-          heading.focus();
-        }
       });
     });
 

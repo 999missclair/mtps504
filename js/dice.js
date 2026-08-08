@@ -286,11 +286,20 @@
         if (rolledLine) { rolledLine.hidden = false; }
       }
 
-      var six = FIELDS.map(function (field) {
-        return FIELD_WORD[field] + ': ' + dealt[field].map(function (c) { return c.label; }).join(', or ');
-      }).join('. ');
+      /* The announcement used to read all six card labels out — 47 words
+         before the student could do anything with it, and a screen-reader
+         user cannot interrupt a polite region to get on with the task. It now
+         says what happened and how many, and focus moves to the first dealt
+         card so the reader speaks that card's own label next. The six labels
+         are still spoken; they are spoken one at a time, in the student's own
+         time, as they Tab across the columns. */
+      say('Rolled. Six cards dealt, two in each column. Pick one from each.');
 
-      say('Rolled. ' + six + '. Pick one from each column.');
+      /* Moving focus also fixes a real keyboard bug: the ROLL button is below
+         the columns, and on the second roll it hides itself, which used to
+         drop focus back to the top of the document with nothing announced. */
+      var firstCard = root.querySelector('[data-dice-card]');
+      if (firstCard) { firstCard.focus(); }
     }
 
     /* --------------------------------------------------------- selecting  */
