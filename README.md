@@ -54,15 +54,27 @@ All eight live at the repo root. Every page carries the full template.
 |---|---|---|---|
 | `index.html` | HOME | — | **Built** |
 | `brief.html` | BRIEF | Project overview | **Built** |
-| `look.html` | 1 LOOK | Investigating & defining | Stub — Agent 8 |
-| `roll.html` | 2 ROLL | Designing | Stub — Agent 8 |
-| `plan.html` | 3 PLAN | Designing | Stub — Agent 8 |
-| `build.html` | 4 BUILD | Producing & implementing | Stub — Agent 9 |
-| `share.html` | 5 SHARE | Evaluating | Stub — Agent 9 |
-| `help.html` | HELP | — | Stub — Agent 9 |
+| `look.html` | 1 LOOK | Investigating & defining | **Built** |
+| `roll.html` | 2 ROLL | Designing | **Built** |
+| `plan.html` | 3 PLAN | Designing | **Built** |
+| `build.html` | 4 BUILD | Producing & implementing | **Built** |
+| `share.html` | 5 SHARE | Evaluating | **Built** |
+| `help.html` | HELP | — | **Built** |
 
 `css/site.css` is the whole design system. It is sectioned and commented; read the
 section map at the top before adding anything.
+
+## Scripts
+
+Four small files, no dependencies, all deferred, none of them required for the page
+to read. Each carries its markup contract in a header comment.
+
+| File | What it runs | Used on |
+|---|---|---|
+| `js/scramble.js` | The sort board — tap an item, tap a bin. One module, two instances. | `look.html` (Panel Scramble), `build.html` (the licence sort) |
+| `js/dice.js` | The roll: the V3 deck, the two-per-column deal without replacement, the one re-roll, the lock and the copy string. | `roll.html` |
+| `js/copy.js` | The copyable boxes — Clipboard API, then select-the-text, then a spoken instruction. | `build.html`, `help.html` |
+| `js/help.js` | The `?topic=` landing highlight and `← Back to where I was`. | `help.html` |
 
 ---
 
