@@ -34,6 +34,11 @@
     21  Structure table — four comedy shapes across four frames
     22  Reflow for 18–21
     23  Print
+    24  The dealt dice cards
+    25  The licence sort
+    26  Help Centre — disclosures and the ?topic= landing
+    27  Reflow for 24–26
+    28  Forced colours (Windows High Contrast)
    ========================================================================== */
 
 
@@ -52,9 +57,17 @@
   --slate:    #4A4A57;   /* muted / meta text on Paper                         */
 
   /* Ink tints. Used only on the Ink bar, for inactive nav text.
-     #9A9AA8 on #14141C = 7.35:1 · #77778A on #14141C = 4.53:1 — both AA. */
+     Re-measured with the WCAG 2.1 formula in the C3 accessibility pass
+     (working/accessibility-audit.md), because the numbers written here in the
+     first build were estimates and one of them was wrong:
+       #9A9AA8 on #14141C = 6.60:1  (was written as 7.35)
+       #82829A on #14141C = 4.89:1  (was #77778A at 4.18 — a real AA failure
+                                     on the 11px WA sub-label, now fixed)
+       #B9B9C6 on #14141C = 9.43:1
+     All three clear 4.5:1, and they keep their brightness order so the nav's
+     three tiers still read as three tiers. */
   --on-ink-muted:  #9A9AA8;
-  --on-ink-quiet:  #77778A;
+  --on-ink-quiet:  #82829A;
   --on-ink-active: #B9B9C6;
 
   /* Banned pairings, recorded so a later agent does not reinvent them:
@@ -143,6 +156,13 @@ body {
 }
 
 img { max-width: 100%; height: auto; display: block; }
+
+/* A long unbreakable string (a file name, a URL, a licence code) must never be
+   the thing that makes the whole page scroll sideways at 200% zoom or at
+   375px. Measured: `FourFrames_8VA_Surname_FirstName` in a .mono span was
+   forcing 364px of minimum width into a 343px column on 4 Build. */
+body { overflow-wrap: break-word; }
+.mono, code, .copyable code { overflow-wrap: anywhere; }
 
 h1, h2, h3, h4, p, ul, ol, figure, table, blockquote { margin: 0; }
 ul, ol { padding: 0; }
@@ -294,18 +314,29 @@ a:hover { text-decoration-thickness: 2px; }
   gap: var(--s5);
   align-items: start;
 }
+/* A grid item's default `min-width: auto` means it can never be narrower than
+   its widest indivisible child. On 3 Plan that child is the five-column
+   structure table (min-width 46rem), and it was pushing the whole page 736px
+   wide inside a 375px phone — the .table-wrap around it could not scroll
+   because nothing was ever forcing it to. `min-width: 0` restores the
+   intended behaviour: the column shrinks, and the table scrolls inside its
+   own wrapper. Measured before/after in working/accessibility-audit.md. */
+.with-rail > * { min-width: 0; }
 .rail {
   position: sticky;
   top: calc(var(--nav-t) + var(--s5));
   display: grid;
   gap: var(--s5);
+  min-width: 0;
 }
+.rail > * { min-width: 0; }
 
 .row-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--s4);
 }
+.row-3 > * { min-width: 0; }
 
 .section + .section { margin-top: var(--s7); }
 
@@ -360,8 +391,21 @@ a:hover { text-decoration-thickness: 2px; }
   list-style: none;
   margin: 0;
   padding: 0;
+  /* The eight items share the bar equally while they fit. When they stop
+     fitting — 200% text size is the case that matters — the list becomes a
+     scroll strip instead of squeezing, which is the same behaviour the ≤767px
+     rule already gives a phone. See the min-width note below. */
+  overflow-x: auto;
+  scrollbar-width: thin;
 }
-.topnav__list > li { flex: 1; min-width: 0; }
+/* `min-width: 0` here let the items squeeze past the width of their own
+   labels: at 200% text on a 1024px laptop the eight labels overlapped each
+   other into an unreadable stack. `min-content` is the floor the labels
+   actually need — the items still grow to fill the bar when there is room,
+   and the list scrolls when there is not. Nothing is ever hidden: every one
+   of the eight stays in the Tab order, and the browser scrolls a focused
+   item into view. */
+.topnav__list > li { flex: 1 1 0; min-width: min-content; }
 
 .topnav__link {
   display: flex;
@@ -1239,8 +1283,16 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   line-height: var(--lh-heading);
 }
 .bin__sub { font-size: var(--t-sm); color: var(--slate); }
-/* Armed — a bin is a live target because an item is being held. */
-.bin.is-armed { border: 3px solid var(--sun); background: #FFF3D6; }
+/* Armed — a bin is a live target because an item is being held.
+   Sun on Paper is 1.54:1, so a Sun border on its own would be an invisible
+   boundary for a low-vision student. The boundary stays Ink (17.50:1) and the
+   Sun becomes an inner ring inside it, so the armed state is a thicker edge,
+   a colour, a tint AND the words "— drop here". */
+.bin.is-armed {
+  border: 3px solid var(--ink);
+  background: #FFF3D6;
+  box-shadow: inset 0 0 0 3px var(--sun);
+}
 .bin.is-armed .bin__label::after { content: " \2014 drop here"; font-size: var(--t-sm); font-weight: 700; }
 
 .bin__placed { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s1); }
@@ -1673,20 +1725,29 @@ img.dice-card__thumb { object-fit: cover; border-style: solid; padding: 0; }
   padding: 0;
   margin-bottom: var(--s3);
 }
+/* `display: flex` on a <summary> is the usual way to lay this out, and it is
+   also the thing that has historically broken the disclosure widget in Safari
+   — the element stops being a `list-item`, and older WebKit stops drawing (or
+   exposing) the marker with it. So the summary stays a plain block, the
+   marker is removed the two ways Safari needs (list-style AND the WebKit
+   pseudo-element), and the +/- is drawn as an absolutely positioned ::before
+   in the padding gutter. Same look, no display change on the summary. */
 .fix > summary {
   cursor: pointer;
+  display: block;
+  position: relative;
   list-style: none;
-  padding: var(--s3) var(--s4);
+  padding: var(--s3) var(--s4) var(--s3) calc(var(--s4) + 1.4em);
   font-size: var(--t-body);
   font-weight: 800;
-  display: flex;
-  gap: var(--s3);
-  align-items: baseline;
 }
 .fix > summary::-webkit-details-marker { display: none; }
+.fix > summary::marker { content: ""; }
 .fix > summary::before {
   content: "+";
-  flex: 0 0 auto;
+  position: absolute;
+  left: var(--s4);
+  top: var(--s3);
   font-family: var(--font-display);
   font-weight: 900;
   color: var(--punch);
@@ -1714,6 +1775,19 @@ img.dice-card__thumb { object-fit: cover; border-style: solid; padding: 0; }
   border-left: 6px solid var(--sun);
   padding-left: var(--s3);
 }
+/* The Sun rule is one signal; this is the second, and it is a word, not a
+   colour. A student who cannot see the rule still reads where they landed,
+   and the chip in the bottom bar takes aria-current at the same time (§6.8). */
+.topic.is-target > h2::after {
+  content: " \2014 you are here";
+  display: block;
+  font-family: var(--font-body);
+  font-size: var(--t-sm);
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--slate);
+}
 .topic__kicker { font-size: var(--t-lead); font-weight: 700; }
 
 .escalate {
@@ -1734,7 +1808,12 @@ img.dice-card__thumb { object-fit: cover; border-style: solid; padding: 0; }
 /* The eight Build steps run two columns of four at 1024 and up (4.4 block E).
    A single <ol>, so the numbering and the reading order stay honest; the
    columns are a layout, not a second list. */
-ol.steps--two-col { columns: 2; column-gap: var(--s6); }
+/* `columns: 22rem 2` rather than `columns: 2`: the column-width is in rem, so
+   at 200% text size two columns no longer fit and the browser drops to one by
+   itself. Without that, a student at 200% text on a 1024px laptop got two
+   very narrow columns and a page that scrolled sideways. The px breakpoint
+   below still covers page zoom and small screens. */
+ol.steps--two-col { columns: 22rem 2; column-gap: var(--s6); }
 ol.steps--two-col > li { break-inside: avoid; }
 @media (max-width: 1023px) {
   ol.steps--two-col { columns: 1; }
@@ -1743,5 +1822,111 @@ ol.steps--two-col > li { break-inside: avoid; }
 
 @media (max-width: 767px) {
   .dice-card--problem { flex-direction: row; }
-  .fix > summary { padding: var(--s3); }
+  .fix > summary { padding: var(--s3) var(--s3) var(--s3) calc(var(--s3) + 1.4em); }
+  .fix > summary::before { left: var(--s3); top: var(--s3); }
+}
+
+
+/* ==========================================================================
+   28  FORCED COLOURS — Windows High Contrast, and macOS "Increase contrast"
+   Added in the C3 accessibility pass.
+
+   In forced-colors mode the browser replaces every `color` and
+   `background-color` with a system colour, drops every `box-shadow`, and
+   leaves `background-image` alone. Three consequences this site has to
+   answer for:
+
+     1. Every Sun fill disappears. On this site a Sun fill is one of the
+        signals for SELECTED and for CURRENT — so those states get a system
+        Highlight fill here instead. The tick, the word and the ARIA state
+        were never colour-dependent and are untouched.
+     2. Every `box-shadow` disappears — including the offset "poster" shadow,
+        which is decoration and can go, and the Sun half of the focus ring,
+        which cannot. The focus ring's other half is an `outline`, which
+        forced colours keep and recolour, so focus stays visible. It is made
+        thicker here so it is unmistakable.
+     3. The decorative diagonal stripes are `background-image`, which is NOT
+        forced — they would paint at full strength behind system-coloured
+        text. They are removed.
+   ========================================================================== */
+
+@media (forced-colors: active) {
+
+  /* Decoration that stops being decoration when the palette is taken away. */
+  .thumb,
+  .embed-slot,
+  .exemplar .placeholder,
+  .dice-card__thumb,
+  .help-intro,
+  .sortboard__feedback,
+  table.structure tbody td.is-punch,
+  .bin.is-armed { background-image: none; }
+
+  /* Flat poster shadows carry no meaning; the borders do. */
+  .card,
+  .handoff-card,
+  .btn-primary,
+  .btn-roll,
+  .step-pill,
+  .chip-btn,
+  .shot-choice,
+  .sort-item,
+  .dice-card { box-shadow: none; }
+
+  /* Focus: the outline survives and is recoloured by the system. Make it
+     unambiguous, on both bars and on the page. */
+  :focus-visible,
+  .topnav :focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+
+  /* SELECTED / CURRENT.
+     A background is the one thing forced colours will not let an author keep
+     — the UA overrides background-color with its own palette whatever the
+     author asked for (verified in Chrome's forced-colors emulation: a Sun
+     fill and a `background: Highlight` both come back as plain Canvas). A
+     BORDER survives: forced colours recolours it but keeps its width and
+     style. So the selected state here is drawn as a thicker edge, on top of
+     the ✓ and the `aria-pressed` / `aria-current` that were already carrying
+     the meaning without colour. */
+  .dice-card[aria-pressed="true"],
+  .sort-item[aria-pressed="true"],
+  .chip-btn[aria-pressed="true"],
+  .shot-choice[aria-pressed="true"],
+  .step-pill[aria-current="true"],
+  .step-pill[aria-current="step"],
+  .botnav__steps [aria-current] {
+    border-width: 5px;
+    border-style: solid;
+  }
+
+  /* The current page in the top nav. Every item carries a 4px transparent
+     bottom border so the active one can fill it in — but forced colours
+     recolours `transparent` too, which would underline all eight. So the
+     border is switched off for the inactive items and kept for the active
+     one, and the number chip gets an edge of its own. */
+  .topnav__link { border-bottom-style: none; }
+  .topnav__link[aria-current="page"] {
+    border-bottom: 5px solid CanvasText;
+  }
+  .topnav__link[aria-current="page"] .topnav__num {
+    border: 2px solid CanvasText;
+  }
+
+  /* Dashed and filled edges that were doing the work of a background. */
+  .bin { border-style: dashed; }
+  .bin.is-armed { border-width: 4px; border-style: solid; }
+  .rule-strip,
+  .completion,
+  .escalate,
+  .dice__head,
+  .resource__header,
+  .toast,
+  .phase-tag { border: 2px solid CanvasText; }
+
+  /* Badges are a coloured disc with a glyph in it; without the fill they need
+     an edge or they read as a stray character. */
+  .badge,
+  .needs-clair { border: 1px solid CanvasText; }
 }
