@@ -1,11 +1,170 @@
-# Four-Frame Cartoon Board
+# FOUR FRAMES
 
-Year 8 Visual Arts creative technologies hub — MTPS504-A2.
+Year 8 Visual Arts creative-technologies site — MTPS504 Assignment 2.
 
-Students build a four-frame cartoon board from sourced images, learning composition,
-cartoon comedy structure, and creative limitation as a generative device.
+Students build a four-frame cartoon strip from openly licensed images: composition,
+cartoon comedy structure, and creative limitation as a generative device (the dice roll).
 
-Stack: plain static HTML/CSS, no build step, deployed on Vercel.
-Page structure and every design decision live in the assignment workspace, `working/project-concept.md`.
+**The design document is the source of truth**, not this README and not the mockup:
 
-Deploy: `npx vercel --prod --yes`
+```
+Master of Teaching - Visual Arts/Clair Assignment System/assignments/planned/
+  mtps504-a2/working/site-map-and-design.md
+```
+
+`mockup/index.html` is a palette-and-chrome reference only. Its Build page still shows
+the **cancelled** drag-and-arrange studio. Build page 6 from §4.4 of the design doc.
+
+---
+
+## Status
+
+| | |
+|---|---|
+| Deployed | **No.** Nothing is live. |
+| Pushed | **No.** Local commits only — the remote has not been written to. |
+| Deploy command | Deliberately not run. Deploying is Clair's call. |
+
+Do not `git push` and do not deploy from an agent session.
+
+---
+
+## Stack
+
+Plain static HTML + one stylesheet. **No build step, no framework, no package.json,
+no dependencies.** Open a file and it works.
+
+Three rules the site keeps, because each one is a claim made in the video rationale
+and each has to be true in the code:
+
+1. **No external requests of any kind.** No CDN font, no CDN CSS, no remote image,
+   no analytics. Type is two system stacks (design doc §5.2); every graphic is CSS.
+2. **No storage.** No `localStorage`, no `sessionStorage`, no cookies, no account.
+   Verified at runtime: 8 pages, 16 requests, all same-origin, all three storages empty.
+3. **No `outline: none`.** Focus is a two-tone ring (Sun inner + Ink outer) so it
+   reads on both the dark bar and the light page.
+
+---
+
+## Pages
+
+All eight live at the repo root. Every page carries the full template.
+
+| File | Nav label | WA sub-strand | State |
+|---|---|---|---|
+| `index.html` | HOME | — | **Built** |
+| `brief.html` | BRIEF | Project overview | **Built** |
+| `look.html` | 1 LOOK | Investigating & defining | Stub — Agent 8 |
+| `roll.html` | 2 ROLL | Designing | Stub — Agent 8 |
+| `plan.html` | 3 PLAN | Designing | Stub — Agent 8 |
+| `build.html` | 4 BUILD | Producing & implementing | Stub — Agent 9 |
+| `share.html` | 5 SHARE | Evaluating | Stub — Agent 9 |
+| `help.html` | HELP | — | Stub — Agent 9 |
+
+`css/site.css` is the whole design system. It is sectioned and commented; read the
+section map at the top before adding anything.
+
+---
+
+## Preview locally
+
+```bash
+cd ~/Projects/mtps504-a2-website
+python3 -m http.server 8799
+# then open http://127.0.0.1:8799/
+```
+
+A plain file open (`open index.html`) also works — there is nothing that needs a
+server. The server is only so relative links and `?topic=` parameters behave exactly
+as they will in production.
+
+Check it at the two design targets: **1024 × 768** (school laptop, iPad landscape)
+and **768 × 1024** (iPad portrait).
+
+---
+
+## How the shared navigation works
+
+This is plain multi-page HTML with no build step and no templating, so both `<nav>`
+blocks are **duplicated verbatim in all eight files**.
+
+**Static markup was chosen over a `js/nav.js` DOM injection** for one reason: with JS
+injection, a page loaded with scripts blocked has no navigation at all. On a school
+trolley that is a dead site. Static markup means the worst case is a site with no
+interactivity but complete, working navigation.
+
+The blocks are fenced by comments:
+
+```html
+<!-- ===== NAV:TOP — START ... -->        ... <!-- ===== NAV:TOP — END ... -->
+<!-- ===== NAV:BOTTOM — START ... -->     ... <!-- ===== NAV:BOTTOM — END ... -->
+```
+
+### Rules for anyone editing a page
+
+- **Top nav:** copy it byte-for-byte. The *only* permitted difference between pages is
+  which `<a class="topnav__link">` carries `aria-current="page"`. Exactly one per page.
+  Everything else — order, hrefs, labels, sub-labels — is identical everywhere.
+- **Bottom nav:** the four-zone *structure* is identical on every page
+  (`?` help → back → steps → primary). Only the labels, the hrefs and the `?topic=`
+  deep link change. Zone order never changes.
+- **Between the fences is nav. Everything you write goes in `<main id="main">`.**
+
+If the top nav ever has to change, change it in all eight files in the same commit and
+re-run the checks below.
+
+### Verifying
+
+There is no test framework. This one-liner catches the things that actually go wrong —
+a nav that drifted, a dead link, a missing `aria-current`, a broken fragment:
+
+```bash
+python3 - <<'PY'
+import re, glob, os
+navs = {}
+for f in sorted(glob.glob('*.html')):
+    s = open(f, encoding='utf-8').read()
+    top = re.search(r'<nav class="topnav".*?</nav>', s, re.S).group(0)
+    navs[f] = re.sub(r' aria-current="page"', '', top)
+    assert top.count('aria-current="page"') == 1, f'{f}: aria-current'
+    assert len(re.findall(r'<h1[ >]', s)) == 1, f'{f}: h1 count'
+    ids = set(re.findall(r'id="([^"]+)"', s))
+    for h in set(re.findall(r'href="#([^"]+)"', s)):
+        assert h in ids, f'{f}: dead fragment #{h}'
+    for h in re.findall(r'href="([^"#][^"]*?)"', s):
+        assert os.path.exists(h.split('?')[0].split('#')[0]), f'{f}: dead link {h}'
+    assert not re.search(r'(?:src|href)="(?:https?:)?//', s), f'{f}: external request'
+assert len(set(navs.values())) == 1, 'top nav differs between pages'
+print('ok —', len(navs), 'pages')
+PY
+```
+
+---
+
+## Placeholders, and what they are waiting on
+
+`⚠️ NEEDS CLAIR` — an agent cannot create a Google file.
+
+- **The worked example strip.** A 1600 × 1200 PNG exported from the Four Frames Google
+  Slides template (the teapot strip). It appears on `index.html` and `brief.html` and
+  will appear on `build.html`. Both current instances are a placeholder box at the exact
+  final dimensions, flagged with an HTML comment that carries the swap-in markup, so the
+  layout is real and only the picture is missing. Alt text is written out in design doc
+  §4.4 block I.
+- **The Slides template `/copy` link**, the Padlet boards and the Google Form. Marked
+  `⚠️ CONFIRM` in the design doc; the pages ship with the slot, not the URL.
+
+---
+
+## Verified
+
+Measured with headless Chromium at 1024 × 768, 768 × 1024, both at 100% and at 200%
+text size, plus 375 × 667:
+
+- **Home does not scroll at either design target** (0px overflow at both).
+- Both bars and the page's primary action are on screen on all eight pages, at every
+  size tested.
+- No horizontal scroll anywhere.
+- No content sits under the fixed bottom bar at any size, including 200%.
+- Smallest interactive target is 44 px.
+- First Tab stop is the skip link, on every page.
