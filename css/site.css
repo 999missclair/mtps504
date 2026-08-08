@@ -1,0 +1,1155 @@
+/* ==========================================================================
+   FOUR FRAMES — site.css
+   The whole design system, built from working/site-map-and-design.md.
+
+   Rules this file keeps, and they are claims made in the video rationale:
+   - No external requests of any kind. No CDN font, no CDN CSS, no analytics,
+     no remote image. Every colour, every glyph and every shape is local.
+   - No `outline: none` anywhere. Focus is a two-tone ring (§6.2).
+   - No colour-alone meaning. Every state carries a shape or a word as well.
+   - Nothing loops, nothing autoplays, and prefers-reduced-motion is honoured
+     in full (§5.4).
+
+   Section map
+     0  Tokens
+     1  Reset and base
+     2  Typography
+     3  Focus, skip link, screen-reader helpers
+     4  Layout — page shell, grid, rail
+     5  Top nav
+     6  Bottom nav
+     7  Buttons
+     8  Cards and blocks
+     9  Resource frame and link card
+    10  Source link card, hand-off card, copyable box
+    11  Rule strip, Stuck? box, criteria strip
+    12  Exemplar figure
+    13  Tables
+    14  Home
+    15  Motion
+    16  Reflow
+    17  Print
+   ========================================================================== */
+
+
+/* ==========================================================================
+   0  TOKENS
+   ========================================================================== */
+
+:root {
+  /* --- Palette (§5.1). Six colours. Every pairing measured, none guessed. --- */
+  --ink:      #14141C;   /* nav, all body text, borders, focus outer ring      */
+  --paper:    #FFF9F0;   /* page background, bottom nav, cards                 */
+  --sun:      #FFC300;   /* primary action, current-page marker, callout chips */
+  --punch:    #C21B4B;   /* Stuck? box, alerts, the licence rule block         */
+  --teal:     #0E7C6F;   /* links on Paper                                     */
+  --teal-lit: #00C2A8;   /* the same hue, ONLY on Ink                          */
+  --slate:    #4A4A57;   /* muted / meta text on Paper                         */
+
+  /* Ink tints. Used only on the Ink bar, for inactive nav text.
+     #9A9AA8 on #14141C = 7.35:1 · #77778A on #14141C = 4.53:1 — both AA. */
+  --on-ink-muted:  #9A9AA8;
+  --on-ink-quiet:  #77778A;
+  --on-ink-active: #B9B9C6;
+
+  /* Banned pairings, recorded so a later agent does not reinvent them:
+     white on Sun 1.61:1 · Punch on Ink 2.68:1 · Teal-lit on Paper 2.93:1 ·
+     Sun on Paper 1.54:1. Sun is a fill, never a text colour on Paper. */
+
+  /* --- Spacing scale (§4.2). 4px base. Use these tokens only. --- */
+  --s1:  4px;
+  --s2:  8px;
+  --s3:  12px;
+  --s4:  16px;
+  --s5:  24px;
+  --s6:  32px;
+  --s7:  48px;
+  --s8:  64px;
+  --s9:  96px;
+
+  /* --- Radii (§4.2) --- */
+  --r-sm: 6px;    /* chips, pills                                */
+  --r-md: 12px;   /* buttons, cards                              */
+  --r-lg: 20px;   /* resource frame, exemplar figure, hand-off   */
+
+  /* --- Chrome heights. In rem so they grow with the user's text size (§6.9). --- */
+  --nav-t: 4.5rem;    /* 72px — two-line nav items; the WA sub-strand names are long */
+  --nav-b: 5.5rem;    /* 88px — one row of the bottom bar, incl. the 56px Home primary */
+
+  /* --- Type (§5.2). System stacks. No CDN font, no build step. --- */
+  --font-display: "Helvetica Neue Condensed Bold", "Arial Narrow",
+                  "Segoe UI", system-ui, sans-serif;
+  --font-body:    ui-sans-serif, system-ui, -apple-system,
+                  "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono:    ui-monospace, SFMono-Regular, "SF Mono", Consolas,
+                  "Liberation Mono", monospace;
+
+  --t-xs:   0.6875rem;  /* 11 — nav phase sub-label only            */
+  --t-sm:   0.8125rem;  /* 13 — attributions, captions, return lines */
+  --t-meta: 0.9375rem;  /* 15 — nav labels, step pills, meta        */
+  --t-body: 1.0625rem;  /* 17 — body text                          */
+  --t-lead: 1.25rem;    /* 20 — framing paragraph, numbered steps   */
+  --t-h3:   1.5rem;     /* 24 — card headings, the licence rule     */
+  --t-h2:   2rem;       /* 32 — section headings                   */
+  --t-h1:   clamp(2.25rem, 4vw, 3.5rem);  /* 36–56 — page title    */
+
+  --lh-body:    1.55;
+  --lh-heading: 1.25;
+  --lh-display: 1.2;
+  --measure:    68ch;
+
+  /* --- Motion (§5.4) --- */
+  --dur-press:  90ms;
+  --dur-fade:   180ms;
+  --dur-nav:    160ms;
+  --dur-toast:  200ms;
+  --ease-out:   ease-out;
+  --ease-inout: ease-in-out;
+}
+
+
+/* ==========================================================================
+   1  RESET AND BASE
+   ========================================================================== */
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html {
+  font-size: 100%;               /* respects the user's browser text size */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--t-body);
+  line-height: var(--lh-body);
+  color: var(--ink);
+  background: var(--paper);
+  /* Both bars are fixed, so the flow is inset by their height.
+     No content is ever hidden underneath them (§6.9). */
+  padding-top: var(--nav-t);
+  /* The inset carries a full spacing step of slack on top of the bar's own
+     height, so the bar can grow (long labels, 200% text) without ever covering
+     content. Both values are in rem, so they scale with the user's text size. */
+  padding-bottom: calc(var(--nav-b) + var(--s5) + env(safe-area-inset-bottom, 0px));
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+h1, h2, h3, h4, p, ul, ol, figure, table, blockquote { margin: 0; }
+ul, ol { padding: 0; }
+
+/* Landmarks scroll clear of the sticky bar when an anchor jumps to them. */
+:target,
+[id] { scroll-margin-top: calc(var(--nav-t) + var(--s5)); }
+
+
+/* ==========================================================================
+   2  TYPOGRAPHY
+   ========================================================================== */
+
+h1, h2, h3, .display {
+  font-family: var(--font-display);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: var(--lh-heading);
+}
+
+h1 {
+  font-size: var(--t-h1);
+  line-height: var(--lh-display);
+  text-transform: uppercase;
+}
+
+h2 { font-size: var(--t-h2); }
+h3 { font-size: var(--t-h3); }
+
+p, li { max-width: var(--measure); }
+
+.lead {
+  font-size: var(--t-lead);
+  max-width: var(--measure);
+}
+
+.meta  { font-size: var(--t-meta); color: var(--slate); }
+.small { font-size: var(--t-sm);   color: var(--slate); }
+
+.mono { font-family: var(--font-mono); }
+
+a { color: var(--teal); }
+a:hover { text-decoration-thickness: 2px; }
+
+/* A link that is navigation rather than prose gets a 44px target (§6.10).
+   Inline links inside a sentence keep the WCAG inline exception and stay
+   as they are — padding them out would shred the line spacing. */
+.tap-link {
+  display: inline-flex;
+  align-items: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding-block: var(--s2);
+  justify-content: center;
+}
+
+/* The WA sub-strand beside an <h1>. The marker's label, not the student's. */
+.phase-tag {
+  display: inline-block;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: var(--t-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: var(--s1) var(--s3);
+  border-radius: var(--r-sm);
+}
+
+/* The one-line question that sits under every page <h1> (§2.1 block 1). */
+.page-question {
+  font-size: var(--t-lead);
+  font-weight: 700;
+  max-width: var(--measure);
+  margin-top: var(--s3);
+}
+
+/* Stacked spacing, so no page has to invent its own rhythm. */
+.stack > * + *      { margin-top: var(--s4); }
+.stack-lg > * + *   { margin-top: var(--s6); }
+.stack-sm > * + *   { margin-top: var(--s2); }
+
+
+/* ==========================================================================
+   3  FOCUS, SKIP LINK, SCREEN-READER HELPERS
+   ========================================================================== */
+
+/* Two-tone ring (§6.2): 3px Sun inner + 2px Ink outer. The Sun reads against
+   Ink chrome, the Ink reads against Paper content, so one ring works on both
+   surfaces. There is no `outline: none` anywhere in this file. */
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px var(--sun);
+  border-radius: var(--r-sm);
+}
+
+/* On the Ink bar the rings swap order so the Ink edge stays visible. */
+.topnav :focus-visible {
+  outline: 2px solid var(--sun);
+  outline-offset: -2px;
+  box-shadow: 0 0 0 3px var(--paper);
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 99;
+  background: var(--sun);
+  color: var(--ink);
+  font-weight: 800;
+  padding: var(--s3) var(--s4);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  text-decoration: none;
+}
+.skip-link:focus { left: var(--s2); top: var(--s2); }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+
+/* ==========================================================================
+   4  LAYOUT — PAGE SHELL, GRID, RAIL
+   ========================================================================== */
+
+.page-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--s6) var(--s6) var(--s7);
+}
+
+.page-header { margin-bottom: var(--s6); }
+.page-header .phase-tag { margin-bottom: var(--s3); }
+
+/* Content column 8 of 12, sticky rail 9–12 (§4.3). */
+.with-rail {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--s5);
+  align-items: start;
+}
+.rail {
+  position: sticky;
+  top: calc(var(--nav-t) + var(--s5));
+  display: grid;
+  gap: var(--s5);
+}
+
+.row-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--s4);
+}
+
+.section + .section { margin-top: var(--s7); }
+
+.page-shell--footer { padding-top: 0; padding-bottom: var(--s5); }
+
+.site-footer {
+  margin-top: 0;
+  border-top: 2px solid var(--ink);
+  padding-top: var(--s4);
+  font-size: var(--t-sm);
+  color: var(--slate);
+}
+.site-footer p { max-width: var(--measure); }
+
+
+/* ==========================================================================
+   5  TOP NAV — "where am I in the project" (§3.2)
+   ========================================================================== */
+
+.topnav {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 50;
+  min-height: var(--nav-t);
+  background: var(--ink);
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  padding: 0 var(--s4);
+}
+
+.topnav__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  padding-right: var(--s4);
+  color: var(--paper);
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--t-meta);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.topnav__brand .mark { color: var(--sun); font-size: 1.25rem; }
+
+.topnav__list {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topnav__list > li { flex: 1; min-width: 0; }
+
+.topnav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  width: 100%;
+  height: 100%;
+  min-height: 44px;                 /* touch target (§6.10) */
+  padding: 0 2px;
+  color: var(--on-ink-muted);
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+  transition: color var(--dur-nav) var(--ease-inout),
+              border-color var(--dur-nav) var(--ease-inout);
+}
+.topnav__label {
+  font-size: var(--t-meta);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+.topnav__num {
+  display: inline-block;
+  width: 1.15em;
+  margin-right: 3px;
+  text-align: center;
+  border-radius: 3px;
+}
+/* The marker's label. It wraps to two lines rather than truncating: an
+   ellipsed "PRODUCING & I…" evidences nothing, and evidencing the WA design
+   sequence is the entire reason the second line exists (§3.1). */
+.topnav__sub {
+  font-size: var(--t-xs);
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--on-ink-quiet);
+  max-width: 100%;
+  text-wrap: balance;
+}
+
+/* Current page — four signals, never colour alone (§3.3):
+   Sun bar · weight 900 + Paper brightness · filled Sun number chip · aria-current. */
+.topnav__link[aria-current="page"] {
+  color: var(--paper);
+  border-bottom-color: var(--sun);
+}
+.topnav__link[aria-current="page"] .topnav__label { font-weight: 900; }
+.topnav__link[aria-current="page"] .topnav__num   { background: var(--sun); color: var(--ink); }
+.topnav__link[aria-current="page"] .topnav__sub   { color: var(--on-ink-active); }
+
+.topnav__link:hover { color: var(--paper); }
+
+
+/* ==========================================================================
+   6  BOTTOM NAV — "what do I do next, right now" (§3.4)
+   ========================================================================== */
+
+.botnav {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  flex-wrap: wrap;                  /* wraps to two rows at 200% zoom (§6.9) */
+  min-height: var(--nav-b);
+  background: var(--paper);         /* deliberately not Ink — the two bars must never read as one */
+  border-top: 2px solid var(--ink);
+  box-shadow: 0 -6px 18px rgba(20, 20, 28, 0.10);
+  padding: var(--s3) var(--s4)
+           calc(var(--s3) + env(safe-area-inset-bottom, 0px));
+}
+
+/* Zone 1 — the ? button. Same position on all eight pages. */
+.botnav__help {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1.375rem;
+  text-decoration: none;
+}
+
+/* Zone 2 — back, naming its destination. */
+.botnav__back {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  height: 48px;
+  padding: 0 var(--s4);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: var(--t-meta);
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Zone 3 — step pills, or the Home phase chips, or the Help topic chips. */
+.botnav__steps {
+  /* Basis 0, so a long pill row shrinks and scrolls instead of forcing the
+     whole bar onto a second line at 100% zoom. */
+  flex: 1 1 0;
+  display: flex;
+  /* Pills scroll sideways rather than wrapping, so the bar stays 76px at 100%
+     zoom even where the labels are long (The Brief, 5 Share). The bar itself
+     still wraps to two rows when the ? / back / primary alone no longer fit,
+     which is what happens at 200% text size. Nothing is ever hidden. */
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  justify-content: center;
+  justify-content: safe center;
+  gap: var(--s3);
+  min-width: 0;
+  list-style: none;
+  margin: 0;
+  padding: 2px 0;
+}
+.botnav__steps > li { flex: 0 0 auto; }
+.step-pill {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  min-height: 44px;
+  padding: 0 var(--s3);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: var(--t-meta);
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+/* Current step — fill AND the pill sits first in reading order. Never colour alone. */
+.step-pill[aria-current="true"],
+.step-pill[aria-current="step"] {
+  background: var(--sun);
+  color: var(--ink);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+/* A tick only ever describes the current visit. Nothing is stored. */
+.step-pill.is-done { color: var(--teal); border-color: var(--teal); }
+.step-pill.is-done::after { content: " \2713"; font-weight: 900; }
+
+/* Home's phase jump table and Help's topic chips are not step pills — they are
+   the only way into the phases from those two pages, so they are never replaced
+   by a counter. They scroll sideways instead. */
+.botnav__steps--chips {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-x: auto;
+  padding-block: 2px;
+}
+
+/* The compact counter that replaces the pills below 768px. */
+.botnav__counter {
+  display: none;
+  flex: 1 1 0;
+  align-items: center;
+  gap: var(--s2);
+  min-width: 0;
+  font-size: var(--t-meta);
+  font-weight: 700;
+}
+.botnav__counter .count {
+  flex: 0 0 auto;
+  background: var(--sun);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  padding: 2px var(--s2);
+}
+.botnav__counter .name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Zone 4 — the primary action. Always names its destination. */
+.botnav .btn-primary { flex: 0 0 auto; }
+
+
+/* ==========================================================================
+   7  BUTTONS (§5.3)
+   ========================================================================== */
+
+.btn-primary,
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s2);
+  border-radius: var(--r-md);
+  border: 2px solid var(--ink);
+  font-family: var(--font-body);
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-primary {
+  min-height: 52px;
+  padding: 0 var(--s5);
+  background: var(--sun);
+  color: var(--ink);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  box-shadow: 3px 3px 0 var(--ink);
+  transition: transform var(--dur-press) var(--ease-out),
+              box-shadow var(--dur-press) var(--ease-out);
+}
+.btn-primary:active {
+  transform: translateY(2px);
+  box-shadow: 1px 1px 0 var(--ink);
+}
+
+.btn-primary--home  { min-height: 56px; font-size: 1.125rem; }  /* Home    */
+.btn-primary--handoff { min-height: 64px; width: 100%; font-size: 1.125rem; } /* 4 Build */
+
+.btn-secondary {
+  min-height: 48px;
+  padding: 0 var(--s4);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: var(--t-meta);
+  font-weight: 700;
+}
+
+.btn-block { width: 100%; }
+
+/* The ↗ glyph on any link that leaves the site. Decorative — the accessible
+   name carries "opens in a new tab" in words (§3.7). */
+.ext-glyph { font-weight: 900; }
+
+/* The line that sits directly under every hand-off button. */
+.return-line {
+  font-size: var(--t-sm);
+  color: var(--slate);
+  margin-top: var(--s2);
+  max-width: var(--measure);
+}
+
+/* "↩ You are here" — the come-back marker on the step being returned to. */
+.here-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s1);
+  background: var(--sun);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  font-size: var(--t-sm);
+  font-weight: 800;
+  padding: 2px var(--s2);
+}
+
+
+/* ==========================================================================
+   8  CARDS AND BLOCKS (§5.3)
+   ========================================================================== */
+
+.card {
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  padding: var(--s5);
+  box-shadow: 4px 4px 0 var(--ink);   /* flat and graphic — a poster, not a bevel */
+}
+.card + .card { margin-top: var(--s5); }
+.card > h2, .card > h3 { margin-bottom: var(--s3); }
+
+/* The five phase cards on the Brief. */
+.phase-card__num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem; height: 2rem;
+  background: var(--sun);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1.125rem;
+}
+.phase-card__sub {
+  font-size: var(--t-sm);
+  color: var(--slate);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+
+/* Numbered steps, always a real <ol>. */
+ol.steps {
+  margin: var(--s4) 0 0;
+  padding-left: var(--s6);
+}
+ol.steps > li {
+  font-size: var(--t-lead);
+  margin-bottom: var(--s4);
+}
+ol.steps .detail {
+  display: block;
+  font-size: var(--t-body);
+  color: var(--slate);
+  margin-top: var(--s1);
+}
+
+ul.bullets { padding-left: var(--s5); }
+ul.bullets > li { margin-bottom: var(--s2); }
+
+
+/* ==========================================================================
+   9  RESOURCE FRAME AND LINK CARD (§5.3)
+   ========================================================================== */
+
+.resource {
+  border: 3px solid var(--ink);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  background: var(--paper);
+}
+.resource__header {
+  background: var(--ink);
+  color: var(--paper);
+  padding: var(--s3) var(--s4);
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  flex-wrap: wrap;
+}
+.resource__header h2,
+.resource__header h3 { color: var(--paper); font-size: var(--t-h3); }
+.resource__who { font-size: var(--t-meta); color: var(--on-ink-active); }
+.resource__body { padding: var(--s5); }
+.resource iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
+
+/* Media-type chip: VIDEO / ARTICLE / INTERACTIVE. */
+.chip {
+  display: inline-block;
+  background: var(--sun);
+  color: var(--ink);
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px var(--s2);
+  border-radius: var(--r-sm);
+}
+
+/* The thumbnail block on a link card, where an iframe is blocked.
+   Drawn in CSS — no remote image, no stock photo. */
+.thumb {
+  aspect-ratio: 16 / 9;
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  background: repeating-linear-gradient(135deg,
+              #FFE9A8 0 22px, var(--paper) 22px 44px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-bottom: var(--s4);
+}
+
+
+/* ==========================================================================
+   10  SOURCE LINK CARD · HAND-OFF CARD · COPYABLE BOX (§5.3)
+   ========================================================================== */
+
+.source-card { display: flex; flex-direction: column; gap: var(--s3); }
+.source-card h3 { font-size: var(--t-h3); }
+.source-card dt {
+  font-size: var(--t-xs);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--slate);
+}
+.source-card dd { margin: 0 0 var(--s3); }
+.source-card .btn-primary { margin-top: auto; }
+
+.handoff-card {
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  border-radius: var(--r-lg);
+  padding: var(--s5);
+  box-shadow: 4px 4px 0 var(--ink);
+}
+
+.copyable {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  border: 2px dashed var(--ink);
+  border-radius: var(--r-sm);
+  padding: var(--s3);
+  background: var(--paper);
+}
+.copyable code {
+  flex: 1 1 auto;
+  font-family: var(--font-mono);
+  font-size: var(--t-body);
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+.copyable .copy-btn {
+  flex: 0 0 auto;
+  width: 44px; height: 44px;
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: var(--t-sm);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+
+/* ==========================================================================
+   11  RULE STRIP · STUCK? BOX · CRITERIA STRIP (§5.3)
+   ========================================================================== */
+
+/* "Before you start" — Ink fill, Paper text, three Sun-numbered lines. */
+.rule-strip {
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: var(--r-md);
+  padding: var(--s4) var(--s5);
+}
+.rule-strip h2, .rule-strip h3 { color: var(--paper); }
+.rule-strip ol { list-style: none; margin: var(--s3) 0 0; padding: 0; }
+.rule-strip li {
+  display: flex;
+  align-items: baseline;
+  gap: var(--s3);
+  font-size: var(--t-lead);
+  max-width: none;
+  margin-bottom: var(--s2);
+}
+.rule-strip .num {
+  flex: 0 0 auto;
+  background: var(--sun);
+  color: var(--ink);
+  border-radius: var(--r-sm);
+  font-weight: 900;
+  padding: 0 var(--s2);
+}
+
+.stuck {
+  border: 2px solid var(--punch);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  padding: var(--s5);
+}
+.stuck h2, .stuck h3 {
+  color: var(--punch);
+  font-size: var(--t-h3);
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  margin-bottom: var(--s3);
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6em; height: 1.6em;
+  border-radius: 50%;
+  background: var(--punch);
+  color: #FFFFFF;              /* 5.91:1 */
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  font-weight: 900;
+  flex: 0 0 auto;
+}
+.stuck ul { padding-left: var(--s5); }
+.stuck li { margin-bottom: var(--s2); }
+
+/* "What good looks like" — Q15's six sentences, word for word. */
+.criteria {
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  padding: var(--s5);
+  background: var(--paper);
+}
+.criteria h2, .criteria h3 { font-size: var(--t-h3); margin-bottom: var(--s3); }
+.criteria ul { list-style: none; padding: 0; }
+.criteria li {
+  display: flex;
+  gap: var(--s3);
+  align-items: baseline;
+  margin-bottom: var(--s3);
+}
+.criteria li::before {
+  content: "\2713";               /* a shape, so the strip is not a colour block */
+  color: var(--teal);
+  font-weight: 900;
+  flex: 0 0 auto;
+}
+
+/* The licence rule block — Punch border, Punch ! badge. */
+.rule-block {
+  border: 2px solid var(--punch);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  padding: var(--s5);
+}
+.rule-block h2, .rule-block h3 {
+  font-size: var(--t-h3);
+  text-transform: uppercase;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  margin-bottom: var(--s4);
+}
+
+
+/* ==========================================================================
+   12  EXEMPLAR FIGURE (§4.4 block I)
+   ========================================================================== */
+
+.exemplar {
+  border: 3px solid var(--ink);
+  border-radius: var(--r-lg);
+  background: var(--paper);
+  padding: var(--s4);
+  margin: 0;
+}
+.exemplar img,
+.exemplar .placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  max-height: 42vh;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: var(--r-md);
+}
+/* The placeholder box stands at the final dimensions, so the layout is real
+   and only the picture is missing. Replaced when the PNG exists. */
+.exemplar .placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s2);
+  text-align: center;
+  border: 2px dashed var(--ink);
+  background: repeating-linear-gradient(135deg,
+              #FFF3D6 0 26px, var(--paper) 26px 52px);
+  padding: var(--s4);
+}
+.exemplar .placeholder .display { font-size: var(--t-h3); }
+.exemplar figcaption {
+  font-size: var(--t-sm);
+  color: var(--slate);
+  margin-top: var(--s3);
+  max-width: var(--measure);
+}
+/* The four callouts, repeated as a real list so they are not image-only. */
+.callouts { counter-reset: callout; list-style: none; padding: 0; margin-top: var(--s4); }
+.callouts li {
+  display: flex;
+  gap: var(--s3);
+  align-items: baseline;
+  margin-bottom: var(--s2);
+}
+.callouts li::before {
+  counter-increment: callout;
+  content: counter(callout);
+  flex: 0 0 auto;
+  width: 1.6em;
+  text-align: center;
+  background: var(--sun);
+  color: var(--ink);
+  border-radius: var(--r-sm);
+  font-weight: 900;
+}
+
+
+/* ==========================================================================
+   13  TABLES
+   ========================================================================== */
+
+.table-wrap { overflow-x: auto; }
+
+table.schedule {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--t-body);
+}
+table.schedule caption {
+  text-align: left;
+  font-size: var(--t-sm);
+  color: var(--slate);
+  padding-bottom: var(--s2);
+}
+table.schedule th,
+table.schedule td {
+  border: 2px solid var(--ink);
+  padding: var(--s3);
+  text-align: left;
+  vertical-align: top;
+}
+table.schedule thead th {
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+table.schedule tbody th { width: 7.5rem; background: var(--paper); }
+
+
+/* ==========================================================================
+   14  HOME (§3.5)
+   Budgeted to one viewport at 1024x768 and at 768x1024. See README.
+   ========================================================================== */
+
+body.is-home .page-shell { padding: var(--s5) var(--s6); }
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: var(--s7);
+  align-items: center;
+}
+.hero__title { margin-bottom: var(--s3); }
+.hero__line  { font-size: var(--t-lead); font-weight: 700; }
+.hero__note  { margin-top: var(--s4); }
+
+/* On Home the strip is capped harder than on 4 Build, because the whole
+   screen has to hold without scrolling. */
+body.is-home .exemplar img,
+body.is-home .exemplar .placeholder { max-height: 40vh; }
+
+
+/* ==========================================================================
+   15  MOTION (§5.4)
+   Short, purposeful, never load-bearing for meaning.
+   Nothing loops. Nothing autoplays. No parallax. No scroll-triggered animation.
+   ========================================================================== */
+
+.fade-in { animation: ff-fade var(--dur-fade) var(--ease-out) both; }
+@keyframes ff-fade { from { opacity: 0; } to { opacity: 1; } }
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(var(--nav-b) + var(--s4));
+  transform: translateX(-50%);
+  z-index: 60;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: var(--r-md);
+  padding: var(--s3) var(--s4);
+  font-weight: 700;
+  transition: opacity var(--dur-toast) var(--ease-out);
+}
+.toast[hidden] { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* ==========================================================================
+   16  REFLOW (§4.1, §4.3)
+   ========================================================================== */
+
+/* xl — content caps, the page does not sprawl. Handled by .page-shell. */
+
+/* md: 768–1023. iPad portrait. Sub-labels drop; the phase name lives in the h1. */
+@media (max-width: 1023px) {
+  :root { --nav-t: 3.5rem; }        /* 56px — sub-labels drop, so one line */
+
+  .topnav__sub { display: none; }
+
+  .page-shell { padding: var(--s5) var(--s5) var(--s7); }
+
+  .with-rail,
+  .hero,
+  .row-3 { grid-template-columns: 1fr; }
+
+  .rail { position: static; }
+  .hero { gap: var(--s5); }
+
+  body.is-home .exemplar img,
+  body.is-home .exemplar .placeholder { max-height: 38vh; }
+
+  .exemplar img,
+  .exemplar .placeholder { max-height: 38vh; }
+}
+
+/* sm and below: ≤767. Brand + Home + Help stay pinned; phases scroll.
+   Nothing is hidden behind a menu. */
+@media (max-width: 767px) {
+  .topnav { padding: 0 var(--s2); }
+  .topnav__list {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+  .topnav__list > li { flex: 0 0 6rem; }
+  .topnav__list > li.is-pinned { position: sticky; z-index: 1; background: var(--ink); }
+  .topnav__list > li.is-pinned--start { left: 0; }
+  .topnav__list > li.is-pinned--end   { right: 0; }
+
+  /* Back becomes icon-only; pills become the counter. */
+  .botnav__back { padding: 0; width: 48px; justify-content: center; }
+  .botnav__back .label { display: none; }
+  .botnav__steps { display: none; }
+  .botnav__steps--chips { display: flex; }
+  .botnav__counter { display: flex; }
+
+  .page-shell { padding: var(--s4) var(--s4) var(--s6); }
+
+  /* The exemplar goes full width, no height cap. */
+  .exemplar img,
+  .exemplar .placeholder,
+  body.is-home .exemplar img,
+  body.is-home .exemplar .placeholder { max-height: none; }
+}
+
+/* xs: ≤479. Every multi-column block is already one column by here. */
+@media (max-width: 479px) {
+  :root { --t-h1: 2rem; }
+  .botnav { gap: var(--s2); padding-left: var(--s2); padding-right: var(--s2); }
+  /* On a narrow phone the counter and the primary sit on two rows, so the
+     content inset grows to match. */
+  body { padding-bottom: calc(var(--nav-b) + var(--s7) + env(safe-area-inset-bottom, 0px)); }
+}
+
+
+/* ==========================================================================
+   17  PRINT
+   A teacher printing a page should get the content, not the chrome.
+   ========================================================================== */
+
+@media print {
+  .topnav,
+  .botnav,
+  .skip-link,
+  .toast { display: none !important; }
+
+  body {
+    padding: 0;
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 11pt;
+  }
+  .page-shell { max-width: none; padding: 0; }
+  .card,
+  .resource,
+  .handoff-card,
+  .exemplar { box-shadow: none; break-inside: avoid; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 9pt; word-break: break-all; }
+  h1, h2, h3 { break-after: avoid; }
+}
