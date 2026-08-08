@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FOUR FRAMES — design mockup</title>
+<style>
+:root{
+  --ink:#14141C; --paper:#FFF9F0; --sun:#FFC300; --punch:#C21B4B;
+  --teal:#0E7C6F; --teal-lit:#00C2A8; --slate:#4A4A57;
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:32px; --s7:48px; --s8:64px;
+  --r-sm:6px; --r-md:12px; --r-lg:20px;
+  --nav-t:64px; --nav-b:76px;
+  --font-display:"Helvetica Neue Condensed Bold","Arial Narrow","Segoe UI",system-ui,sans-serif;
+  --font-body:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px}
+body{
+  font-family:var(--font-body);font-size:1.0625rem;line-height:1.55;
+  color:var(--ink);background:var(--paper);
+  padding-top:var(--nav-t);padding-bottom:calc(var(--nav-b) + env(safe-area-inset-bottom,0px));
+}
+h1,h2,h3,.disp{font-family:var(--font-display);font-weight:900;line-height:1.2;letter-spacing:-.02em}
+h1{font-size:clamp(2.25rem,4vw,3.5rem);text-transform:uppercase}
+h2{font-size:2rem}h3{font-size:1.5rem}
+p{max-width:68ch}
+a{color:var(--teal)}
+.meta{font-size:.9375rem;color:var(--slate)}
+.small{font-size:.8125rem;color:var(--slate)}
+:focus-visible{outline:2px solid var(--ink);outline-offset:2px;box-shadow:0 0 0 5px var(--sun)}
+.skip{position:absolute;left:-9999px;top:0;z-index:99;background:var(--sun);color:var(--ink);
+  padding:12px 16px;font-weight:800;border:2px solid var(--ink)}
+.skip:focus{left:8px;top:8px}
+
+/* ---------- top nav ---------- */
+.topnav{
+  position:fixed;top:0;left:0;right:0;height:var(--nav-t);z-index:50;
+  background:var(--ink);display:flex;align-items:stretch;padding:0 var(--s4);
+}
+.brand{
+  display:flex;align-items:center;gap:var(--s2);color:var(--paper);
+  font-family:var(--font-display);font-weight:900;font-size:.9375rem;
+  text-transform:uppercase;letter-spacing:.02em;padding-right:var(--s4);
+  background:none;border:0;cursor:pointer;
+}
+.brand span{color:var(--sun);font-size:1.25rem}
+.topnav ul{display:flex;flex:1;list-style:none;min-width:0}
+.topnav li{flex:1;min-width:0}
+.topnav button.t{
+  width:100%;height:100%;min-height:44px;background:none;border:0;cursor:pointer;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;
+  color:#9A9AA8;font-family:var(--font-body);padding:0 2px;
+  border-bottom:4px solid transparent;
+}
+.t .lab{font-size:.9375rem;font-weight:700;text-transform:uppercase;letter-spacing:.01em;white-space:nowrap}
+.t .num{display:inline-block;width:1.15em;text-align:center;margin-right:3px;border-radius:3px}
+.t .phase{font-size:.6875rem;letter-spacing:.04em;text-transform:uppercase;color:#77778A;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.t[aria-current="page"]{color:var(--paper);border-bottom-color:var(--sun)}
+.t[aria-current="page"] .lab{font-weight:900}
+.t[aria-current="page"] .num{background:var(--sun);color:var(--ink)}
+.t[aria-current="page"] .phase{color:#B9B9C6}
+
+/* ---------- bottom nav ---------- */
+.botnav{
+  position:fixed;bottom:0;left:0;right:0;z-index:50;
+  background:var(--paper);border-top:2px solid var(--ink);
+  box-shadow:0 -6px 18px rgba(20,20,28,.10);
+  padding:var(--s3) var(--s4) calc(var(--s3) + env(safe-area-inset-bottom,0px));
+  display:flex;align-items:center;gap:var(--s3);min-height:var(--nav-b);
+}
+.helpbtn{
+  flex:0 0 auto;width:48px;height:48px;border:2px solid var(--ink);border-radius:var(--r-md);
+  background:var(--paper);font-family:var(--font-display);font-weight:900;font-size:1.375rem;
+  cursor:pointer;color:var(--ink);
+}
+.backbtn{
+  flex:0 0 auto;height:48px;padding:0 var(--s4);border:2px solid var(--ink);border-radius:var(--r-md);
+  background:var(--paper);color:var(--ink);font:inherit;font-size:.9375rem;font-weight:700;cursor:pointer;
+}
+.pills{flex:1;display:flex;gap:var(--s3);list-style:none;justify-content:center;flex-wrap:wrap;min-width:0}
+.pill{
+  min-height:44px;display:flex;align-items:center;gap:var(--s2);
+  padding:0 var(--s3);border:2px solid var(--ink);border-radius:var(--r-sm);
+  font-size:.9375rem;font-weight:700;background:var(--paper);white-space:nowrap;
+}
+.pill.done{color:var(--teal);border-color:var(--teal)}
+.pill.now{background:var(--sun);color:var(--ink)}
+.primary{
+  flex:0 0 auto;min-height:52px;padding:0 var(--s5);border:2px solid var(--ink);border-radius:var(--r-md);
+  background:var(--sun);color:var(--ink);font-family:var(--font-body);font-weight:800;font-size:1rem;
+  text-transform:uppercase;letter-spacing:.01em;cursor:pointer;box-shadow:3px 3px 0 var(--ink);
+}
+.primary:active{transform:translateY(2px);box-shadow:1px 1px 0 var(--ink)}
+.primary.big{min-height:56px;font-size:1.125rem}
+
+/* ---------- page shell ---------- */
+main{padding:var(--s6) var(--s6) var(--s7);max-width:1200px;margin:0 auto}
+.page{display:none}
+.page.on{display:block}
+.phasetag{
+  display:inline-block;background:var(--ink);color:var(--paper);font-size:.8125rem;font-weight:700;
+  text-transform:uppercase;letter-spacing:.08em;padding:var(--s1) var(--s3);border-radius:var(--r-sm);
+  margin-bottom:var(--s3);
+}
+.lead{font-size:1.25rem;margin-top:var(--s4)}
+.cols{display:grid;grid-template-columns:2fr 1fr;gap:var(--s5);margin-top:var(--s6);align-items:start}
+
+.card{background:var(--paper);border:2px solid var(--ink);border-radius:var(--r-md);
+  padding:var(--s5);box-shadow:4px 4px 0 var(--ink)}
+.card + .card{margin-top:var(--s5)}
+
+.resource{border:3px solid var(--ink);border-radius:var(--r-lg);overflow:hidden;background:var(--paper)}
+.resource header{background:var(--ink);color:var(--paper);padding:var(--s3) var(--s4);
+  display:flex;align-items:center;gap:var(--s3);flex-wrap:wrap}
+.chip{background:var(--sun);color:var(--ink);font-size:.75rem;font-weight:900;letter-spacing:.08em;
+  text-transform:uppercase;padding:2px var(--s2);border-radius:var(--r-sm)}
+.resource header .who{font-size:.9375rem;color:#B9B9C6}
+.resource .body{padding:var(--s5)}
+.thumb{aspect-ratio:16/9;border-radius:var(--r-md);border:2px solid var(--ink);
+  background:repeating-linear-gradient(135deg,#FFE9A8 0 22px,#FFF9F0 22px 44px);
+  display:flex;align-items:center;justify-content:center;font-family:var(--font-display);
+  font-size:2rem;color:var(--ink);text-transform:uppercase;margin-bottom:var(--s4)}
+.full{width:100%;justify-content:center;display:flex}
+
+.stuck{border:2px solid var(--punch);border-radius:var(--r-md);padding:var(--s5);background:var(--paper)}
+.stuck h3{color:var(--punch);font-size:1.25rem;margin-bottom:var(--s3)}
+.stuck ul{margin-left:var(--s5)}
+.crit{margin-top:var(--s5);border:2px solid var(--ink);border-radius:var(--r-md);padding:var(--s5)}
+.crit li{margin-left:var(--s5)}
+ol.steps{margin:var(--s4) 0 0 var(--s5)}
+ol.steps li{margin-bottom:var(--s3);font-size:1.25rem}
+
+/* ---------- home ---------- */
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:var(--s7);align-items:center;
+  min-height:calc(100vh - var(--nav-t) - var(--nav-b) - 96px)}
+.strip{display:grid;grid-template-columns:1fr 1fr;gap:var(--s3)}
+.frame{aspect-ratio:4/3;border:3px solid var(--ink);border-radius:var(--r-lg);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--s2);
+  font-family:var(--font-display);font-size:2.5rem;position:relative;background:#FFF}
+.frame b{position:absolute;top:var(--s2);left:var(--s3);font-size:.8125rem;font-family:var(--font-body);color:var(--slate)}
+.frame.f1{background:#FFF3D6}.frame.f2{background:#E6F7F3}.frame.f3{background:#FFE9EE}
+.frame.f4{background:var(--sun)}
+.frame .pl{position:absolute;bottom:var(--s2);right:var(--s3);font-family:var(--font-body);
+  font-size:.6875rem;font-weight:900;letter-spacing:.08em;color:var(--punch)}
+.jump{display:flex;gap:var(--s3);flex-wrap:wrap;margin-top:var(--s5);list-style:none}
+.jump button{min-height:44px;padding:0 var(--s4);border:2px solid var(--ink);border-radius:var(--r-sm);
+  background:var(--paper);font:inherit;font-weight:700;cursor:pointer}
+
+/* ---------- dice ---------- */
+.dice{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s4);margin-top:var(--s5)}
+.field h3{background:var(--ink);color:var(--paper);font-size:1rem;text-transform:uppercase;
+  letter-spacing:.06em;padding:var(--s2) var(--s3);border-radius:var(--r-sm);text-align:center}
+.dcard{width:100%;min-height:88px;margin-top:var(--s3);border:2px solid var(--ink);border-radius:var(--r-md);
+  background:var(--paper);font:inherit;font-size:1.0625rem;font-weight:700;cursor:pointer;padding:var(--s3)}
+.dcard[aria-pressed="true"]{background:var(--sun);box-shadow:3px 3px 0 var(--ink)}
+.dcard[aria-pressed="true"]::after{content:" ✓";font-weight:900}
+.rollbtn{width:100%;min-height:72px;margin-top:var(--s5);border:3px solid var(--ink);border-radius:var(--r-md);
+  background:var(--sun);font-family:var(--font-display);font-size:1.5rem;text-transform:uppercase;
+  cursor:pointer;box-shadow:4px 4px 0 var(--ink);color:var(--ink)}
+.locked{margin-top:var(--s4);border:2px dashed var(--ink);border-radius:var(--r-md);padding:var(--s4);
+  font-size:1.25rem;font-weight:700}
+.embed{margin-top:var(--s4);border:2px solid var(--ink);border-radius:var(--r-md);
+  background:#F1F1F4;min-height:200px;display:flex;align-items:center;justify-content:center;
+  color:var(--slate);font-weight:700;text-align:center;padding:var(--s4)}
+
+/* ---------- studio ---------- */
+/* Studio fills exactly one viewport: toolbar + grid, no page scroll, no scroll mid-drag. */
+#p-build.on{display:flex;flex-direction:column;
+  height:calc(100dvh - var(--nav-t) - var(--nav-b) - var(--s6) - var(--s7) - 28px)}
+.studio{display:grid;grid-template-columns:1fr 200px;gap:var(--s5);margin-top:var(--s4);
+  flex:1;min-height:0;align-items:stretch}
+.studio .grid4{min-height:0}
+.grid4{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:var(--s4);justify-items:center}
+.slot{aspect-ratio:4/3;border:3px dashed var(--ink);border-radius:var(--r-lg);background:#FFF;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--s2);
+  position:relative;
+  /* the grid must never need a scroll mid-drag: derive frame height from the viewport */
+  height:100%;width:auto;max-width:100%;justify-self:center}
+.slot.filled{border-style:solid}
+.slot .n{position:absolute;top:var(--s2);left:var(--s3);font-size:.8125rem;color:var(--slate);font-weight:700}
+.slot .mv{position:absolute;bottom:var(--s2);left:50%;transform:translateX(-50%);display:flex;gap:var(--s2)}
+.slot .mv button{width:44px;height:44px;border:2px solid var(--ink);border-radius:var(--r-sm);
+  background:var(--paper);cursor:pointer;font-size:1rem;font-weight:900;color:var(--ink)}
+.rail{display:flex;flex-direction:column;gap:var(--s3)}
+.rail button{min-height:48px;border:2px solid var(--ink);border-radius:var(--r-md);background:var(--paper);
+  font:inherit;font-weight:700;cursor:pointer}
+.toolbar button{white-space:nowrap}
+.toolbar{display:flex;gap:var(--s3);align-items:center;flex-wrap:wrap;
+  border:2px solid var(--ink);border-radius:var(--r-md);padding:var(--s3) var(--s4);min-height:56px}
+
+/* ---------- targets note ---------- */
+.note{margin-top:var(--s7);border-top:2px solid var(--ink);padding-top:var(--s4);
+  font-size:.8125rem;color:var(--slate);max-width:68ch}
+
+/* ---------- reflow ---------- */
+@media (max-width:1023px){
+  :root{--nav-t:56px}
+  .t .phase{display:none}
+  .cols,.hero,.studio{grid-template-columns:1fr}
+  .hero{min-height:0;gap:var(--s5)}
+  main{padding:var(--s5) var(--s5) var(--s7)}
+  .botnav .backbtn span{display:none}
+  .botnav .backbtn{padding:0;width:48px}
+  /* pills: too many to fit one row at 768 — show the current step only, as a counter */
+  .pills{flex-wrap:nowrap;justify-content:flex-start}
+  .pills .pill:not(.now){display:none}
+  /* studio reflows to grid-over-rail; frames go back to plain 4:3 and still fit 768x1024 */
+  #p-build.on{height:auto}
+  .studio{grid-template-columns:1fr;grid-template-rows:auto auto}
+  .slot{height:auto;width:100%;aspect-ratio:4/3}
+  .rail{flex-direction:row;flex-wrap:wrap}
+  .rail button{flex:1 1 140px}
+  .rail .stuck{flex:1 1 100%}
+}
+@media (max-width:767px){
+  .topnav ul{overflow-x:auto}
+  .topnav li{flex:0 0 96px}
+  .dice,.grid4{grid-template-columns:1fr}
+  .rail{flex-direction:column}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+@media print{ .topnav,.botnav{display:none} body{padding:0} }
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip">Skip to content</a>
+
+<nav class="topnav" aria-label="Project phases">
+  <button class="brand" data-go="home"><span>▦</span> Four Frames</button>
+  <ul id="tabs"></ul>
+</nav>
+
+<main id="main">
+
+<!-- ======= HOME ======= -->
+<section class="page on" id="p-home" aria-labelledby="h-home">
+  <div class="hero">
+    <div>
+      <h1 id="h-home">Roll it.<br>Build it.<br>Land the joke.</h1>
+      <p class="lead">Four frames. Four images you find online. One story that has to be funny by the last box.</p>
+      <p class="meta" style="margin-top:16px">You don't draw a thing. You choose, you crop, you arrange — and you make it land.</p>
+      <p class="small" style="margin-top:24px;font-weight:700;text-transform:uppercase;letter-spacing:.06em">Pick up where you left off</p>
+      <ul class="jump">
+        <li><button data-go="look">1 Look</button></li>
+        <li><button data-go="roll">2 Roll</button></li>
+        <li><button data-go="plan">3 Plan</button></li>
+        <li><button data-go="build">4 Build</button></li>
+        <li><button data-go="share">5 Share</button></li>
+      </ul>
+    </div>
+    <div class="strip" aria-label="Example four-frame strip">
+      <div class="frame f1"><b>1 Setup</b>🐕</div>
+      <div class="frame f2"><b>2 Escalation</b>🚌</div>
+      <div class="frame f3"><b>3 Twist</b>🌧️</div>
+      <div class="frame f4"><b>4 Punchline</b>🎈<span class="pl">Punchline</span></div>
+    </div>
+  </div>
+  <p class="note">Mockup — design targets 1024px laptops · iPad landscape 1024×768 · iPad portrait 768×1024. Both nav bars and the forward button stay on screen at every size; content scrolls beneath them. Home and the studio fit one screen with no scroll at all.</p>
+</section>
+
+<!-- ======= 1. LOOK ======= -->
+<section class="page" id="p-look" aria-labelledby="h-look">
+  <span class="phasetag">Phase 1 · Investigating &amp; defining</span>
+  <h1 id="h-look">How does a four-panel joke work?</h1>
+  <p class="lead">Before you build one, pull one apart. Comic artists use panels, gutters and shot types to control exactly where your eye goes and how fast the story feels. Learn the four words, then use them.</p>
+
+  <div class="cols">
+    <div>
+      <article class="resource">
+        <header><span class="chip">Article</span><strong>Pro Artist's Guide to Comic &amp; Manga Layouts</strong><span class="who">Steve Ellis · 8 min read</span></header>
+        <div class="body">
+          <div class="thumb">Panels · Gutters · Shots</div>
+          <p>Read three sections only: <strong>panels</strong>, <strong>gutters</strong> and <strong>shot types</strong>. Watch how the space <em>between</em> panels changes the speed of the story. Heads up — it's an American site, so the spelling looks different.</p>
+          <p style="margin-top:16px"><button class="primary full">Open the article →</button></p>
+          <p class="small" style="margin-top:12px">Opens in a new tab. This one can't sit inside our page, so it's a link card — not a bare URL.</p>
+        </div>
+      </article>
+
+      <div class="card" style="margin-top:24px">
+        <h3>Activity 1 — Panel Scramble</h3>
+        <ol class="steps">
+          <li>👀 Drag each of the six panels onto the shot type it matches.</li>
+          <li>💬 Say what that shot makes you feel. One word is enough.</li>
+          <li>✏️ Choose the shot type you want in <strong>frame 1</strong> of your own board.</li>
+        </ol>
+        <div class="embed" style="min-height:180px">[ Panel Scramble — drag &amp; drop activity ]<br><span class="small">Also playable with arrow keys and with click-to-select.</span></div>
+      </div>
+    </div>
+
+    <aside>
+      <div class="stuck">
+        <h3>? Stuck? Try this</h3>
+        <ul>
+          <li>Only read the three bits with pictures.</li>
+          <li>Close-up = feelings. Wide = where you are.</li>
+          <li>Say it out loud to the person next to you first.</li>
+        </ul>
+      </div>
+      <div class="crit">
+        <h3 style="font-size:1.25rem;margin-bottom:12px">What good looks like</h3>
+        <ul>
+          <li>You can name four shot types.</li>
+          <li>You can say why a gutter matters.</li>
+          <li>You've picked your frame 1 shot.</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+  <p class="note">Design targets: 1024px laptops · iPad landscape 1024×768 · iPad portrait 768×1024. Both nav bars and the forward button stay on screen at every size.</p>
+</section>
+
+<!-- ======= 2. ROLL ======= -->
+<section class="page" id="p-roll" aria-labelledby="h-roll">
+  <span class="phasetag">Phase 2 · Designing — divergent</span>
+  <h1 id="h-roll">Where do ideas come from when you haven't got one?</h1>
+  <p class="lead">You don't get to pick your story from nothing. You roll for it. Three cards in each column — choose one from each, and that's your brief. One re-roll. Then you commit.</p>
+
+  <div class="cols">
+    <div>
+      <article class="resource">
+        <header><span class="chip">Video</span><strong>Embrace the Shake</strong><span class="who">Phil Hansen · TED · 10 min</span></header>
+        <div class="body">
+          <div class="thumb">▶ TED</div>
+          <p class="small">Captions are on by default — press CC to turn them off. A full transcript is on the TED page. Heads up: he talks about injuring his hands.</p>
+        </div>
+      </article>
+
+      <div class="card" style="margin-top:24px">
+        <h3>Activity 2 — The Roll</h3>
+        <button class="rollbtn">🎲 Roll</button>
+        <div class="dice">
+          <div class="field"><h3>Who</h3>
+            <button class="dcard" aria-pressed="true">A retired greyhound</button>
+            <button class="dcard" aria-pressed="false">A very tired barista</button>
+            <button class="dcard" aria-pressed="false">A pigeon with a plan</button>
+          </div>
+          <div class="field"><h3>Where</h3>
+            <button class="dcard" aria-pressed="false">A laundromat</button>
+            <button class="dcard" aria-pressed="true">A bus stop</button>
+            <button class="dcard" aria-pressed="false">A museum at closing time</button>
+          </div>
+          <div class="field"><h3>What goes wrong</h3>
+            <button class="dcard" aria-pressed="false">Everyone starts copying you</button>
+            <button class="dcard" aria-pressed="false">The floor is suddenly lava</button>
+            <button class="dcard" aria-pressed="true">It starts raining upwards</button>
+          </div>
+        </div>
+        <p class="locked">Your brief: <strong>A retired greyhound, at a bus stop, and it starts raining upwards.</strong></p>
+        <p style="margin-top:16px"><button class="primary">Copy my brief</button> <button class="backbtn" style="height:52px">Re-roll (1 left)</button></p>
+        <div class="embed">[ Padlet — Columns board: WHO / WHERE / WHAT GOES WRONG ]<br><span class="small">Miss's post is pinned at the top. Post your brief, then add a "what if…" to somebody else's.</span></div>
+      </div>
+    </div>
+
+    <aside>
+      <div class="stuck">
+        <h3>? Stuck? Try this</h3>
+        <ul>
+          <li>Hate all three? Pick the weirdest one anyway — weird is easier to draw a joke out of.</li>
+          <li>Read your brief out loud. If it makes you laugh, it works.</li>
+          <li>Three worked examples are on the board already.</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ======= 4. BUILD ======= -->
+<section class="page" id="p-build" aria-labelledby="h-build">
+  <div class="toolbar">
+    <h1 id="h-build" style="font-size:1.5rem">The studio</h1>
+    <span class="phasetag" style="margin:0">Phase 4 · Producing</span>
+    <button class="primary">＋ Add image</button>
+    <button class="backbtn" style="height:48px">↺ Undo</button>
+    <button class="backbtn" style="height:48px">⤓ Export</button>
+    <span class="small" style="margin-left:auto">Drag a frame, tap two frames to swap, or use the ◀ ▶ buttons. The 2×2 always fits one screen — you never scroll mid-drag.</span>
+  </div>
+
+  <div class="studio">
+    <div class="grid4">
+      <div class="slot filled" style="background:#FFF3D6"><span class="n">Frame 1 · Setup</span><span style="font-size:2.5rem">🐕</span>
+        <span class="mv"><button aria-label="Move frame 1 left">◀</button><button aria-label="Move frame 1 right">▶</button></span></div>
+      <div class="slot filled" style="background:#E6F7F3"><span class="n">Frame 2 · Escalation</span><span style="font-size:2.5rem">🚌</span>
+        <span class="mv"><button aria-label="Move frame 2 left">◀</button><button aria-label="Move frame 2 right">▶</button></span></div>
+      <div class="slot"><span class="n">Frame 3 · Twist</span><span style="font-size:2rem">＋</span><span class="small">Add image</span>
+        <span class="mv"><button aria-label="Move frame 3 left">◀</button><button aria-label="Move frame 3 right">▶</button></span></div>
+      <div class="slot filled" style="background:var(--sun)"><span class="n">Frame 4 · Punchline</span><span style="font-size:2.5rem">🎈</span>
+        <span class="mv"><button aria-label="Move frame 4 left">◀</button><button aria-label="Move frame 4 right">▶</button></span></div>
+    </div>
+    <div class="rail">
+      <button>🔍 Openverse</button>
+      <button>🏛 The Met</button>
+      <button>📚 Wikimedia</button>
+      <button>🖨 Print / PDF</button>
+      <div class="stuck" style="padding:16px">
+        <h3 style="font-size:1rem">? Studio won't load?</h3>
+        <p class="small">Use the Slides template — it's in the Help Centre and it does the same job.</p>
+      </div>
+    </div>
+  </div>
+  <p aria-live="polite" class="small" style="flex:0 0 auto;margin-top:8px">Frame 2 moved to position 3.</p>
+</section>
+
+<!-- ======= stubs: nav is fully clickable, layouts not detailed ======= -->
+<section class="page" id="p-brief" aria-labelledby="h-brief">
+  <span class="phasetag">Project overview</span>
+  <h1 id="h-brief">What you're making</h1>
+  <p class="lead">A four-frame cartoon, built from images you find online under a licence you can name. Five phases, six weeks, one joke that has to land in the last box.</p>
+  <div class="cols"><div class="card"><h3>The five phases</h3><ol class="steps">
+    <li>1 Look — how a four-panel joke works</li><li>2 Roll — get your brief</li>
+    <li>3 Plan — four frames on paper</li><li>4 Build — the studio</li><li>5 Share — the gallery</li></ol></div>
+    <aside class="crit"><h3 style="font-size:1.25rem">Finished means</h3><ul>
+      <li>Four frames, in order.</li><li>A caption on each frame.</li>
+      <li>An attribution line for every image.</li><li>Posted to the class gallery.</li></ul></aside></div>
+</section>
+
+<section class="page" id="p-plan" aria-labelledby="h-plan">
+  <span class="phasetag">Phase 3 · Designing — convergent</span>
+  <h1 id="h-plan">Turn the idea into four frames</h1>
+  <p class="lead">Setup, escalation, twist, punchline. Pixar call the middle bit "because of that" — it's what stops four pictures being four unrelated pictures.</p>
+  <div class="cols"><div>
+    <article class="resource"><header><span class="chip">Interactive</span><strong>Pixar in a Box: Story structure</strong><span class="who">Khan Academy × Pixar · 25 min</span></header>
+    <div class="body"><div class="thumb">▶ Story spine</div><p class="small">Captions and a written version of every video. You don't need an account — do the activities on paper.</p></div></article>
+    <div class="card" style="margin-top:24px"><h3>Activity 3 — The Four-Frame Plan</h3>
+      <div class="embed">[ Google Form — Setup / Escalation / Twist / Punchline + shot type + attribution ]</div></div>
+  </div><aside class="stuck"><h3>? Stuck? Try this</h3><ul><li>Write frame 4 first. Work backwards.</li><li>One sentence per frame is plenty.</li></ul></aside></div>
+</section>
+
+<section class="page" id="p-share" aria-labelledby="h-share">
+  <span class="phasetag">Phase 5 · Evaluating</span>
+  <h1 id="h-share">Does it land?</h1>
+  <p class="lead">We build the marking criteria together, then you judge your own strip against them — and two other people's, with reasons.</p>
+  <div class="embed" style="min-height:280px">[ Padlet — Grid gallery, comments on ]</div>
+</section>
+
+<section class="page" id="p-help" aria-labelledby="h-help">
+  <span class="phasetag">Help Centre</span>
+  <h1 id="h-help">When it breaks</h1>
+  <p class="lead">Top-level in the menu, and the <strong>?</strong> button in the bottom bar on every page. You should never have to hunt for help.</p>
+  <div class="cols"><div class="card"><h3>The studio</h3><ol class="steps">
+    <li>🖼 Upload won't work? Check the file is a JPG or PNG under 5MB.</li>
+    <li>🖐 Drag won't drag? Use the ◀ ▶ buttons — same result.</li>
+    <li>💥 Nothing loads? Open the Slides template instead.</li></ol></div>
+    <aside class="crit"><h3 style="font-size:1.25rem">Crediting images</h3>
+      <p class="small">Title — creator — source — licence. One line per frame. If you can't name the licence, you can't use the image.</p></aside></div>
+</section>
+
+</main>
+
+<nav class="botnav" aria-label="Steps on this page">
+  <button class="helpbtn" data-go="help" aria-label="Help Centre">?</button>
+  <button class="backbtn" id="back">← <span>Back</span></button>
+  <ul class="pills" id="pills"></ul>
+  <button class="primary" id="next">Next →</button>
+</nav>
+
+<script>
+const PAGES = [
+  {id:'home', n:'',  lab:'Home',  phase:'Start here', pills:[], next:'Start here →', to:'brief', back:null},
+  {id:'brief',n:'',  lab:'Brief', phase:'Project overview', pills:['What you’re making','The five phases','The schedule','What "finished" means'], now:0, next:'Start phase 1 →', to:'look', back:'Home'},
+  {id:'look', n:'1', lab:'Look',  phase:'Investigating', pills:['Read the guide','Panel Scramble','Pick your shot'], now:1, next:'Do the scramble →', to:'roll', back:'The Brief'},
+  {id:'roll', n:'2', lab:'Roll',  phase:'Designing', pills:['Watch (10 min)','Roll','Lock it in','Post to the board'], now:1, next:'Lock it in →', to:'plan', back:'Watch again'},
+  {id:'plan', n:'3', lab:'Plan',  phase:'Designing', pills:['Story structure','Fill the planner','Check your shots'], now:0, next:'Open the planner →', to:'build', back:'2. Roll'},
+  {id:'build',n:'4', lab:'Build', phase:'Producing', pills:['Find images','Upload','Arrange','Caption','Export'], now:2, next:'Export my strip →', to:'share', back:'3. Plan'},
+  {id:'share',n:'5', lab:'Share', phase:'Evaluating', pills:['Build the criteria','Post your strip','Comment on two'], now:0, next:'Post to the gallery →', to:'home', back:'4. Build'},
+  {id:'help', n:'',  lab:'Help',  phase:'Help Centre', pills:['The studio','Finding images','Crediting images','When it breaks'], now:0, next:'← Back to where I was', to:'home', back:null}
+];
+const tabs = document.getElementById('tabs');
+tabs.innerHTML = PAGES.map(p =>
+  `<li><button class="t" data-go="${p.id}"><span class="lab">${p.n?`<span class="num">${p.n}</span>`:''}${p.lab}</span><span class="phase">${p.phase}</span></button></li>`
+).join('');
+
+function show(id){
+  const p = PAGES.find(x=>x.id===id) || PAGES[0];
+  const sec = document.getElementById('p-'+id);
+  document.querySelectorAll('.page').forEach(s=>s.classList.remove('on'));
+  (sec || document.getElementById('p-home')).classList.add('on');
+  document.querySelectorAll('.t').forEach(b=>b.removeAttribute('aria-current'));
+  const tab = document.querySelector(`.t[data-go="${sec?id:'home'}"]`);
+  if(tab) tab.setAttribute('aria-current','page');
+  document.getElementById('pills').innerHTML = p.pills.map((t,i)=>{
+    const cls = i<p.now ? 'pill done' : i===p.now ? 'pill now' : 'pill';
+    const mark = i<p.now ? '✓ ' : i===p.now ? (i+1)+' ' : (i+1)+' ';
+    return `<li class="${cls}">${mark}${t}</li>`;
+  }).join('');
+  const back = document.getElementById('back');
+  back.style.visibility = p.back ? 'visible' : 'hidden';
+  back.innerHTML = '← <span>'+(p.back||'')+'</span>';
+  const next = document.getElementById('next');
+  next.textContent = p.next;
+  next.dataset.go = p.to;
+  window.scrollTo(0,0);
+}
+document.addEventListener('click', e=>{
+  const b = e.target.closest('[data-go]');
+  if(b) show(b.dataset.go);
+});
+document.querySelectorAll('.dcard').forEach(c=>c.addEventListener('click',()=>{
+  c.parentElement.querySelectorAll('.dcard').forEach(o=>o.setAttribute('aria-pressed','false'));
+  c.setAttribute('aria-pressed','true');
+}));
+show(location.hash.slice(1) || 'home');
+addEventListener('hashchange',()=>show(location.hash.slice(1)||'home'));
+</script>
+</body>
+</html>
