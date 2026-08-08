@@ -77,32 +77,289 @@
     <p class="page-question">Where do ideas come from when you haven&#8217;t got one?</p>
   </header>
 
-  <div class="card">
-    <h2>This page is still being built</h2>
-    <p>The talk, the dice and the class board go here.</p>
-    <p>The navigation works, so nothing is broken &#8212; use the bar at the top to move
-    between phases, or the <strong>?</strong> button at the bottom left for help.</p>
-  </div>
+  <div class="with-rail">
 
-  <section class="section">
-    <h2>What&#8217;s going here</h2>
-    <section class="card" id="watch">
-      <h3>1 Watch (10 min)</h3>
-      <p class="small">Being built.</p>
-    </section>
-    <section class="card" id="roll">
-      <h3>2 Roll</h3>
-      <p class="small">Being built.</p>
-    </section>
-    <section class="card" id="lock">
-      <h3>3 Lock it in</h3>
-      <p class="small">Being built.</p>
-    </section>
-    <section class="card" id="post">
-      <h3>4 Post to the board</h3>
-      <p class="small">Being built.</p>
-    </section>
-  </section>
+    <div>
+
+      <section class="section" id="watch">
+        <h2>1 &#183; Watch (10 min)</h2>
+        <p class="lead">You&#8217;ve read how a comic page works. Now you need something to
+        make a comic about &#8212; and that&#8217;s the bit that stops people. So you
+        don&#8217;t get a blank page. You get a character, a situation and a problem, dealt
+        two at a time, and you pick one of each. Watch the talk first: it&#8217;s ten
+        minutes on why a limit can be the thing that starts you.</p>
+
+        <!-- RESOURCE 2 — Hansen, Embrace the Shake (TED2013).
+             Embedded from youtube-nocookie.com, which is the low-tracking
+             domain, with cc_load_policy=1 so captions are ON by default
+             rather than something a student has to ask for
+             (curated-resources.md section 8; design spec section 6 item 6). -->
+        <div class="resource" style="margin-top:var(--s5)">
+          <div class="resource__header">
+            <span class="chip">Video</span>
+            <h3>Embrace the Shake</h3>
+            <p class="resource__who">Phil Hansen &#183; TED2013 &#183; 10 minutes</p>
+          </div>
+          <iframe src="https://www.youtube-nocookie.com/embed/YrZTho_o_is?cc_load_policy=1"
+                  title="Embrace the Shake | Phil Hansen | TED"
+                  loading="lazy" allowfullscreen></iframe>
+          <div class="resource__body">
+            <p class="captions-line">Captions are on &#8212; press <strong>CC</strong> to
+            turn them off. A full transcript is on the TED page.</p>
+
+            <p><strong>Watch: why limits make you more creative (10 min).</strong> Artist
+            Phil Hansen lost the ability to draw a straight line. Watch what he did next.
+            Notice the moment he says having <em>everything</em> he needed made him freeze.
+            That&#8217;s the idea behind your roll &#8212; three prompts give you somewhere
+            to start. Captions are on. Heads up: he talks about injuring his hands.</p>
+
+            <p class="captions-line">If you&#8217;d rather read it, or the pictures
+            aren&#8217;t doing much for you: he starts with a tremor that ruins his
+            pointillist drawings, gives up art, then is told to embrace the shake &#8212;
+            and rebuilds a practice out of deliberate restrictions, painting on his own
+            chest, on stacks of paper, with karate chops. The turn is near the end: given
+            unlimited materials and unlimited time, he froze and made nothing.</p>
+
+            <p style="margin-top:var(--s4)">
+              <a class="btn-secondary btn-block" href="https://www.ted.com/talks/phil_hansen_embrace_the_shake"
+                 target="_blank" rel="noopener noreferrer">
+                Open the talk on TED, with the transcript
+                <span class="ext-glyph" aria-hidden="true">&#8599;</span>
+                <span class="visually-hidden">(opens in a new tab)</span>
+              </a>
+            </p>
+            <p class="return-line">This opens in a new tab. Leave this page open behind it
+            &#8212; come back here for step 2, the roll.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== DICE:MOUNT — Agent 9 wires js/dice.js ==================
+           Everything below the heading is static structure and CSS hooks
+           only: the three columns, two empty slots in each, the ROLL
+           button, the disabled Lock it in button, the brief strip and the
+           live region. No dice logic lives on this page.
+
+           The contract, so the deal can be dropped straight in:
+             [data-dice]                the panel root
+             [data-dice-col="character|situation|problem"]
+             [data-dice-slots]          the <ul> that holds the two cards
+             [data-dice-slot]           an empty placeholder <li>, replaced
+                                        by a card <button> on deal
+             [data-dice-roll]           the ROLL / RE-ROLL (1 left) button
+             [data-dice-rolled]         the "That's your roll." line, hidden
+                                        until the one re-roll is spent
+             [data-dice-lock]           the Lock it in button, disabled until
+                                        one card in each column is selected
+             [data-dice-brief]          the locked brief strip, hidden
+             [data-dice-brief-text]     the exact copy string goes in here
+             [data-dice-copy]           the Copy my brief button
+             [data-dice-live]           aria-live="polite"
+           Deck, deal rules and the one-re-roll ruling: dice-roll-options.md.
+           ============================================================= -->
+      <section class="section" id="roll">
+        <h2>2 &#183; Roll for your story</h2>
+        <p class="lead">You get a character, a situation and a problem. Two of each. You
+        pick one from each column &#8212; and you can&#8217;t type your own.</p>
+
+        <div class="card dice" data-dice>
+
+          <div class="dice__cols">
+
+            <div class="dice__col dice__col--character" data-dice-col="character">
+              <p class="dice__head">
+                <span class="name">Who</span>
+                <span class="sub">the character</span>
+              </p>
+              <ul class="dice__slots" data-dice-slots>
+                <li class="dice__slot" data-dice-slot>Press ROLL for your first card</li>
+                <li class="dice__slot" data-dice-slot>and your second one</li>
+              </ul>
+            </div>
+
+            <div class="dice__col dice__col--situation" data-dice-col="situation">
+              <p class="dice__head">
+                <span class="name">Where</span>
+                <span class="sub">the situation</span>
+              </p>
+              <ul class="dice__slots" data-dice-slots>
+                <li class="dice__slot" data-dice-slot>Press ROLL for your first card</li>
+                <li class="dice__slot" data-dice-slot>and your second one</li>
+              </ul>
+            </div>
+
+            <div class="dice__col dice__col--problem" data-dice-col="problem">
+              <p class="dice__head">
+                <span class="name">What goes wrong</span>
+                <span class="sub">the problem</span>
+              </p>
+              <ul class="dice__slots" data-dice-slots>
+                <li class="dice__slot" data-dice-slot>Press ROLL for your first card</li>
+                <li class="dice__slot" data-dice-slot>and your second one</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <button type="button" class="btn-roll" data-dice-roll>Roll</button>
+
+          <p class="small" data-dice-reroll-note hidden>Hate both? One re-roll. It re-deals
+          all three columns and clears what you&#8217;ve picked. After that, you&#8217;re
+          working with what you&#8217;ve got.</p>
+
+          <p class="lead" data-dice-rolled hidden><strong>That&#8217;s your roll. Now make
+          it work.</strong></p>
+
+          <p style="margin-top:var(--s4)">Pick one from each column. Tap again to change
+          your mind.</p>
+
+          <p class="visually-hidden" aria-live="polite" data-dice-live></p>
+        </div>
+      </section>
+
+      <section class="section" id="lock">
+        <h2>3 &#183; Lock it in</h2>
+        <div class="card">
+          <p>One card from each column, then lock it. Locking doesn&#8217;t send it
+          anywhere &#8212; it just writes your brief out as one line you can copy.</p>
+
+          <p style="margin-top:var(--s4)">
+            <button type="button" class="btn-primary" data-dice-lock disabled>
+              Lock it in &#8594;
+            </button>
+          </p>
+
+          <div class="brief-strip" data-dice-brief hidden>
+            <p class="label">Your brief</p>
+            <div class="copyable">
+              <code data-dice-brief-text></code>
+              <button type="button" class="copy-btn" data-dice-copy>Copy</button>
+            </div>
+            <p class="small">You&#8217;ll need this three times: on the class board, in the
+            planner, and in the title of your slide. Copy it once and paste it
+            everywhere.</p>
+          </div>
+
+          <p class="small" style="margin-top:var(--s4)">It comes out as one line, like
+          this: <span class="mono">A ceramic teapot &#183; The lights go out &#183;
+          They&#8217;ve fallen for the sculpture opposite</span></p>
+        </div>
+      </section>
+
+      <section class="section" id="post">
+        <h2>4 &#183; Put it on the board</h2>
+        <p class="lead">Everyone&#8217;s roll goes up. You&#8217;ll see twenty-five other
+        stories, and at least one of them will make you think of something for yours.</p>
+
+        <div class="card">
+          <ol class="steps">
+            <li>Paste your brief.</li>
+            <li>Put it in the column you think is carrying the joke &#8212; the who, the
+            where, or the problem.</li>
+            <li>Read someone else&#8217;s and reply with one <strong>&#8220;what
+            if&#8230;&#8221;</strong>.</li>
+          </ol>
+          <p><strong>Post as your first name and your table number.</strong> No surnames.
+          <span class="mono">Sam T4</span> is perfect.</p>
+        </div>
+
+        <div class="stuck" style="margin-top:var(--s5)">
+          <h3><span class="badge" aria-hidden="true">!</span> Reply to one other roll with a
+          &#8220;what if&#8230;&#8221;</h3>
+          <p>Not &#8220;that&#8217;s good&#8221;. Not &#8220;lol&#8221;. One idea they could
+          use: <em>what if the lights came back on too early?</em> <em>What if the tour
+          group was in every frame?</em></p>
+        </div>
+
+        <!-- ===== PADLET:EMBED — iframe slot, NEEDS CLAIR board URL =====
+             Board 1 of 2: FOUR FRAMES · The Roll Board — 8VA. Format
+             Columns; IT'S THE WHO / IT'S THE WHERE / IT'S THE PROBLEM;
+             comments on; guest posting on; login off; teacher post pinned.
+             Full settings and the pinned post: activity-designs.md A2.3.
+
+             When the board exists, replace the placeholder below with the
+             iframe from Share -> Embed in your blog or website, and put the
+             board's own URL into the two links marked NEEDS CLAIR:
+
+             <iframe src="[PADLET EMBED URL]"
+                     title="The Roll Board - class ideas"
+                     style="width:100%;height:520px;border:0"
+                     loading="lazy" allow="clipboard-write"></iframe>
+             ============================================================= -->
+        <div class="embed-slot embed-slot--board" style="margin-top:var(--s5)">
+          <p><span class="needs-clair">Needs Clair</span></p>
+          <p class="display">The class board goes here</p>
+          <p>The Roll Board is a Padlet with three columns &#8212; <strong>it&#8217;s the
+          who</strong>, <strong>it&#8217;s the where</strong>, <strong>it&#8217;s the
+          problem</strong> &#8212; and my own roll pinned at the top as an example. It sits
+          in this box, at full width, about 520&nbsp;pixels tall.</p>
+          <p class="small">To finish it: build the board, open <em>Share &#8594; Embed in
+          your blog or website</em>, and paste the iframe over this box. Then put the
+          board&#8217;s link into the button below and into the &#8220;where your brief
+          lives&#8221; line in the sidebar. Test it once in a private window, logged out, on
+          a school laptop.</p>
+          <p style="width:100%">
+            <button type="button" class="btn-primary btn-block" disabled>
+              Open the board <span class="ext-glyph" aria-hidden="true">&#8599;</span>
+            </button>
+          </p>
+          <p class="return-line">This opens in a new tab. Leave this page open behind it
+          &#8212; come back here when you&#8217;ve posted.</p>
+        </div>
+      </section>
+
+    </div>
+
+    <aside class="rail" aria-label="Support">
+
+      <section class="card">
+        <h2>Where your brief lives</h2>
+        <p>The site doesn&#8217;t save it and the laptop won&#8217;t either. Your brief
+        lives on the class board, under your first name and table number &#8212; so if you
+        forget it next lesson, that&#8217;s where you go and find it.</p>
+        <p class="small"><span class="needs-clair">Needs Clair</span> the board link goes
+        here as well, so it&#8217;s one tap from this page and from the planner.</p>
+      </section>
+
+      <section class="stuck">
+        <h2><span class="badge" aria-hidden="true">?</span> Stuck? Try this</h2>
+        <p>Three that already work, if you want to see how someone else got there:</p>
+        <ul class="bullets">
+          <li><em>A portrait subject, tired of posing &#183; being photographed for the
+          catalogue &#183; they can only be seen from one angle</em> &#8212; the
+          photographer keeps moving. They keep turning.</li>
+          <li><em>A suit of armour &#183; being packed into a crate &#183; someone has
+          touched them</em> &#8212; the whole story is one very slow reaction.</li>
+          <li><em>A dinosaur skeleton &#183; a famous artwork arrives on loan &#183; a crack
+          has appeared, and it&#8217;s spreading</em> &#8212; it gets worse in every frame.
+          That&#8217;s the easiest kind of joke to build.</li>
+        </ul>
+      </section>
+
+      <section class="going-further">
+        <h2>Going further</h2>
+        <p>Add one of your own: pick an object that has to appear in all four frames. Now
+        the repeat is built in and frame 4 has something to break.</p>
+      </section>
+
+      <section class="criteria" id="good">
+        <h2>What good looks like</h2>
+        <p class="small">Read your four lines back. Tick everything that&#8217;s true.</p>
+        <ul>
+          <li>My four frames tell one story, in order.</li>
+          <li>Frame 4 is the funny one &#8212; the surprise lands last.</li>
+          <li>I&#8217;ve used at least two different shot types.</li>
+          <li>Something repeats across my frames, and one thing changes at the end.</li>
+          <li>Each frame has one line I could put under the picture.</li>
+          <li>I can name the licence of every image I&#8217;m planning to use.</li>
+        </ul>
+        <p class="small">Anything you didn&#8217;t tick is your next job. Nobody ticks all
+        six first go.</p>
+      </section>
+
+    </aside>
+
+  </div>
 
 </div>
 </main>
