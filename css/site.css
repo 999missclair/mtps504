@@ -28,7 +28,12 @@
     14  Home
     15  Motion
     16  Reflow
-    17  Print
+    18  Sort board — A1 Panel Scramble and the licence sort
+    19  Dice mount — page 4 structure, no dice logic
+    20  Embed slots — populated placeholders for the Padlet and the Form
+    21  Structure table — four comedy shapes across four frames
+    22  Reflow for 18–21
+    23  Print
    ========================================================================== */
 
 
@@ -1129,7 +1134,399 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
 
 
 /* ==========================================================================
-   17  PRINT
+   18  THE SORT BOARD — A1 Panel Scramble, and the licence sort on 4 Build
+   One module, used twice (activity-designs.md, "Build responsibilities").
+   Tap the item, tap the bin. There is no drag path anywhere in here.
+   Every state carries a shape or a word as well as a colour (§6.8).
+   ========================================================================== */
+
+.sortboard { margin-top: var(--s5); }
+
+.sortboard__toggle { margin: var(--s4) 0; }
+
+/* Tray and bins sit together, both on screen, so nothing scrolls mid-task
+   (§7). The design doc capped this box at min(46vh, 420px) with a scrollbar;
+   that cap cut the bin definitions off, and those definitions are the scaffold
+   that has to stay visible the whole time (A1.3). So the box is sized instead:
+   two rows of three panels plus the bins comes in around 470px, inside the
+   628px of content canvas at 1024x768, with no inner scrollbar to trap a tap
+   mid-task. */
+.sortboard__board {
+  display: grid;
+  gap: var(--s4);
+}
+
+.sortboard__tray {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--s3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sortboard__tray > li { min-width: 0; }
+.sortboard__tray:empty { display: none; }
+
+/* An item: a flat panel graphic with its title under it. A real <button>. */
+.sort-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+  width: 100%;
+  min-height: 44px;
+  padding: var(--s2);
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 100ms var(--ease-out);
+}
+.sort-item svg { display: block; width: 100%; height: auto; border-radius: var(--r-sm); }
+.sort-item[aria-pressed="true"] {
+  background: var(--sun);
+  transform: translateY(-2px);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+/* Three signals on a held item: Sun fill, a lift, and the word "holding". */
+.sort-item[aria-pressed="true"] .sort-item__title::after {
+  content: " \2713 holding";
+  font-weight: 900;
+}
+
+.sortboard__bins {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--s3);
+}
+
+/* The bin is a wrapper; the button inside it is the drop target. A placed
+   list cannot live inside a <button>, so it sits beneath one. */
+.bin {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+  min-height: 96px;
+  padding: var(--s3);
+  background: var(--paper);
+  border: 2px dashed var(--ink);
+  border-radius: var(--r-md);
+}
+.bin[hidden] { display: none; }
+.bin__btn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s1);
+  width: 100%;
+  min-height: 44px;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--ink);
+  font-family: var(--font-body);
+  text-align: left;
+  cursor: pointer;
+}
+.bin__label {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--t-h3);
+  text-transform: uppercase;
+  line-height: var(--lh-heading);
+}
+.bin__sub { font-size: var(--t-sm); color: var(--slate); }
+/* Armed — a bin is a live target because an item is being held. */
+.bin.is-armed { border: 3px solid var(--sun); background: #FFF3D6; }
+.bin.is-armed .bin__label::after { content: " \2014 drop here"; font-size: var(--t-sm); font-weight: 700; }
+
+.bin__placed { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s1); }
+.bin__placed li {
+  display: flex;
+  gap: var(--s2);
+  align-items: baseline;
+  font-size: var(--t-sm);
+  font-weight: 700;
+}
+.bin__placed li::before { content: "\2713"; color: var(--teal); font-weight: 900; }
+
+.sortboard__progress { font-weight: 800; margin-top: var(--s4); }
+
+.sortboard__feedback {
+  min-height: 3rem;
+  margin-top: var(--s3);
+  padding: var(--s3);
+  border-left: 4px solid var(--ink);
+  background: #FFF3D6;
+  border-radius: var(--r-sm);
+  font-size: var(--t-body);
+}
+.sortboard__feedback:empty { display: none; }
+.sortboard__feedback.is-wrong { border-left-color: var(--punch); background: var(--paper); }
+
+/* The feeling prompts. No answer is wrong, so nothing here is marked. */
+.prompt + .prompt { margin-top: var(--s5); }
+.prompt__q { font-weight: 800; font-size: var(--t-lead); }
+.prompt__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2);
+  list-style: none;
+  margin: var(--s3) 0 0;
+  padding: 0;
+}
+.chip-btn {
+  min-height: 44px;
+  padding: 0 var(--s4);
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  font-weight: 700;
+  cursor: pointer;
+}
+.chip-btn[aria-pressed="true"] { background: var(--sun); box-shadow: 2px 2px 0 var(--ink); }
+.chip-btn[aria-pressed="true"]::after { content: " \2713"; font-weight: 900; }
+.prompt__answer { margin-top: var(--s3); font-size: var(--t-body); }
+.prompt__answer:empty { display: none; }
+
+/* The three big shot buttons in step 3. */
+.shot-choices { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s3); margin-top: var(--s4); }
+.shot-choice {
+  min-height: 56px;
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--t-h3);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.shot-choice[aria-pressed="true"] { background: var(--sun); box-shadow: 3px 3px 0 var(--ink); }
+.shot-choice[aria-pressed="true"]::after { content: " \2713"; }
+
+/* The completion strip and the Going further box. */
+.completion {
+  margin-top: var(--s5);
+  padding: var(--s5);
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: var(--r-md);
+}
+.completion h3 { color: var(--paper); }
+.completion .btn-primary { margin-top: var(--s4); }
+
+.going-further {
+  margin-top: var(--s5);
+  border: 2px solid var(--punch);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  padding: var(--s5);
+}
+.going-further h3 { color: var(--punch); font-size: var(--t-h3); margin-bottom: var(--s3); }
+
+
+/* ==========================================================================
+   19  THE DICE MOUNT — page 4, static structure only
+   Agent 9 wires js/dice.js to this. Everything here is markup and CSS hooks:
+   the columns, the empty card grid, the ROLL button and the brief strip.
+   ========================================================================== */
+
+.dice { margin-top: var(--s5); }
+
+.dice__cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--s4);
+  margin-top: var(--s4);
+}
+.dice__col { display: flex; flex-direction: column; gap: var(--s3); min-width: 0; }
+
+.dice__head {
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: var(--r-sm);
+  padding: var(--s2) var(--s3);
+}
+.dice__head .name {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--t-meta);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.dice__head .sub { display: block; font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.06em; color: var(--on-ink-active); }
+
+/* Two slots per column. Empty until the deal, so the panel never jumps height. */
+.dice__slots { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s3); }
+.dice__slot {
+  min-height: 120px;
+  border: 2px dashed var(--ink);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--s3);
+  font-size: var(--t-sm);
+  color: var(--slate);
+  text-align: center;
+}
+/* The empty slots are all one height so the three columns line up before the
+   deal. Agent 9's cards set their own: CHARACTER and SITUATION carry a 96px
+   thumbnail above the text and run 120px minimum; PROBLEM cards are text with
+   a small Ink glyph at 96px minimum — a problem is an event and cannot be
+   photographed without killing the joke (dice-roll-options.md). */
+.dice__col--character .dice__slot,
+.dice__col--situation .dice__slot,
+.dice__col--problem .dice__slot { min-height: 120px; }
+
+.btn-roll {
+  width: 100%;
+  min-height: 72px;
+  margin-top: var(--s5);
+  background: var(--sun);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  box-shadow: 3px 3px 0 var(--ink);
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--t-h3);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-roll:active { transform: translateY(2px); box-shadow: 1px 1px 0 var(--ink); }
+
+.btn-primary[disabled],
+.btn-roll[disabled] {
+  background: var(--paper);
+  color: var(--slate);
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.brief-strip { margin-top: var(--s4); }
+.brief-strip .label {
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: var(--t-meta);
+  letter-spacing: 0.06em;
+}
+
+
+/* ==========================================================================
+   20  EMBED SLOTS — a placeholder that is populated, not an empty hole
+   Used where the iframe needs an artefact only Clair can make (the Padlet
+   board, the Google Form). The box stands at the final size so the layout is
+   real, and it carries the instructions in the meantime.
+   ========================================================================== */
+
+.embed-slot {
+  border: 2px dashed var(--ink);
+  border-radius: var(--r-md);
+  background: repeating-linear-gradient(135deg,
+              #FFF3D6 0 26px, var(--paper) 26px 52px);
+  padding: var(--s5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
+  align-items: flex-start;
+}
+.embed-slot--board { min-height: 520px; }
+.embed-slot--form  { min-height: 480px; }
+.embed-slot .display { font-size: var(--t-h3); }
+.embed-slot .btn-primary { width: 100%; }
+
+.needs-clair {
+  display: inline-block;
+  background: var(--punch);
+  color: #FFFFFF;                 /* 5.91:1 */
+  border-radius: var(--r-sm);
+  font-size: var(--t-sm);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 2px var(--s2);
+}
+
+/* The line that sits under a player: captions, transcript, what it is. */
+.captions-line { font-size: var(--t-sm); color: var(--slate); margin-top: var(--s3); }
+
+
+/* ==========================================================================
+   21  THE STRUCTURE TABLE — four comedy shapes across four frames (page 5)
+   ========================================================================== */
+
+table.structure {
+  width: 100%;
+  /* Five columns need room to read. Below this the .table-wrap scrolls
+     sideways rather than shredding every cell into one word per line. */
+  min-width: 46rem;
+  border-collapse: collapse;
+  font-size: var(--t-body);
+}
+table.structure caption {
+  text-align: left;
+  font-size: var(--t-sm);
+  color: var(--slate);
+  padding-bottom: var(--s2);
+}
+table.structure th,
+table.structure td {
+  border: 2px solid var(--ink);
+  padding: var(--s3);
+  text-align: left;
+  vertical-align: top;
+}
+table.structure thead th {
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+table.structure tbody th { width: 11rem; background: var(--paper); }
+table.structure td .beat {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: var(--t-sm);
+  letter-spacing: 0.04em;
+}
+/* Frame 4 is the punchline column. The tint is a second signal only — every
+   cell in it also carries the word PUNCHLINE, PAYOFF or REVERSED (§6.8). */
+table.structure tbody td.is-punch { background: #FFF3D6; }
+
+
+/* ==========================================================================
+   22  REFLOW FOR SECTIONS 18–21
+   ========================================================================== */
+
+@media (max-width: 767px) {
+  .sortboard__tray,
+  .sortboard__bins,
+  .shot-choices,
+  .dice__cols { grid-template-columns: 1fr; }
+  .sortboard__tray { grid-template-columns: repeat(2, 1fr); }
+  .dice__head { position: sticky; top: calc(var(--nav-t) + var(--s2)); z-index: 1; }
+  table.structure tbody th { width: auto; }
+}
+
+
+/* ==========================================================================
+   23  PRINT
    A teacher printing a page should get the content, not the chrome.
    ========================================================================== */
 
