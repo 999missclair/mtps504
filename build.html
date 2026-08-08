@@ -68,45 +68,552 @@
 </nav>
 <!-- ===== NAV:TOP — END ========================================== -->
 
+
 <main id="main">
 <div class="page-shell">
 
+  <!-- BLOCK A — page header -->
   <header class="page-header">
     <p class="phase-tag">Producing &amp; implementing</p>
     <h1>4 Build</h1>
     <p class="page-question">You&#8217;ve got a plan. Now build the four frames.</p>
   </header>
 
-  <div class="card">
-    <h2>This page is still being built</h2>
-    <p>The template hand-off, the eight steps, the licence rule, the three image sources and the worked example go here.</p>
-    <p>The navigation works, so nothing is broken &#8212; use the bar at the top to move
-    between phases, or the <strong>?</strong> button at the bottom left for help.</p>
-  </div>
+  <div class="with-rail">
 
-  <section class="section">
-    <h2>What&#8217;s going here</h2>
-    <section class="card" id="find">
-      <h3>1 Find</h3>
-      <p class="small">Being built.</p>
-    </section>
-    <section class="card" id="build-it">
-      <h3>2 Build in Slides</h3>
-      <p class="small">Being built.</p>
-    </section>
-    <section class="card" id="export">
-      <h3>3 Export</h3>
-      <p class="small">Being built.</p>
-    </section>
-    <section class="card" id="post">
-      <h3>4 Post</h3>
-      <p class="small">Being built.</p>
-    </section>
-    <section class="card" id="handoff">
-      <h3>The Slides template hand-off card</h3>
-      <p class="small">Being built.</p>
-    </section>
-  </section>
+    <div>
+
+      <!-- BLOCK B — framing -->
+      <p class="lead">Four images, four frames, one strip. You find your pictures first,
+      because that is the part that takes the time. Then you open your own copy of the
+      template, drop them in, write the captions and the credit lines, and download the
+      whole thing as one picture. The deck lives in your Google Drive. The finished strip
+      lives on the class gallery. Nothing lives here.</p>
+
+      <!-- BLOCK C — the trolley rule strip -->
+      <section class="rule-strip" aria-labelledby="trolley">
+        <h2 id="trolley">Before you start</h2>
+        <ol>
+          <li><span class="num" aria-hidden="true">1</span> Nothing you make today is saved
+          on this laptop.</li>
+          <li><span class="num" aria-hidden="true">2</span> Your slide lives in your Google
+          Drive. Your finished picture lives on the class Padlet.</li>
+          <li><span class="num" aria-hidden="true">3</span> So: download images first, build
+          second, post before the bell.</li>
+        </ol>
+      </section>
+
+      <!-- BLOCK D — the hand-off card. The page's hero.
+           ⚠️ NEEDS CLAIR template URL — the button below points at "#" until
+           the Google Slides template exists. Two things to do when it does:
+             1. Put the template's SHARE link in the href, with the tail
+                /edit changed to /copy so Google offers "Make a copy"
+                instead of opening the master.
+             2. ⚠️ CONFIRM the copy route (project-concept.md 7.2). If the
+                school runs Google Classroom, DELETE the Route A row below
+                and keep Route B. If it does not, delete Route B. Both rows
+                must not ship — a Year 8 who reads two sets of instructions
+                does neither. The same choice has to be made in the Help
+                Centre, Topic 1.
+           ============================================================== -->
+      <section class="section" id="build-it">
+        <h2>Get your copy of the template</h2>
+        <div class="handoff-card">
+          <p class="lead">Everything you build today happens in your own copy. Take it
+          once, rename it, and it is yours for the rest of the unit.</p>
+
+          <p style="margin-top:var(--s5)">
+            <a class="btn-primary btn-primary--handoff" href="#"
+               target="_blank" rel="noopener noreferrer">
+              Open the Slides template
+              <span class="ext-glyph" aria-hidden="true">&#8599;</span>
+              <span class="visually-hidden">(opens in a new tab)</span>
+            </a>
+          </p>
+          <p class="return-line">This opens in a new tab. Leave this page open behind it
+          &#8212; come back here for step 3, the export.</p>
+          <p class="small"><span class="needs-clair">Needs Clair</span> the template link
+          goes in this button, and in the Help Centre.</p>
+
+          <p style="margin-top:var(--s5)"><strong>Rename it the second it opens.</strong>
+          Your own surname and first name, exactly like this:</p>
+          <div class="copyable">
+            <code id="naming">FourFrames_8VA_Surname_FirstName</code>
+            <button type="button" class="copy-btn" data-copy-for="naming"
+                    aria-label="Copy the file-name format">Copy</button>
+          </div>
+          <p class="small">Twenty-six files called <span class="mono">Copy of FOUR FRAMES
+          template</span> look identical, and yours is the one that gets lost.</p>
+
+          <div class="card" style="margin-top:var(--s5)">
+            <h3>How you get your copy</h3>
+            <!-- ROUTE A — keep this row only if the school does NOT run Classroom -->
+            <p><strong>From the button above.</strong> Press it, and Google asks whether you
+            want to make a copy. Say yes. The copy lands in your Google Drive with your name
+            on it. You must be signed in to your <strong>school</strong> account, not a
+            personal one.</p>
+            <!-- ROUTE B — keep this row only if the school DOES run Classroom -->
+            <p><strong>From Google Classroom.</strong> Open the <em>Four Frames</em>
+            assignment. Your copy is already there with your name on it. That is the only
+            copy you need &#8212; don&#8217;t make another one.</p>
+            <p class="small"><span class="needs-clair">Needs Clair</span> only one of these
+            two ships. Delete the other before Week 1.</p>
+          </div>
+
+          <div class="card" style="margin-top:var(--s4)">
+            <h3>Already started?</h3>
+            <p>Don&#8217;t take a second copy. Go and find the one you already have.</p>
+            <ol class="steps">
+              <li><strong>slides.google.com</strong>
+                <span class="detail">Look under <em>Recent</em>. Yours is the one with your
+                name in it.</span></li>
+              <li><strong>drive.google.com</strong>
+                <span class="detail">Search <span class="mono">FourFrames</span>. Still
+                nothing? You may have been working in the view-only master, which
+                doesn&#8217;t save. Ask for the link and start a fresh copy.</span></li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- BLOCK E — the eight steps -->
+      <section class="section" id="steps">
+        <h2>The eight steps, in order</h2>
+        <p class="lead">Do them in this order. Steps 3 and 8 are the two that catch
+        everybody.</p>
+
+        <div class="card">
+          <ol class="steps steps--two-col">
+            <li id="find"><strong>Find your four images</strong>
+              <span class="detail">One per frame. Use the three sources below &#8212; they
+              tell you the licence.</span></li>
+
+            <li><strong>Download each one</strong>
+              <span class="detail">It lands in your Downloads folder. Keep the tab open so
+              you can copy the credit.</span></li>
+
+            <li><strong>Open your copy of the template</strong>
+              <span class="detail">First time: press the big button and choose <em>Make a
+              copy</em>. After that: Drive, or the Classroom assignment.
+              <a class="tap-link" href="help.html?topic=slides-basics">Show me
+              &#8594;</a></span></li>
+
+            <li><strong>Rename it</strong>
+              <span class="detail"><span class="mono">FourFrames_8VA_Surname_FirstName</span>.
+              Do this now, not at the end.</span></li>
+
+            <li><strong>Insert your images</strong>
+              <span class="detail"><em>Insert &#8594; Image &#8594; Upload from
+              computer</em>, or drag the file straight from Downloads onto the
+              slide.</span></li>
+
+            <li><strong>Arrange the four frames</strong>
+              <span class="detail">Setup, escalation, escalation, punchline &#8212; the
+              order you planned. Drag to move, corner handles to resize.</span></li>
+
+            <li><strong>Write your captions and credits</strong>
+              <span class="detail">A caption under each frame, and one credit line per image
+              in the box at the bottom.</span></li>
+
+            <li id="export"><span class="here-chip">&#8617; You are here</span>
+              <strong>Download it as a PNG, then post it</strong>
+              <span class="detail"><em>File &#8594; Download &#8594; PNG image</em>.
+              <strong>It only downloads the slide you are looking at.</strong> Then open the
+              class gallery and post it with your four credit lines.
+              <a class="tap-link" href="help.html?topic=slides-basics">Show me
+              &#8594;</a></span></li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- BLOCK F — the licence sort.
+           MARKUP ONLY. It runs on js/scramble.js, the same module as the
+           Panel Scramble on 1 Look — same tap-then-tap, same keyboard
+           handling, same live-region wording, different items and bins.
+           Every word a student reads is in this HTML, not in the script.
+           Content: activity-designs.md, "The licence sort".
+           ============================================================== -->
+      <section class="section" id="licence-sort">
+        <h2>Quick check: what can you actually use?</h2>
+        <p class="lead">Three minutes. Not marked &#8212; this one&#8217;s just so you
+        don&#8217;t get caught out.</p>
+        <p class="activity-note">This is a bonus support activity. It isn&#8217;t one of the
+        three marked ones.</p>
+
+        <div class="card sortboard sortboard--licence" data-sortboard>
+
+          <div class="sortboard__board">
+
+            <div class="sortboard__tray" role="group" aria-label="Images to sort"
+                 data-sort-tray>
+
+              <button type="button" class="sort-item" data-sort-item
+                data-title="Museum teapot, CC0"
+                data-correct="canuse"
+                data-fb-canuse="Yes. CC0 means the creator gave up their rights on purpose. You still write the credit line &#8212; that&#8217;s a class rule, not a licence rule."
+                data-fb-canusebut="There&#8217;s no &#8216;but&#8217; on CC0 &#8212; that&#8217;s what CC0 means. The credit line is our rule, not a condition of the licence."
+                data-fb-cantuse="You can. CC0 is the most open licence there is. Have another look at what the letters mean.">
+                <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
+                  <rect x="1.5" y="1.5" width="157" height="117" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
+                  <ellipse cx="76" cy="70" rx="34" ry="24" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <path d="M44 64 q-18 -2 -15 14" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <path d="M110 60 q22 8 3 24" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <rect x="68" y="40" width="16" height="8" fill="#FFC300" stroke="#14141C" stroke-width="3"/>
+                  <line x1="40" y1="98" x2="112" y2="98" stroke="#14141C" stroke-width="3"/>
+                </svg>
+                <span class="sort-item__title">A photo of a teapot from a museum&#8217;s
+                open-access collection</span>
+                <span class="sort-item__lic">CC0</span>
+              </button>
+
+              <button type="button" class="sort-item" data-sort-item
+                data-title="Gallery at night, CC BY-SA"
+                data-correct="canusebut"
+                data-fb-canusebut="Yes, with a catch. BY-SA is share-alike: whatever you build from it inherits the same licence. Your finished strip would have to be CC BY-SA too. That&#8217;s fine for a class gallery &#8212; you just have to know you&#8217;ve done it."
+                data-fb-canuse="Nearly. But SA is doing something &#8212; it&#8217;s share-alike, and it passes the licence on to whatever you build. There&#8217;s a condition here."
+                data-fb-cantuse="You can use it. The SA just means your strip inherits the same licence. Try the middle bin.">
+                <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
+                  <rect x="1.5" y="1.5" width="157" height="117" fill="#14141C" stroke="#14141C" stroke-width="3"/>
+                  <line x1="2" y1="86" x2="158" y2="86" stroke="#4A4A57" stroke-width="3"/>
+                  <rect x="26" y="44" width="34" height="42" fill="none" stroke="#4A4A57" stroke-width="3"/>
+                  <rect x="98" y="52" width="34" height="34" fill="none" stroke="#4A4A57" stroke-width="3"/>
+                  <circle cx="80" cy="26" r="8" fill="#FFF9F0"/>
+                </svg>
+                <span class="sort-item__title">A photo of a gallery at night</span>
+                <span class="sort-item__lic">CC BY-SA</span>
+              </button>
+
+              <button type="button" class="sort-item" data-sort-item
+                data-title="Tour group, CC BY-NC"
+                data-correct="canusebut"
+                data-fb-canusebut="Yes, with a catch. NC means non-commercial. A class gallery isn&#8217;t commercial, so you&#8217;re fine. You couldn&#8217;t sell it, put it in an ad, or use it for anything sponsored."
+                data-fb-canuse="Nearly. NC means non-commercial, and that&#8217;s a condition &#8212; it just isn&#8217;t one that stops you here."
+                data-fb-cantuse="You can use it. Your class gallery isn&#8217;t commercial. The condition matters, but it doesn&#8217;t block you.">
+                <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
+                  <rect x="1.5" y="1.5" width="157" height="117" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
+                  <circle cx="44" cy="46" r="11" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <path d="M28 100 v-22 a16 16 0 0132 0 v22" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <circle cx="80" cy="40" r="11" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <path d="M64 100 v-24 a16 16 0 0132 0 v24" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <circle cx="116" cy="46" r="11" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <path d="M100 100 v-22 a16 16 0 0132 0 v22" fill="none" stroke="#14141C" stroke-width="3"/>
+                </svg>
+                <span class="sort-item__title">A photo of a tour group</span>
+                <span class="sort-item__lic">CC BY-NC</span>
+              </button>
+
+              <button type="button" class="sort-item" data-sort-item
+                data-title="Google Images result"
+                data-correct="cantuse"
+                data-fb-cantuse="Correct. Google Images isn&#8217;t a library &#8212; it&#8217;s a search across other people&#8217;s websites. No licence stated doesn&#8217;t mean free, it means you don&#8217;t know. If you can&#8217;t name the licence, you can&#8217;t use it."
+                data-fb-canuse="How do you know? That&#8217;s the whole question. Google Images searches other people&#8217;s sites &#8212; the licence isn&#8217;t stated because Google doesn&#8217;t own any of it."
+                data-fb-canusebut="There&#8217;s no &#8216;but&#8217; available, because there&#8217;s no licence to read. No licence you can name means no.">
+                <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
+                  <rect x="1.5" y="1.5" width="157" height="117" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
+                  <rect x="18" y="34" width="124" height="26" rx="13" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <circle cx="42" cy="47" r="7" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <line x1="47" y1="52" x2="54" y2="59" stroke="#14141C" stroke-width="3"/>
+                  <line x1="66" y1="47" x2="126" y2="47" stroke="#14141C" stroke-width="3"/>
+                  <rect x="18" y="74" width="34" height="28" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <rect x="63" y="74" width="34" height="28" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <rect x="108" y="74" width="34" height="28" fill="none" stroke="#14141C" stroke-width="3"/>
+                </svg>
+                <span class="sort-item__title">An image from a Google Images search</span>
+                <span class="sort-item__lic">No licence stated</span>
+              </button>
+
+              <button type="button" class="sort-item" data-sort-item
+                data-title="GIF from a TV show"
+                data-correct="cantuse"
+                data-fb-cantuse="Correct. A TV show is somebody&#8217;s copyrighted work, and a GIF of it is still their work. It&#8217;s everywhere online, and that still doesn&#8217;t make it yours. Openverse and the museum collections exist so you&#8217;ve got somewhere legitimate to go."
+                data-fb-canuse="It&#8217;s someone&#8217;s copyrighted work. Being easy to find isn&#8217;t a licence."
+                data-fb-canusebut="There&#8217;s no condition that makes this one work. It&#8217;s not licensed for you to reuse at all.">
+                <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
+                  <rect x="1.5" y="1.5" width="157" height="117" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
+                  <rect x="22" y="26" width="116" height="70" rx="6" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <path d="M68 46 l30 15 l-30 15 z" fill="#C21B4B" stroke="#14141C" stroke-width="3"/>
+                  <line x1="56" y1="108" x2="104" y2="108" stroke="#14141C" stroke-width="3"/>
+                </svg>
+                <span class="sort-item__title">A GIF from a TV show</span>
+                <span class="sort-item__lic">&#169; all rights reserved</span>
+              </button>
+
+            </div>
+
+            <div class="sortboard__bins">
+
+              <div class="bin" data-bin-shell>
+                <button type="button" class="bin__btn" data-sort-bin data-bin="canuse">
+                  <span class="bin__label" data-bin-label>Can use</span>
+                  <span class="bin__sub" data-bin-sub>Credit it, and you&#8217;re done.</span>
+                </button>
+                <ul class="bin__placed" data-sort-placed aria-label="Placed in Can use"></ul>
+              </div>
+
+              <div class="bin" data-bin-shell>
+                <button type="button" class="bin__btn" data-sort-bin data-bin="canusebut">
+                  <span class="bin__label" data-bin-label>Can use, but&#8230;</span>
+                  <span class="bin__sub" data-bin-sub>There&#8217;s a condition. Read it.</span>
+                </button>
+                <ul class="bin__placed" data-sort-placed aria-label="Placed in Can use, but"></ul>
+              </div>
+
+              <div class="bin" data-bin-shell>
+                <button type="button" class="bin__btn" data-sort-bin data-bin="cantuse">
+                  <span class="bin__label" data-bin-label>Can&#8217;t use</span>
+                  <span class="bin__sub" data-bin-sub>Not in something you post.</span>
+                </button>
+                <ul class="bin__placed" data-sort-placed aria-label="Placed in Can&#8217;t use"></ul>
+              </div>
+
+            </div>
+
+          </div>
+
+          <p class="sortboard__progress" data-sort-progress
+             data-done="All five placed. Two of them were the interesting ones.">0 of 5 placed.</p>
+          <p class="sortboard__feedback" data-sort-feedback></p>
+          <p class="visually-hidden" aria-live="polite" data-sort-live></p>
+
+          <p class="small">Keyboard: press Enter or Space to pick an image up, Tab to a bin,
+          then Enter or Space to put it down. Escape puts it back.</p>
+        </div>
+
+        <!-- Ships visible, so the page reads with JavaScript off. The script
+             is what hides it until all five are placed. -->
+        <div class="card" data-sort-reveal data-hide-until-done>
+          <h3>Two of these were the interesting ones</h3>
+          <p><em>No licence stated</em> isn&#8217;t the same as <em>free</em> &#8212; it
+          means you don&#8217;t know, and you can&#8217;t use what you can&#8217;t name. And
+          <strong>CC BY-SA passes its licence on to whatever you make from it.</strong>
+          Everything else on this page is easier than those two.</p>
+          <p class="small"><strong>Going further:</strong> you built your strip from a
+          CC BY-SA image. Someone wants to use <em>your</em> strip. What are they allowed to
+          do with it?</p>
+        </div>
+      </section>
+
+      <!-- BLOCK G — the licence rule block -->
+      <section class="rule-block" aria-labelledby="the-rule">
+        <h2 id="the-rule"><span class="badge" aria-hidden="true">!</span> You may only use an
+        image whose licence you can name.</h2>
+        <p>Every frame gets one credit line, in this order:</p>
+        <div class="copyable">
+          <code id="credit-format">Title &#8212; Creator &#8212; Source &#8212; Licence</code>
+          <button type="button" class="copy-btn" data-copy-for="credit-format"
+                  aria-label="Copy the credit-line format">Copy</button>
+        </div>
+        <div class="copyable" style="margin-top:var(--s3)">
+          <code id="credit-example">Under the Wave off Kanagawa (Kanagawa oki nami ura), also
+          known as The Great Wave &#8212; Katsushika Hokusai &#8212; The Met Open Access
+          &#8212; CC0</code>
+          <button type="button" class="copy-btn" data-copy-for="credit-example"
+                  aria-label="Copy the worked credit line">Copy</button>
+        </div>
+        <p class="small">Four frames, four credit lines. They go in the box at the bottom of
+        your slide and in your Padlet post.</p>
+        <p><strong>Watch CC BY-SA.</strong> Share-alike means the strip you build out of that
+        image inherits the same licence &#8212; your whole comic carries it. That&#8217;s
+        fine for a class gallery. You just have to know you&#8217;ve done it, which is why
+        it&#8217;s here and not only in the Help Centre.</p>
+        <p><a class="tap-link" href="help.html?topic=crediting-images">How do I find the
+        licence? &#8594;</a></p>
+      </section>
+
+      <!-- BLOCK H — the three source link cards -->
+      <section class="section" id="sources">
+        <h2>Where to find images you&#8217;re allowed to use</h2>
+        <p class="lead">Three places. All three tell you the licence, which is the whole
+        reason they&#8217;re the three.</p>
+
+        <div class="row-3">
+
+          <div class="card source-card">
+            <h3>Openverse</h3>
+            <dl>
+              <dt>What it&#8217;s good for</dt>
+              <dd>Everyday things &#8212; buses, dogs, doors, weather. Millions of openly
+              licensed photos searched at once.</dd>
+              <dt>Licence</dt>
+              <dd>Shown next to every picture. Filter for <span class="mono">CC0</span> or
+              <span class="mono">CC BY</span> and it stays easy.</dd>
+            </dl>
+            <p><a class="tap-link" href="help.html?topic=finding-images">How do I search
+            this? &#8594;</a></p>
+            <a class="btn-primary btn-block" href="https://openverse.org"
+               target="_blank" rel="noopener noreferrer">
+              Open Openverse <span class="ext-glyph" aria-hidden="true">&#8599;</span>
+              <span class="visually-hidden">(opens in a new tab)</span>
+            </a>
+            <p class="return-line">This opens in a new tab. Leave this page open behind it
+            &#8212; come back here for step 3, the export.</p>
+          </div>
+
+          <div class="card source-card">
+            <h3>Wikimedia Commons</h3>
+            <dl>
+              <dt>What it&#8217;s good for</dt>
+              <dd>Almost anything, including whole museum collections and photographs of
+              places.</dd>
+              <dt>Licence</dt>
+              <dd>Changes file by file. Open the file page and read the
+              <strong>Licensing</strong> box near the bottom. No box, no picture.</dd>
+            </dl>
+            <p><a class="tap-link" href="help.html?topic=finding-images">How do I search
+            this? &#8594;</a></p>
+            <a class="btn-primary btn-block" href="https://commons.wikimedia.org"
+               target="_blank" rel="noopener noreferrer">
+              Open Wikimedia Commons
+              <span class="ext-glyph" aria-hidden="true">&#8599;</span>
+              <span class="visually-hidden">(opens in a new tab)</span>
+            </a>
+            <p class="return-line">This opens in a new tab. Leave this page open behind it
+            &#8212; come back here for step 3, the export.</p>
+          </div>
+
+          <div class="card source-card">
+            <h3>The Met Open Access</h3>
+            <dl>
+              <dt>What it&#8217;s good for</dt>
+              <dd>Artworks. Paintings, prints, sculpture, armour, teapots &#8212; about half
+              a million of them.</dd>
+              <dt>Licence</dt>
+              <dd>If it says <strong>Open Access</strong>, it&#8217;s
+              <span class="mono">CC0</span>. If it doesn&#8217;t say it, search again.</dd>
+            </dl>
+            <p><a class="tap-link" href="help.html?topic=finding-images">How do I search
+            this? &#8594;</a></p>
+            <a class="btn-primary btn-block"
+               href="https://www.metmuseum.org/art/collection"
+               target="_blank" rel="noopener noreferrer">
+              Open the Met collection
+              <span class="ext-glyph" aria-hidden="true">&#8599;</span>
+              <span class="visually-hidden">(opens in a new tab)</span>
+            </a>
+            <p class="return-line">This opens in a new tab. Leave this page open behind it
+            &#8212; come back here for step 3, the export.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- BLOCK I — the annotated exemplar figure.
+           ⚠️ NEEDS CLAIR — an agent can't make a Google Slides file. The box
+           below stands at the final dimensions (1600x1200, 4:3) with the
+           callout list already written, so the layout is real and only the
+           picture is missing. To finish it: build the teapot strip in the
+           real template, File -> Download -> PNG image, save it as
+           img/exemplar-teapot.png, then replace the .placeholder div with:
+
+           <img src="img/exemplar-teapot.png" width="1600" height="1200"
+                loading="lazy"
+                alt="A four-frame comic strip. Frame 1: a ceramic teapot on a
+                     shelf, a sculpture far across a gallery. Frame 2: the
+                     lights are out, both lit closer in. Frame 3: closer
+                     still, the gap between them looks small. Frame 4: the
+                     lights are back on, a tour group standing between them.">
+
+           This is the third instance of this placeholder on the site.
+           ============================================================== -->
+      <section class="section" id="exemplar">
+        <h2>What one looks like finished</h2>
+        <figure class="exemplar">
+          <div class="placeholder">
+            <p><span class="needs-clair">Needs Clair</span></p>
+            <p class="display">The worked example goes here</p>
+            <p class="small">A ceramic teapot &#183; The lights go out &#183; They&#8217;ve
+            fallen for the sculpture opposite &#8212; built in the real template and
+            downloaded as a PNG, so making it tests the same loop the students run.</p>
+          </div>
+          <figcaption>One rolled brief, four frames, no words. The joke is made by how close
+          the camera gets.</figcaption>
+        </figure>
+        <ol class="callouts">
+          <li><strong>Setup</strong> &#8212; wide shot, lots of space between them.</li>
+          <li><strong>Escalation</strong> &#8212; lights out, closer in.</li>
+          <li><strong>Escalation</strong> &#8212; closer still, the gap looks smaller.</li>
+          <li><strong>Punchline</strong> &#8212; lights on, wide again, a tour group parked
+          between them.</li>
+        </ol>
+        <p class="small">Look at the bottom of the figure too: a caption under every frame,
+        and four credit lines in the box beneath. That&#8217;s what finished means.</p>
+      </section>
+
+      <!-- The partner action from the hand-off (design spec 3.5): once the
+           student has been to Slides, the primary offers the gallery.
+           ⚠️ NEEDS CLAIR gallery board URL — same board as 5 Share. -->
+      <section class="section" id="post">
+        <h2>Post it before the bell</h2>
+        <div class="card">
+          <p class="lead">A PNG in the Downloads folder is not handed in. The laptop gets
+          wiped and you probably won&#8217;t get the same one next lesson.</p>
+          <ol class="steps">
+            <li><strong>Open the class gallery</strong>
+              <span class="detail">New post, upload your PNG.</span></li>
+            <li><strong>Paste your four credit lines</strong>
+              <span class="detail">One per frame, in the post, in the order the frames
+              run.</span></li>
+            <li><strong>Post as your first name and table number</strong>
+              <span class="detail">No surnames. <span class="mono">Sam T4</span> is
+              perfect.</span></li>
+          </ol>
+          <p style="margin-top:var(--s4)">
+            <button type="button" class="btn-primary btn-block" disabled>
+              Post my strip to the gallery
+              <span class="ext-glyph" aria-hidden="true">&#8599;</span>
+            </button>
+          </p>
+          <p class="small"><span class="needs-clair">Needs Clair</span> the gallery board
+          link goes in this button. It is the same board as the one on 5 Share.</p>
+          <p class="return-line">This opens in a new tab. Leave this page open behind it
+          &#8212; come back here if you need the credit-line format again.</p>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- BLOCK J — Stuck? + What good looks like, in the sticky rail -->
+    <aside class="rail" aria-label="Support">
+
+      <section class="stuck">
+        <h2><span class="badge" aria-hidden="true">?</span> Stuck? Try this</h2>
+        <ul class="bullets">
+          <li><strong>Can&#8217;t find a picture of your character?</strong> Search the place
+          instead. An empty park does the job a lonely greyhound won&#8217;t, and the caption
+          carries the rest.</li>
+          <li><strong>Image came in the size of a house?</strong> Click it once, then drag a
+          <em>corner</em> handle. Corners keep the shape. Side handles squash it.</li>
+          <li><strong>Nothing is happening in your strip?</strong> Change the camera, not the
+          story. Frame 1 wide, frames 2 and 3 closer, frame 4 wide again.</li>
+        </ul>
+        <p class="small"><a class="tap-link" href="help.html?topic=when-it-breaks">Sixteen
+        more fixes in the Help Centre &#8594;</a></p>
+      </section>
+
+      <section class="criteria" id="good">
+        <h2>What good looks like</h2>
+        <p class="small">Read your strip back. Tick everything that&#8217;s true.</p>
+        <ul>
+          <li>My four frames tell one story, in order.</li>
+          <li>Frame 4 is the funny one &#8212; the surprise lands last.</li>
+          <li>I&#8217;ve used at least two different shot types.</li>
+          <li>Something repeats across my frames, and one thing changes at the end.</li>
+          <li>Each frame has one line I could put under the picture.</li>
+          <li>I can name the licence of every image I&#8217;m planning to use.</li>
+        </ul>
+        <p class="small">Anything you didn&#8217;t tick is your next job. Nobody ticks all
+        six first go.</p>
+      </section>
+
+      <section class="going-further">
+        <h2>Going further</h2>
+        <p>Six frames instead of four, or a two-page strip. Same rules, more room for the
+        joke to build &#8212; and one more credit line for every image you add.</p>
+      </section>
+
+    </aside>
+
+  </div>
 
 </div>
 </main>
@@ -144,9 +651,12 @@
     <span class="count">1 / 4</span>
     <span class="name">Find</span>
   </p>
-  <a class="btn-primary" href="#handoff">Open the Slides template &#8594;</a>
+  <a class="btn-primary" href="#build-it">Open the Slides template &#8594;</a>
 </nav>
 <!-- ===== NAV:BOTTOM — END ======================================= -->
+
+<script src="js/scramble.js" defer></script>
+<script src="js/copy.js" defer></script>
 
 </body>
 </html>
