@@ -1322,6 +1322,9 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
 }
 .completion h3 { color: var(--paper); }
 .completion .btn-primary { margin-top: var(--s4); }
+/* Slate is a Paper-only colour. On the Ink completion strip the muted line
+   uses the dark-surface muted token instead (7.11:1), never --slate. */
+.completion .small { color: var(--on-ink-active); }
 
 .going-further {
   margin-top: var(--s5);
@@ -1549,4 +1552,196 @@ table.structure tbody td.is-punch { background: #FFF3D6; }
   .exemplar { box-shadow: none; break-inside: avoid; }
   a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 9pt; word-break: break-all; }
   h1, h2, h3 { break-after: avoid; }
+}
+
+
+/* ==========================================================================
+   24  THE DEALT DICE CARDS (§5.3 "Dice card")
+   The mount in section 19 is the empty structure. These are the cards
+   js/dice.js writes into it. CHARACTER and SITUATION carry a 96px
+   thumbnail; PROBLEM cards are text with a small Ink glyph, because a
+   problem is an event and photographing it kills the joke.
+   Selected state is three signals — Sun fill, a tick, aria-pressed — so it
+   never depends on colour (§6 item 8).
+   ========================================================================== */
+
+.dice__filled { min-width: 0; }
+
+.dice-card {
+  width: 100%;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--s2);
+  padding: var(--s3);
+  background: var(--paper);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+.dice-card--problem {
+  min-height: 96px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--s3);
+}
+
+.dice-card__thumb {
+  display: block;
+  height: 96px;
+  width: 100%;
+  border-radius: var(--r-sm);
+  overflow: hidden;
+  background: repeating-linear-gradient(135deg,
+              #FFF3D6 0 14px, var(--paper) 14px 28px);
+  border: 2px dashed var(--ink);
+  color: var(--slate);
+}
+.dice-card__thumb svg { display: block; width: 100%; height: 100%; }
+/* When the real picture goes in, it is an <img> carrying the same class. */
+img.dice-card__thumb { object-fit: cover; border-style: solid; padding: 0; }
+
+.dice-card__glyph { flex: 0 0 auto; width: 40px; height: 40px; color: var(--ink); }
+
+.dice-card__label { font-size: var(--t-body); font-weight: 800; line-height: 1.3; }
+.dice-card__term  { font-size: var(--t-sm); color: var(--slate); }
+
+.dice-card[aria-pressed="true"] {
+  background: var(--sun);
+  color: var(--ink);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+.dice-card[aria-pressed="true"] .dice-card__term { color: var(--ink); }
+.dice-card[aria-pressed="true"] .dice-card__label::after {
+  content: " \2713";
+  font-weight: 900;
+}
+
+/* The deal: six cards, 40ms apart, 320ms end to end (§5.4). Under reduced
+   motion js/dice.js never adds .is-dealing, so all six simply appear and
+   the live region says "Rolled." — same result, no theatre. */
+@keyframes ff-deal {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: none; }
+}
+.dice__filled.is-dealing {
+  animation: ff-deal 160ms var(--ease-out) both;
+  animation-delay: calc(var(--deal-step, 0) * 40ms);
+}
+
+
+/* ==========================================================================
+   25  THE LICENCE SORT — the sort board's second instance (4 Build, block F)
+   Same module, same components. These are the two things a licence item
+   card has that a panel card does not: a licence code in mono, and a
+   flatter glyph block instead of a drawn panel.
+   ========================================================================== */
+
+.sort-item__lic {
+  display: inline-block;
+  margin-top: var(--s1);
+  font-family: var(--font-mono);
+  font-size: var(--t-sm);
+  border: 2px dashed var(--ink);
+  border-radius: var(--r-sm);
+  padding: 1px var(--s2);
+}
+.sortboard--licence .sort-item svg { height: 72px; width: auto; margin: 0 auto; }
+.sortboard--licence .sortboard__tray { align-items: start; }
+
+.activity-note {
+  font-size: var(--t-sm);
+  color: var(--slate);
+  margin-top: var(--s1);
+}
+
+
+/* ==========================================================================
+   26  HELP CENTRE — disclosure widgets and the ?topic= landing highlight
+   The sixteen fixes are <details>/<summary>, which needs no JavaScript and
+   is operable from the keyboard out of the box.
+   ========================================================================== */
+
+.fix {
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  padding: 0;
+  margin-bottom: var(--s3);
+}
+.fix > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: var(--s3) var(--s4);
+  font-size: var(--t-body);
+  font-weight: 800;
+  display: flex;
+  gap: var(--s3);
+  align-items: baseline;
+}
+.fix > summary::-webkit-details-marker { display: none; }
+.fix > summary::before {
+  content: "+";
+  flex: 0 0 auto;
+  font-family: var(--font-display);
+  font-weight: 900;
+  color: var(--punch);
+}
+.fix[open] > summary::before { content: "\2212"; }
+.fix[open] > summary { border-bottom: 2px solid var(--ink); }
+.fix > ol { margin: 0; padding: var(--s4) var(--s4) var(--s4) var(--s7); }
+.fix > ol > li + li { margin-top: var(--s2); }
+.fix > p { padding: 0 var(--s4) var(--s4); margin: 0; }
+
+.help-intro {
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  background: #FFF3D6;
+  padding: var(--s5);
+}
+.help-intro h2 { font-size: var(--t-h3); margin-bottom: var(--s3); }
+
+/* Where the ?topic= deep link lands. A Sun rule down the left of the topic
+   for a few seconds, so a student who was thrown here mid-task can see
+   which of the four they were sent to. Colour is never the only signal —
+   the chip in the bottom bar takes aria-current at the same time. */
+.topic { scroll-margin-top: calc(var(--nav-t) + var(--s5)); }
+.topic.is-target > h2 {
+  border-left: 6px solid var(--sun);
+  padding-left: var(--s3);
+}
+.topic__kicker { font-size: var(--t-lead); font-weight: 700; }
+
+.escalate {
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  background: var(--ink);
+  color: var(--paper);
+  padding: var(--s5);
+}
+.escalate h2 { color: var(--paper); }
+
+
+/* ==========================================================================
+   27  REFLOW FOR SECTIONS 24–26
+   ========================================================================== */
+
+
+/* The eight Build steps run two columns of four at 1024 and up (4.4 block E).
+   A single <ol>, so the numbering and the reading order stay honest; the
+   columns are a layout, not a second list. */
+ol.steps--two-col { columns: 2; column-gap: var(--s6); }
+ol.steps--two-col > li { break-inside: avoid; }
+@media (max-width: 1023px) {
+  ol.steps--two-col { columns: 1; }
+}
+
+
+@media (max-width: 767px) {
+  .dice-card--problem { flex-direction: row; }
+  .fix > summary { padding: var(--s3); }
 }
