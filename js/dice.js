@@ -128,11 +128,49 @@
            'stroke-linejoin="round">' + body + '</svg>';
   }
 
-  /* The thumbnail placeholder for CHARACTER and SITUATION cards. A framed
-     picture shape, 96px tall in the CSS, with the search term underneath as
-     the caption — so the card is complete and only the photograph is
-     missing. Every one carries the swap comment for Clair. */
+  /* Real thumbnails, downloaded and verified for the class image bank
+     (data/image-bank.csv), 400px on the long edge, in img/dice/. One entry
+     per card that has a qualifying image — c8 "A gallery attendant" has
+     none (documented in data/README.md: every open-licence candidate found
+     failed the classroom-appropriateness or legibility screen), so it
+     keeps the drawn placeholder below rather than shipping a bad photo. */
+  var THUMBS = {
+    c1:  { file: 'c1.jpg',  alt: 'A tall, headless and armless marble statue of a draped standing woman in flowing robes — the Greek personification of Peace.' },
+    c2:  { file: 'c2.jpg',  alt: 'An old man with a long grey beard and a bright red cap stands leaning wearily on a walking stick, wrapped in a heavy robe.' },
+    c3:  { file: 'c3.jpg',  alt: 'A complete polished steel suit of armour standing upright, with a closed visored helmet, plate gauntlets and articulated leg guards.' },
+    c4:  { file: 'c4.jpg',  alt: 'A sleek bronze statue of a seated cat with pierced ears and a gold nose ring, sitting alert and upright on a pedestal.' },
+    c5:  { file: 'c5.jpg',  alt: 'A giant cresting blue wave with clawing white foam towers over small boats, with snow-capped Mount Fuji visible small in the background.' },
+    c6:  { file: 'c6.jpg',  alt: 'A richly painted table scene with grapes, an oyster shell and a bright yellow lemon peeled in one long curling spiral, draped over the table’s edge.' },
+    c7:  { file: 'c7.jpg',  alt: 'A rounded green-and-white porcelain teapot painted with two colourful exotic birds in an oval panel, gilded trim, and a flower-bud lid handle — a classic 18th-century English tea set piece.' },
+    c9:  { file: 'c9.jpg',  alt: 'A fluffy young tawny owl, taxidermied and perched on a mossy branch stump, displayed close-up inside a small clear plastic museum case.' },
+    c10: { file: 'c10.png', alt: 'A gleaming black Steinway concert grand piano shown on a plain white background, lid raised, showing its full curved body and gold-lettered maker’s name.' },
+    c11: { file: 'c11.jpg', alt: 'A tall stained-glass church window showing two winged angels in blue and pink robes holding a large wooden cross, framed by cherubs and coloured glass patterns.' },
+    c12: { file: 'c12.jpg', alt: 'A full Stegosaurus skeleton with its distinctive back plates and spiked tail, mounted beside a smaller juvenile skeleton in a museum dinosaur hall.' },
+    s1:  { file: 's1.jpg',  alt: 'A long, empty museum corridor seen through a stone archway, with light streaming across the polished floor and no visitors in sight.' },
+    s2:  { file: 's2.jpg',  alt: 'A small group of young school children in a semicircle listening to a museum educator in a pink cardigan, who is holding up an animal skull in front of a taxidermy display.' },
+    s3:  { file: 's3.jpg',  alt: 'A paint roller on a long handle resting against a brick wall that is half freshly painted orange and half still bare brick, next to a metal paint tin.' },
+    s4:  { file: 's4.jpg',  alt: 'A round red fire alarm bell mounted on a wooden wall panel in a stairwell, photographed straight-on so the alarm bell brand label is readable.' },
+    s5:  { file: 's5.jpg',  alt: 'A tall stack of large wooden slatted packing crates, photographed outdoors against trees and sky.' },
+    s6:  { file: 's6.jpg',  alt: 'A large, fluffy grey-and-white ostrich-feather duster on a long wooden handle, shown close up against a plain white background.' },
+    s7:  { file: 's7.jpg',  alt: 'A dim, almost-dark corridor with a stone column and staircase, only two ceiling lamps glowing.' },
+    s8:  { file: 's8.jpg',  alt: 'A museum guide gestures while speaking to a cluster of visitors standing in front of framed artworks on a pale blue gallery wall.' },
+    s9:  { file: 's9.jpg',  alt: 'An empty photography studio: two bright softbox lights face a white paper backdrop laid out on the floor, ready for a subject to be photographed.' },
+    s10: { file: 's10.jpg', alt: 'Black-and-white photo of a young girl mid-run down a museum staircase and gallery, arms swinging, captured in motion blur, with a skylight glowing above.' },
+    s11: { file: 's11.jpg', alt: 'A stone pedestal in a park reading MORSE, with a green sign explaining the statue has been temporarily removed for conservation.' },
+    s12: { file: 's12.jpg', alt: 'Sheer cream curtains hang in front of a sunlit window, framed by heavier dark drapes pulled to each side.' }
+  };
+
+  /* The thumbnail for CHARACTER and SITUATION cards: a real photo where
+     data/image-bank.csv has a verified one (THUMBS above), a drawn
+     placeholder for the one card that doesn't (c8). The placeholder is a
+     framed picture shape, 96px tall in the CSS, with the search term
+     underneath as the caption, so the card still reads as complete. */
   function thumbPlaceholder(card) {
+    var thumb = THUMBS[card.id];
+    if (thumb) {
+      return '<img class="dice-card__thumb" src="img/dice/' + thumb.file + '" ' +
+             'alt="' + esc(thumb.alt) + '" loading="lazy" width="120" height="72">';
+    }
     return '<span class="dice-card__thumb" aria-hidden="true">' +
              '<svg viewBox="0 0 120 72" focusable="false" fill="none" stroke="currentColor" ' +
              'stroke-width="3" stroke-linejoin="round">' +
@@ -141,10 +179,9 @@
                '<circle cx="88" cy="22" r="8"/>' +
              '</svg>' +
            '</span>' +
-           '<!-- SWAP: replace the placeholder above with' +
-           '     <img class="dice-card__thumb" src="img/dice/' + card.id + '.jpg" alt="[written when the picture is downloaded]">' +
-           /* A double hyphen would close the comment early, so any that ever
-              appear in a thumb note become an em dash. */
+           '<!-- SWAP: no verified image bank candidate exists for this card' +
+           '     (see data/README.md, "what was rejected and why") —' +
+           '     if one is added later, follow the pattern above. ' +
            '     Verified candidate: ' + card.thumb.replace(/--/g, '—') + ' -->';
   }
 
