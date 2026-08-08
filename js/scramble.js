@@ -19,6 +19,8 @@
 
    Markup contract (see look.html for the worked instance)
      [data-sortboard]                the root
+         data-pick-first             the line shown when a bin is tapped with
+                                     nothing picked up yet
        [data-sort-item]              an item button
          data-title                  the item's short name, for announcements
          data-correct                the id of the correct bin in three-bin mode
@@ -38,6 +40,7 @@
        [data-sort-live]              the aria-live="polite" region
        [data-sort-scaffold]          the two-bin toggle button
          data-label-on / data-label-off
+         data-say-on / data-say-off  what the live region says on each switch
        [data-sort-reveal]            revealed when every item is placed
    ========================================================================== */
 
@@ -159,7 +162,14 @@
 
     function chooseBin(bin) {
       if (!held) {
-        showFeedback('Tap a panel first, then tap the bin you want to put it in.', false);
+        /* The word for what is being sorted differs per instance — panels on
+           1 Look, images on 4 Build — so the line is read out of the markup
+           like every other word a student sees. */
+        showFeedback(
+          root.getAttribute('data-pick-first')
+            || 'Tap an item first, then tap the bin you want to put it in.',
+          false
+        );
         return;
       }
       var item  = held;
@@ -234,9 +244,13 @@
 
       countPlaced();
       showFeedback('', false);
+      /* Also read out of the markup, so the bin names in the announcement can
+         never drift from the bin names on the page. */
       say(on
-        ? 'Two bins now. Establishing, and Close in. The close panels are back in the tray.'
-        : 'Three bins again. Establishing, Mid and Close-up. The close panels are back in the tray so you can split them.');
+        ? (scaffold && scaffold.getAttribute('data-say-on'))
+          || 'Two bins now. The close panels are back in the tray.'
+        : (scaffold && scaffold.getAttribute('data-say-off'))
+          || 'Three bins again. The close panels are back in the tray so you can split them.');
     }
 
     /* ------------------------------------------------------------- wiring   */
