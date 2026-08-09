@@ -76,7 +76,26 @@
     <div>
       <h1 class="hero__title">Four Frames</h1>
       <p class="hero__line">Four pictures, no words, one joke that lands on the last frame.</p>
-      <p class="hero__note meta">Year 8 Visual Arts &#183; six weeks &#183; you don&#8217;t have to draw.</p>
+
+      <!-- THE HOST — introduction moment. The rabbit is decorative and is
+           hidden from screen readers; the sentence beside it carries all of
+           the meaning on its own. Drawing and reasoning:
+           working/host-design-notes.md. -->
+      <div class="host" style="margin-top:var(--s5)">
+        <svg class="host__fig" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <circle cx="32" cy="32" r="30.5" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
+          <g stroke="#14141C" stroke-width="8.5" stroke-linecap="round">
+            <line x1="25.5" y1="36" x2="21.5" y2="12"/><line x1="38.5" y1="36" x2="44.5" y2="13"/></g>
+          <g stroke="#FFF9F0" stroke-width="2.8" stroke-linecap="round">
+            <line x1="25.5" y1="33" x2="22" y2="15"/><line x1="38.5" y1="33" x2="43.5" y2="16"/></g>
+          <ellipse cx="32" cy="43" rx="15.5" ry="12.5" fill="#14141C"/>
+          <circle cx="26" cy="41" r="2.4" fill="#FFF9F0"/><circle cx="38" cy="41" r="2.4" fill="#FFF9F0"/>
+          <g stroke="#FFF9F0" stroke-width="2" stroke-linecap="round" fill="none">
+            <path d="M32 46v3"/><path d="M28.5 51q3.5 2.5 7 0"/></g>
+        </svg>
+        <p class="host__say">Six weeks, Year 8 Visual Arts. You don&#8217;t have to draw, and
+        you don&#8217;t need an idea yet &#8212; this site deals you one.</p>
+      </div>
     </div>
 
     <!-- WORKED EXAMPLE STRIP.
