@@ -28,10 +28,10 @@ checkable by anyone who opens `image-bank.csv` and follows a `source_url`.
 
 | Collection | Why it's here | API used |
 |---|---|---|
-| **The Met Open Access** | About half a million artworks released with **no restrictions at all** — `isPublicDomain: true` is a hard, machine-readable flag, so a Met row is the strongest possible provenance for a CC0 claim. Best for the CHARACTER cards (statues, armour, teapots, the Hokusai wave). | `collectionapi.metmuseum.org/public/collection/v1/search` then `.../objects/{id}` |
-| **Wikimedia Commons** | The only collection with everyday, situational photography (a fire alarm bell, a feather duster, a school group) as well as museum objects. The trade-off: licence changes file to file, so every single file's own `extmetadata` was read — nothing about Commons is assumed collection-wide. | `commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=extmetadata|url` |
+| **The Met Open Access** | About half a million artworks released with **no restrictions at all** — `isPublicDomain: true` is a hard, machine-readable flag, so a Met row is the strongest possible provenance for a CC0 claim. Best for the CHARACTER cards — the armour, the teapot, the Bastet bronzes, Grandville's *Mister Vulture* and the Desplaces singerie engraving all come from here. | `collectionapi.metmuseum.org/public/collection/v1/search` then `.../objects/{id}` |
+| **Wikimedia Commons** | The only collection with everyday, situational photography (a fire alarm bell, a feather duster, a school group) as well as museum objects — and, after the anthropomorphic rebuild, the source for most of the CHARACTER cards too: the Chōjū-giga scrolls, the Bodleian manuscript margin, the Kuniyoshi cat prints, Louis Wain, Kaulbach's foxes, the Notre-Dame chimeras and Chardin's monkey painter. The trade-off: licence changes file to file, so every single file's own `extmetadata` was read — nothing about Commons is assumed collection-wide. | `commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=extmetadata|url` |
 | **Openverse** | A meta-search across millions of openly licensed photos, with the licence filter built into the query (`license_type=commercial,modification`), which is why it's strongest for the SITUATION cards that have no museum-object equivalent (a child running, a fire alarm, a tour group). | `api.openverse.org/v1/images/` |
-| **Rijksmuseum** | **Not used.** Its search API requires a registered API key; this build had none, and rather than skip verification, the Met + Commons + Openverse trio already covers all 24 cards. If a key is added later, it is a good source for European paintings and would strengthen the CHARACTER still-life and portrait cards specifically. |
+| **Rijksmuseum** | **Not used.** Its search API requires a registered API key; this build had none, and rather than skip verification, the Met + Commons + Openverse trio covers all 24 cards. If a key is added later it would be a good extra source for the European printmaking cards — Grandville and the singerie engravings especially. |
 
 ---
 
@@ -122,7 +122,48 @@ Concretely:
 
 ---
 
-## What was rejected, and why (real examples from this build)
+## What was rejected in the anthropomorphic rebuild (9 August 2026)
+
+Nine CHARACTER cards were re-sourced from scratch. These are the rejections, and they are
+more instructive than the acceptances:
+
+- **Arthur Rackham's *Aesop's Fables* (1912) and Walter Crane's *The Baby's Own Aesop*
+  (1887).** Both were on the shortlist for "a fox in a gentleman's coat" and both are
+  properly public domain. Both were rejected after the plates were **downloaded and looked
+  at**: the animals are drawn naturalistically and *unclothed*. The two most obvious
+  illustrators of dressed fable animals do not, in fact, dress them. The card became
+  Wilhelm von Kaulbach's *Reineke Fuchs* (1846) instead — a fox in a ruffed shirt, reading
+  a book. **This is the single best argument on this page for the "look at it" step**:
+  nothing in the catalogue metadata would have caught it.
+- **The Smithfield Decretals "beheading rabbit"** (British Library, Royal MS 10 E IV) is
+  literally the best "rabbit with a sword" image in any open collection, and it is a
+  decapitation with visible blood. Rejected on content, not licence.
+- **Kaulbach's *Reineke* plate 2** — a beautifully dressed fox, reclining in a larder hung
+  with skinned carcasses.
+- **Kuniyoshi's *bakeneko* prints**, including the Met's *Scene from a Ghost Story: The
+  Okazaki Cat Demon* — supernatural horror, monstrous ghost-cats, not cats behaving like
+  people.
+- **Louis Wain's *The bachelor party*** — superb dressed cats; also five cats smoking
+  cigars beside gin bottles.
+- **David Teniers the Younger's *Singerie*** (KMSKA) — the monkey is smoking a pipe and
+  drinking wine. A genuinely good satire discussion piece for a teacher; not in a
+  student-facing bank.
+- **Commons file *Medieval rabbits (7).jpg*** — the file page claims public domain, but its
+  only stated source is **Pinterest**. No manuscript, no folio, no institution. **Rejected
+  on provenance, not licence.** A licence box is only as good as the chain behind it, and
+  "someone on Commons says it's fine" is not a chain.
+- **Met "Kuniyoshi's Cats" (Paul Binnie, 2004)** — `isPublicDomain: false`. And every
+  **Yasuo** Kuniyoshi result: a 20th-century American painter, in copyright, and a real
+  trap in the Met's search index for anyone searching the name "Kuniyoshi".
+
+Two accepted images were **cropped** so the character reads at the 96px card size — the
+Bodleian manuscript's lower margin band, and the Grandville drawing away from its mount.
+Cropping is a derivative act, which is exactly why nothing ND is ever accepted into this
+bank; with PD and CC BY / CC BY-SA rows it is permitted.
+
+---
+
+## What was rejected, and why (real examples from the first build)
 
 - **The Edward Colston plinth** (Bristol) was the top Commons hit for *empty pedestal
   statue* (card s11). Rejected — not on licence grounds, but because a toppled-slaver-
@@ -231,7 +272,7 @@ licence,licence_url,attribution_line,alt_text,verified_date,notes
 | Column | What goes here |
 |---|---|
 | `id` | Unique row id, also the local filename in `img/bank/` (without extension) |
-| `deck_card` | The dice-card id and label, e.g. `c1 — A Greek marble statue` |
+| `deck_card` | The dice-card id and label, e.g. `c1 — A frolicking rabbit` |
 | `field` | `character` or `situation` |
 | `title`, `creator`, `date` | Exactly as the source's own metadata states them |
 | `holding_institution` | The Met / a named Commons uploader / the Openverse source, as the record itself names it |
