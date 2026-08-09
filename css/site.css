@@ -2007,3 +2007,18 @@ ol.steps--two-col > li { break-inside: avoid; }
   .has-steps .section { animation: step-in .18s ease-out; }
   @keyframes step-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 }
+
+/* Pills scroll sideways rather than wrap, so the bar keeps its height at
+   768px wide and the current step can always be brought into view. */
+.has-steps .botnav__steps {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  scroll-snap-type: x proximity;
+}
+.has-steps .botnav__steps::-webkit-scrollbar { display: none; }
+.has-steps .botnav__steps > li { scroll-snap-align: center; }
+
+@media (prefers-reduced-motion: reduce) {
+  .has-steps .botnav__steps { scroll-behavior: auto; }
+}

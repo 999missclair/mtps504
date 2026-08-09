@@ -102,6 +102,48 @@
 
   var current = -1;
 
+  var help = bot.querySelector('.botnav__help');
+  var helpHref = help ? help.getAttribute('href') : '';
+
+  /* Which Help Centre topic each step should open on. Anything not listed
+     falls back to the page's own default. */
+  var helpTopics = {
+    scramble: 'when-it-breaks',
+    roll: 'the-roll',
+    lock: 'the-roll',
+    post: 'posting',
+    'build-it': 'when-it-breaks',
+    steps: 'when-it-breaks',
+    sources: 'finding-pictures',
+    'bank-handoff': 'finding-pictures',
+    'licence-sort': 'finding-pictures'
+  };
+
+  var live = document.createElement('p');
+  live.className = 'visually-hidden';
+  live.setAttribute('aria-live', 'polite');
+  bot.appendChild(live);
+
+  /* Swipe between steps on a touch screen. iPad is a design target and a
+     thumb-drag is the gesture a thirteen-year-old will try first. */
+  var x0 = null, y0 = null;
+  main.addEventListener('touchstart', function (e) {
+    if (e.touches.length !== 1) return;
+    x0 = e.touches[0].clientX; y0 = e.touches[0].clientY;
+  }, { passive: true });
+  main.addEventListener('touchend', function (e) {
+    if (x0 === null) return;
+    var dx = e.changedTouches[0].clientX - x0;
+    var dy = e.changedTouches[0].clientY - y0;
+    x0 = null;
+    /* Only a deliberate sideways drag — never hijack a scroll, and never
+       steal a drag from the Panel Scramble or the licence sort. */
+    if (Math.abs(dx) > 70 && Math.abs(dx) > Math.abs(dy) * 2) {
+      if (e.target.closest('[draggable], .sortable, [class*="drag"]')) return;
+      show(dx < 0 ? current + 1 : current - 1, true);
+    }
+  }, { passive: true });
+
   function label(i) {
     var p = pills[i];
     if (!p) return '';
@@ -151,6 +193,23 @@
     }
 
     if (push) history.replaceState(null, '', '#' + (targets[i] || ''));
+
+    /* Keep the step you're on visible in the bar. On an iPad the pills scroll
+       sideways, and step 6 of 8 sits off the edge until you drag it back. */
+    if (pills[i] && pills[i].scrollIntoView) {
+      pills[i].scrollIntoView({ block: 'nearest', inline: 'center' });
+    }
+
+    /* Say the step out loud for anyone using a screen reader — the content
+       swaps without the page reloading, so nothing would announce it otherwise. */
+    if (live) live.textContent = 'Step ' + (i + 1) + ' of ' + groups.length + ': ' + label(i);
+
+    /* Point the ? at help for the step you're actually on. */
+    if (help && helpTopics[targets[i]]) {
+      help.setAttribute('href', 'help.html?topic=' + helpTopics[targets[i]]);
+    } else if (help) {
+      help.setAttribute('href', helpHref);
+    }
 
     /* Send focus to the step's own heading so a keyboard or screen-reader user
        lands in the new content instead of staying stranded in the nav. */
