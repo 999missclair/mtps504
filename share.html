@@ -81,11 +81,28 @@
 
     <div>
 
-      <p class="lead">Nobody hands you the marking key today. You build it. The class writes
-      down what a good four-frame strip actually does, we agree on six, and then you hold
-      your own strip up against them &#8212; and two other people&#8217;s. Then it goes on
-      the gallery, where the rest of Year 8 can read it. You are marked here on what you
-      notice, not on how funny you are.</p>
+      <!-- THE HOST — introduction moment. Pleased expression, and it is the
+           only place on the site that uses it: by this page there is a finished
+           strip to be pleased about. It stays outside the sections deliberately,
+           so the line about what is actually marked is on screen on all three
+           steps, not just the first. The rabbit is decorative and hidden from
+           screen readers. working/host-design-notes.md -->
+      <div class="host">
+        <svg class="host__fig" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <circle cx="32" cy="32" r="30.5" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
+          <g stroke="#14141C" stroke-width="8.5" stroke-linecap="round">
+            <line x1="25.5" y1="36" x2="22.5" y2="11"/><line x1="38.5" y1="36" x2="42.5" y2="11"/></g>
+          <g stroke="#FFF9F0" stroke-width="2.8" stroke-linecap="round">
+            <line x1="25.5" y1="33" x2="23" y2="14"/><line x1="38.5" y1="33" x2="41.5" y2="14"/></g>
+          <ellipse cx="32" cy="43" rx="15.5" ry="12.5" fill="#14141C"/>
+          <g stroke="#FFF9F0" stroke-width="2.4" stroke-linecap="round" fill="none">
+            <path d="M23.4 41.6q2.6-3.2 5.2 0"/><path d="M35.4 41.6q2.6-3.2 5.2 0"/>
+            <path d="M32 46v3"/><path d="M28 51q4 3.4 8 0"/></g>
+        </svg>
+        <p class="host__say">Nobody hands you the marking key today &#8212; the class builds
+        it, and then you hold your own strip against it. You are marked here on what you
+        notice, not on how funny you are.</p>
+      </div>
 
       <section class="section" id="criteria">
         <h2>1 &#183; Build the criteria</h2>
