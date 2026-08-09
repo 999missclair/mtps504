@@ -147,7 +147,14 @@
   function label(i) {
     var p = pills[i];
     if (!p) return '';
-    return p.textContent.replace(/^\s*\d+\s*/, '').trim();
+    /* Past five steps the pills are bare numbers, so their text is no use as a
+       label — the full heading is kept on the title attribute for exactly this.
+       Without it the forward button on 4 Build reads as a lone arrow. */
+    var t = (p.getAttribute('title') || '').trim();
+    var own = p.textContent.replace(/^\s*\d+\s*/, '').trim();
+    var text = own || t;
+    if (!own && t) text = t.split(/[—:,?(]/)[0].trim();
+    return text || ('Step ' + (i + 1));
   }
 
   function show(i, push) {
