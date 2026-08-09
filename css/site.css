@@ -2074,7 +2074,9 @@ ol.steps--two-col > li { break-inside: avoid; }
   align-self: center;
 }
 
-.host + * { margin-top: var(--s5); }
+/* The host opens a block; what follows it is part of the same thought, so the
+   gap is one step tighter than the gap between blocks. */
+.host + * { margin-top: var(--s4); }
 
 /* --- Doorways — the plain-language 2x2 from A1, used where a page has more
        than one kind of student arriving at it (4 Build). Every doorway is a
