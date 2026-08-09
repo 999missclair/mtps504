@@ -58,20 +58,67 @@ row was built by reading a live API response and copying its fields:
 
 ---
 
+## Why the bank stays open-licence, when classroom use is broader
+
+**Updated 9 August 2026.** The unit's copyright position was researched properly and it
+turned out to be two positions, not one — see
+`working/copyright-position.md` in the assignment workspace for the full paper trail. The
+short version, because it decides everything on this page:
+
+**Inside the school, students have more room than this bank uses.** A Year 8 sourcing
+images for a marked Visual Arts task is doing *research or study* (**s 40**, Copyright Act
+1968), and a Year 8 making a comedic four-frame strip out of an artwork is doing *parody or
+satire* (**s 41A**) — which the National Copyright Unit says covers "copying, adapting,
+performing and communicating". The teacher assembling a source pack for twenty-six students
+is relying on the **s 113P** statutory educational licence, which the WA Department of
+Education already pays Copyright Agency for, and which expressly permits copying "the whole
+of an artistic work".
+
+**None of that reaches a public website, and this bank is on one.** The NCU's guidance for
+people building teaching resources is unambiguous:
+
+> "If you choose to rely on the statutory licences or the educational use copyright
+> exceptions, **you can never make that material available on a public website.**"
+> — `https://smartcopying.edu.au/creating-learning-and-teaching-resources/`
+
+And the same body's condition on the statutory licence:
+
+> "Access to material copied and communicated under the Statutory Text and Artistic Works
+> Licence **must be restricted (eg by use of a password) to teachers and students. You must
+> ensure that the material is not able to be accessed by the general public.**"
+> — `https://smartcopying.edu.au/guidelines/artistic-works-and-images/`
+
+`bank.html` is deployed to Vercel. It has a public URL. Anyone can open it, including the
+marker. So the bank sits on the **public** side of that line, and on the public side the
+only thing carrying an image is an open licence you can name. **That is why nothing in the
+qualification rule below has been relaxed, and why it never should be.**
+
+The distinction is also the point pedagogically. The bank is not a fence around what
+students may use — it is the *fast* route, and it is what a public gallery of Year 8 work
+would have to be built from. Students who go off it in class are not breaking a rule; they
+are in a different, broader situation, and 4 Build now teaches them which is which.
+
+*(For completeness, and because it was checked rather than assumed: **flexible dealing is
+s 200AB**, not s 113F — s 113F is the disability provision. And s 200AB(6) makes flexible
+dealing unavailable here anyway, because s 113P already covers artistic works.)*
+
+---
+
 ## The qualification rule
 
-**Open licence only. No fair use. The institution's own object page is the source of
-record**, not a search-results thumbnail or a reverse-image-search hit. Concretely:
+**Open licence only, for everything on this public site. The institution's own object page
+is the source of record**, not a search-results thumbnail or a reverse-image-search hit.
+Concretely:
 
 - Accepted: **Public Domain, CC0, CC BY, CC BY-SA.**
 - Rejected outright: **anything ND** (No-Derivatives) — a thumbnail crop is a derivative
   work, so an ND image can never legally become a dice-card thumbnail.
 - Avoided where an alternative existed: **CC BY-NC** — fine for a genuinely non-commercial
-  class gallery (see the licence-sort activity on 4 Build, which teaches exactly this), but
-  a weaker default than a licence with no commercial condition at all.
+  class gallery, but a weaker default than a licence with no commercial condition at all.
+  As it happens no NC row survived into the final bank.
 - A result with **no licence stated** on its own page was never used, no matter how good the
-  picture — this is the rule taught on the Build page itself ("you may only use an image
-  whose licence you can name") and the bank practises what it teaches.
+  picture — this is the rule taught on the Build page itself ("anything you post publicly
+  uses an image whose licence you can name") and the bank practises what it teaches.
 
 ---
 
