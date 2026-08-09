@@ -2098,6 +2098,11 @@ ol.steps--two-col > li { break-inside: avoid; }
   max-width: 40rem;
 }
 .doorways > li { max-width: none; }
+.doorways + * { margin-top: var(--s5); }
+
+/* On 4 Build the rule strip sits directly above step one, and the two were
+   touching once the framing paragraph between them was removed. */
+.rule-strip + .section { margin-top: var(--s5); }
 
 .doorways a {
   display: flex;
