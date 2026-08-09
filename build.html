@@ -83,12 +83,11 @@
 
     <div>
 
-      <!-- BLOCK B — framing -->
-      <p class="lead">Four images, four frames, one strip. You find your pictures first
-      &#8212; start in the class image bank, where the checking is already done. Then you
-      open your own copy of the template, drop them in, write the captions and the credit
-      lines, and download the whole thing as one picture. The deck lives in your Google
-      Drive. The finished strip lives on the class gallery. Nothing lives here.</p>
+      <!-- BLOCK B — framing. It used to be a five-sentence paragraph sitting
+           outside every section, which meant it was on screen on all eight
+           steps of the pager. It is now the host's introduction moment inside
+           step one, where it belongs, and its last three sentences are gone
+           because the rule strip below says the same thing in full. -->
 
       <!-- BLOCK C — the trolley rule strip -->
       <section class="rule-strip" aria-labelledby="trolley">
@@ -117,7 +116,38 @@
                 Centre, Topic 1.
            ============================================================== -->
       <section class="section" id="build-it">
-        <h2>Get your copy of the template</h2>
+
+        <!-- THE HOST — introduction moment, plus doorways. This is the page
+             students arrive at in four different states, so it is the one page
+             that earns the plain-language 2x2: every doorway is a link to a
+             place further down this page (or to the Help Centre), and nothing
+             here is the only route to anything. The rabbit is decorative and
+             hidden from screen readers. working/host-design-notes.md -->
+        <div class="host">
+          <svg class="host__fig" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+            <circle cx="32" cy="32" r="30.5" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
+            <g stroke="#14141C" stroke-width="8.5" stroke-linecap="round">
+              <line x1="25.5" y1="36" x2="21.5" y2="12"/><line x1="38.5" y1="36" x2="44.5" y2="13"/></g>
+            <g stroke="#FFF9F0" stroke-width="2.8" stroke-linecap="round">
+              <line x1="25.5" y1="33" x2="22" y2="15"/><line x1="38.5" y1="33" x2="43.5" y2="16"/></g>
+            <ellipse cx="32" cy="43" rx="15.5" ry="12.5" fill="#14141C"/>
+            <circle cx="26" cy="41" r="2.4" fill="#FFF9F0"/><circle cx="38" cy="41" r="2.4" fill="#FFF9F0"/>
+            <g stroke="#FFF9F0" stroke-width="2" stroke-linecap="round" fill="none">
+              <path d="M32 46v3"/><path d="M28.5 51q3.5 2.5 7 0"/></g>
+          </svg>
+          <p class="host__say">Four images, four frames, one strip. This is the page where
+          the making happens &#8212; pictures first, then the template.</p>
+        </div>
+
+        <p class="doorways__q" id="doorways-q">Where are you up to?</p>
+        <ul class="doorways" aria-labelledby="doorways-q">
+          <li><a href="#bank-handoff">I haven&#8217;t got my pictures yet</a></li>
+          <li><a href="#steps">I&#8217;ve got my pictures</a></li>
+          <li><a href="#exemplar">Show me a finished one</a></li>
+          <li><a href="help.html?topic=when-it-breaks">Something isn&#8217;t working</a></li>
+        </ul>
+
+        <h2 style="margin-top:var(--s6)">Get your copy of the template</h2>
         <div class="handoff-card">
           <p class="lead">Everything you build today happens in your own copy. Take it
           once, rename it, and it is yours for the rest of the unit.</p>
@@ -247,11 +277,16 @@
            Content: activity-designs.md, "The licence sort".
            ============================================================== -->
       <section class="section" id="licence-sort">
-        <h2>Quick check: what can you actually use?</h2>
+        <h2>Quick check: where can this picture go?</h2>
         <p class="lead">Three minutes. Not marked &#8212; this one&#8217;s just so you
         don&#8217;t get caught out.</p>
         <p class="activity-note">This is a bonus support activity. It isn&#8217;t one of the
         three marked ones.</p>
+        <p>Two different questions, and people mix them up constantly.
+        <strong>Can I use this in my comic?</strong> is one question.
+        <strong>Can I put it where the whole internet can see it?</strong> is a completely
+        different one, and the answer is stricter. Sort these five and you&#8217;ll have the
+        difference.</p>
 
         <div class="card sortboard sortboard--licence" data-sortboard
              data-pick-first="Tap an image first, then tap the bin you want to put it in.">
@@ -263,9 +298,9 @@
 
               <button type="button" class="sort-item" data-sort-item
                 data-title="Museum teapot, CC0"
-                data-correct="canuse"
-                data-fb-canuse="Yes. CC0 means the creator gave up their rights on purpose. You still write the credit line &#8212; that&#8217;s a class rule, not a licence rule."
-                data-fb-canusebut="There&#8217;s no &#8216;but&#8217; on CC0 &#8212; that&#8217;s what CC0 means. The credit line is our rule, not a condition of the licence."
+                data-correct="canusebut"
+                data-fb-canusebut="Yes, both. CC0 means the creator gave up their rights on purpose, so it can go anywhere &#8212; your comic, the class board, a public website. You still write the credit line. That&#8217;s our rule, not a condition of the licence."
+                data-fb-canuse="You&#8217;re selling it short. CC0 is the most open licence there is &#8212; this one isn&#8217;t stuck in the classroom, it can go online too."
                 data-fb-cantuse="You can. CC0 is the most open licence there is. Have another look at what the letters mean.">
                 <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
                   <rect x="1.5" y="1.5" width="157" height="117" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
@@ -283,8 +318,8 @@
               <button type="button" class="sort-item" data-sort-item
                 data-title="Gallery at night, CC BY-SA"
                 data-correct="canusebut"
-                data-fb-canusebut="Yes, with a catch. BY-SA is share-alike: whatever you build from it inherits the same licence. Your finished strip would have to be CC BY-SA too. That&#8217;s fine for a class gallery &#8212; you just have to know you&#8217;ve done it."
-                data-fb-canuse="Nearly. But SA is doing something &#8212; it&#8217;s share-alike, and it passes the licence on to whatever you build. There&#8217;s a condition here."
+                data-fb-canusebut="Yes, both &#8212; with a catch. BY-SA is share-alike: whatever you build from it inherits the same licence, so your finished strip would be CC BY-SA too. It can still go online. You just have to know you&#8217;ve done it."
+                data-fb-canuse="It can go further than that. An open licence travels &#8212; this one can go online as well. The catch is what SA does to your strip, not where the picture can go."
                 data-fb-cantuse="You can use it. The SA just means your strip inherits the same licence. Try the middle bin.">
                 <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
                   <rect x="1.5" y="1.5" width="157" height="117" fill="#14141C" stroke="#14141C" stroke-width="3"/>
@@ -298,30 +333,32 @@
               </button>
 
               <button type="button" class="sort-item" data-sort-item
-                data-title="Tour group, CC BY-NC"
-                data-correct="canusebut"
-                data-fb-canusebut="Yes, with a catch. NC means non-commercial. A class gallery isn&#8217;t commercial, so you&#8217;re fine. You couldn&#8217;t sell it, put it in an ad, or use it for anything sponsored."
-                data-fb-canuse="Nearly. NC means non-commercial, and that&#8217;s a condition &#8212; it just isn&#8217;t one that stops you here."
-                data-fb-cantuse="You can use it. Your class gallery isn&#8217;t commercial. The condition matters, but it doesn&#8217;t block you.">
+                data-title="Painting photographed in a library art book"
+                data-correct="canuse"
+                data-fb-canuse="Correct, and this is the one that surprises people. In class you&#8217;re a student studying artworks and making a joke about one &#8212; the law has words for that. It can go in your comic. It cannot go on a public website, because that&#8217;s a different question with a stricter answer."
+                data-fb-canusebut="Half right. It can go in your comic. It can&#8217;t go online, because the reason you&#8217;re allowed to use it in class doesn&#8217;t follow you out onto the open internet."
+                data-fb-cantuse="You can use this one. You&#8217;re a student, studying artworks, making a joke about one &#8212; that&#8217;s exactly the situation the rules were written for. Just keep it in class.">
                 <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
                   <rect x="1.5" y="1.5" width="157" height="117" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
-                  <circle cx="44" cy="46" r="11" fill="none" stroke="#14141C" stroke-width="3"/>
-                  <path d="M28 100 v-22 a16 16 0 0132 0 v22" fill="none" stroke="#14141C" stroke-width="3"/>
-                  <circle cx="80" cy="40" r="11" fill="none" stroke="#14141C" stroke-width="3"/>
-                  <path d="M64 100 v-24 a16 16 0 0132 0 v24" fill="none" stroke="#14141C" stroke-width="3"/>
-                  <circle cx="116" cy="46" r="11" fill="none" stroke="#14141C" stroke-width="3"/>
-                  <path d="M100 100 v-22 a16 16 0 0132 0 v22" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <path d="M24 26 h52 v74 h-52 z" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <path d="M84 26 h52 v74 h-52 z" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <line x1="80" y1="22" x2="80" y2="104" stroke="#14141C" stroke-width="3"/>
+                  <rect x="94" y="40" width="32" height="26" fill="#FFC300" stroke="#14141C" stroke-width="3"/>
+                  <line x1="34" y1="44" x2="66" y2="44" stroke="#14141C" stroke-width="3"/>
+                  <line x1="34" y1="56" x2="66" y2="56" stroke="#14141C" stroke-width="3"/>
+                  <line x1="34" y1="68" x2="58" y2="68" stroke="#14141C" stroke-width="3"/>
                 </svg>
-                <span class="sort-item__title">A photo of a tour group</span>
-                <span class="sort-item__lic">CC BY-NC</span>
+                <span class="sort-item__title">A painting photographed in an art book from
+                the library</span>
+                <span class="sort-item__lic">No licence printed</span>
               </button>
 
               <button type="button" class="sort-item" data-sort-item
                 data-title="Google Images result"
-                data-correct="cantuse"
-                data-fb-cantuse="Correct. Google Images isn&#8217;t a library &#8212; it&#8217;s a search across other people&#8217;s websites. No licence stated doesn&#8217;t mean free, it means you don&#8217;t know. If you can&#8217;t name the licence, you can&#8217;t use it."
-                data-fb-canuse="How do you know? That&#8217;s the whole question. Google Images searches other people&#8217;s sites &#8212; the licence isn&#8217;t stated because Google doesn&#8217;t own any of it."
-                data-fb-canusebut="There&#8217;s no &#8216;but&#8217; available, because there&#8217;s no licence to read. No licence you can name means no.">
+                data-correct="canuse"
+                data-fb-canuse="Correct. In class, fine. Online, no. Google Images isn&#8217;t a library &#8212; it&#8217;s a search across other people&#8217;s websites, so &#8216;no licence stated&#8217; means you don&#8217;t know what you&#8217;ve got. That&#8217;s survivable in a classroom and it isn&#8217;t survivable on a public page."
+                data-fb-canusebut="Not this one. There&#8217;s no licence to read, so there&#8217;s nothing giving you permission to publish it. It can still go in the comic you make in class."
+                data-fb-cantuse="Stricter than you need to be. You can use it in class. What you can&#8217;t do is put it somewhere the whole internet can see it, because you can&#8217;t name what you&#8217;re allowed to do with it.">
                 <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
                   <rect x="1.5" y="1.5" width="157" height="117" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
                   <rect x="18" y="34" width="124" height="26" rx="13" fill="none" stroke="#14141C" stroke-width="3"/>
@@ -337,18 +374,21 @@
               </button>
 
               <button type="button" class="sort-item" data-sort-item
-                data-title="GIF from a TV show"
+                data-title="Whole page from a comic that is on sale now"
                 data-correct="cantuse"
-                data-fb-cantuse="Correct. A TV show is somebody&#8217;s copyrighted work, and a GIF of it is still their work. It&#8217;s everywhere online, and that still doesn&#8217;t make it yours. Openverse and the museum collections exist so you&#8217;ve got somewhere legitimate to go."
-                data-fb-canuse="It&#8217;s someone&#8217;s copyrighted work. Being easy to find isn&#8217;t a licence."
-                data-fb-canusebut="There&#8217;s no condition that makes this one work. It&#8217;s not licensed for you to reuse at all.">
+                data-fb-cantuse="Correct, and here&#8217;s why. Everything else on this page is you making something. This is you taking a whole page an artist is selling right now and using it as one of your four frames. You haven&#8217;t made a joke about it, you&#8217;ve replaced buying it. That&#8217;s the line."
+                data-fb-canuse="Not this one. A whole page from a comic that&#8217;s on sale is a page somebody didn&#8217;t buy. Take a small part and actually do something to it, and you&#8217;re in a different conversation."
+                data-fb-canusebut="There&#8217;s no condition that rescues this one. It isn&#8217;t about where it goes &#8212; it&#8217;s that using a whole page somebody is selling stands in for buying it.">
                 <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
                   <rect x="1.5" y="1.5" width="157" height="117" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
-                  <rect x="22" y="26" width="116" height="70" rx="6" fill="none" stroke="#14141C" stroke-width="3"/>
-                  <path d="M68 46 l30 15 l-30 15 z" fill="#C21B4B" stroke="#14141C" stroke-width="3"/>
-                  <line x1="56" y1="108" x2="104" y2="108" stroke="#14141C" stroke-width="3"/>
+                  <rect x="34" y="16" width="92" height="88" fill="none" stroke="#14141C" stroke-width="3"/>
+                  <line x1="34" y1="44" x2="126" y2="44" stroke="#14141C" stroke-width="3"/>
+                  <line x1="34" y1="72" x2="126" y2="72" stroke="#14141C" stroke-width="3"/>
+                  <line x1="80" y1="44" x2="80" y2="104" stroke="#14141C" stroke-width="3"/>
+                  <path d="M96 22 h26 v16 h-9 l-4 6 -4 -6 h-9 z" fill="#C21B4B" stroke="#14141C" stroke-width="3"/>
                 </svg>
-                <span class="sort-item__title">A GIF from a TV show</span>
+                <span class="sort-item__title">A whole page from a comic that is in the shops
+                right now</span>
                 <span class="sort-item__lic">&#169; all rights reserved</span>
               </button>
 
@@ -358,26 +398,26 @@
 
               <div class="bin" data-bin-shell>
                 <button type="button" class="bin__btn" data-sort-bin data-bin="canuse">
-                  <span class="bin__label" data-bin-label>Can use</span>
-                  <span class="bin__sub" data-bin-sub>Credit it, and you&#8217;re done.</span>
+                  <span class="bin__label" data-bin-label>In my comic</span>
+                  <span class="bin__sub" data-bin-sub>Class only. Credit it.</span>
                 </button>
-                <ul class="bin__placed" data-sort-placed aria-label="Placed in Can use"></ul>
+                <ul class="bin__placed" data-sort-placed aria-label="Placed in In my comic"></ul>
               </div>
 
               <div class="bin" data-bin-shell>
                 <button type="button" class="bin__btn" data-sort-bin data-bin="canusebut">
-                  <span class="bin__label" data-bin-label>Can use, but&#8230;</span>
-                  <span class="bin__sub" data-bin-sub>There&#8217;s a condition. Read it.</span>
+                  <span class="bin__label" data-bin-label>In my comic and online</span>
+                  <span class="bin__sub" data-bin-sub>Open licence. Goes anywhere.</span>
                 </button>
-                <ul class="bin__placed" data-sort-placed aria-label="Placed in Can use, but"></ul>
+                <ul class="bin__placed" data-sort-placed aria-label="Placed in In my comic and online"></ul>
               </div>
 
               <div class="bin" data-bin-shell>
                 <button type="button" class="bin__btn" data-sort-bin data-bin="cantuse">
-                  <span class="bin__label" data-bin-label>Can&#8217;t use</span>
-                  <span class="bin__sub" data-bin-sub>Not in something you post.</span>
+                  <span class="bin__label" data-bin-label>Not at all</span>
+                  <span class="bin__sub" data-bin-sub>Not even in class.</span>
                 </button>
-                <ul class="bin__placed" data-sort-placed aria-label="Placed in Can&#8217;t use"></ul>
+                <ul class="bin__placed" data-sort-placed aria-label="Placed in Not at all"></ul>
               </div>
 
             </div>
@@ -385,7 +425,7 @@
           </div>
 
           <p class="sortboard__progress" data-sort-progress
-             data-done="All five placed. Two of them were the interesting ones.">0 of 5 placed.</p>
+             data-done="All five placed. The middle two were the interesting ones.">0 of 5 placed.</p>
           <p class="sortboard__feedback" data-sort-feedback></p>
           <p class="visually-hidden" aria-live="polite" data-sort-live></p>
 
@@ -396,11 +436,18 @@
         <!-- Ships visible, so the page reads with JavaScript off. The script
              is what hides it until all five are placed. -->
         <div class="card" data-sort-reveal data-hide-until-done>
-          <h3>Two of these were the interesting ones</h3>
-          <p><em>No licence stated</em> isn&#8217;t the same as <em>free</em> &#8212; it
-          means you don&#8217;t know, and you can&#8217;t use what you can&#8217;t name. And
-          <strong>CC BY-SA passes its licence on to whatever you make from it.</strong>
-          Everything else on this page is easier than those two.</p>
+          <h3>The middle two were the interesting ones</h3>
+          <p>Nothing moved between bins because the picture changed. It moved because
+          <strong>the destination changed.</strong> In a classroom you are a student,
+          studying artworks, making a joke about one &#8212; and Australian copyright law has
+          two separate provisions for exactly that: <em>fair dealing for research or
+          study</em>, and <em>fair dealing for parody or satire</em>. That second one is
+          almost a description of this task.</p>
+          <p>Neither of them follows you onto the open internet. Once a picture is somewhere
+          anyone in the world can load it, the only thing carrying you is
+          <strong>an open licence you can name</strong> &#8212; CC0, CC BY, CC BY-SA, public
+          domain. That is why the class image bank is built the way it is, and it is why the
+          rule below has not changed.</p>
           <p class="small"><strong>Going further:</strong> you built your strip from a
           CC BY-SA image. Someone wants to use <em>your</em> strip. What are they allowed to
           do with it?</p>
@@ -409,8 +456,13 @@
 
       <!-- BLOCK G — the licence rule block -->
       <section class="rule-block" aria-labelledby="the-rule">
-        <h2 id="the-rule"><span class="badge" aria-hidden="true">!</span> You may only use an
-        image whose licence you can name.</h2>
+        <h2 id="the-rule"><span class="badge" aria-hidden="true">!</span> Anything you post
+        publicly uses an image whose licence you can name.</h2>
+        <p><strong>In class, you have more room than that.</strong> You are a student
+        studying artworks and making a joke about one, and that is covered. What is not
+        covered is putting somebody else&#8217;s picture where the whole internet can reach
+        it. So: build from what you need, and when it goes on the board, it goes with an open
+        licence.</p>
         <p>Every frame gets one credit line, in this order:</p>
         <div class="copyable">
           <code id="credit-format">Title &#8212; Creator &#8212; Source &#8212; Licence</code>
@@ -425,11 +477,17 @@
                   aria-label="Copy the worked credit line">Copy</button>
         </div>
         <p class="small">Four frames, four credit lines. They go in the box at the bottom of
-        your slide and in your Padlet post.</p>
+        your slide and in your Padlet post. You write them whatever the licence says &#8212;
+        that one is our rule, not the law&#8217;s, and it is how artists behave.</p>
         <p><strong>Watch CC BY-SA.</strong> Share-alike means the strip you build out of that
         image inherits the same licence &#8212; your whole comic carries it. That&#8217;s
         fine for a class gallery. You just have to know you&#8217;ve done it, which is why
         it&#8217;s here as well as in the Help Centre.</p>
+        <p><strong>The joke is doing legal work, which is a strange sentence.</strong>
+        Australia&#8217;s copyright law has a section for parody and satire &#8212; making
+        fun of something. It is why you are allowed to take a serious old painting and put a
+        thought bubble on it. It also has an edge: if you take somebody&#8217;s whole picture
+        and change nothing, you have not made a joke about it, you have just taken it.</p>
         <p><a class="tap-link" href="help.html?topic=crediting-images">How do I find the
         licence? &#8594;</a></p>
       </section>
