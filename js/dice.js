@@ -49,18 +49,18 @@
     reRollsAllowed: 1,
     verified: '2026-08-09',
     character: [
-      { id: 'c1',  label: 'A Greek marble statue',               searchTerm: 'greek marble statue bust',    thumb: 'Met 247173 — Marble statue of Eirene, ca. 14–68 CE (public domain)' },
-      { id: 'c2',  label: 'A portrait subject, tired of posing',  searchTerm: 'oil portrait painting seated', thumb: 'Commons — Oil study of an old man with a red hat, Rembrandt, c. 1654' },
-      { id: 'c3',  label: 'A suit of armour',                    searchTerm: 'suit of armor knight',        thumb: 'Met 35935 — Armor, ca. 1535 (public domain)' },
-      { id: 'c4',  label: 'An Egyptian cat sculpture',           searchTerm: 'egyptian cat bronze bastet',  thumb: 'Commons — Statuette of the goddess Bastet, bronze, Museo Egizio Turin C 268 p02' },
-      { id: 'c5',  label: 'A Japanese woodblock wave',           searchTerm: 'hokusai great wave woodblock', thumb: 'Met 39799 — Under the Wave off Kanagawa, ca. 1830–32 (public domain)' },
-      { id: 'c6',  label: 'A lemon from a Dutch still life',     searchTerm: 'dutch still life lemon',      thumb: 'Commons — Jan Davidsz. de Heem, Still-Life with a Peeled Lemon (WGA11270)' },
-      { id: 'c7',  label: 'A ceramic teapot',                    searchTerm: 'ceramic teapot porcelain',    thumb: 'Met 20144 — Teapot, ca. 1897–1900 (public domain)' },
-      { id: 'c8',  label: 'A gallery attendant',                 searchTerm: 'museum attendant',            thumb: 'Openverse — "Museum attendant" (Flickr)' },
-      { id: 'c9',  label: 'A stuffed bird in a case',            searchTerm: 'taxidermy bird glass case',   thumb: 'Commons — Display case with taxidermied birds, Natural History Museum, London' },
-      { id: 'c10', label: 'A grand piano',                       searchTerm: 'grand piano concert',         thumb: 'Commons — Steinway & Sons concert grand piano, model D-274, Hamburg' },
-      { id: 'c11', label: 'A stained-glass angel',               searchTerm: 'stained glass window angel',  thumb: 'Commons — Stained glass window with angels, Saint Antony church, St. Ulrich in Gröden' },
-      { id: 'c12', label: 'A dinosaur skeleton',                 searchTerm: 'dinosaur skeleton museum hall', thumb: 'Commons — Stegosaurus skeleton at American Museum of Natural History' }
+      { id: 'c1',  label: 'A frolicking rabbit',                    searchTerm: 'choju jinbutsu giga frolicking animals scroll', thumb: 'Commons \u2014 Ch\u014dj\u016b-jinbutsu-giga, first scroll: rabbit and fox beside the archery target (CC0)' },
+      { id: 'c2',  label: 'A rabbit with a sword, from the edge of a page', searchTerm: 'medieval marginalia hare crossbow', thumb: 'Bodleian MS. Bodl. 264 \u2014 The Romance of Alexander, folio 81v: hares hunting the hunter (public domain)' },
+      { id: 'c3',  label: 'A suit of armour',                       searchTerm: 'suit of armor knight',        thumb: 'Met 35935 \u2014 Armor, ca. 1535 (public domain)' },
+      { id: 'c4',  label: 'A cat-headed goddess',                   searchTerm: 'bastet cat headed bronze statuette', thumb: 'Met 558306 \u2014 Statuette of cat-headed Bastet, 664\u201330 BCE (public domain)' },
+      { id: 'c5',  label: 'A very well-dressed cat',                searchTerm: 'louis wain cat',              thumb: 'Commons \u2014 The Playwright, Louis Wain, 1902 (public domain)' },
+      { id: 'c6',  label: 'An animal in a frock coat',              searchTerm: 'grandville metamorphoses du jour', thumb: 'Met 821366 \u2014 Mister Vulture, J. J. Grandville, 1840 (public domain)' },
+      { id: 'c7',  label: 'A ceramic teapot',                       searchTerm: 'ceramic teapot porcelain',    thumb: 'Met 20144 \u2014 Teapot, ca. 1897\u20131900 (public domain)' },
+      { id: 'c8',  label: 'A cat behaving like a person',           searchTerm: 'kuniyoshi cat kimono print',  thumb: 'Commons \u2014 A cat dressed as a woman tapping the head of an octopus, Utagawa Kuniyoshi, ca. 1847 (public domain)' },
+      { id: 'c9',  label: 'A fox in a gentleman\u2019s coat',          searchTerm: 'kaulbach reineke fuchs fox',  thumb: 'Commons \u2014 Reineke Fuchs plate 3.1, Wilhelm von Kaulbach, 1846 (public domain)' },
+      { id: 'c10', label: 'A stone gargoyle',                       searchTerm: 'notre dame chimera gargoyle', thumb: 'Commons \u2014 Bored Gargoyle of Notre Dame, Julian Fong, 2010 (CC BY-SA 2.0)' },
+      { id: 'c11', label: 'A monkey dressed as a painter',          searchTerm: 'singe peintre monkey painter', thumb: 'Commons \u2014 Le Singe peintre, Chardin, ca. 1739\u201340, Mus\u00e9e du Louvre (public domain)' },
+      { id: 'c12', label: 'A dinosaur skeleton',                    searchTerm: 'dinosaur skeleton museum hall', thumb: 'Commons \u2014 Stegosaurus skeleton at American Museum of Natural History (CC BY 4.0)' }
     ],
     situation: [
       { id: 's1',  label: 'The museum has just closed',           searchTerm: 'museum gallery interior empty', thumb: 'Commons — Burrell Collection Interior 1 2022' },
@@ -130,21 +130,24 @@
 
   /* Real thumbnails, downloaded and verified for the class image bank
      (data/image-bank.csv), 400px on the long edge, in img/dice/. One entry
-     per card that has a qualifying image — c8 "A gallery attendant" has
-     none (documented in data/README.md: every open-licence candidate found
-     failed the classroom-appropriateness or legibility screen), so it
-     keeps the drawn placeholder below rather than shipping a bad photo. */
+     per card, and as of the anthropomorphic rebuild there are 24 of 24 —
+     the old c8 "A gallery attendant" had no qualifying open-licence image
+     and shipped a drawn placeholder. That card is gone; c8 is now "A cat
+     behaving like a person" and carries a real Kuniyoshi print, so nothing
+     on the roll page renders a placeholder any more. The fallback below is
+     kept because a future card could lose its image, not because one has. */
   var THUMBS = {
-    c1:  { file: 'c1.jpg',  alt: 'A tall, headless and armless marble statue of a draped standing woman in flowing robes — the Greek personification of Peace.' },
-    c2:  { file: 'c2.jpg',  alt: 'An old man with a long grey beard and a bright red cap stands leaning wearily on a walking stick, wrapped in a heavy robe.' },
+    c1:  { file: 'c1.jpg',  alt: 'A loose ink drawing of a rabbit sitting up on its haunches beside a fox standing on two legs holding an arrow, next to a round archery target hung between bamboo poles.' },
+    c2:  { file: 'c2.jpg',  alt: 'The painted lower margin of a medieval manuscript page, where an upright hare aims a drawn crossbow along the border at a small seated rabbit.' },
     c3:  { file: 'c3.jpg',  alt: 'A complete polished steel suit of armour standing upright, with a closed visored helmet, plate gauntlets and articulated leg guards.' },
-    c4:  { file: 'c4.jpg',  alt: 'A sleek bronze statue of a seated cat with pierced ears and a gold nose ring, sitting alert and upright on a pedestal.' },
-    c5:  { file: 'c5.jpg',  alt: 'A giant cresting blue wave with clawing white foam towers over small boats, with snow-capped Mount Fuji visible small in the background.' },
-    c6:  { file: 'c6.jpg',  alt: 'A richly painted table scene with grapes, an oyster shell and a bright yellow lemon peeled in one long curling spiral, draped over the table’s edge.' },
-    c7:  { file: 'c7.jpg',  alt: 'A rounded green-and-white porcelain teapot painted with two colourful exotic birds in an oval panel, gilded trim, and a flower-bud lid handle — a classic 18th-century English tea set piece.' },
-    c9:  { file: 'c9.jpg',  alt: 'A fluffy young tawny owl, taxidermied and perched on a mossy branch stump, displayed close-up inside a small clear plastic museum case.' },
-    c10: { file: 'c10.png', alt: 'A gleaming black Steinway concert grand piano shown on a plain white background, lid raised, showing its full curved body and gold-lettered maker’s name.' },
-    c11: { file: 'c11.jpg', alt: 'A tall stained-glass church window showing two winged angels in blue and pink robes holding a large wooden cross, framed by cherubs and coloured glass patterns.' },
+    c4:  { file: 'c4.jpg',  alt: 'A small green bronze goddess with a cat\u2019s head and pricked ears, standing in a long close-fitting dress, raising a rattle in one hand and holding a basket in the other.' },
+    c5:  { file: 'c5.png',  alt: 'A pen-and-ink drawing of a wide-eyed cat wearing a monocle and a neck ribbon, sitting upright at a desk with a quill pen gripped in one paw over an open notebook.' },
+    c6:  { file: 'c6.jpg',  alt: 'A pen drawing of a vulture-headed gentleman in a battered top hat and heavy overcoat, standing hunched with a walking cane.' },
+    c7:  { file: 'c7.jpg',  alt: 'A rounded green-and-white porcelain teapot painted with two colourful exotic birds in an oval panel, gilded trim, and a flower-bud lid handle \u2014 a classic 18th-century English tea set piece.' },
+    c8:  { file: 'c8.jpg',  alt: 'A cat standing upright in a patterned red and blue kimono holds a ladle and taps the head of a large orange octopus, with columns of Japanese text behind.' },
+    c9:  { file: 'c9.jpg',  alt: 'A fox in a white ruffed shirt sits reading an open book on a stand while a bear in a scarf bows and doffs its top hat, watched by a vixen at a cottage window.' },
+    c10: { file: 'c10.jpg', alt: 'A winged stone creature slumps with its face in its hands on a cathedral balustrade, with more carved figures behind it and the rooftops of Paris below.' },
+    c11: { file: 'c11.jpg', alt: 'A monkey in a red coat and feathered tricorn hat sits at an easel holding a brush, painting from a small white statue on a table.' },
     c12: { file: 'c12.jpg', alt: 'A full Stegosaurus skeleton with its distinctive back plates and spiked tail, mounted beside a smaller juvenile skeleton in a museum dinosaur hall.' },
     s1:  { file: 's1.jpg',  alt: 'A long, empty museum corridor seen through a stone archway, with light streaming across the polished floor and no visitors in sight.' },
     s2:  { file: 's2.jpg',  alt: 'A small group of young school children in a semicircle listening to a museum educator in a pink cardigan, who is holding up an animal skull in front of a taxidermy display.' },
@@ -162,7 +165,7 @@
 
   /* The thumbnail for CHARACTER and SITUATION cards: a real photo where
      data/image-bank.csv has a verified one (THUMBS above), a drawn
-     placeholder for the one card that doesn't (c8). The placeholder is a
+     placeholder for any card that doesn't (currently none). The placeholder is a
      framed picture shape, 96px tall in the CSS, with the search term
      underneath as the caption, so the card still reads as complete. */
   function thumbPlaceholder(card) {
