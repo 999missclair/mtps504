@@ -180,7 +180,11 @@
         fwd.innerHTML = label(i + 1) + ' →';
       } else if (nextPage) {
         fwd.setAttribute('href', nextPage.getAttribute('href'));
-        fwd.innerHTML = (nextPage.textContent || '').replace(/\s+/g, ' ').trim().split('  ')[0] + ' →';
+        /* Top-nav links carry two lines — "3 Plan" and the phase beneath it.
+           Take only the first, or the button reads "3 PLAN DESIGNING". */
+        var first = nextPage.querySelector('.topnav__label') || nextPage.querySelector('span');
+        var name = (first ? first.textContent : nextPage.textContent).replace(/\s+/g, ' ').trim();
+        fwd.innerHTML = name + ' →';
       } else {
         fwd.setAttribute('href', fwdHref);
         fwd.innerHTML = fwdHTML;
