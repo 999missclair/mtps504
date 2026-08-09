@@ -1976,3 +1976,34 @@ ol.steps--two-col > li { break-inside: avoid; }
 @media (max-width: 480px) {
   .bank-grid { grid-template-columns: 1fr; }
 }
+
+/* ===== STEPS — one screen at a time =================================
+   The bottom nav pages through a section at a time instead of scrolling.
+   Only applies once js/steps.js has run, so a no-JS page is unchanged. */
+
+[hidden] { display: none !important; }
+
+/* Keep the support rail — Stuck? and What good looks like — on screen for
+   every step. A student who needs help shouldn't have to scroll to find it. */
+.has-steps .rail {
+  position: sticky;
+  top: var(--s5);
+  align-self: start;
+  max-height: calc(100vh - 220px);
+  overflow-y: auto;
+}
+
+/* The step you're on, in the bottom nav. */
+.botnav__steps .step-pill[aria-current="step"] {
+  background: var(--sun);
+  border-color: var(--ink);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.has-steps main { padding-bottom: var(--s5); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .has-steps .section { animation: step-in .18s ease-out; }
+  @keyframes step-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+}
