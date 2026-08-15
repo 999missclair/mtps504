@@ -3,7 +3,8 @@
    The whole design system, built from working/site-map-and-design.md.
 
    Rules this file keeps, and they are claims made in the video rationale:
-   - No external requests of any kind. No CDN font, no CDN CSS, no analytics,
+   - No external requests of any kind. The display font (Fredoka) is SELF-HOSTED
+     in /fonts, loaded from our own origin — no CDN font, no CDN CSS, no analytics,
      no remote image. Every colour, every glyph and every shape is local.
    - No `outline: none` anywhere. Focus is a two-tone ring (§6.2).
    - No colour-alone meaning. Every state carries a shape or a word as well.
@@ -46,6 +47,16 @@
 /* ==========================================================================
    0  TOKENS
    ========================================================================== */
+
+/* Self-hosted display face. Fredoka is a rounded, friendly variable font —
+   warm for a Year 8 audience, legible at large sizes. One local file, no CDN. */
+@font-face {
+  font-family: "Fredoka";
+  src: url("../fonts/fredoka-var.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   /* --- Palette (§5.1). Six colours. Every pairing measured, none guessed. --- */
@@ -96,8 +107,8 @@
   --nav-b: 5.5rem;    /* 88px — one row of the bottom bar, incl. the 56px Home primary */
 
   /* --- Type (§5.2). System stacks. No CDN font, no build step. --- */
-  --font-display: "Helvetica Neue Condensed Bold", "Arial Narrow",
-                  "Segoe UI", system-ui, sans-serif;
+  --font-display: "Fredoka", ui-rounded, "SF Pro Rounded", "Segoe UI",
+                  system-ui, sans-serif;
   --font-body:    ui-sans-serif, system-ui, -apple-system,
                   "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-mono:    ui-monospace, SFMono-Regular, "SF Mono", Consolas,
