@@ -79,34 +79,59 @@
     <p class="page-question">You&#8217;ve got a plan. Now build the four frames.</p>
   </header>
 
+  <!-- Rolled-story banner — js/brief.js fills this with the student's rolled
+       story so they know what goes in each frame. -->
+  <div class="brief-banner" data-brief-banner></div>
+
   <div class="with-rail">
 
     <div>
 
-      <!-- BLOCK B — framing. It used to be a five-sentence paragraph sitting
-           outside every section, which meant it was on screen on all eight
-           steps of the pager. It is now the host's introduction moment inside
-           step one, where it belongs, and its last three sentences are gone
-           because the rule strip below says the same thing in full. -->
+      <!-- BLOCK G.5 → THE HERO. The make step is the in-site Comic Builder
+           (canvas.html). This is THE step of the page, so it comes first:
+           sourcing and legality are support below. -->
+      <section class="section section--hero" id="build-it">
+        <h2>Build your comic</h2>
+        <p class="lead"><strong>This is where you make your comic.</strong> It all happens
+        in the Comic Builder &#8212; nothing to download, no template to copy.</p>
+        <p style="margin-top:var(--s5)">
+          <a class="btn-primary btn-block" href="canvas.html">
+            Open the Comic Builder <span class="ext-glyph" aria-hidden="true">&#8594;</span>
+          </a>
+        </p>
+        <div class="card" style="margin-top:var(--s5)">
+          <ol class="steps">
+            <li><strong>Drop your four pictures into the four frames.</strong></li>
+            <li><strong>Add speech bubbles and captions.</strong></li>
+            <li><strong>Arrange the frames</strong>
+              <span class="detail">setup &#183; escalation &#183; escalation &#183;
+              punchline &#8212; the order you planned.</span></li>
+            <li><strong>Export your comic as an image.</strong></li>
+          </ol>
+        </div>
+        <p class="small">New here? Your four pictures come first &#8212; grab them from
+        <a class="tap-link" href="#get-pictures">where your pictures come from</a>, just below.
+        Memes and GIFs are fine while you&#8217;re playing around, but the finished comic you
+        post uses pictures you can name.</p>
+      </section>
 
-      <!-- BLOCK C — the trolley rule strip -->
-      <section class="rule-strip" aria-labelledby="trolley">
-        <h2 id="trolley">Before you start</h2>
+      <!-- Before you post — slimmed so it supports the builder instead of
+           blocking it. -->
+      <section class="rule-strip rule-strip--slim" aria-labelledby="trolley">
+        <h2 id="trolley">Before you post</h2>
         <ol>
-          <li><span class="num" aria-hidden="true">1</span> Nothing you make today is saved
-          on this laptop.</li>
+          <li><span class="num" aria-hidden="true">1</span> Nothing is saved on this laptop.</li>
           <li><span class="num" aria-hidden="true">2</span> Your finished comic lives on the
           class gallery &#8212; that&#8217;s the copy that lasts.</li>
-          <li><span class="num" aria-hidden="true">3</span> Get your four pictures first, build
-          second, and post before the bell.</li>
+          <li><span class="num" aria-hidden="true">3</span> Post before the bell.</li>
         </ol>
       </section>
 
       <!-- BLOCK D — get your pictures. Sourcing lives here: the class image
            bank (default), the AI preview from 3 Plan, or the open web. Folds in
-           the old bank hand-off and the three open-web source cards. There is
-           no Google Slides template any more — the make step is the in-site
-           Comic Builder further down (canvas.html).
+           the old bank hand-off and the three open-web source cards. This is
+           support for the Comic Builder above — it's where your pictures come
+           from before you build (canvas.html).
            ============================================================== -->
       <section class="section" id="get-pictures">
 
@@ -128,8 +153,9 @@
             <g stroke="#FFF9F0" stroke-width="2" stroke-linecap="round" fill="none">
               <path d="M32 46v3"/><path d="M28.5 51q3.5 2.5 7 0"/></g>
           </svg>
-          <p class="host__say">Four pictures, four frames, one strip. This is the page where
-          the making happens &#8212; pictures first, then the Comic Builder.</p>
+          <p class="host__say">Four pictures, four frames, one strip. You make it in the
+          Comic Builder up the top &#8212; this bit is just where your four pictures come
+          from.</p>
         </div>
 
         <p class="doorways__q" id="doorways-q">Where are you up to?</p>
@@ -440,33 +466,6 @@
         licence? &#8594;</a></p>
       </section>
 
-      <!-- BLOCK G.5 — Build your comic. The make step now lives in the in-site
-           Comic Builder (canvas.html), not Google Slides. Sourcing and legality
-           are handled above; here the student assembles, letters and exports. -->
-      <section class="section" id="build-it">
-        <h2>Build your comic</h2>
-        <p class="lead">This is the make step. It all happens in the Comic Builder &#8212;
-        nothing to download, no template to copy.</p>
-        <p style="margin-top:var(--s5)">
-          <a class="btn-primary btn-block" href="canvas.html">
-            Open the Comic Builder <span class="ext-glyph" aria-hidden="true">&#8594;</span>
-          </a>
-        </p>
-        <div class="card" style="margin-top:var(--s5)">
-          <ol class="steps">
-            <li><strong>Drop your four pictures into the four frames.</strong></li>
-            <li><strong>Add speech bubbles and captions.</strong></li>
-            <li><strong>Arrange the frames</strong>
-              <span class="detail">setup &#183; escalation &#183; escalation &#183;
-              punchline &#8212; the order you planned.</span></li>
-            <li><strong>Export your comic as an image.</strong></li>
-          </ol>
-        </div>
-        <p class="small">Memes and GIFs are fine while you&#8217;re building and playing
-        around &#8212; but the finished comic you post uses pictures you can name. Same rule
-        as the licence sort above.</p>
-      </section>
-
       <!-- BLOCK I — the annotated exemplar figure.
            ⚠️ NEEDS CLAIR — the finished example still needs making. The box
            below stands at the final dimensions (1600x1200, 4:3) with the
@@ -702,13 +701,13 @@
     <span class="visually-hidden">Back to 3 Plan</span>
   </a>
   <ul class="botnav__steps">
-    <li><a class="step-pill" href="#get-pictures" aria-current="step">1 Pictures</a></li>
-    <li><a class="step-pill" href="#build-it">2 Build</a></li>
+    <li><a class="step-pill" href="#build-it" aria-current="step">1 Build</a></li>
+    <li><a class="step-pill" href="#get-pictures">2 Pictures</a></li>
     <li><a class="step-pill" href="#post">3 Post</a></li>
   </ul>
   <p class="botnav__counter">
     <span class="count">1 / 3</span>
-    <span class="name">Pictures</span>
+    <span class="name">Build</span>
   </p>
   <a class="btn-primary" href="canvas.html">Open the Comic Builder &#8594;</a>
 </nav>
@@ -727,6 +726,8 @@
 <script src="js/drawer.js" defer></script>
 
 <script src="js/ai.js" defer></script>
+
+<script src="js/brief.js" defer></script>
 
 </body>
 </html>
