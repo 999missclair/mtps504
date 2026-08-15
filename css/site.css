@@ -2318,3 +2318,70 @@ body.fit .rail__close { display: block; }
   outline-offset: 3px;
   border-radius: var(--r-md);
 }
+
+/* ==========================================================================
+   32  AI HELPERS — idea / alt-text / render widgets (js/ai.js)
+   A scaffold, not the artefact: styled like a .card so it reads as support.
+   ========================================================================== */
+.ai-panel {
+  margin-top: var(--s5);
+  padding: var(--s5);
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+}
+.ai-panel h3 { margin: 0 0 var(--s3); }
+.ai-panel label {
+  display: block;
+  margin: var(--s4) 0 var(--s2);
+  font-weight: 600;
+}
+.ai-panel input[type="text"],
+.ai-panel input[type="password"],
+.ai-panel textarea {
+  width: 100%;
+  padding: var(--s3);
+  font: inherit;
+  color: var(--ink);
+  background: #fff;
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+}
+.ai-panel textarea { resize: vertical; }
+.ai-out {
+  margin-top: var(--s4);
+  padding: var(--s4);
+  background: #fff;
+  border: 2px dashed var(--ink);
+  border-radius: var(--r-sm);
+}
+.ai-questions { margin: var(--s3) 0 0; padding-left: var(--s5); }
+.ai-questions li { margin-bottom: var(--s2); }
+.ai-field { margin-top: var(--s3); }
+.ai-render-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+}
+.ai-guardrail {
+  margin: var(--s3) 0 0;
+  padding: var(--s3);
+  color: var(--ink);
+  background: rgba(194, 27, 75, .08);
+  border-left: 4px solid var(--punch);
+  border-radius: var(--r-sm);
+  font-weight: 600;
+}
+.ai-fallback { margin-top: var(--s3); color: var(--slate); }
+.ai-gate {
+  margin-top: var(--s4);
+  padding: var(--s4);
+  background: rgba(194, 27, 75, .06);
+  border: 2px solid var(--punch);
+  border-radius: var(--r-sm);
+}
+.ai-gate label { margin-top: 0; }
+.ai-gate button { margin-top: var(--s3); }
+.ai-gate__msg { margin: var(--s2) 0 0; }

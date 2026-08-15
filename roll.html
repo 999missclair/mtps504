@@ -244,6 +244,21 @@
           <p class="small">Copy it once, paste it everywhere: the class board, the planner,
           and the title of your slide.</p>
         </div>
+
+        <!-- AI idea helper — a DIVERGENT scaffold. It asks about the locked brief,
+             never writes the comic. Wired by js/ai.js ([data-ai-idea]). Fallback
+             is the three worked briefs in the Stuck? rail. -->
+        <div class="ai-panel" data-ai-idea>
+          <h3>Push your idea further</h3>
+          <p class="small">Once your brief is locked, the helper asks you 2&#8211;3 questions
+          about it. It will <strong>not</strong> write your comic &#8212; that is still your
+          job.</p>
+          <p><button type="button" class="btn-secondary" data-ai-idea-go>Ask me
+          2&#8211;3 questions</button></p>
+          <div class="ai-out" hidden></div>
+          <p class="ai-fallback small">Helper asleep? Read the three worked briefs in
+          <em>Stuck? Try this</em> and steal a shape.</p>
+        </div>
       </section>
 
       <section class="section" id="post">
@@ -439,6 +454,8 @@
 <script src="js/steps.js" defer></script>
 
 <script src="js/drawer.js" defer></script>
+
+<script src="js/ai.js" defer></script>
 
 </body>
 </html>
