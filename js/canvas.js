@@ -1,37 +1,85 @@
-/* GIF Storyboard — search G-rated GIFs (server-proxied, rating locked to g) and
-   arrange four scenes. Class-password gated. Persists to localStorage (device-only).
-   ponytail: vanilla JS, no libraries. Snapshot is a static PNG; true GIF compositing
-   would need a heavy encoder and isn't worth it for a planning tool. */
+/* Comic Builder — a cheap-Canva compositor for a four-panel wordless comic.
+   Search G-rated GIFs (server-proxied, rating locked to g), then in each of four
+   frames layer multiple image items and editable speech bubbles, and export a PNG.
+   Class-password gated. Persists to localStorage (device-only).
+   ponytail: vanilla JS, no libraries. Pointer Events cover mouse + iPad touch with
+   one code path; no drag library. */
 (function () {
   'use strict';
-  var PASS_KEY = 'ff-class-pass';       // sessionStorage — this session only
-  var STATE_KEY = 'ff-storyboard';      // localStorage — survives refresh, device only
+  var PASS_KEY = 'ff-class-pass';   // sessionStorage — this session only
+  var STATE_KEY = 'ff-comic';       // localStorage — survives refresh, device only
   var NFRAMES = 4;
+  var HINTS = ['Setup', 'Escalation', 'Escalation', 'Punchline'];
 
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var pass = sessionStorage.getItem(PASS_KEY) || '';
-  var picked = null;                    // currently selected search result
-  var frames = load();                  // [{gif, caption}, ...] length 4
 
+  var comic = load();               // [{items:[...]}, x4]
+  var active = 0;                   // active frame index
+  var idSeq = 1;                    // item id counter
+  var maxZ = 0;                     // z-index high-water mark
+  var frameEls = [];                // rendered frame DOM nodes
+
+  function clamp(v, lo, hi) { return v < lo ? lo : (v > hi ? hi : v); }
+  function nextId() { return idSeq++; }
+  function nextZ() { return ++maxZ; }
+  function announce(m) { var l = $('#live'); if (l) l.textContent = m; }
+
+  // ---- persistence --------------------------------------------------------
+  function emptyComic() {
+    return Array.from({ length: NFRAMES }, function () { return { items: [] }; });
+  }
   function load() {
     try {
       var s = JSON.parse(localStorage.getItem(STATE_KEY));
-      if (s && Array.isArray(s.frames) && s.frames.length === NFRAMES) return s.frames;
+      if (s && Array.isArray(s.frames) && s.frames.length === NFRAMES) {
+        return s.frames.map(function (f) {
+          var items = (f && Array.isArray(f.items)) ? f.items : [];
+          return {
+            items: items.filter(function (it) { return it && (it.type === 'image' || it.type === 'bubble' || it.type === 'caption'); })
+              .map(function (it) {
+                return {
+                  id: 0, type: it.type, src: it.src || '', text: it.text || '',
+                  x: +it.x || 0, y: +it.y || 0,
+                  w: it.w ? +it.w : 45, h: it.h ? +it.h : 30, z: +it.z || 0
+                };
+              })
+          };
+        });
+      }
     } catch (e) {}
-    return Array.from({ length: NFRAMES }, function () { return { gif: null, caption: '' }; });
+    return emptyComic();
+  }
+  function serialize() {
+    return { frames: comic.map(function (f) {
+      return { items: f.items.map(function (it) {
+        return { type: it.type, src: it.src, text: it.text, x: it.x, y: it.y, w: it.w, h: it.h, z: it.z };
+      }) };
+    }) };
   }
   function save() {
-    try { localStorage.setItem(STATE_KEY, JSON.stringify({ frames: frames })); } catch (e) {}
+    try {
+      localStorage.setItem(STATE_KEY, JSON.stringify(serialize()));
+      $('#save-notice').textContent = '';
+    } catch (e) {
+      // data-URL uploads can blow the ~5MB quota; don't crash, just warn.
+      $('#save-notice').textContent = 'Too big to auto-save — export your comic now to keep it.';
+    }
   }
+
+  // normalise ids + z once, after load
+  comic.forEach(function (f) { f.items.forEach(function (it) {
+    it.id = nextId();
+    if (it.z > maxZ) maxZ = it.z; else it.z = nextZ();
+  }); });
 
   // ---- gate ---------------------------------------------------------------
   function unlock() { $('#gate-section').hidden = true; $('#tool').hidden = false; renderFrames(); }
 
   async function tryPass(candidate) {
-    // Validate against the server with a tiny search. 200 = ok, 401 = wrong.
     var r = await fetch('/api/gifs?q=hello', { headers: { 'x-class-pass': candidate } });
     if (r.status === 401) return false;
-    return true; // 200, or any non-401 (e.g. 500 if GIPHY key missing) still means the pass passed
+    return true; // 200, or any non-401, means the pass got through
   }
 
   if (pass) { unlock(); }
@@ -44,6 +92,19 @@
     if (ok) { pass = val; sessionStorage.setItem(PASS_KEY, val); $('#gate-msg').textContent = ''; unlock(); }
     else if (ok === false) { $('#gate-msg').textContent = 'That password didn’t work. Check with your teacher.'; }
     else { $('#gate-msg').textContent = 'Couldn’t reach the class server. Try again.'; }
+  });
+
+  // ---- motion choice (animated / still) -----------------------------------
+  function motionStill() { var el = $('#motion-still'); return !!(el && el.checked); }
+  function motionWord() { return motionStill() ? 'still' : 'animated'; }
+  // when the choice changes, re-word any result buttons already on screen
+  Array.prototype.forEach.call(document.querySelectorAll('input[name="motion"]'), function (r) {
+    r.addEventListener('change', function () {
+      Array.prototype.forEach.call($('#results').children, function (b) {
+        var t = b.getAttribute('data-title') || 'untitled';
+        b.setAttribute('aria-label', 'Add ' + motionWord() + ' picture to frame ' + (active + 1) + ': ' + t);
+      });
+    });
   });
 
   // ---- search -------------------------------------------------------------
@@ -62,105 +123,386 @@
       data.gifs.forEach(function (g) {
         var b = document.createElement('button');
         b.type = 'button';
-        b.setAttribute('aria-label', 'Pick GIF: ' + (g.title || 'untitled'));
+        b.setAttribute('data-title', g.title || 'untitled');
+        b.setAttribute('aria-label', 'Add ' + motionWord() + ' picture to frame ' + (active + 1) + ': ' + (g.title || 'untitled'));
         var im = document.createElement('img');
         im.src = g.preview; im.alt = ''; im.loading = 'lazy';
         b.appendChild(im);
-        b.addEventListener('click', function () { pick(g, b); });
+        b.addEventListener('click', function () {
+          var src = motionStill() ? (g.still || g.full) : g.full;
+          addImageItem(src, g.title || 'GIF');
+        });
         grid.appendChild(b);
       });
     } catch (err) { msg.textContent = 'Search is unavailable right now.'; }
   });
 
-  function pick(g, btn) {
-    picked = g;
-    Array.prototype.forEach.call($('#results').children, function (c) { c.classList.remove('is-picked'); });
-    btn.classList.add('is-picked');
-    $('#place-msg').textContent = 'Got it. Now tap a frame to drop it in.';
+  // ---- adding items -------------------------------------------------------
+  function addImageItem(src, title) {
+    var it = { id: nextId(), type: 'image', src: src, text: title || '', x: 20, y: 18, w: 50, h: 55, z: nextZ() };
+    comic[active].items.push(it);
+    renderFrames(); save();
+    announce('Added a picture to frame ' + (active + 1) + '.');
+    $('#place-msg').textContent = 'Added to frame ' + (active + 1) + '. Drag it, resize the corner, or add more.';
   }
 
-  // ---- frames -------------------------------------------------------------
-  function renderFrames() {
-    var wrap = $('#frames'); wrap.innerHTML = '';
-    frames.forEach(function (f, i) {
-      var frame = document.createElement('div');
-      frame.className = 'frame';
+  function addBubble(kind) {
+    var it = { id: nextId(), type: kind, src: '', text: '', x: 16, y: 20, w: 52, h: 24, z: nextZ() };
+    comic[active].items.push(it);
+    renderFrames(); save();
+    announce('Added a ' + (kind === 'bubble' ? 'speech bubble' : 'caption') + ' to frame ' + (active + 1) + '. Type your words.');
+    var el = frameEls[active] && frameEls[active].querySelector('[data-id="' + it.id + '"] .citem__text');
+    if (el) el.focus();
+  }
 
-      var slot = document.createElement('button');
-      slot.type = 'button';
-      slot.className = 'frame__slot';
-      slot.setAttribute('aria-label', 'Frame ' + (i + 1) + (f.gif ? ', has a GIF. Tap to replace.' : ', empty. Pick a GIF then tap here.'));
-      var num = document.createElement('span'); num.className = 'frame__num'; num.textContent = i + 1; slot.appendChild(num);
-      if (f.gif) {
-        var im = document.createElement('img'); im.src = f.gif.full; im.alt = f.gif.title || ''; slot.appendChild(im);
-      } else {
-        var e = document.createElement('span'); e.className = 'frame__empty'; e.textContent = ['Setup', 'Escalation', 'Escalation', 'Punchline'][i]; slot.appendChild(e);
+  $('#add-pic-btn').addEventListener('click', function () { $('#add-pic').click(); });
+  $('#add-pic').addEventListener('change', function () {
+    var file = this.files && this.files[0];
+    this.value = '';
+    if (!file || file.type.indexOf('image') !== 0) return;
+    var reader = new FileReader();
+    reader.onload = function () { addImageItem(reader.result, file.name); };
+    reader.readAsDataURL(file);
+  });
+  $('#add-bubble').addEventListener('click', function () { addBubble('bubble'); });
+  $('#add-caption').addEventListener('click', function () { addBubble('caption'); });
+
+  // PASTE an image straight in
+  document.addEventListener('paste', function (e) {
+    if ($('#tool').hidden) return;
+    var items = (e.clipboardData && e.clipboardData.items) || [];
+    for (var i = 0; i < items.length; i++) {
+      if (items[i].type && items[i].type.indexOf('image') === 0) {
+        var file = items[i].getAsFile();
+        if (file) {
+          var r = new FileReader();
+          r.onload = function () { addImageItem(r.result, 'Pasted picture'); };
+          r.readAsDataURL(file);
+          e.preventDefault();
+        }
+        break;
       }
-      slot.addEventListener('click', function () { placeInto(i); });
-      frame.appendChild(slot);
+    }
+  });
 
-      var cap = document.createElement('input');
-      cap.className = 'frame__cap'; cap.type = 'text'; cap.value = f.caption || '';
-      cap.placeholder = 'Caption (optional)'; cap.setAttribute('aria-label', 'Caption for frame ' + (i + 1));
-      cap.addEventListener('input', function () { frames[i].caption = cap.value; save(); });
-      frame.appendChild(cap);
+  // ---- selection + active frame ------------------------------------------
+  function deselectAll() {
+    Array.prototype.forEach.call(document.querySelectorAll('.citem.is-selected'), function (n) {
+      n.classList.remove('is-selected');
+    });
+  }
+  function activate(i) {
+    active = i;
+    frameEls.forEach(function (fe, idx) { fe.classList.toggle('is-active', idx === i); });
+    announce('Frame ' + (i + 1) + ' is active.');
+    $('#place-msg').textContent = 'Frame ' + (i + 1) + ' is active. Add a picture or a speech bubble.';
+  }
+  function selectItem(el, item, fi) {
+    deselectAll();
+    el.classList.add('is-selected');
+    item.z = nextZ(); el.style.zIndex = item.z;
+    if (fi !== active) activate(fi);
+    save();
+  }
 
-      var bar = document.createElement('div'); bar.className = 'frame__bar';
-      var clr = document.createElement('button'); clr.type = 'button'; clr.className = 'btn-secondary';
-      clr.textContent = 'Clear'; clr.addEventListener('click', function () { frames[i].gif = null; save(); renderFrames(); });
-      bar.appendChild(clr);
-      frame.appendChild(bar);
+  function removeItem(fi, item, el) {
+    var arr = comic[fi].items;
+    var idx = arr.indexOf(item);
+    if (idx > -1) arr.splice(idx, 1);
+    if (el && el.parentNode) el.parentNode.removeChild(el);
+    // if frame is now empty, re-render to bring the hint back
+    if (!arr.length) renderFrames();
+    save();
+    announce('Removed an item from frame ' + (fi + 1) + '.');
+  }
+
+  // ---- rendering ----------------------------------------------------------
+  function applyPos(el, it) {
+    el.style.left = it.x + '%'; el.style.top = it.y + '%';
+    el.style.width = it.w + '%'; el.style.height = it.h + '%';
+  }
+
+  function makeItemEl(it, fi, frameEl) {
+    var el = document.createElement('div');
+    el.className = 'citem citem--' + it.type;
+    el.dataset.id = it.id;
+    el.tabIndex = 0;
+    el.style.zIndex = it.z;
+    applyPos(el, it);
+
+    if (it.type === 'image') {
+      el.setAttribute('role', 'img');
+      el.setAttribute('aria-label', 'Picture: ' + (it.text || 'image') + '. Drag to move, arrow keys to nudge.');
+      var im = document.createElement('img');
+      im.src = it.src; im.alt = it.text || ''; im.draggable = false;
+      el.appendChild(im);
+    } else {
+      var label = it.type === 'bubble' ? 'Speech bubble' : 'Caption';
+      el.setAttribute('aria-label', label + '. Press Enter to edit the text, arrow keys to nudge.');
+      var text = document.createElement('div');
+      text.className = 'citem__text';
+      text.contentEditable = 'true';
+      text.setAttribute('role', 'textbox');
+      text.setAttribute('aria-label', label + ' text');
+      text.setAttribute('data-placeholder', it.type === 'bubble' ? 'Say something…' : 'Caption…');
+      text.textContent = it.text || '';
+      text.addEventListener('input', function () { it.text = text.textContent; save(); });
+      // keep the bubble activated while typing, but don't let typing move it
+      text.addEventListener('pointerdown', function (e) { e.stopPropagation(); activate(fi); selectItem(el, it, fi); });
+      el.appendChild(text);
+    }
+
+    // delete button
+    var del = document.createElement('button');
+    del.type = 'button'; del.className = 'citem__del'; del.textContent = '×';
+    del.setAttribute('aria-label', 'Delete this item');
+    del.addEventListener('pointerdown', function (e) { e.stopPropagation(); });
+    del.addEventListener('click', function (e) { e.stopPropagation(); removeItem(fi, it, el); });
+    el.appendChild(del);
+
+    // resize handle (bottom-right)
+    var handle = document.createElement('div');
+    handle.className = 'citem__handle'; handle.setAttribute('aria-hidden', 'true');
+    el.appendChild(handle);
+    wireResize(handle, el, it, frameEl);
+
+    wireDrag(el, it, fi, frameEl);
+    wireKeys(el, it, fi);
+    return el;
+  }
+
+  function wireDrag(el, it, fi, frameEl) {
+    var startX, startY, origX, origY, rect, dragging, pid;
+    el.addEventListener('pointerdown', function (e) {
+      if (e.target.classList.contains('citem__handle') || e.target.classList.contains('citem__del')) return;
+      selectItem(el, it, fi);
+      pid = e.pointerId;
+      rect = frameEl.getBoundingClientRect();
+      startX = e.clientX; startY = e.clientY; origX = it.x; origY = it.y;
+      dragging = false;
+    });
+    el.addEventListener('pointermove', function (e) {
+      if (pid === undefined || e.pointerId !== pid) return;
+      var dx = e.clientX - startX, dy = e.clientY - startY;
+      if (!dragging) {
+        if (Math.abs(dx) + Math.abs(dy) < 4) return;
+        dragging = true;
+        var a = document.activeElement;
+        if (a && el.contains(a) && a !== el) a.blur();
+        try { el.setPointerCapture(pid); } catch (_) {}
+      }
+      e.preventDefault();
+      it.x = clamp(origX + dx / rect.width * 100, 0, 100 - it.w);
+      it.y = clamp(origY + dy / rect.height * 100, 0, 100 - it.h);
+      el.style.left = it.x + '%'; el.style.top = it.y + '%';
+    });
+    function end(e) {
+      if (pid === undefined) return;
+      try { el.releasePointerCapture(pid); } catch (_) {}
+      var was = dragging; pid = undefined; dragging = false;
+      if (was) save();
+      else if (it.type !== 'image') { var t = el.querySelector('.citem__text'); if (t) t.focus(); }
+    }
+    el.addEventListener('pointerup', end);
+    el.addEventListener('pointercancel', end);
+  }
+
+  function wireResize(handle, el, it, frameEl) {
+    var rect, pid;
+    handle.addEventListener('pointerdown', function (e) {
+      e.stopPropagation(); e.preventDefault();
+      pid = e.pointerId;
+      rect = frameEl.getBoundingClientRect();
+      try { handle.setPointerCapture(pid); } catch (_) {}
+    });
+    handle.addEventListener('pointermove', function (e) {
+      if (pid === undefined || e.pointerId !== pid) return;
+      e.preventDefault();
+      var nw = (e.clientX - rect.left) / rect.width * 100 - it.x;
+      var nh = (e.clientY - rect.top) / rect.height * 100 - it.y;
+      it.w = clamp(nw, 8, 100 - it.x);
+      it.h = clamp(nh, 8, 100 - it.y);
+      el.style.width = it.w + '%'; el.style.height = it.h + '%';
+    });
+    function end() {
+      if (pid === undefined) return;
+      try { handle.releasePointerCapture(pid); } catch (_) {}
+      pid = undefined; save();
+    }
+    handle.addEventListener('pointerup', end);
+    handle.addEventListener('pointercancel', end);
+  }
+
+  function wireKeys(el, it, fi) {
+    el.addEventListener('keydown', function (e) {
+      if (e.target !== el) return; // don't hijack keys while editing text
+      var STEP = 3, moved = false;
+      switch (e.key) {
+        case 'ArrowLeft':  if (e.shiftKey) it.w = clamp(it.w - STEP, 8, 100 - it.x); else it.x = clamp(it.x - STEP, 0, 100 - it.w); moved = true; break;
+        case 'ArrowRight': if (e.shiftKey) it.w = clamp(it.w + STEP, 8, 100 - it.x); else it.x = clamp(it.x + STEP, 0, 100 - it.w); moved = true; break;
+        case 'ArrowUp':    if (e.shiftKey) it.h = clamp(it.h - STEP, 8, 100 - it.y); else it.y = clamp(it.y - STEP, 0, 100 - it.h); moved = true; break;
+        case 'ArrowDown':  if (e.shiftKey) it.h = clamp(it.h + STEP, 8, 100 - it.y); else it.y = clamp(it.y + STEP, 0, 100 - it.h); moved = true; break;
+        case 'Delete': case 'Backspace': e.preventDefault(); removeItem(fi, it, el); return;
+        case 'Enter':
+          if (it.type !== 'image') { var t = el.querySelector('.citem__text'); if (t) { t.focus(); e.preventDefault(); } }
+          return;
+        default: return;
+      }
+      if (moved) { e.preventDefault(); applyPos(el, it); if (!el.classList.contains('is-selected')) selectItem(el, it, fi); save(); }
+    });
+    el.addEventListener('focus', function () { if (fi !== active) activate(fi); });
+  }
+
+  function renderFrames() {
+    var wrap = $('#frames'); wrap.innerHTML = ''; frameEls = [];
+    comic.forEach(function (f, i) {
+      var frame = document.createElement('div');
+      frame.className = 'frame' + (i === active ? ' is-active' : '');
+
+      var num = document.createElement('span');
+      num.className = 'frame__num'; num.textContent = i + 1;
+      frame.appendChild(num);
+
+      if (!f.items.length) {
+        var hint = document.createElement('div');
+        hint.className = 'frame__hint'; hint.textContent = HINTS[i];
+        frame.appendChild(hint);
+      }
+
+      // click on empty part activates + deselects
+      frame.addEventListener('pointerdown', function (e) {
+        if (e.target === frame || e.target.classList.contains('frame__hint')) {
+          activate(i); deselectAll();
+        }
+      });
+
+      f.items.forEach(function (it) { frame.appendChild(makeItemEl(it, i, frame)); });
 
       wrap.appendChild(frame);
+      frameEls.push(frame);
     });
   }
 
-  function placeInto(i) {
-    if (!picked) { $('#place-msg').textContent = 'Pick a GIF above first, then tap a frame.'; return; }
-    frames[i].gif = { id: picked.id, full: picked.full, title: picked.title };
-    save(); renderFrames();
-    $('#place-msg').textContent = 'Dropped into frame ' + (i + 1) + '. Pick another.';
-  }
-
+  // ---- clear all ----------------------------------------------------------
   $('#clear-btn').addEventListener('click', function () {
-    frames = Array.from({ length: NFRAMES }, function () { return { gif: null, caption: '' }; });
-    save(); renderFrames();
+    comic = emptyComic(); active = 0; maxZ = 0;
+    renderFrames(); save();
+    announce('Cleared all four frames.');
+    $('#place-msg').textContent = 'Frame 1 is active. Add a picture or a speech bubble.';
   });
 
-  // ---- snapshot (static PNG; falls back to a screenshot tip if CORS taints) ----
-  $('#snapshot-btn').addEventListener('click', function () {
-    var msg = $('#snapshot-msg'); msg.textContent = 'Building your snapshot…';
-    var W = 800, H = 640, cw = W / 2, ch = H / 2;
+  // ---- export -------------------------------------------------------------
+  // ponytail: GIPHY's CDN generally allows CORS, so drawImage exports fine. If a
+  // picture ever taints the canvas, the upgrade path is a same-origin image proxy
+  // (fetch the bytes server-side and re-serve them) so the export never taints.
+  function roundRect(ctx, x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+  function wrapText(ctx, text, cx, cy, maxW, lh) {
+    var words = text.split(/\s+/), lines = [], line = '';
+    for (var i = 0; i < words.length; i++) {
+      var test = line ? line + ' ' + words[i] : words[i];
+      if (ctx.measureText(test).width > maxW && line) { lines.push(line); line = words[i]; }
+      else line = test;
+    }
+    if (line) lines.push(line);
+    var startY = cy - (lines.length * lh) / 2 + lh / 2;
+    for (var j = 0; j < lines.length; j++) ctx.fillText(lines[j], cx, startY + j * lh);
+  }
+  function drawBubble(ctx, it, x, y, w, h) {
+    var r = Math.min(20, h * 0.3, w * 0.3);
+    roundRect(ctx, x, y, w, h, r);
+    ctx.fillStyle = '#FFFFFF'; ctx.fill();
+    ctx.lineWidth = it.type === 'bubble' ? 5 : 3;
+    ctx.strokeStyle = it.type === 'bubble' ? '#14141C' : '#5b5b66';
+    ctx.stroke();
+    if (it.type === 'bubble') {
+      ctx.beginPath();
+      ctx.moveTo(x + w * 0.22, y + h - 4);
+      ctx.lineTo(x + w * 0.20, y + h + 22);
+      ctx.lineTo(x + w * 0.40, y + h - 4);
+      ctx.closePath();
+      ctx.fillStyle = '#FFFFFF'; ctx.fill();
+      ctx.lineWidth = 5; ctx.strokeStyle = '#14141C'; ctx.stroke();
+    }
+    var txt = (it.text || '').trim();
+    if (!txt) return;
+    ctx.fillStyle = '#14141C';
+    var fs = Math.max(16, Math.min(30, h * 0.28));
+    ctx.font = (it.type === 'bubble' ? 'bold ' : '') + fs + 'px system-ui, -apple-system, sans-serif';
+    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    wrapText(ctx, txt, x + w / 2, y + h / 2, w - 20, fs * 1.25);
+    ctx.textAlign = 'start'; ctx.textBaseline = 'alphabetic';
+  }
+
+  $('#export-btn').addEventListener('click', function () {
+    var msg = $('#export-msg'); msg.textContent = 'Building your comic…';
+    var CELL_W = 600, CELL_H = 450, GAP = 18;
+    var W = CELL_W * 2 + GAP * 3, H = CELL_H * 2 + GAP * 3;
+    var anyItem = comic.some(function (f) { return f.items.length; });
+    if (!anyItem) { msg.textContent = 'Add a picture or a bubble to a frame first.'; return; }
+
     var cv = document.createElement('canvas'); cv.width = W; cv.height = H;
     var ctx = cv.getContext('2d');
     ctx.fillStyle = '#FFF9F0'; ctx.fillRect(0, 0, W, H);
-    var todo = frames.filter(function (f) { return f.gif; }).length;
-    if (!todo) { msg.textContent = 'Add a GIF to a frame first.'; return; }
-    var done = 0, failed = false;
-    frames.forEach(function (f, i) {
-      var x = (i % 2) * cw, y = Math.floor(i / 2) * ch;
-      ctx.strokeStyle = '#14141C'; ctx.lineWidth = 4; ctx.strokeRect(x + 2, y + 2, cw - 4, ch - 4);
-      if (!f.gif) return;
-      var im = new Image(); im.crossOrigin = 'anonymous';
-      im.onload = function () {
-        try { ctx.drawImage(im, x + 6, y + 6, cw - 12, ch - 48); } catch (e) { failed = true; }
-        if (f.caption) { ctx.fillStyle = '#14141C'; ctx.font = '18px system-ui, sans-serif';
-          ctx.fillText(String(f.caption).slice(0, 40), x + 10, y + ch - 16); }
-        if (++done === todo) finish();
-      };
-      im.onerror = function () { failed = true; if (++done === todo) finish(); };
-      im.src = f.gif.full;
+
+    // preload all image items, then draw everything in z-order
+    var imgItems = [];
+    comic.forEach(function (f) { f.items.forEach(function (it) { if (it.type === 'image') imgItems.push(it); }); });
+    var loaded = {}, pending = imgItems.length, anyFail = false;
+
+    function fail() {
+      msg.textContent = 'Couldn’t save an image (a picture blocked it). Take a screenshot instead — on a Mac, Shift-Cmd-4.';
+    }
+    function afterLoad() { try { draw(); } catch (e) { fail(); } }
+
+    if (pending === 0) afterLoad();
+    else imgItems.forEach(function (it) {
+      var im = new Image();
+      im.crossOrigin = 'anonymous';
+      im.onload = function () { loaded[it.id] = im; if (--pending === 0) afterLoad(); };
+      im.onerror = function () { anyFail = true; if (--pending === 0) afterLoad(); };
+      im.src = it.src;
     });
-    function finish() {
-      var url;
-      try { url = cv.toDataURL('image/png'); } catch (e) { failed = true; }
-      if (failed || !url) {
-        msg.textContent = 'Couldn’t save an image (the GIF host blocked it). Take a screenshot instead — on a Mac, Shift-Cmd-4.';
-        return;
+
+    function draw() {
+      for (var i = 0; i < NFRAMES; i++) {
+        var col = i % 2, row = Math.floor(i / 2);
+        var fx = GAP + col * (CELL_W + GAP), fy = GAP + row * (CELL_H + GAP);
+        ctx.fillStyle = '#FFF9F0'; ctx.fillRect(fx, fy, CELL_W, CELL_H);
+        ctx.strokeStyle = '#14141C'; ctx.lineWidth = 6; ctx.strokeRect(fx + 3, fy + 3, CELL_W - 6, CELL_H - 6);
+
+        var items = comic[i].items.slice().sort(function (a, b) { return a.z - b.z; });
+        items.forEach(function (it) {
+          var dx = fx + (it.x / 100) * CELL_W, dy = fy + (it.y / 100) * CELL_H;
+          var dw = (it.w / 100) * CELL_W, dh = (it.h / 100) * CELL_H;
+          if (it.type === 'image') {
+            var im = loaded[it.id];
+            if (im && im.width) {
+              var s = Math.min(dw / im.width, dh / im.height);
+              var iw = im.width * s, ih = im.height * s;
+              try { ctx.drawImage(im, dx + (dw - iw) / 2, dy + (dh - ih) / 2, iw, ih); } catch (e) { anyFail = true; }
+            }
+          } else {
+            drawBubble(ctx, it, dx, dy, dw, dh);
+          }
+        });
       }
-      var a = document.createElement('a'); a.href = url; a.download = 'four-frames-storyboard.png';
+      var url;
+      try { url = cv.toDataURL('image/png'); } catch (e) { fail(); return; }
+      if (!url) { fail(); return; }
+      var a = document.createElement('a');
+      a.href = url; a.download = 'four-frames-comic.png';
       document.body.appendChild(a); a.click(); a.remove();
-      msg.textContent = 'Saved a snapshot to your Downloads.';
+      msg.textContent = anyFail
+        ? 'Saved your comic — but a picture was skipped. Screenshot if you need it exact.'
+        : 'Saved your comic to Downloads.';
     }
   });
 

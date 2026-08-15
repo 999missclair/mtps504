@@ -14,9 +14,11 @@ module.exports = async function handler(req, res) {
   const key = process.env.GIPHY_API_KEY;
   if (!key) return res.status(500).json({ error: 'GIPHY_API_KEY is not set.' });
 
-  // rating LOCKED to g. bundle keeps payloads small; lang en.
+  // rating LOCKED to g. No bundle: the messaging bundle omits the *_still
+  // renditions, and we need fixed_height_still so a student can drop a STATIC
+  // image (not just an animated GIF). Full images object is fine for a class.
   const url = `${GIPHY}?api_key=${encodeURIComponent(key)}&q=${encodeURIComponent(q.slice(0,80))}`
-    + `&rating=g&limit=24&offset=${offset}&lang=en&bundle=messaging_non_clips`;
+    + `&rating=g&limit=24&offset=${offset}&lang=en`;
 
   try {
     const r = await fetch(url);
@@ -30,6 +32,10 @@ module.exports = async function handler(req, res) {
         title: g.title || '',
         preview: g.images?.fixed_height_small?.url || g.images?.fixed_height?.url,
         full: g.images?.fixed_height?.url || g.images?.original?.url,
+        // still = a static frame of the same GIF, so a student can place it as a
+        // plain image (no motion) in their comic. Falls back to the animated url.
+        still: g.images?.fixed_height_still?.url || g.images?.original_still?.url
+             || g.images?.fixed_height?.url,
         w: parseInt(g.images?.fixed_height?.width || '0', 10),
         h: parseInt(g.images?.fixed_height?.height || '0', 10),
       }))
