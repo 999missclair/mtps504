@@ -90,10 +90,24 @@ function rateLimited(ip, limit = 20, windowMs = 60000) {
   return rec.n > limit;
 }
 
-// Shared request guard: POST only, JSON body, rate limit. Returns parsed body or null (already responded).
+// Class-password gate. If CLASS_PASSWORD is set (production), every /api call must send a matching
+// x-class-pass header — checked server-side, so the live tools won't serve without the teacher's
+// password. If unset (local dev), it's open. ponytail: one shared secret, header-checked — "simple
+// gating for education use", exactly what was asked, and honest that it isn't high-security auth.
+function classPassOk(req) {
+  const want = process.env.CLASS_PASSWORD;
+  if (!want) return true;
+  return ((req.headers['x-class-pass'] || '').trim() === want);
+}
+
+// Shared request guard: POST only, class password, JSON body, rate limit. Returns parsed body or null.
 async function guard(req, res) {
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'POST only' });
+    return null;
+  }
+  if (!classPassOk(req)) {
+    res.status(401).json({ error: 'Enter the class password to use this.' });
     return null;
   }
   const ip = (req.headers['x-forwarded-for'] || '').split(',')[0].trim() || 'unknown';
@@ -106,4 +120,4 @@ async function guard(req, res) {
   return body || {};
 }
 
-module.exports = { chatText, chatImage, guard, TEXT_MODEL, IMAGE_MODEL };
+module.exports = { chatText, chatImage, guard, classPassOk, TEXT_MODEL, IMAGE_MODEL };

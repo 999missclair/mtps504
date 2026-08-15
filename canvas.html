@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GIF Storyboard &#8212; Four Frames</title>
+<meta name="description" content="Four Frames &#8212; test your four scenes with G-rated GIFs before you build.">
+<link rel="stylesheet" href="css/site.css">
+<style>
+  /* Canvas-specific layout. Tokens only; no new colours. */
+  .gate { max-width: 30rem; }
+  .gate input[type=password]{ font-size:var(--t-body); padding:var(--s3); border:2px solid var(--ink);
+    border-radius:var(--r-md); width:100%; margin:var(--s3) 0; }
+  .gif-search { display:flex; gap:var(--s3); margin:var(--s4) 0; }
+  .gif-search input[type=search]{ flex:1; font-size:var(--t-body); padding:var(--s3);
+    border:2px solid var(--ink); border-radius:var(--r-md); }
+  .gif-results { display:grid; grid-template-columns:repeat(auto-fill,minmax(120px,1fr));
+    gap:var(--s3); margin-top:var(--s4); }
+  .gif-results button { padding:0; border:3px solid transparent; border-radius:var(--r-sm);
+    background:var(--ink); cursor:pointer; overflow:hidden; aspect-ratio:1; }
+  .gif-results button.is-picked { border-color:var(--sun); }
+  .gif-results img { width:100%; height:100%; object-fit:cover; display:block; }
+  .frames { display:grid; grid-template-columns:1fr 1fr; gap:var(--s4); margin-top:var(--s4); }
+  .frame { border:3px solid var(--ink); border-radius:var(--r-md); overflow:hidden; background:var(--paper); }
+  .frame.is-active { border-color:var(--sun); }
+  .frame__slot { width:100%; aspect-ratio:4/3; display:flex; align-items:center; justify-content:center;
+    background:repeating-linear-gradient(45deg,#EFE7D8,#EFE7D8 8px,#F6F0E4 8px,#F6F0E4 16px);
+    position:relative; border:0; cursor:pointer; padding:0; }
+  .frame__slot img { width:100%; height:100%; object-fit:cover; }
+  .frame__num { position:absolute; top:6px; left:6px; background:var(--ink); color:var(--paper);
+    font-family:var(--font-display); font-size:var(--t-sm); padding:2px 8px; border-radius:var(--r-sm); }
+  .frame__empty { color:var(--slate); font-size:var(--t-sm); padding:var(--s4); text-align:center; }
+  .frame__cap { width:100%; border:0; border-top:2px solid var(--ink); padding:var(--s3);
+    font-size:var(--t-sm); font-family:var(--font-body); }
+  .frame__bar { display:flex; gap:var(--s2); padding:var(--s2); border-top:2px solid var(--ink); }
+  .frame__bar button { font-size:var(--t-sm); padding:2px 8px; }
+  .giphy-mark { font-size:var(--t-sm); color:var(--slate); margin-top:var(--s3); }
+  [hidden]{ display:none !important; }
+  @media (prefers-reduced-motion: reduce){ .frame__slot img, .gif-results img { }} /* GIFs animate; a stills-only mode is a future option */
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<nav class="topnav" aria-label="Project phases">
+  <a class="topnav__brand" href="index.html"><span class="mark" aria-hidden="true">&#9638;</span> Four Frames</a>
+  <ul class="topnav__list">
+    <li class="is-pinned is-pinned--start"><a class="topnav__link" href="index.html"><span class="topnav__label">Home</span></a></li>
+    <li><a class="topnav__link" href="brief.html"><span class="topnav__label">Brief</span><span class="topnav__sub">Project overview</span></a></li>
+    <li><a class="topnav__link" href="look.html"><span class="topnav__label"><span class="topnav__num">1</span> Look</span><span class="topnav__sub">Investigating &amp; defining</span></a></li>
+    <li><a class="topnav__link" href="roll.html"><span class="topnav__label"><span class="topnav__num">2</span> Roll</span><span class="topnav__sub">Designing</span></a></li>
+    <li><a class="topnav__link" href="plan.html"><span class="topnav__label"><span class="topnav__num">3</span> Plan</span><span class="topnav__sub">Designing</span></a></li>
+    <li><a class="topnav__link" href="build.html"><span class="topnav__label"><span class="topnav__num">4</span> Build</span><span class="topnav__sub">Producing &amp; implementing</span></a></li>
+    <li><a class="topnav__link" href="share.html"><span class="topnav__label"><span class="topnav__num">5</span> Share</span><span class="topnav__sub">Evaluating</span></a></li>
+    <li class="is-pinned is-pinned--end"><a class="topnav__link" href="help.html"><span class="topnav__label">Help</span></a></li>
+  </ul>
+</nav>
+
+<main id="main">
+<div class="page-shell">
+
+  <header class="page-header">
+    <p class="phase-tag">Designing &#8212; a warm-up</p>
+    <h1>GIF Storyboard</h1>
+    <p class="page-question">Block out your four scenes with GIFs before you build the real thing.</p>
+  </header>
+
+  <!-- CLASS PASSWORD GATE. Shown until unlocked. The tools call /api, which the server
+       refuses without the class password (when CLASS_PASSWORD is set in the env). -->
+  <section class="section" id="gate-section">
+    <div class="card gate">
+      <h2>Class password</h2>
+      <p>This tool is for class use. Enter the password your teacher gave you.</p>
+      <form id="gate-form">
+        <label class="visually-hidden" for="gate-input">Class password</label>
+        <input type="password" id="gate-input" autocomplete="off" placeholder="Class password">
+        <button type="submit" class="btn-primary btn-block">Unlock the storyboard</button>
+      </form>
+      <p class="small" id="gate-msg" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <!-- THE TOOL. Hidden until unlocked. -->
+  <div id="tool" hidden>
+
+    <div class="rule-strip" style="margin-bottom:var(--s5)">
+      <h2 style="font-size:var(--t-h3)">Why the GIFs stay in class</h2>
+      <p style="color:var(--paper)">GIFs are mostly clips from TV and film &#8212; somebody else&#8217;s
+      work. In class, for planning, you can use them. They <strong>don&#8217;t go on the public
+      gallery</strong> &#8212; your finished comic there uses open-licence pictures, the ones you can
+      name. This is the same rule you sorted on 4 Build.</p>
+    </div>
+
+    <section class="section">
+      <h2>1 &#183; Find a GIF</h2>
+      <p class="lead">Search a feeling or a thing &#8212; <em>surprise</em>, <em>slow clap</em>,
+      <em>cat</em>. Everything here is rated G.</p>
+      <form class="gif-search" id="search-form" role="search">
+        <label class="visually-hidden" for="search-input">Search for a GIF</label>
+        <input type="search" id="search-input" placeholder="Try: surprise" autocomplete="off">
+        <button type="submit" class="btn-primary">Search</button>
+      </form>
+      <p class="small" id="search-msg" aria-live="polite"></p>
+      <div class="gif-results" id="results" aria-label="Search results"></div>
+      <p class="giphy-mark">Powered by GIPHY. G-rated only.</p>
+    </section>
+
+    <section class="section">
+      <h2>2 &#183; Build your four scenes</h2>
+      <p class="lead">Pick a GIF above, then tap the frame you want it in. Setup, escalation,
+      escalation, punchline. Add a caption under each.</p>
+      <p class="small" id="place-msg" aria-live="polite">Tap a GIF, then tap a frame.</p>
+
+      <div class="frames" id="frames"><!-- four frames injected by js/canvas.js --></div>
+
+      <div style="display:flex; gap:var(--s3); flex-wrap:wrap; margin-top:var(--s5)">
+        <button type="button" class="btn-primary" id="snapshot-btn">Download a snapshot</button>
+        <button type="button" class="btn-secondary" id="clear-btn">Clear all four</button>
+      </div>
+      <p class="small" id="snapshot-msg" aria-live="polite"></p>
+    </section>
+
+  </div>
+
+</div>
+</main>
+
+<div class="page-shell page-shell--footer">
+<footer class="site-footer">
+  <ul class="reassure">
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="#14141C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="4" y="10.5" width="16" height="11" rx="2"/><path d="M8 10.5V7a4 4 0 0 1 8 0v3.5"/><path d="M12 15v2.5"/>
+      </svg>
+      <span>Your storyboard stays on your own device. Nothing leaves it, no account, no cookies.</span>
+    </li>
+    <li>
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <circle cx="32" cy="32" r="30.5" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
+        <g stroke="#14141C" stroke-width="8.5" stroke-linecap="round"><line x1="25.5" y1="36" x2="21.5" y2="12"/><line x1="38.5" y1="36" x2="44.5" y2="13"/></g>
+        <ellipse cx="32" cy="43" rx="15.5" ry="12.5" fill="#14141C"/>
+        <circle cx="26" cy="41" r="2.4" fill="#FFF9F0"/><circle cx="38" cy="41" r="2.4" fill="#FFF9F0"/>
+      </svg>
+      <span>Something not right in a search? Close it and tell your teacher, not your table.</span>
+    </li>
+  </ul>
+  <p>Four Frames &#183; Year 8 Visual Arts. The GIF storyboard is a class planning tool.</p>
+</footer>
+</div>
+
+<nav class="botnav" aria-label="Steps on this page">
+  <a class="botnav__help" href="help.html?topic=when-it-breaks"><span aria-hidden="true">?</span><span class="visually-hidden">Get help</span></a>
+  <a class="botnav__back" href="plan.html"><span aria-hidden="true">&#8592;</span><span class="label" aria-hidden="true">3 Plan</span><span class="visually-hidden">Back to 3 Plan</span></a>
+  <ul class="botnav__steps">
+    <li><a class="step-pill" href="#gate-section" aria-current="step">Unlock</a></li>
+    <li><a class="step-pill" href="#tool">Find &amp; build</a></li>
+  </ul>
+  <p class="botnav__counter"><span class="name">Class planning tool</span></p>
+  <a class="btn-primary" href="build.html">On to 4 Build &#8594;</a>
+</nav>
+
+<script src="js/canvas.js" defer></script>
+<script src="js/steps.js" defer></script>
+</body>
+</html>
