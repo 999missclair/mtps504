@@ -95,27 +95,20 @@
         <ol>
           <li><span class="num" aria-hidden="true">1</span> Nothing you make today is saved
           on this laptop.</li>
-          <li><span class="num" aria-hidden="true">2</span> Your slide lives in your Google
-          Drive. Your finished picture lives on the class Padlet.</li>
-          <li><span class="num" aria-hidden="true">3</span> Download your images first, build
+          <li><span class="num" aria-hidden="true">2</span> Your finished comic lives on the
+          class gallery &#8212; that&#8217;s the copy that lasts.</li>
+          <li><span class="num" aria-hidden="true">3</span> Get your four pictures first, build
           second, and post before the bell.</li>
         </ol>
       </section>
 
-      <!-- BLOCK D — the hand-off card. The page's hero.
-           ⚠️ NEEDS CLAIR template URL — the button below points at "#" until
-           the Google Slides template exists. Two things to do when it does:
-             1. Put the template's SHARE link in the href, with the tail
-                /edit changed to /copy so Google offers "Make a copy"
-                instead of opening the master.
-             2. ⚠️ CONFIRM the copy route (project-concept.md 7.2). If the
-                school runs Google Classroom, DELETE the Route A row below
-                and keep Route B. If it does not, delete Route B. Both rows
-                must not ship — a Year 8 who reads two sets of instructions
-                does neither. The same choice has to be made in the Help
-                Centre, Topic 1.
+      <!-- BLOCK D — get your pictures. Sourcing lives here: the class image
+           bank (default), the AI preview from 3 Plan, or the open web. Folds in
+           the old bank hand-off and the three open-web source cards. There is
+           no Google Slides template any more — the make step is the in-site
+           Comic Builder further down (canvas.html).
            ============================================================== -->
-      <section class="section" id="build-it">
+      <section class="section" id="get-pictures">
 
         <!-- THE HOST — introduction moment, plus doorways. This is the page
              students arrive at in four different states, so it is the one page
@@ -135,126 +128,112 @@
             <g stroke="#FFF9F0" stroke-width="2" stroke-linecap="round" fill="none">
               <path d="M32 46v3"/><path d="M28.5 51q3.5 2.5 7 0"/></g>
           </svg>
-          <p class="host__say">Four images, four frames, one strip. This is the page where
-          the making happens &#8212; pictures first, then the template.</p>
+          <p class="host__say">Four pictures, four frames, one strip. This is the page where
+          the making happens &#8212; pictures first, then the Comic Builder.</p>
         </div>
 
         <p class="doorways__q" id="doorways-q">Where are you up to?</p>
         <ul class="doorways" aria-labelledby="doorways-q">
-          <li><a href="#bank-handoff">I haven&#8217;t got my pictures yet</a></li>
-          <li><a href="#steps">I&#8217;ve got my pictures</a></li>
+          <li><a href="#get-pictures">I haven&#8217;t got my pictures yet</a></li>
+          <li><a href="#build-it">I&#8217;ve got my pictures</a></li>
           <li><a href="#exemplar">Show me a finished one</a></li>
           <li><a href="help.html?topic=when-it-breaks">Something isn&#8217;t working</a></li>
         </ul>
 
-        <h2>Get your copy of the template</h2>
-        <div class="handoff-card">
-          <p class="lead">Everything you build today happens in your own copy. Take it
-          once, rename it &#8212; it&#8217;s yours for the unit.</p>
+        <h2>Get your four pictures</h2>
+        <p class="lead">One picture per frame &#8212; four in all. Three places to find them,
+        and the first is the fastest.</p>
 
+        <div class="handoff-card">
+          <h3>Start in the class image bank</h3>
+          <p class="lead">Sixty-plus pictures, already matched to the roll, already
+          licence-checked. The credit line is written for you &#8212; copy it straight across
+          when you build.</p>
           <p style="margin-top:var(--s5)">
-            <!-- SWAP: put the template's /copy URL in href, then delete
-                 aria-disabled and aria-describedby. Until it is real, the
-                 button must not pretend: href="#" would send a keyboard or
-                 screen-reader user to the top of the page and report nothing.
-                 aria-disabled tells assistive technology it is not ready
-                 (without removing it from the Tab order, so a student who
-                 lands on it still hears why), and aria-describedby ties it to
-                 the line that says so. -->
-            <a class="btn-primary btn-primary--handoff" href="#build-it"
-               aria-disabled="true" aria-describedby="template-pending"
+            <a class="btn-primary btn-primary--handoff" href="bank.html">
+              Start in the class image bank
+              <span class="ext-glyph" aria-hidden="true">&#8594;</span>
+            </a>
+          </p>
+          <p class="small">The fast, default way to find your four pictures.</p>
+        </div>
+
+        <div class="card" style="margin-top:var(--s5)">
+          <h3>Two other places you can pull from</h3>
+          <ul class="bullets">
+            <li><strong>Your AI preview from 3 Plan.</strong> The render you generated is
+            yours &#8212; drop it straight into a frame.</li>
+            <li><strong>The open web</strong> &#8212; but only pictures you&#8217;re allowed
+            to use. The three sources below each tell you the licence.</li>
+          </ul>
+        </div>
+
+        <h3 style="margin-top:var(--s5)">Going further &#8212; search the open web</h3>
+        <p class="lead">Happy with the image bank? Skip this. Want to find your own? These
+        three places all tell you the licence.</p>
+
+        <div class="row-3">
+
+          <div class="card source-card">
+            <h3>Openverse</h3>
+            <dl>
+              <dt>What it&#8217;s good for</dt>
+              <dd>Everyday things &#8212; buses, dogs, doors, weather. Millions of openly
+              licensed photos.</dd>
+              <dt>Licence</dt>
+              <dd>Shown next to every picture. Filter for <span class="mono">CC0</span> or
+              <span class="mono">CC BY</span>.</dd>
+            </dl>
+            <p><a class="tap-link" href="help.html?topic=finding-images">How do I search
+            this? &#8594;</a></p>
+            <a class="btn-primary btn-block" href="https://openverse.org"
                target="_blank" rel="noopener noreferrer">
-              Open the Slides template
+              Open Openverse <span class="ext-glyph" aria-hidden="true">&#8599;</span>
+              <span class="visually-hidden">(opens in a new tab)</span>
+            </a>
+          </div>
+
+          <div class="card source-card">
+            <h3>Wikimedia Commons</h3>
+            <dl>
+              <dt>What it&#8217;s good for</dt>
+              <dd>Almost anything &#8212; whole museum collections, photographs of
+              places.</dd>
+              <dt>Licence</dt>
+              <dd>Changes file by file &#8212; read the <strong>Licensing</strong> box on the
+              file page. No box, no picture.</dd>
+            </dl>
+            <p><a class="tap-link" href="help.html?topic=finding-images">How do I search
+            this? &#8594;</a></p>
+            <a class="btn-primary btn-block" href="https://commons.wikimedia.org"
+               target="_blank" rel="noopener noreferrer">
+              Open Wikimedia Commons
               <span class="ext-glyph" aria-hidden="true">&#8599;</span>
               <span class="visually-hidden">(opens in a new tab)</span>
             </a>
-          </p>
-          <p class="return-line">This opens in a new tab. Leave this page open behind it
-          &#8212; come back here for step 3, the export.</p>
-          <p class="small" id="template-pending"><span class="needs-clair">Needs Clair</span>
-          the template link goes here and in the Help Centre.</p>
-
-          <p style="margin-top:var(--s5)"><strong>Rename it the second it opens.</strong>
-          Your own surname and first name, exactly like this:</p>
-          <div class="copyable">
-            <code id="naming">FourFrames_8VA_Surname_FirstName</code>
-            <button type="button" class="copy-btn" data-copy-for="naming"
-                    aria-label="Copy the file-name format">Copy</button>
-          </div>
-          <p class="small">Twenty-six files called <span class="mono">Copy of FOUR FRAMES
-          template</span> look identical. Don&#8217;t be the lost one.</p>
-
-          <div class="card" style="margin-top:var(--s5)">
-            <h3>How you get your copy</h3>
-            <p>Press the button above and choose <em>Make a copy</em>. Sign in with your
-            <strong>school</strong> account, not a personal one.</p>
           </div>
 
-          <div class="card" style="margin-top:var(--s4)">
-            <h3>Already started?</h3>
-            <p>Don&#8217;t take a second copy. Go and find the one you already have.</p>
-            <ol class="steps">
-              <li><strong>slides.google.com</strong>
-                <span class="detail">Look under <em>Recent</em>. Yours is the one with your
-                name in it.</span></li>
-              <li><strong>drive.google.com</strong>
-                <span class="detail">Search <span class="mono">FourFrames</span>. Still
-                nothing? You may be in the view-only master &#8212; ask for the link and start
-                a fresh copy.</span></li>
-            </ol>
+          <div class="card source-card">
+            <h3>The Met Open Access</h3>
+            <dl>
+              <dt>What it&#8217;s good for</dt>
+              <dd>Artworks &#8212; paintings, prints, sculpture, armour, teapots. About half a
+              million of them.</dd>
+              <dt>Licence</dt>
+              <dd><strong>Open Access</strong> means <span class="mono">CC0</span>. No
+              label? Search again.</dd>
+            </dl>
+            <p><a class="tap-link" href="help.html?topic=finding-images">How do I search
+            this? &#8594;</a></p>
+            <a class="btn-primary btn-block"
+               href="https://www.metmuseum.org/art/collection"
+               target="_blank" rel="noopener noreferrer">
+              Open the Met collection
+              <span class="ext-glyph" aria-hidden="true">&#8599;</span>
+              <span class="visually-hidden">(opens in a new tab)</span>
+            </a>
           </div>
-        </div>
-      </section>
 
-      <!-- BLOCK E — the eight steps -->
-      <section class="section" id="steps">
-        <h2>The eight steps, in order</h2>
-        <p class="lead">Do them in this order. Steps 3 and 8 are the two that catch
-        everybody.</p>
-
-        <div class="card">
-          <ol class="steps steps--two-col">
-            <li id="find"><strong>Find your four images</strong>
-              <span class="detail">One per frame. Start in the
-              <a class="tap-link" href="bank.html">class image bank &#8594;</a> &#8212;
-              every picture in it is already checked, and the credit line is already
-              written. Still want to search the open web yourself? The three sources
-              below are the extension route.</span></li>
-
-            <li><strong>Download each one</strong>
-              <span class="detail">It lands in your Downloads folder. Keep the tab open so
-              you can copy the credit.</span></li>
-
-            <li><strong>Open your copy of the template</strong>
-              <span class="detail">Big button, <em>Make a copy</em>.
-              <a class="tap-link" href="help.html?topic=slides-basics">Show me
-              &#8594;</a></span></li>
-
-            <li><strong>Rename it</strong>
-              <span class="detail"><span class="mono">FourFrames_8VA_Surname_FirstName</span>,
-              now.</span></li>
-
-            <li><strong>Insert your images</strong>
-              <span class="detail"><em>Insert &#8594; Image &#8594; Upload from
-              computer</em>, or drag the file straight from Downloads onto the
-              slide.</span></li>
-
-            <li><strong>Arrange the four frames</strong>
-              <span class="detail">Setup, escalation, escalation, punchline &#8212; the
-              order you planned. Drag to move, corner handles to resize.</span></li>
-
-            <li><strong>Write your captions and credits</strong>
-              <span class="detail">A caption under each frame, and one credit line per image
-              in the box at the bottom.</span></li>
-
-            <li id="export"><span class="here-chip">&#8617; You are here</span>
-              <strong>Download it as a PNG, then post it</strong>
-              <span class="detail"><em>File &#8594; Download &#8594; PNG image</em>.
-              <strong>It only downloads the slide you are looking at.</strong> Then open the
-              class gallery and post it with your four credit lines.
-              <a class="tap-link" href="help.html?topic=slides-basics">Show me
-              &#8594;</a></span></li>
-          </ol>
         </div>
       </section>
 
@@ -453,113 +432,47 @@
           <button type="button" class="copy-btn" data-copy-for="credit-example"
                   aria-label="Copy the worked credit line">Copy</button>
         </div>
-        <p class="small">Four frames, four credit lines, in the box at the bottom of your
-        slide and in your Padlet post &#8212; whatever the licence says.</p>
+        <p class="small">Four frames, four credit lines &#8212; on your comic and in your
+        gallery post, whatever the licence says.</p>
         <p><strong>Watch CC BY-SA.</strong> Share-alike means your whole strip inherits the
         same licence. Fine for a class gallery &#8212; just know you&#8217;ve done it.</p>
         <p><a class="tap-link" href="help.html?topic=crediting-images">How do I find the
         licence? &#8594;</a></p>
       </section>
 
-      <!-- BLOCK G.5 — the class image bank hand-off. Default sourcing path,
-           per pedagogical-review.md priority item #1 and Clair's fourth
-           instruction (ORCHESTRATION-LOG.md). Ships before the three source
-           cards, which become the extension route. -->
-      <section class="section" id="bank-handoff">
-        <div class="handoff-card">
-          <h2>Start in the class image bank</h2>
-          <p class="lead">Sixty-plus pictures, already matched to the roll, already
-          licence-checked. The credit line is already written for you &#8212; copy it
-          straight into the box at the bottom of your slide.</p>
-          <p style="margin-top:var(--s5)">
-            <a class="btn-primary btn-primary--handoff" href="bank.html">
-              Start in the class image bank
-              <span class="ext-glyph" aria-hidden="true">&#8594;</span>
-            </a>
-          </p>
-          <p class="small">This is the fast, default way to find your four images. If
-          you&#8217;d rather search the open web yourself, that&#8217;s the extension
-          below.</p>
+      <!-- BLOCK G.5 — Build your comic. The make step now lives in the in-site
+           Comic Builder (canvas.html), not Google Slides. Sourcing and legality
+           are handled above; here the student assembles, letters and exports. -->
+      <section class="section" id="build-it">
+        <h2>Build your comic</h2>
+        <p class="lead">This is the make step. It all happens in the Comic Builder &#8212;
+        nothing to download, no template to copy.</p>
+        <p style="margin-top:var(--s5)">
+          <a class="btn-primary btn-block" href="canvas.html">
+            Open the Comic Builder <span class="ext-glyph" aria-hidden="true">&#8594;</span>
+          </a>
+        </p>
+        <div class="card" style="margin-top:var(--s5)">
+          <ol class="steps">
+            <li><strong>Drop your four pictures into the four frames.</strong></li>
+            <li><strong>Add speech bubbles and captions.</strong></li>
+            <li><strong>Arrange the frames</strong>
+              <span class="detail">setup &#183; escalation &#183; escalation &#183;
+              punchline &#8212; the order you planned.</span></li>
+            <li><strong>Export your comic as an image.</strong></li>
+          </ol>
         </div>
-      </section>
-
-      <!-- BLOCK H — the three source link cards. Now the extension route. -->
-      <section class="section" id="sources">
-        <h2>Going further &#8212; search the open web</h2>
-        <p class="lead">Already used the class image bank? Skip this. Want to find your own?
-        These three places all tell you the licence.</p>
-
-        <div class="row-3">
-
-          <div class="card source-card">
-            <h3>Openverse</h3>
-            <dl>
-              <dt>What it&#8217;s good for</dt>
-              <dd>Everyday things &#8212; buses, dogs, doors, weather. Millions of openly
-              licensed photos.</dd>
-              <dt>Licence</dt>
-              <dd>Shown next to every picture. Filter for <span class="mono">CC0</span> or
-              <span class="mono">CC BY</span>.</dd>
-            </dl>
-            <p><a class="tap-link" href="help.html?topic=finding-images">How do I search
-            this? &#8594;</a></p>
-            <a class="btn-primary btn-block" href="https://openverse.org"
-               target="_blank" rel="noopener noreferrer">
-              Open Openverse <span class="ext-glyph" aria-hidden="true">&#8599;</span>
-              <span class="visually-hidden">(opens in a new tab)</span>
-            </a>
-          </div>
-
-          <div class="card source-card">
-            <h3>Wikimedia Commons</h3>
-            <dl>
-              <dt>What it&#8217;s good for</dt>
-              <dd>Almost anything &#8212; whole museum collections, photographs of
-              places.</dd>
-              <dt>Licence</dt>
-              <dd>Changes file by file &#8212; read the <strong>Licensing</strong> box on the
-              file page. No box, no picture.</dd>
-            </dl>
-            <p><a class="tap-link" href="help.html?topic=finding-images">How do I search
-            this? &#8594;</a></p>
-            <a class="btn-primary btn-block" href="https://commons.wikimedia.org"
-               target="_blank" rel="noopener noreferrer">
-              Open Wikimedia Commons
-              <span class="ext-glyph" aria-hidden="true">&#8599;</span>
-              <span class="visually-hidden">(opens in a new tab)</span>
-            </a>
-          </div>
-
-          <div class="card source-card">
-            <h3>The Met Open Access</h3>
-            <dl>
-              <dt>What it&#8217;s good for</dt>
-              <dd>Artworks &#8212; paintings, prints, sculpture, armour, teapots. About half a
-              million of them.</dd>
-              <dt>Licence</dt>
-              <dd><strong>Open Access</strong> means <span class="mono">CC0</span>. No
-              label? Search again.</dd>
-            </dl>
-            <p><a class="tap-link" href="help.html?topic=finding-images">How do I search
-            this? &#8594;</a></p>
-            <a class="btn-primary btn-block"
-               href="https://www.metmuseum.org/art/collection"
-               target="_blank" rel="noopener noreferrer">
-              Open the Met collection
-              <span class="ext-glyph" aria-hidden="true">&#8599;</span>
-              <span class="visually-hidden">(opens in a new tab)</span>
-            </a>
-          </div>
-
-        </div>
+        <p class="small">Memes and GIFs are fine while you&#8217;re building and playing
+        around &#8212; but the finished comic you post uses pictures you can name. Same rule
+        as the licence sort above.</p>
       </section>
 
       <!-- BLOCK I — the annotated exemplar figure.
-           ⚠️ NEEDS CLAIR — an agent can't make a Google Slides file. The box
+           ⚠️ NEEDS CLAIR — the finished example still needs making. The box
            below stands at the final dimensions (1600x1200, 4:3) with the
            callout list already written, so the layout is real and only the
            picture is missing. To finish it: build the teapot strip in the
-           real template, File -> Download -> PNG image, save it as
+           Comic Builder, export it as an image, save it as
            img/exemplar-teapot.png, then replace the .placeholder div with:
 
            <img src="img/exemplar-teapot.png" width="1600" height="1200"
@@ -607,15 +520,46 @@
         </div>
       </section>
 
+      <!-- The partner action from the hand-off (design spec 3.5): once the
+           comic is built and exported in the Comic Builder, the primary offers
+           the gallery.
+           ⚠️ NEEDS CLAIR gallery board URL — same board as 5 Share. -->
+      <section class="section" id="post">
+        <h2>Post it before the bell</h2>
+        <div class="card">
+          <p class="lead">A comic you exported but didn&#8217;t post is not handed in
+          &#8212; the laptop gets wiped.</p>
+          <ol class="steps">
+            <li><strong>Open the class gallery</strong>
+              <span class="detail">New post, upload the image you exported from the Comic
+              Builder.</span></li>
+            <li><strong>Paste your four credit lines</strong>
+              <span class="detail">One per frame, in the post, in the order the frames
+              run.</span></li>
+            <li><strong>Post as your first name and table number</strong>
+              <span class="detail">No surnames. <span class="mono">Sam T4</span> is
+              perfect.</span></li>
+          </ol>
+          <p style="margin-top:var(--s4)">
+            <button type="button" class="btn-primary btn-block" disabled>
+              Post my comic to the gallery
+              <span class="ext-glyph" aria-hidden="true">&#8599;</span>
+            </button>
+          </p>
+          <p class="small"><span class="needs-clair">Needs Clair</span> the gallery board
+          link goes in this button. It is the same board as the one on 5 Share.</p>
+        </div>
+      </section>
+
       <!-- ===== AI COMPARISON — restored per pedagogical-review.md §6 item 1
            and §8 (priority #8). Teacher-run demonstration only: no student
            tool is named, and no student uploads their own work. The five
            questions are verbatim from project-concept.md §7.6. Styled as a
            discussion card, consistent with the going-further boxes on the
-           other learning pages. -->
+           other learning pages. Kept last as a clearly-marked "Going further". -->
       <section class="section" id="ai-comparison">
         <h2>Going further: the AI comparison</h2>
-        <p class="lead">Once some strips are finished, Clair runs two or three (with
+        <p class="lead">Once some comics are finished, Clair runs two or three (with
         permission) through an AI image tool live, on the projector, and the class discusses
         what changed.</p>
         <p class="activity-note">This is a teacher-run demonstration, not a student
@@ -634,36 +578,8 @@
             <li>If you submitted the AI version, what exactly would you be claiming you
             made?</li>
           </ol>
-          <p class="small">Before any strip goes near the tool: the title block is stripped,
+          <p class="small">Before any comic goes near the tool: the title block is stripped,
           and the tool is named out loud.</p>
-        </div>
-      </section>
-
-      <!-- The partner action from the hand-off (design spec 3.5): once the
-           student has been to Slides, the primary offers the gallery.
-           ⚠️ NEEDS CLAIR gallery board URL — same board as 5 Share. -->
-      <section class="section" id="post">
-        <h2>Post it before the bell</h2>
-        <div class="card">
-          <p class="lead">A PNG in Downloads is not handed in &#8212; the laptop gets wiped.</p>
-          <ol class="steps">
-            <li><strong>Open the class gallery</strong>
-              <span class="detail">New post, upload your PNG.</span></li>
-            <li><strong>Paste your four credit lines</strong>
-              <span class="detail">One per frame, in the post, in the order the frames
-              run.</span></li>
-            <li><strong>Post as your first name and table number</strong>
-              <span class="detail">No surnames. <span class="mono">Sam T4</span> is
-              perfect.</span></li>
-          </ol>
-          <p style="margin-top:var(--s4)">
-            <button type="button" class="btn-primary btn-block" disabled>
-              Post my strip to the gallery
-              <span class="ext-glyph" aria-hidden="true">&#8599;</span>
-            </button>
-          </p>
-          <p class="small"><span class="needs-clair">Needs Clair</span> the gallery board
-          link goes in this button. It is the same board as the one on 5 Share.</p>
         </div>
       </section>
 
@@ -765,8 +681,8 @@
       <span>Your teacher is in the room, and quicker than this page.</span>
     </li>
   </ul>
-  <p>Four Frames &#183; Year 8 Visual Arts. Your work lives in your own Google Drive, in
-  the class planner and on the class gallery.</p>
+  <p>Four Frames &#183; Year 8 Visual Arts. Your finished comic lives on the class
+  gallery.</p>
 </footer>
 </div>
 
@@ -786,16 +702,15 @@
     <span class="visually-hidden">Back to 3 Plan</span>
   </a>
   <ul class="botnav__steps">
-    <li><a class="step-pill" href="#find" aria-current="step">1 Find</a></li>
-    <li><a class="step-pill" href="#build-it">2 Build in Slides</a></li>
-    <li><a class="step-pill" href="#export">3 Export</a></li>
-    <li><a class="step-pill" href="#post">4 Post</a></li>
+    <li><a class="step-pill" href="#get-pictures" aria-current="step">1 Pictures</a></li>
+    <li><a class="step-pill" href="#build-it">2 Build</a></li>
+    <li><a class="step-pill" href="#post">3 Post</a></li>
   </ul>
   <p class="botnav__counter">
-    <span class="count">1 / 4</span>
-    <span class="name">Find</span>
+    <span class="count">1 / 3</span>
+    <span class="name">Pictures</span>
   </p>
-  <a class="btn-primary" href="#build-it">Open the Slides template &#8594;</a>
+  <a class="btn-primary" href="canvas.html">Open the Comic Builder &#8594;</a>
 </nav>
 <!-- ===== NAV:BOTTOM — END ======================================= -->
 
