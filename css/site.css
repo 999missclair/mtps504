@@ -2385,3 +2385,43 @@ body.fit .rail__close { display: block; }
 .ai-gate label { margin-top: 0; }
 .ai-gate button { margin-top: var(--s3); }
 .ai-gate__msg { margin: var(--s2) 0 0; }
+
+/* ==========================================================================
+   33  ROLLED-STORY BANNER (js/brief.js) + the Build hero
+   The story you were dealt on 2 Roll follows you to Plan / Build / the Comic
+   Builder, pinned up top so you always know what goes in the four cells.
+   ========================================================================== */
+.brief-banner:empty { display: none; }
+.brief-banner.is-set {
+  padding: var(--s3) var(--s5);
+  margin-bottom: var(--s5);
+  background: rgba(255, 195, 0, .18);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+}
+.brief-banner__label {
+  margin: 0;
+  font-size: var(--t-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--slate);
+}
+.brief-banner__line {
+  margin: var(--s1) 0 0;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  line-height: 1.2;
+  color: var(--ink);
+}
+.brief-banner__empty {
+  margin: 0 0 var(--s5);
+  padding: var(--s3) var(--s4);
+  font-size: var(--t-sm);
+  color: var(--slate);
+  background: var(--paper);
+  border: 2px dashed var(--ink);
+  border-radius: var(--r-md);
+}
+/* The make step is the star of 4 Build — give the hero a touch more presence. */
+.section--hero .btn-primary { font-size: 1.15rem; padding-top: var(--s4); padding-bottom: var(--s4); }

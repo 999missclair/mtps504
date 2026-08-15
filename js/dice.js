@@ -383,10 +383,25 @@
       return FIELDS.map(function (f) { return chosen[f] ? chosen[f].label : ''; }).join(' · ');
     }
 
+    /* Save the locked brief so it follows the student to Plan, Build and the
+       Comic Builder (read by js/brief.js). Device-only localStorage — no
+       account, no cookie — consistent with the site's privacy stance. */
+    function saveBrief() {
+      try {
+        localStorage.setItem('ff-brief', JSON.stringify({
+          character: chosen.character ? chosen.character.label : '',
+          situation: chosen.situation ? chosen.situation.label : '',
+          problem: chosen.problem ? chosen.problem.label : '',
+          text: briefString()
+        }));
+      } catch (e) {}
+    }
+
     function lock() {
       if (chosenCount() < 3 || !briefBox || !briefText) { return; }
       briefText.textContent = briefString();
       briefBox.hidden = false;
+      saveBrief();
       say('Locked in. ' + briefString() + '. Copy it, then put it on the board.');
       /* Move the eye and the reading order to the thing that just appeared. */
       if (copyBtn) { copyBtn.focus(); }

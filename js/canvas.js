@@ -74,7 +74,36 @@
   }); });
 
   // ---- gate ---------------------------------------------------------------
-  function unlock() { $('#gate-section').hidden = true; $('#tool').hidden = false; renderFrames(); }
+  // Show the rolled story (from 2 Roll, via localStorage 'ff-brief') pinned at
+  // the top, so the student always knows what goes in the four frames. If they
+  // came straight here without rolling, offer a box to paste/type it.
+  function renderBrief() {
+    var box = $('#cb-brief'); if (!box) return;
+    var brief = null;
+    try { brief = JSON.parse(localStorage.getItem('ff-brief') || 'null'); } catch (e) {}
+    var line = brief && (brief.text ||
+      [brief.character, brief.situation, brief.problem].filter(Boolean).join(' · '));
+    box.innerHTML = '';
+    if (line) {
+      var lab = document.createElement('p'); lab.className = 'cb-brief__label';
+      lab.textContent = 'Your story — put this across the four frames';
+      var val = document.createElement('p'); val.className = 'cb-brief__line';
+      val.textContent = line;
+      box.appendChild(lab); box.appendChild(val);
+    } else {
+      var l = document.createElement('label'); l.className = 'cb-brief__label';
+      l.setAttribute('for', 'cb-brief-in');
+      l.textContent = 'Your story (paste it from 2 Roll — or type it here)';
+      var inp = document.createElement('input'); inp.id = 'cb-brief-in'; inp.type = 'text';
+      inp.placeholder = 'character · situation · problem';
+      inp.addEventListener('input', function () {
+        try { localStorage.setItem('ff-brief', JSON.stringify({ text: inp.value })); } catch (e) {}
+      });
+      box.appendChild(l); box.appendChild(inp);
+    }
+  }
+
+  function unlock() { $('#gate-section').hidden = true; $('#tool').hidden = false; renderBrief(); renderFrames(); }
 
   async function tryPass(candidate) {
     var r = await fetch('/api/gifs?q=hello', { headers: { 'x-class-pass': candidate } });

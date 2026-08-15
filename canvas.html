@@ -82,6 +82,14 @@
   .citem.is-selected .citem__del { display:block; }
 
   .save-notice { color:var(--punch); font-size:var(--t-sm); margin-top:var(--s3); min-height:1.2em; }
+  .cb-brief { margin-bottom:var(--s5); padding:var(--s3) var(--s4); background:rgba(255,195,0,.18);
+    border:2px solid var(--ink); border-radius:var(--r-md); }
+  .cb-brief:empty { display:none; }
+  .cb-brief__label { margin:0 0 var(--s2); font-size:var(--t-sm); font-weight:700; text-transform:uppercase;
+    letter-spacing:.04em; color:var(--slate); display:block; }
+  .cb-brief__line { margin:0; font-family:var(--font-display); font-size:1.2rem; line-height:1.2; color:var(--ink); }
+  .cb-brief input { width:100%; padding:var(--s3); font:inherit; color:var(--ink); background:#fff;
+    border:2px solid var(--ink); border-radius:var(--r-sm); }
   [hidden]{ display:none !important; }
   @media (prefers-reduced-motion: reduce){
     .frame, .citem { transition:none !important; }
@@ -132,6 +140,12 @@
 
   <!-- THE TOOL. Hidden until unlocked. -->
   <div id="tool" hidden>
+
+    <!-- Rolled-story banner — the character/situation/problem dealt on 2 Roll,
+         pinned here so the student knows what goes in the four frames.
+         js/canvas.js fills it (or offers a paste box if they came straight in). -->
+    <div id="cb-brief" class="cb-brief" aria-live="polite"></div>
+
 
     <div class="rule-strip" style="margin-bottom:var(--s5)">
       <h2 style="font-size:var(--t-h3)">Why the GIFs stay in class</h2>
