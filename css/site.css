@@ -2200,3 +2200,95 @@ ol.steps--two-col > li { break-inside: avoid; }
   .stuck,
   .doorways a { box-shadow: none; }
 }
+
+
+/* ==========================================================================
+   30  FIT — one-step-per-screen mode (body.fit)
+   Each phase page shows one step, sized to the gap between the two fixed bars.
+   The support rail (Stuck / checklist) becomes a right-side drawer instead of
+   sitting on every step and pushing the page taller than the screen.
+   Scrolls INSIDE a step only when the content genuinely can't fit (e.g. big text
+   zoom) — accessibility over a hard no-scroll rule.
+   ========================================================================== */
+body.fit { overflow: hidden; }
+
+body.fit .page-shell:not(.page-shell--footer) {
+  height: calc(100dvh - var(--nav-t) - var(--nav-b));
+  min-height: 0;
+  padding-top: var(--s4);
+  padding-bottom: var(--s3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+body.fit .page-header { flex: 0 0 auto; margin-bottom: var(--s3); }
+body.fit .page-header h1 { font-size: clamp(1.6rem, 3.2vw, 2.4rem); margin: 0; }
+body.fit .page-header .page-question { margin: var(--s2) 0 0; font-size: var(--t-body); }
+
+body.fit .with-rail {
+  flex: 1 1 auto;
+  min-height: 0;
+  grid-template-columns: 1fr;
+}
+body.fit .with-rail > div:first-child {
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: var(--s2);
+}
+/* one step at a time already (steps.js hides the rest); just let it breathe */
+body.fit .with-rail > div:first-child > .section { margin-top: 0; }
+
+body.fit .page-shell--footer { display: none; }
+
+/* the rail, now a drawer */
+body.fit .rail {
+  position: fixed;
+  top: var(--nav-t);
+  right: 0;
+  bottom: var(--nav-b);
+  width: min(380px, 88vw);
+  margin: 0;
+  padding: var(--s5) var(--s5) var(--s7);
+  background: var(--paper);
+  border-left: 3px solid var(--ink);
+  overflow-y: auto;
+  transform: translateX(101%);
+  transition: transform var(--dur-nav) var(--ease-out);
+  z-index: 60;
+}
+body.fit .rail.is-open { transform: translateX(0); }
+body.fit .rail__close {
+  display: block;
+  margin: 0 0 var(--s4) auto;
+}
+
+body.fit .rail-scrim {
+  position: fixed; inset: 0;
+  background: rgba(20, 20, 28, .35);
+  opacity: 0; pointer-events: none;
+  transition: opacity var(--dur-fade) var(--ease-out);
+  z-index: 55;
+}
+body.fit .rail-scrim.is-open { opacity: 1; pointer-events: auto; }
+
+/* the drawer toggle — pinned above the bottom bar, left side (clear of the → button) */
+body.fit .rail-toggle {
+  position: fixed;
+  left: var(--s4);
+  bottom: calc(var(--nav-b) + var(--s3));
+  z-index: 58;
+  box-shadow: 0 4px 0 var(--ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.fit .rail, body.fit .rail-scrim { transition: none; }
+}
+@media (max-width: 48rem) {
+  body.fit .rail { width: 100%; border-left: 0; }
+}
+/* only show the drawer furniture in fit mode */
+.rail-scrim, .rail-toggle, .rail__close { display: none; }
+body.fit .rail-scrim { display: block; }
+body.fit .rail-toggle { display: inline-flex; }
+body.fit .rail__close { display: block; }

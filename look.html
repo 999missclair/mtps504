@@ -7,7 +7,7 @@
 <meta name="description" content="Four Frames &#8212; a Year 8 Visual Arts project. Four pictures, no words, one joke.">
 <link rel="stylesheet" href="css/site.css">
 </head>
-<body>
+<body class="fit">
 
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -523,6 +523,8 @@
 
     <aside class="rail" aria-label="Support">
 
+      <button type="button" class="btn-secondary rail__close">Close &#10005;</button>
+
       <section class="stuck">
         <h2>
           <!-- THE HOST, stuck expression — the only place it is used. Support
@@ -640,9 +642,16 @@
 </nav>
 <!-- ===== NAV:BOTTOM — END ======================================= -->
 
+<div class="rail-scrim"></div>
+<button type="button" class="btn-secondary rail-toggle">
+  <span aria-hidden="true">&#9755;</span> Stuck?
+</button>
+
 <script src="js/scramble.js" defer></script>
 
 <script src="js/steps.js" defer></script>
+
+<script src="js/drawer.js" defer></script>
 
 </body>
 </html>
