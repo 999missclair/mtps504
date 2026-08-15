@@ -103,10 +103,10 @@
   --font-mono:    ui-monospace, SFMono-Regular, "SF Mono", Consolas,
                   "Liberation Mono", monospace;
 
-  --t-xs:   0.6875rem;  /* 11 — nav phase sub-label only            */
-  --t-sm:   0.8125rem;  /* 13 — attributions, captions, return lines */
+  --t-xs:   0.75rem;    /* 12 — nav phase sub-label only            */
+  --t-sm:   0.875rem;   /* 14 — attributions, captions, return lines */
   --t-meta: 0.9375rem;  /* 15 — nav labels, step pills, meta        */
-  --t-body: 1.0625rem;  /* 17 — body text                          */
+  --t-body: 1.125rem;   /* 18 — body text (bumped for a Year 8 audience) */
   --t-lead: 1.25rem;    /* 20 — framing paragraph, numbered steps   */
   --t-h3:   1.5rem;     /* 24 — card headings, the licence rule     */
   --t-h2:   2rem;       /* 32 — section headings                   */
