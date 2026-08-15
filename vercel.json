@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/render.js": { "maxDuration": 60 },
+    "api/idea.js": { "maxDuration": 30 },
+    "api/alt-text.js": { "maxDuration": 30 }
+  }
+}
