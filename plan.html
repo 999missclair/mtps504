@@ -7,7 +7,7 @@
 <meta name="description" content="Four Frames &#8212; a Year 8 Visual Arts project. Four pictures, no words, one joke.">
 <link rel="stylesheet" href="css/site.css">
 </head>
-<body>
+<body class="fit">
 
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -283,9 +283,39 @@
         </div>
       </section>
 
+      <section class="section" id="preview">
+        <h2>Preview your four panels</h2>
+        <div class="ai-panel" data-ai-render>
+          <p class="lead">The machine renders your directions into a rough four-panel strip. It <strong>will</strong> get your joke slightly wrong — that is the point. On 4 Build you do it better, in your own frames.</p>
+          <label for="ai-ren-brief">Your brief (paste it from 2 Roll)</label>
+          <input id="ai-ren-brief" data-ai-render-brief type="text" placeholder="character · situation · problem">
+          <label for="ai-ren-style">Art style (optional)</label>
+          <input id="ai-ren-style" data-ai-render-style type="text" placeholder="e.g. flat cartoon, bold outlines">
+          <label for="ai-ren-1">Panel 1 — setup</label>
+          <textarea id="ai-ren-1" data-ai-render-panel rows="2"></textarea>
+          <label for="ai-ren-2">Panel 2 — build</label>
+          <textarea id="ai-ren-2" data-ai-render-panel rows="2"></textarea>
+          <label for="ai-ren-3">Panel 3 — build more</label>
+          <textarea id="ai-ren-3" data-ai-render-panel rows="2"></textarea>
+          <label for="ai-ren-4">Panel 4 — punchline</label>
+          <textarea id="ai-ren-4" data-ai-render-panel rows="2"></textarea>
+          <p><button type="button" class="btn-secondary" data-ai-render-go>Render a rough preview</button></p>
+          <div class="ai-out" hidden></div>
+          <p class="ai-fallback small">Helper asleep? Sketch your four panels straight into Slides — that is the real work anyway.</p>
+        </div>
+
+        <p style="margin-top:var(--s5)">
+          <a class="btn-secondary btn-block" href="canvas.html">
+            Try the GIF Storyboard — block out your four beats with GIFs first &#8594;
+          </a>
+        </p>
+      </section>
+
     </div>
 
     <aside class="rail" aria-label="Support">
+
+      <button type="button" class="btn-secondary rail__close">Close &#10005;</button>
 
       <section class="stuck">
         <h2>
@@ -405,7 +435,14 @@
 </nav>
 <!-- ===== NAV:BOTTOM — END ======================================= -->
 
+<div class="rail-scrim"></div>
+<button type="button" class="btn-secondary rail-toggle">
+  <span aria-hidden="true">&#9755;</span> Stuck?
+</button>
+
 <script src="js/steps.js" defer></script>
+<script src="js/drawer.js" defer></script>
+<script src="js/ai.js" defer></script>
 
 </body>
 </html>

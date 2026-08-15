@@ -7,7 +7,7 @@
 <meta name="description" content="Four Frames &#8212; a Year 8 Visual Arts project. Four pictures, no words, one joke.">
 <link rel="stylesheet" href="css/site.css">
 </head>
-<body>
+<body class="fit">
 
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -144,6 +144,18 @@
         </div>
       </section>
 
+      <section class="section" id="alt-text">
+        <h2>Alt text before it goes up</h2>
+        <div class="ai-panel" data-ai-alt>
+          <p class="lead">Before your comic hits the gallery, give it alt text so everyone can read it. Describe a panel in your own words; the helper drafts it, then <strong>you check and fix it</strong>.</p>
+          <label for="ai-alt-in">What is in this panel?</label>
+          <textarea id="ai-alt-in" data-ai-alt-in rows="3" placeholder="e.g. A rabbit knight stares at an empty stone plinth, mouth open."></textarea>
+          <p><button type="button" class="btn-secondary" data-ai-alt-go>Draft my alt text</button></p>
+          <div class="ai-out" hidden></div>
+          <p class="ai-fallback small">Helper asleep? Write one plain sentence on what the panel shows.</p>
+        </div>
+      </section>
+
       <section class="section" id="post">
         <h2>2 &#183; Post your strip</h2>
         <p class="lead">The gallery is where this project actually finishes. A PNG in a
@@ -256,6 +268,8 @@
     </div>
 
     <aside class="rail" aria-label="Support">
+
+      <button type="button" class="btn-secondary rail__close">Close &#10005;</button>
 
       <section class="stuck">
         <h2>
@@ -383,7 +397,14 @@
 </nav>
 <!-- ===== NAV:BOTTOM — END ======================================= -->
 
+<div class="rail-scrim"></div>
+<button type="button" class="btn-secondary rail-toggle">
+  <span aria-hidden="true">&#9755;</span> Stuck?
+</button>
+
 <script src="js/steps.js" defer></script>
+<script src="js/drawer.js" defer></script>
+<script src="js/ai.js" defer></script>
 
 </body>
 </html>

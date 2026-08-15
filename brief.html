@@ -7,7 +7,7 @@
 <meta name="description" content="Four Frames &#8212; a Year 8 Visual Arts project. Four pictures, no words, one joke.">
 <link rel="stylesheet" href="css/site.css">
 </head>
-<body>
+<body class="fit">
 
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -80,6 +80,17 @@
   <div class="with-rail">
 
     <div>
+
+      <section class="section" id="statement">
+        <h2>The project</h2>
+        <p class="lead">Four pictures, no words, one joke. You won&#8217;t draw a thing &#8212;
+        you&#8217;ll hunt down photos you&#8217;re allowed to use and arrange them so a story reads
+        left to right, top to bottom.</p>
+        <p>The whole skill is telling that story inside four fixed frames: what you show,
+        what you hold back, and how you land the surprise on the last one. Get that right
+        and anyone can follow your joke without a single word to help them &#8212; and that&#8217;s
+        the point of the whole thing.</p>
+      </section>
 
       <section class="section" id="what">
         <h2>What you&#8217;re making</h2>
@@ -190,6 +201,8 @@
     </div>
 
     <aside class="rail" aria-label="Support">
+
+      <button type="button" class="btn-secondary rail__close">Close &#10005;</button>
 
       <section class="criteria" id="good">
         <h2>What good looks like</h2>
@@ -306,7 +319,13 @@
 </nav>
 <!-- ===== NAV:BOTTOM — END ======================================= -->
 
+<div class="rail-scrim"></div>
+<button type="button" class="btn-secondary rail-toggle">
+  <span aria-hidden="true">&#9755;</span> Stuck?
+</button>
+
 <script src="js/steps.js" defer></script>
+<script src="js/drawer.js" defer></script>
 
 </body>
 </html>

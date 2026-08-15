@@ -7,7 +7,7 @@
 <meta name="description" content="Four Frames &#8212; a Year 8 Visual Arts project. Four pictures, no words, one joke.">
 <link rel="stylesheet" href="css/site.css">
 </head>
-<body>
+<body class="fit">
 
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -595,6 +595,18 @@
         and four credit lines in the box beneath. That&#8217;s what finished means.</p>
       </section>
 
+      <section class="section" id="alt-text">
+        <h2>Give each panel alt text</h2>
+        <div class="ai-panel" data-ai-alt>
+          <p class="lead">Alt text tells someone who cannot see the picture what is in it. Describe one panel in your own words; the helper drafts the alt text, then <strong>you check and fix it</strong> — the AI is your assistant, not the boss.</p>
+          <label for="ai-alt-in">What is in this panel?</label>
+          <textarea id="ai-alt-in" data-ai-alt-in rows="3" placeholder="e.g. A rabbit knight stares at an empty stone plinth, mouth open."></textarea>
+          <p><button type="button" class="btn-secondary" data-ai-alt-go>Draft my alt text</button></p>
+          <div class="ai-out" hidden></div>
+          <p class="ai-fallback small">Helper asleep? Write one plain sentence on what the panel shows — that is all alt text is.</p>
+        </div>
+      </section>
+
       <!-- ===== AI COMPARISON — restored per pedagogical-review.md §6 item 1
            and §8 (priority #8). Teacher-run demonstration only: no student
            tool is named, and no student uploads their own work. The five
@@ -659,6 +671,8 @@
 
     <!-- BLOCK J — Stuck? + What good looks like, in the sticky rail -->
     <aside class="rail" aria-label="Support">
+
+      <button type="button" class="btn-secondary rail__close">Close &#10005;</button>
 
       <section class="stuck">
         <h2>
@@ -785,10 +799,19 @@
 </nav>
 <!-- ===== NAV:BOTTOM — END ======================================= -->
 
+<div class="rail-scrim"></div>
+<button type="button" class="btn-secondary rail-toggle">
+  <span aria-hidden="true">&#9755;</span> Stuck?
+</button>
+
 <script src="js/scramble.js" defer></script>
 <script src="js/copy.js" defer></script>
 
 <script src="js/steps.js" defer></script>
+
+<script src="js/drawer.js" defer></script>
+
+<script src="js/ai.js" defer></script>
 
 </body>
 </html>
