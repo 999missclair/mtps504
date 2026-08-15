@@ -58,17 +58,21 @@
   .citem.is-selected { outline:2px dashed var(--punch); outline-offset:2px; }
   .citem--image img { width:100%; height:100%; object-fit:contain; display:block; pointer-events:none;
     -webkit-user-drag:none; user-select:none; }
-  .citem--bubble { background:#fff; border:3px solid var(--ink); border-radius:var(--r-lg); }
+  .citem--bubble { background:#fff; border:3px solid var(--ink); border-radius:var(--r-lg); container-type:size; }
   .citem--bubble::after { content:''; position:absolute; left:22%; bottom:-15px; width:0; height:0;
     border-left:9px solid transparent; border-right:15px solid transparent; border-top:16px solid var(--ink); }
   .citem--bubble::before { content:''; position:absolute; left:24%; bottom:-9px; width:0; height:0; z-index:1;
     border-left:6px solid transparent; border-right:11px solid transparent; border-top:12px solid #fff; }
-  .citem--caption { background:#FFFDF7; border:2px solid var(--slate); border-radius:var(--r-sm); }
+  .citem--caption { background:#FFFDF7; border:2px solid var(--slate); border-radius:var(--r-sm); container-type:size; }
+  /* Text sits centred (middle) in the box and SCALES with the box, so resizing
+     a bubble resizes its words too. cqh = % of the item's own height, and the
+     PNG export mirrors this at ~28% of height (drawBubble). */
   .citem__text { position:relative; z-index:2; width:100%; height:100%; box-sizing:border-box;
-    padding:6px 8px; font-family:var(--font-body); font-size:var(--t-sm); line-height:1.25; color:var(--ink);
-    overflow:hidden; outline:none; cursor:text; }
-  .citem--bubble .citem__text { font-weight:700; text-align:center; display:flex; align-items:center;
-    justify-content:center; }
+    padding:6px 8px; font-family:var(--font-body); line-height:1.2; color:var(--ink);
+    text-align:center; display:flex; align-items:center; justify-content:center;
+    overflow:hidden; outline:none; cursor:text; word-break:break-word; }
+  .citem--bubble .citem__text { font-weight:700; font-size:clamp(11px, 28cqh, 44px); }
+  .citem--caption .citem__text { font-size:clamp(10px, 24cqh, 30px); }
   .citem__handle { position:absolute; right:-9px; bottom:-9px; width:18px; height:18px; background:var(--sun);
     border:2px solid var(--ink); border-radius:50%; cursor:nwse-resize; display:none; touch-action:none; z-index:3; }
   .citem__del { position:absolute; right:-10px; top:-10px; width:22px; height:22px; padding:0; z-index:3;
