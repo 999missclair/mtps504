@@ -27,6 +27,7 @@ note in section 2).
 
 import csv
 import html
+import re
 import sys
 from pathlib import Path
 
@@ -126,13 +127,37 @@ def find_local_file(row_id):
     return f"{row_id}.jpg"  # fall back to the conventional name even if missing
 
 
+ATTRIBUTED_RE = re.compile(r"^Attributed (?:on the file page )?to (.+?)(?:\s*\(.*\))?$", re.IGNORECASE)
+TRAILING_PAREN_RE = re.compile(r"\s*\([^()]*\)\s*$")
+
+
+def trim_provenance(text):
+    """Sub-line-only trim: creator/institution fields carry archival
+    provenance notes (see-also clauses, "reproduction via..." asides,
+    question-mark hedges) a student doesn't need to pick a picture. The
+    full detail stays in attribution_line, which is untouched -- this only
+    shortens the visible bank-entry__sub row. See share-bank.md sec. 4."""
+    text = (text or "").strip()
+    if not text:
+        return text
+    m = ATTRIBUTED_RE.match(text)
+    if m:
+        return f"{m.group(1).strip()} (attributed)"
+    while True:
+        stripped = TRAILING_PAREN_RE.sub("", text).strip()
+        if stripped == text:
+            break
+        text = stripped
+    return text
+
+
 def entry_html(row, idx):
     row_id = esc(row.get("id", f"row{idx}"))
     local_name = find_local_file(row.get("id", f"row{idx}"))
     img_src = f"img/bank/{local_name}"
     title = esc(row.get("title", ""))
-    creator = esc(row.get("creator", ""))
-    institution = esc(row.get("holding_institution", ""))
+    creator = esc(trim_provenance(row.get("creator", "")))
+    institution = esc(trim_provenance(row.get("holding_institution", "")))
     date = esc(row.get("date", ""))
     licence = esc(row.get("licence", ""))
     licence_url = esc(row.get("licence_url", ""))
