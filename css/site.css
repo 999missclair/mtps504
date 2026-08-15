@@ -2292,3 +2292,21 @@ body.fit .rail-toggle {
 body.fit .rail-scrim { display: block; }
 body.fit .rail-toggle { display: inline-flex; }
 body.fit .rail__close { display: block; }
+
+
+/* ==========================================================================
+   31  DRAG affordance for the sort board (tap + keyboard still work)
+   ========================================================================== */
+.sort-item { cursor: grab; touch-action: none; }
+.sort-item.is-dragging {
+  position: relative;
+  z-index: 30;
+  opacity: .95;
+  cursor: grabbing;
+  box-shadow: 0 10px 0 rgba(20, 20, 28, .22);
+}
+[data-bin-shell].is-over {
+  outline: 3px solid var(--sun);
+  outline-offset: 3px;
+  border-radius: var(--r-md);
+}

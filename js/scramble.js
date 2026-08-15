@@ -255,9 +255,74 @@
 
     /* ------------------------------------------------------------- wiring   */
 
+    /* The bin under a screen point. The dragged item follows the pointer, so it
+       sits under the cursor — hide it from the hit-test or elementFromPoint just
+       returns the item itself and never finds the bin beneath. */
+    function binUnder(x, y, ignore) {
+      var prev;
+      if (ignore) { prev = ignore.style.pointerEvents; ignore.style.pointerEvents = 'none'; }
+      var el = document.elementFromPoint(x, y);
+      if (ignore) { ignore.style.pointerEvents = prev || ''; }
+      return el && el.closest ? el.closest('[data-sort-bin]') : null;
+    }
+    function highlightBinUnder(x, y, ignore) {
+      var over = binUnder(x, y, ignore);
+      bins.forEach(function (b) {
+        shellOf(b).classList.toggle('is-over', b === over && !shellOf(b).hidden);
+      });
+    }
+    function clearHighlight() { bins.forEach(function (b) { shellOf(b).classList.remove('is-over'); }); }
+
+    /* Two ways in, one placement path: TAP (tap item, tap bin) and DRAG (press
+       and drag onto a bin). Keyboard still uses the tap path. Drag is pointer-
+       based so it works with a mouse and a finger — HTML5 drag-and-drop is
+       skipped because it doesn't work on touch, and iPad is a target. */
     items.forEach(function (item) {
       item.setAttribute('aria-pressed', 'false');
-      item.addEventListener('click', function () { pickUp(item); });
+
+      var sx = null, sy = null, dragging = false, moved = false;
+
+      item.addEventListener('click', function () {
+        if (moved) { moved = false; return; }   /* a drag ended here — not a tap */
+        pickUp(item);
+      });
+
+      item.addEventListener('pointerdown', function (e) {
+        if (e.pointerType === 'mouse' && e.button !== 0) { return; }
+        sx = e.clientX; sy = e.clientY; dragging = false;
+      });
+      item.addEventListener('pointermove', function (e) {
+        if (sx === null) { return; }
+        var dx = e.clientX - sx, dy = e.clientY - sy;
+        if (!dragging && (dx * dx + dy * dy) > 64) {   /* 8px before it counts as a drag */
+          dragging = true; moved = true;
+          if (held !== item) { pickUp(item); }
+          item.classList.add('is-dragging');
+          if (item.setPointerCapture) { try { item.setPointerCapture(e.pointerId); } catch (err) {} }
+        }
+        if (dragging) {
+          item.style.transform = 'translate(' + dx + 'px,' + dy + 'px)';
+          highlightBinUnder(e.clientX, e.clientY, item);
+        }
+      });
+      function endDrag(e) {
+        if (sx === null) { return; }
+        if (dragging) {
+          item.classList.remove('is-dragging');
+          item.style.transform = '';
+          clearHighlight();
+          var bin = binUnder(e.clientX, e.clientY, item);
+          if (bin && !shellOf(bin).hidden) { chooseBin(bin); }
+          else { drop(); say('Put down.'); }
+          dragging = false;
+        }
+        sx = sy = null;
+      }
+      item.addEventListener('pointerup', endDrag);
+      item.addEventListener('pointercancel', function () {
+        item.classList.remove('is-dragging'); item.style.transform = '';
+        clearHighlight(); dragging = false; sx = sy = null;
+      });
     });
 
     bins.forEach(function (bin) {
