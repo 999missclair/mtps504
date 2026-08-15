@@ -29,6 +29,7 @@
      [data-dice-lock]         Lock it in, disabled until three are chosen
      [data-dice-brief]        the brief strip, hidden until locked
      [data-dice-brief-text]   the exact copy string goes in here
+     [data-dice-brief-spark]  optional: the story-pitch sentence (display only)
      [data-dice-copy]         Copy my brief
      [data-dice-live]         aria-live="polite"
    ========================================================================== */
@@ -198,6 +199,14 @@
       .replace(/"/g, '&quot;');
   }
 
+  /* Lower the first letter so a label reads mid-sentence: "A well-dressed cat"
+     becomes "a well-dressed cat" after "Meet ". Leaves the rest untouched, so
+     "They've" only loses its capital T, never its apostrophe. */
+  function lowerFirst(text) {
+    text = String(text);
+    return text ? text.charAt(0).toLowerCase() + text.slice(1) : text;
+  }
+
   /* Two DISTINCT cards from a twelve-card column. Partial Fisher-Yates over
      a copy of the array: draw one, swap it out of range, draw the next from
      what is left. Without replacement by construction, so there is no retry
@@ -235,10 +244,11 @@
 
     /* Lock, brief strip and Copy sit in the next section, not inside the
        dice panel, so look for them across the whole page. */
-    var lockBtn   = document.querySelector('[data-dice-lock]');
-    var briefBox  = document.querySelector('[data-dice-brief]');
-    var briefText = document.querySelector('[data-dice-brief-text]');
-    var copyBtn   = document.querySelector('[data-dice-copy]');
+    var lockBtn    = document.querySelector('[data-dice-lock]');
+    var briefBox   = document.querySelector('[data-dice-brief]');
+    var briefText  = document.querySelector('[data-dice-brief-text]');
+    var briefSpark = document.querySelector('[data-dice-brief-spark]');
+    var copyBtn    = document.querySelector('[data-dice-copy]');
 
     var rollsUsed = 0;                                   /* 0, 1, then spent */
     var chosen    = { character: null, situation: null, problem: null };
@@ -333,7 +343,7 @@
          card so the reader speaks that card's own label next. The six labels
          are still spoken; they are spoken one at a time, in the student's own
          time, as they Tab across the columns. */
-      say('Rolled. Six cards dealt, two in each column. Pick one from each.');
+      say('Rolled. Six cards on the table, two in each column. Pick the funniest one from each.');
 
       /* Moving focus also fixes a real keyboard bug: the ROLL button is below
          the columns, and on the second roll it hides itself, which used to
@@ -383,6 +393,19 @@
       return FIELDS.map(function (f) { return chosen[f] ? chosen[f].label : ''; }).join(' · ');
     }
 
+    /* The three cards, stitched into a one-line story pitch with comic timing:
+       character, then the scene, then the thing that goes wrong. It is the
+       payoff of the roll — three fragments become a strip a Year 8 can already
+       picture — and it reads aloud cleanly on the live region too. Display and
+       announcement only: the copyable brief stays the plain "A · B · C" string
+       the board, the planner and the slide title all expect. */
+    function sparkString() {
+      var c = chosen.character ? lowerFirst(chosen.character.label) : '';
+      var s = chosen.situation ? chosen.situation.label : '';
+      var p = chosen.problem ? lowerFirst(chosen.problem.label) : '';
+      return 'Meet ' + c + '. ' + s + '. And then — ' + p + '. Four frames, no words. Go.';
+    }
+
     /* Save the locked brief so it follows the student to Plan, Build and the
        Comic Builder (read by js/brief.js). Device-only localStorage — no
        account, no cookie — consistent with the site's privacy stance. */
@@ -392,7 +415,10 @@
           character: chosen.character ? chosen.character.label : '',
           situation: chosen.situation ? chosen.situation.label : '',
           problem: chosen.problem ? chosen.problem.label : '',
-          text: briefString()
+          text: briefString(),
+          /* Additive: the story-pitch line, for any page that wants the funnier
+             framing. The banner reads `text`, so this never affects it. */
+          spark: sparkString()
         }));
       } catch (e) {}
     }
@@ -400,9 +426,10 @@
     function lock() {
       if (chosenCount() < 3 || !briefBox || !briefText) { return; }
       briefText.textContent = briefString();
+      if (briefSpark) { briefSpark.textContent = sparkString(); }
       briefBox.hidden = false;
       saveBrief();
-      say('Locked in. ' + briefString() + '. Copy it, then put it on the board.');
+      say('Locked in. ' + sparkString() + ' Copy your brief, then put it on the board.');
       /* Move the eye and the reading order to the thing that just appeared. */
       if (copyBtn) { copyBtn.focus(); }
     }

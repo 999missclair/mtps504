@@ -158,6 +158,13 @@ body {
   line-height: var(--lh-body);
   color: var(--ink);
   background: var(--paper);
+  /* Crisper glyph rendering across platforms — a display face this rounded
+     benefits from optical sizing and legibility-tuned kerning. Purely visual;
+     no layout change, no new request. */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-optical-sizing: auto;
   /* Both bars are fixed, so the flow is inset by their height.
      No content is ever hidden underneath them (§6.9). */
   padding-top: var(--nav-t);
@@ -193,6 +200,9 @@ h1, h2, h3, .display {
   font-weight: 900;
   letter-spacing: -0.02em;
   line-height: var(--lh-heading);
+  /* Break headings into even lines instead of leaving one orphan word — a
+     calmer silhouette, no effect on where a heading sits. */
+  text-wrap: balance;
 }
 
 h1 {
@@ -204,7 +214,9 @@ h1 {
 h2 { font-size: var(--t-h2); }
 h3 { font-size: var(--t-h3); }
 
-p, li { max-width: var(--measure); }
+/* `pretty` keeps the last line of a paragraph from stranding a single word,
+   and evens the rag — easier reading for a Year 8, no reflow risk. */
+p, li { max-width: var(--measure); text-wrap: pretty; }
 
 .lead {
   font-size: var(--t-lead);
@@ -216,7 +228,9 @@ p, li { max-width: var(--measure); }
 
 .mono { font-family: var(--font-mono); }
 
-a { color: var(--teal); }
+/* Links sit a hair off the baseline so descenders clear the underline, and the
+   rule stays thin until hover — refined, not shouty. */
+a { color: var(--teal); text-underline-offset: 0.15em; text-decoration-thickness: 1px; }
 a:hover { text-decoration-thickness: 2px; }
 
 /* A link that is navigation rather than prose gets a 44px target (§6.10).
@@ -648,6 +662,10 @@ a:hover { text-decoration-thickness: 2px; }
   transition: transform var(--dur-press) var(--ease-out),
               box-shadow var(--dur-press) var(--ease-out);
 }
+/* Hover lifts the button a touch (the poster shadow appears to deepen). Only
+   `transform` moves — the focus-ring box-shadow from §3 is left untouched, so a
+   hovered-and-focused button still shows its ring. */
+.btn-primary:hover { transform: translateY(-1px); }
 .btn-primary:active {
   transform: translateY(2px);
   box-shadow: 1px 1px 0 var(--ink);
@@ -663,7 +681,11 @@ a:hover { text-decoration-thickness: 2px; }
   color: var(--ink);
   font-size: var(--t-meta);
   font-weight: 700;
+  transition: background var(--dur-press) var(--ease-out);
 }
+/* A warm Sun-tint wash on hover — a background change only, so it never touches
+   the focus ring. */
+.btn-secondary:hover { background: #FFF3D6; }
 
 .btn-block { width: 100%; }
 
@@ -1489,6 +1511,16 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   font-size: var(--t-meta);
   letter-spacing: 0.06em;
 }
+/* The story-pitch line under the copyable brief: bigger and warmer than the
+   help text, so the joke reads as the payoff. Empty until the brief locks. */
+.dice-spark {
+  margin-top: var(--s3);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--t-lead, 1.125rem);
+  line-height: 1.35;
+}
+.dice-spark:empty { display: none; }
 
 
 /* ==========================================================================
@@ -2393,25 +2425,31 @@ body.fit .rail__close { display: block; }
    ========================================================================== */
 .brief-banner:empty { display: none; }
 .brief-banner.is-set {
-  padding: var(--s3) var(--s5);
+  padding: var(--s4) var(--s5);
   margin-bottom: var(--s5);
   background: rgba(255, 195, 0, .18);
   border: 2px solid var(--ink);
   border-radius: var(--r-md);
+  /* A Sun bar down the left marks this as "the story you were dealt" — a warm
+     accent, not a new colour. Forced-colours drops box-shadow, and the Ink
+     border still frames the callout, so nothing is lost. */
+  box-shadow: inset 6px 0 0 var(--sun);
 }
 .brief-banner__label {
   margin: 0;
-  font-size: var(--t-sm);
-  font-weight: 700;
+  font-size: var(--t-xs);
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: .08em;
   color: var(--slate);
 }
 .brief-banner__line {
-  margin: var(--s1) 0 0;
+  margin: var(--s2) 0 0;
   font-family: var(--font-display);
-  font-size: 1.25rem;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
   color: var(--ink);
 }
 .brief-banner__empty {
@@ -2425,3 +2463,30 @@ body.fit .rail__close { display: block; }
 }
 /* The make step is the star of 4 Build — give the hero a touch more presence. */
 .section--hero .btn-primary { font-size: 1.15rem; padding-top: var(--s4); padding-bottom: var(--s4); }
+
+
+/* ==========================================================================
+   34  POLISH PASS — hover affordances and rhythm
+   Small, calm feedback on the things a student can tap. Every rule here
+   changes only `background` (never `box-shadow`), so the two-tone focus ring
+   from §3 always wins; and every one is scoped away from the current/selected
+   state so the Sun fill is never overridden on hover. A pointer-fine guard
+   keeps touch devices from sticking in a hover tint after a tap.
+   ========================================================================== */
+
+@media (hover: hover) and (pointer: fine) {
+  .step-pill:not([aria-current]):hover,
+  .chip-btn:not([aria-pressed="true"]):hover,
+  .shot-choice:not([aria-pressed="true"]):hover,
+  .botnav__help:hover,
+  .botnav__back:hover,
+  .copyable .copy-btn:hover { background: #FFF3D6; }
+
+  /* The whole-tile taps on the sort board and dice give a faint warm ground
+     when a pointer is over an unheld / unselected card. */
+  .sort-item:not([aria-pressed="true"]):hover,
+  .dice-card:not([aria-pressed="true"]):hover { background: #FFFDF2; }
+}
+
+/* Tighter, more even spacing under a page's opening question. */
+.page-header .page-question { text-wrap: pretty; }

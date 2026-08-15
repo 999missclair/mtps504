@@ -19,10 +19,15 @@
     border:2px solid var(--ink); border-radius:var(--r-md); }
   .gif-results { display:grid; grid-template-columns:repeat(auto-fill,minmax(120px,1fr));
     gap:var(--s3); margin-top:var(--s4); }
-  .gif-results button { padding:0; border:3px solid transparent; border-radius:var(--r-sm);
-    background:var(--ink); cursor:pointer; overflow:hidden; aspect-ratio:1; }
-  .gif-results button:focus-visible { border-color:var(--sun); outline:none; }
-  .gif-results img { width:100%; height:100%; object-fit:cover; display:block; }
+  /* While a thumbnail loads the tile shows a calm striped "loading" ground
+     instead of a solid black square — the walk-throughs read black tiles as
+     "broken". The stripe sits behind the image and is covered once it paints. */
+  .gif-results button { padding:0; border:3px solid var(--ink); border-radius:var(--r-sm);
+    background:repeating-linear-gradient(135deg,#FFF3D6 0 10px,var(--paper) 10px 20px);
+    cursor:pointer; overflow:hidden; aspect-ratio:1; }
+  .gif-results button:hover { border-color:var(--slate); }
+  .gif-results button:focus-visible { border-color:var(--sun); box-shadow:0 0 0 3px var(--sun); outline:none; }
+  .gif-results img { width:100%; height:100%; object-fit:cover; display:block; background:var(--paper); }
   .giphy-mark { font-size:var(--t-sm); color:var(--slate); margin-top:var(--s3); }
 
   /* --- motion choice (animated / still) --- */
@@ -82,12 +87,13 @@
   .citem.is-selected .citem__del { display:block; }
 
   .save-notice { color:var(--punch); font-size:var(--t-sm); margin-top:var(--s3); min-height:1.2em; }
-  .cb-brief { margin-bottom:var(--s5); padding:var(--s3) var(--s4); background:rgba(255,195,0,.18);
-    border:2px solid var(--ink); border-radius:var(--r-md); }
+  .cb-brief { margin-bottom:var(--s5); padding:var(--s4) var(--s5); background:rgba(255,195,0,.18);
+    border:2px solid var(--ink); border-radius:var(--r-md); box-shadow:inset 6px 0 0 var(--sun); }
   .cb-brief:empty { display:none; }
-  .cb-brief__label { margin:0 0 var(--s2); font-size:var(--t-sm); font-weight:700; text-transform:uppercase;
-    letter-spacing:.04em; color:var(--slate); display:block; }
-  .cb-brief__line { margin:0; font-family:var(--font-display); font-size:1.2rem; line-height:1.2; color:var(--ink); }
+  .cb-brief__label { margin:0 0 var(--s2); font-size:var(--t-xs); font-weight:800; text-transform:uppercase;
+    letter-spacing:.08em; color:var(--slate); display:block; }
+  .cb-brief__line { margin:0; font-family:var(--font-display); font-weight:700; font-size:1.3rem;
+    line-height:1.25; letter-spacing:-0.01em; color:var(--ink); }
   .cb-brief input { width:100%; padding:var(--s3); font:inherit; color:var(--ink); background:#fff;
     border:2px solid var(--ink); border-radius:var(--r-sm); }
   [hidden]{ display:none !important; }
@@ -182,7 +188,7 @@
       <h2>2 &#183; Build your four frames</h2>
       <p class="lead">Click a frame to make it active (it lights up yellow). Everything you add lands
       there. Drag to move, drag the corner to resize, tap the <strong>&times;</strong> to delete.
-      Setup, escalation, escalation, punchline.</p>
+      Set-up, build-up, build-up, punchline.</p>
       <p class="small" id="place-msg" aria-live="polite">Frame 1 is active. Add a picture or a speech bubble.</p>
 
       <div class="builder-tools">
