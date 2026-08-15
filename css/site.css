@@ -1656,7 +1656,7 @@ table.structure tbody td.is-punch { background: #FFF3D6; }
 
 .dice-card__thumb {
   display: block;
-  height: 96px;
+  height: 128px;
   width: 100%;
   border-radius: var(--r-sm);
   overflow: hidden;
@@ -1666,8 +1666,16 @@ table.structure tbody td.is-punch { background: #FFF3D6; }
   color: var(--slate);
 }
 .dice-card__thumb svg { display: block; width: 100%; height: 100%; }
-/* When the real picture goes in, it is an <img> carrying the same class. */
-img.dice-card__thumb { object-fit: cover; border-style: solid; padding: 0; }
+/* When the real picture goes in, it is an <img> carrying the same class.
+   These are reference thumbnails — a student has to recognise the picture — so
+   show the WHOLE image (contain), never a crop, on a clean neutral ground. */
+img.dice-card__thumb {
+  object-fit: contain;
+  object-position: center;
+  background: #EFE7D8;
+  border-style: solid;
+  padding: var(--s1);
+}
 
 .dice-card__glyph { flex: 0 0 auto; width: 40px; height: 40px; color: var(--ink); }
 
