@@ -20,7 +20,7 @@
 (function () {
   'use strict';
 
-  var TOPICS = ['slides-basics', 'finding-images', 'crediting-images', 'when-it-breaks'];
+  var TOPICS = ['builder-basics', 'finding-images', 'crediting-images', 'when-it-breaks'];
 
   /* ONE live region, reused. The first version made a new one on every
      announcement, which left a growing stack of live regions on the page —
