@@ -21,11 +21,12 @@ the **cancelled** drag-and-arrange studio. Build page 6 from §4.4 of the design
 
 | | |
 |---|---|
-| Deployed | **No.** Nothing is live. |
-| Pushed | **No.** Local commits only — the remote has not been written to. |
-| Deploy command | Deliberately not run. Deploying is Clair's call. |
+| Deployed | **No.** No Vercel project is linked yet. |
+| Pushed | **Yes.** `main` is on GitHub at `ef98feb`. |
+| Deploy command | Dry run confirmed Vercel needs a linked project before it can deploy. |
 
-Do not `git push` and do not deploy from an agent session.
+Deploy only after linking this repository to the intended Vercel team/project and adding the
+human-owned `OPENROUTER_API_KEY`, `GIPHY_API_KEY` and `CLASS_PASSWORD` environment variables.
 
 ---
 
