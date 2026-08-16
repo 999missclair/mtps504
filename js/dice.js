@@ -404,7 +404,7 @@
       var c = chosen.character ? lowerFirst(chosen.character.label) : '';
       var s = chosen.situation ? chosen.situation.label : '';
       var p = chosen.problem ? lowerFirst(chosen.problem.label) : '';
-      return 'Meet ' + c + '. ' + s + '. And then — ' + p + '. Four frames, no words. Go.';
+      return 'Meet ' + c + '. ' + s + '. And then — ' + p + '. Four frames, no character dialogue. Go.';
     }
 
     /* Save the locked brief so it follows the student to Plan, Build and the

@@ -20,6 +20,7 @@
   var idSeq = 1;                    // item id counter
   var maxZ = 0;                     // z-index high-water mark
   var frameEls = [];                // rendered frame DOM nodes
+  var lastClear = null;             // one in-memory recovery snapshot; refresh deliberately clears it
 
   function clamp(v, lo, hi) { return v < lo ? lo : (v > hi ? hi : v); }
   function nextId() { return idSeq++; }
@@ -193,7 +194,7 @@
 
   $('#guest-mode').addEventListener('click', function () {
     unlock(true);
-    announce('Guest mode is open. Add your own picture, make bubbles and download your comic.');
+    announce('Guest mode is open. Add your own picture and try practice bubbles. Remove bubbles before your final download.');
   });
 
   // ---- motion choice (animated / still) -----------------------------------
@@ -252,7 +253,7 @@
     var it = { id: nextId(), type: kind, src: '', text: '', x: 16, y: 20, w: 52, h: 24, z: nextZ() };
     comic[active].items.push(it);
     renderFrames(); save();
-    announce('Added a ' + (kind === 'bubble' ? 'speech bubble' : 'caption') + ' to frame ' + (active + 1) + '. Type your words.');
+    announce('Added a ' + (kind === 'bubble' ? 'practice bubble' : 'caption') + ' to frame ' + (active + 1) + (kind === 'bubble' ? '. Remove it before your final download.' : '. Type a short description.'));
     var el = frameEls[active] && frameEls[active].querySelector('[data-id="' + it.id + '"] .citem__text');
     if (el) el.focus();
   }
@@ -297,7 +298,7 @@
     active = i;
     frameEls.forEach(function (fe, idx) { fe.classList.toggle('is-active', idx === i); });
     announce('Frame ' + (i + 1) + ' is active.');
-    $('#place-msg').textContent = 'Frame ' + (i + 1) + ' is active. Add a picture or a speech bubble.';
+    $('#place-msg').textContent = 'Frame ' + (i + 1) + ' is active. Add a picture or a short caption.';
   }
   function selectItem(el, item, fi) {
     deselectAll();
@@ -496,11 +497,32 @@
 
   // ---- clear all ----------------------------------------------------------
   $('#clear-btn').addEventListener('click', function () {
-    if (!window.confirm('Clear every frame? This cannot be undone.')) return;
+    if (!window.confirm('Clear every frame and its credits? You can undo once until you refresh.')) return;
+    lastClear = {
+      comic: JSON.parse(JSON.stringify(comic)),
+      active: active,
+      maxZ: maxZ,
+      credits: creditSlots().map(function (slot) { return slot.value; })
+    };
     comic = emptyComic(); active = 0; maxZ = 0;
     renderFrames(); save(); clearCredits();
-    announce('Cleared all four frames.');
-    $('#place-msg').textContent = 'Frame 1 is active. Add a picture or a speech bubble.';
+    $('#undo-clear').hidden = false;
+    announce('Cleared all four frames. Undo clear is available until you refresh.');
+    $('#place-msg').textContent = 'Frame 1 is active. Add a picture or a short caption.';
+  });
+
+  $('#undo-clear').addEventListener('click', function () {
+    if (!lastClear) return;
+    comic = lastClear.comic;
+    active = lastClear.active;
+    maxZ = lastClear.maxZ;
+    creditSlots().forEach(function (slot, i) { slot.value = lastClear.credits[i] || ''; });
+    renderFrames(); save(); saveCredits();
+    lastClear = null;
+    $('#undo-clear').hidden = true;
+    $('#credit-msg').textContent = 'Your credits are back with your comic.';
+    $('#clear-btn').focus();
+    announce('Your comic and credits are back.');
   });
 
   // ---- export -------------------------------------------------------------

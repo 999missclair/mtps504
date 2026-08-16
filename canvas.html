@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Comic Builder &#8212; Four Frames</title>
-<meta name="description" content="Four Frames &#8212; build your four-panel comic: drop in pictures, add speech bubbles, export.">
+<meta name="description" content="Four Frames &#8212; build your four-panel comic: drop in pictures, add short captions, export.">
 <link rel="stylesheet" href="css/site.css">
 <style>
   /* Comic Builder layout. Tokens only; no new colours. CSS lives here on purpose
@@ -138,7 +138,7 @@
   <header class="page-header">
     <p class="phase-tag">Producing &#8212; the comic builder</p>
     <h1>Comic Builder</h1>
-    <p class="page-question">Build your four frames &#8212; drop in pictures, add speech bubbles, and export your comic.</p>
+    <p class="page-question">Build your four frames &#8212; drop in pictures, add short captions, and export your comic.</p>
   </header>
 
   <!-- CLASS PASSWORD GATE. Shown until unlocked. The tools call /api, which the server
@@ -154,7 +154,8 @@
       </form>
       <p class="small" id="gate-msg" aria-live="polite"></p>
       <p><button type="button" class="btn-secondary" id="guest-mode">Just looking? Try the builder without the class password</button></p>
-      <p class="small">Guest mode lets you add your own pictures, make bubbles and download a comic. GIF search stays in class.</p>
+      <p class="small">Guest mode lets you add your own pictures and try practice bubbles.
+      Remove bubbles before your final download. GIF search stays in class.</p>
     </div>
   </section>
 
@@ -175,7 +176,9 @@
       name. This is the same rule you sorted on 4 Build.</p>
     </div>
 
-    <p class="card small" id="guest-note" hidden><strong>Guest mode:</strong> add your own picture, paste one, make bubbles and download your comic. GIF search needs the class password.</p>
+    <p class="card small" id="guest-note" hidden><strong>Guest mode:</strong> add your own picture,
+    paste one and try practice bubbles. Remove bubbles before your final download. GIF search
+    needs the class password.</p>
 
     <section class="section" id="search-section">
       <h2>1 &#183; Find a picture</h2>
@@ -205,13 +208,13 @@
       <p class="lead">Click a frame to make it active (it lights up yellow). Everything you add lands
       there. Drag to move, drag the corner to resize, tap the <strong>&times;</strong> to delete.
       Set-up, build-up, build-up, punchline.</p>
-      <p class="small" id="place-msg" aria-live="polite">Frame 1 is active. Add a picture or a speech bubble.</p>
-      <p class="small">Keep real people out of your comic. It is wordless, so you do not need names. If you add one, use a made-up character name only.</p>
+      <p class="small" id="place-msg" aria-live="polite">Frame 1 is active. Add a picture or a short caption.</p>
+      <p class="small">Your final comic is wordless: no character dialogue or real names. Use a short caption only to explain what a panel shows.</p>
 
       <div class="builder-tools">
         <input type="file" id="add-pic" accept="image/*" class="visually-hidden">
         <button type="button" class="btn-secondary" id="add-pic-btn">Add a picture</button>
-        <button type="button" class="btn-secondary" id="add-bubble">Add speech bubble</button>
+        <button type="button" class="btn-secondary" id="add-bubble" title="For practice only. Remove it before the final download.">Add practice bubble</button>
         <button type="button" class="btn-secondary" id="add-caption">Add caption</button>
       </div>
 
@@ -250,6 +253,7 @@
       <div style="display:flex; gap:var(--s3); flex-wrap:wrap; margin-top:var(--s5)">
         <button type="button" class="btn-primary" id="export-btn">Download my comic</button>
         <button type="button" class="btn-secondary" id="clear-btn">Clear all</button>
+        <button type="button" class="btn-secondary" id="undo-clear" hidden>Undo clear</button>
       </div>
       <p class="small" id="export-msg" aria-live="polite"></p>
       <p class="save-notice" id="save-notice" aria-live="polite"></p>
