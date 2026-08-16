@@ -1099,6 +1099,7 @@ body.is-home .page-shell { padding: var(--s5) var(--s6); }
 }
 .hero__title { margin-bottom: var(--s3); }
 .hero__line  { font-size: var(--t-lead); font-weight: 700; }
+.home-hero-art { display:block; width:100%; height:auto; margin-top:var(--s4); border-radius:var(--r-md); }
 /* .hero__note is gone — the host's sentence replaced it (section 30). */
 
 /* On Home the strip is capped harder than on 4 Build, because the whole
@@ -2250,9 +2251,11 @@ ol.steps--two-col > li { break-inside: avoid; }
    Scrolls INSIDE a step only when the content genuinely can't fit (e.g. big text
    zoom) — accessibility over a hard no-scroll rule.
    ========================================================================== */
-body.fit { overflow: hidden; }
+/* Drawer sizing is an enhancement. Without drawer.js, the support rail stays
+   in the document as an ordinary, readable section. */
+body.fit.has-drawer { overflow: hidden; }
 
-body.fit .page-shell:not(.page-shell--footer) {
+body.fit.has-drawer .page-shell:not(.page-shell--footer) {
   height: calc(100dvh - var(--nav-t) - var(--nav-b));
   min-height: 0;
   padding-top: var(--s4);
@@ -2261,28 +2264,28 @@ body.fit .page-shell:not(.page-shell--footer) {
   display: flex;
   flex-direction: column;
 }
-body.fit .page-header { flex: 0 0 auto; margin-bottom: var(--s3); }
-body.fit .page-header h1 { font-size: clamp(1.6rem, 3.2vw, 2.4rem); margin: 0; }
-body.fit .page-header .page-question { margin: var(--s2) 0 0; font-size: var(--t-body); }
+body.fit.has-drawer .page-header { flex: 0 0 auto; margin-bottom: var(--s3); }
+body.fit.has-drawer .page-header h1 { font-size: clamp(1.6rem, 3.2vw, 2.4rem); margin: 0; }
+body.fit.has-drawer .page-header .page-question { margin: var(--s2) 0 0; font-size: var(--t-body); }
 
-body.fit .with-rail {
+body.fit.has-drawer .with-rail {
   flex: 1 1 auto;
   min-height: 0;
   grid-template-columns: 1fr;
 }
-body.fit .with-rail > div:first-child {
+body.fit.has-drawer .with-rail > div:first-child {
   min-height: 0;
   overflow-y: auto;
   overflow-x: hidden;
   padding-right: var(--s2);
 }
 /* one step at a time already (steps.js hides the rest); just let it breathe */
-body.fit .with-rail > div:first-child > .section { margin-top: 0; }
+body.fit.has-drawer .with-rail > div:first-child > .section { margin-top: 0; }
 
-body.fit .page-shell--footer { display: none; }
+body.fit.has-drawer .page-shell--footer { display: none; }
 
 /* the rail, now a drawer */
-body.fit .rail {
+body.fit.has-drawer .rail {
   position: fixed;
   top: var(--nav-t);
   right: 0;
@@ -2297,23 +2300,23 @@ body.fit .rail {
   transition: transform var(--dur-nav) var(--ease-out);
   z-index: 60;
 }
-body.fit .rail.is-open { transform: translateX(0); }
-body.fit .rail__close {
+body.fit.has-drawer .rail.is-open { transform: translateX(0); }
+body.fit.has-drawer .rail__close {
   display: block;
   margin: 0 0 var(--s4) auto;
 }
 
-body.fit .rail-scrim {
+body.fit.has-drawer .rail-scrim {
   position: fixed; inset: 0;
   background: rgba(20, 20, 28, .35);
   opacity: 0; pointer-events: none;
   transition: opacity var(--dur-fade) var(--ease-out);
   z-index: 55;
 }
-body.fit .rail-scrim.is-open { opacity: 1; pointer-events: auto; }
+body.fit.has-drawer .rail-scrim.is-open { opacity: 1; pointer-events: auto; }
 
 /* the drawer toggle — pinned above the bottom bar, left side (clear of the → button) */
-body.fit .rail-toggle {
+body.fit.has-drawer .rail-toggle {
   position: fixed;
   left: var(--s4);
   bottom: calc(var(--nav-b) + var(--s3));
@@ -2322,16 +2325,16 @@ body.fit .rail-toggle {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  body.fit .rail, body.fit .rail-scrim { transition: none; }
+  body.fit.has-drawer .rail, body.fit.has-drawer .rail-scrim { transition: none; }
 }
 @media (max-width: 48rem) {
-  body.fit .rail { width: 100%; border-left: 0; }
+  body.fit.has-drawer .rail { width: 100%; border-left: 0; }
 }
 /* only show the drawer furniture in fit mode */
 .rail-scrim, .rail-toggle, .rail__close { display: none; }
-body.fit .rail-scrim { display: block; }
-body.fit .rail-toggle { display: inline-flex; }
-body.fit .rail__close { display: block; }
+body.fit.has-drawer .rail-scrim { display: block; }
+body.fit.has-drawer .rail-toggle { display: inline-flex; }
+body.fit.has-drawer .rail__close { display: block; }
 
 
 /* ==========================================================================

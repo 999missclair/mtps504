@@ -11,7 +11,7 @@
      </div>
 
    Rules kept, and they are claims made in the video rationale:
-   - No storage, no network. Nothing is remembered and nothing is sent.
+   - Copy controls do not store the copied text or send it anywhere.
    - The Clipboard API first, then a select-the-text fallback, then a spoken
      instruction — because the school build may not be a secure context and a
      Copy button that silently does nothing is worse than no button.

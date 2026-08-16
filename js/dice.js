@@ -5,9 +5,10 @@
    "Data shape for the build" block, lifted unchanged.
 
    Rules this file keeps, and they are claims made in the video rationale:
-   - No storage of any kind. No localStorage, no sessionStorage, no cookie.
-     Refresh the page and the roll is gone. That is the design, not a bug:
-     the class board is the memory, and the page says so in the sidebar.
+   - No account or cookies. The locked roll is saved only on this device in
+     localStorage so it can follow the student between pages. It can disappear
+     when the device is cleared. The video rationale and written plan must use
+     the same wording.
    - No network requests. Nothing is fetched, nothing is sent. The card
      pictures are inline SVG placeholders until Clair drops the real
      thumbnails in — see the SWAP comment written into every card.

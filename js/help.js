@@ -14,7 +14,8 @@
       href is Home, so with no JavaScript, or with nothing in the history,
       the student still lands somewhere real rather than nowhere.
 
-   No storage. No network. Nothing is remembered between visits.
+   Help itself does not save a topic or send a request. The Comic Builder and
+   Roll keep their student work only on the current device.
    ========================================================================== */
 
 (function () {

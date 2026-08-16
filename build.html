@@ -120,9 +120,9 @@
       <section class="rule-strip rule-strip--slim" aria-labelledby="trolley">
         <h2 id="trolley">Before you post</h2>
         <ol>
-          <li><span class="num" aria-hidden="true">1</span> Nothing is saved on this laptop.</li>
+          <li><span class="num" aria-hidden="true">1</span> Your roll and comic stay on this laptop for now.</li>
           <li><span class="num" aria-hidden="true">2</span> Your finished comic lives on the
-          class gallery &#8212; that&#8217;s the copy that lasts.</li>
+          class wall &#8212; that&#8217;s the copy that lasts.</li>
           <li><span class="num" aria-hidden="true">3</span> Post before the bell.</li>
         </ol>
       </section>
@@ -283,6 +283,13 @@
         <div class="card sortboard sortboard--licence" data-sortboard
              data-pick-first="Tap an image first, then tap the bin you want to put it in.">
 
+          <button type="button" class="btn-secondary sortboard__toggle" hidden
+                  data-sort-scaffold
+                  data-label-on="Try it with two bins"
+                  data-label-off="Back to three bins"
+                  data-say-on="Two bins now. Use in class, or not at all. The open-licence pictures are in the use-in-class bin."
+                  data-say-off="Three bins again. In my comic, in my comic and online, or not at all. The open-licence pictures are back in the tray.">Try it with two bins</button>
+
           <div class="sortboard__board">
 
             <div class="sortboard__tray" role="group" aria-label="Images to sort"
@@ -290,9 +297,10 @@
 
               <button type="button" class="sort-item" data-sort-item
                 data-title="Museum teapot, CC0"
-                data-correct="canusebut"
+                data-correct="canusebut" data-correct-two="canuse"
                 data-fb-canusebut="Yes, both. CC0 means the creator gave up their rights, so it can go anywhere. Still write the credit line."
                 data-fb-canuse="You&#8217;re selling it short. CC0 is the most open licence there is &#8212; it can go online too."
+                data-fb2-canuse="Yes. It has an open licence, so it can go in your comic and on the class wall. Still write the credit line."
                 data-fb-cantuse="You can. CC0 is the most open licence there is &#8212; try again.">
                 <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
                   <rect x="1.5" y="1.5" width="157" height="117" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
@@ -309,9 +317,10 @@
 
               <button type="button" class="sort-item" data-sort-item
                 data-title="Gallery at night, CC BY-SA"
-                data-correct="canusebut"
+                data-correct="canusebut" data-correct-two="canuse"
                 data-fb-canusebut="Yes, both. Share-alike means your finished strip gets the same free licence &#8212; it can go online, just know that."
                 data-fb-canuse="It can go further than that &#8212; this one can go online too. The catch is what share-alike does to your strip."
+                data-fb2-canuse="Yes. It has an open licence, so it can go in your comic and on the class wall. Share-alike means your strip gets the same free licence."
                 data-fb-cantuse="You can use it &#8212; share-alike just means your strip gets the same free licence. Try the middle bin.">
                 <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
                   <rect x="1.5" y="1.5" width="157" height="117" fill="#14141C" stroke="#14141C" stroke-width="3"/>
@@ -326,9 +335,10 @@
 
               <button type="button" class="sort-item" data-sort-item
                 data-title="Painting photographed in a library art book"
-                data-correct="canuse"
+                data-correct="canuse" data-correct-two="canuse"
                 data-fb-canuse="Correct &#8212; in class you&#8217;re studying artworks and making a joke about one, which the law covers. It can go in your comic, but not on a public website."
                 data-fb-canusebut="Half right. It can go in your comic &#8212; not online. Classroom permission doesn&#8217;t follow you onto the internet."
+                data-fb2-canuse="Yes. You can use this in class, but it does not go on the class wall."
                 data-fb-cantuse="You can use this one &#8212; studying artworks and making a joke about one is exactly what the rules allow. Just keep it in class.">
                 <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
                   <rect x="1.5" y="1.5" width="157" height="117" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
@@ -347,9 +357,10 @@
 
               <button type="button" class="sort-item" data-sort-item
                 data-title="Google Images result"
-                data-correct="canuse"
+                data-correct="canuse" data-correct-two="canuse"
                 data-fb-canuse="Correct. In class, fine &#8212; online, no. Google Images searches other people&#8217;s sites, so &#8216;no licence stated&#8217; means you don&#8217;t know what you&#8217;ve got."
                 data-fb-canusebut="Not this one &#8212; there&#8217;s no licence, so nothing gives you permission to publish it. It can still go in your comic."
+                data-fb2-canuse="Yes. You can use this in class, but it does not go on the class wall."
                 data-fb-cantuse="Stricter than you need &#8212; you can use it in class. Just don&#8217;t put it where the whole internet can see it.">
                 <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
                   <rect x="1.5" y="1.5" width="157" height="117" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
@@ -367,9 +378,10 @@
 
               <button type="button" class="sort-item" data-sort-item
                 data-title="Whole page from a comic that is on sale now"
-                data-correct="cantuse"
+                data-correct="cantuse" data-correct-two="cantuse"
                 data-fb-cantuse="Correct. This is a whole page an artist is selling right now, used as one of your frames &#8212; you haven&#8217;t made a joke about it, you&#8217;ve replaced buying it."
                 data-fb-canuse="Not this one &#8212; a whole page on sale is a page somebody didn&#8217;t buy. A small part, transformed, is a different conversation."
+                data-fb2-cantuse="Not this one. Using a whole page somebody is selling stands in for buying it."
                 data-fb-canusebut="No condition rescues this one &#8212; using a whole page somebody is selling stands in for buying it.">
                 <svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
                   <rect x="1.5" y="1.5" width="157" height="117" fill="#FFF9F0" stroke="#14141C" stroke-width="3"/>
@@ -389,7 +401,8 @@
             <div class="sortboard__bins">
 
               <div class="bin" data-bin-shell>
-                <button type="button" class="bin__btn" data-sort-bin data-bin="canuse">
+                <button type="button" class="bin__btn" data-sort-bin data-bin="canuse"
+                        data-label-two="In my comic" data-sub-two="Class only. Does not go on the class wall.">
                   <span class="bin__label" data-bin-label>In my comic</span>
                   <span class="bin__sub" data-bin-sub>Class only. Credit it.</span>
                 </button>
@@ -397,7 +410,7 @@
               </div>
 
               <div class="bin" data-bin-shell>
-                <button type="button" class="bin__btn" data-sort-bin data-bin="canusebut">
+                <button type="button" class="bin__btn" data-sort-bin data-bin="canusebut" data-merged-into="canuse">
                   <span class="bin__label" data-bin-label>In my comic and online</span>
                   <span class="bin__sub" data-bin-sub>Open licence. Goes anywhere.</span>
                 </button>
@@ -459,41 +472,19 @@
                   aria-label="Copy the worked credit line">Copy</button>
         </div>
         <p class="small">Four frames, four credit lines &#8212; on your comic and in your
-        gallery post, whatever the licence says.</p>
+        class-wall post, whatever the licence says.</p>
         <p><strong>Watch out for CC&nbsp;BY-SA.</strong> &#8220;Share-alike&#8221; means
         anyone is allowed to reuse your finished strip the same free way. That&#8217;s fine
-        for a class gallery &#8212; just know you&#8217;ve said yes to it.</p>
+        for a class wall &#8212; just know you&#8217;ve said yes to it.</p>
         <p><a class="tap-link" href="help.html?topic=crediting-images">How do I find the
         licence? &#8594;</a></p>
       </section>
 
-      <!-- BLOCK I — the annotated exemplar figure.
-           ⚠️ NEEDS CLAIR — the finished example still needs making. The box
-           below stands at the final dimensions (1600x1200, 4:3) with the
-           callout list already written, so the layout is real and only the
-           picture is missing. To finish it: build the teapot strip in the
-           Comic Builder, export it as an image, save it as
-           img/exemplar-teapot.png, then replace the .placeholder div with:
-
-           <img src="img/exemplar-teapot.png" width="1600" height="1200"
-                loading="lazy"
-                alt="A four-frame comic strip. Frame 1: a ceramic teapot on a
-                     shelf, a sculpture far across a gallery. Frame 2: the
-                     lights are out, both lit closer in. Frame 3: closer
-                     still, the gap between them looks small. Frame 4: the
-                     lights are back on, a tour group standing between them.">
-
-           This is the third instance of this placeholder on the site.
-           ============================================================== -->
       <section class="section" id="exemplar">
         <h2>What one looks like finished</h2>
         <figure class="exemplar">
-          <div class="placeholder">
-            <p><span class="needs-clair">Needs Clair</span></p>
-            <p class="display">The worked example goes here</p>
-            <p class="small">A ceramic teapot &#183; the lights go out &#183; they&#8217;ve
-            fallen for the sculpture opposite.</p>
-          </div>
+          <img src="img/exemplar-strip.png" width="1448" height="1086" loading="lazy"
+               alt="A four-frame comic strip. Frame 1: a ceramic teapot on a shelf, a sculpture far across a gallery. Frame 2: the lights are out and they appear closer. Frame 3: they look even closer. Frame 4: the lights are back on, with a tour group standing between them.">
           <figcaption>One rolled brief, four frames, no words. The joke is made by how close
           the camera gets.</figcaption>
         </figure>
@@ -522,15 +513,14 @@
 
       <!-- The partner action from the hand-off (design spec 3.5): once the
            comic is built and exported in the Comic Builder, the primary offers
-           the gallery.
-           ⚠️ NEEDS CLAIR gallery board URL — same board as 5 Share. -->
+           the class wall. -->
       <section class="section" id="post">
         <h2>Post it before the bell</h2>
         <div class="card">
           <p class="lead">A comic you exported but didn&#8217;t post is not handed in
           &#8212; the laptop gets wiped.</p>
           <ol class="steps">
-            <li><strong>Open the class gallery</strong>
+            <li><strong>Open the class wall</strong>
               <span class="detail">New post, upload the image you exported from the Comic
               Builder.</span></li>
             <li><strong>Paste your four credit lines</strong>
@@ -540,14 +530,7 @@
               <span class="detail">No surnames. <span class="mono">Sam T4</span> is
               perfect.</span></li>
           </ol>
-          <p style="margin-top:var(--s4)">
-            <button type="button" class="btn-primary btn-block" disabled>
-              Post my comic to the gallery
-              <span class="ext-glyph" aria-hidden="true">&#8599;</span>
-            </button>
-          </p>
-          <p class="small"><span class="needs-clair">Needs Clair</span> the gallery board
-          link goes in this button. It is the same board as the one on 5 Share.</p>
+          <p class="small">Go to <a class="tap-link" href="share.html#post">5 Share</a> to post it to the class wall.</p>
         </div>
       </section>
 
@@ -664,7 +647,7 @@
         <path d="M8 10.5V7a4 4 0 0 1 8 0v3.5"/>
         <path d="M12 15v2.5"/>
       </svg>
-      <span>Nothing you type here is saved. No account, no cookies.</span>
+      <span>No account, no cookies. Your story and comic stay on this device.</span>
     </li>
     <li>
       <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
@@ -682,7 +665,7 @@
     </li>
   </ul>
   <p>Four Frames &#183; Year 8 Visual Arts. Your finished comic lives on the class
-  gallery.</p>
+  wall.</p>
 </footer>
 </div>
 

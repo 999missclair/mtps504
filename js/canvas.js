@@ -8,6 +8,7 @@
   'use strict';
   var PASS_KEY = 'ff-class-pass';   // sessionStorage — this session only
   var STATE_KEY = 'ff-comic';       // localStorage — survives refresh, device only
+  var CREDITS_KEY = 'ff-credits';   // localStorage — one credit line for each frame
   var NFRAMES = 4;
   var HINTS = ['Setup', 'Escalation', 'Escalation', 'Punchline'];
 
@@ -67,6 +68,59 @@
     }
   }
 
+  function creditSlots() { return Array.prototype.slice.call(document.querySelectorAll('[data-credit-slot]')); }
+  function loadCredits() {
+    var saved = [];
+    try { saved = JSON.parse(localStorage.getItem(CREDITS_KEY) || '[]'); } catch (e) {}
+    creditSlots().forEach(function (slot, i) { slot.value = typeof saved[i] === 'string' ? saved[i] : ''; });
+  }
+  function saveCredits() {
+    try { localStorage.setItem(CREDITS_KEY, JSON.stringify(creditSlots().map(function (slot) { return slot.value; }))); } catch (e) {}
+  }
+  function clearCredits() {
+    creditSlots().forEach(function (slot) { slot.value = ''; });
+    try { localStorage.removeItem(CREDITS_KEY); } catch (e) {}
+    var message = $('#credit-msg');
+    if (message) message.textContent = 'Credits cleared for your new comic.';
+  }
+  function copyCredits() {
+    var slots = creditSlots();
+    var lines = slots.map(function (slot) { return slot.value.trim(); });
+    var message = $('#credit-msg');
+    var firstBlank = lines.findIndex(function (line) { return !line; });
+    if (firstBlank > -1) {
+      message.textContent = 'Add the exact credit for Frame ' + (firstBlank + 1) + ' before you copy.';
+      slots[firstBlank].focus();
+      return;
+    }
+    var text = lines.map(function (line, i) { return 'Frame ' + (i + 1) + ': ' + line; }).join('\n');
+    function done() { message.textContent = 'Copied all four credits. Open the class wall, post your comic, then paste these lines underneath.'; }
+    function fallback() {
+      var copyBox = document.createElement('textarea');
+      copyBox.value = text;
+      copyBox.setAttribute('aria-label', 'Your four copied credit lines');
+      copyBox.style.position = 'fixed'; copyBox.style.left = '-9999px';
+      document.body.appendChild(copyBox); copyBox.select();
+      var copied = false;
+      try { copied = document.execCommand('copy'); } catch (e) {}
+      if (copied) { document.body.removeChild(copyBox); done(); }
+      else {
+        message.textContent = 'Your four credits are selected. Press Ctrl+C or Cmd+C, then open the class wall.';
+        copyBox.style.position = 'static'; copyBox.style.left = 'auto'; copyBox.style.width = '100%';
+        copyBox.focus();
+      }
+    }
+    if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(text).then(done, fallback); }
+    else { fallback(); }
+  }
+  function startCredits() {
+    var button = $('#copy-credits');
+    if (!button) return;
+    loadCredits();
+    creditSlots().forEach(function (slot) { slot.addEventListener('input', saveCredits); });
+    button.addEventListener('click', copyCredits);
+  }
+
   // normalise ids + z once, after load
   comic.forEach(function (f) { f.items.forEach(function (it) {
     it.id = nextId();
@@ -103,15 +157,29 @@
     }
   }
 
-  function unlock() { $('#gate-section').hidden = true; $('#tool').hidden = false; renderBrief(); renderFrames(); }
+  function unlock(guest) {
+    $('#gate-section').hidden = true;
+    $('#tool').hidden = false;
+    $('#search-section').hidden = !!guest;
+    $('#build-comic').hidden = !guest;
+    $('#guest-note').hidden = !guest;
+    renderBrief();
+    renderFrames();
+    var step = document.querySelector('.step-pill[href="' + (guest ? '#build-comic' : '#search-section') + '"]');
+    if (step) step.click();
+  }
 
   async function tryPass(candidate) {
     var r = await fetch('/api/gifs?q=hello', { headers: { 'x-class-pass': candidate } });
-    if (r.status === 401) return false;
-    return true; // 200, or any non-401, means the pass got through
+    return r.ok;
   }
 
   if (pass) { unlock(); }
+  else if (location.hash === '#search-section' || location.hash === '#build-comic') {
+    // A guest preview is deliberately not remembered. On refresh, return a locked visitor to
+    // the visible gate instead of letting the pager hide it behind a stale preview fragment.
+    history.replaceState(null, '', location.pathname + location.search);
+  }
 
   $('#gate-form').addEventListener('submit', async function (e) {
     e.preventDefault();
@@ -121,6 +189,11 @@
     if (ok) { pass = val; sessionStorage.setItem(PASS_KEY, val); $('#gate-msg').textContent = ''; unlock(); }
     else if (ok === false) { $('#gate-msg').textContent = 'That password didn’t work. Check with your teacher.'; }
     else { $('#gate-msg').textContent = 'Couldn’t reach the class server. Try again.'; }
+  });
+
+  $('#guest-mode').addEventListener('click', function () {
+    unlock(true);
+    announce('Guest mode is open. Add your own picture, make bubbles and download your comic.');
   });
 
   // ---- motion choice (animated / still) -----------------------------------
@@ -387,6 +460,9 @@
     comic.forEach(function (f, i) {
       var frame = document.createElement('div');
       frame.className = 'frame' + (i === active ? ' is-active' : '');
+      frame.tabIndex = 0;
+      frame.setAttribute('role', 'group');
+      frame.setAttribute('aria-label', 'Frame ' + (i + 1) + ': ' + HINTS[i] + '. Press Enter or Space to make it active.');
 
       var num = document.createElement('span');
       num.className = 'frame__num'; num.textContent = i + 1;
@@ -404,6 +480,12 @@
           activate(i); deselectAll();
         }
       });
+      frame.addEventListener('keydown', function (e) {
+        if (e.target !== frame || (e.key !== 'Enter' && e.key !== ' ')) return;
+        e.preventDefault();
+        activate(i); deselectAll();
+        announce('Frame ' + (i + 1) + ' is active.');
+      });
 
       f.items.forEach(function (it) { frame.appendChild(makeItemEl(it, i, frame)); });
 
@@ -414,8 +496,9 @@
 
   // ---- clear all ----------------------------------------------------------
   $('#clear-btn').addEventListener('click', function () {
+    if (!window.confirm('Clear every frame? This cannot be undone.')) return;
     comic = emptyComic(); active = 0; maxZ = 0;
-    renderFrames(); save();
+    renderFrames(); save(); clearCredits();
     announce('Cleared all four frames.');
     $('#place-msg').textContent = 'Frame 1 is active. Add a picture or a speech bubble.';
   });
@@ -470,12 +553,30 @@
     ctx.textAlign = 'start'; ctx.textBaseline = 'alphabetic';
   }
 
+  function textIsSafeToExport() {
+    var words = comic.map(function (frame) {
+      return frame.items.filter(function (item) { return item.type !== 'image'; })
+        .map(function (item) { return item.text || ''; }).join(' ');
+    }).join(' ');
+    if (!words.trim()) return true;
+    if (/\b[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}\b|\b(?:\+?61|0)\d[\d\s-]{7,}\b/.test(words)) {
+      $('#export-msg').textContent = 'Take out contact details before you download. Keep real people private.';
+      return false;
+    }
+    if (!window.confirm('Quick name check: are all names made-up characters, not students, teachers, friends or anyone you know?')) {
+      $('#export-msg').textContent = 'Edit the words first. Keep real people out of the comic.';
+      return false;
+    }
+    return true;
+  }
+
   $('#export-btn').addEventListener('click', function () {
     var msg = $('#export-msg'); msg.textContent = 'Building your comic…';
     var CELL_W = 600, CELL_H = 450, GAP = 18;
     var W = CELL_W * 2 + GAP * 3, H = CELL_H * 2 + GAP * 3;
     var anyItem = comic.some(function (f) { return f.items.length; });
     if (!anyItem) { msg.textContent = 'Add a picture or a bubble to a frame first.'; return; }
+    if (!textIsSafeToExport()) return;
 
     var cv = document.createElement('canvas'); cv.width = W; cv.height = H;
     var ctx = cv.getContext('2d');
@@ -536,5 +637,6 @@
   });
 
   // first paint if already unlocked
+  startCredits();
   if (pass) renderFrames();
 })();

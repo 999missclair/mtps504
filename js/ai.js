@@ -75,6 +75,18 @@
     if (out) { out.hidden = false; out.textContent = text; }
   }
 
+  function safeForHelper(text, panel) {
+    if (/\b[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}\b|\b(?:\+?61|0)\d[\d\s-]{7,}\b/.test(text)) {
+      msg(panel, 'Take out names, contact details and anything about a real person. Use made-up characters only.');
+      return false;
+    }
+    if (text && !window.confirm('Quick name check: does this use made-up character names only, not students, teachers, friends or anyone you know?')) {
+      msg(panel, 'Change any real-person details first. Use made-up characters only.');
+      return false;
+    }
+    return true;
+  }
+
   function el(tag, cls, text) {
     var n = document.createElement(tag);
     if (cls) n.className = cls;
@@ -132,6 +144,7 @@
       altBtn.addEventListener('click', function () {
         var desc = altIn.value.trim();
         if (!desc) { altOut.hidden = false; altOut.textContent = 'Describe your panel first, in your own words.'; altIn.focus(); return; }
+        if (!safeForHelper(desc, altPanel)) return;
         altOut.hidden = false; altOut.textContent = 'Drafting…';
         guarded(altPanel, altBtn, async function () {
           var data = await aiFetch('alt-text', { description: desc });
@@ -174,6 +187,7 @@
           renOut.hidden = false; renOut.textContent = 'Write a direction for all four panels first.';
           return;
         }
+        if (!safeForHelper([brief, style].concat(panels.map(function (p) { return p.description; })).join(' '), renPanel)) return;
         renOut.hidden = false; renOut.textContent = 'Rendering your rough preview… this can take a moment.';
         guarded(renPanel, renBtn, async function () {
           var data = await aiFetch('render', { brief: brief.trim(), style: style.trim(), panels: panels });

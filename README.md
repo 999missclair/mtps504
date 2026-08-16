@@ -37,10 +37,10 @@ no dependencies.** Open a file and it works.
 Three rules the site keeps, because each one is a claim made in the video rationale
 and each has to be true in the code:
 
-1. **No external requests of any kind.** No CDN font, no CDN CSS, no remote image,
-   no analytics. Type is two system stacks (design doc §5.2); every graphic is CSS.
-2. **No storage.** No `localStorage`, no `sessionStorage`, no cookies, no account.
-   Verified at runtime: 8 pages, 16 requests, all same-origin, all three storages empty.
+1. **No third-party libraries, CDNs, remote fonts or analytics.** Type is two system
+   stacks. The optional class-approved GIF and AI helpers call the site's `/api` routes.
+2. **Device-only drafts.** No account or cookies. The locked roll and comic-in-progress use
+   browser storage on this device so students can move between pages; they are not durable work.
 3. **No `outline: none`.** Focus is a two-tone ring (Sun inner + Ink outer) so it
    reads on both the dark bar and the light page.
 
@@ -153,17 +153,13 @@ PY
 
 ---
 
-## Placeholders, and what they are waiting on
+## Project assets and manual setup
 
-`⚠️ NEEDS CLAIR` — an agent cannot create a Google file.
-
-- **The worked example strip.** A 1600 × 1200 PNG exported from the Four Frames Google
-  Slides template (the teapot strip). It appears on `index.html` and `brief.html` and
-  will appear on `build.html`. Both current instances are a placeholder box at the exact
-  final dimensions, flagged with an HTML comment that carries the swap-in markup, so the
-  layout is real and only the picture is missing. Alt text is written out in design doc
-  §4.4 block I.
-- **The Slides template `/copy` link**, the Padlet boards and the Google Form. Marked
+- **Worked example strip.** `img/exemplar-strip.png` is a local, wordless four-panel
+  teapot example. It appears on Home, the brief and Build with descriptive alt text.
+- **Home hero.** `img/home-hero.png` is a local illustration that introduces the four-panel
+  idea without adding another block of instructions.
+- **The Padlet boards and the Google Form.** Marked
   `⚠️ CONFIRM` in the design doc; the pages ship with the slot, not the URL.
 
 ---

@@ -109,14 +109,14 @@
      falls back to the page's own default. */
   var helpTopics = {
     scramble: 'when-it-breaks',
-    roll: 'the-roll',
-    lock: 'the-roll',
-    post: 'posting',
+    roll: 'builder-basics',
+    lock: 'builder-basics',
+    post: 'when-it-breaks',
     'build-it': 'when-it-breaks',
     steps: 'when-it-breaks',
-    sources: 'finding-pictures',
-    'bank-handoff': 'finding-pictures',
-    'licence-sort': 'finding-pictures'
+    sources: 'finding-images',
+    'bank-handoff': 'finding-images',
+    'licence-sort': 'crediting-images'
   };
 
   var live = document.createElement('p');

@@ -5,9 +5,9 @@
    markup and no new JavaScript (activity-designs.md, "Build responsibilities").
 
    Rules this file keeps, and they are claims made in the video rationale:
-   - No storage of any kind. No localStorage, no sessionStorage, no cookie.
-     Reload the page and the board resets, and the site never claims to
-     remember a student between lessons.
+   - This sort does not save a student's choices. Reload the page and the board
+     resets. Elsewhere, the site keeps a locked roll and comic-in-progress only
+     on this device; it does not use accounts or cookies.
    - No drag path. Tap the item, then tap the bin. Every item and every bin is
      a real <button>, so the keyboard does exactly the same task: Enter or
      Space picks an item up, Tab moves to a bin, Enter or Space drops it,
