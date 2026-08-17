@@ -2049,6 +2049,16 @@ table.structure tbody td.is-punch { background: #FFF3D6; }
   font-size: var(--t-sm);
 }
 .plan-beats .detail { display: block; color: var(--slate); }
+.plan-video-prompt {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--s3);
+  align-items: center;
+  margin-top: var(--s3);
+}
+.plan-video-prompt h3 { margin: var(--s2) 0 var(--s1); font-size: var(--t-h3); }
+.plan-video-prompt .small { margin: 0; }
+.plan-video-prompt .btn-secondary { min-height: 44px; }
 .shot-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .shot-grid h3, .shot-grid p { margin: 0; }
 body.fit.has-drawer .plan-structure-table { margin-top: var(--s2) !important; }
@@ -2061,6 +2071,8 @@ body.fit.has-drawer .shot-grid { margin-top: var(--s2); }
 @media (max-width: 48rem) {
   .plan-beats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .shot-grid { grid-template-columns: 1fr; }
+  .plan-video-prompt { grid-template-columns: 1fr; }
+  .plan-video-prompt .btn-secondary { justify-self: start; }
 }
 
 
