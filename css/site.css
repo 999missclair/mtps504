@@ -1226,6 +1226,154 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
    Every state carries a shape or a word as well as a colour (§6.8).
    ========================================================================== */
 
+/* The current Panel Scramble deliberately puts unrelated visual languages
+   together. Students make the narrative connection; the interface makes the
+   four-frame choice and the viable starting routes visible at the same time. */
+.story-scramble {
+  display: grid;
+  gap: var(--s4);
+  margin-top: var(--s4);
+}
+.story-scramble__intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--s3) var(--s4);
+  align-items: center;
+  padding: var(--s4);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  background: #FFF3D6;
+}
+.story-scramble__intro p { margin: 0; }
+.story-scramble__intro .small { grid-column: 1 / -1; }
+.story-scramble__workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(15rem, .8fr);
+  gap: var(--s4);
+  align-items: start;
+}
+.story-scramble h3 { margin: 0 0 var(--s2); }
+.story-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s2);
+}
+.story-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: var(--s2);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  color: var(--ink);
+  font: 800 var(--t-meta)/1.15 var(--font-body);
+  text-align: left;
+  cursor: pointer;
+}
+.story-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: calc(var(--r-md) - 3px);
+  margin-bottom: var(--s2);
+}
+.story-card[aria-pressed="true"] {
+  background: var(--sun);
+  box-shadow: 3px 3px 0 var(--ink);
+  transform: translate(-2px, -2px);
+}
+.story-card[aria-pressed="true"] span::after {
+  content: " \2713";
+}
+.story-sequence {
+  padding: var(--s4);
+  border: 3px solid var(--ink);
+  border-radius: var(--r-md);
+  background: var(--ink);
+  color: var(--paper);
+}
+.story-sequence h3 { color: var(--paper); }
+.story-sequence ol {
+  display: grid;
+  gap: var(--s2);
+  padding: 0;
+  margin: 0 0 var(--s3);
+  list-style: none;
+}
+.story-sequence li {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: var(--s2);
+  align-items: center;
+  min-height: 44px;
+  padding: var(--s2);
+  border: 2px dashed #B3B3BD;
+  border-radius: var(--r-sm);
+  color: #D8D8DF;
+}
+.story-sequence li.is-filled { border-style: solid; border-color: var(--sun); color: var(--paper); }
+.story-sequence li strong {
+  display: grid;
+  place-items: center;
+  width: 1.65rem;
+  height: 1.65rem;
+  border-radius: 50%;
+  background: var(--sun);
+  color: var(--ink);
+}
+.story-sequence .btn-secondary { width: 100%; background: var(--paper); }
+.story-sequence .small { margin: var(--s3) 0 0; color: #D8D8DF; }
+.story-tree {
+  display: grid;
+  grid-template-columns: minmax(12rem, .7fr) 1fr;
+  gap: var(--s2) var(--s4);
+  align-items: center;
+  padding: var(--s4);
+  border: 2px solid var(--berry);
+  border-radius: var(--r-md);
+}
+.story-tree h3 { grid-column: 1 / -1; }
+.story-tree > .small { grid-column: 1 / 2; margin: 0; }
+.story-tree__routes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s2);
+}
+.story-tree__routes button {
+  min-height: 44px;
+  padding: var(--s2);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  background: var(--paper);
+  color: var(--ink);
+  font: 800 var(--t-meta)/1.2 var(--font-body);
+  text-align: left;
+  cursor: pointer;
+}
+.story-tree__routes button span { display: block; margin-top: var(--s1); color: var(--slate); font-size: var(--t-sm); }
+.story-tree__routes button[aria-current="true"] { background: var(--sun); box-shadow: 3px 3px 0 var(--ink); }
+
+/* At the 1024px school-laptop target, keep all six choices, the four-frame
+   strip and the route map in the same task view. The side-by-side studio is
+   reserved for wider desktops, where it has room to breathe. */
+@media (max-width: 70rem) {
+  .story-scramble__workspace { grid-template-columns: 1fr; }
+  .story-cards { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .story-card img { aspect-ratio: 16 / 9; }
+  .story-sequence ol { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .story-tree { grid-template-columns: 1fr; }
+  .story-tree > .small { grid-column: auto; }
+}
+@media (max-width: 47rem) {
+  .story-scramble__intro { grid-template-columns: 1fr; }
+  .story-scramble__intro .btn-secondary { justify-self: start; }
+  .story-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .story-sequence ol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .story-tree__routes { grid-template-columns: 1fr; }
+}
+
 .sortboard { margin-top: var(--s5); }
 
 .sortboard__toggle { margin: var(--s4) 0; }

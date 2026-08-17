@@ -152,6 +152,93 @@
         </div>
       </section>
 
+      <div class="story-scramble" data-story-scramble>
+      <section class="section" id="scramble">
+        <h2>2 &#183; Panel Scramble</h2>
+        <p class="lead">Six pictures from different visual worlds. Choose four, in order,
+        and make the reader connect them. The picture style does not have to match &#8212;
+        the story link is your job.</p>
+
+          <div class="story-scramble__workspace">
+            <div>
+              <h3>Six available pictures</h3>
+              <p class="small">Tap up to four in the order you want the reader to see them.</p>
+              <div class="story-cards" role="group" aria-label="Six pictures to choose from">
+                <button type="button" class="story-card" data-story-card="a" data-story-title="The umbrella in the art room">
+                  <img src="img/panel-scramble/01-umbrella-artroom.jpg?v=1" alt="A student looks at an open yellow umbrella on a table in a sunny art room.">
+                  <span>The umbrella</span>
+                </button>
+                <button type="button" class="story-card" data-story-card="b" data-story-title="The umbrella in the hallway">
+                  <img src="img/panel-scramble/02-umbrella-hallway.jpg?v=1" alt="A yellow umbrella stands in an empty school hallway, with wet footprints leading away.">
+                  <span>The hallway clue</span>
+                </button>
+                <button type="button" class="story-card" data-story-card="c" data-story-title="The octopus arrives">
+                  <img src="img/panel-scramble/03-octopus-vending.jpg?v=1" alt="A large friendly purple octopus in an art apron comes out of a vending machine holding paintbrushes.">
+                  <span>The surprise</span>
+                </button>
+                <button type="button" class="story-card" data-story-card="d" data-story-title="The new art teacher">
+                  <img src="img/panel-scramble/04-octopus-teacher.jpg?v=1" alt="A purple octopus in reading glasses and a lanyard calmly works at an art teacher desk while a teacher waits nearby.">
+                  <span>The punchline</span>
+                </button>
+                <button type="button" class="story-card" data-story-card="e" data-story-title="The desk under the eclipse">
+                  <img src="img/panel-scramble/05-eclipse-desk.jpg?v=1" alt="An empty desk and yellow case sit on a school oval beneath a purple solar eclipse.">
+                  <span>The odd opening</span>
+                </button>
+                <button type="button" class="story-card" data-story-card="f" data-story-title="The careful tentacles">
+                  <img src="img/panel-scramble/06-tentacle-supplies.jpg?v=1" alt="Purple tentacles in white gloves arrange paintbrushes, paint and a yellow case very neatly on a school art table.">
+                  <span>The other clue</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="story-sequence" aria-label="Your four-frame story">
+              <h3>Your four frames</h3>
+              <ol>
+                <li data-story-slot><strong>1</strong><span data-story-slot-line>Choose a picture.</span></li>
+                <li data-story-slot><strong>2</strong><span data-story-slot-line>Choose a picture.</span></li>
+                <li data-story-slot><strong>3</strong><span data-story-slot-line>Choose a picture.</span></li>
+                <li data-story-slot><strong>4</strong><span data-story-slot-line>Choose a picture.</span></li>
+              </ol>
+              <button type="button" class="btn-secondary" data-story-clear>Clear four frames</button>
+              <p class="small" aria-live="polite" data-story-result>0 of 4 frames chosen. Choose in reading order.</p>
+              <p class="visually-hidden" aria-live="polite" data-story-live></p>
+            </div>
+          </div>
+
+      </section>
+
+      <section class="section" id="routes">
+        <h2>3 &#183; Test the story</h2>
+        <p class="lead">A strong four-frame joke makes one turn, then lands somewhere the
+        reader did not expect. Take five seconds, then compare your choice with a route.</p>
+        <div class="story-scramble__intro">
+          <p>Use the pause to picture a different connection. It will offer a coded route,
+          but you decide whether it helps.</p>
+          <button type="button" class="btn-secondary" data-story-think>Think up a new story</button>
+          <p class="small" role="status" aria-live="polite" data-story-timer>Choose a route, or build your own.</p>
+        </div>
+
+        <aside class="story-tree" aria-labelledby="story-tree-heading">
+            <h3 id="story-tree-heading">Routes that work</h3>
+            <p class="small">These are starting points, not a marking key. Each one uses four pictures and leaves two out.</p>
+            <div class="story-tree__routes" role="group" aria-label="Viable story routes">
+              <button type="button" data-story-route="a,b,c,d" data-story-name="The umbrella mystery: umbrella, hallway clue, surprise, new art teacher">Umbrella mystery <span>1 &#8594; 2 &#8594; 3 &#8594; 4</span></button>
+              <button type="button" data-story-route="a,e,c,d" data-story-name="The eclipse delivery: umbrella, odd opening, surprise, new art teacher">Eclipse delivery <span>1 &#8594; 5 &#8594; 3 &#8594; 4</span></button>
+              <button type="button" data-story-route="e,f,c,d" data-story-name="The careful visitor: odd opening, careful tentacles, surprise, new art teacher">Careful visitor <span>5 &#8594; 6 &#8594; 3 &#8594; 4</span></button>
+            </div>
+        </aside>
+
+          <div class="completion" data-story-completion hidden>
+            <h3>Four frames, one reader question</h3>
+            <p>Which two pictures did you leave out? That missing information can make a story more interesting.</p>
+            <a class="btn-primary" href="roll.html">Next: 2 Roll &#8594;</a>
+        </div>
+      </section>
+      </div>
+
+      <!-- Retained source for the older three-bin version. It is kept out of
+           the document flow while the assessment activity uses the new six-to-four task. -->
+      <div class="legacy-scramble" hidden>
       <!-- ===== A1 PANEL SCRAMBLE =====================================
            Six panels, three bins, tap-then-tap. Wired by js/scramble.js.
            Every word a student reads lives in this markup, including all
@@ -160,7 +247,7 @@
            questions and step 3 are all still readable; only the sorting
            stops working. Nothing here is stored anywhere.
            ============================================================ -->
-      <section class="section" id="scramble">
+      <section class="legacy-scramble__source" id="legacy-scramble-old">
         <h2>2 &#183; Panel Scramble</h2>
         <p class="lead">Six panels from one story. Sort them by how close the camera is.
         Tap a panel, then tap a bin &#8212; wrong answers come back with a clue.</p>
@@ -432,8 +519,9 @@
           </div>
         </div>
       </section>
+      </div>
 
-      <section class="section" id="pick">
+      <section class="legacy-scramble" id="pick" hidden>
         <h2>3 &#183; Pick your shot</h2>
         <div class="card">
           <p class="lead">Your first frame sets everything up. Which shot are you starting
@@ -499,13 +587,11 @@
           Stuck? Try this
         </h2>
         <ul class="bullets">
-          <li>Can&#8217;t place a panel? Ask one question: <strong>can I tell what room
-          I&#8217;m in?</strong> If yes, it&#8217;s establishing. If you can only see one
-          thing, it&#8217;s a close-up.</li>
-          <li>Three bins feel like too many? Press <strong>Try it with two bins</strong> at
-          the top of the board. Same panels, one easier question.</li>
-          <li>Not sure what the words mean? The definitions stay under the bin names the
-          whole time. You&#8217;re not meant to remember them.</li>
+          <li>Not sure where to begin? Start with a picture that makes the reader ask a
+          question, then choose a clue.</li>
+          <li>Stuck between two pictures? Keep the one that makes frame 3 feel stranger.</li>
+          <li>Use <strong>Test the story</strong> for three routes that work. They are
+          starting points, not the only answers.</li>
         </ul>
       </section>
 
@@ -515,8 +601,8 @@
         <ul>
           <li>My four frames tell one story, in order.</li>
           <li>Frame 4 is the funny one &#8212; the surprise lands last.</li>
-          <li>I&#8217;ve used at least two different shot types.</li>
-          <li>Something repeats across my frames, and one thing changes at the end.</li>
+          <li>Frame 3 changes the situation, and frame 4 makes me re-think it.</li>
+          <li>I can explain why I left two pictures out.</li>
           <li>Each frame has one line I could put under the picture.</li>
           <li>I can name the licence of every image I&#8217;m planning to use.</li>
         </ul>
@@ -586,10 +672,10 @@
   <ul class="botnav__steps">
     <li><a class="step-pill" href="#guide" aria-current="step">1 Read the guide</a></li>
     <li><a class="step-pill" href="#scramble">2 Panel Scramble</a></li>
-    <li><a class="step-pill" href="#pick">3 Pick your shot</a></li>
+    <li><a class="step-pill" href="#routes">3 Test the story</a></li>
   </ul>
   <p class="botnav__counter">
-    <span class="count">1 / 4</span>
+    <span class="count">1 / 3</span>
     <span class="name">Read the guide</span>
   </p>
   <a class="btn-primary" href="#scramble">Do the scramble &#8594;</a>
@@ -601,7 +687,7 @@
   <span aria-hidden="true">&#9755;</span> Stuck?
 </button>
 
-<script src="js/scramble.js" defer></script>
+<script src="js/panel-story.js" defer></script>
 
 <script src="js/steps.js" defer></script>
 
