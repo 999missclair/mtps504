@@ -2924,13 +2924,6 @@ body.fit.has-drawer #finished .example-captions li { padding: var(--s2); }
   background: var(--paper);
   font-weight: 700;
 }
-.final-share-check {
-  margin-top: var(--s3);
-  padding: var(--s3) var(--s4);
-  border-left: 4px solid var(--punch);
-  background: #FFF3D6;
-  font-size: var(--t-sm);
-}
 .final-post-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2941,11 +2934,21 @@ body.fit.has-drawer #finished .example-captions li { padding: var(--s2); }
 .final-post-list li { margin: 0; font-size: var(--t-body); }
 .final-post-list .detail { display: block; margin-top: var(--s1); color: var(--slate); font-size: var(--t-sm); }
 .final-padlet-missing { margin: var(--s3) 0 0; color: var(--slate); font-size: var(--t-sm); }
+.final-padlet-frame {
+  display: block;
+  width: 100%;
+  height: min(45vh, 24rem);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  background: #F4F4F4;
+}
+.final-padlet-open { margin: var(--s2) 0 0; }
 body.fit.has-drawer #post [data-final-submission-ready] .card { padding: var(--s3); }
 body.fit.has-drawer #post .final-post-list { margin-top: var(--s2); gap: var(--s1) var(--s3); }
 body.fit.has-drawer #post .final-post-list li { font-size: var(--t-sm); }
 body.fit.has-drawer #post .final-post-list .detail { font-size: var(--t-xs); }
 body.fit.has-drawer #post [data-final-padlet-mount] { margin-top: var(--s2) !important; }
+body.fit.has-drawer #post .final-padlet-frame { height: min(38vh, 20rem); }
 @media (max-width: 48rem) {
   .final-post-list { grid-template-columns: 1fr; }
 }

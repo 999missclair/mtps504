@@ -46,9 +46,10 @@
     if (!mount) return;
     if (/^https:\/\/padlet\.com\/embed\//.test(embed) && /^https:\/\/padlet\.com\//.test(link)) {
       mount.innerHTML =
-        '<p class="small">The Final submission Padlet opens in a new tab, so your comic and its upload controls have the whole screen.</p>' +
-        '<p style="margin-top:var(--s3)"><a class="btn-primary btn-block" href="' + link +
-        '" target="_blank" rel="noopener noreferrer">Open the Final submission Padlet ' +
+        '<iframe class="final-padlet-frame" title="Final submission Padlet" src="' + embed +
+        '" allow="camera;microphone;geolocation;display-capture;clipboard-write"></iframe>' +
+        '<p class="final-padlet-open"><a class="btn-secondary" href="' + link +
+        '" target="_blank" rel="noopener noreferrer">Open Padlet full screen ' +
         '<span class="ext-glyph" aria-hidden="true">↗</span><span class="visually-hidden">(opens in a new tab)</span></a></p>';
     } else {
       mount.innerHTML = '<p class="final-padlet-missing">Your download is recorded. Your teacher will add the Final submission Padlet link here before the final lesson.</p>';
