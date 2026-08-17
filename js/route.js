@@ -7,6 +7,15 @@
 (function () {
   'use strict';
 
+  /* The local review overlay is an opt-in development aid. It is never loaded
+     for ordinary student visits. */
+  if (new URLSearchParams(location.search).has('dev-comments')) {
+    var devComments = document.createElement('script');
+    devComments.src = 'js/dev-comments.js';
+    devComments.defer = true;
+    document.head.appendChild(devComments);
+  }
+
   var MODE_KEY = 'ff-route-mode';
   var PROGRESS_KEY = 'ff-route-highest-phase';
   var STEP_KEY = 'ff-route-steps';

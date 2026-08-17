@@ -219,9 +219,10 @@
         </div>
 
         <section class="story-reading" data-story-reading hidden aria-labelledby="story-reading-heading">
-          <h3 id="story-reading-heading">One possible reading</h3>
+          <h3 id="story-reading-heading" data-story-reading-title>One possible reading</h3>
           <p class="small">This is not a right answer. It is a first story made from the four pictures you chose.</p>
           <ol data-story-reveal></ol>
+          <p class="small" data-story-question></p>
         </section>
 
           <div class="completion" data-story-completion hidden>
@@ -681,6 +682,7 @@
   <span aria-hidden="true">&#9755;</span> Stuck?
 </button>
 
+<script src="js/story-bank.js" defer></script>
 <script src="js/panel-story.js" defer></script>
 
 <script src="js/steps.js" defer></script>

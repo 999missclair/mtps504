@@ -689,6 +689,52 @@ a:hover { text-decoration-thickness: 2px; }
 
 .btn-block { width: 100%; }
 
+/* ==========================================================================
+   Development review overlay — only created by js/dev-comments.js when the
+   URL explicitly carries ?dev-comments=1. It has no student-facing markup.
+   ========================================================================== */
+.dev-comments__toggle {
+  position: fixed;
+  right: var(--s4);
+  bottom: calc(var(--nav-b-live, var(--nav-b)) + var(--s4));
+  z-index: 90;
+  min-height: 44px;
+  padding: 0 var(--s3);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  background: var(--punch);
+  color: var(--paper);
+  font: 800 var(--t-meta)/1 var(--font-body);
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--ink);
+}
+.dev-comments {
+  position: fixed;
+  right: var(--s4);
+  bottom: calc(var(--nav-b-live, var(--nav-b)) + var(--s4));
+  z-index: 91;
+  width: min(25rem, calc(100vw - var(--s6)));
+  max-height: min(42rem, calc(100vh - var(--nav-b-live, var(--nav-b)) - var(--s7)));
+  overflow: auto;
+  padding: var(--s4);
+  border: 3px solid var(--ink);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  box-shadow: 5px 5px 0 var(--ink);
+}
+.dev-comments__head { display: flex; align-items: center; justify-content: space-between; gap: var(--s3); }
+.dev-comments__head h2 { margin: 0; font-size: var(--t-h3); }
+.dev-comments__head button { min-height: 44px; border: 0; background: transparent; color: var(--teal); font: 800 var(--t-meta)/1 var(--font-body); cursor: pointer; }
+.dev-comments form { display: grid; gap: var(--s3); margin-top: var(--s3); }
+.dev-comments label { display: grid; gap: var(--s1); font-size: var(--t-sm); font-weight: 800; }
+.dev-comments textarea, .dev-comments input { width: 100%; border: 2px solid var(--ink); border-radius: var(--r-sm); padding: var(--s2); background: #fff; color: var(--ink); font: inherit; }
+.dev-comments textarea { min-height: 7rem; resize: vertical; }
+.dev-comments__actions { display: grid; gap: var(--s2); margin-top: var(--s4); }
+.dev-comments__actions .btn-secondary { justify-self: start; }
+.dev-comments ol { display: grid; gap: var(--s2); margin: var(--s4) 0 0; padding: 0; list-style: none; }
+.dev-comments li { display: grid; gap: var(--s1); padding: var(--s2); border-left: 4px solid var(--punch); background: #FFF3D6; font-size: var(--t-sm); }
+.dev-comments__copy-area { position: fixed; left: -9999px; }
+
 /* The ↗ glyph on any link that leaves the site. Decorative — the accessible
    name carries "opens in a new tab" in words (§3.7). */
 .ext-glyph { font-weight: 900; }

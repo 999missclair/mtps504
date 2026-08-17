@@ -1,0 +1,1027 @@
+{
+  "version": 1,
+  "partition": "e",
+  "stories": [
+    {
+      "key": "e,a,b,c",
+      "sequence": [
+        "e",
+        "a",
+        "b",
+        "c"
+      ],
+      "title": "Cardboard Moon, Umbrella and Wombat: Paper Flight Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
+        "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the umbrella. The supermarket scene has become a tiny visual parade.",
+        "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the umbrella and the wombat. The punchline is that its flight path is a pencil line showing the intended reading order."
+      ],
+      "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the umbrella and the wombat?"
+    },
+    {
+      "key": "e,a,b,d",
+      "sequence": [
+        "e",
+        "a",
+        "b",
+        "d"
+      ],
+      "title": "Cardboard Moon, Umbrella and Wombat: Small Astronaut Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
+        "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the umbrella. The supermarket scene has become a tiny visual parade.",
+        "Frame 4: The astronaut stands beside an art-table collage of the moon, the umbrella and the wombat. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      ],
+      "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the umbrella and the wombat?"
+    },
+    {
+      "key": "e,a,b,f",
+      "sequence": [
+        "e",
+        "a",
+        "b",
+        "f"
+      ],
+      "title": "Cardboard Moon, Umbrella and Wombat: Cloud Fishbowl Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
+        "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the umbrella. The supermarket scene has become a tiny visual parade.",
+        "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the umbrella and the wombat. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      ],
+      "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the umbrella and the wombat?"
+    },
+    {
+      "key": "e,a,c,b",
+      "sequence": [
+        "e",
+        "a",
+        "c",
+        "b"
+      ],
+      "title": "Cardboard Moon, Umbrella and Paper Flight: Wombat Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
+        "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the umbrella. Its shadow becomes a giant arrow across the table.",
+        "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the umbrella and the paper aeroplane thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      ],
+      "readerQuestion": "How does the final wombat image reframe the cardboard moon, the umbrella and the paper aeroplane?"
+    },
+    {
+      "key": "e,a,c,d",
+      "sequence": [
+        "e",
+        "a",
+        "c",
+        "d"
+      ],
+      "title": "Cardboard Moon, Umbrella and Paper Flight: Small Astronaut Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
+        "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the umbrella. Its shadow becomes a giant arrow across the table.",
+        "Frame 4: The astronaut stands beside an art-table collage of the moon, the umbrella and the paper aeroplane. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      ],
+      "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the umbrella and the paper aeroplane?"
+    },
+    {
+      "key": "e,a,c,f",
+      "sequence": [
+        "e",
+        "a",
+        "c",
+        "f"
+      ],
+      "title": "Cardboard Moon, Umbrella and Paper Flight: Cloud Fishbowl Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
+        "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the umbrella. Its shadow becomes a giant arrow across the table.",
+        "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the umbrella and the paper aeroplane. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      ],
+      "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the umbrella and the paper aeroplane?"
+    },
+    {
+      "key": "e,a,d,b",
+      "sequence": [
+        "e",
+        "a",
+        "d",
+        "b"
+      ],
+      "title": "Cardboard Moon, Umbrella and Small Astronaut: Wombat Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
+        "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the umbrella. The tabletop suddenly reads like a tiny map of an impossible trip.",
+        "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the umbrella and the small astronaut thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      ],
+      "readerQuestion": "How does the final wombat image reframe the cardboard moon, the umbrella and the small astronaut?"
+    },
+    {
+      "key": "e,a,d,c",
+      "sequence": [
+        "e",
+        "a",
+        "d",
+        "c"
+      ],
+      "title": "Cardboard Moon, Umbrella and Small Astronaut: Paper Flight Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
+        "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the umbrella. The tabletop suddenly reads like a tiny map of an impossible trip.",
+        "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the umbrella and the small astronaut. The punchline is that its flight path is a pencil line showing the intended reading order."
+      ],
+      "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the umbrella and the small astronaut?"
+    },
+    {
+      "key": "e,a,d,f",
+      "sequence": [
+        "e",
+        "a",
+        "d",
+        "f"
+      ],
+      "title": "Cardboard Moon, Umbrella and Small Astronaut: Cloud Fishbowl Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
+        "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the umbrella. The tabletop suddenly reads like a tiny map of an impossible trip.",
+        "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the umbrella and the small astronaut. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      ],
+      "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the umbrella and the small astronaut?"
+    },
+    {
+      "key": "e,a,f,b",
+      "sequence": [
+        "e",
+        "a",
+        "f",
+        "b"
+      ],
+      "title": "Cardboard Moon, Umbrella and Cloud Fishbowl: Wombat Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
+        "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the umbrella. The tiny weather system makes the larger scene seem strangely calm.",
+        "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the umbrella and the cloud fishbowl thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      ],
+      "readerQuestion": "How does the final wombat image reframe the cardboard moon, the umbrella and the cloud fishbowl?"
+    },
+    {
+      "key": "e,a,f,c",
+      "sequence": [
+        "e",
+        "a",
+        "f",
+        "c"
+      ],
+      "title": "Cardboard Moon, Umbrella and Cloud Fishbowl: Paper Flight Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
+        "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the umbrella. The tiny weather system makes the larger scene seem strangely calm.",
+        "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the umbrella and the cloud fishbowl. The punchline is that its flight path is a pencil line showing the intended reading order."
+      ],
+      "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the umbrella and the cloud fishbowl?"
+    },
+    {
+      "key": "e,a,f,d",
+      "sequence": [
+        "e",
+        "a",
+        "f",
+        "d"
+      ],
+      "title": "Cardboard Moon, Umbrella and Cloud Fishbowl: Small Astronaut Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
+        "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the umbrella. The tiny weather system makes the larger scene seem strangely calm.",
+        "Frame 4: The astronaut stands beside an art-table collage of the moon, the umbrella and the cloud fishbowl. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      ],
+      "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the umbrella and the cloud fishbowl?"
+    },
+    {
+      "key": "e,b,a,c",
+      "sequence": [
+        "e",
+        "b",
+        "a",
+        "c"
+      ],
+      "title": "Cardboard Moon, Wombat and Umbrella: Paper Flight Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
+        "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the wombat. Its black canopy turns the little scene into a night stage.",
+        "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the wombat and the umbrella. The punchline is that its flight path is a pencil line showing the intended reading order."
+      ],
+      "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the wombat and the umbrella?"
+    },
+    {
+      "key": "e,b,a,d",
+      "sequence": [
+        "e",
+        "b",
+        "a",
+        "d"
+      ],
+      "title": "Cardboard Moon, Wombat and Umbrella: Small Astronaut Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
+        "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the wombat. Its black canopy turns the little scene into a night stage.",
+        "Frame 4: The astronaut stands beside an art-table collage of the moon, the wombat and the umbrella. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      ],
+      "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the wombat and the umbrella?"
+    },
+    {
+      "key": "e,b,a,f",
+      "sequence": [
+        "e",
+        "b",
+        "a",
+        "f"
+      ],
+      "title": "Cardboard Moon, Wombat and Umbrella: Cloud Fishbowl Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
+        "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the wombat. Its black canopy turns the little scene into a night stage.",
+        "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the wombat and the umbrella. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      ],
+      "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the wombat and the umbrella?"
+    },
+    {
+      "key": "e,b,c,a",
+      "sequence": [
+        "e",
+        "b",
+        "c",
+        "a"
+      ],
+      "title": "Cardboard Moon, Wombat and Paper Flight: Umbrella Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
+        "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the wombat. Its shadow becomes a giant arrow across the table.",
+        "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the wombat and the paper aeroplane. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      ],
+      "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the wombat and the paper aeroplane?"
+    },
+    {
+      "key": "e,b,c,d",
+      "sequence": [
+        "e",
+        "b",
+        "c",
+        "d"
+      ],
+      "title": "Cardboard Moon, Wombat and Paper Flight: Small Astronaut Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
+        "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the wombat. Its shadow becomes a giant arrow across the table.",
+        "Frame 4: The astronaut stands beside an art-table collage of the moon, the wombat and the paper aeroplane. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      ],
+      "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the wombat and the paper aeroplane?"
+    },
+    {
+      "key": "e,b,c,f",
+      "sequence": [
+        "e",
+        "b",
+        "c",
+        "f"
+      ],
+      "title": "Cardboard Moon, Wombat and Paper Flight: Cloud Fishbowl Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
+        "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the wombat. Its shadow becomes a giant arrow across the table.",
+        "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the wombat and the paper aeroplane. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      ],
+      "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the wombat and the paper aeroplane?"
+    },
+    {
+      "key": "e,b,d,a",
+      "sequence": [
+        "e",
+        "b",
+        "d",
+        "a"
+      ],
+      "title": "Cardboard Moon, Wombat and Small Astronaut: Umbrella Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
+        "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the wombat. The tabletop suddenly reads like a tiny map of an impossible trip.",
+        "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the wombat and the small astronaut. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      ],
+      "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the wombat and the small astronaut?"
+    },
+    {
+      "key": "e,b,d,c",
+      "sequence": [
+        "e",
+        "b",
+        "d",
+        "c"
+      ],
+      "title": "Cardboard Moon, Wombat and Small Astronaut: Paper Flight Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
+        "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the wombat. The tabletop suddenly reads like a tiny map of an impossible trip.",
+        "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the wombat and the small astronaut. The punchline is that its flight path is a pencil line showing the intended reading order."
+      ],
+      "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the wombat and the small astronaut?"
+    },
+    {
+      "key": "e,b,d,f",
+      "sequence": [
+        "e",
+        "b",
+        "d",
+        "f"
+      ],
+      "title": "Cardboard Moon, Wombat and Small Astronaut: Cloud Fishbowl Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
+        "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the wombat. The tabletop suddenly reads like a tiny map of an impossible trip.",
+        "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the wombat and the small astronaut. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      ],
+      "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the wombat and the small astronaut?"
+    },
+    {
+      "key": "e,b,f,a",
+      "sequence": [
+        "e",
+        "b",
+        "f",
+        "a"
+      ],
+      "title": "Cardboard Moon, Wombat and Cloud Fishbowl: Umbrella Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
+        "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the wombat. The tiny weather system makes the larger scene seem strangely calm.",
+        "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the wombat and the cloud fishbowl. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      ],
+      "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the wombat and the cloud fishbowl?"
+    },
+    {
+      "key": "e,b,f,c",
+      "sequence": [
+        "e",
+        "b",
+        "f",
+        "c"
+      ],
+      "title": "Cardboard Moon, Wombat and Cloud Fishbowl: Paper Flight Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
+        "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the wombat. The tiny weather system makes the larger scene seem strangely calm.",
+        "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the wombat and the cloud fishbowl. The punchline is that its flight path is a pencil line showing the intended reading order."
+      ],
+      "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the wombat and the cloud fishbowl?"
+    },
+    {
+      "key": "e,b,f,d",
+      "sequence": [
+        "e",
+        "b",
+        "f",
+        "d"
+      ],
+      "title": "Cardboard Moon, Wombat and Cloud Fishbowl: Small Astronaut Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
+        "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the wombat. The tiny weather system makes the larger scene seem strangely calm.",
+        "Frame 4: The astronaut stands beside an art-table collage of the moon, the wombat and the cloud fishbowl. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      ],
+      "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the wombat and the cloud fishbowl?"
+    },
+    {
+      "key": "e,c,a,b",
+      "sequence": [
+        "e",
+        "c",
+        "a",
+        "b"
+      ],
+      "title": "Cardboard Moon, Paper Flight and Umbrella: Wombat Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
+        "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the paper aeroplane. Its black canopy turns the little scene into a night stage.",
+        "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the paper aeroplane and the umbrella thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      ],
+      "readerQuestion": "How does the final wombat image reframe the cardboard moon, the paper aeroplane and the umbrella?"
+    },
+    {
+      "key": "e,c,a,d",
+      "sequence": [
+        "e",
+        "c",
+        "a",
+        "d"
+      ],
+      "title": "Cardboard Moon, Paper Flight and Umbrella: Small Astronaut Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
+        "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the paper aeroplane. Its black canopy turns the little scene into a night stage.",
+        "Frame 4: The astronaut stands beside an art-table collage of the moon, the paper aeroplane and the umbrella. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      ],
+      "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the paper aeroplane and the umbrella?"
+    },
+    {
+      "key": "e,c,a,f",
+      "sequence": [
+        "e",
+        "c",
+        "a",
+        "f"
+      ],
+      "title": "Cardboard Moon, Paper Flight and Umbrella: Cloud Fishbowl Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
+        "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the paper aeroplane. Its black canopy turns the little scene into a night stage.",
+        "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the paper aeroplane and the umbrella. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      ],
+      "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the paper aeroplane and the umbrella?"
+    },
+    {
+      "key": "e,c,b,a",
+      "sequence": [
+        "e",
+        "c",
+        "b",
+        "a"
+      ],
+      "title": "Cardboard Moon, Paper Flight and Wombat: Umbrella Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
+        "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the paper aeroplane. The supermarket scene has become a tiny visual parade.",
+        "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the paper aeroplane and the wombat. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      ],
+      "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the paper aeroplane and the wombat?"
+    },
+    {
+      "key": "e,c,b,d",
+      "sequence": [
+        "e",
+        "c",
+        "b",
+        "d"
+      ],
+      "title": "Cardboard Moon, Paper Flight and Wombat: Small Astronaut Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
+        "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the paper aeroplane. The supermarket scene has become a tiny visual parade.",
+        "Frame 4: The astronaut stands beside an art-table collage of the moon, the paper aeroplane and the wombat. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      ],
+      "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the paper aeroplane and the wombat?"
+    },
+    {
+      "key": "e,c,b,f",
+      "sequence": [
+        "e",
+        "c",
+        "b",
+        "f"
+      ],
+      "title": "Cardboard Moon, Paper Flight and Wombat: Cloud Fishbowl Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
+        "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the paper aeroplane. The supermarket scene has become a tiny visual parade.",
+        "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the paper aeroplane and the wombat. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      ],
+      "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the paper aeroplane and the wombat?"
+    },
+    {
+      "key": "e,c,d,a",
+      "sequence": [
+        "e",
+        "c",
+        "d",
+        "a"
+      ],
+      "title": "Cardboard Moon, Paper Flight and Small Astronaut: Umbrella Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
+        "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the paper aeroplane. The tabletop suddenly reads like a tiny map of an impossible trip.",
+        "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the paper aeroplane and the small astronaut. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      ],
+      "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the paper aeroplane and the small astronaut?"
+    },
+    {
+      "key": "e,c,d,b",
+      "sequence": [
+        "e",
+        "c",
+        "d",
+        "b"
+      ],
+      "title": "Cardboard Moon, Paper Flight and Small Astronaut: Wombat Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
+        "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the paper aeroplane. The tabletop suddenly reads like a tiny map of an impossible trip.",
+        "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the paper aeroplane and the small astronaut thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      ],
+      "readerQuestion": "How does the final wombat image reframe the cardboard moon, the paper aeroplane and the small astronaut?"
+    },
+    {
+      "key": "e,c,d,f",
+      "sequence": [
+        "e",
+        "c",
+        "d",
+        "f"
+      ],
+      "title": "Cardboard Moon, Paper Flight and Small Astronaut: Cloud Fishbowl Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
+        "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the paper aeroplane. The tabletop suddenly reads like a tiny map of an impossible trip.",
+        "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the paper aeroplane and the small astronaut. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      ],
+      "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the paper aeroplane and the small astronaut?"
+    },
+    {
+      "key": "e,c,f,a",
+      "sequence": [
+        "e",
+        "c",
+        "f",
+        "a"
+      ],
+      "title": "Cardboard Moon, Paper Flight and Cloud Fishbowl: Umbrella Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
+        "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the paper aeroplane. The tiny weather system makes the larger scene seem strangely calm.",
+        "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the paper aeroplane and the cloud fishbowl. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      ],
+      "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the paper aeroplane and the cloud fishbowl?"
+    },
+    {
+      "key": "e,c,f,b",
+      "sequence": [
+        "e",
+        "c",
+        "f",
+        "b"
+      ],
+      "title": "Cardboard Moon, Paper Flight and Cloud Fishbowl: Wombat Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
+        "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the paper aeroplane. The tiny weather system makes the larger scene seem strangely calm.",
+        "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the paper aeroplane and the cloud fishbowl thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      ],
+      "readerQuestion": "How does the final wombat image reframe the cardboard moon, the paper aeroplane and the cloud fishbowl?"
+    },
+    {
+      "key": "e,c,f,d",
+      "sequence": [
+        "e",
+        "c",
+        "f",
+        "d"
+      ],
+      "title": "Cardboard Moon, Paper Flight and Cloud Fishbowl: Small Astronaut Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
+        "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the paper aeroplane. The tiny weather system makes the larger scene seem strangely calm.",
+        "Frame 4: The astronaut stands beside an art-table collage of the moon, the paper aeroplane and the cloud fishbowl. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      ],
+      "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the paper aeroplane and the cloud fishbowl?"
+    },
+    {
+      "key": "e,d,a,b",
+      "sequence": [
+        "e",
+        "d",
+        "a",
+        "b"
+      ],
+      "title": "Cardboard Moon, Small Astronaut and Umbrella: Wombat Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
+        "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the small astronaut. Its black canopy turns the little scene into a night stage.",
+        "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the small astronaut and the umbrella thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      ],
+      "readerQuestion": "How does the final wombat image reframe the cardboard moon, the small astronaut and the umbrella?"
+    },
+    {
+      "key": "e,d,a,c",
+      "sequence": [
+        "e",
+        "d",
+        "a",
+        "c"
+      ],
+      "title": "Cardboard Moon, Small Astronaut and Umbrella: Paper Flight Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
+        "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the small astronaut. Its black canopy turns the little scene into a night stage.",
+        "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the small astronaut and the umbrella. The punchline is that its flight path is a pencil line showing the intended reading order."
+      ],
+      "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the small astronaut and the umbrella?"
+    },
+    {
+      "key": "e,d,a,f",
+      "sequence": [
+        "e",
+        "d",
+        "a",
+        "f"
+      ],
+      "title": "Cardboard Moon, Small Astronaut and Umbrella: Cloud Fishbowl Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
+        "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the small astronaut. Its black canopy turns the little scene into a night stage.",
+        "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the small astronaut and the umbrella. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      ],
+      "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the small astronaut and the umbrella?"
+    },
+    {
+      "key": "e,d,b,a",
+      "sequence": [
+        "e",
+        "d",
+        "b",
+        "a"
+      ],
+      "title": "Cardboard Moon, Small Astronaut and Wombat: Umbrella Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
+        "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the small astronaut. The supermarket scene has become a tiny visual parade.",
+        "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the small astronaut and the wombat. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      ],
+      "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the small astronaut and the wombat?"
+    },
+    {
+      "key": "e,d,b,c",
+      "sequence": [
+        "e",
+        "d",
+        "b",
+        "c"
+      ],
+      "title": "Cardboard Moon, Small Astronaut and Wombat: Paper Flight Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
+        "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the small astronaut. The supermarket scene has become a tiny visual parade.",
+        "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the small astronaut and the wombat. The punchline is that its flight path is a pencil line showing the intended reading order."
+      ],
+      "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the small astronaut and the wombat?"
+    },
+    {
+      "key": "e,d,b,f",
+      "sequence": [
+        "e",
+        "d",
+        "b",
+        "f"
+      ],
+      "title": "Cardboard Moon, Small Astronaut and Wombat: Cloud Fishbowl Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
+        "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the small astronaut. The supermarket scene has become a tiny visual parade.",
+        "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the small astronaut and the wombat. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      ],
+      "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the small astronaut and the wombat?"
+    },
+    {
+      "key": "e,d,c,a",
+      "sequence": [
+        "e",
+        "d",
+        "c",
+        "a"
+      ],
+      "title": "Cardboard Moon, Small Astronaut and Paper Flight: Umbrella Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
+        "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the small astronaut. Its shadow becomes a giant arrow across the table.",
+        "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the small astronaut and the paper aeroplane. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      ],
+      "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the small astronaut and the paper aeroplane?"
+    },
+    {
+      "key": "e,d,c,b",
+      "sequence": [
+        "e",
+        "d",
+        "c",
+        "b"
+      ],
+      "title": "Cardboard Moon, Small Astronaut and Paper Flight: Wombat Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
+        "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the small astronaut. Its shadow becomes a giant arrow across the table.",
+        "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the small astronaut and the paper aeroplane thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      ],
+      "readerQuestion": "How does the final wombat image reframe the cardboard moon, the small astronaut and the paper aeroplane?"
+    },
+    {
+      "key": "e,d,c,f",
+      "sequence": [
+        "e",
+        "d",
+        "c",
+        "f"
+      ],
+      "title": "Cardboard Moon, Small Astronaut and Paper Flight: Cloud Fishbowl Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
+        "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the small astronaut. Its shadow becomes a giant arrow across the table.",
+        "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the small astronaut and the paper aeroplane. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      ],
+      "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the small astronaut and the paper aeroplane?"
+    },
+    {
+      "key": "e,d,f,a",
+      "sequence": [
+        "e",
+        "d",
+        "f",
+        "a"
+      ],
+      "title": "Cardboard Moon, Small Astronaut and Cloud Fishbowl: Umbrella Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
+        "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the small astronaut. The tiny weather system makes the larger scene seem strangely calm.",
+        "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the small astronaut and the cloud fishbowl. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      ],
+      "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the small astronaut and the cloud fishbowl?"
+    },
+    {
+      "key": "e,d,f,b",
+      "sequence": [
+        "e",
+        "d",
+        "f",
+        "b"
+      ],
+      "title": "Cardboard Moon, Small Astronaut and Cloud Fishbowl: Wombat Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
+        "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the small astronaut. The tiny weather system makes the larger scene seem strangely calm.",
+        "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the small astronaut and the cloud fishbowl thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      ],
+      "readerQuestion": "How does the final wombat image reframe the cardboard moon, the small astronaut and the cloud fishbowl?"
+    },
+    {
+      "key": "e,d,f,c",
+      "sequence": [
+        "e",
+        "d",
+        "f",
+        "c"
+      ],
+      "title": "Cardboard Moon, Small Astronaut and Cloud Fishbowl: Paper Flight Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
+        "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the small astronaut. The tiny weather system makes the larger scene seem strangely calm.",
+        "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the small astronaut and the cloud fishbowl. The punchline is that its flight path is a pencil line showing the intended reading order."
+      ],
+      "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the small astronaut and the cloud fishbowl?"
+    },
+    {
+      "key": "e,f,a,b",
+      "sequence": [
+        "e",
+        "f",
+        "a",
+        "b"
+      ],
+      "title": "Cardboard Moon, Cloud Fishbowl and Umbrella: Wombat Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
+        "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the cloud fishbowl. Its black canopy turns the little scene into a night stage.",
+        "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the cloud fishbowl and the umbrella thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      ],
+      "readerQuestion": "How does the final wombat image reframe the cardboard moon, the cloud fishbowl and the umbrella?"
+    },
+    {
+      "key": "e,f,a,c",
+      "sequence": [
+        "e",
+        "f",
+        "a",
+        "c"
+      ],
+      "title": "Cardboard Moon, Cloud Fishbowl and Umbrella: Paper Flight Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
+        "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the cloud fishbowl. Its black canopy turns the little scene into a night stage.",
+        "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the cloud fishbowl and the umbrella. The punchline is that its flight path is a pencil line showing the intended reading order."
+      ],
+      "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the cloud fishbowl and the umbrella?"
+    },
+    {
+      "key": "e,f,a,d",
+      "sequence": [
+        "e",
+        "f",
+        "a",
+        "d"
+      ],
+      "title": "Cardboard Moon, Cloud Fishbowl and Umbrella: Small Astronaut Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
+        "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the cloud fishbowl. Its black canopy turns the little scene into a night stage.",
+        "Frame 4: The astronaut stands beside an art-table collage of the moon, the cloud fishbowl and the umbrella. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      ],
+      "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the cloud fishbowl and the umbrella?"
+    },
+    {
+      "key": "e,f,b,a",
+      "sequence": [
+        "e",
+        "f",
+        "b",
+        "a"
+      ],
+      "title": "Cardboard Moon, Cloud Fishbowl and Wombat: Umbrella Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
+        "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the cloud fishbowl. The supermarket scene has become a tiny visual parade.",
+        "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the cloud fishbowl and the wombat. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      ],
+      "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the cloud fishbowl and the wombat?"
+    },
+    {
+      "key": "e,f,b,c",
+      "sequence": [
+        "e",
+        "f",
+        "b",
+        "c"
+      ],
+      "title": "Cardboard Moon, Cloud Fishbowl and Wombat: Paper Flight Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
+        "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the cloud fishbowl. The supermarket scene has become a tiny visual parade.",
+        "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the cloud fishbowl and the wombat. The punchline is that its flight path is a pencil line showing the intended reading order."
+      ],
+      "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the cloud fishbowl and the wombat?"
+    },
+    {
+      "key": "e,f,b,d",
+      "sequence": [
+        "e",
+        "f",
+        "b",
+        "d"
+      ],
+      "title": "Cardboard Moon, Cloud Fishbowl and Wombat: Small Astronaut Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
+        "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the cloud fishbowl. The supermarket scene has become a tiny visual parade.",
+        "Frame 4: The astronaut stands beside an art-table collage of the moon, the cloud fishbowl and the wombat. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      ],
+      "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the cloud fishbowl and the wombat?"
+    },
+    {
+      "key": "e,f,c,a",
+      "sequence": [
+        "e",
+        "f",
+        "c",
+        "a"
+      ],
+      "title": "Cardboard Moon, Cloud Fishbowl and Paper Flight: Umbrella Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
+        "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the cloud fishbowl. Its shadow becomes a giant arrow across the table.",
+        "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the cloud fishbowl and the paper aeroplane. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      ],
+      "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the cloud fishbowl and the paper aeroplane?"
+    },
+    {
+      "key": "e,f,c,b",
+      "sequence": [
+        "e",
+        "f",
+        "c",
+        "b"
+      ],
+      "title": "Cardboard Moon, Cloud Fishbowl and Paper Flight: Wombat Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
+        "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the cloud fishbowl. Its shadow becomes a giant arrow across the table.",
+        "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the cloud fishbowl and the paper aeroplane thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      ],
+      "readerQuestion": "How does the final wombat image reframe the cardboard moon, the cloud fishbowl and the paper aeroplane?"
+    },
+    {
+      "key": "e,f,c,d",
+      "sequence": [
+        "e",
+        "f",
+        "c",
+        "d"
+      ],
+      "title": "Cardboard Moon, Cloud Fishbowl and Paper Flight: Small Astronaut Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
+        "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the cloud fishbowl. Its shadow becomes a giant arrow across the table.",
+        "Frame 4: The astronaut stands beside an art-table collage of the moon, the cloud fishbowl and the paper aeroplane. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      ],
+      "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the cloud fishbowl and the paper aeroplane?"
+    },
+    {
+      "key": "e,f,d,a",
+      "sequence": [
+        "e",
+        "f",
+        "d",
+        "a"
+      ],
+      "title": "Cardboard Moon, Cloud Fishbowl and Small Astronaut: Umbrella Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
+        "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the cloud fishbowl. The tabletop suddenly reads like a tiny map of an impossible trip.",
+        "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the cloud fishbowl and the small astronaut. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      ],
+      "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the cloud fishbowl and the small astronaut?"
+    },
+    {
+      "key": "e,f,d,b",
+      "sequence": [
+        "e",
+        "f",
+        "d",
+        "b"
+      ],
+      "title": "Cardboard Moon, Cloud Fishbowl and Small Astronaut: Wombat Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
+        "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the cloud fishbowl. The tabletop suddenly reads like a tiny map of an impossible trip.",
+        "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the cloud fishbowl and the small astronaut thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      ],
+      "readerQuestion": "How does the final wombat image reframe the cardboard moon, the cloud fishbowl and the small astronaut?"
+    },
+    {
+      "key": "e,f,d,c",
+      "sequence": [
+        "e",
+        "f",
+        "d",
+        "c"
+      ],
+      "title": "Cardboard Moon, Cloud Fishbowl and Small Astronaut: Paper Flight Reframe",
+      "beats": [
+        "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
+        "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
+        "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the cloud fishbowl. The tabletop suddenly reads like a tiny map of an impossible trip.",
+        "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the cloud fishbowl and the small astronaut. The punchline is that its flight path is a pencil line showing the intended reading order."
+      ],
+      "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the cloud fishbowl and the small astronaut?"
+    }
+  ]
+}
+

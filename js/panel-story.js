@@ -19,6 +19,9 @@
     var completion = root.querySelector('[data-story-completion]');
     var reading = root.querySelector('[data-story-reading]');
     var reveal = root.querySelector('[data-story-reveal]');
+    var question = root.querySelector('[data-story-question]');
+    var readingTitle = root.querySelector('[data-story-reading-title]');
+    var bank = window.FOUR_FRAMES_STORY_BANK || {};
     var chosen = [];
     var timerId = null;
 
@@ -70,25 +73,31 @@
 
     function revealStory() {
       if (!reveal || chosen.length !== 4) return;
-      var openings = ['First', 'Then', 'The turn', 'Last'];
-      var endings = [
-        'It gives the reader a detail to notice.',
-        'Now the first picture needs another explanation.',
-        'This is where the situation becomes impossible to ignore.',
-        'This last image changes how the earlier pictures can be read.'
-      ];
+      var key = chosen.map(function (card) { return card.getAttribute('data-story-card'); }).join(',');
+      var story = bank[key];
       reveal.innerHTML = '';
-      chosen.forEach(function (card, index) {
+      if (!story) {
+        if (timer) { timer.textContent = 'This reading is not ready yet. Try another order or tell your teacher.'; }
+        say('This four-picture reading is not ready yet.');
+        return;
+      }
+      story.beats.forEach(function (beat, index) {
         var item = document.createElement('li');
-        var title = card.getAttribute('data-story-title') || ('Picture ' + (index + 1));
-        var line = card.getAttribute('data-story-line') || 'Something unexpected appears.';
-        item.innerHTML = '<strong>Frame ' + (index + 1) + ' · ' + openings[index] + '</strong><span>' + line + ' ' + endings[index] + '</span>';
+        var heading = document.createElement('strong');
+        var line = document.createElement('span');
+        var match = /^Frame\s+\d+\s*:?\s*(.*)$/i.exec(beat);
+        heading.textContent = 'Frame ' + (index + 1) + (index === 2 ? ' · Turn' : index === 3 ? ' · Punchline' : '');
+        line.textContent = match ? match[1] : beat;
+        item.appendChild(heading);
+        item.appendChild(line);
         reveal.appendChild(item);
       });
+      if (readingTitle) { readingTitle.textContent = story.title || 'One possible reading'; }
+      if (question) { question.textContent = story.readerQuestion || ''; }
       if (reading) { reading.hidden = false; }
       if (completion) { completion.hidden = false; }
-      if (timer) { timer.textContent = 'One possible reading is ready. Change the order to read another one.'; }
-      say('One possible story is ready. It uses Picture ' + chosen.map(function (card) {
+      if (timer) { timer.textContent = 'An authored reading is ready. Change the order to read another one.'; }
+      say(story.title + ' is ready. It uses Picture ' + chosen.map(function (card) {
         return card.getAttribute('data-story-card').toUpperCase();
       }).join(', Picture ') + ' in that order.');
     }

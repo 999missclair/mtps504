@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "partition": "f",
+  "stories": [
+    {
+      "key": "f,a,b,c",
+      "sequence": ["f", "a", "b", "c"],
+      "title": "The cloud needs a runway",
+      "beats": ["Frame 1 At a bus stop, a fishbowl holds one small cloud.", "Frame 2 An umbrella is open on the art-room table beneath a window.", "Frame 3 A friendly wombat in a yellow raincoat rolls a red skateboard beside an orange in a supermarket.", "Frame 4 A paper aeroplane flies through the library, showing the cloud has used the umbrella as its runway."],
+      "readerQuestion": "Why was the umbrella open indoors?"
+    },
+    {
+      "key": "f,a,b,d",
+      "sequence": ["f", "a", "b", "d"],
+      "title": "The cloud gets a portrait",
+      "beats": ["Frame 1 At a bus stop, a fishbowl holds one small cloud.", "Frame 2 An umbrella waits open on an art-room table.", "Frame 3 A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket.", "Frame 4 A small astronaut paints at the art table, revealing that the umbrella was catching a cloud for the painting."],
+      "readerQuestion": "What will the astronaut paint next?"
+    },
+    {
+      "key": "f,a,b,e",
+      "sequence": ["f", "a", "b", "e"],
+      "title": "The moon cover",
+      "beats": ["Frame 1 At a bus stop, a fishbowl holds one small cloud.", "Frame 2 An umbrella is open on an art-room table.", "Frame 3 A friendly wombat in a yellow raincoat skateboards beside an orange in a supermarket.", "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the umbrella was a tiny weather prop."],
+      "readerQuestion": "Which weather prop belongs with the cardboard moon?"
+    },
+    {
+      "key": "f,a,c,b",
+      "sequence": ["f", "a", "c", "b"],
+      "title": "The library forecast",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at a bus stop.", "Frame 2 An open umbrella sits on an art-room table.", "Frame 3 A paper aeroplane flies through the library carrying a drop of water.", "Frame 4 A wombat in a yellow raincoat on a red skateboard passes an orange in a supermarket, showing the forecast has arrived early."],
+      "readerQuestion": "Why is the wombat wearing a raincoat indoors?"
+    },
+    {
+      "key": "f,a,c,d",
+      "sequence": ["f", "a", "c", "d"],
+      "title": "A cloud-study flight",
+      "beats": ["Frame 1 At the bus stop, a fishbowl contains a small cloud.", "Frame 2 An umbrella is open on the art-room table.", "Frame 3 A paper aeroplane loops through the library under a cloudy trail.", "Frame 4 A small astronaut paints at the art table, revealing that the flying paper plane was tracing the cloud shape."],
+      "readerQuestion": "What shape did the plane trace?"
+    },
+    {
+      "key": "f,a,c,e",
+      "sequence": ["f", "a", "c", "e"],
+      "title": "The moon catches the weather",
+      "beats": ["Frame 1 A fishbowl holds a cloud beside the bus stop.", "Frame 2 An umbrella is open on an art-room table.", "Frame 3 A paper aeroplane flies through the library with a damp wingtip.", "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the moon is part of the same rainy set."],
+      "readerQuestion": "What other prop could finish the weather set?"
+    },
+    {
+      "key": "f,a,d,b",
+      "sequence": ["f", "a", "d", "b"],
+      "title": "The astronaut's weather test",
+      "beats": ["Frame 1 A fishbowl containing a cloud sits at a bus stop.", "Frame 2 An open umbrella waits on an art-room table.", "Frame 3 A small astronaut paints a cloud that starts spilling over the table edge.", "Frame 4 A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, showing who has come prepared for the spill."],
+      "readerQuestion": "What does the raincoat tell you about the astronaut's painting?"
+    },
+    {
+      "key": "f,a,d,c",
+      "sequence": ["f", "a", "d", "c"],
+      "title": "The astronaut's paper weather",
+      "beats": ["Frame 1 A fishbowl with a cloud waits at the bus stop.", "Frame 2 An umbrella is open on the art-room table.", "Frame 3 A small astronaut paints a gust that lifts loose paper.", "Frame 4 A paper aeroplane flies through the library, revealing it was launched by the painted weather."],
+      "readerQuestion": "Which frame makes the paper plane surprising?"
+    },
+    {
+      "key": "f,a,d,e",
+      "sequence": ["f", "a", "d", "e"],
+      "title": "Painting a tram-stop sky",
+      "beats": ["Frame 1 A fishbowl holds a cloud at the bus stop.", "Frame 2 An umbrella is open on an art-room table.", "Frame 3 A small astronaut paints rain that appears to run off the canvas.", "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the painted scene has become the tram-stop weather."],
+      "readerQuestion": "Where did the painted rain end up?"
+    },
+    {
+      "key": "f,a,e,b",
+      "sequence": ["f", "a", "e", "b"],
+      "title": "A moon for the cloud",
+      "beats": ["Frame 1 A fishbowl containing a cloud is left at a bus stop.", "Frame 2 An umbrella waits open on the art-room table.", "Frame 3 A teenager carries an oversized cardboard moon through a wet tram stop.", "Frame 4 A wombat in a yellow raincoat rolls a red skateboard beside an orange in a supermarket, revealing the orange is the moon's tiny sun."],
+      "readerQuestion": "Why does the orange make the cardboard moon funnier?"
+    },
+    {
+      "key": "f,a,e,c",
+      "sequence": ["f", "a", "e", "c"],
+      "title": "The moon's umbrella flight",
+      "beats": ["Frame 1 A fishbowl holding a cloud waits at the bus stop.", "Frame 2 An umbrella is open on the art-room table.", "Frame 3 A teenager with an oversized cardboard moon reaches a wet tram stop.", "Frame 4 A paper aeroplane flies through the library, revealing it is carrying the umbrella to the moon scene."],
+      "readerQuestion": "What has the paper aeroplane delivered?"
+    },
+    {
+      "key": "f,a,e,d",
+      "sequence": ["f", "a", "e", "d"],
+      "title": "A painted moon forecast",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 An umbrella is open on the art-room table.", "Frame 3 A teenager carries an oversized cardboard moon at a wet tram stop.", "Frame 4 A small astronaut paints at the art table, revealing the tram-stop moon was a model for the painting."],
+      "readerQuestion": "What part of the model explains the wet tram stop?"
+    },
+    {
+      "key": "f,b,a,c",
+      "sequence": ["f", "b", "a", "c"],
+      "title": "The wombat's cloud parcel",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at a bus stop.", "Frame 2 A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket.", "Frame 3 The wombat opens an umbrella on an art-room table, and the cloud begins to rain upward.", "Frame 4 A paper aeroplane flies through the library, revealing it is collecting the upward raindrops."],
+      "readerQuestion": "Why is the paper aeroplane flying through the library?"
+    },
+    {
+      "key": "f,b,a,d",
+      "sequence": ["f", "b", "a", "d"],
+      "title": "Raincoat model",
+      "beats": ["Frame 1 A fishbowl holding a cloud waits at the bus stop.", "Frame 2 A wombat in a yellow raincoat on a red skateboard rolls beside an orange in a supermarket.", "Frame 3 An umbrella opens on the art-room table and catches a cloud-shadow.", "Frame 4 A small astronaut paints at the table, revealing the wombat's raincoat is a model for the picture."],
+      "readerQuestion": "What detail did the astronaut borrow from the wombat?"
+    },
+    {
+      "key": "f,b,a,e",
+      "sequence": ["f", "b", "a", "e"],
+      "title": "The orange moon substitute",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket.", "Frame 3 An umbrella opens on an art-room table and the orange rolls into its centre.", "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the orange was a practice moon."],
+      "readerQuestion": "Why was the orange under the umbrella?"
+    },
+    {
+      "key": "f,b,c,a",
+      "sequence": ["f", "b", "c", "a"],
+      "title": "A raincoat for the library",
+      "beats": ["Frame 1 A fishbowl with a cloud sits at a bus stop.", "Frame 2 A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket.", "Frame 3 A paper aeroplane flies through the library, leaving a cloud-shaped trail.", "Frame 4 An umbrella opens on the art-room table, revealing it is the landing pad for the plane."],
+      "readerQuestion": "Why does the plane need an umbrella landing pad?"
+    },
+    {
+      "key": "f,b,c,d",
+      "sequence": ["f", "b", "c", "d"],
+      "title": "The wombat's flying sketch",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at the bus stop.", "Frame 2 A wombat in a yellow raincoat skateboards beside an orange in a supermarket.", "Frame 3 A paper aeroplane flies through the library with the orange balanced on one wing.", "Frame 4 A small astronaut paints at an art table, revealing the impossible flight is the astronaut's sketch idea."],
+      "readerQuestion": "Which object makes the flight impossible?"
+    },
+    {
+      "key": "f,b,c,e",
+      "sequence": ["f", "b", "c", "e"],
+      "title": "The supermarket moon flight",
+      "beats": ["Frame 1 A fishbowl holds a cloud at a bus stop.", "Frame 2 A wombat in a yellow raincoat rolls a red skateboard beside an orange in a supermarket.", "Frame 3 A paper aeroplane flies through the library carrying the orange like a moon.", "Frame 4 A teenager arrives at a wet tram stop with an oversized cardboard moon, revealing the orange was its tiny rehearsal."],
+      "readerQuestion": "What is the orange practising to be?"
+    },
+    {
+      "key": "f,b,d,a",
+      "sequence": ["f", "b", "d", "a"],
+      "title": "The astronaut borrows a raincoat",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 A wombat in a yellow raincoat on a red skateboard passes an orange in a supermarket.", "Frame 3 A small astronaut paints rain across the art table until the paint becomes a real puddle.", "Frame 4 An umbrella opens over the table, revealing why the wombat came dressed for rain."],
+      "readerQuestion": "What changed the painted rain into a problem?"
+    },
+    {
+      "key": "f,b,d,c",
+      "sequence": ["f", "b", "d", "c"],
+      "title": "The painted launch",
+      "beats": ["Frame 1 A fishbowl holding a cloud sits at a bus stop.", "Frame 2 A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket.", "Frame 3 A small astronaut paints a strong gust across the art table.", "Frame 4 A paper aeroplane flies through the library, revealing the painted gust has launched it."],
+      "readerQuestion": "What caused the paper aeroplane to move?"
+    },
+    {
+      "key": "f,b,d,e",
+      "sequence": ["f", "b", "d", "e"],
+      "title": "The astronaut's wet moon",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits by a bus stop.", "Frame 2 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket.", "Frame 3 A small astronaut paints a moon that starts dripping rain.", "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the astronaut painted the real model too accurately."],
+      "readerQuestion": "Why is the tram stop wet?"
+    },
+    {
+      "key": "f,b,e,a",
+      "sequence": ["f", "b", "e", "a"],
+      "title": "The moon's tiny umbrella",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 A wombat in a yellow raincoat skateboards beside an orange in a supermarket.", "Frame 3 A teenager carries an oversized cardboard moon through a wet tram stop.", "Frame 4 An umbrella opens on the art-room table, revealing the orange has been used as a tiny moon under it."],
+      "readerQuestion": "What makes the umbrella seem giant in the last frame?"
+    },
+    {
+      "key": "f,b,e,c",
+      "sequence": ["f", "b", "e", "c"],
+      "title": "A paper plane for the moon",
+      "beats": ["Frame 1 A fishbowl holding a cloud waits at a bus stop.", "Frame 2 A wombat in a yellow raincoat on a red skateboard rides beside an orange in a supermarket.", "Frame 3 A teenager carries an oversized cardboard moon into a wet tram stop.", "Frame 4 A paper aeroplane flies through the library, revealing it is headed for the moon prop."],
+      "readerQuestion": "What might the paper aeroplane carry to the moon?"
+    },
+    {
+      "key": "f,b,e,d",
+      "sequence": ["f", "b", "e", "d"],
+      "title": "The moon rehearsal painting",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 A wombat in a yellow raincoat rolls a red skateboard beside an orange in a supermarket.", "Frame 3 A teenager carries an oversized cardboard moon through a wet tram stop.", "Frame 4 A small astronaut paints at an art table, revealing the whole rainy moon trip is a rehearsal for the painting."],
+      "readerQuestion": "Which prop helps the astronaut plan the painting?"
+    },
+    {
+      "key": "f,c,a,b",
+      "sequence": ["f", "c", "a", "b"],
+      "title": "The umbrella air mail",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at a bus stop.", "Frame 2 A paper aeroplane flies through the library.", "Frame 3 An umbrella opens on an art-room table and catches the plane, which is now carrying a cloud-drop.", "Frame 4 A wombat in a yellow raincoat rolls a red skateboard beside an orange in a supermarket, revealing the raincoat was needed for the delivery."],
+      "readerQuestion": "What did the paper aeroplane deliver?"
+    },
+    {
+      "key": "f,c,a,d",
+      "sequence": ["f", "c", "a", "d"],
+      "title": "The umbrella flight study",
+      "beats": ["Frame 1 A fishbowl holds a cloud beside a bus stop.", "Frame 2 A paper aeroplane flies through the library.", "Frame 3 An open umbrella on the art-room table pulls the plane down like a magnet.", "Frame 4 A small astronaut paints at the table, revealing the umbrella and plane are a test for a space-weather picture."],
+      "readerQuestion": "What is the astronaut testing?"
+    },
+    {
+      "key": "f,c,a,e",
+      "sequence": ["f", "c", "a", "e"],
+      "title": "The umbrella moon landing",
+      "beats": ["Frame 1 A fishbowl containing a cloud sits at a bus stop.", "Frame 2 A paper aeroplane flies through the library.", "Frame 3 An umbrella opens on an art-room table and the plane lands on its curved surface.", "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the umbrella landing was moon practice."],
+      "readerQuestion": "Why does the umbrella look like a moon surface?"
+    },
+    {
+      "key": "f,c,b,a",
+      "sequence": ["f", "c", "b", "a"],
+      "title": "A skateboarding weather report",
+      "beats": ["Frame 1 A fishbowl holds a cloud at a bus stop.", "Frame 2 A paper aeroplane flies through the library.", "Frame 3 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket while a cloud forms above the aisle.", "Frame 4 An umbrella opens on an art-room table, revealing it was waiting for the wombat's weather report."],
+      "readerQuestion": "What tells you the wombat brought weather inside?"
+    },
+    {
+      "key": "f,c,b,d",
+      "sequence": ["f", "c", "b", "d"],
+      "title": "The flying orange sketch",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at a bus stop.", "Frame 2 A paper aeroplane flies through the library.", "Frame 3 A wombat in a yellow raincoat puts the supermarket orange onto the plane's nose.", "Frame 4 A small astronaut paints at an art table, revealing the strange flying orange is the astronaut's new sketch."],
+      "readerQuestion": "Which detail turns the plane into a sketch idea?"
+    },
+    {
+      "key": "f,c,b,e",
+      "sequence": ["f", "c", "b", "e"],
+      "title": "The tiny moon takes off",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 A paper aeroplane flies through the library.", "Frame 3 A wombat in a yellow raincoat sends a red skateboard rolling after an orange in a supermarket.", "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the orange was the moon's tiny version."],
+      "readerQuestion": "Which two objects make the moon joke?"
+    },
+    {
+      "key": "f,c,d,a",
+      "sequence": ["f", "c", "d", "a"],
+      "title": "The astronaut's paper storm",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at a bus stop.", "Frame 2 A paper aeroplane flies through the library.", "Frame 3 A small astronaut paints a storm that makes library pages flutter like wings.", "Frame 4 An umbrella opens on the art-room table, revealing it is protecting the astronaut's wet painting."],
+      "readerQuestion": "What made the library pages flutter?"
+    },
+    {
+      "key": "f,c,d,b",
+      "sequence": ["f", "c", "d", "b"],
+      "title": "The astronaut's raincoat test",
+      "beats": ["Frame 1 A fishbowl with a cloud waits at a bus stop.", "Frame 2 A paper aeroplane flies through the library.", "Frame 3 A small astronaut paints rain onto the plane's paper wings.", "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the astronaut has found a rain-proof helper."],
+      "readerQuestion": "Why is the wombat the right helper?"
+    },
+    {
+      "key": "f,c,d,e",
+      "sequence": ["f", "c", "d", "e"],
+      "title": "A moon painted from paper",
+      "beats": ["Frame 1 A fishbowl holds a cloud beside a bus stop.", "Frame 2 A paper aeroplane flies through the library.", "Frame 3 A small astronaut paints the plane's shadow into a moon shape.", "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the shadow became the prop design."],
+      "readerQuestion": "How did a plane shadow become a moon?"
+    },
+    {
+      "key": "f,c,e,a",
+      "sequence": ["f", "c", "e", "a"],
+      "title": "The paper plane's moon stop",
+      "beats": ["Frame 1 A fishbowl containing a cloud sits at a bus stop.", "Frame 2 A paper aeroplane flies through the library.", "Frame 3 A teenager carries an oversized cardboard moon into a wet tram stop.", "Frame 4 An umbrella opens on an art-room table, revealing it is the paper plane's next stop after the moon."],
+      "readerQuestion": "What makes the umbrella seem like a destination?"
+    },
+    {
+      "key": "f,c,e,b",
+      "sequence": ["f", "c", "e", "b"],
+      "title": "The moon's supermarket route",
+      "beats": ["Frame 1 A fishbowl holds a cloud at a bus stop.", "Frame 2 A paper aeroplane flies through the library.", "Frame 3 A teenager carries an oversized cardboard moon at a wet tram stop.", "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the orange is the moon's route marker."],
+      "readerQuestion": "Why does the orange link to the cardboard moon?"
+    },
+    {
+      "key": "f,c,e,d",
+      "sequence": ["f", "c", "e", "d"],
+      "title": "The moon-message painting",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at a bus stop.", "Frame 2 A paper aeroplane flies through the library.", "Frame 3 A teenager carries an oversized cardboard moon at a wet tram stop.", "Frame 4 A small astronaut paints at an art table, revealing the paper plane has delivered the moon sketch."],
+      "readerQuestion": "What did the paper aeroplane bring to the astronaut?"
+    },
+    {
+      "key": "f,d,a,b",
+      "sequence": ["f", "d", "a", "b"],
+      "title": "The astronaut paints a raincoat",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at a bus stop.", "Frame 2 A small astronaut paints at an art table.", "Frame 3 An umbrella opens over the astronaut's paint and the cloud floats into it.", "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the raincoat is the astronaut's finished design."],
+      "readerQuestion": "Why did the astronaut need an umbrella?"
+    },
+    {
+      "key": "f,d,a,c",
+      "sequence": ["f", "d", "a", "c"],
+      "title": "The painted umbrella launch",
+      "beats": ["Frame 1 A fishbowl holds a cloud at a bus stop.", "Frame 2 A small astronaut paints at an art table.", "Frame 3 An umbrella opens beside the paint and catches a sudden cloud gust.", "Frame 4 A paper aeroplane flies through the library, revealing the gust has given it a launch."],
+      "readerQuestion": "What launched the paper aeroplane?"
+    },
+    {
+      "key": "f,d,a,e",
+      "sequence": ["f", "d", "a", "e"],
+      "title": "The astronaut's wet moon model",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 A small astronaut paints at an art table.", "Frame 3 An umbrella opens over the painting, but a cardboard circle underneath begins to look like a moon.", "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the astronaut used the real prop as a model."],
+      "readerQuestion": "Which object connects the art table to the tram stop?"
+    },
+    {
+      "key": "f,d,b,a",
+      "sequence": ["f", "d", "b", "a"],
+      "title": "The astronaut's supermarket storm",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at a bus stop.", "Frame 2 A small astronaut paints at an art table.", "Frame 3 A wombat in a yellow raincoat rolls a red skateboard through a supermarket as a painted cloud rains on the orange.", "Frame 4 An umbrella opens on the art-room table, revealing where the rain came from."],
+      "readerQuestion": "What connects the supermarket rain to the art table?"
+    },
+    {
+      "key": "f,d,b,c",
+      "sequence": ["f", "d", "b", "c"],
+      "title": "The orange flight plan",
+      "beats": ["Frame 1 A fishbowl holds a cloud at a bus stop.", "Frame 2 A small astronaut paints at an art table.", "Frame 3 A wombat in a yellow raincoat puts an orange on a red skateboard in a supermarket, and it rolls away like a planet.", "Frame 4 A paper aeroplane flies through the library, revealing it is chasing the rolling planet for the astronaut's plan."],
+      "readerQuestion": "What makes the orange seem like a planet?"
+    },
+    {
+      "key": "f,d,b,e",
+      "sequence": ["f", "d", "b", "e"],
+      "title": "The astronaut's moon delivery",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 A small astronaut paints at an art table.", "Frame 3 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket while rain appears above the aisle.", "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the astronaut was painting the weather for the moon scene."],
+      "readerQuestion": "Where did the supermarket rain belong all along?"
+    },
+    {
+      "key": "f,d,c,a",
+      "sequence": ["f", "d", "c", "a"],
+      "title": "The astronaut's library umbrella",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at a bus stop.", "Frame 2 A small astronaut paints at an art table.", "Frame 3 A paper aeroplane flies through the library, trailing paint that becomes a cloud.", "Frame 4 An umbrella opens on the art-room table, revealing it is catching the astronaut's flying paint cloud."],
+      "readerQuestion": "What is the umbrella catching?"
+    },
+    {
+      "key": "f,d,c,b",
+      "sequence": ["f", "d", "c", "b"],
+      "title": "The painted library delivery",
+      "beats": ["Frame 1 A fishbowl holds a cloud at a bus stop.", "Frame 2 A small astronaut paints at an art table.", "Frame 3 A paper aeroplane flies through the library with a painted orange circle on its wing.", "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the plane has delivered the painting idea."],
+      "readerQuestion": "Which object is repeated from the plane to the supermarket?"
+    },
+    {
+      "key": "f,d,c,e",
+      "sequence": ["f", "d", "c", "e"],
+      "title": "The astronaut's moon mail",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 A small astronaut paints at an art table.", "Frame 3 A paper aeroplane flies through the library carrying a wet moon drawing.", "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the drawing has arrived as the real prop."],
+      "readerQuestion": "What did the paper aeroplane deliver?"
+    },
+    {
+      "key": "f,d,e,a",
+      "sequence": ["f", "d", "e", "a"],
+      "title": "The umbrella moon painting",
+      "beats": ["Frame 1 A fishbowl holding a cloud waits at a bus stop.", "Frame 2 A small astronaut paints at an art table.", "Frame 3 A teenager carries an oversized cardboard moon through a wet tram stop.", "Frame 4 An umbrella opens on the art-room table, revealing it is the astronaut's stand for the moon model."],
+      "readerQuestion": "What turns the umbrella into an art tool?"
+    },
+    {
+      "key": "f,d,e,b",
+      "sequence": ["f", "d", "e", "b"],
+      "title": "The raincoat moon rehearsal",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 A small astronaut paints at an art table.", "Frame 3 A teenager carries an oversized cardboard moon at a wet tram stop.", "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the moon scene was rehearsed at tiny scale."],
+      "readerQuestion": "Which tiny object copies the cardboard moon?"
+    },
+    {
+      "key": "f,d,e,c",
+      "sequence": ["f", "d", "e", "c"],
+      "title": "The moon sends a sketch",
+      "beats": ["Frame 1 A fishbowl with a cloud waits at a bus stop.", "Frame 2 A small astronaut paints at an art table.", "Frame 3 A teenager carries an oversized cardboard moon through a wet tram stop.", "Frame 4 A paper aeroplane flies through the library, revealing it has carried the astronaut's moon sketch ahead."],
+      "readerQuestion": "Where is the paper aeroplane taking the sketch?"
+    },
+    {
+      "key": "f,e,a,b",
+      "sequence": ["f", "e", "a", "b"],
+      "title": "The moon's weather rehearsal",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at a bus stop.", "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.", "Frame 3 An umbrella opens on an art-room table and the cloud floats beneath it like a tiny storm.", "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the orange is the moon rehearsal."],
+      "readerQuestion": "What makes the orange part of the moon rehearsal?"
+    },
+    {
+      "key": "f,e,a,c",
+      "sequence": ["f", "e", "a", "c"],
+      "title": "The moon's umbrella message",
+      "beats": ["Frame 1 A fishbowl holds a cloud at a bus stop.", "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.", "Frame 3 An umbrella opens on an art-room table and the cloud rains upward into it.", "Frame 4 A paper aeroplane flies through the library, revealing it is taking the strange weather message away."],
+      "readerQuestion": "What makes the weather message strange?"
+    },
+    {
+      "key": "f,e,a,d",
+      "sequence": ["f", "e", "a", "d"],
+      "title": "The moon model catches weather",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits by a bus stop.", "Frame 2 A teenager carries an oversized cardboard moon through a wet tram stop.", "Frame 3 An umbrella opens on the art-room table and catches a cloud-shadow that looks like the moon.", "Frame 4 A small astronaut paints at the table, revealing the moon and umbrella are a weather-study model."],
+      "readerQuestion": "What is the astronaut studying with the moon model?"
+    },
+    {
+      "key": "f,e,b,a",
+      "sequence": ["f", "e", "b", "a"],
+      "title": "The moon's supermarket weather",
+      "beats": ["Frame 1 A fishbowl holds a cloud at a bus stop.", "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.", "Frame 3 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket as a cloud appears above the aisle.", "Frame 4 An umbrella opens on the art-room table, revealing it is the missing weather prop for the moon scene."],
+      "readerQuestion": "Which prop completes the rainy moon scene?"
+    },
+    {
+      "key": "f,e,b,c",
+      "sequence": ["f", "e", "b", "c"],
+      "title": "The moon's orange flight",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at a bus stop.", "Frame 2 A teenager carries an oversized cardboard moon through a wet tram stop.", "Frame 3 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, and the orange rolls into a paper-flight path.", "Frame 4 A paper aeroplane flies through the library, revealing it is carrying the tiny moon-orange."],
+      "readerQuestion": "Which object becomes a tiny moon?"
+    },
+    {
+      "key": "f,e,b,d",
+      "sequence": ["f", "e", "b", "d"],
+      "title": "The moon rehearsal becomes art",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.", "Frame 3 A wombat in a yellow raincoat skateboards beside an orange in a supermarket while rain starts above the aisle.", "Frame 4 A small astronaut paints at an art table, revealing the odd supermarket scene is the astronaut's moon rehearsal."],
+      "readerQuestion": "Which frame recontextualises the supermarket rain?"
+    },
+    {
+      "key": "f,e,c,a",
+      "sequence": ["f", "e", "c", "a"],
+      "title": "The moon's paper landing",
+      "beats": ["Frame 1 A fishbowl holding a cloud waits at a bus stop.", "Frame 2 A teenager carries an oversized cardboard moon through a wet tram stop.", "Frame 3 A paper aeroplane flies through the library and circles the cardboard moon.", "Frame 4 An umbrella opens on the art-room table, revealing it is the moon's soft landing surface."],
+      "readerQuestion": "Why does the umbrella make a good moon landing?"
+    },
+    {
+      "key": "f,e,c,b",
+      "sequence": ["f", "e", "c", "b"],
+      "title": "The moon's paper courier",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.", "Frame 3 A paper aeroplane flies through the library with a cloud-shaped wet mark.", "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the plane has delivered weather for the tiny moon."],
+      "readerQuestion": "What is the orange standing in for?"
+    },
+    {
+      "key": "f,e,c,d",
+      "sequence": ["f", "e", "c", "d"],
+      "title": "The moon sketch flies home",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits by a bus stop.", "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.", "Frame 3 A paper aeroplane flies through the library with a moon shape drawn on its wing.", "Frame 4 A small astronaut paints at an art table, revealing the plane has brought the moon model back as a sketch."],
+      "readerQuestion": "What did the astronaut receive from the paper aeroplane?"
+    },
+    {
+      "key": "f,e,d,a",
+      "sequence": ["f", "e", "d", "a"],
+      "title": "The moon painting needs shelter",
+      "beats": ["Frame 1 A fishbowl holds a cloud at a bus stop.", "Frame 2 A teenager carries an oversized cardboard moon through a wet tram stop.", "Frame 3 A small astronaut paints the moon and the paint begins to rain down the page.", "Frame 4 An umbrella opens on the art-room table, revealing it is sheltering the wet moon painting."],
+      "readerQuestion": "Why did the astronaut need the umbrella?"
+    },
+    {
+      "key": "f,e,d,b",
+      "sequence": ["f", "e", "d", "b"],
+      "title": "The moon's tiny stand-in",
+      "beats": ["Frame 1 A fishbowl containing a cloud waits at a bus stop.", "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.", "Frame 3 A small astronaut paints a moon that starts rolling off the art table.", "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the orange is the small rolling moon."],
+      "readerQuestion": "Which object is the moon's small stand-in?"
+    },
+    {
+      "key": "f,e,d,c",
+      "sequence": ["f", "e", "d", "c"],
+      "title": "The painted moon takes flight",
+      "beats": ["Frame 1 A fishbowl contains a cloud at a bus stop.", "Frame 2 A teenager carries an oversized cardboard moon through a wet tram stop.", "Frame 3 A small astronaut paints a moon-shaped gust at an art table.", "Frame 4 A paper aeroplane flies through the library, revealing the painted gust has sent the moon message onward."],
+      "readerQuestion": "What sent the paper aeroplane onward?"
+    }
+  ]
+}
