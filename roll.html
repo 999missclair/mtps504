@@ -82,7 +82,7 @@
     <div>
 
       <section class="section" id="watch">
-        <h2>1 &#183; Watch (10 min)</h2>
+        <h2>1 &#183; Watch (optional, 10 min)</h2>
 
         <!-- THE HOST — introduction moment. Neutral expression: she is
              introducing the page, not reacting to anything. Decorative, hidden
@@ -103,62 +103,41 @@
           and a problem to make your own.</p>
         </div>
 
-        <p class="lead">You get a character, a situation and a problem, dealt two at a
-        time. Watch the talk first: ten minutes on why a limit can start you.</p>
+        <p class="lead">A limit can start an idea. Watch the talk, or read its short note,
+        then roll your own starting point. The studio wall is ready for your finished roll.</p>
 
         <!-- RESOURCE 2 — Hansen, Embrace the Shake (TED2013).
              Embedded from youtube-nocookie.com, which is the low-tracking
              domain, with cc_load_policy=1 so captions are ON by default
              rather than something a student has to ask for
              (curated-resources.md section 8; design spec section 6 item 6). -->
-        <div class="resource" style="margin-top:var(--s5)">
-          <div class="resource__header">
-            <span class="chip">Video</span>
-            <h3>Embrace the Shake</h3>
-            <p class="resource__who">Phil Hansen &#183; TED2013 &#183; 10 minutes</p>
+        <div class="roll-watch-grid" style="margin-top:var(--s4)">
+          <div class="resource roll-watch-video">
+            <div class="resource__header">
+              <span class="chip">Video</span>
+              <h3>Embrace the Shake</h3>
+              <p class="resource__who">Phil Hansen &#183; TED2013 &#183; 10 minutes</p>
+            </div>
+            <iframe src="https://www.youtube-nocookie.com/embed/YrZTho_o_is?cc_load_policy=1"
+                    title="Embrace the Shake | Phil Hansen | TED"
+                    loading="lazy" allowfullscreen></iframe>
+            <div class="resource__body">
+              <p class="captions-line">Captions start on. The talk includes a brief mention
+              of a hand injury.</p>
+              <a class="tap-link" href="https://www.ted.com/talks/phil_hansen_embrace_the_shake"
+                 target="_blank" rel="noopener noreferrer">Read the transcript on TED <span aria-hidden="true">&#8599;</span><span class="visually-hidden"> (opens in a new tab)</span></a>
+            </div>
           </div>
-          <iframe src="https://www.youtube-nocookie.com/embed/YrZTho_o_is?cc_load_policy=1"
-                  title="Embrace the Shake | Phil Hansen | TED"
-                  loading="lazy" allowfullscreen></iframe>
-          <div class="resource__body">
-            <p class="captions-line">Captions are on &#8212; press <strong>CC</strong> to
-            turn them off. A full transcript is on the TED page.</p>
 
-            <p>Artist Phil Hansen lost the ability to draw a straight line &#8212; watch what
-            he did next. Heads up: he talks about injuring his hands.</p>
-
-            <p class="captions-line">Rather read it? He rebuilds his art practice around
-            deliberate limits &#8212; painting on his chest, on paper stacks, with karate
-            chops.</p>
-
-            <p style="margin-top:var(--s4)">
-              <a class="btn-secondary btn-block" href="https://www.ted.com/talks/phil_hansen_embrace_the_shake"
-                 target="_blank" rel="noopener noreferrer">
-                Open the talk on TED, with the transcript
-                <span class="ext-glyph" aria-hidden="true">&#8599;</span>
-                <span class="visually-hidden">(opens in a new tab)</span>
-              </a>
-            </p>
-            <p class="return-line">Opens in a new tab &#8212; come back here for step 2, the
-            roll.</p>
-          </div>
-        </div>
-
-        <!-- WATCH REFLECTION — short talk-in-class prompt tied to the Hansen
-             talk. The dice roll on this page is itself a constraint, so this
-             links the video straight to the work. No board here: the one class
-             wall lives in #post. -->
-        <div class="card" style="margin-top:var(--s5)">
-          <h3>Now think about it</h3>
-          <p class="lead">Two quick questions before you roll. Have a think, then
-          talk it over in class.</p>
-          <ol class="steps">
-            <li>What did Phil Hansen learn about constraints &#8212; how did a limit
-            help him make something?</li>
-            <li>What&#8217;s an interesting constraint YOU could set for your own comic?
-            (one object that must appear in all four frames, only two colours, no
-            faces shown &#8212; whatever.)</li>
-          </ol>
+          <aside class="roll-watch-share" aria-labelledby="watch-share-title">
+            <h3 id="watch-share-title">Studio wall</h3>
+            <p>See how other story starters are growing. Post your own rolled brief in step 3.</p>
+            <iframe src="https://padlet.com/embed/xgv9pa9bf9197dav"
+                    title="Four Frames studio wall"
+                    loading="lazy" allow="clipboard-write"></iframe>
+            <a class="tap-link" href="https://padlet.com/clairaespinola/four-frames-share-your-roll-xgv9pa9bf9197dav"
+               target="_blank" rel="noopener noreferrer">Open the studio wall <span aria-hidden="true">&#8599;</span><span class="visually-hidden"> (opens in a new tab)</span></a>
+          </aside>
         </div>
       </section>
 
@@ -266,7 +245,7 @@
         <!-- AI idea helper — a DIVERGENT scaffold. It asks about the locked brief,
              never writes the comic. Wired by js/ai.js ([data-ai-idea]). Fallback
              is the three worked briefs in the Stuck? rail. -->
-        <div class="ai-panel" data-ai-idea>
+        <div class="legacy-roll__source ai-panel" data-ai-idea hidden>
           <h3>Studio sidekick: nudge your idea</h3>
           <p class="small">Once your brief is locked, the studio sidekick asks you 2&#8211;3 questions
           about it. It will <strong>not</strong> write your comic &#8212; that is still your

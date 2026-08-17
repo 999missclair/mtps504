@@ -21,6 +21,9 @@
     var reveal = root.querySelector('[data-story-reveal]');
     var question = root.querySelector('[data-story-question]');
     var readingTitle = root.querySelector('[data-story-reading-title]');
+    var readingImages = root.querySelector('[data-story-reading-images]');
+    var routePrompt = root.querySelector('[data-story-route-prompt]');
+    var intro = root.querySelector('[data-story-intro]');
     var bank = window.FOUR_FRAMES_STORY_BANK || {};
     var chosen = [];
     var timerId = null;
@@ -33,18 +36,33 @@
       slots.forEach(function (slot, index) {
         var card = chosen[index];
         var line = slot.querySelector('[data-story-slot-line]');
+        var image = slot.querySelector('[data-story-slot-image]');
         slot.classList.toggle('is-filled', !!card);
         if (line) {
           line.textContent = card
             ? card.getAttribute('data-story-title')
             : 'Choose a picture.';
         }
+        if (image) {
+          image.hidden = !card;
+          image.src = card ? card.querySelector('img').src : '';
+          image.alt = card ? card.querySelector('img').alt : '';
+        }
       });
       cards.forEach(function (card) {
-        card.setAttribute('aria-pressed', chosen.indexOf(card) > -1 ? 'true' : 'false');
+        var order = chosen.indexOf(card);
+        card.setAttribute('aria-pressed', order > -1 ? 'true' : 'false');
+        if (order > -1) {
+          card.setAttribute('data-story-order', String(order + 1));
+          card.querySelector('span').setAttribute('data-story-order', String(order + 1));
+        } else {
+          card.removeAttribute('data-story-order');
+          card.querySelector('span').removeAttribute('data-story-order');
+        }
       });
 
       if (think) { think.disabled = chosen.length !== 4 || !!timerId; }
+      if (routePrompt) { routePrompt.hidden = chosen.length === 4; }
       if (result) {
         if (chosen.length < 4) {
           result.textContent = chosen.length + ' of 4 pictures chosen.';
@@ -67,6 +85,7 @@
       }
       if (reading) { reading.hidden = true; }
       if (completion) { completion.hidden = true; }
+      if (intro) { intro.hidden = false; }
       if (timer) { timer.textContent = chosen.length === 4 ? 'Four pictures ready. Read one possible story.' : 'Choose four pictures to reveal a reading.'; }
       paintSlots();
     }
@@ -76,6 +95,7 @@
       var key = chosen.map(function (card) { return card.getAttribute('data-story-card'); }).join(',');
       var story = bank[key];
       reveal.innerHTML = '';
+      if (readingImages) { readingImages.innerHTML = ''; }
       if (!story) {
         if (timer) { timer.textContent = 'This reading is not ready yet. Try another order or tell your teacher.'; }
         say('This four-picture reading is not ready yet.');
@@ -92,10 +112,24 @@
         item.appendChild(line);
         reveal.appendChild(item);
       });
+      if (readingImages) {
+        chosen.forEach(function (card, index) {
+          var item = document.createElement('li');
+          var image = document.createElement('img');
+          var label = document.createElement('span');
+          image.src = card.querySelector('img').src;
+          image.alt = card.querySelector('img').alt;
+          label.textContent = 'Frame ' + (index + 1);
+          item.appendChild(image);
+          item.appendChild(label);
+          readingImages.appendChild(item);
+        });
+      }
       if (readingTitle) { readingTitle.textContent = story.title || 'One possible reading'; }
       if (question) { question.textContent = story.readerQuestion || ''; }
       if (reading) { reading.hidden = false; }
-      if (completion) { completion.hidden = false; }
+      if (completion) { completion.hidden = true; }
+      if (intro) { intro.hidden = true; }
       if (timer) { timer.textContent = 'An authored reading is ready. Change the order to read another one.'; }
       say(story.title + ' is ready. It uses Picture ' + chosen.map(function (card) {
         return card.getAttribute('data-story-card').toUpperCase();
@@ -112,6 +146,7 @@
         chosen = [];
         if (reading) { reading.hidden = true; }
         if (completion) { completion.hidden = true; }
+        if (intro) { intro.hidden = false; }
         if (timer) { timer.textContent = 'Choose four pictures to reveal a reading.'; }
         paintSlots();
         say('Four frames cleared.');

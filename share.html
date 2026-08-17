@@ -103,7 +103,7 @@
         You&#8217;re marked on what you notice &#8212; not on how funny it is.</p>
       </div>
 
-      <section class="section" id="criteria">
+      <section class="legacy-share__source" id="criteria" hidden>
         <h2>1 &#183; Build the checklist</h2>
         <p class="lead">Fifteen minutes, out loud, as a class. You&#8217;ve all made one
         now, so you know what worked.</p>
@@ -146,7 +146,7 @@
         </div>
       </section>
 
-      <section class="section" id="alt-text">
+      <section class="legacy-share__source" id="alt-text" hidden>
         <h2>Alt text before it goes up</h2>
         <div class="ai-panel" data-ai-alt>
           <p class="lead">Before your comic hits the class wall, give it alt text so everyone can read it. Describe a panel in your own words; the helper drafts it, then <strong>you check and fix it</strong>.</p>
@@ -159,9 +159,9 @@
       </section>
 
       <section class="section" id="post">
-        <h2>2 &#183; Final submission</h2>
-        <p class="lead">Your final submission belongs in the Final submission Padlet, not
-        only in Downloads. That step opens after the Comic Builder has downloaded your file.</p>
+        <h2>5 &#183; Share your finished comic</h2>
+        <p class="lead">Your comic belongs in the Final submission Padlet. Post the picture,
+        your four credits, and one line about something you learned while making it.</p>
 
         <!-- Clair-only configuration: create a separate Final submission Padlet,
              then add its embed URL and public link below. Never reuse Roll Call:
@@ -170,7 +170,7 @@
           <div class="rule-strip" data-final-submission-locked>
             <h3>First: download your comic</h3>
             <ol>
-              <li><span class="num">1</span> Return to 4 Build and use <strong>Download my comic</strong>.</li>
+              <li><span class="num">1</span> Return to the Comic Builder and use <strong>Download my comic</strong>.</li>
               <li><span class="num">2</span> Come back here. The Final submission Padlet will open.</li>
             </ol>
           </div>
@@ -178,26 +178,31 @@
           <div data-final-submission-ready hidden>
             <div class="card">
               <h3>Post your finished comic</h3>
-              <ol class="steps">
+              <ol class="final-post-list">
                 <li><strong>Post your comic image</strong>
                   <span class="detail">The picture you saved with the Comic Builder&#8217;s
                   <em>Download my comic</em> button.</span></li>
-                <li><strong>Title it with your rolled brief</strong>
-                  <span class="detail">The same line you copied on 2 Roll, dots and all.</span></li>
+                <li><strong>Title it with your rolled brief and first name + table</strong>
+                  <span class="detail">Use the same line you copied on 2 Roll. No surnames:
+                  <span class="mono">Sam T4</span> is perfect.</span></li>
                 <li><strong>Paste your four copied credit lines underneath</strong>
                   <span class="detail">One per frame: title, creator, source and licence.</span></li>
-                <li><strong>Post as your first name and table number</strong>
-                  <span class="detail">No surnames. <span class="mono">Sam T4</span> is
-                  perfect.</span></li>
+                <li><strong>Add your comic description and one learning note</strong>
+                  <span class="detail">Paste the description from the Builder, then finish:
+                  <em>I learned that…</em></span></li>
               </ol>
             </div>
             <div data-final-padlet-mount style="margin-top:var(--s5)"></div>
           </div>
         </div>
+        <div class="final-share-check" aria-label="A quick final check">
+          <strong>Before you post:</strong> add your comic image, four credit lines and comic description.
+          Then finish: <em>I learned that my sequence or shot choice worked because…</em>
+        </div>
         <p class="final-submission-nudge" role="status" hidden></p>
       </section>
 
-      <section class="section" id="comment">
+      <section class="legacy-share__source" id="comment" hidden>
         <h2>3 &#183; Comment on two others</h2>
         <p class="lead">Comment on the two posts after yours in the grid &#8212; wrap around
         to the start if yours is near the end. Use the checklist the class just built &#8212;
@@ -359,13 +364,11 @@
     <span class="visually-hidden">Back to 4 Build</span>
   </a>
   <ul class="botnav__steps">
-    <li><a class="step-pill" href="#criteria" aria-current="step">1 Build the checklist</a></li>
-    <li><a class="step-pill" href="#post">2 Final submission</a></li>
-    <li><a class="step-pill" href="#comment">3 Comment on two others</a></li>
+    <li><a class="step-pill" href="#post" aria-current="step">Final submission</a></li>
   </ul>
   <p class="botnav__counter">
-    <span class="count">1 / 3</span>
-    <span class="name">Build the checklist</span>
+    <span class="count">5 / 5</span>
+    <span class="name">Final submission</span>
   </p>
   <a class="btn-primary" href="#post">Final submission &#8594;</a>
 </nav>

@@ -32,6 +32,7 @@
 
   var main = document.querySelector('main');
   if (!main) return;
+  var stepCanvas = main.querySelector('.with-rail > div:first-child');
 
   /* Content sections only — the support rail (Stuck / What good looks like)
      stays put on every step, so it never scrolls away from a student who needs it. */
@@ -254,7 +255,16 @@
       if (!h.hasAttribute('tabindex')) h.setAttribute('tabindex', '-1');
       h.focus({ preventScroll: true });
     }
-    window.scrollTo(0, 0);
+    function resetStepScroll() {
+      if (stepCanvas) stepCanvas.scrollTop = 0;
+      window.scrollTo(0, 0);
+    }
+    resetStepScroll();
+    /* A direct #step link can make the browser perform its native anchor
+       scroll after scripts run. Reset once more on the next frame so every
+       pager step starts at its own heading. */
+    window.requestAnimationFrame(resetStepScroll);
+    window.setTimeout(resetStepScroll, 50);
   }
 
   function goTo(hash) {

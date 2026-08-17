@@ -92,19 +92,19 @@
            sourcing and legality are support below. -->
       <section class="section section--hero" id="build-it">
         <h2>Build your comic</h2>
-        <p class="lead"><strong>This is where you make your comic.</strong> It all happens
-        in the Comic Builder &#8212; nothing to download, no template to copy.</p>
+        <p class="lead"><strong>Open the Comic Builder now.</strong> It is the workbench for
+        your four pictures, captions, credits and download.</p>
         <p style="margin-top:var(--s5)">
           <a class="btn-primary btn-block" href="canvas.html">
             Open the Comic Builder <span class="ext-glyph" aria-hidden="true">&#8594;</span>
           </a>
         </p>
-        <div class="card" style="margin-top:var(--s5)">
+        <div class="legacy-build__source card" style="margin-top:var(--s5)" hidden>
           <ol class="steps">
             <li><strong>Drop your four pictures into the four frames.</strong></li>
             <li><strong>Keep the final story wordless.</strong>
-              <span class="detail">No character dialogue. A short accessibility caption and
-              your credit lines are allowed.</span></li>
+              <span class="detail">Use short story captions. Practice bubbles are fine while
+              you work; remove character dialogue before the final download.</span></li>
             <li><strong>Arrange the frames</strong>
               <span class="detail">set-up &#183; build-up &#183; build-up &#183;
               funny ending &#8212; the order you planned.</span></li>
@@ -119,7 +119,7 @@
 
       <!-- Before you post — slimmed so it supports the builder instead of
            blocking it. -->
-      <section class="section rule-strip rule-strip--slim" aria-labelledby="trolley">
+      <section class="legacy-build__source rule-strip rule-strip--slim" aria-labelledby="trolley" hidden>
         <h2 id="trolley">Before you post</h2>
         <ol>
           <li><span class="num" aria-hidden="true">1</span> Your roll and comic stay on this laptop for now.</li>
@@ -452,7 +452,7 @@
       </section>
 
       <!-- BLOCK G — the licence rule block -->
-      <section class="section rule-block" aria-labelledby="the-rule">
+      <section class="legacy-build__source rule-block" aria-labelledby="the-rule" hidden>
         <h2 id="the-rule"><span class="badge" aria-hidden="true">!</span> Anything you post
         publicly uses an image whose licence you can name.</h2>
         <p><strong>In class, you have more room than that.</strong> Studying artworks and
@@ -489,6 +489,12 @@
           <figcaption>One rolled brief, four frames, no character dialogue. The joke is made by
           how close the camera gets.</figcaption>
         </figure>
+        <ol class="example-captions" aria-label="Example story captions for the four frames">
+          <li><strong>Frame 1</strong><span>A teapot waits on a gallery shelf.</span></li>
+          <li><strong>Frame 2</strong><span>The gallery goes dark.</span></li>
+          <li><strong>Frame 3</strong><span>The sculpture seems much closer.</span></li>
+          <li><strong>Frame 4</strong><span>The lights reveal a tour group between them.</span></li>
+        </ol>
         <ol class="callouts">
           <li><strong>Set-up</strong> &#8212; wide shot, lots of space between them.</li>
           <li><strong>Build-up</strong> &#8212; lights out, closer in.</li>
@@ -500,7 +506,7 @@
         lines help other people understand and reuse it properly.</p>
       </section>
 
-      <section class="section" id="alt-text">
+      <section class="legacy-build__source" id="alt-text" hidden>
         <h2>Describe one panel for access</h2>
         <div class="ai-panel" data-ai-alt>
           <p class="lead">Alt text tells someone who cannot see the picture what is in it. Do
@@ -517,7 +523,7 @@
       <!-- The partner action from the hand-off (design spec 3.5): once the
            comic is built and exported in the Comic Builder, the primary offers
            the class wall. -->
-      <section class="section" id="post">
+      <section class="legacy-build__source" id="post" hidden>
         <h2>Post it before the bell</h2>
         <div class="card">
           <p class="lead">A comic you exported but didn&#8217;t post is not handed in
@@ -689,13 +695,11 @@
   <ul class="botnav__steps">
     <li><a class="step-pill" href="#build-it" aria-current="step">1 Make</a></li>
     <li><a class="step-pill" href="#get-pictures">2 Pictures</a></li>
-    <li><a class="step-pill" href="#licence-sort">3 Permission</a></li>
+    <li><a class="step-pill" href="#licence-sort">3 Picture permission</a></li>
     <li><a class="step-pill" href="#exemplar">4 Example</a></li>
-    <li><a class="step-pill" href="#alt-text">5 Describe</a></li>
-    <li><a class="step-pill" href="#post">6 Post</a></li>
   </ul>
   <p class="botnav__counter">
-    <span class="count">1 / 3</span>
+    <span class="count">1 / 4</span>
     <span class="name">Build</span>
   </p>
   <a class="btn-primary" href="canvas.html">Open the Comic Builder &#8594;</a>

@@ -81,7 +81,7 @@
 
     <div>
 
-      <section class="section" id="guide">
+      <section class="legacy-look__source" id="guide" hidden>
         <h2>1 &#183; Read the guide</h2>
 
         <!-- THE HOST — introduction moment. Thinking expression: this page asks
@@ -154,7 +154,7 @@
 
       <div class="story-scramble" data-story-scramble>
       <section class="section" id="scramble">
-        <h2>2 &#183; Panel Scramble</h2>
+        <h2>1 &#183; Panel Scramble</h2>
         <p class="lead">Six pictures from different visual worlds. Choose four, in order,
         and make the reader connect them. The picture style does not have to match &#8212;
         the story link is your job.</p>
@@ -192,15 +192,17 @@
             </div>
 
             <div class="story-sequence" aria-label="Your four-frame order">
-              <h3>Your four-frame order</h3>
+              <div class="story-sequence__bar">
+                <h3>Your four-frame order</h3>
+                <p class="small" aria-live="polite" data-story-result>0 of 4 pictures chosen.</p>
+                <button type="button" class="btn-secondary" data-story-clear>Clear</button>
+              </div>
               <ol>
-                <li data-story-slot><strong>1</strong><span data-story-slot-line>Choose a picture.</span></li>
-                <li data-story-slot><strong>2</strong><span data-story-slot-line>Choose a picture.</span></li>
-                <li data-story-slot><strong>3</strong><span data-story-slot-line>Choose a picture.</span></li>
-                <li data-story-slot><strong>4</strong><span data-story-slot-line>Choose a picture.</span></li>
+                <li data-story-slot><strong>1</strong><img data-story-slot-image hidden alt=""><span data-story-slot-line>Choose a picture.</span></li>
+                <li data-story-slot><strong>2</strong><img data-story-slot-image hidden alt=""><span data-story-slot-line>Choose a picture.</span></li>
+                <li data-story-slot><strong>3</strong><img data-story-slot-image hidden alt=""><span data-story-slot-line>Choose a picture.</span></li>
+                <li data-story-slot><strong>4</strong><img data-story-slot-image hidden alt=""><span data-story-slot-line>Choose a picture.</span></li>
               </ol>
-              <button type="button" class="btn-secondary" data-story-clear>Clear four frames</button>
-              <p class="small" aria-live="polite" data-story-result>0 of 4 pictures chosen.</p>
               <p class="visually-hidden" aria-live="polite" data-story-live></p>
             </div>
           </div>
@@ -208,28 +210,26 @@
       </section>
 
       <section class="section" id="routes">
-        <h2>3 &#183; Read the story</h2>
+        <h2>2 &#183; Read the story</h2>
         <p class="lead">The order you choose gives the reader a job: connect pictures that do
         not already match. Frame 3 is the turn; frame 4 changes how the earlier frames read.</p>
-        <div class="story-scramble__intro">
+        <div class="story-scramble__intro" data-story-intro>
           <p>Choose four pictures, then pause while the studio puts one possible reading into words.
           It uses your exact order; swap a picture or move it to test another reading.</p>
           <button type="button" class="btn-secondary" data-story-think disabled>Read this story</button>
           <p class="small" role="status" aria-live="polite" data-story-timer>Choose four pictures to reveal a reading.</p>
+          <p class="story-scramble__prompt" data-story-route-prompt>There are no pictures in your order yet.
+          <a class="tap-link" href="#scramble">Go back to Panel Scramble and choose four.</a></p>
         </div>
 
         <section class="story-reading" data-story-reading hidden aria-labelledby="story-reading-heading">
           <h3 id="story-reading-heading" data-story-reading-title>One possible reading</h3>
           <p class="small">This is not a right answer. It is a first story made from the four pictures you chose.</p>
+          <ol class="story-reading__images" data-story-reading-images aria-label="Your chosen pictures in order"></ol>
           <ol data-story-reveal></ol>
           <p class="small" data-story-question></p>
         </section>
 
-          <div class="completion" data-story-completion hidden>
-            <h3>Four frames, one reader question</h3>
-            <p>What does the reader have to work out between frame 3 and frame 4? That gap is where your visual joke can grow.</p>
-            <a class="btn-primary" href="roll.html">Next: 2 Roll &#8594;</a>
-        </div>
       </section>
       </div>
 
@@ -665,13 +665,12 @@
     <span class="visually-hidden">Back to The Brief</span>
   </a>
   <ul class="botnav__steps">
-    <li><a class="step-pill" href="#guide" aria-current="step">1 Read the guide</a></li>
-    <li><a class="step-pill" href="#scramble">2 Panel Scramble</a></li>
-    <li><a class="step-pill" href="#routes">3 Read the story</a></li>
+    <li><a class="step-pill" href="#scramble" aria-current="step">1 Panel Scramble</a></li>
+    <li><a class="step-pill" href="#routes">2 Read the story</a></li>
   </ul>
   <p class="botnav__counter">
-    <span class="count">1 / 3</span>
-    <span class="name">Read the guide</span>
+    <span class="count">1 / 2</span>
+    <span class="name">Panel Scramble</span>
   </p>
   <a class="btn-primary" href="#scramble">Do the scramble &#8594;</a>
 </nav>

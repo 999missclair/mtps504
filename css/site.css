@@ -848,6 +848,44 @@ ul.bullets > li { margin-bottom: var(--s2); }
   border: 0;
 }
 
+/* Roll pairs a short optional viewing prompt with a small, immediately useful
+   class-wall view. It is deliberately compact so neither embedded service
+   becomes the whole lesson. */
+.roll-watch-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(16rem, .8fr);
+  gap: var(--s4);
+  align-items: start;
+}
+.roll-watch-video .resource__body { padding: var(--s3) var(--s4); }
+.roll-watch-video .resource__body p { margin-bottom: var(--s2); }
+.roll-watch-share {
+  display: grid;
+  gap: var(--s2);
+  padding: var(--s3);
+  border: 3px solid var(--ink);
+  border-radius: var(--r-lg);
+  background: #FFF3D6;
+}
+.roll-watch-share h3,
+.roll-watch-share p { margin: 0; }
+.roll-watch-share iframe {
+  display: block;
+  width: 100%;
+  height: 15rem;
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  background: var(--paper);
+}
+@media (max-width: 47rem) {
+  .roll-watch-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 70rem) {
+  body.fit.has-drawer .roll-watch-grid { gap: var(--s3); }
+  body.fit.has-drawer .roll-watch-share { padding: var(--s2); }
+  body.fit.has-drawer .roll-watch-share iframe { height: 12rem; }
+}
+
 /* Media-type chip: VIDEO / ARTICLE / INTERACTIVE. */
 .chip {
   display: inline-block;
@@ -1373,12 +1411,13 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   margin-bottom: var(--s2);
 }
 .story-card[aria-pressed="true"] {
-  background: var(--sun);
-  box-shadow: 3px 3px 0 var(--ink);
-  transform: translate(-2px, -2px);
+  background: #E2E2E7;
+  box-shadow: inset 0 0 0 3px var(--sun);
 }
-.story-card[aria-pressed="true"] span::after {
-  content: " \2713";
+.story-card[aria-pressed="true"] img { filter: grayscale(.75); }
+.story-card[aria-pressed="true"] span::before {
+  content: "Frame " attr(data-story-order) " · ";
+  color: var(--ink);
 }
 .story-sequence {
   padding: var(--s4);
@@ -1388,6 +1427,15 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   color: var(--paper);
 }
 .story-sequence h3 { color: var(--paper); }
+.story-sequence__bar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: var(--s2);
+  align-items: center;
+  margin-bottom: var(--s2);
+}
+.story-sequence__bar .small { margin: 0; color: #D8D8DF; }
+.story-sequence__bar .btn-secondary { width: auto; min-height: 44px; }
 .story-sequence ol {
   display: grid;
   gap: var(--s2);
@@ -1397,7 +1445,7 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
 }
 .story-sequence li {
   display: grid;
-  grid-template-columns: 2rem 1fr;
+  grid-template-columns: 2rem 4.5rem 1fr;
   gap: var(--s2);
   align-items: center;
   min-height: 44px;
@@ -1407,6 +1455,13 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   color: #D8D8DF;
 }
 .story-sequence li.is-filled { border-style: solid; border-color: var(--sun); color: var(--paper); }
+.story-sequence li:not(.is-filled) { grid-template-columns: 2rem 1fr; }
+.story-sequence li img {
+  width: 4.5rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: calc(var(--r-sm) - 2px);
+}
 .story-sequence li strong {
   display: grid;
   place-items: center;
@@ -1416,7 +1471,7 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   background: var(--sun);
   color: var(--ink);
 }
-.story-sequence .btn-secondary { width: 100%; background: var(--paper); }
+.story-sequence > .btn-secondary { width: 100%; background: var(--paper); }
 .story-sequence .small { margin: var(--s3) 0 0; color: #D8D8DF; }
 .story-reading {
   display: grid;
@@ -1446,6 +1501,24 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   font-size: var(--t-sm);
 }
 .story-reading li strong { font-family: var(--font-display); }
+.story-reading__images {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.story-reading__images li { min-height: 0; padding: var(--s2); }
+.story-reading__images img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: calc(var(--r-sm) - 2px);
+}
+.story-reading__images span { font: 800 var(--t-meta)/1.1 var(--font-display); }
+.story-scramble__prompt {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding-top: var(--s3);
+  border-top: 2px solid var(--ink);
+  font-weight: 700;
+}
 .story-tree {
   display: grid;
   grid-template-columns: minmax(12rem, .7fr) 1fr;
@@ -1487,6 +1560,40 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   .story-reading ol { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .story-tree { grid-template-columns: 1fr; }
   .story-tree > .small { grid-column: auto; }
+
+  /* At the standard school-laptop width, the complete choose-four task must
+     sit above the fixed pager. Keep the images and order visible, but remove
+     decorative spacing before the browser needs an inner scroll. */
+  body.fit.has-drawer .story-scramble { gap: var(--s2); margin-top: 0; }
+  body.fit.has-drawer .story-scramble__workspace { gap: var(--s2); }
+  body.fit.has-drawer .story-card { padding: var(--s1); }
+  body.fit.has-drawer .story-card img { margin-bottom: var(--s1); }
+  body.fit.has-drawer .story-sequence { padding: var(--s2); }
+  body.fit.has-drawer .story-sequence ol { margin-bottom: var(--s2); }
+  body.fit.has-drawer .story-sequence .small { margin-top: var(--s2); }
+  body.fit.has-drawer .story-reading { gap: var(--s2); padding: var(--s3); }
+  body.fit.has-drawer .story-reading .small { font-size: var(--t-xs); }
+  body.fit.has-drawer .story-reading__images li,
+  body.fit.has-drawer .story-reading > ol:not(.story-reading__images) li { min-height: 0; padding: var(--s2); }
+  body.fit.has-drawer .story-reading > ol:not(.story-reading__images) li { font-size: var(--t-xs); }
+}
+/* A revealed reading has four image references and four authored beats. On the
+   short 1024 x 768 classroom canvas, keep every beat and question visible by
+   tightening this one dense evidence view rather than letting it disappear
+   under the pager. Portrait has more vertical room and keeps the roomier base. */
+@media (min-width: 48.0625rem) and (max-width: 70rem) and (max-height: 50rem) {
+  body.fit.has-drawer .story-reading { gap: var(--s1); padding: var(--s2); }
+  body.fit.has-drawer .story-reading h3 { font-size: var(--t-h3); }
+  body.fit.has-drawer .story-reading > p.small:first-of-type { display: none; }
+  body.fit.has-drawer .story-reading__images li { padding: var(--s1); }
+  body.fit.has-drawer .story-reading__images img { aspect-ratio: 16 / 5; }
+  body.fit.has-drawer .story-reading > ol:not(.story-reading__images) li {
+    min-height: 0;
+    padding: var(--s1);
+    font-size: var(--t-sm);
+    line-height: 1.2;
+  }
+  body.fit.has-drawer .story-reading > p.small:last-child { font-size: var(--t-sm); line-height: 1.2; }
 }
 @media (max-width: 47rem) {
   .story-scramble__intro { grid-template-columns: 1fr; }
@@ -1494,6 +1601,11 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   .story-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .story-sequence ol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .story-reading ol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .story-sequence li { grid-template-columns: 2rem 3.8rem 1fr; }
+  .story-sequence li:not(.is-filled) { grid-template-columns: 2rem 1fr; }
+  .story-sequence li img { width: 3.8rem; height: 2.55rem; }
+  .story-sequence__bar { grid-template-columns: 1fr auto; }
+  .story-sequence__bar .small { grid-column: 1 / -1; grid-row: 2; }
   .story-tree__routes { grid-template-columns: 1fr; }
 }
 
@@ -1886,6 +1998,40 @@ table.structure td .beat {
 /* Frame 4 is the punchline column. The tint is a second signal only — every
    cell in it also carries the word PUNCHLINE, PAYOFF or REVERSED (§6.8). */
 table.structure tbody td.is-punch { background: #FFF3D6; }
+.plan-beats,
+.shot-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--s2);
+  margin: var(--s3) 0 0;
+  padding: 0;
+  list-style: none;
+}
+.plan-beats li,
+.shot-grid article {
+  display: grid;
+  gap: var(--s1);
+  margin: 0;
+  padding: var(--s2);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  background: var(--paper);
+  font-size: var(--t-sm);
+}
+.plan-beats .detail { display: block; color: var(--slate); }
+.shot-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.shot-grid h3, .shot-grid p { margin: 0; }
+body.fit.has-drawer .plan-structure-table { margin-top: var(--s2) !important; }
+body.fit.has-drawer table.structure th,
+body.fit.has-drawer table.structure td { padding: var(--s2); font-size: var(--t-sm); }
+body.fit.has-drawer table.structure caption { display: none; }
+body.fit.has-drawer .plan-beats-card { padding: var(--s3); }
+body.fit.has-drawer .plan-beats-card h3 { margin-bottom: var(--s2); }
+body.fit.has-drawer .shot-grid { margin-top: var(--s2); }
+@media (max-width: 48rem) {
+  .plan-beats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .shot-grid { grid-template-columns: 1fr; }
+}
 
 
 /* ==========================================================================
@@ -2548,10 +2694,13 @@ body.fit.has-drawer .page-header .page-question { margin: var(--s2) 0 0; font-si
 
 body.fit.has-drawer .with-rail {
   flex: 1 1 auto;
+  height: 0;
   min-height: 0;
   grid-template-columns: 1fr;
 }
 body.fit.has-drawer .with-rail > div:first-child {
+  height: 100%;
+  max-height: 100%;
   min-height: 0;
   overflow-y: auto;
   overflow-x: hidden;
@@ -2698,14 +2847,107 @@ body.fit.has-drawer .rail__close { display: block; }
   margin-top: var(--s5);
 }
 .brief-finish-grid > * { margin: 0; }
+.brief-finish-grid .rule-strip { grid-column: 1 / -1; }
 .brief-finish-grid .card h3 { margin-bottom: var(--s3); }
 .brief-finish-grid .bullets { margin: 0; }
+.brief-overview-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(14rem, .8fr);
+  gap: var(--s5);
+  align-items: stretch;
+  margin-top: var(--s5);
+}
+.brief-overview-grid .card { margin: 0; }
+.brief-mascot {
+  display: grid;
+  margin: 0;
+  padding: var(--s3);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  background: #FFF3D6;
+}
+.brief-mascot img { width: 100%; align-self: center; }
+.brief-mascot figcaption { margin-top: var(--s2); font-size: var(--t-sm); color: var(--slate); }
+.brief-finish-at-a-glance { margin-top: var(--s5); }
+.brief-finish-at-a-glance h3 { margin-bottom: var(--s3); }
+.brief-finish-at-a-glance ul,
+.example-captions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.brief-finish-at-a-glance li,
+.example-captions li {
+  display: grid;
+  gap: var(--s1);
+  padding: var(--s3);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  background: var(--paper);
+}
+.brief-finish-at-a-glance strong,
+.example-captions strong { font-family: var(--font-display); }
+.brief-finish-at-a-glance span,
+.example-captions span { font-size: var(--t-sm); }
+.brief-finish-grid .exemplar img { max-height: min(32vh, 21rem); }
+.example-captions { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: var(--s3); }
+body.fit.has-drawer #statement .brief-overview-grid { margin-top: var(--s3); gap: var(--s3); }
+body.fit.has-drawer #statement .brief-overview-grid .card { padding: var(--s3); }
+body.fit.has-drawer #statement .brief-mascot { padding: var(--s2); }
+body.fit.has-drawer #statement .brief-mascot img {
+  max-height: 8rem;
+  object-fit: contain;
+}
+body.fit.has-drawer #statement .brief-finish-at-a-glance { margin-top: var(--s3); }
+body.fit.has-drawer #statement .brief-finish-at-a-glance h3 { margin-bottom: var(--s2); }
+body.fit.has-drawer #statement .brief-finish-at-a-glance li { padding: var(--s2); }
+body.fit.has-drawer #finished .brief-finish-grid { margin-top: var(--s3); gap: var(--s3); }
+body.fit.has-drawer #finished .brief-finish-grid > * { padding: var(--s3); }
+body.fit.has-drawer #finished .brief-finish-grid h3 { margin-bottom: var(--s2); }
+body.fit.has-drawer #finished .brief-finish-grid .bullets { margin-top: var(--s2); }
+body.fit.has-drawer #finished .rule-strip ol { margin-top: var(--s2); }
+body.fit.has-drawer #finished .rule-strip li { font-size: var(--t-body); gap: var(--s2); }
+body.fit.has-drawer #finished .exemplar {
+  margin-top: var(--s3) !important;
+  padding: var(--s2);
+}
+body.fit.has-drawer #finished .exemplar img { max-height: min(15vh, 7rem); }
+body.fit.has-drawer #finished .example-captions { margin-top: var(--s2); }
+body.fit.has-drawer #finished .example-captions li { padding: var(--s2); }
 .final-submission-nudge {
   margin-top: var(--s4);
   padding: var(--s3) var(--s4);
   border-left: 4px solid var(--punch);
   background: var(--paper);
   font-weight: 700;
+}
+.final-share-check {
+  margin-top: var(--s3);
+  padding: var(--s3) var(--s4);
+  border-left: 4px solid var(--punch);
+  background: #FFF3D6;
+  font-size: var(--t-sm);
+}
+.final-post-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--s2) var(--s4);
+  margin: var(--s3) 0 0;
+  padding-left: var(--s5);
+}
+.final-post-list li { margin: 0; font-size: var(--t-body); }
+.final-post-list .detail { display: block; margin-top: var(--s1); color: var(--slate); font-size: var(--t-sm); }
+.final-padlet-missing { margin: var(--s3) 0 0; color: var(--slate); font-size: var(--t-sm); }
+body.fit.has-drawer #post [data-final-submission-ready] .card { padding: var(--s3); }
+body.fit.has-drawer #post .final-post-list { margin-top: var(--s2); gap: var(--s1) var(--s3); }
+body.fit.has-drawer #post .final-post-list li { font-size: var(--t-sm); }
+body.fit.has-drawer #post .final-post-list .detail { font-size: var(--t-xs); }
+body.fit.has-drawer #post [data-final-padlet-mount] { margin-top: var(--s2) !important; }
+@media (max-width: 48rem) {
+  .final-post-list { grid-template-columns: 1fr; }
 }
 [data-submission-locked] { opacity: .62; }
 @media (max-width: 479px) {
@@ -2714,6 +2956,11 @@ body.fit.has-drawer .rail__close { display: block; }
 }
 @media (max-width: 1023px) {
   .brief-finish-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .brief-overview-grid { grid-template-columns: 1fr; }
+  .brief-finish-at-a-glance ul,
+  .example-captions { grid-template-columns: 1fr; }
 }
 
 

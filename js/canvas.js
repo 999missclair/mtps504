@@ -9,6 +9,7 @@
   var PASS_KEY = 'ff-class-pass';   // sessionStorage — this session only
   var STATE_KEY = 'ff-comic';       // localStorage — survives refresh, device only
   var CREDITS_KEY = 'ff-credits';   // localStorage — one credit line for each frame
+  var DESCRIPTION_KEY = 'ff-comic-description'; // localStorage — image description for the class wall
   var EXPORT_KEY = 'ff-comic-downloaded'; // device-only handoff to 5 Share
   var NFRAMES = 4;
   var HINTS = ['Setup', 'Escalation', 'Escalation', 'Punchline'];
@@ -85,6 +86,25 @@
     var message = $('#credit-msg');
     if (message) message.textContent = 'Credits cleared for your new comic.';
   }
+  function comicDescription() { return $('#comic-alt-text'); }
+  function loadComicDescription() {
+    var field = comicDescription();
+    if (!field) return;
+    try { field.value = localStorage.getItem(DESCRIPTION_KEY) || ''; } catch (e) {}
+  }
+  function saveComicDescription() {
+    var field = comicDescription();
+    if (!field) return;
+    try {
+      if (field.value) localStorage.setItem(DESCRIPTION_KEY, field.value);
+      else localStorage.removeItem(DESCRIPTION_KEY);
+    } catch (e) {}
+  }
+  function clearComicDescription() {
+    var field = comicDescription();
+    if (field) field.value = '';
+    try { localStorage.removeItem(DESCRIPTION_KEY); } catch (e) {}
+  }
   function copyCredits() {
     var slots = creditSlots();
     var lines = slots.map(function (slot) { return slot.value.trim(); });
@@ -117,10 +137,12 @@
   }
   function startCredits() {
     var button = $('#copy-credits');
-    if (!button) return;
     loadCredits();
+    loadComicDescription();
     creditSlots().forEach(function (slot) { slot.addEventListener('input', saveCredits); });
-    button.addEventListener('click', copyCredits);
+    var description = comicDescription();
+    if (description) description.addEventListener('input', saveComicDescription);
+    if (button) button.addEventListener('click', copyCredits);
   }
 
   // normalise ids + z once, after load
@@ -498,18 +520,19 @@
 
   // ---- clear all ----------------------------------------------------------
   $('#clear-btn').addEventListener('click', function () {
-    if (!window.confirm('Clear every frame and its credits? You can undo once until you refresh.')) return;
+    if (!window.confirm('Clear every frame, its credits and its comic description? You can undo once until you refresh.')) return;
     lastClear = {
       comic: JSON.parse(JSON.stringify(comic)),
       active: active,
       maxZ: maxZ,
-      credits: creditSlots().map(function (slot) { return slot.value; })
+      credits: creditSlots().map(function (slot) { return slot.value; }),
+      description: (comicDescription() || {}).value || ''
     };
     comic = emptyComic(); active = 0; maxZ = 0;
     try { localStorage.removeItem(EXPORT_KEY); } catch (e) {}
-    renderFrames(); save(); clearCredits();
+    renderFrames(); save(); clearCredits(); clearComicDescription();
     $('#undo-clear').hidden = false;
-    announce('Cleared all four frames. Undo clear is available until you refresh.');
+    announce('Cleared all four frames, credits and comic description. Undo clear is available until you refresh.');
     $('#place-msg').textContent = 'Frame 1 is active. Add a picture or a short caption.';
   });
 
@@ -519,12 +542,15 @@
     active = lastClear.active;
     maxZ = lastClear.maxZ;
     creditSlots().forEach(function (slot, i) { slot.value = lastClear.credits[i] || ''; });
+    var description = comicDescription();
+    if (description) description.value = lastClear.description || '';
     renderFrames(); save(); saveCredits();
+    saveComicDescription();
     lastClear = null;
     $('#undo-clear').hidden = true;
-    $('#credit-msg').textContent = 'Your credits are back with your comic.';
+    $('#credit-msg').textContent = 'Your credits and comic description are back with your comic.';
     $('#clear-btn').focus();
-    announce('Your comic and credits are back.');
+    announce('Your comic, credits and description are back.');
   });
 
   // ---- export -------------------------------------------------------------

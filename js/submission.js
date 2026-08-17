@@ -20,7 +20,7 @@
     var nudge = document.querySelector('.final-submission-nudge');
     if (!nudge) return;
     nudge.hidden = false;
-    nudge.textContent = 'Download your comic in 4 Build first. Then return here to open the Final submission Padlet.';
+    nudge.textContent = 'Download your comic in the Comic Builder first. Then return here to open the Final submission Padlet.';
     window.clearTimeout(showLockedMessage.timer);
     showLockedMessage.timer = window.setTimeout(function () { nudge.hidden = true; }, 5200);
   }
@@ -28,7 +28,7 @@
     postLinks().forEach(function (link) {
       link.setAttribute('aria-disabled', 'true');
       link.setAttribute('data-submission-locked', '');
-      link.setAttribute('title', 'Download your comic in 4 Build first.');
+      link.setAttribute('title', 'Download your comic in the Comic Builder first.');
     });
   }
   function unlockPost() {
@@ -46,14 +46,12 @@
     if (!mount) return;
     if (/^https:\/\/padlet\.com\/embed\//.test(embed) && /^https:\/\/padlet\.com\//.test(link)) {
       mount.innerHTML =
-        '<iframe src="' + embed + '" title="Four Frames — Final submission Padlet" ' +
-        'style="width:100%;height:520px;border:2px solid var(--ink);border-radius:var(--r-md);display:block" ' +
-        'loading="lazy" allow="clipboard-write"></iframe>' +
-        '<p style="margin-top:var(--s4)"><a class="btn-primary btn-block" href="' + link +
+        '<p class="small">The Final submission Padlet opens in a new tab, so your comic and its upload controls have the whole screen.</p>' +
+        '<p style="margin-top:var(--s3)"><a class="btn-primary btn-block" href="' + link +
         '" target="_blank" rel="noopener noreferrer">Open the Final submission Padlet ' +
         '<span class="ext-glyph" aria-hidden="true">↗</span><span class="visually-hidden">(opens in a new tab)</span></a></p>';
     } else {
-      mount.innerHTML = '<div class="card"><h3>Final submission Padlet</h3><p>Your download is recorded. Your teacher will add the Final submission Padlet link here before the final lesson.</p></div>';
+      mount.innerHTML = '<p class="final-padlet-missing">Your download is recorded. Your teacher will add the Final submission Padlet link here before the final lesson.</p>';
     }
   }
   function update() {
@@ -73,7 +71,6 @@
     event.stopImmediatePropagation();
     showLockedMessage();
   }, true);
-  if (!downloaded() && location.hash === '#post') location.replace(location.pathname + '#criteria');
   window.addEventListener('storage', function (event) { if (event.key === EXPORT_KEY) update(); });
   update();
 })();
