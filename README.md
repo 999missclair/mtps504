@@ -21,12 +21,12 @@ the **cancelled** drag-and-arrange studio. Build page 6 from §4.4 of the design
 
 | | |
 |---|---|
-| Deployed | **No.** No Vercel project is linked yet. |
+| Deployed | **No.** Vercel project `four-frame-comic-creator` is linked; production deployment is held until its safeguards are configured. |
 | Pushed | **Yes.** `main` is on GitHub; use `git log -1 --oneline` for the current revision. |
-| Deploy command | Dry run confirmed Vercel needs a linked project before it can deploy. |
+| Deploy command | Project link confirmed. Deploy after the required environment variables are set. |
 
-Deploy only after linking this repository to the intended Vercel team/project and adding the
-human-owned `OPENROUTER_API_KEY`, `GIPHY_API_KEY` and `CLASS_PASSWORD` environment variables.
+Deploy only after adding the human-owned `OPENROUTER_API_KEY`, `GIPHY_API_KEY` and
+`CLASS_PASSWORD` environment variables.
 
 ---
 
