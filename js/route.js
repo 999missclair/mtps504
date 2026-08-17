@@ -196,7 +196,7 @@
         '<p>Every page gives your comic a new tool: camera clues, a story deal, four beats, then your finished strip.</p>' +
         '<p class="small">Choose the route that fits today. This choice stays only on this device, and you can change it in Help.</p>' +
         '<div class="route-dialog__choices">' +
-          '<button type="button" class="btn-primary" data-route-new>I\'m new<span class="route-dialog__detail">Start at Home and open each phase in order.</span></button>' +
+          '<button type="button" class="btn-primary" data-route-new>I\'m new<span class="route-dialog__detail">Start with the project overview, then open each phase in order.</span></button>' +
           '<button type="button" class="btn-secondary" data-route-return>Welcome Back<span class="route-dialog__detail">Use every page whenever you need it.</span></button>' +
         '</div>' +
       '</div>';
@@ -214,7 +214,9 @@
     }
     dialog.querySelector('[data-route-new]').addEventListener('click', function () {
       write(MODE_KEY, 'guided');
-      write(PROGRESS_KEY, '-1');
+      /* Choosing a route is the Home-page activity. Mark Home complete so the
+         visible “Project overview” action is the first available destination. */
+      write(PROGRESS_KEY, '0');
       try { localStorage.removeItem(STEP_KEY); } catch (e) {}
       close();
       location.replace(new URL('index.html', location.href).href);

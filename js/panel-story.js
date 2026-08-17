@@ -17,17 +17,13 @@
     var live = root.querySelector('[data-story-live]');
     var result = root.querySelector('[data-story-result]');
     var completion = root.querySelector('[data-story-completion]');
-    var routes = all(root, '[data-story-route]');
+    var reading = root.querySelector('[data-story-reading]');
+    var reveal = root.querySelector('[data-story-reveal]');
     var chosen = [];
-    var routeIndex = -1;
     var timerId = null;
 
     function say(message) {
       if (live) { live.textContent = message; }
-    }
-
-    function clearRoute() {
-      routes.forEach(function (route) { route.removeAttribute('aria-current'); });
     }
 
     function paintSlots() {
@@ -45,20 +41,12 @@
         card.setAttribute('aria-pressed', chosen.indexOf(card) > -1 ? 'true' : 'false');
       });
 
-      if (completion) { completion.hidden = chosen.length !== 4; }
+      if (think) { think.disabled = chosen.length !== 4 || !!timerId; }
       if (result) {
         if (chosen.length < 4) {
-          result.textContent = chosen.length + ' of 4 frames chosen. Choose in reading order.';
+          result.textContent = chosen.length + ' of 4 pictures chosen.';
         } else {
-          var ids = chosen.map(function (card) { return card.getAttribute('data-story-card'); }).join(',');
-          var match = routes.filter(function (route) { return route.getAttribute('data-story-route') === ids; })[0];
-          if (match) {
-            clearRoute();
-            match.setAttribute('aria-current', 'true');
-            result.textContent = 'This route works: frame 3 is the absurd turn; frame 4 lands the visual joke.';
-          } else {
-            result.textContent = 'Your sequence can work too. Check that frame 3 changes the situation and frame 4 makes the reader re-think it.';
-          }
+          result.textContent = 'Four pictures chosen. Read one possible story, or change the order first.';
         }
       }
     }
@@ -74,14 +62,35 @@
       } else {
         say('You already have four frames. Remove one picture or use Clear four frames.');
       }
+      if (reading) { reading.hidden = true; }
+      if (completion) { completion.hidden = true; }
+      if (timer) { timer.textContent = chosen.length === 4 ? 'Four pictures ready. Read one possible story.' : 'Choose four pictures to reveal a reading.'; }
       paintSlots();
     }
 
-    function chooseRoute(route, spoken) {
-      clearRoute();
-      route.setAttribute('aria-current', 'true');
-      if (timer) { timer.textContent = 'Try this route: ' + route.getAttribute('data-story-name') + '.'; }
-      if (spoken) { say('Story prompt: ' + route.getAttribute('data-story-name') + '.'); }
+    function revealStory() {
+      if (!reveal || chosen.length !== 4) return;
+      var openings = ['First', 'Then', 'The turn', 'Last'];
+      var endings = [
+        'It gives the reader a detail to notice.',
+        'Now the first picture needs another explanation.',
+        'This is where the situation becomes impossible to ignore.',
+        'This last image changes how the earlier pictures can be read.'
+      ];
+      reveal.innerHTML = '';
+      chosen.forEach(function (card, index) {
+        var item = document.createElement('li');
+        var title = card.getAttribute('data-story-title') || ('Picture ' + (index + 1));
+        var line = card.getAttribute('data-story-line') || 'Something unexpected appears.';
+        item.innerHTML = '<strong>Frame ' + (index + 1) + ' · ' + openings[index] + '</strong><span>' + line + ' ' + endings[index] + '</span>';
+        reveal.appendChild(item);
+      });
+      if (reading) { reading.hidden = false; }
+      if (completion) { completion.hidden = false; }
+      if (timer) { timer.textContent = 'One possible reading is ready. Change the order to read another one.'; }
+      say('One possible story is ready. It uses Picture ' + chosen.map(function (card) {
+        return card.getAttribute('data-story-card').toUpperCase();
+      }).join(', Picture ') + ' in that order.');
     }
 
     cards.forEach(function (card) {
@@ -89,14 +98,12 @@
       card.addEventListener('click', function () { choose(card); });
     });
 
-    routes.forEach(function (route) {
-      route.addEventListener('click', function () { chooseRoute(route, true); });
-    });
-
     if (clear) {
       clear.addEventListener('click', function () {
         chosen = [];
-        clearRoute();
+        if (reading) { reading.hidden = true; }
+        if (completion) { completion.hidden = true; }
+        if (timer) { timer.textContent = 'Choose four pictures to reveal a reading.'; }
         paintSlots();
         say('Four frames cleared.');
       });
@@ -104,22 +111,21 @@
 
     if (think) {
       think.addEventListener('click', function () {
-        if (timerId) { return; }
+        if (timerId || chosen.length !== 4) { return; }
         var seconds = 5;
         think.disabled = true;
-        if (timer) { timer.textContent = 'Thinking up a new story … ' + seconds; }
-        say('Take five seconds to picture a different story.');
+        if (timer) { timer.textContent = 'Thinking up a reading … ' + seconds; }
+        say('Taking five seconds to read the story in this order.');
         timerId = window.setInterval(function () {
           seconds -= 1;
           if (seconds > 0) {
-            if (timer) { timer.textContent = 'Thinking up a new story … ' + seconds; }
+            if (timer) { timer.textContent = 'Thinking up a reading … ' + seconds; }
             return;
           }
           window.clearInterval(timerId);
           timerId = null;
-          routeIndex = (routeIndex + 1) % routes.length;
-          chooseRoute(routes[routeIndex], true);
-          think.disabled = false;
+          revealStory();
+          paintSlots();
         }, 1000);
       });
     }
