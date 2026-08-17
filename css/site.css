@@ -171,7 +171,7 @@ body {
   /* The inset carries a full spacing step of slack on top of the bar's own
      height, so the bar can grow (long labels, 200% text) without ever covering
      content. Both values are in rem, so they scale with the user's text size. */
-  padding-bottom: calc(var(--nav-b) + var(--s5) + env(safe-area-inset-bottom, 0px));
+  padding-bottom: calc(var(--nav-b-live, var(--nav-b)) + var(--s5) + env(safe-area-inset-bottom, 0px));
 }
 
 img { max-width: 100%; height: auto; display: block; }
@@ -1120,7 +1120,7 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
 .toast {
   position: fixed;
   left: 50%;
-  bottom: calc(var(--nav-b) + var(--s4));
+  bottom: calc(var(--nav-b-live, var(--nav-b)) + var(--s4));
   transform: translateX(-50%);
   z-index: 60;
   background: var(--ink);
@@ -1208,7 +1208,7 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   .botnav { gap: var(--s2); padding-left: var(--s2); padding-right: var(--s2); }
   /* On a narrow phone the counter and the primary sit on two rows, so the
      content inset grows to match. */
-  body { padding-bottom: calc(var(--nav-b) + var(--s7) + env(safe-area-inset-bottom, 0px)); }
+  body { padding-bottom: calc(var(--nav-b-live, var(--nav-b)) + var(--s7) + env(safe-area-inset-bottom, 0px)); }
 }
 
 
@@ -2256,7 +2256,7 @@ ol.steps--two-col > li { break-inside: avoid; }
 body.fit.has-drawer { overflow: hidden; }
 
 body.fit.has-drawer .page-shell:not(.page-shell--footer) {
-  height: calc(100dvh - var(--nav-t) - var(--nav-b));
+  height: calc(100dvh - var(--nav-t) - var(--nav-b-live, var(--nav-b)));
   min-height: 0;
   padding-top: var(--s4);
   padding-bottom: var(--s3);
@@ -2289,7 +2289,7 @@ body.fit.has-drawer .rail {
   position: fixed;
   top: var(--nav-t);
   right: 0;
-  bottom: var(--nav-b);
+  bottom: var(--nav-b-live, var(--nav-b));
   width: min(380px, 88vw);
   margin: 0;
   padding: var(--s5) var(--s5) var(--s7);
@@ -2319,7 +2319,7 @@ body.fit.has-drawer .rail-scrim.is-open { opacity: 1; pointer-events: auto; }
 body.fit.has-drawer .rail-toggle {
   position: fixed;
   left: var(--s4);
-  bottom: calc(var(--nav-b) + var(--s3));
+  bottom: calc(var(--nav-b-live, var(--nav-b)) + var(--s3));
   z-index: 58;
   box-shadow: 0 4px 0 var(--ink);
 }
@@ -2335,6 +2335,20 @@ body.fit.has-drawer .rail-toggle {
 body.fit.has-drawer .rail-scrim { display: block; }
 body.fit.has-drawer .rail-toggle { display: inline-flex; }
 body.fit.has-drawer .rail__close { display: block; }
+
+/* At a wide desktop width, six large cards needlessly turn the short sorting
+   task into a two-row poster. Keep all six visible together; the 3-column
+   version remains at laptop widths and the 2-column touch layout remains
+   below 768px. Cap only embedded video width, not reading or drawing content. */
+@media (min-width: 70rem) {
+  body.fit.has-drawer .resource iframe {
+    width: min(100%, 50rem);
+    margin-inline: auto;
+  }
+  body.fit.has-drawer .sortboard:not(.sortboard--licence) .sortboard__tray {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
 
 
 /* ==========================================================================

@@ -12,6 +12,21 @@
   var bot = document.querySelector('.botnav');
   if (!bot) return;
 
+  /* `--nav-b` is the intended one-row height. At zoom or in a narrow desktop
+     window, the real bottom bar can wrap. The fit canvas must reserve the
+     *measured* height or its last content is hidden behind the bar. Keeping
+     this as a CSS variable also positions the support drawer and toast above
+     the real bar, rather than a guessed height. */
+  function setBottomInset() {
+    document.documentElement.style.setProperty('--nav-b-live', bot.getBoundingClientRect().height + 'px');
+  }
+  setBottomInset();
+  if (window.ResizeObserver) {
+    new ResizeObserver(setBottomInset).observe(bot);
+  } else {
+    window.addEventListener('resize', setBottomInset);
+  }
+
   var pills = Array.prototype.slice.call(bot.querySelectorAll('.step-pill'));
   if (pills.length < 2) return;
 
