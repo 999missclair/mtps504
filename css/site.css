@@ -833,6 +833,13 @@ ul.bullets > li { margin-bottom: var(--s2); }
   margin-bottom: var(--s4);
 }
 
+/* Look's guide is a short reference, not the main activity. Keep its local
+   schematic compact so its explanation and the next task remain together. */
+.look-guide-thumb {
+  width: min(100%, 30rem);
+  margin-inline: auto;
+}
+
 
 /* ==========================================================================
    10  SOURCE LINK CARD · HAND-OFF CARD · COPYABLE BOX (§5.3)
