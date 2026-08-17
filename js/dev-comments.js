@@ -69,7 +69,7 @@
       '<label>Where on this page? <input type="text" data-dev-where placeholder="Optional: section, button or screen area"></label>' +
       '<button type="submit" class="btn-primary">Save note</button>' +
     '</form>' +
-    '<div class="dev-comments__actions"><button type="button" class="btn-secondary" data-dev-export>Copy all notes</button><p class="small" role="status" data-dev-status></p></div>' +
+    '<div class="dev-comments__actions"><button type="button" class="btn-secondary" data-dev-export>Copy all notes</button><button type="button" class="btn-secondary" data-dev-clear>Clear all notes</button><p class="small" role="status" data-dev-status></p></div>' +
     '<ol data-dev-list></ol>';
   document.body.appendChild(toggle);
   document.body.appendChild(panel);
@@ -131,6 +131,15 @@
     copy(noteText(notes), function (copied) {
       status.textContent = copied === false ? 'Select the copied text manually.' : 'All notes copied. Paste them into Codex in one message.';
     });
+  });
+  panel.querySelector('[data-dev-clear]').addEventListener('click', function () {
+    if (!notes.length) { status.textContent = 'There are no notes to clear.'; return; }
+    if (!window.confirm('Clear all ' + notes.length + ' development note' + (notes.length === 1 ? '' : 's') + ' from this tab?')) return;
+    notes = [];
+    try { sessionStorage.removeItem(KEY); } catch (e) { write(notes); }
+    status.textContent = 'All development notes cleared from this tab.';
+    render();
+    text.focus();
   });
 
   /* Keep the development switch on same-site page links for a multi-page pass. */
