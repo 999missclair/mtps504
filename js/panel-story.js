@@ -38,6 +38,9 @@
         var line = slot.querySelector('[data-story-slot-line]');
         var image = slot.querySelector('[data-story-slot-image]');
         slot.classList.toggle('is-filled', !!card);
+        slot.setAttribute('aria-label', 'Frame ' + (index + 1) + ': ' + (card
+          ? card.getAttribute('data-story-title') + ' selected.'
+          : 'choose a picture.'));
         if (line) {
           line.textContent = card
             ? card.getAttribute('data-story-title')

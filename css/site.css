@@ -1429,40 +1429,47 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
 .story-sequence h3 { color: var(--paper); }
 .story-sequence__bar {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: var(--s2);
   align-items: center;
   margin-bottom: var(--s2);
 }
-.story-sequence__bar .small { margin: 0; color: #D8D8DF; }
+.story-sequence__bar .small {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: #D8D8DF;
+}
 .story-sequence__bar .btn-secondary { width: auto; min-height: 44px; }
-.story-sequence ol {
+.story-sequence__grid {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--s2);
   padding: 0;
-  margin: 0 0 var(--s3);
+  margin: 0;
   list-style: none;
 }
-.story-sequence li {
+.story-sequence__grid li {
+  position: relative;
   display: grid;
-  grid-template-columns: 2rem 4.5rem 1fr;
-  gap: var(--s2);
-  align-items: center;
-  min-height: 44px;
-  padding: var(--s2);
+  place-items: center;
+  min-width: 0;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
   border: 2px dashed #B3B3BD;
   border-radius: var(--r-sm);
   color: #D8D8DF;
 }
-.story-sequence li.is-filled { border-style: solid; border-color: var(--sun); color: var(--paper); }
-.story-sequence li:not(.is-filled) { grid-template-columns: 2rem 1fr; }
-.story-sequence li img {
-  width: 4.5rem;
-  height: 3rem;
+.story-sequence__grid li.is-filled { border-style: solid; border-color: var(--sun); color: var(--paper); }
+.story-sequence__grid li img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border-radius: calc(var(--r-sm) - 2px);
 }
-.story-sequence li strong {
+.story-sequence__grid li strong {
+  position: absolute;
+  z-index: 1;
+  top: var(--s1);
+  left: var(--s1);
   display: grid;
   place-items: center;
   width: 1.65rem;
@@ -1471,8 +1478,21 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   background: var(--sun);
   color: var(--ink);
 }
-.story-sequence > .btn-secondary { width: 100%; background: var(--paper); }
-.story-sequence .small { margin: var(--s3) 0 0; color: #D8D8DF; }
+.story-sequence__grid li span {
+  padding: var(--s2);
+  text-align: center;
+  font-weight: 700;
+}
+.story-sequence__grid li.is-filled span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: var(--s1) var(--s2);
+  background: rgba(20, 20, 28, .84);
+  color: var(--paper);
+  font-size: var(--t-xs);
+}
 .story-reading {
   display: grid;
   gap: var(--s3);
@@ -1553,10 +1573,10 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
    strip and the route map in the same task view. The side-by-side studio is
    reserved for wider desktops, where it has room to breathe. */
 @media (max-width: 70rem) {
-  .story-scramble__workspace { grid-template-columns: 1fr; }
-  .story-cards { grid-template-columns: repeat(6, minmax(0, 1fr)); }
-  .story-card img { aspect-ratio: 16 / 9; }
-  .story-sequence ol { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .story-scramble__workspace { grid-template-columns: minmax(0, 1.65fr) minmax(14rem, .8fr); }
+  .story-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .story-card img { aspect-ratio: 4 / 3; }
+  .story-sequence__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .story-reading ol { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .story-tree { grid-template-columns: 1fr; }
   .story-tree > .small { grid-column: auto; }
@@ -1569,7 +1589,7 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   body.fit.has-drawer .story-card { padding: var(--s1); }
   body.fit.has-drawer .story-card img { margin-bottom: var(--s1); }
   body.fit.has-drawer .story-sequence { padding: var(--s2); }
-  body.fit.has-drawer .story-sequence ol { margin-bottom: var(--s2); }
+  body.fit.has-drawer .story-sequence__grid { margin-bottom: 0; }
   body.fit.has-drawer .story-sequence .small { margin-top: var(--s2); }
   body.fit.has-drawer .story-reading { gap: var(--s2); padding: var(--s3); }
   body.fit.has-drawer .story-reading .small { font-size: var(--t-xs); }
@@ -1582,6 +1602,20 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
    tightening this one dense evidence view rather than letting it disappear
    under the pager. Portrait has more vertical room and keeps the roomier base. */
 @media (min-width: 48.0625rem) and (max-width: 70rem) and (max-height: 50rem) {
+  /* The 1024 × 768 school-laptop view needs both the six source pictures and
+     the four-frame comic at once. The images remain recognisable while the
+     compact 2 × 2 preview retains its visual sequencing role. */
+  body.fit.has-drawer .story-card img { aspect-ratio: 16 / 9; }
+  body.fit.has-drawer .story-sequence__bar { gap: var(--s1); margin-bottom: var(--s1); }
+  body.fit.has-drawer .story-sequence__bar h3 { font-size: var(--t-h3); }
+  body.fit.has-drawer .story-sequence__bar .small { font-size: var(--t-xs); }
+  body.fit.has-drawer .story-sequence__grid {
+    width: 100%;
+    max-width: 13rem;
+    gap: var(--s1);
+    margin: 0 auto;
+  }
+  body.fit.has-drawer .story-sequence__grid li span { padding: var(--s1); font-size: var(--t-xs); }
   body.fit.has-drawer .story-reading { gap: var(--s1); padding: var(--s2); }
   body.fit.has-drawer .story-reading h3 { font-size: var(--t-h3); }
   body.fit.has-drawer .story-reading > p.small:first-of-type { display: none; }
@@ -1598,14 +1632,10 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
 @media (max-width: 47rem) {
   .story-scramble__intro { grid-template-columns: 1fr; }
   .story-scramble__intro .btn-secondary { justify-self: start; }
+  .story-scramble__workspace { grid-template-columns: 1fr; }
   .story-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .story-sequence ol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .story-sequence__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .story-reading ol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .story-sequence li { grid-template-columns: 2rem 3.8rem 1fr; }
-  .story-sequence li:not(.is-filled) { grid-template-columns: 2rem 1fr; }
-  .story-sequence li img { width: 3.8rem; height: 2.55rem; }
-  .story-sequence__bar { grid-template-columns: 1fr auto; }
-  .story-sequence__bar .small { grid-column: 1 / -1; grid-row: 2; }
   .story-tree__routes { grid-template-columns: 1fr; }
 }
 
