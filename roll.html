@@ -99,7 +99,8 @@
             <g stroke="#FFF9F0" stroke-width="2" stroke-linecap="round" fill="none">
               <path d="M32 46v3"/><path d="M28.5 51q3.5 2.5 7 0"/></g>
           </svg>
-          <p class="host__say">This page hands you something to make a comic about.</p>
+          <p class="host__say">The story deck is ready. It hands you a character, a place
+          and a problem to make your own.</p>
         </div>
 
         <p class="lead">You get a character, a situation and a problem, dealt two at a
@@ -266,14 +267,14 @@
              never writes the comic. Wired by js/ai.js ([data-ai-idea]). Fallback
              is the three worked briefs in the Stuck? rail. -->
         <div class="ai-panel" data-ai-idea>
-          <h3>Push your idea further</h3>
-          <p class="small">Once your brief is locked, the helper asks you 2&#8211;3 questions
+          <h3>Studio sidekick: nudge your idea</h3>
+          <p class="small">Once your brief is locked, the studio sidekick asks you 2&#8211;3 questions
           about it. It will <strong>not</strong> write your comic &#8212; that is still your
           job.</p>
-          <p><button type="button" class="btn-secondary" data-ai-idea-go>Ask me
+          <p><button type="button" class="btn-secondary" data-ai-idea-go>Ask the sidekick
           2&#8211;3 questions</button></p>
           <div class="ai-out" hidden></div>
-          <p class="ai-fallback small">Helper asleep? Read the three worked briefs in
+          <p class="ai-fallback small">Sidekick taking five? Read the three worked briefs in
           <em>Stuck? Try this</em> and steal a shape.</p>
         </div>
       </section>
@@ -461,6 +462,7 @@
 <script src="js/drawer.js" defer></script>
 
 <script src="js/ai.js" defer></script>
+<script src="js/route.js" defer></script>
 
 </body>
 </html>

@@ -2350,6 +2350,74 @@ body.fit.has-drawer .rail__close { display: block; }
   }
 }
 
+/* First-visit route choice. The dialog is an orientation moment, not a
+   gamified gate: both options are equally clear, and Help can reopen it. */
+.route-dialog {
+  width: min(34rem, calc(100vw - var(--s6)));
+  max-width: none;
+  padding: 0;
+  border: 3px solid var(--ink);
+  border-radius: var(--r-lg);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 8px 8px 0 var(--ink);
+}
+.route-dialog::backdrop { background: rgba(20, 20, 28, .55); }
+.route-dialog__inner { padding: var(--s7); }
+.route-dialog h2 { margin: 0 0 var(--s3); font-size: var(--t-h2); }
+.route-dialog p + p { margin-top: var(--s3); }
+.route-dialog__choices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s3);
+  margin-top: var(--s5);
+}
+.route-dialog__choices button {
+  min-height: 5.5rem;
+  padding: var(--s3) var(--s4);
+  align-items: flex-start;
+  flex-direction: column;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.route-dialog__detail {
+  display: block;
+  font-size: var(--t-sm);
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: left;
+}
+.route-nudge {
+  position: fixed;
+  right: var(--s4);
+  bottom: calc(var(--nav-b-live, var(--nav-b)) + var(--s4));
+  z-index: 65;
+  max-width: min(28rem, calc(100vw - var(--s8)));
+  padding: var(--s3) var(--s4);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  box-shadow: 3px 3px 0 var(--ink);
+  font-weight: 700;
+}
+[data-route-locked] { opacity: .62; }
+.topnav [data-route-locked] { border-bottom-style: dashed; }
+.route-reset {
+  margin-top: var(--s4);
+  padding: 0;
+  border: 0;
+  border-bottom: 2px solid currentColor;
+  background: transparent;
+  color: var(--teal);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+@media (max-width: 479px) {
+  .route-dialog__inner { padding: var(--s5); }
+  .route-dialog__choices { grid-template-columns: 1fr; }
+}
+
 
 /* ==========================================================================
    31  DRAG affordance for the sort board (tap + keyboard still work)

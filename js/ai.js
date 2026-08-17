@@ -64,7 +64,7 @@
       await fn();
     } catch (err) {
       if (err && err.needPass) { gate(panel, function () { guarded(panel, btn, fn); }); }
-      else { msg(panel, (err && err.friendly) || 'The helper is asleep — use the fallback below.'); }
+      else { msg(panel, (err && err.friendly) || 'The studio sidekick is taking five — use the fallback below.'); }
     } finally {
       if (btn) btn.disabled = false;
     }
@@ -107,11 +107,11 @@
         var brief = (briefEl ? briefEl.textContent : '').trim();
         if (!brief) {
           ideaOut.hidden = false;
-          ideaOut.textContent = 'Roll and lock your brief first — then I can ask about it.';
+          ideaOut.textContent = 'Roll and lock your brief first — then the studio sidekick can ask about it.';
           return;
         }
         var parts = brief.split(' · ');
-        ideaOut.hidden = false; ideaOut.textContent = 'Thinking of some questions…';
+        ideaOut.hidden = false; ideaOut.textContent = 'Your studio sidekick is thinking of some questions…';
         guarded(ideaPanel, ideaBtn, async function () {
           var data = await aiFetch('idea', {
             character: (parts[0] || '').trim(),
@@ -125,7 +125,7 @@
           }).filter(Boolean);
           var ul = el('ul', 'ai-questions');
           lines.forEach(function (l) { ul.appendChild(el('li', null, l)); });
-          ideaOut.appendChild(el('p', 'small', 'Questions to push YOUR idea — the comic is still yours to make.'));
+          ideaOut.appendChild(el('p', 'small', 'Questions from the studio sidekick to push YOUR idea — the comic is still yours to make.'));
           ideaOut.appendChild(ul);
         });
       });
@@ -145,11 +145,11 @@
         var desc = altIn.value.trim();
         if (!desc) { altOut.hidden = false; altOut.textContent = 'Describe your panel first, in your own words.'; altIn.focus(); return; }
         if (!safeForHelper(desc, altPanel)) return;
-        altOut.hidden = false; altOut.textContent = 'Drafting…';
+        altOut.hidden = false; altOut.textContent = 'Your studio sidekick is drafting…';
         guarded(altPanel, altBtn, async function () {
           var data = await aiFetch('alt-text', { description: desc });
           altOut.textContent = '';
-          altOut.appendChild(el('p', 'small', 'The AI drafted this. Read it, then fix anything that is wrong — you are the check.'));
+          altOut.appendChild(el('p', 'small', 'The studio sidekick drafted this. Read it, then fix anything that is wrong — you are the check.'));
           altOut.appendChild(field('Alt text (what the panel shows)', data.alt || '', 'ai-alt-out-alt'));
           altOut.appendChild(field('Caption (optional, under the panel)', data.caption || '', 'ai-alt-out-cap'));
         });
@@ -188,13 +188,13 @@
           return;
         }
         if (!safeForHelper([brief, style].concat(panels.map(function (p) { return p.description; })).join(' '), renPanel)) return;
-        renOut.hidden = false; renOut.textContent = 'Rendering your rough preview… this can take a moment.';
+        renOut.hidden = false; renOut.textContent = 'Your studio sidekick is sketching a rough preview… this can take a moment.';
         guarded(renPanel, renBtn, async function () {
           var data = await aiFetch('render', { brief: brief.trim(), style: style.trim(), panels: panels });
           renOut.textContent = '';
           var img = el('img', 'ai-render-img'); img.src = data.image; img.alt = 'A rough four-panel preview of your comic, drawn by the AI from your directions.';
           renOut.appendChild(img);
-          renOut.appendChild(el('p', 'ai-guardrail', 'This is the machine’s guess. It will get your joke slightly wrong. Your job on 4 Build is to do it better — in your own frames.'));
+          renOut.appendChild(el('p', 'ai-guardrail', 'This is the studio sidekick’s rough guess. It will get your joke slightly wrong. Your job on 4 Build is to do it better — in your own frames.'));
         });
       });
     }
