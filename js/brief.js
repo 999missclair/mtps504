@@ -27,11 +27,19 @@
       slot.appendChild(val);
       slot.classList.add('is-set');
     } else {
-      var p = document.createElement('p');
-      p.className = 'brief-banner__empty';
-      p.innerHTML = 'No story yet — <a href="roll.html">roll yours on 2 Roll</a>, ' +
-        'then it follows you here.';
-      slot.appendChild(p);
+      if (slot.hasAttribute('data-brief-recovery')) {
+        var recovery = document.createElement('a');
+        recovery.className = 'btn-primary';
+        recovery.href = 'roll.html#roll';
+        recovery.textContent = 'Roll a brief first →';
+        slot.appendChild(recovery);
+      } else {
+        var p = document.createElement('p');
+        p.className = 'brief-banner__empty';
+        p.innerHTML = 'No story yet — <a href="roll.html">roll yours on 2 Roll</a>, ' +
+          'then it follows you here.';
+        slot.appendChild(p);
+      }
     }
   });
 })();

@@ -27,6 +27,17 @@
     window.addEventListener('resize', setBottomInset);
   }
 
+  /* At the exact 768px portrait target the phase links form a deliberate
+     horizontal strip between pinned Home and Help links. Bring this page's
+     phase into view on arrival, so the useful location cue is never the item
+     hidden just beyond the strip's edge. */
+  var currentPhase = document.querySelector('.topnav__link[aria-current="page"]');
+  if (currentPhase && window.matchMedia('(max-width: 48rem)').matches && currentPhase.scrollIntoView) {
+    window.requestAnimationFrame(function () {
+      currentPhase.scrollIntoView({ block: 'nearest', inline: 'center' });
+    });
+  }
+
   var pills = Array.prototype.slice.call(bot.querySelectorAll('.step-pill'));
   if (pills.length < 2) return;
 

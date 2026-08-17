@@ -217,7 +217,7 @@
 
   $('#guest-mode').addEventListener('click', function () {
     unlock(true);
-    announce('Guest mode is open. Add your own picture and try practice bubbles. Remove bubbles before your final download.');
+    announce('Guest mode is open. Add your own picture or a short caption.');
   });
 
   // ---- motion choice (animated / still) -----------------------------------
@@ -604,6 +604,13 @@
   }
 
   function textIsSafeToExport() {
+    var hasPracticeBubble = comic.some(function (frame) {
+      return frame.items.some(function (item) { return item.type === 'bubble'; });
+    });
+    if (hasPracticeBubble) {
+      $('#export-msg').textContent = 'Remove every practice speech bubble before you download the final comic.';
+      return false;
+    }
     var words = comic.map(function (frame) {
       return frame.items.filter(function (item) { return item.type !== 'image'; })
         .map(function (item) { return item.text || ''; }).join(' ');
@@ -625,7 +632,7 @@
     var CELL_W = 600, CELL_H = 450, GAP = 18;
     var W = CELL_W * 2 + GAP * 3, H = CELL_H * 2 + GAP * 3;
     var anyItem = comic.some(function (f) { return f.items.length; });
-    if (!anyItem) { msg.textContent = 'Add a picture or a bubble to a frame first.'; return; }
+    if (!anyItem) { msg.textContent = 'Add a picture or caption to a frame first.'; return; }
     if (!textIsSafeToExport()) return;
 
     var cv = document.createElement('canvas'); cv.width = W; cv.height = H;

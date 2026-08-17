@@ -154,8 +154,8 @@
       </form>
       <p class="small" id="gate-msg" aria-live="polite"></p>
       <p><button type="button" class="btn-secondary" id="guest-mode">Just looking? Try the builder without the class password</button></p>
-      <p class="small">Guest mode lets you add your own pictures and try practice bubbles.
-      Remove bubbles before your final download. GIF search stays in class.</p>
+      <p class="small">Guest mode lets you add your own pictures and captions. GIF search
+      stays in class.</p>
     </div>
   </section>
 
@@ -168,17 +168,14 @@
     <div id="cb-brief" class="cb-brief" aria-live="polite"></div>
 
 
-    <div class="rule-strip" style="margin-bottom:var(--s5)">
-      <h2 style="font-size:var(--t-h3)">Why the GIFs stay in class</h2>
-      <p style="color:var(--paper)">GIFs are mostly clips from TV and film &#8212; somebody else&#8217;s
-      work. In class, for planning, you can use them. They <strong>don&#8217;t go on the
-      class wall</strong> &#8212; your finished comic there uses open-licence pictures, the ones you can
-      name. This is the same rule you sorted on 4 Build.</p>
-    </div>
+    <details class="card" style="margin-bottom:var(--s5)">
+      <summary>Practice only: animated GIFs and speech bubbles</summary>
+      <p>Animated GIFs and speech bubbles can help you test an idea in class. The comic you
+      download is still and has no character dialogue.</p>
+    </details>
 
-    <p class="card small" id="guest-note" hidden><strong>Guest mode:</strong> add your own picture,
-    paste one and try practice bubbles. Remove bubbles before your final download. GIF search
-    needs the class password.</p>
+    <p class="card small" id="guest-note" hidden><strong>Guest mode:</strong> add your own picture
+    or paste one. GIF search needs the class password.</p>
 
     <section class="section" id="search-section">
       <h2>1 &#183; Find a picture</h2>
@@ -191,13 +188,18 @@
       </form>
       <p class="small" id="search-msg" aria-live="polite"></p>
       <fieldset class="motion">
-        <legend>Motion &#8212; how should it drop in?</legend>
+        <legend>Final comic format</legend>
         <div class="motion__seg">
-          <input type="radio" name="motion" id="motion-animated" value="animated" checked>
-          <label for="motion-animated">Animated</label>
-          <input type="radio" name="motion" id="motion-still" value="still">
+          <input type="radio" name="motion" id="motion-still" value="still" checked>
           <label for="motion-still">Still</label>
         </div>
+        <details style="margin-top:var(--s3)">
+          <summary>Practice option: use animation while testing</summary>
+          <div class="motion__seg" style="margin-top:var(--s2)">
+            <input type="radio" name="motion" id="motion-animated" value="animated">
+            <label for="motion-animated">Animated practice</label>
+          </div>
+        </details>
       </fieldset>
       <div class="gif-results" id="results" aria-label="Search results"></div>
       <p class="giphy-mark">Powered by GIPHY. G-rated only. Tap a result to drop it into the active frame.</p>
@@ -214,9 +216,14 @@
       <div class="builder-tools">
         <input type="file" id="add-pic" accept="image/*" class="visually-hidden">
         <button type="button" class="btn-secondary" id="add-pic-btn">Add a picture</button>
-        <button type="button" class="btn-secondary" id="add-bubble" title="For practice only. Remove it before the final download.">Add practice bubble</button>
         <button type="button" class="btn-secondary" id="add-caption">Add caption</button>
       </div>
+
+      <details class="card" style="margin-top:var(--s3)">
+        <summary>Practice option: test a speech bubble</summary>
+        <p class="small">Speech bubbles are for testing only. Remove them before you download.</p>
+        <button type="button" class="btn-secondary" id="add-bubble">Add practice bubble</button>
+      </details>
 
       <div class="frames" id="frames"><!-- four frames injected by js/canvas.js --></div>
 

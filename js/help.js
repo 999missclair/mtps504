@@ -67,6 +67,7 @@
 
     Array.prototype.forEach.call(document.querySelectorAll('.topic'), function (el) {
       el.classList.remove('is-target');
+      el.hidden = el !== section;
     });
     section.classList.add('is-target');
     markChip(topic);
@@ -93,9 +94,41 @@
     }
   }
 
+  /* Help starts as complete, readable HTML. In the browser, turn each long
+     card into a short disclosure so a student sees only the fix they chose.
+     The original answer stays intact inside the disclosure. */
+  function compactTopics() {
+    Array.prototype.forEach.call(document.querySelectorAll('.topic'), function (topic) {
+      Array.prototype.slice.call(topic.children).forEach(function (card) {
+        if (!card.classList || !card.classList.contains('card')) { return; }
+        var heading = card.querySelector('h3');
+        if (!heading) { return; }
+
+        var details = document.createElement('details');
+        details.className = 'fix';
+        var summary = document.createElement('summary');
+        summary.textContent = heading.textContent;
+        details.appendChild(summary);
+        heading.remove();
+        while (card.firstChild) { details.appendChild(card.firstChild); }
+        card.replaceWith(details);
+      });
+
+      Array.prototype.forEach.call(topic.querySelectorAll('details'), function (details) {
+        details.addEventListener('toggle', function () {
+          if (!details.open) { return; }
+          Array.prototype.forEach.call(topic.querySelectorAll('details'), function (other) {
+            if (other !== details) { other.open = false; }
+          });
+        });
+      });
+    });
+  }
+
   function start() {
-    var topic = requestedTopic();
-    if (topic) { goToTopic(topic, true); }
+    compactTopics();
+    var topic = requestedTopic() || 'builder-basics';
+    goToTopic(topic, true);
 
     /* The chips do the same thing as the query parameter, so the highlight
        follows the student around the page rather than only on arrival. */

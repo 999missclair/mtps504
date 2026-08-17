@@ -1180,7 +1180,14 @@ table.schedule tbody th { width: 7.5rem; background: var(--paper); }
    Budgeted to one viewport at 1024x768 and at 768x1024. See README.
    ========================================================================== */
 
+/* Home's content is already measured to finish above its fixed pager. Do not
+   reserve the same bottom bar again in document flow at the two target sizes. */
+body.is-home { padding-bottom: 0; }
 body.is-home .page-shell { padding: var(--s5) var(--s6); }
+body.is-home .page-shell--footer {
+  padding-top: 0;
+  padding-bottom: var(--s2);
+}
 
 .hero {
   display: grid;
@@ -1310,9 +1317,9 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   .exemplar .placeholder { max-height: 38vh; }
 }
 
-/* sm and below: ≤767. Brand + Home + Help stay pinned; phases scroll.
+/* sm and below: ≤768. Brand + Home + Help stay pinned; phases scroll.
    Nothing is hidden behind a menu. */
-@media (max-width: 767px) {
+@media (max-width: 48rem) {
   .topnav { padding: 0 var(--s2); }
   .topnav__list {
     overflow-x: auto;
@@ -1338,6 +1345,21 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   .exemplar .placeholder,
   body.is-home .exemplar img,
   body.is-home .exemplar .placeholder { max-height: none; }
+
+  /* Home already has a small host beside the welcome. On the portrait target,
+     remove the repeated decorative mascot scene and keep the worked comic as
+     the one lower visual. The value statement and project example remain. */
+  body.is-home .home-hero-art { display: none; }
+  body.is-home .exemplar img,
+  body.is-home .exemplar .placeholder { max-height: min(30vh, 18rem); }
+}
+
+/* Short compact screens and enlarged text still need ordinary page scrolling;
+   restore the pager clearance there so the final reassurance is reachable. */
+@media (max-width: 48rem) and (max-height: 50rem) {
+  body.is-home {
+    padding-bottom: calc(var(--nav-b-live, var(--nav-b)) + var(--s5) + env(safe-area-inset-bottom, 0px));
+  }
 }
 
 /* xs: ≤479. Every multi-column block is already one column by here. */
@@ -2719,13 +2741,18 @@ ol.steps--two-col > li { break-inside: avoid; }
    ========================================================================== */
 /* Drawer sizing is an enhancement. Without drawer.js, the support rail stays
    in the document as an ordinary, readable section. */
-body.fit.has-drawer { overflow: hidden; }
+body.fit.has-drawer {
+  height: 100dvh;
+  min-height: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+}
 
 body.fit.has-drawer .page-shell:not(.page-shell--footer) {
   height: calc(100dvh - var(--nav-t) - var(--nav-b-live, var(--nav-b)));
   min-height: 0;
   padding-top: var(--s4);
-  padding-bottom: var(--s3);
+  padding-bottom: var(--s2);
   overflow: hidden;
   display: flex;
   flex-direction: column;
