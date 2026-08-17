@@ -21,12 +21,12 @@ the **cancelled** drag-and-arrange studio. Build page 6 from §4.4 of the design
 
 | | |
 |---|---|
-| Deployed | **No.** Vercel project `four-frame-comic-creator` is linked; production deployment is held until its safeguards are configured. |
+| Deployed | **Yes.** [Four-Frame Comic Creator](https://four-frame-comic-creator.vercel.app) is live on Vercel. |
 | Pushed | **Yes.** `main` is on GitHub; use `git log -1 --oneline` for the current revision. |
-| Deploy command | Project link confirmed. Deploy after the required environment variables are set. |
+| Deploy command | Production deployment completed after the required environment variables were configured. |
 
-Deploy only after adding the human-owned `OPENROUTER_API_KEY`, `GIPHY_API_KEY` and
-`CLASS_PASSWORD` environment variables.
+The production project has teacher-owned `OPENROUTER_API_KEY`, `GIPHY_API_KEY` and
+`CLASS_PASSWORD` environment variables. Change them only in Vercel, then redeploy.
 
 ---
 
