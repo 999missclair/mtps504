@@ -233,6 +233,13 @@
        swaps without the page reloading, so nothing would announce it otherwise. */
     if (live) live.textContent = 'Step ' + (i + 1) + ' of ' + groups.length + ': ' + label(i);
 
+    /* Route.js listens for this after the pager has changed the visible step.
+       The route may then unlock the next bottom-nav pill for a newcomer;
+       returning students are unaffected. */
+    document.dispatchEvent(new CustomEvent('ff-step-shown', {
+      detail: { id: targets[i] || '', index: i, count: groups.length }
+    }));
+
     /* Point the ? at help for the step you're actually on. */
     if (help && helpTopics[targets[i]]) {
       help.setAttribute('href', 'help.html?topic=' + helpTopics[targets[i]]);

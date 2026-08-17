@@ -2413,9 +2413,29 @@ body.fit.has-drawer .rail__close { display: block; }
   font-weight: 700;
   cursor: pointer;
 }
+.brief-finish-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--s5);
+  margin-top: var(--s5);
+}
+.brief-finish-grid > * { margin: 0; }
+.brief-finish-grid .card h3 { margin-bottom: var(--s3); }
+.brief-finish-grid .bullets { margin: 0; }
+.final-submission-nudge {
+  margin-top: var(--s4);
+  padding: var(--s3) var(--s4);
+  border-left: 4px solid var(--punch);
+  background: var(--paper);
+  font-weight: 700;
+}
+[data-submission-locked] { opacity: .62; }
 @media (max-width: 479px) {
   .route-dialog__inner { padding: var(--s5); }
   .route-dialog__choices { grid-template-columns: 1fr; }
+}
+@media (max-width: 1023px) {
+  .brief-finish-grid { grid-template-columns: 1fr; }
 }
 
 

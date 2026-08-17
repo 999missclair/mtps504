@@ -28,6 +28,15 @@ the **cancelled** drag-and-arrange studio. Build page 6 from §4.4 of the design
 The production project has teacher-owned `OPENROUTER_API_KEY`, `GIPHY_API_KEY` and
 `CLASS_PASSWORD` environment variables. Change them only in Vercel, then redeploy.
 
+### Final submission Padlet — teacher setup still required
+
+`2 Roll` keeps the existing **Roll Call** Padlet for early idea sharing. Before the
+final lesson, create a separate **Final submission Padlet** and add its two URLs to
+the empty `data-final-padlet-embed` and `data-final-padlet-link` attributes in
+`share.html`. Do not reuse Roll Call for final submissions. The Share-page Padlet
+stays locked until the Comic Builder has recorded a successful download on that
+device; it then displays the configured final board.
+
 ---
 
 ## Stack

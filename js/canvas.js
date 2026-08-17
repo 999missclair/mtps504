@@ -9,6 +9,7 @@
   var PASS_KEY = 'ff-class-pass';   // sessionStorage — this session only
   var STATE_KEY = 'ff-comic';       // localStorage — survives refresh, device only
   var CREDITS_KEY = 'ff-credits';   // localStorage — one credit line for each frame
+  var EXPORT_KEY = 'ff-comic-downloaded'; // device-only handoff to 5 Share
   var NFRAMES = 4;
   var HINTS = ['Setup', 'Escalation', 'Escalation', 'Punchline'];
 
@@ -505,6 +506,7 @@
       credits: creditSlots().map(function (slot) { return slot.value; })
     };
     comic = emptyComic(); active = 0; maxZ = 0;
+    try { localStorage.removeItem(EXPORT_KEY); } catch (e) {}
     renderFrames(); save(); clearCredits();
     $('#undo-clear').hidden = false;
     announce('Cleared all four frames. Undo clear is available until you refresh.');
@@ -652,9 +654,10 @@
       var a = document.createElement('a');
       a.href = url; a.download = 'four-frames-comic.png';
       document.body.appendChild(a); a.click(); a.remove();
+      try { localStorage.setItem(EXPORT_KEY, String(Date.now())); } catch (e) {}
       msg.textContent = anyFail
         ? 'Saved your comic — but a picture was skipped. Screenshot if you need it exact.'
-        : 'Saved your comic to Downloads.';
+        : 'Saved your comic to Downloads. Final submission is now open on 5 Share.';
     }
   });
 
