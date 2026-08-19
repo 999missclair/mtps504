@@ -245,7 +245,10 @@
                are about to generate a story from, and change it without
                going back a step blind. Painted by js/panel-story.js. -->
           <ol class="story-picked" data-story-picked aria-label="Your four chosen pictures"></ol>
-          <button type="button" class="btn-primary" data-story-think disabled>Generate story</button>
+          <div class="story-actions">
+            <button type="button" class="btn-primary" data-story-think disabled>Generate story</button>
+            <a class="btn-secondary" href="#scramble">Re-order the pictures</a>
+          </div>
           <p class="small" role="status" aria-live="polite" data-story-timer>Choose four pictures to reveal a reading.</p>
           <p class="story-scramble__prompt" data-story-route-prompt>There are no pictures in your order yet.
           <a class="tap-link" href="#scramble">Go back to Panel Scramble and choose four.</a></p>

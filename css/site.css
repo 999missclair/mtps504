@@ -1430,18 +1430,21 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   gap: var(--s4);
   margin-top: var(--s4);
 }
+/* Single column: the four pictures are the subject of this step, so they run
+   full width with the action under them, rather than being pushed into a
+   side column that left the panel lopsided. */
 .story-scramble__intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: var(--s3) var(--s4);
-  align-items: center;
+  grid-template-columns: 1fr;
+  justify-items: start;
+  gap: var(--s3);
   padding: var(--s4);
   border: 2px solid var(--ink);
   border-radius: var(--r-md);
   background: #FFF3D6;
 }
 .story-scramble__intro p { margin: 0; }
-.story-scramble__intro .small { grid-column: 1 / -1; }
+.story-actions { display: flex; flex-wrap: wrap; gap: var(--s3); align-items: center; }
 .story-scramble__workspace {
   display: grid;
   grid-template-columns: minmax(0, 1.65fr) minmax(15rem, .8fr);
@@ -1606,10 +1609,31 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: var(--s3);
   list-style: none;
-  margin: var(--s3) 0 var(--s4);
+  margin: 0;
   padding: 0;
-  max-width: 34rem;
+  width: 100%;
+  max-width: 46rem;
 }
+/* Re-ordering by button, not drag — same reason the Panel Scramble taps
+   instead of dragging: it works on a trackpad, a touchscreen and a keyboard. */
+/* (arrow controls removed — re-ordering happens back on the picking step) */
+.story-picked__move-unused {
+  display: flex;
+  justify-content: center;
+  gap: var(--s2);
+  margin-top: var(--s2);
+}
+.story-picked__move button {
+  min-width: 2.2rem;
+  min-height: 2.2rem;
+  padding: 0;
+  font: 700 1rem/1 var(--font-display);
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  cursor: pointer;
+}
+.story-picked__move button[disabled] { opacity: .35; cursor: default; }
 .story-picked__item {
   position: relative;
   border: 2px solid var(--ink);
@@ -3032,26 +3056,51 @@ body.fit.has-drawer .rail__close { display: block; }
 .brief-mascot figcaption { margin-top: var(--s2); font-size: var(--t-sm); color: var(--slate); }
 /* The "You will / You have" block. The mascot is decorative, so it sits loose in
    the white space beside the lists rather than boxed up like a resource card. */
+/* The two lists sit over the mascot rather than beside it: the art is
+   decorative, so it can be large and quiet in the background instead of
+   competing for a column of its own. */
 .brief-overview-grid--open {
-  grid-template-columns: 1fr 1fr minmax(0, 0.9fr);
+  position: relative;
+  grid-template-columns: 1fr 1fr;
   align-items: start;
   gap: var(--s4) var(--s5);
 }
 .brief-mascot-art {
-  width: 100%;
-  max-width: 16rem;
+  position: absolute;
+  right: -2%;
+  bottom: -8%;
+  z-index: 0;
+  width: 46%;
+  max-width: 30rem;
   height: auto;
-  align-self: center;
-  justify-self: end;
+  opacity: .5;
   mix-blend-mode: multiply;
+  pointer-events: none;
 }
-/* Below the two-column breakpoint the lists stack and the mascot goes. */
-@media (max-width: 60rem) {
-  .brief-overview-grid--open { grid-template-columns: 1fr 1fr; }
-  .brief-mascot-art { display: none; }
-}
+.brief-overview-grid--open > .brief-you { position: relative; z-index: 1; }
+@media (max-width: 60rem) { .brief-mascot-art { display: none; } }
 @media (max-width: 40rem) {
   .brief-overview-grid--open { grid-template-columns: 1fr; }
+}
+
+/* The hand-in example, dressed as a post on the class board. */
+.board-preview {
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  box-shadow: 4px 4px 0 var(--ink);
+  background: var(--paper);
+  padding: var(--s4);
+  max-width: 34rem;
+}
+.board-preview img {
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+}
+.board-preview figcaption {
+  margin-top: var(--s3);
+  font-size: var(--t-sm);
 }
 .brief-you {
   border: 2px solid var(--ink);
