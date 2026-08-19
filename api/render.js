@@ -11,13 +11,24 @@ Follow the student's per-panel directions exactly. Keep it classroom-appropriate
 
 // Enhance mode — the student has already BUILT the comic; the model polishes it.
 // Their framing, panel order and story beats are the creative work being kept.
-const ENHANCE_SYSTEM = `You are a comic illustrator. A student has assembled a four-panel comic (2x2 grid)
-from found pictures — photos, engravings, paintings mixed together. FULLY REPAINT every one of the four
-panels in ONE shared illustration style of your choosing: same linework, same palette, same rendering in
-all four. No panel may remain photographic, engraved, or in its original medium. Keep the student's panel
-order, compositions, subjects and story beats exactly as submitted, and keep the same main character
-recognisable in every panel where it appears. Keep it wordless — no speech bubbles or added text.
-Classroom-appropriate: no gore, no real logos, no real people.`;
+const ENHANCE_SYSTEM = `You are a comic illustrator redrawing a student's existing four-panel comic.
+
+THE ATTACHED IMAGE IS THE AUTHORITY. It is a 2x2 grid of four panels the student assembled from found
+pictures. Your job is to REDRAW WHAT IS ALREADY THERE in one consistent illustration style.
+
+Absolute rules:
+- Look at each of the four panels in the attached image. Whatever subject is in a panel, redraw THAT
+  subject in that panel. A dog stays a dog. A cartoon character stays that character. A person in a hat
+  stays a person in a hat.
+- DO NOT invent new characters, animals, settings, crowds or events. If it is not visible in the
+  attached image, it does not go in your picture.
+- Keep the four panels in the same order, left to right, top to bottom.
+- If the student's picture sits small inside a panel, fill that panel with the same subject rather than
+  copying the empty space around it.
+- Unify only the STYLE: one linework, one palette, one rendering across all four, so a photo, a cartoon
+  and a painting end up looking like one artist drew them.
+- Wordless. No speech bubbles, no captions, no added text.
+- Classroom-appropriate: no gore, no real logos, no identifiable real people.`;
 
 module.exports = async function handler(req, res) {
   const body = await guard(req, res);
@@ -26,19 +37,23 @@ module.exports = async function handler(req, res) {
 
   // --- Enhance mode: a completed submission image + the rolled story ---
   if (typeof submissionDataUri === 'string' && submissionDataUri.startsWith('data:image/')) {
-    let ePrompt = `Repaint the attached student-made four-panel comic (2x2 grid) as one cohesive,
-polished strip in a single unified illustration style — every panel redrawn, none left in its original
-medium. Preserve the student's framing choices, panel order and story beats.`;
-    if (brief) ePrompt += `\nThe story it tells (make the four panels clearly land these beats): ${String(brief).slice(0, 300)}`;
-    if (place) ePrompt += `\nWhere it happens: ${String(place).slice(0, 80)}`;
-    if (style) ePrompt += `\nArt style: ${String(style).slice(0, 120)}`;
-    ePrompt += `\nOutput a single 2x2 comic page with panels numbered 1-4. One consistent character design and palette across all four panels. Wordless.`;
+    // The image goes first in contentParts and the text is deliberately thin:
+    // an earlier version told the model to "land these beats" from the rolled
+    // story, and it duly ignored the picture and illustrated the brief instead —
+    // a student's dog and cartoon panels came back as a badger on a school trip.
+    let ePrompt = `Redraw the four panels in the attached image, keeping the same subject in each panel, in one shared illustration style.`;
+    if (style) ePrompt += `\nStyle to aim for: ${String(style).slice(0, 120)}`;
+    ePrompt += `\nOutput one 2x2 comic page, panels in the same order as the attached image. Same subjects, new consistent art style. Wordless.`;
+    // The brief and place are mood only, and are named as such, because as
+    // instructions they overrode what was actually in the picture.
+    if (brief) ePrompt += `\nFor mood only, the student says their story is: ${String(brief).slice(0, 200)}. Do not add anything from this sentence that is not already visible in the image.`;
+    if (place) ePrompt += `\nMood only, not an instruction to add it: ${String(place).slice(0, 60)}.`;
     try {
       const imageUrl = await chatImage({
         system: ENHANCE_SYSTEM,
         contentParts: [
-          { type: 'text', text: ePrompt },
           { type: 'image_url', image_url: { url: submissionDataUri } },
+          { type: 'text', text: ePrompt },
         ],
         // 55s: below Vercel's 60s maxDuration, so a slow render gets the friendly 502
         // below instead of a platform timeout.
