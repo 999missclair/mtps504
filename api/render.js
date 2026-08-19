@@ -13,7 +13,10 @@ module.exports = async function handler(req, res) {
   const body = await guard(req, res);
   if (!body) return;
   const { brief, panels, style } = body;
-  if (!Array.isArray(panels) || panels.filter(p => p && p.description && p.description.trim()).length < 4) {
+  // Validate the same four entries the renderer will use. A sparse array like
+  // [null, p1..p4] passed the old count check, then threw outside the try/catch.
+  if (!Array.isArray(panels) || panels.length < 4 ||
+      panels.slice(0, 4).some(p => !p || typeof p.description !== 'string' || !p.description.trim())) {
     return res.status(400).json({ error: 'Describe all four panels first.' });
   }
 
@@ -36,9 +39,12 @@ module.exports = async function handler(req, res) {
   });
 
   try {
-    const imageUrl = await chatImage({ system: SYSTEM, contentParts, timeoutMs: 90000 });
+    // 55s, not 90s: vercel.json caps this function at 60s, so a 90s abort timer
+    // could never fire — a slow render died as a platform timeout instead of the
+    // friendly 502 below.
+    const imageUrl = await chatImage({ system: SYSTEM, contentParts, timeoutMs: 55000 });
     res.status(200).json({ image: imageUrl });
   } catch (e) {
-    res.status(502).json({ error: 'The renderer is unavailable right now. Sketch your four panels in Slides instead — that is the real work anyway.', detail: String(e).slice(0, 200) });
+    res.status(502).json({ error: 'The renderer is unavailable right now. Sketch your four panels on paper instead — that is the real work anyway.', detail: String(e).slice(0, 200) });
   }
 };
