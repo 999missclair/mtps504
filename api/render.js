@@ -11,24 +11,39 @@ Follow the student's per-panel directions exactly. Keep it classroom-appropriate
 
 // Enhance mode — the student has already BUILT the comic; the model polishes it.
 // Their framing, panel order and story beats are the creative work being kept.
-const ENHANCE_SYSTEM = `You are a comic illustrator redrawing a student's existing four-panel comic.
+const ENHANCE_SYSTEM = `You are a comic illustrator finishing a student's four-panel comic.
 
-THE ATTACHED IMAGE IS THE AUTHORITY. It is a 2x2 grid of four panels the student assembled from found
-pictures. Your job is to REDRAW WHAT IS ALREADY THERE in one consistent illustration style.
+THE ATTACHED IMAGE IS THE GUIDE. It is a 2x2 grid of four panels the student assembled from found
+pictures. Every element they put in a panel must appear in that panel of your version. What you add
+is the world around those elements.
 
-Absolute rules:
-- Look at each of the four panels in the attached image. Whatever subject is in a panel, redraw THAT
-  subject in that panel. A dog stays a dog. A cartoon character stays that character. A person in a hat
-  stays a person in a hat.
-- DO NOT invent new characters, animals, settings, crowds or events. If it is not visible in the
-  attached image, it does not go in your picture.
-- Keep the four panels in the same order, left to right, top to bottom.
-- If the student's picture sits small inside a panel, fill that panel with the same subject rather than
-  copying the empty space around it.
-- Unify only the STYLE: one linework, one palette, one rendering across all four, so a photo, a cartoon
-  and a painting end up looking like one artist drew them.
-- Wordless. No speech bubbles, no captions, no added text.
-- Classroom-appropriate: no gore, no real logos, no identifiable real people.`;
+MUST KEEP — non-negotiable:
+- Every subject, character, object and idea visible in a panel appears in that same panel. A dog stays
+  a dog, a teapot stays a teapot, a cartoon character stays that character.
+- The four panels stay in the same order, left to right, top to bottom.
+- Once you consolidate several versions of a subject into one character, that character looks the
+  same in every panel it appears in.
+
+FREE TO ADD — this is where you do the work:
+- Background, setting, scenery, weather, time of day, lighting and depth. A subject floating on white
+  should be placed somewhere that makes sense for the story, and scaled to fill its panel.
+- Staging and framing: where a subject sits in the panel, how close the view is, what surrounds it.
+- Supporting detail that helps the four panels read as one continuous scene rather than four
+  unrelated pictures — a room, a street, a horizon, a crowd, weather carried between panels.
+- Different versions of a similar item (for example three different cats) can be consolidated into a
+  single consistent character, as long as there are no more than three named characters across the
+  whole page. If a panel holds many different subjects, that number can be approximated in your
+  output rather than reproduced exactly.
+- One shared illustration style across all four: same linework, same palette, same rendering, so a
+  photo, an engraving and a cartoon end up looking like one artist drew the page.
+
+NEVER:
+- Never drop, replace or swap out an element the student chose.
+- Never add a new main character, or any new subject that competes with theirs for attention. The one
+  additional element permitted below is a prop or a piece of scenery, never a character.
+- Never add speech bubbles, captions or any text.
+- Nothing gory, sexual or demeaning, no real logos, no identifiable real people. Everything you draw
+  must suit 13 and 14 year olds in a school classroom.`;
 
 module.exports = async function handler(req, res) {
   const body = await guard(req, res);
@@ -37,17 +52,17 @@ module.exports = async function handler(req, res) {
 
   // --- Enhance mode: a completed submission image + the rolled story ---
   if (typeof submissionDataUri === 'string' && submissionDataUri.startsWith('data:image/')) {
-    // The image goes first in contentParts and the text is deliberately thin:
-    // an earlier version told the model to "land these beats" from the rolled
-    // story, and it duly ignored the picture and illustrated the brief instead —
-    // a student's dog and cartoon panels came back as a badger on a school trip.
-    let ePrompt = `Redraw the four panels in the attached image, keeping the same subject in each panel, in one shared illustration style.`;
+    // The image leads the payload. An early version handed over the rolled story as
+    // an instruction and the model illustrated the text instead of the picture — a
+    // student's dog and cartoon panels came back as a badger on a school excursion.
+    // So the brief is scoped to the WORLD around the elements, never to the elements.
+    let ePrompt = `Finish the four-panel comic in the attached image.
+Every element the student placed in a panel must appear in that panel of your version, in the same order.
+Build the world around those elements: give them a setting, a background, lighting and depth so the four panels read as one continuous story in a single illustration style. Your output must suit 13 and 14 year olds in a school classroom.`;
+    if (brief) ePrompt += `\nThe story the student is telling, to guide the SETTING and mood only: ${String(brief).slice(0, 250)}. Use it to decide where their elements are and what surrounds them. Do not use it to add or replace any subject. Up to one additional prop or scenery element may be added to support the story; it must not be a character.`;
+    if (place) ePrompt += `\nStage the panels somewhere like: ${String(place).slice(0, 60)}.`;
     if (style) ePrompt += `\nStyle to aim for: ${String(style).slice(0, 120)}`;
-    ePrompt += `\nOutput one 2x2 comic page, panels in the same order as the attached image. Same subjects, new consistent art style. Wordless.`;
-    // The brief and place are mood only, and are named as such, because as
-    // instructions they overrode what was actually in the picture.
-    if (brief) ePrompt += `\nFor mood only, the student says their story is: ${String(brief).slice(0, 200)}. Do not add anything from this sentence that is not already visible in the image.`;
-    if (place) ePrompt += `\nMood only, not an instruction to add it: ${String(place).slice(0, 60)}.`;
+    ePrompt += `\nOutput one 2x2 comic page. Same elements, same order, richer world, one consistent art style. Wordless.`;
     try {
       const imageUrl = await chatImage({
         system: ENHANCE_SYSTEM,
