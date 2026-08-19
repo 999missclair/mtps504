@@ -2858,10 +2858,12 @@ body.fit.has-drawer .rail-scrim {
 body.fit.has-drawer .rail-scrim.is-open { opacity: 1; pointer-events: auto; }
 
 /* the drawer toggle — pinned above the bottom bar, left side (clear of the → button) */
-/* Reserve the toggle's footprint so a step that does overflow never runs its
-   text underneath the floating Stuck? button. */
-body.fit.has-drawer .step-panel,
-body.fit.has-drawer .section { scroll-padding-bottom: 4rem; }
+/* Reserve the toggle's footprint. The Stuck? button is fixed at the bottom-left,
+   so without this the last line of a step sits underneath it and is unreadable. */
+body.fit.has-drawer .page-shell { padding-bottom: 3.5rem; }
+/* The story reading's closing question is the one line that lands level with
+   the floating button, so it also clears the button's width on the left. */
+body.fit.has-drawer .story-reading > p.small:last-child { padding-left: 7.5rem; }
 body.fit.has-drawer .rail-toggle {
   position: fixed;
   left: var(--s4);
