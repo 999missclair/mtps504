@@ -41,12 +41,13 @@ NEVER:
 - Never drop, replace or swap out an element the student chose.
 - Never add a new main character, or any new subject that competes with theirs for attention. The one
   additional element permitted below is a prop or a piece of scenery, never a character.
-- Never add speech bubbles, captions or any text.
+- Never add speech bubbles, captions, sound effects, signage, labels or lettering of any kind. No text
+  anywhere in the image, including on objects, walls, screens or signs.
 - Nothing gory, sexual or demeaning, no real logos, no identifiable real people. Everything you draw
   must suit 13 and 14 year olds in a school classroom.`;
 
 module.exports = async function handler(req, res) {
-  const body = await guard(req, res);
+  const body = await guard(req, res, 'image');
   if (!body) return;
   const { brief, panels, style, place, submissionDataUri } = body;
 

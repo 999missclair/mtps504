@@ -1,5 +1,7 @@
 /* Four Frames — authored readings for every ordered four-picture selection.
-   Generated from data/story-scenarios/*.json. Local data only: no request is made. */
+   Generated from data/story-scenarios/*.json by tools/build-story-bank.js.
+   Do not hand-edit: edit the sentences in that script and re-run it.
+   Local data only: no request is made. */
 window.FOUR_FRAMES_STORY_BANK = {
   "a,b,c,d": {
     "key": "a,b,c,d",
@@ -11,12 +13,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Nova",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "a,b,c,e": {
     "key": "a,b,c,e",
@@ -28,12 +30,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Milo",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "a,b,c,f": {
     "key": "a,b,c,f",
@@ -45,12 +47,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Puff",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "a,b,d,c": {
     "key": "a,b,d,c",
@@ -62,12 +64,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Pip",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "a,b,d,e": {
     "key": "a,b,d,e",
@@ -79,12 +81,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Milo",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "a,b,d,f": {
     "key": "a,b,d,f",
@@ -96,12 +98,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Puff",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "a,b,e,c": {
     "key": "a,b,e,c",
@@ -113,12 +115,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Pip",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "a,b,e,d": {
     "key": "a,b,e,d",
@@ -130,12 +132,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Nova",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "a,b,e,f": {
     "key": "a,b,e,f",
@@ -147,12 +149,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Puff",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "a,b,f,c": {
     "key": "a,b,f,c",
@@ -164,12 +166,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Pip",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "a,b,f,d": {
     "key": "a,b,f,d",
@@ -181,12 +183,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Nova",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "a,b,f,e": {
     "key": "a,b,f,e",
@@ -198,12 +200,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Milo",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "a,c,b,d": {
     "key": "a,c,b,d",
@@ -215,12 +217,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Nova",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
-      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "a,c,b,e": {
     "key": "a,c,b,e",
@@ -232,12 +234,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Milo",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
-      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "a,c,b,f": {
     "key": "a,c,b,f",
@@ -249,12 +251,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Puff",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
-      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "a,c,d,b": {
     "key": "a,c,d,b",
@@ -266,12 +268,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Womby",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "How does Womby's careful movement change the story's mood?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "a,c,d,e": {
     "key": "a,c,d,e",
@@ -283,12 +285,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Milo",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "a,c,d,f": {
     "key": "a,c,d,f",
@@ -300,12 +302,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Puff",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "a,c,e,b": {
     "key": "a,c,e,b",
@@ -317,12 +319,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Womby",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "How does Womby's careful movement change the story's mood?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "a,c,e,d": {
     "key": "a,c,e,d",
@@ -334,12 +336,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Nova",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "a,c,e,f": {
     "key": "a,c,e,f",
@@ -351,12 +353,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Puff",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "a,c,f,b": {
     "key": "a,c,f,b",
@@ -368,12 +370,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Womby",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "How does Womby's careful movement change the story's mood?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "a,c,f,d": {
     "key": "a,c,f,d",
@@ -385,12 +387,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Nova",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "a,c,f,e": {
     "key": "a,c,f,e",
@@ -402,12 +404,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Milo",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "a,d,b,c": {
     "key": "a,d,b,c",
@@ -419,12 +421,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Pip",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
-      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "a,d,b,e": {
     "key": "a,d,b,e",
@@ -436,12 +438,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Milo",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
-      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "a,d,b,f": {
     "key": "a,d,b,f",
@@ -453,12 +455,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Puff",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
-      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "a,d,c,b": {
     "key": "a,d,c,b",
@@ -470,12 +472,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Womby",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "How does Womby's careful movement change the story's mood?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "a,d,c,e": {
     "key": "a,d,c,e",
@@ -487,12 +489,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Milo",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "a,d,c,f": {
     "key": "a,d,c,f",
@@ -504,12 +506,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Puff",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "a,d,e,b": {
     "key": "a,d,e,b",
@@ -521,12 +523,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Womby",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "How does Womby's careful movement change the story's mood?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "a,d,e,c": {
     "key": "a,d,e,c",
@@ -538,12 +540,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Pip",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "a,d,e,f": {
     "key": "a,d,e,f",
@@ -555,12 +557,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Puff",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "a,d,f,b": {
     "key": "a,d,f,b",
@@ -572,12 +574,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Womby",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "How does Womby's careful movement change the story's mood?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "a,d,f,c": {
     "key": "a,d,f,c",
@@ -589,12 +591,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Pip",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "a,d,f,e": {
     "key": "a,d,f,e",
@@ -606,12 +608,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Milo",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "a,e,b,c": {
     "key": "a,e,b,c",
@@ -623,12 +625,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Pip",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Milo came in from the rain with the moon and found Brolly already open indoors.",
-      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "a,e,b,d": {
     "key": "a,e,b,d",
@@ -640,12 +642,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Nova",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Milo came in from the rain with the moon and found Brolly already open indoors.",
-      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "a,e,b,f": {
     "key": "a,e,b,f",
@@ -657,12 +659,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Puff",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Milo came in from the rain with the moon and found Brolly already open indoors.",
-      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "a,e,c,b": {
     "key": "a,e,c,b",
@@ -674,12 +676,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Womby",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Milo came in from the rain with the moon and found Brolly already open indoors.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "How does Womby's careful movement change the story's mood?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "a,e,c,d": {
     "key": "a,e,c,d",
@@ -691,12 +693,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Nova",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Milo came in from the rain with the moon and found Brolly already open indoors.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "a,e,c,f": {
     "key": "a,e,c,f",
@@ -708,12 +710,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Puff",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Milo came in from the rain with the moon and found Brolly already open indoors.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "a,e,d,b": {
     "key": "a,e,d,b",
@@ -725,12 +727,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Womby",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Milo came in from the rain with the moon and found Brolly already open indoors.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "How does Womby's careful movement change the story's mood?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "a,e,d,c": {
     "key": "a,e,d,c",
@@ -742,12 +744,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Pip",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Milo came in from the rain with the moon and found Brolly already open indoors.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "a,e,d,f": {
     "key": "a,e,d,f",
@@ -759,12 +761,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Puff",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Milo came in from the rain with the moon and found Brolly already open indoors.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "a,e,f,b": {
     "key": "a,e,f,b",
@@ -776,12 +778,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Womby",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Milo came in from the rain with the moon and found Brolly already open indoors.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "How does Womby's careful movement change the story's mood?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "a,e,f,c": {
     "key": "a,e,f,c",
@@ -793,12 +795,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Pip",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Milo came in from the rain with the moon and found Brolly already open indoors.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "a,e,f,d": {
     "key": "a,e,f,d",
@@ -810,12 +812,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Nova",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Milo came in from the rain with the moon and found Brolly already open indoors.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "a,f,b,c": {
     "key": "a,f,b,c",
@@ -827,12 +829,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Pip",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
-      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "a,f,b,d": {
     "key": "a,f,b,d",
@@ -844,12 +846,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Nova",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
-      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "a,f,b,e": {
     "key": "a,f,b,e",
@@ -861,12 +863,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Milo",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
-      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "a,f,c,b": {
     "key": "a,f,c,b",
@@ -878,12 +880,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Womby",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "How does Womby's careful movement change the story's mood?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "a,f,c,d": {
     "key": "a,f,c,d",
@@ -895,12 +897,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Nova",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "a,f,c,e": {
     "key": "a,f,c,e",
@@ -912,12 +914,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Milo",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "a,f,d,b": {
     "key": "a,f,d,b",
@@ -929,12 +931,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Womby",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "How does Womby's careful movement change the story's mood?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "a,f,d,c": {
     "key": "a,f,d,c",
@@ -946,12 +948,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Pip",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "a,f,d,e": {
     "key": "a,f,d,e",
@@ -963,12 +965,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Milo",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Sun poured through the art-room windows onto an umbrella somebody had left open on the table.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "a,f,e,b": {
     "key": "a,f,e,b",
@@ -980,12 +982,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Womby",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "How does Womby's careful movement change the story's mood?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "a,f,e,c": {
     "key": "a,f,e,c",
@@ -997,12 +999,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Pip",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "a,f,e,d": {
     "key": "a,f,e,d",
@@ -1014,12 +1016,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Brolly and Nova",
     "beats": [
-      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
-      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "A yellow umbrella stood open on the art-room table, and a boy stopped in the doorway.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "b,a,c,d": {
     "key": "b,a,c,d",
@@ -1031,12 +1033,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Nova",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "b,a,c,e": {
     "key": "b,a,c,e",
@@ -1048,12 +1050,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Milo",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "b,a,c,f": {
     "key": "b,a,c,f",
@@ -1065,12 +1067,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Puff",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "b,a,d,c": {
     "key": "b,a,d,c",
@@ -1082,12 +1084,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Pip",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "b,a,d,e": {
     "key": "b,a,d,e",
@@ -1099,12 +1101,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Milo",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "b,a,d,f": {
     "key": "b,a,d,f",
@@ -1116,12 +1118,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Puff",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "b,a,e,c": {
     "key": "b,a,e,c",
@@ -1133,12 +1135,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Pip",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "b,a,e,d": {
     "key": "b,a,e,d",
@@ -1150,12 +1152,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Nova",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "b,a,e,f": {
     "key": "b,a,e,f",
@@ -1167,12 +1169,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Puff",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "b,a,f,c": {
     "key": "b,a,f,c",
@@ -1184,12 +1186,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Pip",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "b,a,f,d": {
     "key": "b,a,f,d",
@@ -1201,12 +1203,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Nova",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "b,a,f,e": {
     "key": "b,a,f,e",
@@ -1218,12 +1220,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Milo",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "b,c,a,d": {
     "key": "b,c,a,d",
@@ -1235,12 +1237,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Nova",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
-      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "b,c,a,e": {
     "key": "b,c,a,e",
@@ -1252,12 +1254,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Milo",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
-      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "b,c,a,f": {
     "key": "b,c,a,f",
@@ -1269,12 +1271,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Puff",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
-      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "b,c,d,a": {
     "key": "b,c,d,a",
@@ -1286,12 +1288,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Brolly",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What shows Brolly has become part of the ending?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "b,c,d,e": {
     "key": "b,c,d,e",
@@ -1303,12 +1305,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Milo",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "b,c,d,f": {
     "key": "b,c,d,f",
@@ -1320,12 +1322,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Puff",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "b,c,e,a": {
     "key": "b,c,e,a",
@@ -1337,12 +1339,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Brolly",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What shows Brolly has become part of the ending?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "b,c,e,d": {
     "key": "b,c,e,d",
@@ -1354,12 +1356,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Nova",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "b,c,e,f": {
     "key": "b,c,e,f",
@@ -1371,12 +1373,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Puff",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "b,c,f,a": {
     "key": "b,c,f,a",
@@ -1388,12 +1390,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Brolly",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What shows Brolly has become part of the ending?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "b,c,f,d": {
     "key": "b,c,f,d",
@@ -1405,12 +1407,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Nova",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "b,c,f,e": {
     "key": "b,c,f,e",
@@ -1422,12 +1424,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Milo",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "b,d,a,c": {
     "key": "b,d,a,c",
@@ -1439,12 +1441,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Pip",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
-      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "b,d,a,e": {
     "key": "b,d,a,e",
@@ -1456,12 +1458,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Milo",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
-      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "b,d,a,f": {
     "key": "b,d,a,f",
@@ -1473,12 +1475,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Puff",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
-      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "b,d,c,a": {
     "key": "b,d,c,a",
@@ -1490,12 +1492,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Brolly",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What shows Brolly has become part of the ending?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "b,d,c,e": {
     "key": "b,d,c,e",
@@ -1507,12 +1509,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Milo",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "b,d,c,f": {
     "key": "b,d,c,f",
@@ -1524,12 +1526,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Puff",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "b,d,e,a": {
     "key": "b,d,e,a",
@@ -1541,12 +1543,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Brolly",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What shows Brolly has become part of the ending?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "b,d,e,c": {
     "key": "b,d,e,c",
@@ -1558,12 +1560,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Pip",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "b,d,e,f": {
     "key": "b,d,e,f",
@@ -1575,12 +1577,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Puff",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "b,d,f,a": {
     "key": "b,d,f,a",
@@ -1592,12 +1594,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Brolly",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What shows Brolly has become part of the ending?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "b,d,f,c": {
     "key": "b,d,f,c",
@@ -1609,12 +1611,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Pip",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "b,d,f,e": {
     "key": "b,d,f,e",
@@ -1626,12 +1628,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Milo",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "b,e,a,c": {
     "key": "b,e,a,c",
@@ -1643,12 +1645,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Pip",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
-      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "b,e,a,d": {
     "key": "b,e,a,d",
@@ -1660,12 +1662,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Nova",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
-      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "b,e,a,f": {
     "key": "b,e,a,f",
@@ -1677,12 +1679,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Puff",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
-      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "b,e,c,a": {
     "key": "b,e,c,a",
@@ -1694,12 +1696,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Brolly",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What shows Brolly has become part of the ending?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "b,e,c,d": {
     "key": "b,e,c,d",
@@ -1711,12 +1713,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Nova",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "b,e,c,f": {
     "key": "b,e,c,f",
@@ -1728,12 +1730,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Puff",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "b,e,d,a": {
     "key": "b,e,d,a",
@@ -1745,12 +1747,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Brolly",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What shows Brolly has become part of the ending?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "b,e,d,c": {
     "key": "b,e,d,c",
@@ -1762,12 +1764,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Pip",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "b,e,d,f": {
     "key": "b,e,d,f",
@@ -1779,12 +1781,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Puff",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "Why is Puff more surprising in the last picture?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "b,e,f,a": {
     "key": "b,e,f,a",
@@ -1796,12 +1798,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Brolly",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What shows Brolly has become part of the ending?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "b,e,f,c": {
     "key": "b,e,f,c",
@@ -1813,12 +1815,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Pip",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "b,e,f,d": {
     "key": "b,e,f,d",
@@ -1830,12 +1832,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Nova",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
-      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "b,f,a,c": {
     "key": "b,f,a,c",
@@ -1847,12 +1849,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Pip",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
-      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "b,f,a,d": {
     "key": "b,f,a,d",
@@ -1864,12 +1866,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Nova",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
-      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "b,f,a,e": {
     "key": "b,f,a,e",
@@ -1881,12 +1883,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Milo",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
-      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "b,f,c,a": {
     "key": "b,f,c,a",
@@ -1898,12 +1900,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Brolly",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What shows Brolly has become part of the ending?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "b,f,c,d": {
     "key": "b,f,c,d",
@@ -1915,12 +1917,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Nova",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "b,f,c,e": {
     "key": "b,f,c,e",
@@ -1932,12 +1934,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Milo",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
-      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "b,f,d,a": {
     "key": "b,f,d,a",
@@ -1949,12 +1951,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Brolly",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What shows Brolly has become part of the ending?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "b,f,d,c": {
     "key": "b,f,d,c",
@@ -1966,12 +1968,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Pip",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "b,f,d,e": {
     "key": "b,f,d,e",
@@ -1983,12 +1985,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Milo",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
-      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
-      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
+      "Womby rolled his red skateboard down the supermarket aisle and stopped beside one runaway orange.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What does Milo make you notice about real weather?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "b,f,e,a": {
     "key": "b,f,e,a",
@@ -2000,12 +2002,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Brolly",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What shows Brolly has become part of the ending?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "b,f,e,c": {
     "key": "b,f,e,c",
@@ -2017,12 +2019,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Pip",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Pip glided down and delivered the finished artwork onto the library display table."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes Pip feel like more than a toy?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "b,f,e,d": {
     "key": "b,f,e,d",
@@ -2034,12 +2036,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Womby and Nova",
     "beats": [
-      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
-      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
-      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
-      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
+      "In the fruit aisle, a wombat in a yellow raincoat balanced on a skateboard beside an orange.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "c,a,b,d": {
     "key": "c,a,b,d",
@@ -2049,14 +2051,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Pip and Brolly",
+    "title": "Pip and Nova",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-      "Nova turned the canvas sideways, and every shape lined up with the route from earlier."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "c,a,b,e": {
     "key": "c,a,b,e",
@@ -2066,14 +2068,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Pip and Brolly",
+    "title": "Pip and Milo",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-      "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
-      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "c,a,b,f": {
     "key": "c,a,b,f",
@@ -2083,14 +2085,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Pip and Brolly",
+    "title": "Pip and Puff",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-      "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
-      "Puff cleared for a second, showing a tiny paper route folded inside the pocket-sized sky."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "c,a,d,b": {
     "key": "c,a,d,b",
@@ -2100,14 +2102,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Pip and Brolly",
+    "title": "Pip and Womby",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-      "Nova added one last silver stroke, and the painting drifted off the paper with no gravity.",
-      "Womby's hood framed the last picture, showing every detour had followed the orange's round path."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Nova's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "c,a,d,e": {
     "key": "c,a,d,e",
@@ -2117,14 +2119,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Pip and Brolly",
+    "title": "Pip and Milo",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-      "Nova's brushstroke unrolled into a ribbon of colour that curled through the room, joining everything.",
-      "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Nova's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "c,a,d,f": {
     "key": "c,a,d,f",
@@ -2134,14 +2136,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Pip and Brolly",
+    "title": "Pip and Puff",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-      "Nova painted a reflection instead of a sky, and the earlier scene floated calmly above the table.",
-      "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Nova's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "c,a,e,b": {
     "key": "c,a,e,b",
@@ -2151,14 +2153,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Pip and Brolly",
+    "title": "Pip and Womby",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-      "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
-      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "c,a,e,d": {
     "key": "c,a,e,d",
@@ -2168,14 +2170,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Pip and Brolly",
+    "title": "Pip and Nova",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-      "Milo's moon caught the rain, and its craters filled with light like a glowing map.",
-      "Nova set the painting beside the first clue, and their edges joined perfectly, no gaps."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "c,a,e,f": {
     "key": "c,a,e,f",
@@ -2185,14 +2187,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Pip and Brolly",
+    "title": "Pip and Puff",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-      "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
-      "Puff's reflection stitched the first picture to the last one, all inside a small round bowl."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "c,a,f,b": {
     "key": "c,a,f,b",
@@ -2202,14 +2204,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Pip and Brolly",
+    "title": "Pip and Womby",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-      "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
-      "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "c,a,f,d": {
     "key": "c,a,f,d",
@@ -2219,14 +2221,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Pip and Brolly",
+    "title": "Pip and Nova",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-      "Puff grew a small silver lining, and the bus-stop glass turned the earlier scene into a postcard.",
-      "Nova's brush pointed at a small star shaped like a signature, linking straight back to the start."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "c,a,f,e": {
     "key": "c,a,f,e",
@@ -2236,14 +2238,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Pip and Brolly",
+    "title": "Pip and Milo",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-      "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
-      "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "c,b,a,d": {
     "key": "c,b,a,d",
@@ -2253,14 +2255,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Pip and Womby",
+    "title": "Pip and Nova",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-      "Brolly opened wider than the table and caught a swirl of coloured paper, like friendly weather.",
-      "Nova lifted the finished painting, and the whole adventure was sitting inside its border."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "c,b,a,e": {
     "key": "c,b,a,e",
@@ -2270,14 +2272,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Pip and Womby",
+    "title": "Pip and Milo",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-      "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
-      "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "c,b,a,f": {
     "key": "c,b,a,f",
@@ -2287,14 +2289,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Pip and Womby",
+    "title": "Pip and Puff",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-      "Brolly tilted and poured out paper shapes instead of rain, each one from the trip so far.",
-      "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "c,b,d,a": {
     "key": "c,b,d,a",
@@ -2304,14 +2306,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Pip and Womby",
+    "title": "Pip and Brolly",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-      "Nova painted a doorway into the earlier scenes, and a few stars floated out onto the table.",
-      "Someone lifted Brolly, and its underside matched the route overhead like a painted ceiling."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Nova's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "c,b,d,e": {
     "key": "c,b,d,e",
@@ -2321,14 +2323,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Pip and Womby",
+    "title": "Pip and Milo",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-      "Nova added one last silver stroke, and the painting drifted off the paper with no gravity.",
-      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Nova's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "c,b,d,f": {
     "key": "c,b,d,f",
@@ -2338,14 +2340,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Pip and Womby",
+    "title": "Pip and Puff",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-      "Nova painted a doorway into the earlier scenes, and a few stars floated out onto the table.",
-      "Puff cleared for a second, showing a tiny paper route folded inside the pocket-sized sky."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Nova's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "c,b,e,a": {
     "key": "c,b,e,a",
@@ -2355,14 +2357,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Pip and Womby",
+    "title": "Pip and Brolly",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-      "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "c,b,e,d": {
     "key": "c,b,e,d",
@@ -2372,14 +2374,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Pip and Womby",
+    "title": "Pip and Nova",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-      "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
-      "Nova's little canvas held the first scene, while the real room quietly held the sequel."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "c,b,e,f": {
     "key": "c,b,e,f",
@@ -2389,14 +2391,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Pip and Womby",
+    "title": "Pip and Puff",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-      "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "c,b,f,a": {
     "key": "c,b,f,a",
@@ -2406,14 +2408,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Pip and Womby",
+    "title": "Pip and Brolly",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-      "Puff swirled into a tiny map, and its raindrops fell upwards towards the timetable.",
-      "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "c,b,f,d": {
     "key": "c,b,f,d",
@@ -2423,14 +2425,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Pip and Womby",
+    "title": "Pip and Nova",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-      "Puff copied the earlier scene, then let a gentle drizzle fall that stopped at the shelter's edge.",
-      "Nova lifted the finished painting, and the whole adventure was sitting inside its border."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "c,b,f,e": {
     "key": "c,b,f,e",
@@ -2440,14 +2442,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Pip and Womby",
+    "title": "Pip and Milo",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-      "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
-      "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "c,d,a,b": {
     "key": "c,d,a,b",
@@ -2457,14 +2459,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Pip and Nova",
+    "title": "Pip and Womby",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-      "Brolly tilted and poured out paper shapes instead of rain, each one from the trip so far.",
-      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "c,d,a,e": {
     "key": "c,d,a,e",
@@ -2474,14 +2476,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Pip and Nova",
+    "title": "Pip and Milo",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-      "Brolly opened wider than the table and caught a swirl of coloured paper, like friendly weather.",
-      "Milo held the moon beside the opening scene, and its cut-out circle finished it like an eclipse."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "c,d,a,f": {
     "key": "c,d,a,f",
@@ -2491,14 +2493,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Pip and Nova",
+    "title": "Pip and Puff",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-      "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
-      "Puff's reflection stitched the first picture to the last one, all inside a small round bowl."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "c,d,b,a": {
     "key": "c,d,b,a",
@@ -2508,14 +2510,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Pip and Nova",
+    "title": "Pip and Brolly",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-      "Womby steadied the orange on the skateboard's nose, and the whole aisle became a moving stage.",
-      "Brolly stood exactly where it all began, its curved handle finishing the loop of the route."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "c,d,b,e": {
     "key": "c,d,b,e",
@@ -2525,14 +2527,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Pip and Nova",
+    "title": "Pip and Milo",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-      "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
-      "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "c,d,b,f": {
     "key": "c,d,b,f",
@@ -2542,14 +2544,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Pip and Nova",
+    "title": "Pip and Puff",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-      "Womby steadied the orange on the skateboard's nose, and the whole aisle became a moving stage.",
-      "Puff sat beside the first scene, and the cloud's reflection filled the last missing shape perfectly."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "c,d,e,a": {
     "key": "c,d,e,a",
@@ -2559,14 +2561,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Pip and Nova",
+    "title": "Pip and Brolly",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-      "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
-      "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "c,d,e,b": {
     "key": "c,d,e,b",
@@ -2576,14 +2578,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Pip and Nova",
+    "title": "Pip and Womby",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-      "Womby's hood framed the last picture, showing every detour had followed the orange's round path."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "c,d,e,f": {
     "key": "c,d,e,f",
@@ -2593,14 +2595,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Pip and Nova",
+    "title": "Pip and Puff",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-      "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
-      "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "c,d,f,a": {
     "key": "c,d,f,a",
@@ -2610,14 +2612,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Pip and Nova",
+    "title": "Pip and Brolly",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-      "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
-      "Brolly turned out to be a giant pop-up bookmark, holding the whole strange trip between two pages."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "c,d,f,b": {
     "key": "c,d,f,b",
@@ -2627,14 +2629,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Pip and Nova",
+    "title": "Pip and Womby",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-      "Puff swirled into a tiny map, and its raindrops fell upwards towards the timetable.",
-      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "c,d,f,e": {
     "key": "c,d,f,e",
@@ -2644,14 +2646,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Pip and Nova",
+    "title": "Pip and Milo",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-      "Puff copied the earlier scene, then let a gentle drizzle fall that stopped at the shelter's edge.",
-      "Milo held the moon beside the opening scene, and its cut-out circle finished it like an eclipse."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "c,e,a,b": {
     "key": "c,e,a,b",
@@ -2661,14 +2663,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Pip and Milo",
+    "title": "Pip and Womby",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-      "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
-      "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "c,e,a,d": {
     "key": "c,e,a,d",
@@ -2678,14 +2680,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Pip and Milo",
+    "title": "Pip and Nova",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-      "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
-      "Nova's little canvas held the first scene, while the real room quietly held the sequel."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "c,e,a,f": {
     "key": "c,e,a,f",
@@ -2695,14 +2697,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Pip and Milo",
+    "title": "Pip and Puff",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-      "Brolly became a portable doorway, its patterned underside framing the earlier scene upside down.",
-      "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "c,e,b,a": {
     "key": "c,e,b,a",
@@ -2712,14 +2714,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Pip and Milo",
+    "title": "Pip and Brolly",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-      "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "c,e,b,d": {
     "key": "c,e,b,d",
@@ -2729,14 +2731,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Pip and Milo",
+    "title": "Pip and Nova",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-      "Womby steadied the orange on the skateboard's nose, and the whole aisle became a moving stage.",
-      "Nova lifted the finished painting, and the whole adventure was sitting inside its border."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "c,e,b,f": {
     "key": "c,e,b,f",
@@ -2746,14 +2748,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Pip and Milo",
+    "title": "Pip and Puff",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-      "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "c,e,d,a": {
     "key": "c,e,d,a",
@@ -2763,14 +2765,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Pip and Milo",
+    "title": "Pip and Brolly",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-      "Nova added a tiny horizon line, and the table became a launchpad with the clue as a planet.",
-      "Brolly stood exactly where it all began, its curved handle finishing the loop of the route."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Nova's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "c,e,d,b": {
     "key": "c,e,d,b",
@@ -2780,14 +2782,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Pip and Milo",
+    "title": "Pip and Womby",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-      "Nova's brushstroke unrolled into a ribbon of colour that curled through the room, joining everything.",
-      "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Nova's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "c,e,d,f": {
     "key": "c,e,d,f",
@@ -2797,14 +2799,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Pip and Milo",
+    "title": "Pip and Puff",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-      "Nova added a tiny horizon line, and the table became a launchpad with the clue as a planet.",
-      "Puff sat beside the first scene, and the cloud's reflection filled the last missing shape perfectly."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Nova's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "c,e,f,a": {
     "key": "c,e,f,a",
@@ -2814,14 +2816,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Pip and Milo",
+    "title": "Pip and Brolly",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-      "Puff grew a small silver lining, and the bus-stop glass turned the earlier scene into a postcard.",
-      "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "c,e,f,b": {
     "key": "c,e,f,b",
@@ -2831,14 +2833,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Pip and Milo",
+    "title": "Pip and Womby",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-      "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
-      "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "c,e,f,d": {
     "key": "c,e,f,d",
@@ -2848,14 +2850,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Pip and Milo",
+    "title": "Pip and Nova",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-      "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
-      "Nova's little canvas held the first scene, while the real room quietly held the sequel."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "c,f,a,b": {
     "key": "c,f,a,b",
@@ -2865,14 +2867,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Pip and Puff",
+    "title": "Pip and Womby",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-      "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
-      "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "c,f,a,d": {
     "key": "c,f,a,d",
@@ -2882,14 +2884,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Pip and Puff",
+    "title": "Pip and Nova",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-      "Brolly became a portable doorway, its patterned underside framing the earlier scene upside down.",
-      "Nova's brush pointed at a small star shaped like a signature, linking straight back to the start."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "c,f,a,e": {
     "key": "c,f,a,e",
@@ -2899,14 +2901,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Pip and Puff",
+    "title": "Pip and Milo",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-      "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
-      "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "c,f,b,a": {
     "key": "c,f,b,a",
@@ -2916,14 +2918,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Pip and Puff",
+    "title": "Pip and Brolly",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-      "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
-      "Someone lifted Brolly, and its underside matched the route overhead like a painted ceiling."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "c,f,b,d": {
     "key": "c,f,b,d",
@@ -2933,14 +2935,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Pip and Puff",
+    "title": "Pip and Nova",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-      "Nova turned the canvas sideways, and every shape lined up with the route from earlier."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "c,f,b,e": {
     "key": "c,f,b,e",
@@ -2950,14 +2952,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Pip and Puff",
+    "title": "Pip and Milo",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-      "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
-      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "c,f,d,a": {
     "key": "c,f,d,a",
@@ -2967,14 +2969,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Pip and Puff",
+    "title": "Pip and Brolly",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-      "Nova painted a reflection instead of a sky, and the earlier scene floated calmly above the table.",
-      "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Nova's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "c,f,d,b": {
     "key": "c,f,d,b",
@@ -2984,14 +2986,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Pip and Puff",
+    "title": "Pip and Womby",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-      "Nova added one last silver stroke, and the painting drifted off the paper with no gravity.",
-      "Womby's hood framed the last picture, showing every detour had followed the orange's round path."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Nova's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "c,f,d,e": {
     "key": "c,f,d,e",
@@ -3001,14 +3003,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Pip and Puff",
+    "title": "Pip and Milo",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-      "Nova's brushstroke unrolled into a ribbon of colour that curled through the room, joining everything.",
-      "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
+      "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Nova's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "c,f,e,a": {
     "key": "c,f,e,a",
@@ -3018,14 +3020,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Pip and Puff",
+    "title": "Pip and Brolly",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-      "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
-      "Brolly turned out to be a giant pop-up bookmark, holding the whole strange trip between two pages."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "c,f,e,b": {
     "key": "c,f,e,b",
@@ -3035,14 +3037,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Pip and Puff",
+    "title": "Pip and Womby",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-      "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
-      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "c,f,e,d": {
     "key": "c,f,e,d",
@@ -3052,14 +3054,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Pip and Puff",
+    "title": "Pip and Nova",
     "beats": [
-      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-      "Milo's moon caught the rain, and its craters filled with light like a glowing map.",
-      "Nova set the painting beside the first clue, and their edges joined perfectly, no gaps."
+      "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "d,a,b,c": {
     "key": "d,a,b,c",
@@ -3069,14 +3071,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Nova and Brolly",
+    "title": "Nova and Pip",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-      "Womby pushed off, and the orange rolled alongside like a tiny sun down the supermarket aisle.",
-      "Pip's shadow completed the outline of the earlier object, making the whole trip one folded design."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "d,a,b,e": {
     "key": "d,a,b,e",
@@ -3086,14 +3088,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Nova and Brolly",
+    "title": "Nova and Milo",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-      "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
-      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "d,a,b,f": {
     "key": "d,a,b,f",
@@ -3103,14 +3105,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Nova and Brolly",
+    "title": "Nova and Puff",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-      "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
-      "Puff cleared for a second, showing a tiny paper route folded inside the pocket-sized sky."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "d,a,c,b": {
     "key": "d,a,c,b",
@@ -3120,14 +3122,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Nova and Brolly",
+    "title": "Nova and Womby",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-      "Pip turned a tight circle around the lamp, and its huge shadow carried the clue across the ceiling.",
-      "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Pip's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "d,a,c,e": {
     "key": "d,a,c,e",
@@ -3137,14 +3139,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Nova and Brolly",
+    "title": "Nova and Milo",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-      "Pip swept through the lamp beam and cast the earlier scene in shadow across the books.",
-      "Milo turned the moon around, and the back was a painted theatre backdrop for every scene."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Pip's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "d,a,c,f": {
     "key": "d,a,c,f",
@@ -3154,14 +3156,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Nova and Brolly",
+    "title": "Nova and Puff",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-      "Pip looped the lamp and shook loose tiny paper stars, turning the shelves into a night sky.",
-      "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Pip's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "d,a,e,b": {
     "key": "d,a,e,b",
@@ -3171,14 +3173,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Nova and Brolly",
+    "title": "Nova and Womby",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-      "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
-      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "d,a,e,c": {
     "key": "d,a,e,c",
@@ -3188,14 +3190,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Nova and Brolly",
+    "title": "Nova and Pip",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-      "Pip rested beside the lamp, and its creases matched the route exactly, like a folded map."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "d,a,e,f": {
     "key": "d,a,e,f",
@@ -3205,14 +3207,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Nova and Brolly",
+    "title": "Nova and Puff",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-      "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
-      "Puff's reflection stitched the first picture to the last one, all inside a small round bowl."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "d,a,f,b": {
     "key": "d,a,f,b",
@@ -3222,14 +3224,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Nova and Brolly",
+    "title": "Nova and Womby",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-      "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
-      "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "d,a,f,c": {
     "key": "d,a,f,c",
@@ -3239,14 +3241,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Nova and Brolly",
+    "title": "Nova and Pip",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-      "Puff swirled into a tiny map, and its raindrops fell upwards towards the timetable.",
-      "The lamp threw all four scenes onto one wall, with Pip quietly arranging the shadows."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "d,a,f,e": {
     "key": "d,a,f,e",
@@ -3256,14 +3258,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Nova and Brolly",
+    "title": "Nova and Milo",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-      "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
-      "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "d,b,a,c": {
     "key": "d,b,a,c",
@@ -3273,14 +3275,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Nova and Womby",
+    "title": "Nova and Pip",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-      "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
-      "Pip settled into a book's gutter, where the two pages held the first and last scenes together."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "d,b,a,e": {
     "key": "d,b,a,e",
@@ -3290,14 +3292,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Nova and Womby",
+    "title": "Nova and Milo",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-      "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
-      "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "d,b,a,f": {
     "key": "d,b,a,f",
@@ -3307,14 +3309,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Nova and Womby",
+    "title": "Nova and Puff",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-      "Brolly tilted and poured out paper shapes instead of rain, each one from the trip so far.",
-      "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "d,b,c,a": {
     "key": "d,b,c,a",
@@ -3324,14 +3326,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Nova and Womby",
+    "title": "Nova and Brolly",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-      "A warm gust from the lamp spun Pip upwards, its wings shaped like a moonlit map.",
-      "Brolly stood exactly where it all began, its curved handle finishing the loop of the route."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Pip's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "d,b,c,e": {
     "key": "d,b,c,e",
@@ -3341,14 +3343,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Nova and Womby",
+    "title": "Nova and Milo",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-      "Pip turned a tight circle around the lamp, and its huge shadow carried the clue across the ceiling.",
-      "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Pip's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "d,b,c,f": {
     "key": "d,b,c,f",
@@ -3358,14 +3360,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Nova and Womby",
+    "title": "Nova and Puff",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-      "A warm gust from the lamp spun Pip upwards, its wings shaped like a moonlit map.",
-      "Puff sat beside the first scene, and the cloud's reflection filled the last missing shape perfectly."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Pip's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "d,b,e,a": {
     "key": "d,b,e,a",
@@ -3375,14 +3377,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Nova and Womby",
+    "title": "Nova and Brolly",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-      "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "d,b,e,c": {
     "key": "d,b,e,c",
@@ -3392,14 +3394,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Nova and Womby",
+    "title": "Nova and Pip",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-      "Milo lifted the moon against the grey sky, and its cut-out framed the earlier scenes perfectly.",
-      "Pip landed on an open book, and the picture underneath was the opening scene all along."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "d,b,e,f": {
     "key": "d,b,e,f",
@@ -3409,14 +3411,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Nova and Womby",
+    "title": "Nova and Puff",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-      "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "d,b,f,a": {
     "key": "d,b,f,a",
@@ -3426,14 +3428,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Nova and Womby",
+    "title": "Nova and Brolly",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-      "Puff swirled into a tiny map, and its raindrops fell upwards towards the timetable.",
-      "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "d,b,f,c": {
     "key": "d,b,f,c",
@@ -3443,14 +3445,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Nova and Womby",
+    "title": "Nova and Pip",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-      "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
-      "Pip settled into a book's gutter, where the two pages held the first and last scenes together."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "d,b,f,e": {
     "key": "d,b,f,e",
@@ -3460,14 +3462,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Nova and Womby",
+    "title": "Nova and Milo",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-      "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
-      "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "d,c,a,b": {
     "key": "d,c,a,b",
@@ -3477,14 +3479,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Nova and Pip",
+    "title": "Nova and Womby",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-      "Brolly opened wider than the table and caught a swirl of coloured paper, like friendly weather.",
-      "Womby's skateboard path curved back to the opening scene, with the orange marking the way."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "d,c,a,e": {
     "key": "d,c,a,e",
@@ -3494,14 +3496,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Nova and Pip",
+    "title": "Nova and Milo",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-      "Brolly became a portable doorway, its patterned underside framing the earlier scene upside down.",
-      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "d,c,a,f": {
     "key": "d,c,a,f",
@@ -3511,14 +3513,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Nova and Pip",
+    "title": "Nova and Puff",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-      "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
-      "Puff cleared for a second, showing a tiny paper route folded inside the pocket-sized sky."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "d,c,b,a": {
     "key": "d,c,b,a",
@@ -3528,14 +3530,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Nova and Pip",
+    "title": "Nova and Brolly",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-      "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
-      "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "d,c,b,e": {
     "key": "d,c,b,e",
@@ -3545,14 +3547,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Nova and Pip",
+    "title": "Nova and Milo",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-      "Milo turned the moon around, and the back was a painted theatre backdrop for every scene."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "d,c,b,f": {
     "key": "d,c,b,f",
@@ -3562,14 +3564,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Nova and Pip",
+    "title": "Nova and Puff",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-      "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
-      "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "d,c,e,a": {
     "key": "d,c,e,a",
@@ -3579,14 +3581,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Nova and Pip",
+    "title": "Nova and Brolly",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-      "Milo lifted the moon against the grey sky, and its cut-out framed the earlier scenes perfectly.",
-      "Brolly stood exactly where it all began, its curved handle finishing the loop of the route."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "d,c,e,b": {
     "key": "d,c,e,b",
@@ -3596,14 +3598,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Nova and Pip",
+    "title": "Nova and Womby",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-      "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
-      "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "d,c,e,f": {
     "key": "d,c,e,f",
@@ -3613,14 +3615,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Nova and Pip",
+    "title": "Nova and Puff",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-      "Milo lifted the moon against the grey sky, and its cut-out framed the earlier scenes perfectly.",
-      "Puff sat beside the first scene, and the cloud's reflection filled the last missing shape perfectly."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "d,c,f,a": {
     "key": "d,c,f,a",
@@ -3630,14 +3632,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Nova and Pip",
+    "title": "Nova and Brolly",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-      "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
-      "Someone lifted Brolly, and its underside matched the route overhead like a painted ceiling."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "d,c,f,b": {
     "key": "d,c,f,b",
@@ -3647,14 +3649,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Nova and Pip",
+    "title": "Nova and Womby",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-      "Puff copied the earlier scene, then let a gentle drizzle fall that stopped at the shelter's edge.",
-      "Womby's skateboard path curved back to the opening scene, with the orange marking the way."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "d,c,f,e": {
     "key": "d,c,f,e",
@@ -3664,14 +3666,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Nova and Pip",
+    "title": "Nova and Milo",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-      "Puff grew a small silver lining, and the bus-stop glass turned the earlier scene into a postcard.",
-      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "d,e,a,b": {
     "key": "d,e,a,b",
@@ -3681,14 +3683,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Nova and Milo",
+    "title": "Nova and Womby",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-      "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
-      "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "d,e,a,c": {
     "key": "d,e,a,c",
@@ -3698,14 +3700,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Nova and Milo",
+    "title": "Nova and Pip",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-      "Brolly opened wider than the table and caught a swirl of coloured paper, like friendly weather.",
-      "Pip landed on an open book, and the picture underneath was the opening scene all along."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "d,e,a,f": {
     "key": "d,e,a,f",
@@ -3715,14 +3717,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Nova and Milo",
+    "title": "Nova and Puff",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-      "Brolly became a portable doorway, its patterned underside framing the earlier scene upside down.",
-      "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "d,e,b,a": {
     "key": "d,e,b,a",
@@ -3732,14 +3734,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Nova and Milo",
+    "title": "Nova and Brolly",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-      "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "d,e,b,c": {
     "key": "d,e,b,c",
@@ -3749,14 +3751,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Nova and Milo",
+    "title": "Nova and Pip",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-      "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
-      "Pip settled into a book's gutter, where the two pages held the first and last scenes together."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "d,e,b,f": {
     "key": "d,e,b,f",
@@ -3766,14 +3768,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Nova and Milo",
+    "title": "Nova and Puff",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-      "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "d,e,c,a": {
     "key": "d,e,c,a",
@@ -3783,14 +3785,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Nova and Milo",
+    "title": "Nova and Brolly",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-      "Pip landed on the lampshade, which spun gently and swept light back across the earlier scene.",
-      "Brolly turned out to be a giant pop-up bookmark, holding the whole strange trip between two pages."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Pip's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "d,e,c,b": {
     "key": "d,e,c,b",
@@ -3800,14 +3802,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Nova and Milo",
+    "title": "Nova and Womby",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-      "Pip swept through the lamp beam and cast the earlier scene in shadow across the books.",
-      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Pip's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "d,e,c,f": {
     "key": "d,e,c,f",
@@ -3817,14 +3819,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Nova and Milo",
+    "title": "Nova and Puff",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-      "Pip landed on the lampshade, which spun gently and swept light back across the earlier scene.",
-      "Puff's reflection stitched the first picture to the last one, all inside a small round bowl."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "What helped Pip's picture make sense by the end?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "d,e,f,a": {
     "key": "d,e,f,a",
@@ -3834,14 +3836,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Nova and Milo",
+    "title": "Nova and Brolly",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-      "Puff grew a small silver lining, and the bus-stop glass turned the earlier scene into a postcard.",
-      "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "d,e,f,b": {
     "key": "d,e,f,b",
@@ -3851,14 +3853,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Nova and Milo",
+    "title": "Nova and Womby",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-      "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
-      "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "d,e,f,c": {
     "key": "d,e,f,c",
@@ -3868,14 +3870,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Nova and Milo",
+    "title": "Nova and Pip",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-      "Puff copied the earlier scene, then let a gentle drizzle fall that stopped at the shelter's edge.",
-      "Pip landed on an open book, and the picture underneath was the opening scene all along."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What helped Puff's picture make sense by the end?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "d,f,a,b": {
     "key": "d,f,a,b",
@@ -3885,14 +3887,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Nova and Puff",
+    "title": "Nova and Womby",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-      "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
-      "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "d,f,a,c": {
     "key": "d,f,a,c",
@@ -3902,14 +3904,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Nova and Puff",
+    "title": "Nova and Pip",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-      "Brolly tilted and poured out paper shapes instead of rain, each one from the trip so far.",
-      "The lamp threw all four scenes onto one wall, with Pip quietly arranging the shadows."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "d,f,a,e": {
     "key": "d,f,a,e",
@@ -3919,14 +3921,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Nova and Puff",
+    "title": "Nova and Milo",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-      "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
-      "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Brolly's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "d,f,b,a": {
     "key": "d,f,b,a",
@@ -3936,14 +3938,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Nova and Puff",
+    "title": "Nova and Brolly",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-      "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
-      "Someone lifted Brolly, and its underside matched the route overhead like a painted ceiling."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "d,f,b,c": {
     "key": "d,f,b,c",
@@ -3953,14 +3955,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Nova and Puff",
+    "title": "Nova and Pip",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-      "Womby pushed off, and the orange rolled alongside like a tiny sun down the supermarket aisle.",
-      "Pip's shadow completed the outline of the earlier object, making the whole trip one folded design."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "d,f,b,e": {
     "key": "d,f,b,e",
@@ -3970,14 +3972,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Nova and Puff",
+    "title": "Nova and Milo",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-      "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
-      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
+      "Nova sat down at the art table, picked up a brush and faced a blank page.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "What helped Womby's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "d,f,c,a": {
     "key": "d,f,c,a",
@@ -3987,14 +3989,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Nova and Puff",
+    "title": "Nova and Brolly",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-      "Pip looped the lamp and shook loose tiny paper stars, turning the shelves into a night sky.",
-      "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Pip's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "d,f,c,b": {
     "key": "d,f,c,b",
@@ -4004,14 +4006,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Nova and Puff",
+    "title": "Nova and Womby",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-      "Pip turned a tight circle around the lamp, and its huge shadow carried the clue across the ceiling.",
-      "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Pip's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "d,f,c,e": {
     "key": "d,f,c,e",
@@ -4021,14 +4023,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Nova and Puff",
+    "title": "Nova and Milo",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-      "Pip swept through the lamp beam and cast the earlier scene in shadow across the books.",
-      "Milo turned the moon around, and the back was a painted theatre backdrop for every scene."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What helped Pip's picture make sense by the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "d,f,e,a": {
     "key": "d,f,e,a",
@@ -4038,14 +4040,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Nova and Puff",
+    "title": "Nova and Brolly",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-      "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
-      "Brolly turned out to be a giant pop-up bookmark, holding the whole strange trip between two pages."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "d,f,e,b": {
     "key": "d,f,e,b",
@@ -4055,14 +4057,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Nova and Puff",
+    "title": "Nova and Womby",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-      "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
-      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "d,f,e,c": {
     "key": "d,f,e,c",
@@ -4072,14 +4074,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Nova and Puff",
+    "title": "Nova and Pip",
     "beats": [
-      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-      "Pip rested beside the lamp, and its creases matched the route exactly, like a folded map."
+      "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What helped Milo's picture make sense by the end?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "e,a,b,c": {
     "key": "e,a,b,c",
@@ -4091,12 +4093,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Pip",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
-      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Brolly.",
-      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "How does Pip's picture change everything before it?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "e,a,b,d": {
     "key": "e,a,b,d",
@@ -4108,12 +4110,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Nova",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
-      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Brolly.",
-      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's picture change everything before it?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "e,a,b,f": {
     "key": "e,a,b,f",
@@ -4125,12 +4127,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Puff",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
-      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Brolly.",
-      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "How does Puff's picture change everything before it?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "e,a,c,b": {
     "key": "e,a,c,b",
@@ -4142,12 +4144,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Womby",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
-      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
-      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "How does Womby's picture change everything before it?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "e,a,c,d": {
     "key": "e,a,c,d",
@@ -4159,12 +4161,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Nova",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
-      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
-      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's picture change everything before it?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "e,a,c,f": {
     "key": "e,a,c,f",
@@ -4176,12 +4178,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Puff",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
-      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
-      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "How does Puff's picture change everything before it?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "e,a,d,b": {
     "key": "e,a,d,b",
@@ -4193,12 +4195,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Womby",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
-      "Nova painted a silver path between the moon and Brolly, and the table became a little map.",
-      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "How does Womby's picture change everything before it?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "e,a,d,c": {
     "key": "e,a,d,c",
@@ -4210,12 +4212,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Pip",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
-      "Nova painted a silver path between the moon and Brolly, and the table became a little map.",
-      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "How does Pip's picture change everything before it?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "e,a,d,f": {
     "key": "e,a,d,f",
@@ -4227,12 +4229,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Puff",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
-      "Nova painted a silver path between the moon and Brolly, and the table became a little map.",
-      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "How does Puff's picture change everything before it?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "e,a,f,b": {
     "key": "e,a,f,b",
@@ -4244,12 +4246,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Womby",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
-      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
-      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "How does Womby's picture change everything before it?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "e,a,f,c": {
     "key": "e,a,f,c",
@@ -4261,12 +4263,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Pip",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
-      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
-      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "How does Pip's picture change everything before it?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "e,a,f,d": {
     "key": "e,a,f,d",
@@ -4278,12 +4280,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Nova",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
-      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
-      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's picture change everything before it?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "e,b,a,c": {
     "key": "e,b,a,c",
@@ -4295,12 +4297,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Pip",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
-      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
-      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "How does Pip's picture change everything before it?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "e,b,a,d": {
     "key": "e,b,a,d",
@@ -4312,12 +4314,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Nova",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
-      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
-      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's picture change everything before it?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "e,b,a,f": {
     "key": "e,b,a,f",
@@ -4329,12 +4331,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Puff",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
-      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
-      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "How does Puff's picture change everything before it?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "e,b,c,a": {
     "key": "e,b,c,a",
@@ -4346,12 +4348,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Brolly",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
-      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
-      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "How does Brolly's picture change everything before it?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "e,b,c,d": {
     "key": "e,b,c,d",
@@ -4363,12 +4365,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Nova",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
-      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
-      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's picture change everything before it?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "e,b,c,f": {
     "key": "e,b,c,f",
@@ -4380,12 +4382,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Puff",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
-      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
-      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "How does Puff's picture change everything before it?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "e,b,d,a": {
     "key": "e,b,d,a",
@@ -4397,12 +4399,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Brolly",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
-      "Nova painted a silver path between the moon and Womby, and the table became a little map.",
-      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "How does Brolly's picture change everything before it?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "e,b,d,c": {
     "key": "e,b,d,c",
@@ -4414,12 +4416,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Pip",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
-      "Nova painted a silver path between the moon and Womby, and the table became a little map.",
-      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "How does Pip's picture change everything before it?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "e,b,d,f": {
     "key": "e,b,d,f",
@@ -4431,12 +4433,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Puff",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
-      "Nova painted a silver path between the moon and Womby, and the table became a little map.",
-      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "How does Puff's picture change everything before it?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "e,b,f,a": {
     "key": "e,b,f,a",
@@ -4448,12 +4450,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Brolly",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
-      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
-      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "How does Brolly's picture change everything before it?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "e,b,f,c": {
     "key": "e,b,f,c",
@@ -4465,12 +4467,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Pip",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
-      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
-      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "How does Pip's picture change everything before it?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "e,b,f,d": {
     "key": "e,b,f,d",
@@ -4482,12 +4484,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Nova",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
-      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
-      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's picture change everything before it?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "e,c,a,b": {
     "key": "e,c,a,b",
@@ -4499,12 +4501,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Womby",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
-      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
-      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "How does Womby's picture change everything before it?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "e,c,a,d": {
     "key": "e,c,a,d",
@@ -4516,12 +4518,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Nova",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
-      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
-      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's picture change everything before it?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "e,c,a,f": {
     "key": "e,c,a,f",
@@ -4533,12 +4535,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Puff",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
-      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
-      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "How does Puff's picture change everything before it?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "e,c,b,a": {
     "key": "e,c,b,a",
@@ -4550,12 +4552,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Brolly",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
-      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Pip.",
-      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "How does Brolly's picture change everything before it?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "e,c,b,d": {
     "key": "e,c,b,d",
@@ -4567,12 +4569,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Nova",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
-      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Pip.",
-      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's picture change everything before it?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "e,c,b,f": {
     "key": "e,c,b,f",
@@ -4584,12 +4586,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Puff",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
-      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Pip.",
-      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "How does Puff's picture change everything before it?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "e,c,d,a": {
     "key": "e,c,d,a",
@@ -4601,12 +4603,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Brolly",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
-      "Nova painted a silver path between the moon and Pip, and the table became a little map.",
-      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "How does Brolly's picture change everything before it?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "e,c,d,b": {
     "key": "e,c,d,b",
@@ -4618,12 +4620,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Womby",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
-      "Nova painted a silver path between the moon and Pip, and the table became a little map.",
-      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "How does Womby's picture change everything before it?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "e,c,d,f": {
     "key": "e,c,d,f",
@@ -4635,12 +4637,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Puff",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
-      "Nova painted a silver path between the moon and Pip, and the table became a little map.",
-      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "How does Puff's picture change everything before it?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "e,c,f,a": {
     "key": "e,c,f,a",
@@ -4652,12 +4654,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Brolly",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
-      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
-      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "How does Brolly's picture change everything before it?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "e,c,f,b": {
     "key": "e,c,f,b",
@@ -4669,12 +4671,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Womby",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
-      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
-      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "How does Womby's picture change everything before it?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "e,c,f,d": {
     "key": "e,c,f,d",
@@ -4686,12 +4688,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Nova",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
-      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
-      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's picture change everything before it?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "e,d,a,b": {
     "key": "e,d,a,b",
@@ -4703,12 +4705,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Womby",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
-      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
-      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "How does Womby's picture change everything before it?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "e,d,a,c": {
     "key": "e,d,a,c",
@@ -4720,12 +4722,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Pip",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
-      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
-      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "How does Pip's picture change everything before it?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "e,d,a,f": {
     "key": "e,d,a,f",
@@ -4737,12 +4739,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Puff",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
-      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
-      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "How does Puff's picture change everything before it?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "e,d,b,a": {
     "key": "e,d,b,a",
@@ -4754,12 +4756,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Brolly",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
-      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Nova.",
-      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "How does Brolly's picture change everything before it?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "e,d,b,c": {
     "key": "e,d,b,c",
@@ -4771,12 +4773,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Pip",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
-      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Nova.",
-      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "How does Pip's picture change everything before it?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "e,d,b,f": {
     "key": "e,d,b,f",
@@ -4788,12 +4790,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Puff",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
-      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Nova.",
-      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
     ],
-    "readerQuestion": "How does Puff's picture change everything before it?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "e,d,c,a": {
     "key": "e,d,c,a",
@@ -4805,12 +4807,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Brolly",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
-      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
-      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "How does Brolly's picture change everything before it?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "e,d,c,b": {
     "key": "e,d,c,b",
@@ -4822,12 +4824,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Womby",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
-      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
-      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "How does Womby's picture change everything before it?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "e,d,c,f": {
     "key": "e,d,c,f",
@@ -4839,12 +4841,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Puff",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
-      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
-      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "No bus came, and the last of the light found a cloud sitting in a fishbowl."
     ],
-    "readerQuestion": "How does Puff's picture change everything before it?"
+    "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
   },
   "e,d,f,a": {
     "key": "e,d,f,a",
@@ -4856,12 +4858,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Brolly",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
-      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
-      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "How does Brolly's picture change everything before it?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "e,d,f,b": {
     "key": "e,d,f,b",
@@ -4873,12 +4875,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Womby",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
-      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
-      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "How does Womby's picture change everything before it?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "e,d,f,c": {
     "key": "e,d,f,c",
@@ -4890,12 +4892,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Pip",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
-      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
-      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "How does Pip's picture change everything before it?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "e,f,a,b": {
     "key": "e,f,a,b",
@@ -4907,12 +4909,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Womby",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
-      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
-      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "How does Womby's picture change everything before it?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "e,f,a,c": {
     "key": "e,f,a,c",
@@ -4924,12 +4926,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Pip",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
-      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
-      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "How does Pip's picture change everything before it?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "e,f,a,d": {
     "key": "e,f,a,d",
@@ -4941,12 +4943,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Nova",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
-      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
-      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's picture change everything before it?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "e,f,b,a": {
     "key": "e,f,b,a",
@@ -4958,12 +4960,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Brolly",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
-      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Puff.",
-      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "How does Brolly's picture change everything before it?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "e,f,b,c": {
     "key": "e,f,b,c",
@@ -4975,12 +4977,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Pip",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
-      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Puff.",
-      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "How does Pip's picture change everything before it?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "e,f,b,d": {
     "key": "e,f,b,d",
@@ -4992,12 +4994,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Nova",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
-      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Puff.",
-      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "How does Nova's picture change everything before it?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "e,f,c,a": {
     "key": "e,f,c,a",
@@ -5009,12 +5011,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Brolly",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
-      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
-      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "How does Brolly's picture change everything before it?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "e,f,c,b": {
     "key": "e,f,c,b",
@@ -5026,12 +5028,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Womby",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
-      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
-      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "How does Womby's picture change everything before it?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "e,f,c,d": {
     "key": "e,f,c,d",
@@ -5043,12 +5045,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Nova",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
-      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
-      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
+      "Milo waited at the tram stop in a yellow raincoat, holding a cardboard moon.",
+      "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+      "Pip was still airborne between the shelves, and the lamp on his wing had not tipped over.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "How does Nova's picture change everything before it?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "e,f,d,a": {
     "key": "e,f,d,a",
@@ -5060,12 +5062,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Brolly",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
-      "Nova painted a silver path between the moon and Puff, and the table became a little map.",
-      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "How does Brolly's picture change everything before it?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "e,f,d,b": {
     "key": "e,f,d,b",
@@ -5077,12 +5079,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Womby",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
-      "Nova painted a silver path between the moon and Puff, and the table became a little map.",
-      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "How does Womby's picture change everything before it?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "e,f,d,c": {
     "key": "e,f,d,c",
@@ -5094,12 +5096,12 @@ window.FOUR_FRAMES_STORY_BANK = {
     ],
     "title": "Milo and Pip",
     "beats": [
-      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
-      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
-      "Nova painted a silver path between the moon and Puff, and the table became a little map.",
-      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
+      "The rain had stopped, the street shone, and a teenager waited for a tram holding a moon.",
+      "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+      "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "How does Pip's picture change everything before it?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "f,a,b,c": {
     "key": "f,a,b,c",
@@ -5109,14 +5111,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Puff needs a runway",
+    "title": "Puff and Pip",
     "beats": [
-      "Puff drifted quietly inside a fishbowl at the bus stop, waiting for a bus.",
-      "Brolly stood open on the art-room table, right beneath the window.",
-      "Womby rolled through the supermarket on the red skateboard, keeping one eye on the orange.",
-      "Pip zoomed through the library, proving Puff had used Brolly as a launch runway."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "Why was Brolly left open indoors?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "f,a,b,d": {
     "key": "f,a,b,d",
@@ -5126,14 +5128,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Puff gets a portrait",
+    "title": "Puff and Nova",
     "beats": [
-      "Puff drifted quietly inside a fishbowl at the bus stop, waiting for a bus.",
-      "Brolly waited open on the art-room table, expecting weather that never came.",
-      "Womby rode through the supermarket on the red skateboard, keeping pace with the orange.",
-      "Nova painted at the table, and Brolly had been catching a cloud for the picture."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "What will Nova paint next in the story?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "f,a,b,e": {
     "key": "f,a,b,e",
@@ -5143,14 +5145,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Milo's cover",
+    "title": "Puff and Milo",
     "beats": [
-      "Puff drifted quietly inside a fishbowl at the bus stop, waiting for a bus.",
-      "Brolly sat open on the art-room table, taking up far too much space.",
-      "Womby skateboarded down the supermarket aisle beside one very patient orange.",
-      "Milo carried the cardboard moon through the rain, and Brolly had only ever been a prop."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "Which weather prop belongs with Milo's moon?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "f,a,c,b": {
     "key": "f,a,c,b",
@@ -5160,14 +5162,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Pip's library forecast",
+    "title": "Puff and Womby",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff curled up inside it.",
-      "Brolly sat open on the art-room table, ready for indoor rain.",
-      "Pip flew through the library carrying one single drop of water on its wing.",
-      "Womby rolled past the orange in a yellow raincoat, because the forecast had arrived early."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "Why is Womby wearing a raincoat indoors?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "f,a,c,d": {
     "key": "f,a,c,d",
@@ -5177,14 +5179,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "Pip studies Puff",
+    "title": "Puff and Nova",
     "beats": [
-      "At the bus stop, Puff floated inside a fishbowl like a very small weather report.",
-      "Brolly stood open on the art-room table, shading absolutely nothing.",
-      "Pip looped through the library, trailing a small cloudy streak behind it.",
-      "Nova painted at the table, and Pip had been tracing that exact cloud shape."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What shape did Pip trace in the sky?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "f,a,c,e": {
     "key": "f,a,c,e",
@@ -5194,14 +5196,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Milo catches the weather",
+    "title": "Puff and Milo",
     "beats": [
-      "A fishbowl sat beside the bus stop with Puff drifting slowly inside.",
-      "Brolly sat open on the art-room table, taking up far too much space.",
-      "Pip flew through the library with one wingtip suspiciously damp.",
-      "Milo carried the cardboard moon through the wet tram stop, part of the same rainy afternoon."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What other prop could finish the weather set?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "f,a,d,b": {
     "key": "f,a,d,b",
@@ -5211,14 +5213,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Nova's weather test",
+    "title": "Puff and Womby",
     "beats": [
-      "A fishbowl sat at the bus stop, holding Puff and nothing else.",
-      "Brolly waited open on the art-room table, patient as ever.",
-      "Nova painted a cloud that promptly began spilling over the edge of the table.",
-      "Womby rolled in wearing the yellow raincoat, the only one prepared for a spill."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "What does the raincoat tell you about Nova's painting?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "f,a,d,c": {
     "key": "f,a,d,c",
@@ -5228,14 +5230,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "Nova's paper weather",
+    "title": "Puff and Pip",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff floating gently inside.",
-      "Brolly stood open on the art-room table, shading absolutely nothing.",
-      "Nova painted a gust, and every loose sheet on the table lifted at once.",
-      "Pip zipped through the library, launched by Nova's painted weather."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "Which picture makes Pip so surprising?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "f,a,d,e": {
     "key": "f,a,d,e",
@@ -5245,14 +5247,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Painting Milo's sky",
+    "title": "Puff and Milo",
     "beats": [
-      "A fishbowl held Puff at the bus stop, quiet and slightly foggy.",
-      "Brolly sat open on the art-room table, taking up far too much space.",
-      "Nova painted rain, and it looked like it was running straight off the canvas.",
-      "Milo reached the wet tram stop with the cardboard moon, standing in Nova's painted weather."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "Where did the painted rain end up?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "f,a,e,b": {
     "key": "f,a,e,b",
@@ -5262,14 +5264,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "A moon for Puff",
+    "title": "Puff and Womby",
     "beats": [
-      "A fishbowl was left at the bus stop with Puff still inside.",
-      "Brolly waited open on the art-room table, hoping something interesting would happen.",
-      "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
-      "Womby rolled past with the orange, which was the tiny sun for Milo's cardboard moon."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "Why does the orange make Milo's moon funnier?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "f,a,e,c": {
     "key": "f,a,e,c",
@@ -5279,14 +5281,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Milo's umbrella flight",
+    "title": "Puff and Pip",
     "beats": [
-      "A fishbowl waited at the bus stop, Puff drifting inside it.",
-      "Brolly stood open on the art-room table, shading absolutely nothing.",
-      "Milo reached the wet tram stop, still holding the oversized cardboard moon steady.",
-      "Pip flew through the library, carrying Brolly off towards the moon scene."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What has Pip delivered so far?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "f,a,e,d": {
     "key": "f,a,e,d",
@@ -5296,14 +5298,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Nova's moon forecast",
+    "title": "Puff and Nova",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Brolly stood open on the art-room table, shading absolutely nothing.",
-      "Milo carried the oversized cardboard moon at the wet tram stop, arms getting tired.",
-      "Nova painted at the art table, using Milo's cardboard moon as the model."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "In the art room, Brolly was still open on the table, and nobody had touched him.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What part of the model explains the wet tram stop?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "f,b,a,c": {
     "key": "f,b,a,c",
@@ -5313,14 +5315,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Womby's cloud parcel",
+    "title": "Puff and Pip",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff curled up inside it.",
-      "Womby rode the red skateboard through the supermarket beside one orange.",
-      "Womby opened Brolly on the art-room table, and the cloud began raining upwards.",
-      "Pip flew through the library, collecting every upward raindrop as it went."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "Why is Pip flying through the library?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "f,b,a,d": {
     "key": "f,b,a,d",
@@ -5330,14 +5332,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Womby's raincoat",
+    "title": "Puff and Nova",
     "beats": [
-      "A fishbowl waited at the bus stop, Puff drifting inside it.",
-      "Womby rolled the red skateboard past an orange in the supermarket, going slowly.",
-      "Brolly opened on the art-room table and caught a cloud-shadow instead of rain.",
-      "Nova painted at the table, using Womby's yellow raincoat as the model."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What did Nova borrow from Womby?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "f,b,a,e": {
     "key": "f,b,a,e",
@@ -5347,14 +5349,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Womby's moon substitute",
+    "title": "Puff and Milo",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Womby rode the red skateboard beside an orange, taking the supermarket aisle slowly.",
-      "Brolly opened on the art-room table, and the orange rolled straight into its centre.",
-      "Milo carried the cardboard moon through the rain, and the orange had been the practice run."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "Why was the orange under the umbrella?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "f,b,c,a": {
     "key": "f,b,c,a",
@@ -5364,14 +5366,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Womby visits the library",
+    "title": "Puff and Brolly",
     "beats": [
-      "A fishbowl sat at the bus stop with Puff drifting inside.",
-      "Womby rode the red skateboard through the supermarket beside one orange.",
-      "Pip flew through the library, leaving a cloud-shaped trail behind it.",
-      "Brolly opened on the art-room table, exactly where Pip had been planning to land."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "Why does Pip need an umbrella landing pad?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "f,b,c,d": {
     "key": "f,b,c,d",
@@ -5381,14 +5383,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "Womby's flying sketch",
+    "title": "Puff and Nova",
     "beats": [
-      "A fishbowl waited at the bus stop, Puff fogging up the glass.",
-      "Womby skateboarded through the supermarket beside one orange, taking the corners gently.",
-      "Pip flew through the library with the orange balanced neatly on one wing.",
-      "Nova painted at the art table, where that impossible flight had started as a sketch."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "Which object makes the flight impossible?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "f,b,c,e": {
     "key": "f,b,c,e",
@@ -5398,14 +5400,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Milo's supermarket flight",
+    "title": "Puff and Milo",
     "beats": [
-      "A fishbowl held Puff at the bus stop, waiting patiently.",
-      "Womby rolled the red skateboard beside an orange in the supermarket.",
-      "Pip flew through the library carrying the orange along like a small orange moon.",
-      "Milo arrived at the wet tram stop with the cardboard moon, the orange being the rehearsal."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What is the orange practising to be?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "f,b,d,a": {
     "key": "f,b,d,a",
@@ -5415,14 +5417,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Nova borrows a raincoat",
+    "title": "Puff and Brolly",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Womby passed an orange in the supermarket, riding the red skateboard as usual.",
-      "Nova painted rain across the art table until the paint turned into an actual puddle.",
-      "Brolly opened over the table, which explained why Womby had dressed for rain."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What turned Nova's painted rain into a problem?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "f,b,d,c": {
     "key": "f,b,d,c",
@@ -5432,14 +5434,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "Nova's painted launch",
+    "title": "Puff and Pip",
     "beats": [
-      "A fishbowl sat at the bus stop, holding Puff quietly.",
-      "Womby rode the red skateboard through the supermarket beside one orange.",
-      "Nova painted a strong gust right across the art table.",
-      "Pip flew through the library, launched by Nova's painted gust."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What made Pip start flying in the first place?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "f,b,d,e": {
     "key": "f,b,d,e",
@@ -5449,14 +5451,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Nova's wet moon",
+    "title": "Puff and Milo",
     "beats": [
-      "A fishbowl waited by the bus stop with Puff inside.",
-      "Womby rode the red skateboard beside an orange, taking the supermarket aisle slowly.",
-      "Nova painted a moon, and it immediately started dripping rain down the page.",
-      "Milo carried the cardboard moon through real rain, because Nova had painted it far too accurately."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "Why is the tram stop wet in this story?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "f,b,e,a": {
     "key": "f,b,e,a",
@@ -5466,14 +5468,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Milo's tiny umbrella",
+    "title": "Puff and Brolly",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Womby skateboarded through the supermarket beside one orange, taking the corners gently.",
-      "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
-      "Brolly opened on the art-room table, with the orange sitting underneath as a tiny moon."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What makes Brolly seem giant in the last picture?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "f,b,e,c": {
     "key": "f,b,e,c",
@@ -5483,14 +5485,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "A plane for Milo",
+    "title": "Puff and Pip",
     "beats": [
-      "A fishbowl waited at the bus stop, Puff turning slowly inside.",
-      "Womby rode the red skateboard beside an orange through the supermarket.",
-      "Milo carried the oversized cardboard moon into the wet tram stop, shoulders already aching.",
-      "Pip flew through the library, heading straight for Milo's cardboard moon."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What might Pip carry to Milo?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "f,b,e,d": {
     "key": "f,b,e,d",
@@ -5500,14 +5502,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Milo's rehearsal painting",
+    "title": "Puff and Nova",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Womby rolled the red skateboard beside an orange in the supermarket.",
-      "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
-      "Nova painted at the art table, and the whole rainy moon trip had been rehearsal."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "Which prop helps Nova plan the painting?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "f,c,a,b": {
     "key": "f,c,a,b",
@@ -5517,14 +5519,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Brolly's air mail",
+    "title": "Puff and Womby",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff curled up inside it.",
-      "Pip flew a lazy lap through the library, in no hurry at all.",
-      "Brolly opened on the art-room table and caught Pip, who was carrying one cloud-drop.",
-      "Womby rolled past the orange in the yellow raincoat, exactly right for a damp delivery."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What did Pip deliver in the end?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "f,c,a,d": {
     "key": "f,c,a,d",
@@ -5534,14 +5536,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Brolly's flight study",
+    "title": "Puff and Nova",
     "beats": [
-      "A fishbowl sat beside the bus stop with Puff drifting inside.",
-      "Pip flew a lazy lap through the library, in no hurry at all.",
-      "Brolly sat open on the table and pulled Pip down like a very polite magnet.",
-      "Nova painted at the table, testing Brolly and Pip for a space-weather picture."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What is Nova testing with her painting?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "f,c,a,e": {
     "key": "f,c,a,e",
@@ -5551,14 +5553,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Brolly's moon landing",
+    "title": "Puff and Milo",
     "beats": [
-      "A fishbowl sat at the bus stop, holding Puff and nothing else.",
-      "Pip flew a lazy lap through the library, in no hurry at all.",
-      "Brolly opened on the art-room table, and Pip landed neatly on its curved surface.",
-      "Milo carried the cardboard moon at the wet tram stop, and that landing had been practice."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "Why does Brolly look like a moon surface?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "f,c,b,a": {
     "key": "f,c,b,a",
@@ -5568,14 +5570,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Womby's weather report",
+    "title": "Puff and Brolly",
     "beats": [
-      "A fishbowl held Puff at the bus stop, waiting patiently.",
-      "Pip flew a lazy lap through the library, in no hurry at all.",
-      "Womby rode past the orange while a small cloud gathered above the supermarket aisle.",
-      "Brolly opened on the art-room table, waiting patiently for Womby's weather report."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What tells you Womby brought weather inside?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "f,c,b,d": {
     "key": "f,c,b,d",
@@ -5585,14 +5587,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Womby's orange sketch",
+    "title": "Puff and Nova",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff curled up inside it.",
-      "Pip flew a lazy lap through the library, in no hurry at all.",
-      "Womby balanced the supermarket orange right on Pip's paper nose.",
-      "Nova painted at the art table, where the flying orange was the newest sketch."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "Which detail turns Pip into a sketch idea?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "f,c,b,e": {
     "key": "f,c,b,e",
@@ -5602,14 +5604,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Milo takes off",
+    "title": "Puff and Milo",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Pip flew a lazy lap through the library, in no hurry at all.",
-      "Womby sent the red skateboard rolling after a runaway orange down the supermarket aisle.",
-      "Milo carried the cardboard moon through the rain, and the orange had been its tiny twin."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "Which two objects make Milo's joke work?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "f,c,d,a": {
     "key": "f,c,d,a",
@@ -5619,14 +5621,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Nova's paper storm",
+    "title": "Puff and Brolly",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff curled up inside it.",
-      "Pip flew a lazy lap through the library, in no hurry at all.",
-      "Nova painted a storm, and library pages started fluttering like wings.",
-      "Brolly opened on the art-room table, sheltering Nova's very wet painting."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What made the library pages flutter?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "f,c,d,b": {
     "key": "f,c,d,b",
@@ -5636,14 +5638,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Nova's raincoat test",
+    "title": "Puff and Womby",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff inside, softly grey.",
-      "Pip flew a lazy lap through the library, in no hurry at all.",
-      "Nova painted rain straight onto Pip's paper wings, which seemed slightly unfair.",
-      "Womby rolled past the orange in the yellow raincoat, the only rain-proof helper available."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "Why is Womby the right helper here?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "f,c,d,e": {
     "key": "f,c,d,e",
@@ -5653,14 +5655,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "A paper moon",
+    "title": "Puff and Milo",
     "beats": [
-      "A fishbowl sat beside the bus stop with Puff drifting inside.",
-      "Pip flew a lazy lap through the library, in no hurry at all.",
-      "Nova painted Pip's shadow until it turned into a proper moon shape.",
-      "Milo carried the cardboard moon at the wet tram stop, built straight from that shadow."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "In the dark library, Pip glided over the reading table, taking the only light with him.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "How did Pip's shadow turn into a moon?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "f,c,e,a": {
     "key": "f,c,e,a",
@@ -5670,14 +5672,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Pip's moon stop",
+    "title": "Puff and Brolly",
     "beats": [
-      "A fishbowl sat at the bus stop, holding Puff and nothing else.",
-      "Pip flew a lazy lap through the library, in no hurry at all.",
-      "Milo carried the oversized cardboard moon into the wet tram stop, shoulders already aching.",
-      "Brolly opened on the art-room table, Pip's next stop after the moon."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What makes Brolly seem like a destination?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "f,c,e,b": {
     "key": "f,c,e,b",
@@ -5687,14 +5689,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Milo's supermarket route",
+    "title": "Puff and Womby",
     "beats": [
-      "A fishbowl held Puff at the bus stop, waiting patiently.",
-      "Pip flew a lazy lap through the library, in no hurry at all.",
-      "Milo carried the oversized cardboard moon at the wet tram stop, arms getting tired.",
-      "Womby rolled past the orange in the supermarket, using it as the moon's route marker."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "Why does the orange link to Milo's moon?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "f,c,e,d": {
     "key": "f,c,e,d",
@@ -5704,14 +5706,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Milo's message painting",
+    "title": "Puff and Nova",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff curled up inside it.",
-      "Pip flew a lazy lap through the library, in no hurry at all.",
-      "Milo carried the oversized cardboard moon at the wet tram stop, arms getting tired.",
-      "Nova painted at the art table, where Pip had just delivered the moon sketch."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What did Pip bring to Nova?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "f,d,a,b": {
     "key": "f,d,a,b",
@@ -5721,14 +5723,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Nova paints a raincoat",
+    "title": "Puff and Womby",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff curled up inside it.",
-      "Nova painted quietly at the art table, sleeves already covered in silver.",
-      "Brolly opened over Nova's paint, and the cloud floated straight up into it.",
-      "Womby rolled past the orange wearing the yellow raincoat Nova had just finished designing."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "Why did Nova need an umbrella at all?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "f,d,a,c": {
     "key": "f,d,a,c",
@@ -5738,14 +5740,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Brolly's painted launch",
+    "title": "Puff and Pip",
     "beats": [
-      "A fishbowl held Puff at the bus stop, waiting patiently.",
-      "Nova painted quietly at the art table, sleeves already covered in silver.",
-      "Brolly opened beside the paint and caught a sudden gust of cloud.",
-      "Pip flew through the library, given a decent launch by that gust."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What launched Pip into the air?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "f,d,a,e": {
     "key": "f,d,a,e",
@@ -5755,14 +5757,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Nova's wet moon model",
+    "title": "Puff and Milo",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Nova painted quietly at the art table, sleeves already covered in silver.",
-      "Brolly opened over the painting, and a cardboard circle underneath started looking suspiciously like a moon.",
-      "Milo carried the cardboard moon at the wet tram stop, the model Nova had borrowed."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "Which object connects the art table to the tram stop?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "f,d,b,a": {
     "key": "f,d,b,a",
@@ -5772,14 +5774,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Nova's supermarket storm",
+    "title": "Puff and Brolly",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff curled up inside it.",
-      "Nova painted quietly at the art table, sleeves already covered in silver.",
-      "Womby rolled through the supermarket while a painted cloud rained gently on the orange.",
-      "Brolly opened on the art-room table, which explained exactly where that rain came from."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "What connects the supermarket rain to Nova's table?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "f,d,b,c": {
     "key": "f,d,b,c",
@@ -5789,14 +5791,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Womby's flight plan",
+    "title": "Puff and Pip",
     "beats": [
-      "A fishbowl held Puff at the bus stop, waiting patiently.",
-      "Nova painted quietly at the art table, sleeves already covered in silver.",
-      "Womby set the orange on the red skateboard, and it rolled off like a planet.",
-      "Pip flew through the library, chasing that rolling planet for Nova's plan."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What makes the orange seem like a planet?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "f,d,b,e": {
     "key": "f,d,b,e",
@@ -5806,14 +5808,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Nova's moon delivery",
+    "title": "Puff and Milo",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Nova painted quietly at the art table, sleeves already covered in silver.",
-      "Womby rode past the orange while rain appeared above the supermarket aisle.",
-      "Milo carried the cardboard moon through the rain Nova had painted for exactly this scene."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
     ],
-    "readerQuestion": "Where did the supermarket rain belong all along?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "f,d,c,a": {
     "key": "f,d,c,a",
@@ -5823,14 +5825,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Nova's library umbrella",
+    "title": "Puff and Brolly",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff curled up inside it.",
-      "Nova painted quietly at the art table, sleeves already covered in silver.",
-      "Pip flew through the library, trailing paint that gathered itself into a cloud.",
-      "Brolly opened on the art-room table, catching Nova's flying paint cloud."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What is Brolly catching in the picture?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "f,d,c,b": {
     "key": "f,d,c,b",
@@ -5840,14 +5842,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Nova's library delivery",
+    "title": "Puff and Womby",
     "beats": [
-      "A fishbowl held Puff at the bus stop, waiting patiently.",
-      "Nova painted quietly at the art table, sleeves already covered in silver.",
-      "Pip flew through the library with a painted orange circle on one wing.",
-      "Womby rolled past the orange in the supermarket, the idea Pip had just delivered."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "Which object repeats between Pip's picture and the supermarket?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "f,d,c,e": {
     "key": "f,d,c,e",
@@ -5857,14 +5859,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Nova's moon mail",
+    "title": "Puff and Milo",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Nova painted quietly at the art table, sleeves already covered in silver.",
-      "Pip flew through the library carrying a slightly wet moon drawing.",
-      "Milo carried the cardboard moon at the wet tram stop, the drawing turned real."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Milo waited at the stop with a moon under his arm, and the tram came anyway."
     ],
-    "readerQuestion": "What did Pip deliver in the end?"
+    "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
   },
   "f,d,e,a": {
     "key": "f,d,e,a",
@@ -5874,14 +5876,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Brolly's moon painting",
+    "title": "Puff and Brolly",
     "beats": [
-      "A fishbowl waited at the bus stop, Puff turning slowly inside.",
-      "Nova painted quietly at the art table, sleeves already covered in silver.",
-      "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
-      "Brolly opened on the art-room table, holding up Nova's moon model like a stand."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "What turns Brolly into an art tool?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "f,d,e,b": {
     "key": "f,d,e,b",
@@ -5891,14 +5893,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Womby's moon rehearsal",
+    "title": "Puff and Womby",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Nova painted quietly at the art table, sleeves already covered in silver.",
-      "Milo carried the oversized cardboard moon at the wet tram stop, arms getting tired.",
-      "Womby rolled past the orange in the supermarket, where the moon scene got its tiny rehearsal."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "Which tiny object copies Milo's moon?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "f,d,e,c": {
     "key": "f,d,e,c",
@@ -5908,14 +5910,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Milo sends a sketch",
+    "title": "Puff and Pip",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff inside, softly grey.",
-      "Nova painted quietly at the art table, sleeves already covered in silver.",
-      "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
-      "Pip flew through the library, carrying Nova's moon sketch on ahead."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Nova held the brush above the paper, with the paints ready and the page still white.",
+      "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "Where is Pip taking the sketch?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "f,e,a,b": {
     "key": "f,e,a,b",
@@ -5925,14 +5927,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Milo's weather rehearsal",
+    "title": "Puff and Womby",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff curled up inside it.",
-      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
-      "Brolly opened on the art-room table, and the cloud settled underneath like a tiny storm.",
-      "Womby rolled past the orange in the supermarket, the moon's smaller, rounder rehearsal."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What makes the orange part of Milo's rehearsal?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "f,e,a,c": {
     "key": "f,e,a,c",
@@ -5942,14 +5944,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Milo's umbrella message",
+    "title": "Puff and Pip",
     "beats": [
-      "A fishbowl held Puff at the bus stop, waiting patiently.",
-      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
-      "Brolly opened on the art-room table, and the cloud rained upwards straight into it.",
-      "Pip flew through the library, carrying the strange weather message away with it."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Pip flew off between the bookcases with the lamp lit, and the library read by it."
     ],
-    "readerQuestion": "What makes the weather message strange?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "f,e,a,d": {
     "key": "f,e,a,d",
@@ -5959,14 +5961,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Milo's model catches weather",
+    "title": "Puff and Nova",
     "beats": [
-      "A fishbowl waited by the bus stop with Puff inside.",
-      "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
-      "Brolly opened on the table and caught a cloud-shadow shaped exactly like the moon.",
-      "Nova painted at the table, using Milo's moon and Brolly as a weather study."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What is Nova studying with the moon model?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "f,e,b,a": {
     "key": "f,e,b,a",
@@ -5976,14 +5978,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Milo's supermarket weather",
+    "title": "Puff and Brolly",
     "beats": [
-      "A fishbowl held Puff at the bus stop, waiting patiently.",
-      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
-      "Womby rode past the orange as a cloud appeared above the supermarket aisle.",
-      "Brolly opened on the art-room table, the missing weather prop for the moon scene."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "Which prop completes the rainy moon scene?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "f,e,b,c": {
     "key": "f,e,b,c",
@@ -5993,14 +5995,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Milo's orange flight",
+    "title": "Puff and Pip",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff curled up inside it.",
-      "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
-      "Womby rode past the orange, which rolled neatly into a paper aeroplane's flight path.",
-      "Pip flew through the library, carrying that tiny moon-orange carefully on one wing."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "Which object becomes a tiny moon here?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   },
   "f,e,b,d": {
     "key": "f,e,b,d",
@@ -6010,14 +6012,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Milo's rehearsal becomes art",
+    "title": "Puff and Nova",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
-      "Womby skateboarded past the orange while rain started falling above the supermarket aisle.",
-      "Nova painted at the art table, where that odd supermarket scene was the moon rehearsal."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+      "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
     ],
-    "readerQuestion": "Which picture explains the supermarket rain?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "f,e,c,a": {
     "key": "f,e,c,a",
@@ -6027,14 +6029,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Milo's paper landing",
+    "title": "Puff and Brolly",
     "beats": [
-      "A fishbowl waited at the bus stop, Puff turning slowly inside.",
-      "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
-      "Pip flew through the library and circled Milo's cardboard moon twice.",
-      "Brolly opened on the art-room table, a soft landing surface for one cardboard moon."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Brolly sat open on the art-room table with the windows dry and the sun still out."
     ],
-    "readerQuestion": "Why does Brolly make a good moon landing?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "f,e,c,b": {
     "key": "f,e,c,b",
@@ -6044,14 +6046,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Milo's paper courier",
+    "title": "Puff and Womby",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
-      "Pip flew through the library with a cloud-shaped wet mark on its wing.",
-      "Womby rolled past the orange in the raincoat, since Pip had delivered weather for the moon."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
     ],
-    "readerQuestion": "What is the orange standing in for?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "f,e,c,d": {
     "key": "f,e,c,d",
@@ -6061,14 +6063,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "Milo's sketch flies home",
+    "title": "Puff and Nova",
     "beats": [
-      "A fishbowl waited by the bus stop with Puff inside.",
-      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
-      "Pip flew through the library with a moon shape drawn neatly on one wing.",
-      "Nova painted at the art table, where Pip had brought the moon back as a sketch."
+      "At sunset, somebody had left a fishbowl on the bench, and there was a cloud in it.",
+      "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+      "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+      "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
     ],
-    "readerQuestion": "What did Nova get from Pip?"
+    "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
   },
   "f,e,d,a": {
     "key": "f,e,d,a",
@@ -6078,14 +6080,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Milo's painting needs shelter",
+    "title": "Puff and Brolly",
     "beats": [
-      "A fishbowl held Puff at the bus stop, waiting patiently.",
-      "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
-      "Nova painted the moon, and the paint started raining gently down the page.",
-      "Brolly opened on the art-room table, sheltering one very wet moon painting."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
     ],
-    "readerQuestion": "Why did Nova really need Brolly?"
+    "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
   },
   "f,e,d,b": {
     "key": "f,e,d,b",
@@ -6095,14 +6097,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Milo's tiny stand-in",
+    "title": "Puff and Womby",
     "beats": [
-      "A fishbowl waited at the bus stop with Puff curled up inside it.",
-      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
-      "Nova painted a moon that promptly rolled off the edge of the art table.",
-      "Womby rolled past the orange in the supermarket, which was the small rolling moon."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
     ],
-    "readerQuestion": "Which object stands in for Milo's moon?"
+    "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
   },
   "f,e,d,c": {
     "key": "f,e,d,c",
@@ -6112,13 +6114,13 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "Milo takes flight",
+    "title": "Puff and Pip",
     "beats": [
-      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
-      "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
-      "Nova painted a moon-shaped gust across the art table.",
-      "Pip flew through the library, sent onward by Nova's painted gust."
+      "A glass fishbowl sat on the bus-stop bench with a small white cloud floating inside it.",
+      "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+      "Nova had not made a mark yet; the palette was full and the sheet was still blank.",
+      "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
     ],
-    "readerQuestion": "What sent Pip onward on its journey?"
+    "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
   }
 };

@@ -883,7 +883,23 @@ ul.bullets > li { margin-bottom: var(--s2); }
 .resource__header h2,
 .resource__header h3 { color: var(--paper); font-size: var(--t-h3); }
 .resource__who { font-size: var(--t-meta); color: var(--on-ink-active); }
+/* The AI declaration under the Panel Scramble grid. It lands at the same fixed y as the
+   "Stuck?" rail toggle (fixed, x 16-120), which clipped its first letter. The indent
+   clears the toggle; on layouts with no toggle it is just a quiet hanging caption. */
+.scramble-ai-note { padding-left: 12px; }
+
 .resource__body { padding: var(--s5); }
+/* Full APA-style reference for each curated resource. Small and quiet — it sits under
+   the description, never reads as a heading, and long URLs wrap instead of pushing the
+   page sideways at 1366x768. */
+.resource__ref {
+  margin-top: var(--s3);
+  font-size: var(--t-sm);
+  line-height: 1.5;
+  color: var(--slate);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 .resource iframe {
   display: block;
   width: 100%;
@@ -2656,7 +2672,12 @@ ol.steps--two-col > li { break-inside: avoid; }
 
 @media (prefers-reduced-motion: no-preference) {
   .has-steps .section { animation: step-in .18s ease-out; }
-  @keyframes step-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  /* Movement only, never opacity. A CSS animation does not tick while the tab
+     is not being painted, so an opacity-0 keyframe leaves the step invisible
+     for as long as the timeline is frozen — which is what made the #finish bug
+     read as "the panel is missing" rather than "the wrapper is display:none".
+     A stalled translate is harmless; a stalled fade is a blank page. */
+  @keyframes step-in { from { transform: translateY(6px); } to { transform: none; } }
 }
 
 /* Pills scroll sideways rather than wrap, so the bar keeps its height at

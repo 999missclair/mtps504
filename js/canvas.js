@@ -273,7 +273,10 @@
     }
   }
 
+  var unlocked = false;
+
   function unlock(guest) {
+    unlocked = true;
     $('#gate-section').hidden = true;
     $('#tool').hidden = false;
     $('#guest-note').hidden = !guest;
@@ -285,9 +288,36 @@
     var ec = $('#enhance-card'); if (ec) { ec.hidden = !!guest; }
     renderBrief();
     renderFrames();
-    var step = document.querySelector('.step-pill[href="#build-comic"]');
+    // Honour a deep link. Landing on canvas.html#finish used to be overwritten
+    // by the Build pill, so the Download step was unreachable by URL.
+    var wanted = location.hash === '#finish' ? '#finish' : '#build-comic';
+    var step = document.querySelector('.step-pill[href="' + wanted + '"]');
     if (step) step.click();
   }
+
+  // #build-comic and #finish live inside #tool, which stays display:none until
+  // the class gate is passed. The pager, though, will happily page to them from
+  // a footer link, the back button or a bare hash change — none of which reload
+  // the page, so the load-time guard below never gets a second chance. The
+  // result was a blank builder: the gate hidden by the pager, the step "shown"
+  // inside a still-hidden wrapper. Guard on every step change instead, so the
+  // visible state is set in the same place the pager clears `hidden`.
+  function isToolStep(id) { return id === 'build-comic' || id === 'finish'; }
+  function returnToGate() {
+    if (isToolStep((location.hash || '').slice(1))) {
+      history.replaceState(null, '', location.pathname + location.search);
+    }
+    var gate = $('#gate-section');
+    if (gate) gate.hidden = false;
+    var pill = document.querySelector('.step-pill[href="#gate-section"]');
+    if (pill) pill.click();
+  }
+  document.addEventListener('ff-step-shown', function (e) {
+    if (!unlocked && e.detail && isToolStep(e.detail.id)) returnToGate();
+  });
+  window.addEventListener('hashchange', function () {
+    if (!unlocked && isToolStep((location.hash || '').slice(1))) returnToGate();
+  });
 
   async function tryPass(candidate) {
     var r = await fetch('/api/gifs?q=hello', { headers: { 'x-class-pass': candidate } });
@@ -1004,6 +1034,58 @@
     } catch (e) { return ''; }
   }
 
+  // Stamps "AI-generated preview" into the bottom-right of the returned image so the
+  // AI output is identifiable as AI output wherever it travels — on screen AND in the
+  // saved file. Watermarking the canvas, not the CSS, is what makes the save carry it.
+  function watermarkImage(srcUrl, done) {
+    var im = new Image();
+    im.crossOrigin = 'anonymous';
+    im.onload = function () {
+      try {
+        var c = document.createElement('canvas');
+        c.width = im.naturalWidth || im.width;
+        c.height = im.naturalHeight || im.height;
+        var ctx = c.getContext('2d');
+        ctx.drawImage(im, 0, 0);
+
+        var label = 'AI-generated preview';
+        var fs = Math.max(11, Math.round(c.height * 0.025));
+        var margin = fs;
+        var padX = Math.round(fs * 0.6);
+        var padY = Math.round(fs * 0.4);
+        var r = Math.round(fs * 0.35);
+        ctx.font = '600 ' + fs + 'px system-ui, -apple-system, "Segoe UI", Arial, sans-serif';
+        ctx.textAlign = 'left';
+        ctx.textBaseline = 'top';
+        var tw = ctx.measureText(label).width;
+        var bw = tw + padX * 2;
+        var bh = fs + padY * 2;
+        var bx = c.width - margin - bw;
+        var by = c.height - margin - bh;
+
+        ctx.beginPath();
+        if (ctx.roundRect) { ctx.roundRect(bx, by, bw, bh, r); }
+        else {
+          ctx.moveTo(bx + r, by);
+          ctx.arcTo(bx + bw, by, bx + bw, by + bh, r);
+          ctx.arcTo(bx + bw, by + bh, bx, by + bh, r);
+          ctx.arcTo(bx, by + bh, bx, by, r);
+          ctx.arcTo(bx, by, bx + bw, by, r);
+        }
+        ctx.closePath();
+        ctx.fillStyle = 'rgba(20, 20, 28, 0.72)';
+        ctx.fill();
+
+        ctx.fillStyle = '#FFFFFF';
+        ctx.fillText(label, bx + padX, by + padY);
+
+        done(c.toDataURL('image/png'));
+      } catch (e) { done(srcUrl); }
+    };
+    im.onerror = function () { done(srcUrl); };
+    im.src = srcUrl;
+  }
+
   $('#enhance-btn').addEventListener('click', function () {
     var placeText = planPlace();
     var msg = $('#enhance-msg'); var out = $('#enhance-out');
@@ -1026,19 +1108,21 @@
           $('#enhance-btn').disabled = false;
           if (res.status === 401) { msg.textContent = 'The class password expired. Reload and enter it again.'; return; }
           if (!res.ok || !res.data.image) { msg.textContent = res.data.error || 'The enhancer is unavailable right now.'; return; }
-          out.innerHTML = '';
-          var img = document.createElement('img');
-          img.src = res.data.image;
-          img.alt = 'AI-enhanced preview of your four-frame comic';
-          img.style.maxWidth = '100%'; img.style.border = '3px solid #14141C'; img.style.borderRadius = '8px';
-          var save = document.createElement('a');
-          save.href = res.data.image; save.download = 'four-frames-enhanced.png';
-          save.className = 'btn-secondary'; save.style.display = 'inline-block'; save.style.marginTop = 'var(--s3)';
-          save.textContent = 'Save the enhanced preview';
-          out.appendChild(img); out.appendChild(save);
-          out.hidden = false;
-          msg.textContent = 'Here is the enhanced preview. Notice what the illustrator kept and what it changed — your own comic is still the submission.';
-          announce('The enhanced preview of your comic is ready.');
+          watermarkImage(res.data.image, function (stamped) {
+            out.innerHTML = '';
+            var img = document.createElement('img');
+            img.src = stamped;
+            img.alt = 'AI-enhanced preview of your four-frame comic, marked AI-generated preview';
+            img.style.maxWidth = '100%'; img.style.border = '3px solid #14141C'; img.style.borderRadius = '8px';
+            var save = document.createElement('a');
+            save.href = stamped; save.download = 'four-frames-enhanced.png';
+            save.className = 'btn-secondary'; save.style.display = 'inline-block'; save.style.marginTop = 'var(--s3)';
+            save.textContent = 'Save the enhanced preview';
+            out.appendChild(img); out.appendChild(save);
+            out.hidden = false;
+            msg.textContent = 'Here is the enhanced preview. Notice what the illustrator kept and what it changed — your own comic is still the submission.';
+            announce('The enhanced preview of your comic is ready.');
+          });
         })
         .catch(function () {
           $('#enhance-btn').disabled = false;

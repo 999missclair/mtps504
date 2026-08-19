@@ -80,13 +80,36 @@ async function chatImage({ system, contentParts, timeoutMs = 90000 }) {
 
 // Tiny best-effort per-instance rate limit (resets on cold start). ponytail: an in-memory Map,
 // not Redis — a class of 26 doesn't need distributed limiting; upgrade only if it ever ships wider.
+//
+// A whole school sits behind one NAT, so "per IP" is really "per class". At 20/min a Year 8
+// lesson exhausted the budget for everyone at once, mid-task, and the AI helpers failed for the
+// room rather than for the one student clicking too fast. The limits below are sized for a class
+// of thirty rather than for one person, and split by cost: the text helpers are cheap and get a
+// generous ceiling, the image renderer is the one that spends real money and keeps a tight one.
+// The gate that actually stops strangers is the class password, checked before this; this is a
+// runaway-loop brake on the API bill, not an access control. Overridable by env so a bigger
+// cohort is a dashboard change, not a deploy.
+//
+// Deliberately NOT per student: the site keeps no accounts, sets no cookies and issues no device
+// token, and the submitted assessment says so. A shared bucket is the honest cost of that.
 const HITS = new Map();
-function rateLimited(ip, limit = 20, windowMs = 60000) {
+const num = (v, fallback) => (Number.isFinite(parseInt(v, 10)) ? parseInt(v, 10) : fallback);
+const LIMITS = {
+  text: num(process.env.RATE_LIMIT_TEXT, 150),   // a class of 30 at 5 asks a minute
+  image: num(process.env.RATE_LIMIT_IMAGE, 45),  // the expensive one: ~1.5 renders each a minute
+};
+function rateLimited(ip, bucket = 'text', windowMs = 60000) {
+  const limit = LIMITS[bucket] || LIMITS.text;
   const now = Date.now();
-  const rec = HITS.get(ip) || { n: 0, reset: now + windowMs };
+  const key = bucket + '|' + ip;
+  const rec = HITS.get(key) || { n: 0, reset: now + windowMs };
   if (now > rec.reset) { rec.n = 0; rec.reset = now + windowMs; }
   rec.n += 1;
-  HITS.set(ip, rec);
+  HITS.set(key, rec);
+  // The Map is per warm instance and would otherwise grow for the life of it.
+  if (HITS.size > 500) {
+    for (const [k, v] of HITS) if (now > v.reset) HITS.delete(k);
+  }
   return rec.n > limit;
 }
 
@@ -101,7 +124,8 @@ function classPassOk(req) {
 }
 
 // Shared request guard: POST only, class password, JSON body, rate limit. Returns parsed body or null.
-async function guard(req, res) {
+// `bucket` picks which budget the call is charged to — 'text' (cheap) or 'image' (expensive).
+async function guard(req, res, bucket = 'text') {
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'POST only' });
     return null;
@@ -111,8 +135,8 @@ async function guard(req, res) {
     return null;
   }
   const ip = (req.headers['x-forwarded-for'] || '').split(',')[0].trim() || 'unknown';
-  if (rateLimited(ip)) {
-    res.status(429).json({ error: 'Slow down a moment and try again.' });
+  if (rateLimited(ip, bucket)) {
+    res.status(429).json({ error: 'The class is asking a lot at once. Wait a moment and try again.' });
     return null;
   }
   let body = req.body;

@@ -128,7 +128,9 @@ and **768 × 1024** (iPad portrait).
 ## How the shared navigation works
 
 This is plain multi-page HTML with no build step and no templating, so both `<nav>`
-blocks are **duplicated verbatim in all eight files**.
+blocks are **duplicated verbatim in all eleven pages** — the eight nav pages plus
+the three sub-pages (`bank.html`, `canvas.html`, `safety.html`), which carry the same
+top nav but no `aria-current="page"`, because they are not destinations in it.
 
 **Static markup was chosen over a `js/nav.js` DOM injection** for one reason: with JS
 injection, a page loaded with scripts blocked has no navigation at all. On a school
@@ -145,41 +147,127 @@ The blocks are fenced by comments:
 ### Rules for anyone editing a page
 
 - **Top nav:** copy it byte-for-byte. The *only* permitted difference between pages is
-  which `<a class="topnav__link">` carries `aria-current="page"`. Exactly one per page.
+  which `<a class="topnav__link">` carries `aria-current="page"`: exactly one on each of
+  the eight nav pages, none on the three sub-pages.
   Everything else — order, hrefs, labels, sub-labels — is identical everywhere.
 - **Bottom nav:** the four-zone *structure* is identical on every page
   (`?` help → back → steps → primary). Only the labels, the hrefs and the `?topic=`
   deep link change. Zone order never changes.
 - **Between the fences is nav. Everything you write goes in `<main id="main">`.**
 
-If the top nav ever has to change, change it in all eight files in the same commit and
+If the top nav ever has to change, change it in all eleven pages in the same commit and
 re-run the checks below.
 
 ### Verifying
 
-There is no test framework. This one-liner catches the things that actually go wrong —
-a nav that drifted, a dead link, a missing `aria-current`, a broken fragment:
+There is no test framework. This script catches the things that actually go wrong —
+a nav that drifted, a dead link, a missing `aria-current`, a broken fragment, a CDN
+that crept in. It passes on a clean tree.
+
+Three things it deliberately does **not** assume, because the earlier version did and
+was wrong on `main`:
+
+- **Not every page is a nav page.** `bank.html`, `canvas.html` and `safety.html` are a
+  Build tool, a Build tool and a support page. They are not in the eight-item top nav
+  and correctly carry **no** `aria-current="page"`. The eight nav pages are read out of
+  the nav itself rather than hard-coded, and each must mark *its own* link.
+- **Formatting is not identity.** `canvas.html` writes each nav item on one line;
+  every other page indents it. The navs are compared with whitespace between tags
+  squashed, so all eleven are checked against each other for real.
+- **Not every `href` is a file.** Off-site links (Met, Wikimedia, ACMI, Padlet, Creative
+  Commons) are links a student clicks, not requests the page makes. The no-third-party
+  rule applies to `<script>`, `<link>` and `<img>` — the two documented `<iframe>`
+  embeds (Padlet, youtube-nocookie) are the only outbound loads.
 
 ```bash
 python3 - <<'PY'
-import re, glob, os
-navs = {}
-for f in sorted(glob.glob('*.html')):
+import re, glob, os, sys
+
+NAV_RE   = re.compile(r'<nav class="topnav".*?</nav>', re.S)
+CURRENT  = ' aria-current="page"'
+EXTERNAL = re.compile(r'^(?:[a-z][a-z0-9+.-]*:|//)', re.I)
+
+def squash(s):
+    return re.sub(r'>\s+<', '><', re.sub(r'\s+', ' ', s)).strip()
+
+pages = sorted(glob.glob('*.html'))
+navs, problems = {}, []
+
+def check(cond, msg):
+    if not cond: problems.append(msg)
+
+first = open(pages[0], encoding='utf-8').read()
+nav_pages = set(re.findall(r'<a class="topnav__link" href="([^"#?]+)"',
+                           NAV_RE.search(first).group(0)))
+check(len(nav_pages) == 8, 'top nav should link to 8 pages, links to %d' % len(nav_pages))
+
+for f in pages:
     s = open(f, encoding='utf-8').read()
-    top = re.search(r'<nav class="topnav".*?</nav>', s, re.S).group(0)
-    navs[f] = re.sub(r' aria-current="page"', '', top)
-    assert top.count('aria-current="page"') == 1, f'{f}: aria-current'
-    assert len(re.findall(r'<h1[ >]', s)) == 1, f'{f}: h1 count'
+    m = NAV_RE.search(s)
+    check(bool(m), '%s: no top nav' % f)
+    if not m: continue
+    top = m.group(0)
+    navs.setdefault(squash(top.replace(CURRENT, '')), []).append(f)
+
+    n = top.count(CURRENT)
+    if f in nav_pages:
+        check(n == 1, '%s: expected 1 aria-current="page", found %d' % (f, n))
+        check(re.search(r'href="%s"[^>]*aria-current="page"' % re.escape(f), top),
+              '%s: aria-current is not on its own nav link' % f)
+    else:
+        check(n == 0, '%s: not in the top nav, so it must carry none (found %d)' % (f, n))
+
+    check(len(re.findall(r'<h1[ >]', s)) == 1, '%s: expected exactly 1 <h1>' % f)
+
     ids = set(re.findall(r'id="([^"]+)"', s))
-    for h in set(re.findall(r'href="#([^"]+)"', s)):
-        assert h in ids, f'{f}: dead fragment #{h}'
-    for h in re.findall(r'href="([^"#][^"]*?)"', s):
-        assert os.path.exists(h.split('?')[0].split('#')[0]), f'{f}: dead link {h}'
-    assert not re.search(r'(?:src|href)="(?:https?:)?//', s), f'{f}: external request'
-assert len(set(navs.values())) == 1, 'top nav differs between pages'
-print('ok —', len(navs), 'pages')
+    for h in sorted(set(re.findall(r'href="#([^"]+)"', s))):
+        check(h in ids, '%s: dead fragment #%s' % (f, h))
+
+    for h in sorted(set(re.findall(r'href="([^"]+)"', s) + re.findall(r'src="([^"]+)"', s))):
+        if h.startswith('#') or EXTERNAL.match(h): continue
+        check(os.path.exists(h.split('?')[0].split('#')[0]), '%s: dead link %s' % (f, h))
+
+    for tag, attr in re.findall(r'<(script|link|img)\b[^>]*?\b(?:src|href)="([^"]+)"', s):
+        check(not EXTERNAL.match(attr), '%s: external %s %s' % (f, tag, attr))
+
+check(len(navs) == 1, 'top nav differs between pages: %s' % list(navs.values()))
+
+if problems:
+    print('\n'.join('FAIL ' + p for p in problems)); sys.exit(1)
+print('ok — %d pages, %d in the top nav' % (len(pages), len(nav_pages)))
 PY
 ```
+
+Then the JavaScript, which the script above does not parse:
+
+```bash
+node --check js/canvas.js && node --check api/render.js && node --check js/story-bank.js
+```
+
+#### The Comic Builder regression check
+
+`#build-comic` and `#finish` live inside `#tool`, which stays `display:none` until the
+class gate is passed. A hash change that does not reload the page — the bottom-nav
+pill, the back button, a deep link — used to hide the gate and "show" a step inside
+that still-hidden wrapper, and the builder went blank with no way back. Three entry
+paths, all of which must work:
+
+1. **Cold load `canvas.html#finish` with no password.** The hash is dropped and the
+   Unlock step is what you see. `#tool` stays hidden; nothing goes blank.
+2. **Cold load `canvas.html#finish` in a session that has already unlocked.** You land
+   on Download, not on Build. Paste in the console:
+
+   ```js
+   const f = document.getElementById('finish');
+   getComputedStyle(f).opacity === '1' && f.getBoundingClientRect().height > 0
+   // → true
+   ```
+
+   Run it in a **foreground** tab. A CSS animation does not advance while a tab is not
+   being painted, which is why the `step-in` keyframes animate transform only — a
+   stalled fade would report `opacity: 0` and read as "the panel is missing".
+3. **Stepping through in one session.** Unlock (or Guest mode) → Build your comic →
+   Download, then the bottom-nav pills in both directions.
 
 ---
 

@@ -1,2046 +1,2046 @@
 {
- "version": 1,
- "partition": "c-d",
- "stories": [
-  {
-   "key": "c,a,b,d",
-   "sequence": [
-    "c",
-    "a",
-    "b",
-    "d"
-   ],
-   "title": "Pip and Brolly",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-    "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-    "Nova turned the canvas sideways, and every shape lined up with the route from earlier."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "c,a,b,e",
-   "sequence": [
-    "c",
-    "a",
-    "b",
-    "e"
-   ],
-   "title": "Pip and Brolly",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-    "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
-    "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "c,a,b,f",
-   "sequence": [
-    "c",
-    "a",
-    "b",
-    "f"
-   ],
-   "title": "Pip and Brolly",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-    "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
-    "Puff cleared for a second, showing a tiny paper route folded inside the pocket-sized sky."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "c,a,d,b",
-   "sequence": [
-    "c",
-    "a",
-    "d",
-    "b"
-   ],
-   "title": "Pip and Brolly",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-    "Nova added one last silver stroke, and the painting drifted off the paper with no gravity.",
-    "Womby's hood framed the last picture, showing every detour had followed the orange's round path."
-   ],
-   "readerQuestion": "What helped Nova's picture make sense by the end?"
-  },
-  {
-   "key": "c,a,d,e",
-   "sequence": [
-    "c",
-    "a",
-    "d",
-    "e"
-   ],
-   "title": "Pip and Brolly",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-    "Nova's brushstroke unrolled into a ribbon of colour that curled through the room, joining everything.",
-    "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
-   ],
-   "readerQuestion": "What helped Nova's picture make sense by the end?"
-  },
-  {
-   "key": "c,a,d,f",
-   "sequence": [
-    "c",
-    "a",
-    "d",
-    "f"
-   ],
-   "title": "Pip and Brolly",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-    "Nova painted a reflection instead of a sky, and the earlier scene floated calmly above the table.",
-    "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
-   ],
-   "readerQuestion": "What helped Nova's picture make sense by the end?"
-  },
-  {
-   "key": "c,a,e,b",
-   "sequence": [
-    "c",
-    "a",
-    "e",
-    "b"
-   ],
-   "title": "Pip and Brolly",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-    "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
-    "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "c,a,e,d",
-   "sequence": [
-    "c",
-    "a",
-    "e",
-    "d"
-   ],
-   "title": "Pip and Brolly",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-    "Milo's moon caught the rain, and its craters filled with light like a glowing map.",
-    "Nova set the painting beside the first clue, and their edges joined perfectly, no gaps."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "c,a,e,f",
-   "sequence": [
-    "c",
-    "a",
-    "e",
-    "f"
-   ],
-   "title": "Pip and Brolly",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-    "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
-    "Puff's reflection stitched the first picture to the last one, all inside a small round bowl."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "c,a,f,b",
-   "sequence": [
-    "c",
-    "a",
-    "f",
-    "b"
-   ],
-   "title": "Pip and Brolly",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-    "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
-    "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "c,a,f,d",
-   "sequence": [
-    "c",
-    "a",
-    "f",
-    "d"
-   ],
-   "title": "Pip and Brolly",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-    "Puff grew a small silver lining, and the bus-stop glass turned the earlier scene into a postcard.",
-    "Nova's brush pointed at a small star shaped like a signature, linking straight back to the start."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "c,a,f,e",
-   "sequence": [
-    "c",
-    "a",
-    "f",
-    "e"
-   ],
-   "title": "Pip and Brolly",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip glided out of the library and landed under Brolly like it had found a shelter.",
-    "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
-    "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "c,b,a,d",
-   "sequence": [
-    "c",
-    "b",
-    "a",
-    "d"
-   ],
-   "title": "Pip and Womby",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-    "Brolly opened wider than the table and caught a swirl of coloured paper, like friendly weather.",
-    "Nova lifted the finished painting, and the whole adventure was sitting inside its border."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "c,b,a,e",
-   "sequence": [
-    "c",
-    "b",
-    "a",
-    "e"
-   ],
-   "title": "Pip and Womby",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-    "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
-    "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "c,b,a,f",
-   "sequence": [
-    "c",
-    "b",
-    "a",
-    "f"
-   ],
-   "title": "Pip and Womby",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-    "Brolly tilted and poured out paper shapes instead of rain, each one from the trip so far.",
-    "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "c,b,d,a",
-   "sequence": [
-    "c",
-    "b",
-    "d",
-    "a"
-   ],
-   "title": "Pip and Womby",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-    "Nova painted a doorway into the earlier scenes, and a few stars floated out onto the table.",
-    "Someone lifted Brolly, and its underside matched the route overhead like a painted ceiling."
-   ],
-   "readerQuestion": "What helped Nova's picture make sense by the end?"
-  },
-  {
-   "key": "c,b,d,e",
-   "sequence": [
-    "c",
-    "b",
-    "d",
-    "e"
-   ],
-   "title": "Pip and Womby",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-    "Nova added one last silver stroke, and the painting drifted off the paper with no gravity.",
-    "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
-   ],
-   "readerQuestion": "What helped Nova's picture make sense by the end?"
-  },
-  {
-   "key": "c,b,d,f",
-   "sequence": [
-    "c",
-    "b",
-    "d",
-    "f"
-   ],
-   "title": "Pip and Womby",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-    "Nova painted a doorway into the earlier scenes, and a few stars floated out onto the table.",
-    "Puff cleared for a second, showing a tiny paper route folded inside the pocket-sized sky."
-   ],
-   "readerQuestion": "What helped Nova's picture make sense by the end?"
-  },
-  {
-   "key": "c,b,e,a",
-   "sequence": [
-    "c",
-    "b",
-    "e",
-    "a"
-   ],
-   "title": "Pip and Womby",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-    "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-    "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "c,b,e,d",
-   "sequence": [
-    "c",
-    "b",
-    "e",
-    "d"
-   ],
-   "title": "Pip and Womby",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-    "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
-    "Nova's little canvas held the first scene, while the real room quietly held the sequel."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "c,b,e,f",
-   "sequence": [
-    "c",
-    "b",
-    "e",
-    "f"
-   ],
-   "title": "Pip and Womby",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-    "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-    "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "c,b,f,a",
-   "sequence": [
-    "c",
-    "b",
-    "f",
-    "a"
-   ],
-   "title": "Pip and Womby",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-    "Puff swirled into a tiny map, and its raindrops fell upwards towards the timetable.",
-    "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "c,b,f,d",
-   "sequence": [
-    "c",
-    "b",
-    "f",
-    "d"
-   ],
-   "title": "Pip and Womby",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-    "Puff copied the earlier scene, then let a gentle drizzle fall that stopped at the shelter's edge.",
-    "Nova lifted the finished painting, and the whole adventure was sitting inside its border."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "c,b,f,e",
-   "sequence": [
-    "c",
-    "b",
-    "f",
-    "e"
-   ],
-   "title": "Pip and Womby",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
-    "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
-    "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "c,d,a,b",
-   "sequence": [
-    "c",
-    "d",
-    "a",
-    "b"
-   ],
-   "title": "Pip and Nova",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-    "Brolly tilted and poured out paper shapes instead of rain, each one from the trip so far.",
-    "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "c,d,a,e",
-   "sequence": [
-    "c",
-    "d",
-    "a",
-    "e"
-   ],
-   "title": "Pip and Nova",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-    "Brolly opened wider than the table and caught a swirl of coloured paper, like friendly weather.",
-    "Milo held the moon beside the opening scene, and its cut-out circle finished it like an eclipse."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "c,d,a,f",
-   "sequence": [
-    "c",
-    "d",
-    "a",
-    "f"
-   ],
-   "title": "Pip and Nova",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-    "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
-    "Puff's reflection stitched the first picture to the last one, all inside a small round bowl."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "c,d,b,a",
-   "sequence": [
-    "c",
-    "d",
-    "b",
-    "a"
-   ],
-   "title": "Pip and Nova",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-    "Womby steadied the orange on the skateboard's nose, and the whole aisle became a moving stage.",
-    "Brolly stood exactly where it all began, its curved handle finishing the loop of the route."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "c,d,b,e",
-   "sequence": [
-    "c",
-    "d",
-    "b",
-    "e"
-   ],
-   "title": "Pip and Nova",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-    "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
-    "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "c,d,b,f",
-   "sequence": [
-    "c",
-    "d",
-    "b",
-    "f"
-   ],
-   "title": "Pip and Nova",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-    "Womby steadied the orange on the skateboard's nose, and the whole aisle became a moving stage.",
-    "Puff sat beside the first scene, and the cloud's reflection filled the last missing shape perfectly."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "c,d,e,a",
-   "sequence": [
-    "c",
-    "d",
-    "e",
-    "a"
-   ],
-   "title": "Pip and Nova",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-    "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
-    "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "c,d,e,b",
-   "sequence": [
-    "c",
-    "d",
-    "e",
-    "b"
-   ],
-   "title": "Pip and Nova",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-    "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-    "Womby's hood framed the last picture, showing every detour had followed the orange's round path."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "c,d,e,f",
-   "sequence": [
-    "c",
-    "d",
-    "e",
-    "f"
-   ],
-   "title": "Pip and Nova",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-    "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
-    "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "c,d,f,a",
-   "sequence": [
-    "c",
-    "d",
-    "f",
-    "a"
-   ],
-   "title": "Pip and Nova",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-    "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
-    "Brolly turned out to be a giant pop-up bookmark, holding the whole strange trip between two pages."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "c,d,f,b",
-   "sequence": [
-    "c",
-    "d",
-    "f",
-    "b"
-   ],
-   "title": "Pip and Nova",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-    "Puff swirled into a tiny map, and its raindrops fell upwards towards the timetable.",
-    "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "c,d,f,e",
-   "sequence": [
-    "c",
-    "d",
-    "f",
-    "e"
-   ],
-   "title": "Pip and Nova",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
-    "Puff copied the earlier scene, then let a gentle drizzle fall that stopped at the shelter's edge.",
-    "Milo held the moon beside the opening scene, and its cut-out circle finished it like an eclipse."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "c,e,a,b",
-   "sequence": [
-    "c",
-    "e",
-    "a",
-    "b"
-   ],
-   "title": "Pip and Milo",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-    "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
-    "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "c,e,a,d",
-   "sequence": [
-    "c",
-    "e",
-    "a",
-    "d"
-   ],
-   "title": "Pip and Milo",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-    "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
-    "Nova's little canvas held the first scene, while the real room quietly held the sequel."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "c,e,a,f",
-   "sequence": [
-    "c",
-    "e",
-    "a",
-    "f"
-   ],
-   "title": "Pip and Milo",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-    "Brolly became a portable doorway, its patterned underside framing the earlier scene upside down.",
-    "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "c,e,b,a",
-   "sequence": [
-    "c",
-    "e",
-    "b",
-    "a"
-   ],
-   "title": "Pip and Milo",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-    "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-    "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "c,e,b,d",
-   "sequence": [
-    "c",
-    "e",
-    "b",
-    "d"
-   ],
-   "title": "Pip and Milo",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-    "Womby steadied the orange on the skateboard's nose, and the whole aisle became a moving stage.",
-    "Nova lifted the finished painting, and the whole adventure was sitting inside its border."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "c,e,b,f",
-   "sequence": [
-    "c",
-    "e",
-    "b",
-    "f"
-   ],
-   "title": "Pip and Milo",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-    "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-    "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "c,e,d,a",
-   "sequence": [
-    "c",
-    "e",
-    "d",
-    "a"
-   ],
-   "title": "Pip and Milo",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-    "Nova added a tiny horizon line, and the table became a launchpad with the clue as a planet.",
-    "Brolly stood exactly where it all began, its curved handle finishing the loop of the route."
-   ],
-   "readerQuestion": "What helped Nova's picture make sense by the end?"
-  },
-  {
-   "key": "c,e,d,b",
-   "sequence": [
-    "c",
-    "e",
-    "d",
-    "b"
-   ],
-   "title": "Pip and Milo",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-    "Nova's brushstroke unrolled into a ribbon of colour that curled through the room, joining everything.",
-    "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
-   ],
-   "readerQuestion": "What helped Nova's picture make sense by the end?"
-  },
-  {
-   "key": "c,e,d,f",
-   "sequence": [
-    "c",
-    "e",
-    "d",
-    "f"
-   ],
-   "title": "Pip and Milo",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-    "Nova added a tiny horizon line, and the table became a launchpad with the clue as a planet.",
-    "Puff sat beside the first scene, and the cloud's reflection filled the last missing shape perfectly."
-   ],
-   "readerQuestion": "What helped Nova's picture make sense by the end?"
-  },
-  {
-   "key": "c,e,f,a",
-   "sequence": [
-    "c",
-    "e",
-    "f",
-    "a"
-   ],
-   "title": "Pip and Milo",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-    "Puff grew a small silver lining, and the bus-stop glass turned the earlier scene into a postcard.",
-    "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "c,e,f,b",
-   "sequence": [
-    "c",
-    "e",
-    "f",
-    "b"
-   ],
-   "title": "Pip and Milo",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-    "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
-    "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "c,e,f,d",
-   "sequence": [
-    "c",
-    "e",
-    "f",
-    "d"
-   ],
-   "title": "Pip and Milo",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
-    "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
-    "Nova's little canvas held the first scene, while the real room quietly held the sequel."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "c,f,a,b",
-   "sequence": [
-    "c",
-    "f",
-    "a",
-    "b"
-   ],
-   "title": "Pip and Puff",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-    "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
-    "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "c,f,a,d",
-   "sequence": [
-    "c",
-    "f",
-    "a",
-    "d"
-   ],
-   "title": "Pip and Puff",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-    "Brolly became a portable doorway, its patterned underside framing the earlier scene upside down.",
-    "Nova's brush pointed at a small star shaped like a signature, linking straight back to the start."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "c,f,a,e",
-   "sequence": [
-    "c",
-    "f",
-    "a",
-    "e"
-   ],
-   "title": "Pip and Puff",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-    "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
-    "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "c,f,b,a",
-   "sequence": [
-    "c",
-    "f",
-    "b",
-    "a"
-   ],
-   "title": "Pip and Puff",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-    "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
-    "Someone lifted Brolly, and its underside matched the route overhead like a painted ceiling."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "c,f,b,d",
-   "sequence": [
-    "c",
-    "f",
-    "b",
-    "d"
-   ],
-   "title": "Pip and Puff",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-    "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-    "Nova turned the canvas sideways, and every shape lined up with the route from earlier."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "c,f,b,e",
-   "sequence": [
-    "c",
-    "f",
-    "b",
-    "e"
-   ],
-   "title": "Pip and Puff",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-    "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
-    "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "c,f,d,a",
-   "sequence": [
-    "c",
-    "f",
-    "d",
-    "a"
-   ],
-   "title": "Pip and Puff",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-    "Nova painted a reflection instead of a sky, and the earlier scene floated calmly above the table.",
-    "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
-   ],
-   "readerQuestion": "What helped Nova's picture make sense by the end?"
-  },
-  {
-   "key": "c,f,d,b",
-   "sequence": [
-    "c",
-    "f",
-    "d",
-    "b"
-   ],
-   "title": "Pip and Puff",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-    "Nova added one last silver stroke, and the painting drifted off the paper with no gravity.",
-    "Womby's hood framed the last picture, showing every detour had followed the orange's round path."
-   ],
-   "readerQuestion": "What helped Nova's picture make sense by the end?"
-  },
-  {
-   "key": "c,f,d,e",
-   "sequence": [
-    "c",
-    "f",
-    "d",
-    "e"
-   ],
-   "title": "Pip and Puff",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-    "Nova's brushstroke unrolled into a ribbon of colour that curled through the room, joining everything.",
-    "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
-   ],
-   "readerQuestion": "What helped Nova's picture make sense by the end?"
-  },
-  {
-   "key": "c,f,e,a",
-   "sequence": [
-    "c",
-    "f",
-    "e",
-    "a"
-   ],
-   "title": "Pip and Puff",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-    "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
-    "Brolly turned out to be a giant pop-up bookmark, holding the whole strange trip between two pages."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "c,f,e,b",
-   "sequence": [
-    "c",
-    "f",
-    "e",
-    "b"
-   ],
-   "title": "Pip and Puff",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-    "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
-    "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "c,f,e,d",
-   "sequence": [
-    "c",
-    "f",
-    "e",
-    "d"
-   ],
-   "title": "Pip and Puff",
-   "beats": [
-    "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
-    "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
-    "Milo's moon caught the rain, and its craters filled with light like a glowing map.",
-    "Nova set the painting beside the first clue, and their edges joined perfectly, no gaps."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "d,a,b,c",
-   "sequence": [
-    "d",
-    "a",
-    "b",
-    "c"
-   ],
-   "title": "Nova and Brolly",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-    "Womby pushed off, and the orange rolled alongside like a tiny sun down the supermarket aisle.",
-    "Pip's shadow completed the outline of the earlier object, making the whole trip one folded design."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "d,a,b,e",
-   "sequence": [
-    "d",
-    "a",
-    "b",
-    "e"
-   ],
-   "title": "Nova and Brolly",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-    "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
-    "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "d,a,b,f",
-   "sequence": [
-    "d",
-    "a",
-    "b",
-    "f"
-   ],
-   "title": "Nova and Brolly",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-    "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
-    "Puff cleared for a second, showing a tiny paper route folded inside the pocket-sized sky."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "d,a,c,b",
-   "sequence": [
-    "d",
-    "a",
-    "c",
-    "b"
-   ],
-   "title": "Nova and Brolly",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-    "Pip turned a tight circle around the lamp, and its huge shadow carried the clue across the ceiling.",
-    "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
-   ],
-   "readerQuestion": "What helped Pip's picture make sense by the end?"
-  },
-  {
-   "key": "d,a,c,e",
-   "sequence": [
-    "d",
-    "a",
-    "c",
-    "e"
-   ],
-   "title": "Nova and Brolly",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-    "Pip swept through the lamp beam and cast the earlier scene in shadow across the books.",
-    "Milo turned the moon around, and the back was a painted theatre backdrop for every scene."
-   ],
-   "readerQuestion": "What helped Pip's picture make sense by the end?"
-  },
-  {
-   "key": "d,a,c,f",
-   "sequence": [
-    "d",
-    "a",
-    "c",
-    "f"
-   ],
-   "title": "Nova and Brolly",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-    "Pip looped the lamp and shook loose tiny paper stars, turning the shelves into a night sky.",
-    "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
-   ],
-   "readerQuestion": "What helped Pip's picture make sense by the end?"
-  },
-  {
-   "key": "d,a,e,b",
-   "sequence": [
-    "d",
-    "a",
-    "e",
-    "b"
-   ],
-   "title": "Nova and Brolly",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-    "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
-    "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "d,a,e,c",
-   "sequence": [
-    "d",
-    "a",
-    "e",
-    "c"
-   ],
-   "title": "Nova and Brolly",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-    "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-    "Pip rested beside the lamp, and its creases matched the route exactly, like a folded map."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "d,a,e,f",
-   "sequence": [
-    "d",
-    "a",
-    "e",
-    "f"
-   ],
-   "title": "Nova and Brolly",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-    "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
-    "Puff's reflection stitched the first picture to the last one, all inside a small round bowl."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "d,a,f,b",
-   "sequence": [
-    "d",
-    "a",
-    "f",
-    "b"
-   ],
-   "title": "Nova and Brolly",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-    "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
-    "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "d,a,f,c",
-   "sequence": [
-    "d",
-    "a",
-    "f",
-    "c"
-   ],
-   "title": "Nova and Brolly",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-    "Puff swirled into a tiny map, and its raindrops fell upwards towards the timetable.",
-    "The lamp threw all four scenes onto one wall, with Pip quietly arranging the shadows."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "d,a,f,e",
-   "sequence": [
-    "d",
-    "a",
-    "f",
-    "e"
-   ],
-   "title": "Nova and Brolly",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
-    "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
-    "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "d,b,a,c",
-   "sequence": [
-    "d",
-    "b",
-    "a",
-    "c"
-   ],
-   "title": "Nova and Womby",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-    "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
-    "Pip settled into a book's gutter, where the two pages held the first and last scenes together."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "d,b,a,e",
-   "sequence": [
-    "d",
-    "b",
-    "a",
-    "e"
-   ],
-   "title": "Nova and Womby",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-    "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
-    "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "d,b,a,f",
-   "sequence": [
-    "d",
-    "b",
-    "a",
-    "f"
-   ],
-   "title": "Nova and Womby",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-    "Brolly tilted and poured out paper shapes instead of rain, each one from the trip so far.",
-    "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "d,b,c,a",
-   "sequence": [
-    "d",
-    "b",
-    "c",
-    "a"
-   ],
-   "title": "Nova and Womby",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-    "A warm gust from the lamp spun Pip upwards, its wings shaped like a moonlit map.",
-    "Brolly stood exactly where it all began, its curved handle finishing the loop of the route."
-   ],
-   "readerQuestion": "What helped Pip's picture make sense by the end?"
-  },
-  {
-   "key": "d,b,c,e",
-   "sequence": [
-    "d",
-    "b",
-    "c",
-    "e"
-   ],
-   "title": "Nova and Womby",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-    "Pip turned a tight circle around the lamp, and its huge shadow carried the clue across the ceiling.",
-    "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
-   ],
-   "readerQuestion": "What helped Pip's picture make sense by the end?"
-  },
-  {
-   "key": "d,b,c,f",
-   "sequence": [
-    "d",
-    "b",
-    "c",
-    "f"
-   ],
-   "title": "Nova and Womby",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-    "A warm gust from the lamp spun Pip upwards, its wings shaped like a moonlit map.",
-    "Puff sat beside the first scene, and the cloud's reflection filled the last missing shape perfectly."
-   ],
-   "readerQuestion": "What helped Pip's picture make sense by the end?"
-  },
-  {
-   "key": "d,b,e,a",
-   "sequence": [
-    "d",
-    "b",
-    "e",
-    "a"
-   ],
-   "title": "Nova and Womby",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-    "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-    "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "d,b,e,c",
-   "sequence": [
-    "d",
-    "b",
-    "e",
-    "c"
-   ],
-   "title": "Nova and Womby",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-    "Milo lifted the moon against the grey sky, and its cut-out framed the earlier scenes perfectly.",
-    "Pip landed on an open book, and the picture underneath was the opening scene all along."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "d,b,e,f",
-   "sequence": [
-    "d",
-    "b",
-    "e",
-    "f"
-   ],
-   "title": "Nova and Womby",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-    "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-    "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "d,b,f,a",
-   "sequence": [
-    "d",
-    "b",
-    "f",
-    "a"
-   ],
-   "title": "Nova and Womby",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-    "Puff swirled into a tiny map, and its raindrops fell upwards towards the timetable.",
-    "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "d,b,f,c",
-   "sequence": [
-    "d",
-    "b",
-    "f",
-    "c"
-   ],
-   "title": "Nova and Womby",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-    "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
-    "Pip settled into a book's gutter, where the two pages held the first and last scenes together."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "d,b,f,e",
-   "sequence": [
-    "d",
-    "b",
-    "f",
-    "e"
-   ],
-   "title": "Nova and Womby",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
-    "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
-    "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "d,c,a,b",
-   "sequence": [
-    "d",
-    "c",
-    "a",
-    "b"
-   ],
-   "title": "Nova and Pip",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-    "Brolly opened wider than the table and caught a swirl of coloured paper, like friendly weather.",
-    "Womby's skateboard path curved back to the opening scene, with the orange marking the way."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "d,c,a,e",
-   "sequence": [
-    "d",
-    "c",
-    "a",
-    "e"
-   ],
-   "title": "Nova and Pip",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-    "Brolly became a portable doorway, its patterned underside framing the earlier scene upside down.",
-    "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "d,c,a,f",
-   "sequence": [
-    "d",
-    "c",
-    "a",
-    "f"
-   ],
-   "title": "Nova and Pip",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-    "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
-    "Puff cleared for a second, showing a tiny paper route folded inside the pocket-sized sky."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "d,c,b,a",
-   "sequence": [
-    "d",
-    "c",
-    "b",
-    "a"
-   ],
-   "title": "Nova and Pip",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-    "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
-    "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "d,c,b,e",
-   "sequence": [
-    "d",
-    "c",
-    "b",
-    "e"
-   ],
-   "title": "Nova and Pip",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-    "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-    "Milo turned the moon around, and the back was a painted theatre backdrop for every scene."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "d,c,b,f",
-   "sequence": [
-    "d",
-    "c",
-    "b",
-    "f"
-   ],
-   "title": "Nova and Pip",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-    "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
-    "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "d,c,e,a",
-   "sequence": [
-    "d",
-    "c",
-    "e",
-    "a"
-   ],
-   "title": "Nova and Pip",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-    "Milo lifted the moon against the grey sky, and its cut-out framed the earlier scenes perfectly.",
-    "Brolly stood exactly where it all began, its curved handle finishing the loop of the route."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "d,c,e,b",
-   "sequence": [
-    "d",
-    "c",
-    "e",
-    "b"
-   ],
-   "title": "Nova and Pip",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-    "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
-    "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "d,c,e,f",
-   "sequence": [
-    "d",
-    "c",
-    "e",
-    "f"
-   ],
-   "title": "Nova and Pip",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-    "Milo lifted the moon against the grey sky, and its cut-out framed the earlier scenes perfectly.",
-    "Puff sat beside the first scene, and the cloud's reflection filled the last missing shape perfectly."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "d,c,f,a",
-   "sequence": [
-    "d",
-    "c",
-    "f",
-    "a"
-   ],
-   "title": "Nova and Pip",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-    "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
-    "Someone lifted Brolly, and its underside matched the route overhead like a painted ceiling."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "d,c,f,b",
-   "sequence": [
-    "d",
-    "c",
-    "f",
-    "b"
-   ],
-   "title": "Nova and Pip",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-    "Puff copied the earlier scene, then let a gentle drizzle fall that stopped at the shelter's edge.",
-    "Womby's skateboard path curved back to the opening scene, with the orange marking the way."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "d,c,f,e",
-   "sequence": [
-    "d",
-    "c",
-    "f",
-    "e"
-   ],
-   "title": "Nova and Pip",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
-    "Puff grew a small silver lining, and the bus-stop glass turned the earlier scene into a postcard.",
-    "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "d,e,a,b",
-   "sequence": [
-    "d",
-    "e",
-    "a",
-    "b"
-   ],
-   "title": "Nova and Milo",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-    "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
-    "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "d,e,a,c",
-   "sequence": [
-    "d",
-    "e",
-    "a",
-    "c"
-   ],
-   "title": "Nova and Milo",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-    "Brolly opened wider than the table and caught a swirl of coloured paper, like friendly weather.",
-    "Pip landed on an open book, and the picture underneath was the opening scene all along."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "d,e,a,f",
-   "sequence": [
-    "d",
-    "e",
-    "a",
-    "f"
-   ],
-   "title": "Nova and Milo",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-    "Brolly became a portable doorway, its patterned underside framing the earlier scene upside down.",
-    "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "d,e,b,a",
-   "sequence": [
-    "d",
-    "e",
-    "b",
-    "a"
-   ],
-   "title": "Nova and Milo",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-    "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-    "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "d,e,b,c",
-   "sequence": [
-    "d",
-    "e",
-    "b",
-    "c"
-   ],
-   "title": "Nova and Milo",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-    "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
-    "Pip settled into a book's gutter, where the two pages held the first and last scenes together."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "d,e,b,f",
-   "sequence": [
-    "d",
-    "e",
-    "b",
-    "f"
-   ],
-   "title": "Nova and Milo",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-    "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
-    "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "d,e,c,a",
-   "sequence": [
-    "d",
-    "e",
-    "c",
-    "a"
-   ],
-   "title": "Nova and Milo",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-    "Pip landed on the lampshade, which spun gently and swept light back across the earlier scene.",
-    "Brolly turned out to be a giant pop-up bookmark, holding the whole strange trip between two pages."
-   ],
-   "readerQuestion": "What helped Pip's picture make sense by the end?"
-  },
-  {
-   "key": "d,e,c,b",
-   "sequence": [
-    "d",
-    "e",
-    "c",
-    "b"
-   ],
-   "title": "Nova and Milo",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-    "Pip swept through the lamp beam and cast the earlier scene in shadow across the books.",
-    "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
-   ],
-   "readerQuestion": "What helped Pip's picture make sense by the end?"
-  },
-  {
-   "key": "d,e,c,f",
-   "sequence": [
-    "d",
-    "e",
-    "c",
-    "f"
-   ],
-   "title": "Nova and Milo",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-    "Pip landed on the lampshade, which spun gently and swept light back across the earlier scene.",
-    "Puff's reflection stitched the first picture to the last one, all inside a small round bowl."
-   ],
-   "readerQuestion": "What helped Pip's picture make sense by the end?"
-  },
-  {
-   "key": "d,e,f,a",
-   "sequence": [
-    "d",
-    "e",
-    "f",
-    "a"
-   ],
-   "title": "Nova and Milo",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-    "Puff grew a small silver lining, and the bus-stop glass turned the earlier scene into a postcard.",
-    "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "d,e,f,b",
-   "sequence": [
-    "d",
-    "e",
-    "f",
-    "b"
-   ],
-   "title": "Nova and Milo",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-    "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
-    "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "d,e,f,c",
-   "sequence": [
-    "d",
-    "e",
-    "f",
-    "c"
-   ],
-   "title": "Nova and Milo",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
-    "Puff copied the earlier scene, then let a gentle drizzle fall that stopped at the shelter's edge.",
-    "Pip landed on an open book, and the picture underneath was the opening scene all along."
-   ],
-   "readerQuestion": "What helped Puff's picture make sense by the end?"
-  },
-  {
-   "key": "d,f,a,b",
-   "sequence": [
-    "d",
-    "f",
-    "a",
-    "b"
-   ],
-   "title": "Nova and Puff",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-    "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
-    "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "d,f,a,c",
-   "sequence": [
-    "d",
-    "f",
-    "a",
-    "c"
-   ],
-   "title": "Nova and Puff",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-    "Brolly tilted and poured out paper shapes instead of rain, each one from the trip so far.",
-    "The lamp threw all four scenes onto one wall, with Pip quietly arranging the shadows."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "d,f,a,e",
-   "sequence": [
-    "d",
-    "f",
-    "a",
-    "e"
-   ],
-   "title": "Nova and Puff",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-    "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
-    "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
-   ],
-   "readerQuestion": "What helped Brolly's picture make sense by the end?"
-  },
-  {
-   "key": "d,f,b,a",
-   "sequence": [
-    "d",
-    "f",
-    "b",
-    "a"
-   ],
-   "title": "Nova and Puff",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-    "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
-    "Someone lifted Brolly, and its underside matched the route overhead like a painted ceiling."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "d,f,b,c",
-   "sequence": [
-    "d",
-    "f",
-    "b",
-    "c"
-   ],
-   "title": "Nova and Puff",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-    "Womby pushed off, and the orange rolled alongside like a tiny sun down the supermarket aisle.",
-    "Pip's shadow completed the outline of the earlier object, making the whole trip one folded design."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "d,f,b,e",
-   "sequence": [
-    "d",
-    "f",
-    "b",
-    "e"
-   ],
-   "title": "Nova and Puff",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-    "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
-    "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
-   ],
-   "readerQuestion": "What helped Womby's picture make sense by the end?"
-  },
-  {
-   "key": "d,f,c,a",
-   "sequence": [
-    "d",
-    "f",
-    "c",
-    "a"
-   ],
-   "title": "Nova and Puff",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-    "Pip looped the lamp and shook loose tiny paper stars, turning the shelves into a night sky.",
-    "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
-   ],
-   "readerQuestion": "What helped Pip's picture make sense by the end?"
-  },
-  {
-   "key": "d,f,c,b",
-   "sequence": [
-    "d",
-    "f",
-    "c",
-    "b"
-   ],
-   "title": "Nova and Puff",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-    "Pip turned a tight circle around the lamp, and its huge shadow carried the clue across the ceiling.",
-    "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
-   ],
-   "readerQuestion": "What helped Pip's picture make sense by the end?"
-  },
-  {
-   "key": "d,f,c,e",
-   "sequence": [
-    "d",
-    "f",
-    "c",
-    "e"
-   ],
-   "title": "Nova and Puff",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-    "Pip swept through the lamp beam and cast the earlier scene in shadow across the books.",
-    "Milo turned the moon around, and the back was a painted theatre backdrop for every scene."
-   ],
-   "readerQuestion": "What helped Pip's picture make sense by the end?"
-  },
-  {
-   "key": "d,f,e,a",
-   "sequence": [
-    "d",
-    "f",
-    "e",
-    "a"
-   ],
-   "title": "Nova and Puff",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-    "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
-    "Brolly turned out to be a giant pop-up bookmark, holding the whole strange trip between two pages."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "d,f,e,b",
-   "sequence": [
-    "d",
-    "f",
-    "e",
-    "b"
-   ],
-   "title": "Nova and Puff",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-    "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
-    "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  },
-  {
-   "key": "d,f,e,c",
-   "sequence": [
-    "d",
-    "f",
-    "e",
-    "c"
-   ],
-   "title": "Nova and Puff",
-   "beats": [
-    "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
-    "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
-    "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
-    "Pip rested beside the lamp, and its creases matched the route exactly, like a folded map."
-   ],
-   "readerQuestion": "What helped Milo's picture make sense by the end?"
-  }
- ]
+  "version": 2,
+  "partition": "c-d",
+  "stories": [
+    {
+      "key": "c,a,b,d",
+      "sequence": [
+        "c",
+        "a",
+        "b",
+        "d"
+      ],
+      "title": "Pip and Nova",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+        "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
+      ],
+      "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
+    },
+    {
+      "key": "c,a,b,e",
+      "sequence": [
+        "c",
+        "a",
+        "b",
+        "e"
+      ],
+      "title": "Pip and Milo",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "c,a,b,f",
+      "sequence": [
+        "c",
+        "a",
+        "b",
+        "f"
+      ],
+      "title": "Pip and Puff",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "c,a,d,b",
+      "sequence": [
+        "c",
+        "a",
+        "d",
+        "b"
+      ],
+      "title": "Pip and Womby",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "c,a,d,e",
+      "sequence": [
+        "c",
+        "a",
+        "d",
+        "e"
+      ],
+      "title": "Pip and Milo",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "c,a,d,f",
+      "sequence": [
+        "c",
+        "a",
+        "d",
+        "f"
+      ],
+      "title": "Pip and Puff",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "c,a,e,b",
+      "sequence": [
+        "c",
+        "a",
+        "e",
+        "b"
+      ],
+      "title": "Pip and Womby",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+        "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+        "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "c,a,e,d",
+      "sequence": [
+        "c",
+        "a",
+        "e",
+        "d"
+      ],
+      "title": "Pip and Nova",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+        "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+        "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
+      ],
+      "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
+    },
+    {
+      "key": "c,a,e,f",
+      "sequence": [
+        "c",
+        "a",
+        "e",
+        "f"
+      ],
+      "title": "Pip and Puff",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+        "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+        "No bus came, and the last of the light found a cloud sitting in a fishbowl."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "c,a,f,b",
+      "sequence": [
+        "c",
+        "a",
+        "f",
+        "b"
+      ],
+      "title": "Pip and Womby",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "c,a,f,d",
+      "sequence": [
+        "c",
+        "a",
+        "f",
+        "d"
+      ],
+      "title": "Pip and Nova",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+        "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
+      ],
+      "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
+    },
+    {
+      "key": "c,a,f,e",
+      "sequence": [
+        "c",
+        "a",
+        "f",
+        "e"
+      ],
+      "title": "Pip and Milo",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "c,b,a,d",
+      "sequence": [
+        "c",
+        "b",
+        "a",
+        "d"
+      ],
+      "title": "Pip and Nova",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+        "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+        "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
+      ],
+      "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
+    },
+    {
+      "key": "c,b,a,e",
+      "sequence": [
+        "c",
+        "b",
+        "a",
+        "e"
+      ],
+      "title": "Pip and Milo",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+        "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+        "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "c,b,a,f",
+      "sequence": [
+        "c",
+        "b",
+        "a",
+        "f"
+      ],
+      "title": "Pip and Puff",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+        "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+        "No bus came, and the last of the light found a cloud sitting in a fishbowl."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "c,b,d,a",
+      "sequence": [
+        "c",
+        "b",
+        "d",
+        "a"
+      ],
+      "title": "Pip and Brolly",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "c,b,d,e",
+      "sequence": [
+        "c",
+        "b",
+        "d",
+        "e"
+      ],
+      "title": "Pip and Milo",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "c,b,d,f",
+      "sequence": [
+        "c",
+        "b",
+        "d",
+        "f"
+      ],
+      "title": "Pip and Puff",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "c,b,e,a",
+      "sequence": [
+        "c",
+        "b",
+        "e",
+        "a"
+      ],
+      "title": "Pip and Brolly",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+        "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+        "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "c,b,e,d",
+      "sequence": [
+        "c",
+        "b",
+        "e",
+        "d"
+      ],
+      "title": "Pip and Nova",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+        "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+        "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
+      ],
+      "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
+    },
+    {
+      "key": "c,b,e,f",
+      "sequence": [
+        "c",
+        "b",
+        "e",
+        "f"
+      ],
+      "title": "Pip and Puff",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+        "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+        "No bus came, and the last of the light found a cloud sitting in a fishbowl."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "c,b,f,a",
+      "sequence": [
+        "c",
+        "b",
+        "f",
+        "a"
+      ],
+      "title": "Pip and Brolly",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "c,b,f,d",
+      "sequence": [
+        "c",
+        "b",
+        "f",
+        "d"
+      ],
+      "title": "Pip and Nova",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+        "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
+      ],
+      "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
+    },
+    {
+      "key": "c,b,f,e",
+      "sequence": [
+        "c",
+        "b",
+        "f",
+        "e"
+      ],
+      "title": "Pip and Milo",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "c,d,a,b",
+      "sequence": [
+        "c",
+        "d",
+        "a",
+        "b"
+      ],
+      "title": "Pip and Womby",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+        "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+        "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "c,d,a,e",
+      "sequence": [
+        "c",
+        "d",
+        "a",
+        "e"
+      ],
+      "title": "Pip and Milo",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+        "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+        "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "c,d,a,f",
+      "sequence": [
+        "c",
+        "d",
+        "a",
+        "f"
+      ],
+      "title": "Pip and Puff",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+        "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+        "No bus came, and the last of the light found a cloud sitting in a fishbowl."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "c,d,b,a",
+      "sequence": [
+        "c",
+        "d",
+        "b",
+        "a"
+      ],
+      "title": "Pip and Brolly",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Nova held the brush above the paper, with the paints ready and the page still white.",
+        "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "c,d,b,e",
+      "sequence": [
+        "c",
+        "d",
+        "b",
+        "e"
+      ],
+      "title": "Pip and Milo",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Nova held the brush above the paper, with the paints ready and the page still white.",
+        "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "c,d,b,f",
+      "sequence": [
+        "c",
+        "d",
+        "b",
+        "f"
+      ],
+      "title": "Pip and Puff",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Nova held the brush above the paper, with the paints ready and the page still white.",
+        "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "c,d,e,a",
+      "sequence": [
+        "c",
+        "d",
+        "e",
+        "a"
+      ],
+      "title": "Pip and Brolly",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+        "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+        "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "c,d,e,b",
+      "sequence": [
+        "c",
+        "d",
+        "e",
+        "b"
+      ],
+      "title": "Pip and Womby",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+        "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+        "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "c,d,e,f",
+      "sequence": [
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "title": "Pip and Puff",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "In the art room, Nova kept the brush up and the paper stayed completely empty.",
+        "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+        "No bus came, and the last of the light found a cloud sitting in a fishbowl."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "c,d,f,a",
+      "sequence": [
+        "c",
+        "d",
+        "f",
+        "a"
+      ],
+      "title": "Pip and Brolly",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Nova held the brush above the paper, with the paints ready and the page still white.",
+        "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "c,d,f,b",
+      "sequence": [
+        "c",
+        "d",
+        "f",
+        "b"
+      ],
+      "title": "Pip and Womby",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Nova held the brush above the paper, with the paints ready and the page still white.",
+        "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "c,d,f,e",
+      "sequence": [
+        "c",
+        "d",
+        "f",
+        "e"
+      ],
+      "title": "Pip and Milo",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Nova held the brush above the paper, with the paints ready and the page still white.",
+        "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "c,e,a,b",
+      "sequence": [
+        "c",
+        "e",
+        "a",
+        "b"
+      ],
+      "title": "Pip and Womby",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+        "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+        "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "c,e,a,d",
+      "sequence": [
+        "c",
+        "e",
+        "a",
+        "d"
+      ],
+      "title": "Pip and Nova",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+        "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+        "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
+      ],
+      "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
+    },
+    {
+      "key": "c,e,a,f",
+      "sequence": [
+        "c",
+        "e",
+        "a",
+        "f"
+      ],
+      "title": "Pip and Puff",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+        "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+        "No bus came, and the last of the light found a cloud sitting in a fishbowl."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "c,e,b,a",
+      "sequence": [
+        "c",
+        "e",
+        "b",
+        "a"
+      ],
+      "title": "Pip and Brolly",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "c,e,b,d",
+      "sequence": [
+        "c",
+        "e",
+        "b",
+        "d"
+      ],
+      "title": "Pip and Nova",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+        "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
+      ],
+      "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
+    },
+    {
+      "key": "c,e,b,f",
+      "sequence": [
+        "c",
+        "e",
+        "b",
+        "f"
+      ],
+      "title": "Pip and Puff",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "c,e,d,a",
+      "sequence": [
+        "c",
+        "e",
+        "d",
+        "a"
+      ],
+      "title": "Pip and Brolly",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "c,e,d,b",
+      "sequence": [
+        "c",
+        "e",
+        "d",
+        "b"
+      ],
+      "title": "Pip and Womby",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "c,e,d,f",
+      "sequence": [
+        "c",
+        "e",
+        "d",
+        "f"
+      ],
+      "title": "Pip and Puff",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "c,e,f,a",
+      "sequence": [
+        "c",
+        "e",
+        "f",
+        "a"
+      ],
+      "title": "Pip and Brolly",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "c,e,f,b",
+      "sequence": [
+        "c",
+        "e",
+        "f",
+        "b"
+      ],
+      "title": "Pip and Womby",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "c,e,f,d",
+      "sequence": [
+        "c",
+        "e",
+        "f",
+        "d"
+      ],
+      "title": "Pip and Nova",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "Nobody came for the fishbowl, so Puff kept drifting in circles above the wooden bench.",
+        "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
+      ],
+      "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
+    },
+    {
+      "key": "c,f,a,b",
+      "sequence": [
+        "c",
+        "f",
+        "a",
+        "b"
+      ],
+      "title": "Pip and Womby",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+        "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+        "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "c,f,a,d",
+      "sequence": [
+        "c",
+        "f",
+        "a",
+        "d"
+      ],
+      "title": "Pip and Nova",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+        "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+        "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
+      ],
+      "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
+    },
+    {
+      "key": "c,f,a,e",
+      "sequence": [
+        "c",
+        "f",
+        "a",
+        "e"
+      ],
+      "title": "Pip and Milo",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+        "Back in the art room, Brolly held the afternoon sun above an empty wooden table.",
+        "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "c,f,b,a",
+      "sequence": [
+        "c",
+        "f",
+        "b",
+        "a"
+      ],
+      "title": "Pip and Brolly",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "c,f,b,d",
+      "sequence": [
+        "c",
+        "f",
+        "b",
+        "d"
+      ],
+      "title": "Pip and Nova",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+        "Nova smiled at a blank sheet of paper, brush up, not a single mark made."
+      ],
+      "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
+    },
+    {
+      "key": "c,f,b,e",
+      "sequence": [
+        "c",
+        "f",
+        "b",
+        "e"
+      ],
+      "title": "Pip and Milo",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "The supermarket lamps glowed, and Womby leaned over his skateboard towards the orange that had escaped.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "c,f,d,a",
+      "sequence": [
+        "c",
+        "f",
+        "d",
+        "a"
+      ],
+      "title": "Pip and Brolly",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "c,f,d,b",
+      "sequence": [
+        "c",
+        "f",
+        "d",
+        "b"
+      ],
+      "title": "Pip and Womby",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "c,f,d,e",
+      "sequence": [
+        "c",
+        "f",
+        "d",
+        "e"
+      ],
+      "title": "Pip and Milo",
+      "beats": [
+        "After closing time the library went dark, and one paper aeroplane came gliding through it.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "Behind Nova the noticeboard rocket waited, and the paper in front of the astronaut stayed white.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "c,f,e,a",
+      "sequence": [
+        "c",
+        "f",
+        "e",
+        "a"
+      ],
+      "title": "Pip and Brolly",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+        "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+        "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "c,f,e,b",
+      "sequence": [
+        "c",
+        "f",
+        "e",
+        "b"
+      ],
+      "title": "Pip and Womby",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+        "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+        "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "c,f,e,d",
+      "sequence": [
+        "c",
+        "f",
+        "e",
+        "d"
+      ],
+      "title": "Pip and Nova",
+      "beats": [
+        "A giant paper aeroplane drifted between the library shelves, carrying a lit desk lamp on its wing.",
+        "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+        "Milo was still on the wet platform with the moon, and the tram lights were getting closer.",
+        "The astronaut kept smiling, brush ready, and the paper on the table never got painted."
+      ],
+      "readerQuestion": "Nova’s paper is still blank at the end. Is that the problem, or is that the joke?"
+    },
+    {
+      "key": "d,a,b,c",
+      "sequence": [
+        "d",
+        "a",
+        "b",
+        "c"
+      ],
+      "title": "Nova and Pip",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+        "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+        "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
+      ],
+      "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
+    },
+    {
+      "key": "d,a,b,e",
+      "sequence": [
+        "d",
+        "a",
+        "b",
+        "e"
+      ],
+      "title": "Nova and Milo",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+        "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+        "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "d,a,b,f",
+      "sequence": [
+        "d",
+        "a",
+        "b",
+        "f"
+      ],
+      "title": "Nova and Puff",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+        "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+        "No bus came, and the last of the light found a cloud sitting in a fishbowl."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "d,a,c,b",
+      "sequence": [
+        "d",
+        "a",
+        "c",
+        "b"
+      ],
+      "title": "Nova and Womby",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "d,a,c,e",
+      "sequence": [
+        "d",
+        "a",
+        "c",
+        "e"
+      ],
+      "title": "Nova and Milo",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "d,a,c,f",
+      "sequence": [
+        "d",
+        "a",
+        "c",
+        "f"
+      ],
+      "title": "Nova and Puff",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "d,a,e,b",
+      "sequence": [
+        "d",
+        "a",
+        "e",
+        "b"
+      ],
+      "title": "Nova and Womby",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "d,a,e,c",
+      "sequence": [
+        "d",
+        "a",
+        "e",
+        "c"
+      ],
+      "title": "Nova and Pip",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+        "Pip flew off between the bookcases with the lamp lit, and the library read by it."
+      ],
+      "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
+    },
+    {
+      "key": "d,a,e,f",
+      "sequence": [
+        "d",
+        "a",
+        "e",
+        "f"
+      ],
+      "title": "Nova and Puff",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "In the art room, Brolly was still open on the table, and nobody had touched him.",
+        "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "d,a,f,b",
+      "sequence": [
+        "d",
+        "a",
+        "f",
+        "b"
+      ],
+      "title": "Nova and Womby",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+        "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+        "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "d,a,f,c",
+      "sequence": [
+        "d",
+        "a",
+        "f",
+        "c"
+      ],
+      "title": "Nova and Pip",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+        "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+        "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
+      ],
+      "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
+    },
+    {
+      "key": "d,a,f,e",
+      "sequence": [
+        "d",
+        "a",
+        "f",
+        "e"
+      ],
+      "title": "Nova and Milo",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "A boy with a backpack found Brolly open on the art-room table and simply watched.",
+        "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+        "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "d,b,a,c",
+      "sequence": [
+        "d",
+        "b",
+        "a",
+        "c"
+      ],
+      "title": "Nova and Pip",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+        "Pip flew off between the bookcases with the lamp lit, and the library read by it."
+      ],
+      "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
+    },
+    {
+      "key": "d,b,a,e",
+      "sequence": [
+        "d",
+        "b",
+        "a",
+        "e"
+      ],
+      "title": "Nova and Milo",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "d,b,a,f",
+      "sequence": [
+        "d",
+        "b",
+        "a",
+        "f"
+      ],
+      "title": "Nova and Puff",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "d,b,c,a",
+      "sequence": [
+        "d",
+        "b",
+        "c",
+        "a"
+      ],
+      "title": "Nova and Brolly",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "d,b,c,e",
+      "sequence": [
+        "d",
+        "b",
+        "c",
+        "e"
+      ],
+      "title": "Nova and Milo",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "d,b,c,f",
+      "sequence": [
+        "d",
+        "b",
+        "c",
+        "f"
+      ],
+      "title": "Nova and Puff",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "d,b,e,a",
+      "sequence": [
+        "d",
+        "b",
+        "e",
+        "a"
+      ],
+      "title": "Nova and Brolly",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "d,b,e,c",
+      "sequence": [
+        "d",
+        "b",
+        "e",
+        "c"
+      ],
+      "title": "Nova and Pip",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+        "Pip flew off between the bookcases with the lamp lit, and the library read by it."
+      ],
+      "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
+    },
+    {
+      "key": "d,b,e,f",
+      "sequence": [
+        "d",
+        "b",
+        "e",
+        "f"
+      ],
+      "title": "Nova and Puff",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Womby coasted past the apple bins in his yellow raincoat and braked hard for a loose orange.",
+        "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "d,b,f,a",
+      "sequence": [
+        "d",
+        "b",
+        "f",
+        "a"
+      ],
+      "title": "Nova and Brolly",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+        "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+        "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "d,b,f,c",
+      "sequence": [
+        "d",
+        "b",
+        "f",
+        "c"
+      ],
+      "title": "Nova and Pip",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+        "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+        "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
+      ],
+      "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
+    },
+    {
+      "key": "d,b,f,e",
+      "sequence": [
+        "d",
+        "b",
+        "f",
+        "e"
+      ],
+      "title": "Nova and Milo",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "In the supermarket, Womby stood on his skateboard and looked down at the orange by his wheels.",
+        "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+        "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "d,c,a,b",
+      "sequence": [
+        "d",
+        "c",
+        "a",
+        "b"
+      ],
+      "title": "Nova and Womby",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+        "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "d,c,a,e",
+      "sequence": [
+        "d",
+        "c",
+        "a",
+        "e"
+      ],
+      "title": "Nova and Milo",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+        "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "d,c,a,f",
+      "sequence": [
+        "d",
+        "c",
+        "a",
+        "f"
+      ],
+      "title": "Nova and Puff",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+        "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "d,c,b,a",
+      "sequence": [
+        "d",
+        "c",
+        "b",
+        "a"
+      ],
+      "title": "Nova and Brolly",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "In the dark library, Pip glided over the reading table, taking the only light with him.",
+        "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+        "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "d,c,b,e",
+      "sequence": [
+        "d",
+        "c",
+        "b",
+        "e"
+      ],
+      "title": "Nova and Milo",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "In the dark library, Pip glided over the reading table, taking the only light with him.",
+        "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+        "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "d,c,b,f",
+      "sequence": [
+        "d",
+        "c",
+        "b",
+        "f"
+      ],
+      "title": "Nova and Puff",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "In the dark library, Pip glided over the reading table, taking the only light with him.",
+        "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+        "No bus came, and the last of the light found a cloud sitting in a fishbowl."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "d,c,e,a",
+      "sequence": [
+        "d",
+        "c",
+        "e",
+        "a"
+      ],
+      "title": "Nova and Brolly",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+        "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "d,c,e,b",
+      "sequence": [
+        "d",
+        "c",
+        "e",
+        "b"
+      ],
+      "title": "Nova and Womby",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+        "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "d,c,e,f",
+      "sequence": [
+        "d",
+        "c",
+        "e",
+        "f"
+      ],
+      "title": "Nova and Puff",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Pip sailed past the stained-glass window with the desk lamp still burning on his wing.",
+        "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "d,c,f,a",
+      "sequence": [
+        "d",
+        "c",
+        "f",
+        "a"
+      ],
+      "title": "Nova and Brolly",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "In the dark library, Pip glided over the reading table, taking the only light with him.",
+        "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+        "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "d,c,f,b",
+      "sequence": [
+        "d",
+        "c",
+        "f",
+        "b"
+      ],
+      "title": "Nova and Womby",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "In the dark library, Pip glided over the reading table, taking the only light with him.",
+        "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+        "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "d,c,f,e",
+      "sequence": [
+        "d",
+        "c",
+        "f",
+        "e"
+      ],
+      "title": "Nova and Milo",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "In the dark library, Pip glided over the reading table, taking the only light with him.",
+        "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+        "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "d,e,a,b",
+      "sequence": [
+        "d",
+        "e",
+        "a",
+        "b"
+      ],
+      "title": "Nova and Womby",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "d,e,a,c",
+      "sequence": [
+        "d",
+        "e",
+        "a",
+        "c"
+      ],
+      "title": "Nova and Pip",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+        "Pip flew off between the bookcases with the lamp lit, and the library read by it."
+      ],
+      "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
+    },
+    {
+      "key": "d,e,a,f",
+      "sequence": [
+        "d",
+        "e",
+        "a",
+        "f"
+      ],
+      "title": "Nova and Puff",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "d,e,b,a",
+      "sequence": [
+        "d",
+        "e",
+        "b",
+        "a"
+      ],
+      "title": "Nova and Brolly",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+        "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+        "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "d,e,b,c",
+      "sequence": [
+        "d",
+        "e",
+        "b",
+        "c"
+      ],
+      "title": "Nova and Pip",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+        "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+        "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
+      ],
+      "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
+    },
+    {
+      "key": "d,e,b,f",
+      "sequence": [
+        "d",
+        "e",
+        "b",
+        "f"
+      ],
+      "title": "Nova and Puff",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+        "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+        "No bus came, and the last of the light found a cloud sitting in a fishbowl."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "d,e,c,a",
+      "sequence": [
+        "d",
+        "e",
+        "c",
+        "a"
+      ],
+      "title": "Nova and Brolly",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "d,e,c,b",
+      "sequence": [
+        "d",
+        "e",
+        "c",
+        "b"
+      ],
+      "title": "Nova and Womby",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "d,e,c,f",
+      "sequence": [
+        "d",
+        "e",
+        "c",
+        "f"
+      ],
+      "title": "Nova and Puff",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "Milo carried his cardboard moon onto the wet platform and watched the yellow tram come closer.",
+        "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+        "The sun set over the water, and Puff stayed in the fishbowl on the empty bench."
+      ],
+      "readerQuestion": "The cloud is still in the fishbowl when the sun goes down. Who do you think left it?"
+    },
+    {
+      "key": "d,e,f,a",
+      "sequence": [
+        "d",
+        "e",
+        "f",
+        "a"
+      ],
+      "title": "Nova and Brolly",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+        "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+        "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "d,e,f,b",
+      "sequence": [
+        "d",
+        "e",
+        "f",
+        "b"
+      ],
+      "title": "Nova and Womby",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+        "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+        "So a raincoated wombat on a skateboard ended up nose to nose with a single orange."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "d,e,f,c",
+      "sequence": [
+        "d",
+        "e",
+        "f",
+        "c"
+      ],
+      "title": "Nova and Pip",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "At dusk, Milo gripped the big cratered moon and waited under the streetlights for his tram.",
+        "Puff was still in the fishbowl on the bench, and the sun was almost down.",
+        "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
+      ],
+      "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
+    },
+    {
+      "key": "d,f,a,b",
+      "sequence": [
+        "d",
+        "f",
+        "a",
+        "b"
+      ],
+      "title": "Nova and Womby",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "d,f,a,c",
+      "sequence": [
+        "d",
+        "f",
+        "a",
+        "c"
+      ],
+      "title": "Nova and Pip",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+        "Pip flew off between the bookcases with the lamp lit, and the library read by it."
+      ],
+      "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
+    },
+    {
+      "key": "d,f,a,e",
+      "sequence": [
+        "d",
+        "f",
+        "a",
+        "e"
+      ],
+      "title": "Nova and Milo",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "The boy in the doorway had not moved, and Brolly stayed open in the warm light.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "d,f,b,a",
+      "sequence": [
+        "d",
+        "f",
+        "b",
+        "a"
+      ],
+      "title": "Nova and Brolly",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+        "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+        "The last thing anyone saw was a yellow umbrella open indoors, waiting for rain."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "d,f,b,c",
+      "sequence": [
+        "d",
+        "f",
+        "b",
+        "c"
+      ],
+      "title": "Nova and Pip",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+        "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+        "The last light in the library was a desk lamp riding a paper aeroplane past the shelves."
+      ],
+      "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
+    },
+    {
+      "key": "d,f,b,e",
+      "sequence": [
+        "d",
+        "f",
+        "b",
+        "e"
+      ],
+      "title": "Nova and Milo",
+      "beats": [
+        "Nova sat down at the art table, picked up a brush and faced a blank page.",
+        "The bus stop was empty except for a fishbowl on the bench with a cloud in it.",
+        "Womby still had not picked the orange up; it sat on the floor between him and the bananas.",
+        "The sky above the tram stop stayed empty, and the moon waited on the platform with Milo."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "d,f,c,a",
+      "sequence": [
+        "d",
+        "f",
+        "c",
+        "a"
+      ],
+      "title": "Nova and Brolly",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "d,f,c,b",
+      "sequence": [
+        "d",
+        "f",
+        "c",
+        "b"
+      ],
+      "title": "Nova and Womby",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "d,f,c,e",
+      "sequence": [
+        "d",
+        "f",
+        "c",
+        "e"
+      ],
+      "title": "Nova and Milo",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "The library stayed quiet while Pip carried his little lamp above the globe and the stacked books.",
+        "Milo waited at the stop with a moon under his arm, and the tram came anyway."
+      ],
+      "readerQuestion": "Milo waits with a moon at a tram stop. Where do you think he is taking it?"
+    },
+    {
+      "key": "d,f,e,a",
+      "sequence": [
+        "d",
+        "f",
+        "e",
+        "a"
+      ],
+      "title": "Nova and Brolly",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+        "Brolly sat open on the art-room table with the windows dry and the sun still out."
+      ],
+      "readerQuestion": "Brolly is open indoors and the sun is out. What do you think happened before frame one?"
+    },
+    {
+      "key": "d,f,e,b",
+      "sequence": [
+        "d",
+        "f",
+        "e",
+        "b"
+      ],
+      "title": "Nova and Womby",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+        "Womby looked at the orange, the orange stayed put, and neither of them moved an inch."
+      ],
+      "readerQuestion": "Womby and the orange both stop dead. What do you think happens in the very next second?"
+    },
+    {
+      "key": "d,f,e,c",
+      "sequence": [
+        "d",
+        "f",
+        "e",
+        "c"
+      ],
+      "title": "Nova and Pip",
+      "beats": [
+        "At an ordinary art table, a small astronaut held a paintbrush over a clean sheet of paper.",
+        "On the bench, Puff turned slowly inside the fishbowl while the sun went down over the water.",
+        "The wet road reflected every streetlight, and Milo kept both hands around the cardboard moon.",
+        "Pip flew off between the bookcases with the lamp lit, and the library read by it."
+      ],
+      "readerQuestion": "Pip takes the library’s only light away with him. Who do you think that light is for?"
+    }
+  ]
 }
