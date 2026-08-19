@@ -3497,3 +3497,47 @@ body.fit.has-drawer #post .final-padlet-frame { height: min(38vh, 20rem); }
   border-radius: var(--r-sm);
   font-size: var(--t-sm);
 }
+
+
+/* The Brief's hand-in step: numbered steps on the left, the worked example on
+   the right where it has room to be looked at. */
+.handin-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: var(--s5);
+  align-items: start;
+  margin-top: var(--s4);
+}
+.handin-grid .brief-finish-grid { margin: 0; }
+.handin-grid .board-preview { max-width: none; margin: 0; }
+.handin-grid .board-preview .example-captions { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 62rem) {
+  .handin-grid { grid-template-columns: 1fr; }
+  .handin-grid .board-preview { max-width: 30rem; }
+}
+
+/* Step 1: keep the two lists off the mascot so the art is actually visible. */
+.brief-overview-grid--open { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.brief-overview-grid--open > .brief-you { max-width: 26rem; }
+@media (min-width: 62rem) {
+  .brief-overview-grid--open {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 0.8fr) minmax(0, 0.6fr);
+    background-size: 26% auto;
+    background-position: right 2% bottom;
+  }
+}
+
+
+/* 2 Roll step 1: the argument reads as a short piece of writing, not a block. */
+.why-card p { margin: 0 0 var(--s3); }
+.why-card p:last-child { margin-bottom: 0; }
+.why-hook {
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 2.4vw, 1.7rem);
+  line-height: 1.15;
+}
+.why-punch {
+  padding-top: var(--s3);
+  border-top: 2px solid var(--ink);
+  font-weight: 700;
+}

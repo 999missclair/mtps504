@@ -273,8 +273,16 @@
     }
 
     function updateLock() {
-      if (!lockBtn) { return; }
-      lockBtn.disabled = chosenCount() < 3;
+      if (lockBtn) { lockBtn.disabled = chosenCount() < 3; }
+      /* Save as soon as all three are picked, not only when Lock is pressed.
+         A student who chooses three cards and then clicks straight through to
+         the next step used to lose the brief entirely — it never reached step 3,
+         3 Plan or the Comic Builder. Lock still exists as the deliberate "I am
+         happy with this" action; it just is not the only thing that saves. */
+      if (chosenCount() === 3) {
+        saveBrief();
+        paintPostBanner();
+      }
     }
 
     /* ------------------------------------------------------ drawing a card */
