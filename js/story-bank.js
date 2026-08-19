@@ -9,14 +9,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "Umbrella and the Small Astronaut Reframe",
+    "title": "Brolly and Nova",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The wombat rolls in from the supermarket with the orange balanced safely on the board, apparently looking for a dry place to inspect it.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "a,b,c,e": {
     "key": "a,b,c,e",
@@ -26,14 +26,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Umbrella and the Cardboard Moon Reframe",
+    "title": "Brolly and Milo",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The wombat rolls in from the supermarket with the orange balanced safely on the board, apparently looking for a dry place to inspect it.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "a,b,c,f": {
     "key": "a,b,c,f",
@@ -43,14 +43,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Umbrella and the Cloud Bowl Reframe",
+    "title": "Brolly and Puff",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The wombat rolls in from the supermarket with the orange balanced safely on the board, apparently looking for a dry place to inspect it.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "a,b,d,c": {
     "key": "a,b,d,c",
@@ -60,14 +60,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "Umbrella and the Paper Flight Reframe",
+    "title": "Brolly and Pip",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The wombat rolls in from the supermarket with the orange balanced safely on the board, apparently looking for a dry place to inspect it.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "a,b,d,e": {
     "key": "a,b,d,e",
@@ -77,14 +77,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Umbrella and the Cardboard Moon Reframe",
+    "title": "Brolly and Milo",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The wombat rolls in from the supermarket with the orange balanced safely on the board, apparently looking for a dry place to inspect it.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "a,b,d,f": {
     "key": "a,b,d,f",
@@ -94,14 +94,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Umbrella and the Cloud Bowl Reframe",
+    "title": "Brolly and Puff",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The wombat rolls in from the supermarket with the orange balanced safely on the board, apparently looking for a dry place to inspect it.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "a,b,e,c": {
     "key": "a,b,e,c",
@@ -111,14 +111,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Umbrella and the Paper Flight Reframe",
+    "title": "Brolly and Pip",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The wombat rolls in from the supermarket with the orange balanced safely on the board, apparently looking for a dry place to inspect it.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "a,b,e,d": {
     "key": "a,b,e,d",
@@ -128,14 +128,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Umbrella and the Small Astronaut Reframe",
+    "title": "Brolly and Nova",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The wombat rolls in from the supermarket with the orange balanced safely on the board, apparently looking for a dry place to inspect it.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "a,b,e,f": {
     "key": "a,b,e,f",
@@ -145,14 +145,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Umbrella and the Cloud Bowl Reframe",
+    "title": "Brolly and Puff",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The wombat rolls in from the supermarket with the orange balanced safely on the board, apparently looking for a dry place to inspect it.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "a,b,f,c": {
     "key": "a,b,f,c",
@@ -162,14 +162,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Umbrella and the Paper Flight Reframe",
+    "title": "Brolly and Pip",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The wombat rolls in from the supermarket with the orange balanced safely on the board, apparently looking for a dry place to inspect it.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "a,b,f,d": {
     "key": "a,b,f,d",
@@ -179,14 +179,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Umbrella and the Small Astronaut Reframe",
+    "title": "Brolly and Nova",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The wombat rolls in from the supermarket with the orange balanced safely on the board, apparently looking for a dry place to inspect it.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "a,b,f,e": {
     "key": "a,b,f,e",
@@ -196,14 +196,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Umbrella and the Cardboard Moon Reframe",
+    "title": "Brolly and Milo",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The wombat rolls in from the supermarket with the orange balanced safely on the board, apparently looking for a dry place to inspect it.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Womby rolled in from the shops with one orange, hunting somewhere dry to inspect it.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "a,c,b,d": {
     "key": "a,c,b,d",
@@ -213,14 +213,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Umbrella and the Small Astronaut Reframe",
+    "title": "Brolly and Nova",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: A paper aeroplane slips in through the room and circles the umbrella, using its canopy like a landing marker.",
-      "Frame 3: Then the wombat's red skateboard coasts by itself just long enough for the orange to roll aboard, turning the ordinary errand into a gentle supermarket parade.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
+      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "a,c,b,e": {
     "key": "a,c,b,e",
@@ -230,14 +230,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Umbrella and the Cardboard Moon Reframe",
+    "title": "Brolly and Milo",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: A paper aeroplane slips in through the room and circles the umbrella, using its canopy like a landing marker.",
-      "Frame 3: Then the wombat's red skateboard coasts by itself just long enough for the orange to roll aboard, turning the ordinary errand into a gentle supermarket parade.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
+      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "a,c,b,f": {
     "key": "a,c,b,f",
@@ -247,14 +247,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Umbrella and the Cloud Bowl Reframe",
+    "title": "Brolly and Puff",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: A paper aeroplane slips in through the room and circles the umbrella, using its canopy like a landing marker.",
-      "Frame 3: Then the wombat's red skateboard coasts by itself just long enough for the orange to roll aboard, turning the ordinary errand into a gentle supermarket parade.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
+      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "a,c,d,b": {
     "key": "a,c,d,b",
@@ -264,14 +264,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Umbrella and the Wombat Reframe",
+    "title": "Brolly and Womby",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: A paper aeroplane slips in through the room and circles the umbrella, using its canopy like a landing marker.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the wombat has not been shopping at all: the red skateboard is a moving museum trolley, and the orange is the exhibit's bright spotlight."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
     ],
-    "readerQuestion": "How does the wombat's careful movement change the mood of the story?"
+    "readerQuestion": "How does Womby's careful movement change the story's mood?"
   },
   "a,c,d,e": {
     "key": "a,c,d,e",
@@ -281,14 +281,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Umbrella and the Cardboard Moon Reframe",
+    "title": "Brolly and Milo",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: A paper aeroplane slips in through the room and circles the umbrella, using its canopy like a landing marker.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "a,c,d,f": {
     "key": "a,c,d,f",
@@ -298,14 +298,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Umbrella and the Cloud Bowl Reframe",
+    "title": "Brolly and Puff",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: A paper aeroplane slips in through the room and circles the umbrella, using its canopy like a landing marker.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "a,c,e,b": {
     "key": "a,c,e,b",
@@ -315,14 +315,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Umbrella and the Wombat Reframe",
+    "title": "Brolly and Womby",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: A paper aeroplane slips in through the room and circles the umbrella, using its canopy like a landing marker.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the wombat has not been shopping at all: the red skateboard is a moving museum trolley, and the orange is the exhibit's bright spotlight."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
     ],
-    "readerQuestion": "How does the wombat's careful movement change the mood of the story?"
+    "readerQuestion": "How does Womby's careful movement change the story's mood?"
   },
   "a,c,e,d": {
     "key": "a,c,e,d",
@@ -332,14 +332,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Umbrella and the Small Astronaut Reframe",
+    "title": "Brolly and Nova",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: A paper aeroplane slips in through the room and circles the umbrella, using its canopy like a landing marker.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "a,c,e,f": {
     "key": "a,c,e,f",
@@ -349,14 +349,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Umbrella and the Cloud Bowl Reframe",
+    "title": "Brolly and Puff",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: A paper aeroplane slips in through the room and circles the umbrella, using its canopy like a landing marker.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "a,c,f,b": {
     "key": "a,c,f,b",
@@ -366,14 +366,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Umbrella and the Wombat Reframe",
+    "title": "Brolly and Womby",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: A paper aeroplane slips in through the room and circles the umbrella, using its canopy like a landing marker.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the wombat has not been shopping at all: the red skateboard is a moving museum trolley, and the orange is the exhibit's bright spotlight."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
     ],
-    "readerQuestion": "How does the wombat's careful movement change the mood of the story?"
+    "readerQuestion": "How does Womby's careful movement change the story's mood?"
   },
   "a,c,f,d": {
     "key": "a,c,f,d",
@@ -383,14 +383,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Umbrella and the Small Astronaut Reframe",
+    "title": "Brolly and Nova",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: A paper aeroplane slips in through the room and circles the umbrella, using its canopy like a landing marker.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "a,c,f,e": {
     "key": "a,c,f,e",
@@ -400,14 +400,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Umbrella and the Cardboard Moon Reframe",
+    "title": "Brolly and Milo",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: A paper aeroplane slips in through the room and circles the umbrella, using its canopy like a landing marker.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Pip slipped inside and circled Brolly, treating the open umbrella like a landing pad.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "a,d,b,c": {
     "key": "a,d,b,c",
@@ -417,14 +417,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Umbrella and the Paper Flight Reframe",
+    "title": "Brolly and Pip",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The small astronaut notices the umbrella and treats its wide surface as a new canvas waiting to be explored.",
-      "Frame 3: Then the wombat's red skateboard coasts by itself just long enough for the orange to roll aboard, turning the ordinary errand into a gentle supermarket parade.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
+      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "a,d,b,e": {
     "key": "a,d,b,e",
@@ -434,14 +434,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Umbrella and the Cardboard Moon Reframe",
+    "title": "Brolly and Milo",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The small astronaut notices the umbrella and treats its wide surface as a new canvas waiting to be explored.",
-      "Frame 3: Then the wombat's red skateboard coasts by itself just long enough for the orange to roll aboard, turning the ordinary errand into a gentle supermarket parade.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
+      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "a,d,b,f": {
     "key": "a,d,b,f",
@@ -451,14 +451,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Umbrella and the Cloud Bowl Reframe",
+    "title": "Brolly and Puff",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The small astronaut notices the umbrella and treats its wide surface as a new canvas waiting to be explored.",
-      "Frame 3: Then the wombat's red skateboard coasts by itself just long enough for the orange to roll aboard, turning the ordinary errand into a gentle supermarket parade.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
+      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "a,d,c,b": {
     "key": "a,d,c,b",
@@ -468,14 +468,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Umbrella and the Wombat Reframe",
+    "title": "Brolly and Womby",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The small astronaut notices the umbrella and treats its wide surface as a new canvas waiting to be explored.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the wombat has not been shopping at all: the red skateboard is a moving museum trolley, and the orange is the exhibit's bright spotlight."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
     ],
-    "readerQuestion": "How does the wombat's careful movement change the mood of the story?"
+    "readerQuestion": "How does Womby's careful movement change the story's mood?"
   },
   "a,d,c,e": {
     "key": "a,d,c,e",
@@ -485,14 +485,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Umbrella and the Cardboard Moon Reframe",
+    "title": "Brolly and Milo",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The small astronaut notices the umbrella and treats its wide surface as a new canvas waiting to be explored.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "a,d,c,f": {
     "key": "a,d,c,f",
@@ -502,14 +502,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Umbrella and the Cloud Bowl Reframe",
+    "title": "Brolly and Puff",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The small astronaut notices the umbrella and treats its wide surface as a new canvas waiting to be explored.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "a,d,e,b": {
     "key": "a,d,e,b",
@@ -519,14 +519,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Umbrella and the Wombat Reframe",
+    "title": "Brolly and Womby",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The small astronaut notices the umbrella and treats its wide surface as a new canvas waiting to be explored.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the wombat has not been shopping at all: the red skateboard is a moving museum trolley, and the orange is the exhibit's bright spotlight."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
     ],
-    "readerQuestion": "How does the wombat's careful movement change the mood of the story?"
+    "readerQuestion": "How does Womby's careful movement change the story's mood?"
   },
   "a,d,e,c": {
     "key": "a,d,e,c",
@@ -536,14 +536,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Umbrella and the Paper Flight Reframe",
+    "title": "Brolly and Pip",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The small astronaut notices the umbrella and treats its wide surface as a new canvas waiting to be explored.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "a,d,e,f": {
     "key": "a,d,e,f",
@@ -553,14 +553,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Umbrella and the Cloud Bowl Reframe",
+    "title": "Brolly and Puff",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The small astronaut notices the umbrella and treats its wide surface as a new canvas waiting to be explored.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "a,d,f,b": {
     "key": "a,d,f,b",
@@ -570,14 +570,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Umbrella and the Wombat Reframe",
+    "title": "Brolly and Womby",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The small astronaut notices the umbrella and treats its wide surface as a new canvas waiting to be explored.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the wombat has not been shopping at all: the red skateboard is a moving museum trolley, and the orange is the exhibit's bright spotlight."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
     ],
-    "readerQuestion": "How does the wombat's careful movement change the mood of the story?"
+    "readerQuestion": "How does Womby's careful movement change the story's mood?"
   },
   "a,d,f,c": {
     "key": "a,d,f,c",
@@ -587,14 +587,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Umbrella and the Paper Flight Reframe",
+    "title": "Brolly and Pip",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The small astronaut notices the umbrella and treats its wide surface as a new canvas waiting to be explored.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "a,d,f,e": {
     "key": "a,d,f,e",
@@ -604,14 +604,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Umbrella and the Cardboard Moon Reframe",
+    "title": "Brolly and Milo",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The small astronaut notices the umbrella and treats its wide surface as a new canvas waiting to be explored.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Nova spotted Brolly and decided the umbrella's wide surface was a brand-new canvas.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "a,e,b,c": {
     "key": "a,e,b,c",
@@ -621,14 +621,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Umbrella and the Paper Flight Reframe",
+    "title": "Brolly and Pip",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The teenager arrives from the rain with the cardboard moon, grateful to find a roof-like umbrella already open indoors.",
-      "Frame 3: Then the wombat's red skateboard coasts by itself just long enough for the orange to roll aboard, turning the ordinary errand into a gentle supermarket parade.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Milo came in from the rain with the moon and found Brolly already open indoors.",
+      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "a,e,b,d": {
     "key": "a,e,b,d",
@@ -638,14 +638,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Umbrella and the Small Astronaut Reframe",
+    "title": "Brolly and Nova",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The teenager arrives from the rain with the cardboard moon, grateful to find a roof-like umbrella already open indoors.",
-      "Frame 3: Then the wombat's red skateboard coasts by itself just long enough for the orange to roll aboard, turning the ordinary errand into a gentle supermarket parade.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Milo came in from the rain with the moon and found Brolly already open indoors.",
+      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "a,e,b,f": {
     "key": "a,e,b,f",
@@ -655,14 +655,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Umbrella and the Cloud Bowl Reframe",
+    "title": "Brolly and Puff",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The teenager arrives from the rain with the cardboard moon, grateful to find a roof-like umbrella already open indoors.",
-      "Frame 3: Then the wombat's red skateboard coasts by itself just long enough for the orange to roll aboard, turning the ordinary errand into a gentle supermarket parade.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Milo came in from the rain with the moon and found Brolly already open indoors.",
+      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "a,e,c,b": {
     "key": "a,e,c,b",
@@ -672,14 +672,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Umbrella and the Wombat Reframe",
+    "title": "Brolly and Womby",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The teenager arrives from the rain with the cardboard moon, grateful to find a roof-like umbrella already open indoors.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the wombat has not been shopping at all: the red skateboard is a moving museum trolley, and the orange is the exhibit's bright spotlight."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Milo came in from the rain with the moon and found Brolly already open indoors.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
     ],
-    "readerQuestion": "How does the wombat's careful movement change the mood of the story?"
+    "readerQuestion": "How does Womby's careful movement change the story's mood?"
   },
   "a,e,c,d": {
     "key": "a,e,c,d",
@@ -689,14 +689,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "Umbrella and the Small Astronaut Reframe",
+    "title": "Brolly and Nova",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The teenager arrives from the rain with the cardboard moon, grateful to find a roof-like umbrella already open indoors.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Milo came in from the rain with the moon and found Brolly already open indoors.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "a,e,c,f": {
     "key": "a,e,c,f",
@@ -706,14 +706,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Umbrella and the Cloud Bowl Reframe",
+    "title": "Brolly and Puff",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The teenager arrives from the rain with the cardboard moon, grateful to find a roof-like umbrella already open indoors.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Milo came in from the rain with the moon and found Brolly already open indoors.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "a,e,d,b": {
     "key": "a,e,d,b",
@@ -723,14 +723,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Umbrella and the Wombat Reframe",
+    "title": "Brolly and Womby",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The teenager arrives from the rain with the cardboard moon, grateful to find a roof-like umbrella already open indoors.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the wombat has not been shopping at all: the red skateboard is a moving museum trolley, and the orange is the exhibit's bright spotlight."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Milo came in from the rain with the moon and found Brolly already open indoors.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
     ],
-    "readerQuestion": "How does the wombat's careful movement change the mood of the story?"
+    "readerQuestion": "How does Womby's careful movement change the story's mood?"
   },
   "a,e,d,c": {
     "key": "a,e,d,c",
@@ -740,14 +740,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "Umbrella and the Paper Flight Reframe",
+    "title": "Brolly and Pip",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The teenager arrives from the rain with the cardboard moon, grateful to find a roof-like umbrella already open indoors.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Milo came in from the rain with the moon and found Brolly already open indoors.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "a,e,d,f": {
     "key": "a,e,d,f",
@@ -757,14 +757,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Umbrella and the Cloud Bowl Reframe",
+    "title": "Brolly and Puff",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The teenager arrives from the rain with the cardboard moon, grateful to find a roof-like umbrella already open indoors.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Milo came in from the rain with the moon and found Brolly already open indoors.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "a,e,f,b": {
     "key": "a,e,f,b",
@@ -774,14 +774,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Umbrella and the Wombat Reframe",
+    "title": "Brolly and Womby",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The teenager arrives from the rain with the cardboard moon, grateful to find a roof-like umbrella already open indoors.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the wombat has not been shopping at all: the red skateboard is a moving museum trolley, and the orange is the exhibit's bright spotlight."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Milo came in from the rain with the moon and found Brolly already open indoors.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
     ],
-    "readerQuestion": "How does the wombat's careful movement change the mood of the story?"
+    "readerQuestion": "How does Womby's careful movement change the story's mood?"
   },
   "a,e,f,c": {
     "key": "a,e,f,c",
@@ -791,14 +791,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Umbrella and the Paper Flight Reframe",
+    "title": "Brolly and Pip",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The teenager arrives from the rain with the cardboard moon, grateful to find a roof-like umbrella already open indoors.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Milo came in from the rain with the moon and found Brolly already open indoors.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "a,e,f,d": {
     "key": "a,e,f,d",
@@ -808,14 +808,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Umbrella and the Small Astronaut Reframe",
+    "title": "Brolly and Nova",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The teenager arrives from the rain with the cardboard moon, grateful to find a roof-like umbrella already open indoors.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Milo came in from the rain with the moon and found Brolly already open indoors.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "a,f,b,c": {
     "key": "a,f,b,c",
@@ -825,14 +825,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Umbrella and the Paper Flight Reframe",
+    "title": "Brolly and Pip",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The cloud-in-a-fishbowl is set beside the umbrella, so the table begins to look like a weather station made from art supplies.",
-      "Frame 3: Then the wombat's red skateboard coasts by itself just long enough for the orange to roll aboard, turning the ordinary errand into a gentle supermarket parade.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
+      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "a,f,b,d": {
     "key": "a,f,b,d",
@@ -842,14 +842,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Umbrella and the Small Astronaut Reframe",
+    "title": "Brolly and Nova",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The cloud-in-a-fishbowl is set beside the umbrella, so the table begins to look like a weather station made from art supplies.",
-      "Frame 3: Then the wombat's red skateboard coasts by itself just long enough for the orange to roll aboard, turning the ordinary errand into a gentle supermarket parade.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
+      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "a,f,b,e": {
     "key": "a,f,b,e",
@@ -859,14 +859,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Umbrella and the Cardboard Moon Reframe",
+    "title": "Brolly and Milo",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The cloud-in-a-fishbowl is set beside the umbrella, so the table begins to look like a weather station made from art supplies.",
-      "Frame 3: Then the wombat's red skateboard coasts by itself just long enough for the orange to roll aboard, turning the ordinary errand into a gentle supermarket parade.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
+      "Womby's skateboard coasted along on its own, just long enough for the orange to hop aboard.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "a,f,c,b": {
     "key": "a,f,c,b",
@@ -876,14 +876,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Umbrella and the Wombat Reframe",
+    "title": "Brolly and Womby",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The cloud-in-a-fishbowl is set beside the umbrella, so the table begins to look like a weather station made from art supplies.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the wombat has not been shopping at all: the red skateboard is a moving museum trolley, and the orange is the exhibit's bright spotlight."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
     ],
-    "readerQuestion": "How does the wombat's careful movement change the mood of the story?"
+    "readerQuestion": "How does Womby's careful movement change the story's mood?"
   },
   "a,f,c,d": {
     "key": "a,f,c,d",
@@ -893,14 +893,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "Umbrella and the Small Astronaut Reframe",
+    "title": "Brolly and Nova",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The cloud-in-a-fishbowl is set beside the umbrella, so the table begins to look like a weather station made from art supplies.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "a,f,c,e": {
     "key": "a,f,c,e",
@@ -910,14 +910,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Umbrella and the Cardboard Moon Reframe",
+    "title": "Brolly and Milo",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The cloud-in-a-fishbowl is set beside the umbrella, so the table begins to look like a weather station made from art supplies.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "a,f,d,b": {
     "key": "a,f,d,b",
@@ -927,14 +927,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Umbrella and the Wombat Reframe",
+    "title": "Brolly and Womby",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The cloud-in-a-fishbowl is set beside the umbrella, so the table begins to look like a weather station made from art supplies.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the wombat has not been shopping at all: the red skateboard is a moving museum trolley, and the orange is the exhibit's bright spotlight."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
     ],
-    "readerQuestion": "How does the wombat's careful movement change the mood of the story?"
+    "readerQuestion": "How does Womby's careful movement change the story's mood?"
   },
   "a,f,d,c": {
     "key": "a,f,d,c",
@@ -944,14 +944,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "Umbrella and the Paper Flight Reframe",
+    "title": "Brolly and Pip",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The cloud-in-a-fishbowl is set beside the umbrella, so the table begins to look like a weather station made from art supplies.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "a,f,d,e": {
     "key": "a,f,d,e",
@@ -961,14 +961,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Umbrella and the Cardboard Moon Reframe",
+    "title": "Brolly and Milo",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The cloud-in-a-fishbowl is set beside the umbrella, so the table begins to look like a weather station made from art supplies.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "a,f,e,b": {
     "key": "a,f,e,b",
@@ -978,14 +978,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Umbrella and the Wombat Reframe",
+    "title": "Brolly and Womby",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The cloud-in-a-fishbowl is set beside the umbrella, so the table begins to look like a weather station made from art supplies.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the wombat has not been shopping at all: the red skateboard is a moving museum trolley, and the orange is the exhibit's bright spotlight."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Womby wasn't shopping at all — the skateboard was a trolley and the orange was the exhibit."
     ],
-    "readerQuestion": "How does the wombat's careful movement change the mood of the story?"
+    "readerQuestion": "How does Womby's careful movement change the story's mood?"
   },
   "a,f,e,c": {
     "key": "a,f,e,c",
@@ -995,14 +995,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Umbrella and the Paper Flight Reframe",
+    "title": "Brolly and Pip",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The cloud-in-a-fishbowl is set beside the umbrella, so the table begins to look like a weather station made from art supplies.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "a,f,e,d": {
     "key": "a,f,e,d",
@@ -1012,14 +1012,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Umbrella and the Small Astronaut Reframe",
+    "title": "Brolly and Nova",
     "beats": [
-      "Frame 1: In a quiet art room, an umbrella sits open on a table, turning the ordinary workspace into a tiny indoor shelter.",
-      "Frame 2: The cloud-in-a-fishbowl is set beside the umbrella, so the table begins to look like a weather station made from art supplies.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Brolly the umbrella sat open on the art-room table, as if indoor rain was coming.",
+      "Someone set Puff beside Brolly, and the table turned into a weather station made of art supplies.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "b,a,c,d": {
     "key": "b,a,c,d",
@@ -1029,14 +1029,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "Wombat and the Small Astronaut Reframe",
+    "title": "Womby and Nova",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat rolls the skateboard toward an open umbrella on a table, where the orange can wait somewhere unexpectedly dry.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "b,a,c,e": {
     "key": "b,a,c,e",
@@ -1046,14 +1046,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Wombat and the Cardboard Moon Reframe",
+    "title": "Womby and Milo",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat rolls the skateboard toward an open umbrella on a table, where the orange can wait somewhere unexpectedly dry.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "b,a,c,f": {
     "key": "b,a,c,f",
@@ -1063,14 +1063,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Wombat and the Cloud Bowl Reframe",
+    "title": "Womby and Puff",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat rolls the skateboard toward an open umbrella on a table, where the orange can wait somewhere unexpectedly dry.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "b,a,d,c": {
     "key": "b,a,d,c",
@@ -1080,14 +1080,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "Wombat and the Paper Flight Reframe",
+    "title": "Womby and Pip",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat rolls the skateboard toward an open umbrella on a table, where the orange can wait somewhere unexpectedly dry.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "b,a,d,e": {
     "key": "b,a,d,e",
@@ -1097,14 +1097,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Wombat and the Cardboard Moon Reframe",
+    "title": "Womby and Milo",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat rolls the skateboard toward an open umbrella on a table, where the orange can wait somewhere unexpectedly dry.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "b,a,d,f": {
     "key": "b,a,d,f",
@@ -1114,14 +1114,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Wombat and the Cloud Bowl Reframe",
+    "title": "Womby and Puff",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat rolls the skateboard toward an open umbrella on a table, where the orange can wait somewhere unexpectedly dry.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "b,a,e,c": {
     "key": "b,a,e,c",
@@ -1131,14 +1131,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Wombat and the Paper Flight Reframe",
+    "title": "Womby and Pip",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat rolls the skateboard toward an open umbrella on a table, where the orange can wait somewhere unexpectedly dry.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "b,a,e,d": {
     "key": "b,a,e,d",
@@ -1148,14 +1148,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Wombat and the Small Astronaut Reframe",
+    "title": "Womby and Nova",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat rolls the skateboard toward an open umbrella on a table, where the orange can wait somewhere unexpectedly dry.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "b,a,e,f": {
     "key": "b,a,e,f",
@@ -1165,14 +1165,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Wombat and the Cloud Bowl Reframe",
+    "title": "Womby and Puff",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat rolls the skateboard toward an open umbrella on a table, where the orange can wait somewhere unexpectedly dry.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "b,a,f,c": {
     "key": "b,a,f,c",
@@ -1182,14 +1182,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Wombat and the Paper Flight Reframe",
+    "title": "Womby and Pip",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat rolls the skateboard toward an open umbrella on a table, where the orange can wait somewhere unexpectedly dry.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "b,a,f,d": {
     "key": "b,a,f,d",
@@ -1199,14 +1199,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Wombat and the Small Astronaut Reframe",
+    "title": "Womby and Nova",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat rolls the skateboard toward an open umbrella on a table, where the orange can wait somewhere unexpectedly dry.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "b,a,f,e": {
     "key": "b,a,f,e",
@@ -1216,14 +1216,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Wombat and the Cardboard Moon Reframe",
+    "title": "Womby and Milo",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat rolls the skateboard toward an open umbrella on a table, where the orange can wait somewhere unexpectedly dry.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby rolled towards Brolly on the table, where the orange could wait somewhere unexpectedly dry.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "b,c,a,d": {
     "key": "b,c,a,d",
@@ -1233,14 +1233,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Wombat and the Small Astronaut Reframe",
+    "title": "Womby and Nova",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: A paper aeroplane drifts down the aisle toward the wombat, and the skateboard becomes a tiny runway between the shelves.",
-      "Frame 3: Then the open umbrella catches an indoor breeze and lifts a trail of paint-paper confetti above the scene, an impossible weather report that makes everyone look up.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
+      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "b,c,a,e": {
     "key": "b,c,a,e",
@@ -1250,14 +1250,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Wombat and the Cardboard Moon Reframe",
+    "title": "Womby and Milo",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: A paper aeroplane drifts down the aisle toward the wombat, and the skateboard becomes a tiny runway between the shelves.",
-      "Frame 3: Then the open umbrella catches an indoor breeze and lifts a trail of paint-paper confetti above the scene, an impossible weather report that makes everyone look up.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
+      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "b,c,a,f": {
     "key": "b,c,a,f",
@@ -1267,14 +1267,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Wombat and the Cloud Bowl Reframe",
+    "title": "Womby and Puff",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: A paper aeroplane drifts down the aisle toward the wombat, and the skateboard becomes a tiny runway between the shelves.",
-      "Frame 3: Then the open umbrella catches an indoor breeze and lifts a trail of paint-paper confetti above the scene, an impossible weather report that makes everyone look up.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
+      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "b,c,d,a": {
     "key": "b,c,d,a",
@@ -1284,14 +1284,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Wombat and the Umbrella Reframe",
+    "title": "Womby and Brolly",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: A paper aeroplane drifts down the aisle toward the wombat, and the skateboard becomes a tiny runway between the shelves.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the umbrella is not sheltering anyone: it has become the display stand for the finished scene, with its handle holding the final label."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
     ],
-    "readerQuestion": "What clue shows that the umbrella has changed from an object into part of the ending?"
+    "readerQuestion": "What shows Brolly has become part of the ending?"
   },
   "b,c,d,e": {
     "key": "b,c,d,e",
@@ -1301,14 +1301,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Wombat and the Cardboard Moon Reframe",
+    "title": "Womby and Milo",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: A paper aeroplane drifts down the aisle toward the wombat, and the skateboard becomes a tiny runway between the shelves.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "b,c,d,f": {
     "key": "b,c,d,f",
@@ -1318,14 +1318,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Wombat and the Cloud Bowl Reframe",
+    "title": "Womby and Puff",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: A paper aeroplane drifts down the aisle toward the wombat, and the skateboard becomes a tiny runway between the shelves.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "b,c,e,a": {
     "key": "b,c,e,a",
@@ -1335,14 +1335,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Wombat and the Umbrella Reframe",
+    "title": "Womby and Brolly",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: A paper aeroplane drifts down the aisle toward the wombat, and the skateboard becomes a tiny runway between the shelves.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the umbrella is not sheltering anyone: it has become the display stand for the finished scene, with its handle holding the final label."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
     ],
-    "readerQuestion": "What clue shows that the umbrella has changed from an object into part of the ending?"
+    "readerQuestion": "What shows Brolly has become part of the ending?"
   },
   "b,c,e,d": {
     "key": "b,c,e,d",
@@ -1352,14 +1352,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Wombat and the Small Astronaut Reframe",
+    "title": "Womby and Nova",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: A paper aeroplane drifts down the aisle toward the wombat, and the skateboard becomes a tiny runway between the shelves.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "b,c,e,f": {
     "key": "b,c,e,f",
@@ -1369,14 +1369,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Wombat and the Cloud Bowl Reframe",
+    "title": "Womby and Puff",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: A paper aeroplane drifts down the aisle toward the wombat, and the skateboard becomes a tiny runway between the shelves.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "b,c,f,a": {
     "key": "b,c,f,a",
@@ -1386,14 +1386,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Wombat and the Umbrella Reframe",
+    "title": "Womby and Brolly",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: A paper aeroplane drifts down the aisle toward the wombat, and the skateboard becomes a tiny runway between the shelves.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the umbrella is not sheltering anyone: it has become the display stand for the finished scene, with its handle holding the final label."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
     ],
-    "readerQuestion": "What clue shows that the umbrella has changed from an object into part of the ending?"
+    "readerQuestion": "What shows Brolly has become part of the ending?"
   },
   "b,c,f,d": {
     "key": "b,c,f,d",
@@ -1403,14 +1403,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Wombat and the Small Astronaut Reframe",
+    "title": "Womby and Nova",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: A paper aeroplane drifts down the aisle toward the wombat, and the skateboard becomes a tiny runway between the shelves.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "b,c,f,e": {
     "key": "b,c,f,e",
@@ -1420,14 +1420,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Wombat and the Cardboard Moon Reframe",
+    "title": "Womby and Milo",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: A paper aeroplane drifts down the aisle toward the wombat, and the skateboard becomes a tiny runway between the shelves.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Pip drifted down the aisle, and Womby's skateboard turned into a tiny runway between the shelves.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "b,d,a,c": {
     "key": "b,d,a,c",
@@ -1437,14 +1437,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Wombat and the Paper Flight Reframe",
+    "title": "Womby and Pip",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches an art table where a small astronaut is painting, delivering the orange as if it were a bright still-life subject.",
-      "Frame 3: Then the open umbrella catches an indoor breeze and lifts a trail of paint-paper confetti above the scene, an impossible weather report that makes everyone look up.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
+      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "b,d,a,e": {
     "key": "b,d,a,e",
@@ -1454,14 +1454,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Wombat and the Cardboard Moon Reframe",
+    "title": "Womby and Milo",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches an art table where a small astronaut is painting, delivering the orange as if it were a bright still-life subject.",
-      "Frame 3: Then the open umbrella catches an indoor breeze and lifts a trail of paint-paper confetti above the scene, an impossible weather report that makes everyone look up.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
+      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "b,d,a,f": {
     "key": "b,d,a,f",
@@ -1471,14 +1471,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Wombat and the Cloud Bowl Reframe",
+    "title": "Womby and Puff",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches an art table where a small astronaut is painting, delivering the orange as if it were a bright still-life subject.",
-      "Frame 3: Then the open umbrella catches an indoor breeze and lifts a trail of paint-paper confetti above the scene, an impossible weather report that makes everyone look up.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
+      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "b,d,c,a": {
     "key": "b,d,c,a",
@@ -1488,14 +1488,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Wombat and the Umbrella Reframe",
+    "title": "Womby and Brolly",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches an art table where a small astronaut is painting, delivering the orange as if it were a bright still-life subject.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the umbrella is not sheltering anyone: it has become the display stand for the finished scene, with its handle holding the final label."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
     ],
-    "readerQuestion": "What clue shows that the umbrella has changed from an object into part of the ending?"
+    "readerQuestion": "What shows Brolly has become part of the ending?"
   },
   "b,d,c,e": {
     "key": "b,d,c,e",
@@ -1505,14 +1505,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Wombat and the Cardboard Moon Reframe",
+    "title": "Womby and Milo",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches an art table where a small astronaut is painting, delivering the orange as if it were a bright still-life subject.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "b,d,c,f": {
     "key": "b,d,c,f",
@@ -1522,14 +1522,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Wombat and the Cloud Bowl Reframe",
+    "title": "Womby and Puff",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches an art table where a small astronaut is painting, delivering the orange as if it were a bright still-life subject.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "b,d,e,a": {
     "key": "b,d,e,a",
@@ -1539,14 +1539,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Wombat and the Umbrella Reframe",
+    "title": "Womby and Brolly",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches an art table where a small astronaut is painting, delivering the orange as if it were a bright still-life subject.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the umbrella is not sheltering anyone: it has become the display stand for the finished scene, with its handle holding the final label."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
     ],
-    "readerQuestion": "What clue shows that the umbrella has changed from an object into part of the ending?"
+    "readerQuestion": "What shows Brolly has become part of the ending?"
   },
   "b,d,e,c": {
     "key": "b,d,e,c",
@@ -1556,14 +1556,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Wombat and the Paper Flight Reframe",
+    "title": "Womby and Pip",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches an art table where a small astronaut is painting, delivering the orange as if it were a bright still-life subject.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "b,d,e,f": {
     "key": "b,d,e,f",
@@ -1573,14 +1573,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Wombat and the Cloud Bowl Reframe",
+    "title": "Womby and Puff",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches an art table where a small astronaut is painting, delivering the orange as if it were a bright still-life subject.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "b,d,f,a": {
     "key": "b,d,f,a",
@@ -1590,14 +1590,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Wombat and the Umbrella Reframe",
+    "title": "Womby and Brolly",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches an art table where a small astronaut is painting, delivering the orange as if it were a bright still-life subject.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the umbrella is not sheltering anyone: it has become the display stand for the finished scene, with its handle holding the final label."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
     ],
-    "readerQuestion": "What clue shows that the umbrella has changed from an object into part of the ending?"
+    "readerQuestion": "What shows Brolly has become part of the ending?"
   },
   "b,d,f,c": {
     "key": "b,d,f,c",
@@ -1607,14 +1607,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Wombat and the Paper Flight Reframe",
+    "title": "Womby and Pip",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches an art table where a small astronaut is painting, delivering the orange as if it were a bright still-life subject.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "b,d,f,e": {
     "key": "b,d,f,e",
@@ -1624,14 +1624,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Wombat and the Cardboard Moon Reframe",
+    "title": "Womby and Milo",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches an art table where a small astronaut is painting, delivering the orange as if it were a bright still-life subject.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached Nova's table and delivered the orange like a very important still-life model.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "b,e,a,c": {
     "key": "b,e,a,c",
@@ -1641,14 +1641,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Wombat and the Paper Flight Reframe",
+    "title": "Womby and Pip",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: At the wet tram stop, the wombat parks the skateboard beside the teenager's cardboard moon, making the curb feel like a stage set.",
-      "Frame 3: Then the open umbrella catches an indoor breeze and lifts a trail of paint-paper confetti above the scene, an impossible weather report that makes everyone look up.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
+      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "b,e,a,d": {
     "key": "b,e,a,d",
@@ -1658,14 +1658,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Wombat and the Small Astronaut Reframe",
+    "title": "Womby and Nova",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: At the wet tram stop, the wombat parks the skateboard beside the teenager's cardboard moon, making the curb feel like a stage set.",
-      "Frame 3: Then the open umbrella catches an indoor breeze and lifts a trail of paint-paper confetti above the scene, an impossible weather report that makes everyone look up.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
+      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "b,e,a,f": {
     "key": "b,e,a,f",
@@ -1675,14 +1675,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Wombat and the Cloud Bowl Reframe",
+    "title": "Womby and Puff",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: At the wet tram stop, the wombat parks the skateboard beside the teenager's cardboard moon, making the curb feel like a stage set.",
-      "Frame 3: Then the open umbrella catches an indoor breeze and lifts a trail of paint-paper confetti above the scene, an impossible weather report that makes everyone look up.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
+      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "b,e,c,a": {
     "key": "b,e,c,a",
@@ -1692,14 +1692,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Wombat and the Umbrella Reframe",
+    "title": "Womby and Brolly",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: At the wet tram stop, the wombat parks the skateboard beside the teenager's cardboard moon, making the curb feel like a stage set.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the umbrella is not sheltering anyone: it has become the display stand for the finished scene, with its handle holding the final label."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
     ],
-    "readerQuestion": "What clue shows that the umbrella has changed from an object into part of the ending?"
+    "readerQuestion": "What shows Brolly has become part of the ending?"
   },
   "b,e,c,d": {
     "key": "b,e,c,d",
@@ -1709,14 +1709,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "Wombat and the Small Astronaut Reframe",
+    "title": "Womby and Nova",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: At the wet tram stop, the wombat parks the skateboard beside the teenager's cardboard moon, making the curb feel like a stage set.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "b,e,c,f": {
     "key": "b,e,c,f",
@@ -1726,14 +1726,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Wombat and the Cloud Bowl Reframe",
+    "title": "Womby and Puff",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: At the wet tram stop, the wombat parks the skateboard beside the teenager's cardboard moon, making the curb feel like a stage set.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "b,e,d,a": {
     "key": "b,e,d,a",
@@ -1743,14 +1743,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Wombat and the Umbrella Reframe",
+    "title": "Womby and Brolly",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: At the wet tram stop, the wombat parks the skateboard beside the teenager's cardboard moon, making the curb feel like a stage set.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the umbrella is not sheltering anyone: it has become the display stand for the finished scene, with its handle holding the final label."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
     ],
-    "readerQuestion": "What clue shows that the umbrella has changed from an object into part of the ending?"
+    "readerQuestion": "What shows Brolly has become part of the ending?"
   },
   "b,e,d,c": {
     "key": "b,e,d,c",
@@ -1760,14 +1760,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "Wombat and the Paper Flight Reframe",
+    "title": "Womby and Pip",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: At the wet tram stop, the wombat parks the skateboard beside the teenager's cardboard moon, making the curb feel like a stage set.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "b,e,d,f": {
     "key": "b,e,d,f",
@@ -1777,14 +1777,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Wombat and the Cloud Bowl Reframe",
+    "title": "Womby and Puff",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: At the wet tram stop, the wombat parks the skateboard beside the teenager's cardboard moon, making the curb feel like a stage set.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the fishbowl cloud is not predicting rain: it is a miniature model for the artwork, while the real sky is finally clear behind the bus stop."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Puff drizzled inside the fishbowl while the real sky behind the bus stop stayed perfectly clear."
     ],
-    "readerQuestion": "Why is the tiny cloud more surprising once the final image is revealed?"
+    "readerQuestion": "Why is Puff more surprising in the last picture?"
   },
   "b,e,f,a": {
     "key": "b,e,f,a",
@@ -1794,14 +1794,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Wombat and the Umbrella Reframe",
+    "title": "Womby and Brolly",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: At the wet tram stop, the wombat parks the skateboard beside the teenager's cardboard moon, making the curb feel like a stage set.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the umbrella is not sheltering anyone: it has become the display stand for the finished scene, with its handle holding the final label."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
     ],
-    "readerQuestion": "What clue shows that the umbrella has changed from an object into part of the ending?"
+    "readerQuestion": "What shows Brolly has become part of the ending?"
   },
   "b,e,f,c": {
     "key": "b,e,f,c",
@@ -1811,14 +1811,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Wombat and the Paper Flight Reframe",
+    "title": "Womby and Pip",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: At the wet tram stop, the wombat parks the skateboard beside the teenager's cardboard moon, making the curb feel like a stage set.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "b,e,f,d": {
     "key": "b,e,f,d",
@@ -1828,14 +1828,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Wombat and the Small Astronaut Reframe",
+    "title": "Womby and Nova",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: At the wet tram stop, the wombat parks the skateboard beside the teenager's cardboard moon, making the curb feel like a stage set.",
-      "Frame 3: Then the cloud inside the fishbowl puffs up and fogs the glass, creating a tiny storm front that makes the larger sky outside seem surprisingly calm.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby parked beside Milo's cardboard moon, and the wet tram stop became a proper stage.",
+      "Puff fogged up the fishbowl glass with a tiny storm while the big sky stayed calm.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "b,f,a,c": {
     "key": "b,f,a,c",
@@ -1845,14 +1845,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Wombat and the Paper Flight Reframe",
+    "title": "Womby and Pip",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches a bus stop and finds a fishbowl with a cloud inside, so the raincoat suddenly seems like sensible weather gear.",
-      "Frame 3: Then the open umbrella catches an indoor breeze and lifts a trail of paint-paper confetti above the scene, an impossible weather report that makes everyone look up.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
+      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "b,f,a,d": {
     "key": "b,f,a,d",
@@ -1862,14 +1862,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Wombat and the Small Astronaut Reframe",
+    "title": "Womby and Nova",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches a bus stop and finds a fishbowl with a cloud inside, so the raincoat suddenly seems like sensible weather gear.",
-      "Frame 3: Then the open umbrella catches an indoor breeze and lifts a trail of paint-paper confetti above the scene, an impossible weather report that makes everyone look up.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
+      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "b,f,a,e": {
     "key": "b,f,a,e",
@@ -1879,14 +1879,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Wombat and the Cardboard Moon Reframe",
+    "title": "Womby and Milo",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches a bus stop and finds a fishbowl with a cloud inside, so the raincoat suddenly seems like sensible weather gear.",
-      "Frame 3: Then the open umbrella catches an indoor breeze and lifts a trail of paint-paper confetti above the scene, an impossible weather report that makes everyone look up.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
+      "Brolly caught an indoor breeze and flung paper confetti upwards, making everyone look up.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "b,f,c,a": {
     "key": "b,f,c,a",
@@ -1896,14 +1896,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Wombat and the Umbrella Reframe",
+    "title": "Womby and Brolly",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches a bus stop and finds a fishbowl with a cloud inside, so the raincoat suddenly seems like sensible weather gear.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the umbrella is not sheltering anyone: it has become the display stand for the finished scene, with its handle holding the final label."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
     ],
-    "readerQuestion": "What clue shows that the umbrella has changed from an object into part of the ending?"
+    "readerQuestion": "What shows Brolly has become part of the ending?"
   },
   "b,f,c,d": {
     "key": "b,f,c,d",
@@ -1913,14 +1913,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "Wombat and the Small Astronaut Reframe",
+    "title": "Womby and Nova",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches a bus stop and finds a fishbowl with a cloud inside, so the raincoat suddenly seems like sensible weather gear.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "b,f,c,e": {
     "key": "b,f,c,e",
@@ -1930,14 +1930,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Wombat and the Cardboard Moon Reframe",
+    "title": "Womby and Milo",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches a bus stop and finds a fishbowl with a cloud inside, so the raincoat suddenly seems like sensible weather gear.",
-      "Frame 3: Then the paper aeroplane loops through the lamp glow and casts a giant wing-shaped shadow, making the familiar room briefly feel like an airport for stories.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
+      "Pip looped through the lamp glow and threw a huge wing shadow across the library.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "b,f,d,a": {
     "key": "b,f,d,a",
@@ -1947,14 +1947,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Wombat and the Umbrella Reframe",
+    "title": "Womby and Brolly",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches a bus stop and finds a fishbowl with a cloud inside, so the raincoat suddenly seems like sensible weather gear.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the umbrella is not sheltering anyone: it has become the display stand for the finished scene, with its handle holding the final label."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
     ],
-    "readerQuestion": "What clue shows that the umbrella has changed from an object into part of the ending?"
+    "readerQuestion": "What shows Brolly has become part of the ending?"
   },
   "b,f,d,c": {
     "key": "b,f,d,c",
@@ -1964,14 +1964,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "Wombat and the Paper Flight Reframe",
+    "title": "Womby and Pip",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches a bus stop and finds a fishbowl with a cloud inside, so the raincoat suddenly seems like sensible weather gear.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "b,f,d,e": {
     "key": "b,f,d,e",
@@ -1981,14 +1981,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Wombat and the Cardboard Moon Reframe",
+    "title": "Womby and Milo",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches a bus stop and finds a fishbowl with a cloud inside, so the raincoat suddenly seems like sensible weather gear.",
-      "Frame 3: Then the small astronaut paints one final silver curve, and the picture seems to turn the nearby space into a miniature moon base.",
-      "Frame 4: The visual punchline is that the cardboard moon is not a prop for the weather: it is the round backdrop for a photo of the completed four-frame adventure."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
+      "Nova painted one last silver curve, and the whole table started looking like a moon base.",
+      "Milo turned the cardboard moon around and used it as a backdrop for the photo."
     ],
-    "readerQuestion": "What does the cardboard moon make you notice differently about the real weather?"
+    "readerQuestion": "What does Milo make you notice about real weather?"
   },
   "b,f,e,a": {
     "key": "b,f,e,a",
@@ -1998,14 +1998,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Wombat and the Umbrella Reframe",
+    "title": "Womby and Brolly",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches a bus stop and finds a fishbowl with a cloud inside, so the raincoat suddenly seems like sensible weather gear.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the umbrella is not sheltering anyone: it has become the display stand for the finished scene, with its handle holding the final label."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Brolly sheltered nobody in the end — the handle was just holding the label for the finished piece."
     ],
-    "readerQuestion": "What clue shows that the umbrella has changed from an object into part of the ending?"
+    "readerQuestion": "What shows Brolly has become part of the ending?"
   },
   "b,f,e,c": {
     "key": "b,f,e,c",
@@ -2015,14 +2015,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Wombat and the Paper Flight Reframe",
+    "title": "Womby and Pip",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches a bus stop and finds a fishbowl with a cloud inside, so the raincoat suddenly seems like sensible weather gear.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the paper aeroplane is not escaping: its folded wings are carrying the final artwork back to the library's display table."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Pip glided down and delivered the finished artwork onto the library display table."
     ],
-    "readerQuestion": "Which visual detail makes the paper aeroplane feel like more than a toy?"
+    "readerQuestion": "What makes Pip feel like more than a toy?"
   },
   "b,f,e,d": {
     "key": "b,f,e,d",
@@ -2032,14 +2032,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Wombat and the Small Astronaut Reframe",
+    "title": "Womby and Nova",
     "beats": [
-      "Frame 1: In a supermarket aisle, a friendly wombat balances on a red skateboard in a yellow raincoat beside one orange, looking ready for a careful errand.",
-      "Frame 2: The wombat reaches a bus stop and finds a fishbowl with a cloud inside, so the raincoat suddenly seems like sensible weather gear.",
-      "Frame 3: Then the oversized cardboard moon catches a puddle reflection and appears to double in size, giving the wet street two moons for one quiet moment.",
-      "Frame 4: The visual punchline is that the astronaut is not on a space mission: the helmet reflection reveals a paint-splattered art table, making the whole adventure a tiny studio experiment."
+      "Womby balanced on the red skateboard beside one orange, ready for a very careful errand.",
+      "Womby reached the bus stop, met Puff in the fishbowl, and felt very smart about the raincoat.",
+      "Milo passed a puddle, and suddenly the wet street had two cardboard moons instead of one.",
+      "Nova's helmet caught the reflection of a paint-splattered table, not a single star anywhere."
     ],
-    "readerQuestion": "How does the astronaut's painting connect the ordinary setting to the imagined one?"
+    "readerQuestion": "How does Nova's painting link the real world to the imagined one?"
   },
   "c,a,b,d": {
     "key": "c,a,b,d",
@@ -2049,14 +2049,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Paper Flight: Umbrella, Skateboard and Painted Orbit",
+    "title": "Pip and Brolly",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane glides out of the library and lands beneath an open umbrella on the art-room table, as though it has found a miniature shelter.",
-      "Frame 3 — The wombat's skateboard leaves a neat red trail that becomes a map across the floor, while the orange bounces from square to square like a compass.",
-      "Frame 4 — The astronaut turns the canvas sideways and its shapes align with the earlier route, recontextualising every strange object as part of one carefully planned mural."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
+      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
+      "Nova turned the canvas sideways, and every shape lined up with the route from earlier."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "c,a,b,e": {
     "key": "c,a,b,e",
@@ -2066,14 +2066,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Paper Flight: Umbrella, Skateboard and Cardboard Moon",
+    "title": "Pip and Brolly",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane glides out of the library and lands beneath an open umbrella on the art-room table, as though it has found a miniature shelter.",
-      "Frame 3 — The friendly wombat coasts past the shelves and the orange begins orbiting the skateboard, turning an ordinary shopping trip into a small solar system.",
-      "Frame 4 — The moon leans against the tram-stop sign, and its craters line up with the route from the first frame, making the detours read like a playful lunar map."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
+      "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
+      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "c,a,b,f": {
     "key": "c,a,b,f",
@@ -2083,14 +2083,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Paper Flight: Umbrella, Skateboard and Cloud Bowl",
+    "title": "Pip and Brolly",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane glides out of the library and lands beneath an open umbrella on the art-room table, as though it has found a miniature shelter.",
-      "Frame 3 — The skateboard rolls over a puddle-shaped reflection; the wombat, raincoat, and orange appear to sail through the earlier scene without getting anything wet.",
-      "Frame 4 — The fishbowl cloud clears for a moment, revealing a small paper-like route inside it; the journey is recontextualised as a pocket-sized sky."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
+      "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
+      "Puff cleared for a second, showing a tiny paper route folded inside the pocket-sized sky."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "c,a,d,b": {
     "key": "c,a,d,b",
@@ -2100,14 +2100,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Paper Flight: Umbrella, Painted Orbit and Skateboard",
+    "title": "Pip and Brolly",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane glides out of the library and lands beneath an open umbrella on the art-room table, as though it has found a miniature shelter.",
-      "Frame 3 — The small astronaut paints one last silver stroke, and the painted image spills beyond the paper as a neat, gravity-free version of the earlier scene.",
-      "Frame 4 — The wombat's raincoat hood frames the final picture like a window, revealing that every detour has followed the orange's round, sun-like path."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
+      "Nova added one last silver stroke, and the painting drifted off the paper with no gravity.",
+      "Womby's hood framed the last picture, showing every detour had followed the orange's round path."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a small astronaut painting at an art table make sense in the final frame?"
+    "readerQuestion": "What helped Nova's picture make sense by the end?"
   },
   "c,a,d,e": {
     "key": "c,a,d,e",
@@ -2117,14 +2117,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Paper Flight: Umbrella, Painted Orbit and Cardboard Moon",
+    "title": "Pip and Brolly",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane glides out of the library and lands beneath an open umbrella on the art-room table, as though it has found a miniature shelter.",
-      "Frame 3 — The small astronaut's brushstroke turns into a ribbon of colour that curls through the room, joining the first two images like a visible trail.",
-      "Frame 4 — The final view shows the wet pavement reflecting the cardboard moon and the earlier clue together; the two reflections make one complete night-time picture."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
+      "Nova's brushstroke unrolled into a ribbon of colour that curled through the room, joining everything.",
+      "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a small astronaut painting at an art table make sense in the final frame?"
+    "readerQuestion": "What helped Nova's picture make sense by the end?"
   },
   "c,a,d,f": {
     "key": "c,a,d,f",
@@ -2134,14 +2134,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Paper Flight: Umbrella, Painted Orbit and Cloud Bowl",
+    "title": "Pip and Brolly",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane glides out of the library and lands beneath an open umbrella on the art-room table, as though it has found a miniature shelter.",
-      "Frame 3 — The astronaut paints a reflection instead of a sky, and the reflection shows the earlier scene floating calmly above the art table.",
-      "Frame 4 — The cloud settles into the shape of the first clue, so the bus stop becomes the visual punchline: every earlier detour was hiding in one drifting puff."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
+      "Nova painted a reflection instead of a sky, and the earlier scene floated calmly above the table.",
+      "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a small astronaut painting at an art table make sense in the final frame?"
+    "readerQuestion": "What helped Nova's picture make sense by the end?"
   },
   "c,a,e,b": {
     "key": "c,a,e,b",
@@ -2151,14 +2151,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Paper Flight: Umbrella, Cardboard Moon and Skateboard",
+    "title": "Pip and Brolly",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane glides out of the library and lands beneath an open umbrella on the art-room table, as though it has found a miniature shelter.",
-      "Frame 3 — The wet pavement mirrors the cardboard moon so perfectly that two moons appear, with the earlier scene drifting between them like a dream.",
-      "Frame 4 — From above, the skateboard, raincoat, and orange form a tiny rocket; the earlier adventure is recontextualised as the wombat's carefully arranged grocery-floor artwork."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
+      "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
+      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "c,a,e,d": {
     "key": "c,a,e,d",
@@ -2168,14 +2168,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Paper Flight: Umbrella, Cardboard Moon and Painted Orbit",
+    "title": "Pip and Brolly",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane glides out of the library and lands beneath an open umbrella on the art-room table, as though it has found a miniature shelter.",
-      "Frame 3 — The oversized cardboard moon catches the tram-stop rain; its painted craters fill with light and turn the wet pavement into a glowing map of the earlier journey.",
-      "Frame 4 — The painting is placed beside the first clue, and their edges join perfectly; the impossible journey is revealed as a two-part picture."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
+      "Milo's moon caught the rain, and its craters filled with light like a glowing map.",
+      "Nova set the painting beside the first clue, and their edges joined perfectly, no gaps."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "c,a,e,f": {
     "key": "c,a,e,f",
@@ -2185,14 +2185,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Paper Flight: Umbrella, Cardboard Moon and Cloud Bowl",
+    "title": "Pip and Brolly",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane glides out of the library and lands beneath an open umbrella on the art-room table, as though it has found a miniature shelter.",
-      "Frame 3 — A tram passes behind the cardboard moon, making it look as if the moon is rolling along the rails and collecting the earlier clue in its craters.",
-      "Frame 4 — The final reflection in the fishbowl joins the opening image to the last one, turning the impossible cloud into a tiny lens for the whole route."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
+      "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
+      "Puff's reflection stitched the first picture to the last one, all inside a small round bowl."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "c,a,f,b": {
     "key": "c,a,f,b",
@@ -2202,14 +2202,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Paper Flight: Umbrella, Cloud Bowl and Skateboard",
+    "title": "Pip and Brolly",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane glides out of the library and lands beneath an open umbrella on the art-room table, as though it has found a miniature shelter.",
-      "Frame 3 — The fishbowl cloud flashes softly like a weather lantern, projecting the first two frames across the bus-stop glass.",
-      "Frame 4 — The wombat parks beside the orange, and their reflection in the polished floor completes the same shape as the earlier clue, turning the supermarket into a quiet visual puzzle."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
+      "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
+      "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "c,a,f,d": {
     "key": "c,a,f,d",
@@ -2219,14 +2219,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Paper Flight: Umbrella, Cloud Bowl and Painted Orbit",
+    "title": "Pip and Brolly",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane glides out of the library and lands beneath an open umbrella on the art-room table, as though it has found a miniature shelter.",
-      "Frame 3 — The fishbowl cloud grows a small silver lining, and the bus-stop reflection turns the earlier scene into a floating postcard.",
-      "Frame 4 — In the last image, the astronaut's brush points at a small signature-shaped star that links back to the opening frame, making the visual story feel complete without a word."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
+      "Puff grew a small silver lining, and the bus-stop glass turned the earlier scene into a postcard.",
+      "Nova's brush pointed at a small star shaped like a signature, linking straight back to the start."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "c,a,f,e": {
     "key": "c,a,f,e",
@@ -2236,14 +2236,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Paper Flight: Umbrella, Cloud Bowl and Cardboard Moon",
+    "title": "Pip and Brolly",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane glides out of the library and lands beneath an open umbrella on the art-room table, as though it has found a miniature shelter.",
-      "Frame 3 — The cloud inside the fishbowl becomes a tiny stage curtain, revealing the first two images in a misty, upside-down sky.",
-      "Frame 4 — A tram window reflects the cardboard moon beside the opening image, revealing that the strange adventure has been travelling through a paper night sky."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip glided out of the library and landed under Brolly like it had found a shelter.",
+      "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
+      "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "c,b,a,d": {
     "key": "c,b,a,d",
@@ -2253,14 +2253,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Paper Flight: Skateboard, Umbrella and Painted Orbit",
+    "title": "Pip and Womby",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a folded shopping list to the supermarket, where a friendly wombat in a yellow raincoat balances on a red skateboard beside an orange.",
-      "Frame 3 — The umbrella suddenly opens wider than the table and catches a swirl of coloured paper, turning the room into a safe little weather system.",
-      "Frame 4 — The astronaut lifts the finished painting, and the earlier adventure appears inside its border, revealing that the frames have been painted into being one stroke at a time."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
+      "Brolly opened wider than the table and caught a swirl of coloured paper, like friendly weather.",
+      "Nova lifted the finished painting, and the whole adventure was sitting inside its border."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "c,b,a,e": {
     "key": "c,b,a,e",
@@ -2270,14 +2270,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Paper Flight: Skateboard, Umbrella and Cardboard Moon",
+    "title": "Pip and Womby",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a folded shopping list to the supermarket, where a friendly wombat in a yellow raincoat balances on a red skateboard beside an orange.",
-      "Frame 3 — A gust lifts the umbrella's edge; its inside becomes a night sky, and the earlier clue appears as a constellation on the fabric.",
-      "Frame 4 — The final view shows the wet pavement reflecting the cardboard moon and the earlier clue together; the two reflections make one complete night-time picture."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
+      "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
+      "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "c,b,a,f": {
     "key": "c,b,a,f",
@@ -2287,14 +2287,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Paper Flight: Skateboard, Umbrella and Cloud Bowl",
+    "title": "Pip and Womby",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a folded shopping list to the supermarket, where a friendly wombat in a yellow raincoat balances on a red skateboard beside an orange.",
-      "Frame 3 — The umbrella tilts by itself and pours not rain but a fluttering stream of paper shapes, each one matching a detail from the journey so far.",
-      "Frame 4 — The cloud settles into the shape of the first clue, so the bus stop becomes the visual punchline: every earlier detour was hiding in one drifting puff."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
+      "Brolly tilted and poured out paper shapes instead of rain, each one from the trip so far.",
+      "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "c,b,d,a": {
     "key": "c,b,d,a",
@@ -2304,14 +2304,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Paper Flight: Skateboard, Painted Orbit and Umbrella",
+    "title": "Pip and Womby",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a folded shopping list to the supermarket, where a friendly wombat in a yellow raincoat balances on a red skateboard beside an orange.",
-      "Frame 3 — The astronaut's brush paints a doorway into the first two frames; a few stars float out and arrange themselves around the table.",
-      "Frame 4 — When the umbrella is lifted, its underside matches the route overhead, so the odd weather was really a painted ceiling brought down to eye level."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
+      "Nova painted a doorway into the earlier scenes, and a few stars floated out onto the table.",
+      "Someone lifted Brolly, and its underside matched the route overhead like a painted ceiling."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a small astronaut painting at an art table make sense in the final frame?"
+    "readerQuestion": "What helped Nova's picture make sense by the end?"
   },
   "c,b,d,e": {
     "key": "c,b,d,e",
@@ -2321,14 +2321,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Paper Flight: Skateboard, Painted Orbit and Cardboard Moon",
+    "title": "Pip and Womby",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a folded shopping list to the supermarket, where a friendly wombat in a yellow raincoat balances on a red skateboard beside an orange.",
-      "Frame 3 — The small astronaut paints one last silver stroke, and the painted image spills beyond the paper as a neat, gravity-free version of the earlier scene.",
-      "Frame 4 — The moon leans against the tram-stop sign, and its craters line up with the route from the first frame, making the detours read like a playful lunar map."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
+      "Nova added one last silver stroke, and the painting drifted off the paper with no gravity.",
+      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a small astronaut painting at an art table make sense in the final frame?"
+    "readerQuestion": "What helped Nova's picture make sense by the end?"
   },
   "c,b,d,f": {
     "key": "c,b,d,f",
@@ -2338,14 +2338,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Paper Flight: Skateboard, Painted Orbit and Cloud Bowl",
+    "title": "Pip and Womby",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a folded shopping list to the supermarket, where a friendly wombat in a yellow raincoat balances on a red skateboard beside an orange.",
-      "Frame 3 — The astronaut's brush paints a doorway into the first two frames; a few stars float out and arrange themselves around the table.",
-      "Frame 4 — The fishbowl cloud clears for a moment, revealing a small paper-like route inside it; the journey is recontextualised as a pocket-sized sky."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
+      "Nova painted a doorway into the earlier scenes, and a few stars floated out onto the table.",
+      "Puff cleared for a second, showing a tiny paper route folded inside the pocket-sized sky."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a small astronaut painting at an art table make sense in the final frame?"
+    "readerQuestion": "What helped Nova's picture make sense by the end?"
   },
   "c,b,e,a": {
     "key": "c,b,e,a",
@@ -2355,14 +2355,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Paper Flight: Skateboard, Cardboard Moon and Umbrella",
+    "title": "Pip and Womby",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a folded shopping list to the supermarket, where a friendly wombat in a yellow raincoat balances on a red skateboard beside an orange.",
-      "Frame 3 — The cardboard moon catches a breeze and rotates; a painted door on its back opens onto a tiny version of the first two frames.",
-      "Frame 4 — The final view pulls back: the umbrella is the roof of a tiny model world, and the earlier characters and objects fit beneath it as if they have always belonged there."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
+      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
+      "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "c,b,e,d": {
     "key": "c,b,e,d",
@@ -2372,14 +2372,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Paper Flight: Skateboard, Cardboard Moon and Painted Orbit",
+    "title": "Pip and Womby",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a folded shopping list to the supermarket, where a friendly wombat in a yellow raincoat balances on a red skateboard beside an orange.",
-      "Frame 3 — A tram passes behind the cardboard moon, making it look as if the moon is rolling along the rails and collecting the earlier clue in its craters.",
-      "Frame 4 — The final punchline is a paint-splattered reflection: the astronaut's tiny canvas contains the first scene, while the real room holds its sequel."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
+      "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
+      "Nova's little canvas held the first scene, while the real room quietly held the sequel."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "c,b,e,f": {
     "key": "c,b,e,f",
@@ -2389,14 +2389,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Paper Flight: Skateboard, Cardboard Moon and Cloud Bowl",
+    "title": "Pip and Womby",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a folded shopping list to the supermarket, where a friendly wombat in a yellow raincoat balances on a red skateboard beside an orange.",
-      "Frame 3 — The cardboard moon catches a breeze and rotates; a painted door on its back opens onto a tiny version of the first two frames.",
-      "Frame 4 — The fishbowl catches the library-like light from the earlier scene, and its curved glass turns all four frames into one round, floating panorama."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
+      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
+      "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "c,b,f,a": {
     "key": "c,b,f,a",
@@ -2406,14 +2406,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Paper Flight: Skateboard, Cloud Bowl and Umbrella",
+    "title": "Pip and Womby",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a folded shopping list to the supermarket, where a friendly wombat in a yellow raincoat balances on a red skateboard beside an orange.",
-      "Frame 3 — The cloud swirls in the fishbowl and forms a miniature map; its raindrops fall upward, carrying the earlier clue toward the timetable.",
-      "Frame 4 — The umbrella folds down to reveal that its coloured panels make the same picture seen in the earlier reflection, turning the journey into a clever art-room collage."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
+      "Puff swirled into a tiny map, and its raindrops fell upwards towards the timetable.",
+      "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "c,b,f,d": {
     "key": "c,b,f,d",
@@ -2423,14 +2423,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Paper Flight: Skateboard, Cloud Bowl and Painted Orbit",
+    "title": "Pip and Womby",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a folded shopping list to the supermarket, where a friendly wombat in a yellow raincoat balances on a red skateboard beside an orange.",
-      "Frame 3 — The cloud inside the fishbowl puffs into the shape of the earlier scene, then releases a gentle indoor drizzle that stops at the edge of the bus shelter.",
-      "Frame 4 — The astronaut lifts the finished painting, and the earlier adventure appears inside its border, revealing that the frames have been painted into being one stroke at a time."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
+      "Puff copied the earlier scene, then let a gentle drizzle fall that stopped at the shelter's edge.",
+      "Nova lifted the finished painting, and the whole adventure was sitting inside its border."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "c,b,f,e": {
     "key": "c,b,f,e",
@@ -2440,14 +2440,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Paper Flight: Skateboard, Cloud Bowl and Cardboard Moon",
+    "title": "Pip and Womby",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a folded shopping list to the supermarket, where a friendly wombat in a yellow raincoat balances on a red skateboard beside an orange.",
-      "Frame 3 — The fishbowl cloud flashes softly like a weather lantern, projecting the first two frames across the bus-stop glass.",
-      "Frame 4 — The final view shows the wet pavement reflecting the cardboard moon and the earlier clue together; the two reflections make one complete night-time picture."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a folded shopping list to the supermarket, where Womby balanced beside one orange.",
+      "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
+      "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "c,d,a,b": {
     "key": "c,d,a,b",
@@ -2457,14 +2457,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Paper Flight: Painted Orbit, Umbrella and Skateboard",
+    "title": "Pip and Nova",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane carries a fleck of library-light to the art table, where a small astronaut is painting a midnight-blue sky.",
-      "Frame 3 — The umbrella tilts by itself and pours not rain but a fluttering stream of paper shapes, each one matching a detail from the journey so far.",
-      "Frame 4 — From above, the skateboard, raincoat, and orange form a tiny rocket; the earlier adventure is recontextualised as the wombat's carefully arranged grocery-floor artwork."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
+      "Brolly tilted and poured out paper shapes instead of rain, each one from the trip so far.",
+      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "c,d,a,e": {
     "key": "c,d,a,e",
@@ -2474,14 +2474,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Paper Flight: Painted Orbit, Umbrella and Cardboard Moon",
+    "title": "Pip and Nova",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane carries a fleck of library-light to the art table, where a small astronaut is painting a midnight-blue sky.",
-      "Frame 3 — The umbrella suddenly opens wider than the table and catches a swirl of coloured paper, turning the room into a safe little weather system.",
-      "Frame 4 — The cardboard moon is set beside the opening scene, where its circular cut-out frames the missing detail and turns the whole journey into a handmade eclipse."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
+      "Brolly opened wider than the table and caught a swirl of coloured paper, like friendly weather.",
+      "Milo held the moon beside the opening scene, and its cut-out circle finished it like an eclipse."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "c,d,a,f": {
     "key": "c,d,a,f",
@@ -2491,14 +2491,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Paper Flight: Painted Orbit, Umbrella and Cloud Bowl",
+    "title": "Pip and Nova",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane carries a fleck of library-light to the art table, where a small astronaut is painting a midnight-blue sky.",
-      "Frame 3 — A gust lifts the umbrella's edge; its inside becomes a night sky, and the earlier clue appears as a constellation on the fabric.",
-      "Frame 4 — The final reflection in the fishbowl joins the opening image to the last one, turning the impossible cloud into a tiny lens for the whole route."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
+      "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
+      "Puff's reflection stitched the first picture to the last one, all inside a small round bowl."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "c,d,b,a": {
     "key": "c,d,b,a",
@@ -2508,14 +2508,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Paper Flight: Painted Orbit, Skateboard and Umbrella",
+    "title": "Pip and Nova",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane carries a fleck of library-light to the art table, where a small astronaut is painting a midnight-blue sky.",
-      "Frame 3 — The wombat steadies the orange on the skateboard's nose, and the whole supermarket aisle suddenly resembles a bright, moving stage.",
-      "Frame 4 — The umbrella now sits exactly where the adventure began, but its curved handle is revealed as the missing loop of the route, making every impossible detour read like one carefully drawn line."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
+      "Womby steadied the orange on the skateboard's nose, and the whole aisle became a moving stage.",
+      "Brolly stood exactly where it all began, its curved handle finishing the loop of the route."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "c,d,b,e": {
     "key": "c,d,b,e",
@@ -2525,14 +2525,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Paper Flight: Painted Orbit, Skateboard and Cardboard Moon",
+    "title": "Pip and Nova",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane carries a fleck of library-light to the art table, where a small astronaut is painting a midnight-blue sky.",
-      "Frame 3 — The skateboard rolls over a puddle-shaped reflection; the wombat, raincoat, and orange appear to sail through the earlier scene without getting anything wet.",
-      "Frame 4 — A tram window reflects the cardboard moon beside the opening image, revealing that the strange adventure has been travelling through a paper night sky."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
+      "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
+      "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "c,d,b,f": {
     "key": "c,d,b,f",
@@ -2542,14 +2542,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Paper Flight: Painted Orbit, Skateboard and Cloud Bowl",
+    "title": "Pip and Nova",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane carries a fleck of library-light to the art table, where a small astronaut is painting a midnight-blue sky.",
-      "Frame 3 — The wombat steadies the orange on the skateboard's nose, and the whole supermarket aisle suddenly resembles a bright, moving stage.",
-      "Frame 4 — The fishbowl is placed beside the first scene, and the cloud's reflection fills the missing shape, revealing that the whole adventure has been a weather forecast drawn in pictures."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
+      "Womby steadied the orange on the skateboard's nose, and the whole aisle became a moving stage.",
+      "Puff sat beside the first scene, and the cloud's reflection filled the last missing shape perfectly."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "c,d,e,a": {
     "key": "c,d,e,a",
@@ -2559,14 +2559,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Paper Flight: Painted Orbit, Cardboard Moon and Umbrella",
+    "title": "Pip and Nova",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane carries a fleck of library-light to the art table, where a small astronaut is painting a midnight-blue sky.",
-      "Frame 3 — The wet pavement mirrors the cardboard moon so perfectly that two moons appear, with the earlier scene drifting between them like a dream.",
-      "Frame 4 — The umbrella folds down to reveal that its coloured panels make the same picture seen in the earlier reflection, turning the journey into a clever art-room collage."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
+      "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
+      "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "c,d,e,b": {
     "key": "c,d,e,b",
@@ -2576,14 +2576,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Paper Flight: Painted Orbit, Cardboard Moon and Skateboard",
+    "title": "Pip and Nova",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane carries a fleck of library-light to the art table, where a small astronaut is painting a midnight-blue sky.",
-      "Frame 3 — The cardboard moon catches a breeze and rotates; a painted door on its back opens onto a tiny version of the first two frames.",
-      "Frame 4 — The wombat's raincoat hood frames the final picture like a window, revealing that every detour has followed the orange's round, sun-like path."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
+      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
+      "Womby's hood framed the last picture, showing every detour had followed the orange's round path."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "c,d,e,f": {
     "key": "c,d,e,f",
@@ -2593,14 +2593,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Paper Flight: Painted Orbit, Cardboard Moon and Cloud Bowl",
+    "title": "Pip and Nova",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane carries a fleck of library-light to the art table, where a small astronaut is painting a midnight-blue sky.",
-      "Frame 3 — The wet pavement mirrors the cardboard moon so perfectly that two moons appear, with the earlier scene drifting between them like a dream.",
-      "Frame 4 — The cloud settles into the shape of the first clue, so the bus stop becomes the visual punchline: every earlier detour was hiding in one drifting puff."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
+      "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
+      "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "c,d,f,a": {
     "key": "c,d,f,a",
@@ -2610,14 +2610,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Paper Flight: Painted Orbit, Cloud Bowl and Umbrella",
+    "title": "Pip and Nova",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane carries a fleck of library-light to the art table, where a small astronaut is painting a midnight-blue sky.",
-      "Frame 3 — The fishbowl cloud flashes softly like a weather lantern, projecting the first two frames across the bus-stop glass.",
-      "Frame 4 — In the final image, the umbrella is not shelter at all but a giant pop-up bookmark, keeping the whole strange journey safely between two art-room pages."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
+      "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
+      "Brolly turned out to be a giant pop-up bookmark, holding the whole strange trip between two pages."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "c,d,f,b": {
     "key": "c,d,f,b",
@@ -2627,14 +2627,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Paper Flight: Painted Orbit, Cloud Bowl and Skateboard",
+    "title": "Pip and Nova",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane carries a fleck of library-light to the art table, where a small astronaut is painting a midnight-blue sky.",
-      "Frame 3 — The cloud swirls in the fishbowl and forms a miniature map; its raindrops fall upward, carrying the earlier clue toward the timetable.",
-      "Frame 4 — From above, the skateboard, raincoat, and orange form a tiny rocket; the earlier adventure is recontextualised as the wombat's carefully arranged grocery-floor artwork."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
+      "Puff swirled into a tiny map, and its raindrops fell upwards towards the timetable.",
+      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "c,d,f,e": {
     "key": "c,d,f,e",
@@ -2644,14 +2644,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Paper Flight: Painted Orbit, Cloud Bowl and Cardboard Moon",
+    "title": "Pip and Nova",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane carries a fleck of library-light to the art table, where a small astronaut is painting a midnight-blue sky.",
-      "Frame 3 — The cloud inside the fishbowl puffs into the shape of the earlier scene, then releases a gentle indoor drizzle that stops at the edge of the bus shelter.",
-      "Frame 4 — The cardboard moon is set beside the opening scene, where its circular cut-out frames the missing detail and turns the whole journey into a handmade eclipse."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip carried a fleck of library light to Nova's table, where a midnight-blue sky was drying.",
+      "Puff copied the earlier scene, then let a gentle drizzle fall that stopped at the shelter's edge.",
+      "Milo held the moon beside the opening scene, and its cut-out circle finished it like an eclipse."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "c,e,a,b": {
     "key": "c,e,a,b",
@@ -2661,14 +2661,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Paper Flight: Cardboard Moon, Umbrella and Skateboard",
+    "title": "Pip and Milo",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane slips through the library door and follows a silver puddle trail to a wet tram stop, where a teenager steadies an oversized cardboard moon.",
-      "Frame 3 — The open umbrella gathers a shower of paint-speckled raindrops that float upward, making the art room look briefly underwater.",
-      "Frame 4 — The red skateboard stops at the first image's edge, and the orange rolls neatly into the missing space, giving the whole four-frame journey a playful visual full stop."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
+      "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
+      "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "c,e,a,d": {
     "key": "c,e,a,d",
@@ -2678,14 +2678,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Paper Flight: Cardboard Moon, Umbrella and Painted Orbit",
+    "title": "Pip and Milo",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane slips through the library door and follows a silver puddle trail to a wet tram stop, where a teenager steadies an oversized cardboard moon.",
-      "Frame 3 — A gust lifts the umbrella's edge; its inside becomes a night sky, and the earlier clue appears as a constellation on the fabric.",
-      "Frame 4 — The final punchline is a paint-splattered reflection: the astronaut's tiny canvas contains the first scene, while the real room holds its sequel."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
+      "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
+      "Nova's little canvas held the first scene, while the real room quietly held the sequel."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "c,e,a,f": {
     "key": "c,e,a,f",
@@ -2695,14 +2695,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Paper Flight: Cardboard Moon, Umbrella and Cloud Bowl",
+    "title": "Pip and Milo",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane slips through the library door and follows a silver puddle trail to a wet tram stop, where a teenager steadies an oversized cardboard moon.",
-      "Frame 3 — The umbrella becomes a portable doorway: its patterned underside frames the earlier scene as a tiny, upside-down world.",
-      "Frame 4 — The fishbowl catches the library-like light from the earlier scene, and its curved glass turns all four frames into one round, floating panorama."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
+      "Brolly became a portable doorway, its patterned underside framing the earlier scene upside down.",
+      "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "c,e,b,a": {
     "key": "c,e,b,a",
@@ -2712,14 +2712,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Paper Flight: Cardboard Moon, Skateboard and Umbrella",
+    "title": "Pip and Milo",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane slips through the library door and follows a silver puddle trail to a wet tram stop, where a teenager steadies an oversized cardboard moon.",
-      "Frame 3 — The wombat's skateboard leaves a neat red trail that becomes a map across the floor, while the orange bounces from square to square like a compass.",
-      "Frame 4 — The umbrella folds down to reveal that its coloured panels make the same picture seen in the earlier reflection, turning the journey into a clever art-room collage."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
+      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
+      "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "c,e,b,d": {
     "key": "c,e,b,d",
@@ -2729,14 +2729,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Paper Flight: Cardboard Moon, Skateboard and Painted Orbit",
+    "title": "Pip and Milo",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane slips through the library door and follows a silver puddle trail to a wet tram stop, where a teenager steadies an oversized cardboard moon.",
-      "Frame 3 — The wombat steadies the orange on the skateboard's nose, and the whole supermarket aisle suddenly resembles a bright, moving stage.",
-      "Frame 4 — The astronaut lifts the finished painting, and the earlier adventure appears inside its border, revealing that the frames have been painted into being one stroke at a time."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
+      "Womby steadied the orange on the skateboard's nose, and the whole aisle became a moving stage.",
+      "Nova lifted the finished painting, and the whole adventure was sitting inside its border."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "c,e,b,f": {
     "key": "c,e,b,f",
@@ -2746,14 +2746,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Paper Flight: Cardboard Moon, Skateboard and Cloud Bowl",
+    "title": "Pip and Milo",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane slips through the library door and follows a silver puddle trail to a wet tram stop, where a teenager steadies an oversized cardboard moon.",
-      "Frame 3 — The wombat's skateboard leaves a neat red trail that becomes a map across the floor, while the orange bounces from square to square like a compass.",
-      "Frame 4 — The cloud settles into the shape of the first clue, so the bus stop becomes the visual punchline: every earlier detour was hiding in one drifting puff."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
+      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
+      "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "c,e,d,a": {
     "key": "c,e,d,a",
@@ -2763,14 +2763,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Paper Flight: Cardboard Moon, Painted Orbit and Umbrella",
+    "title": "Pip and Milo",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane slips through the library door and follows a silver puddle trail to a wet tram stop, where a teenager steadies an oversized cardboard moon.",
-      "Frame 3 — The astronaut adds a tiny horizon line, and the art table becomes a launchpad where the earlier clue appears as a painted planet.",
-      "Frame 4 — The umbrella now sits exactly where the adventure began, but its curved handle is revealed as the missing loop of the route, making every impossible detour read like one carefully drawn line."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
+      "Nova added a tiny horizon line, and the table became a launchpad with the clue as a planet.",
+      "Brolly stood exactly where it all began, its curved handle finishing the loop of the route."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a small astronaut painting at an art table make sense in the final frame?"
+    "readerQuestion": "What helped Nova's picture make sense by the end?"
   },
   "c,e,d,b": {
     "key": "c,e,d,b",
@@ -2780,14 +2780,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Paper Flight: Cardboard Moon, Painted Orbit and Skateboard",
+    "title": "Pip and Milo",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane slips through the library door and follows a silver puddle trail to a wet tram stop, where a teenager steadies an oversized cardboard moon.",
-      "Frame 3 — The small astronaut's brushstroke turns into a ribbon of colour that curls through the room, joining the first two images like a visible trail.",
-      "Frame 4 — The wombat parks beside the orange, and their reflection in the polished floor completes the same shape as the earlier clue, turning the supermarket into a quiet visual puzzle."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
+      "Nova's brushstroke unrolled into a ribbon of colour that curled through the room, joining everything.",
+      "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a small astronaut painting at an art table make sense in the final frame?"
+    "readerQuestion": "What helped Nova's picture make sense by the end?"
   },
   "c,e,d,f": {
     "key": "c,e,d,f",
@@ -2797,14 +2797,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Paper Flight: Cardboard Moon, Painted Orbit and Cloud Bowl",
+    "title": "Pip and Milo",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane slips through the library door and follows a silver puddle trail to a wet tram stop, where a teenager steadies an oversized cardboard moon.",
-      "Frame 3 — The astronaut adds a tiny horizon line, and the art table becomes a launchpad where the earlier clue appears as a painted planet.",
-      "Frame 4 — The fishbowl is placed beside the first scene, and the cloud's reflection fills the missing shape, revealing that the whole adventure has been a weather forecast drawn in pictures."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
+      "Nova added a tiny horizon line, and the table became a launchpad with the clue as a planet.",
+      "Puff sat beside the first scene, and the cloud's reflection filled the last missing shape perfectly."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a small astronaut painting at an art table make sense in the final frame?"
+    "readerQuestion": "What helped Nova's picture make sense by the end?"
   },
   "c,e,f,a": {
     "key": "c,e,f,a",
@@ -2814,14 +2814,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Paper Flight: Cardboard Moon, Cloud Bowl and Umbrella",
+    "title": "Pip and Milo",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane slips through the library door and follows a silver puddle trail to a wet tram stop, where a teenager steadies an oversized cardboard moon.",
-      "Frame 3 — The fishbowl cloud grows a small silver lining, and the bus-stop reflection turns the earlier scene into a floating postcard.",
-      "Frame 4 — The final view pulls back: the umbrella is the roof of a tiny model world, and the earlier characters and objects fit beneath it as if they have always belonged there."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
+      "Puff grew a small silver lining, and the bus-stop glass turned the earlier scene into a postcard.",
+      "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "c,e,f,b": {
     "key": "c,e,f,b",
@@ -2831,14 +2831,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Paper Flight: Cardboard Moon, Cloud Bowl and Skateboard",
+    "title": "Pip and Milo",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane slips through the library door and follows a silver puddle trail to a wet tram stop, where a teenager steadies an oversized cardboard moon.",
-      "Frame 3 — The cloud inside the fishbowl becomes a tiny stage curtain, revealing the first two images in a misty, upside-down sky.",
-      "Frame 4 — The red skateboard stops at the first image's edge, and the orange rolls neatly into the missing space, giving the whole four-frame journey a playful visual full stop."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
+      "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
+      "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "c,e,f,d": {
     "key": "c,e,f,d",
@@ -2848,14 +2848,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Paper Flight: Cardboard Moon, Cloud Bowl and Painted Orbit",
+    "title": "Pip and Milo",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane slips through the library door and follows a silver puddle trail to a wet tram stop, where a teenager steadies an oversized cardboard moon.",
-      "Frame 3 — The fishbowl cloud flashes softly like a weather lantern, projecting the first two frames across the bus-stop glass.",
-      "Frame 4 — The final punchline is a paint-splattered reflection: the astronaut's tiny canvas contains the first scene, while the real room holds its sequel."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip slipped outside and followed a silver puddle trail to Milo, steadying the huge cardboard moon.",
+      "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
+      "Nova's little canvas held the first scene, while the real room quietly held the sequel."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "c,f,a,b": {
     "key": "c,f,a,b",
@@ -2865,14 +2865,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Paper Flight: Cloud Bowl, Umbrella and Skateboard",
+    "title": "Pip and Puff",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a timetable bookmark to the bus stop, where a fishbowl holds a cloud that is slowly changing shape.",
-      "Frame 3 — A gust lifts the umbrella's edge; its inside becomes a night sky, and the earlier clue appears as a constellation on the fabric.",
-      "Frame 4 — The wombat parks beside the orange, and their reflection in the polished floor completes the same shape as the earlier clue, turning the supermarket into a quiet visual puzzle."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
+      "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
+      "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "c,f,a,d": {
     "key": "c,f,a,d",
@@ -2882,14 +2882,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Paper Flight: Cloud Bowl, Umbrella and Painted Orbit",
+    "title": "Pip and Puff",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a timetable bookmark to the bus stop, where a fishbowl holds a cloud that is slowly changing shape.",
-      "Frame 3 — The umbrella becomes a portable doorway: its patterned underside frames the earlier scene as a tiny, upside-down world.",
-      "Frame 4 — In the last image, the astronaut's brush points at a small signature-shaped star that links back to the opening frame, making the visual story feel complete without a word."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
+      "Brolly became a portable doorway, its patterned underside framing the earlier scene upside down.",
+      "Nova's brush pointed at a small star shaped like a signature, linking straight back to the start."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "c,f,a,e": {
     "key": "c,f,a,e",
@@ -2899,14 +2899,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Paper Flight: Cloud Bowl, Umbrella and Cardboard Moon",
+    "title": "Pip and Puff",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a timetable bookmark to the bus stop, where a fishbowl holds a cloud that is slowly changing shape.",
-      "Frame 3 — The open umbrella gathers a shower of paint-speckled raindrops that float upward, making the art room look briefly underwater.",
-      "Frame 4 — A tram window reflects the cardboard moon beside the opening image, revealing that the strange adventure has been travelling through a paper night sky."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
+      "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
+      "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "c,f,b,a": {
     "key": "c,f,b,a",
@@ -2916,14 +2916,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Paper Flight: Cloud Bowl, Skateboard and Umbrella",
+    "title": "Pip and Puff",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a timetable bookmark to the bus stop, where a fishbowl holds a cloud that is slowly changing shape.",
-      "Frame 3 — The skateboard rolls over a puddle-shaped reflection; the wombat, raincoat, and orange appear to sail through the earlier scene without getting anything wet.",
-      "Frame 4 — When the umbrella is lifted, its underside matches the route overhead, so the odd weather was really a painted ceiling brought down to eye level."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
+      "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
+      "Someone lifted Brolly, and its underside matched the route overhead like a painted ceiling."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "c,f,b,d": {
     "key": "c,f,b,d",
@@ -2933,14 +2933,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Paper Flight: Cloud Bowl, Skateboard and Painted Orbit",
+    "title": "Pip and Puff",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a timetable bookmark to the bus stop, where a fishbowl holds a cloud that is slowly changing shape.",
-      "Frame 3 — The wombat's skateboard leaves a neat red trail that becomes a map across the floor, while the orange bounces from square to square like a compass.",
-      "Frame 4 — The astronaut turns the canvas sideways and its shapes align with the earlier route, recontextualising every strange object as part of one carefully planned mural."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
+      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
+      "Nova turned the canvas sideways, and every shape lined up with the route from earlier."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "c,f,b,e": {
     "key": "c,f,b,e",
@@ -2950,14 +2950,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Paper Flight: Cloud Bowl, Skateboard and Cardboard Moon",
+    "title": "Pip and Puff",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a timetable bookmark to the bus stop, where a fishbowl holds a cloud that is slowly changing shape.",
-      "Frame 3 — The friendly wombat coasts past the shelves and the orange begins orbiting the skateboard, turning an ordinary shopping trip into a small solar system.",
-      "Frame 4 — The moon leans against the tram-stop sign, and its craters line up with the route from the first frame, making the detours read like a playful lunar map."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
+      "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
+      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "c,f,d,a": {
     "key": "c,f,d,a",
@@ -2967,14 +2967,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Paper Flight: Cloud Bowl, Painted Orbit and Umbrella",
+    "title": "Pip and Puff",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a timetable bookmark to the bus stop, where a fishbowl holds a cloud that is slowly changing shape.",
-      "Frame 3 — The astronaut paints a reflection instead of a sky, and the reflection shows the earlier scene floating calmly above the art table.",
-      "Frame 4 — The umbrella folds down to reveal that its coloured panels make the same picture seen in the earlier reflection, turning the journey into a clever art-room collage."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
+      "Nova painted a reflection instead of a sky, and the earlier scene floated calmly above the table.",
+      "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a small astronaut painting at an art table make sense in the final frame?"
+    "readerQuestion": "What helped Nova's picture make sense by the end?"
   },
   "c,f,d,b": {
     "key": "c,f,d,b",
@@ -2984,14 +2984,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Paper Flight: Cloud Bowl, Painted Orbit and Skateboard",
+    "title": "Pip and Puff",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a timetable bookmark to the bus stop, where a fishbowl holds a cloud that is slowly changing shape.",
-      "Frame 3 — The small astronaut paints one last silver stroke, and the painted image spills beyond the paper as a neat, gravity-free version of the earlier scene.",
-      "Frame 4 — The wombat's raincoat hood frames the final picture like a window, revealing that every detour has followed the orange's round, sun-like path."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
+      "Nova added one last silver stroke, and the painting drifted off the paper with no gravity.",
+      "Womby's hood framed the last picture, showing every detour had followed the orange's round path."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a small astronaut painting at an art table make sense in the final frame?"
+    "readerQuestion": "What helped Nova's picture make sense by the end?"
   },
   "c,f,d,e": {
     "key": "c,f,d,e",
@@ -3001,14 +3001,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Paper Flight: Cloud Bowl, Painted Orbit and Cardboard Moon",
+    "title": "Pip and Puff",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a timetable bookmark to the bus stop, where a fishbowl holds a cloud that is slowly changing shape.",
-      "Frame 3 — The small astronaut's brushstroke turns into a ribbon of colour that curls through the room, joining the first two images like a visible trail.",
-      "Frame 4 — The final view shows the wet pavement reflecting the cardboard moon and the earlier clue together; the two reflections make one complete night-time picture."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
+      "Nova's brushstroke unrolled into a ribbon of colour that curled through the room, joining everything.",
+      "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a small astronaut painting at an art table make sense in the final frame?"
+    "readerQuestion": "What helped Nova's picture make sense by the end?"
   },
   "c,f,e,a": {
     "key": "c,f,e,a",
@@ -3018,14 +3018,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Paper Flight: Cloud Bowl, Cardboard Moon and Umbrella",
+    "title": "Pip and Puff",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a timetable bookmark to the bus stop, where a fishbowl holds a cloud that is slowly changing shape.",
-      "Frame 3 — A tram passes behind the cardboard moon, making it look as if the moon is rolling along the rails and collecting the earlier clue in its craters.",
-      "Frame 4 — In the final image, the umbrella is not shelter at all but a giant pop-up bookmark, keeping the whole strange journey safely between two art-room pages."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
+      "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
+      "Brolly turned out to be a giant pop-up bookmark, holding the whole strange trip between two pages."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "c,f,e,b": {
     "key": "c,f,e,b",
@@ -3035,14 +3035,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Paper Flight: Cloud Bowl, Cardboard Moon and Skateboard",
+    "title": "Pip and Puff",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a timetable bookmark to the bus stop, where a fishbowl holds a cloud that is slowly changing shape.",
-      "Frame 3 — The wet pavement mirrors the cardboard moon so perfectly that two moons appear, with the earlier scene drifting between them like a dream.",
-      "Frame 4 — From above, the skateboard, raincoat, and orange form a tiny rocket; the earlier adventure is recontextualised as the wombat's carefully arranged grocery-floor artwork."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
+      "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
+      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "c,f,e,d": {
     "key": "c,f,e,d",
@@ -3052,14 +3052,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "Paper Flight: Cloud Bowl, Cardboard Moon and Painted Orbit",
+    "title": "Pip and Puff",
     "beats": [
-      "Frame 1 — A paper aeroplane circles the library lamp, making a bright ring of light over the shelves.",
-      "Frame 2 — The aeroplane follows a timetable bookmark to the bus stop, where a fishbowl holds a cloud that is slowly changing shape.",
-      "Frame 3 — The oversized cardboard moon catches the tram-stop rain; its painted craters fill with light and turn the wet pavement into a glowing map of the earlier journey.",
-      "Frame 4 — The painting is placed beside the first clue, and their edges join perfectly; the impossible journey is revealed as a two-part picture."
+      "Pip circled the library lamp, drawing a bright ring of light over the shelves.",
+      "Pip followed a timetable bookmark to the bus stop, where Puff was slowly changing shape.",
+      "Milo's moon caught the rain, and its craters filled with light like a glowing map.",
+      "Nova set the painting beside the first clue, and their edges joined perfectly, no gaps."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "d,a,b,c": {
     "key": "d,a,b,c",
@@ -3069,14 +3069,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Painted Orbit: Umbrella, Skateboard and Paper Flight",
+    "title": "Nova and Brolly",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut notices an open umbrella on the art-room table and paints a careful raindrop pattern around its handle.",
-      "Frame 3 — The wombat pushes off on the red skateboard and the orange rolls alongside like a tiny sun, sending the earlier clue gliding down the supermarket aisle.",
-      "Frame 4 — In the punchline, the aeroplane's shadow completes the outline of the earlier object, so the impossible trip becomes a single folded-paper design."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
+      "Womby pushed off, and the orange rolled alongside like a tiny sun down the supermarket aisle.",
+      "Pip's shadow completed the outline of the earlier object, making the whole trip one folded design."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "d,a,b,e": {
     "key": "d,a,b,e",
@@ -3086,14 +3086,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Painted Orbit: Umbrella, Skateboard and Cardboard Moon",
+    "title": "Nova and Brolly",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut notices an open umbrella on the art-room table and paints a careful raindrop pattern around its handle.",
-      "Frame 3 — The friendly wombat coasts past the shelves and the orange begins orbiting the skateboard, turning an ordinary shopping trip into a small solar system.",
-      "Frame 4 — The moon leans against the tram-stop sign, and its craters line up with the route from the first frame, making the detours read like a playful lunar map."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
+      "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
+      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "d,a,b,f": {
     "key": "d,a,b,f",
@@ -3103,14 +3103,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Painted Orbit: Umbrella, Skateboard and Cloud Bowl",
+    "title": "Nova and Brolly",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut notices an open umbrella on the art-room table and paints a careful raindrop pattern around its handle.",
-      "Frame 3 — The skateboard rolls over a puddle-shaped reflection; the wombat, raincoat, and orange appear to sail through the earlier scene without getting anything wet.",
-      "Frame 4 — The fishbowl cloud clears for a moment, revealing a small paper-like route inside it; the journey is recontextualised as a pocket-sized sky."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
+      "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
+      "Puff cleared for a second, showing a tiny paper route folded inside the pocket-sized sky."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "d,a,c,b": {
     "key": "d,a,c,b",
@@ -3120,14 +3120,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Painted Orbit: Umbrella, Paper Flight and Skateboard",
+    "title": "Nova and Brolly",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut notices an open umbrella on the art-room table and paints a careful raindrop pattern around its handle.",
-      "Frame 3 — The aeroplane turns a tight circle around the lamp; its shadow becomes enormous and carries the earlier clue across the ceiling.",
-      "Frame 4 — The red skateboard stops at the first image's edge, and the orange rolls neatly into the missing space, giving the whole four-frame journey a playful visual full stop."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
+      "Pip turned a tight circle around the lamp, and its huge shadow carried the clue across the ceiling.",
+      "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a paper aeroplane flying through a library with a lamp make sense in the final frame?"
+    "readerQuestion": "What helped Pip's picture make sense by the end?"
   },
   "d,a,c,e": {
     "key": "d,a,c,e",
@@ -3137,14 +3137,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Painted Orbit: Umbrella, Paper Flight and Cardboard Moon",
+    "title": "Nova and Brolly",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut notices an open umbrella on the art-room table and paints a careful raindrop pattern around its handle.",
-      "Frame 3 — The paper aeroplane sweeps through the library lamp's beam and projects the earlier scene in shadow across the books, as if the story has folded itself into flight.",
-      "Frame 4 — The teenager turns the cardboard moon around, revealing it as a giant theatre prop whose painted backdrops have quietly anticipated every frame."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
+      "Pip swept through the lamp beam and cast the earlier scene in shadow across the books.",
+      "Milo turned the moon around, and the back was a painted theatre backdrop for every scene."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a paper aeroplane flying through a library with a lamp make sense in the final frame?"
+    "readerQuestion": "What helped Pip's picture make sense by the end?"
   },
   "d,a,c,f": {
     "key": "d,a,c,f",
@@ -3154,14 +3154,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Painted Orbit: Umbrella, Paper Flight and Cloud Bowl",
+    "title": "Nova and Brolly",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut notices an open umbrella on the art-room table and paints a careful raindrop pattern around its handle.",
-      "Frame 3 — The aeroplane loops around the lamp and shakes loose tiny paper stars, making the shelves look like a night sky built from pages.",
-      "Frame 4 — The fishbowl catches the library-like light from the earlier scene, and its curved glass turns all four frames into one round, floating panorama."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
+      "Pip looped the lamp and shook loose tiny paper stars, turning the shelves into a night sky.",
+      "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a paper aeroplane flying through a library with a lamp make sense in the final frame?"
+    "readerQuestion": "What helped Pip's picture make sense by the end?"
   },
   "d,a,e,b": {
     "key": "d,a,e,b",
@@ -3171,14 +3171,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Painted Orbit: Umbrella, Cardboard Moon and Skateboard",
+    "title": "Nova and Brolly",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut notices an open umbrella on the art-room table and paints a careful raindrop pattern around its handle.",
-      "Frame 3 — The wet pavement mirrors the cardboard moon so perfectly that two moons appear, with the earlier scene drifting between them like a dream.",
-      "Frame 4 — From above, the skateboard, raincoat, and orange form a tiny rocket; the earlier adventure is recontextualised as the wombat's carefully arranged grocery-floor artwork."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
+      "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
+      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "d,a,e,c": {
     "key": "d,a,e,c",
@@ -3188,14 +3188,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Painted Orbit: Umbrella, Cardboard Moon and Paper Flight",
+    "title": "Nova and Brolly",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut notices an open umbrella on the art-room table and paints a careful raindrop pattern around its handle.",
-      "Frame 3 — The cardboard moon catches a breeze and rotates; a painted door on its back opens onto a tiny version of the first two frames.",
-      "Frame 4 — The aeroplane rests beside the lamp, and its creases match the route from the first frame, transforming the journey into an ingenious folded map."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
+      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
+      "Pip rested beside the lamp, and its creases matched the route exactly, like a folded map."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "d,a,e,f": {
     "key": "d,a,e,f",
@@ -3205,14 +3205,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Painted Orbit: Umbrella, Cardboard Moon and Cloud Bowl",
+    "title": "Nova and Brolly",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut notices an open umbrella on the art-room table and paints a careful raindrop pattern around its handle.",
-      "Frame 3 — A tram passes behind the cardboard moon, making it look as if the moon is rolling along the rails and collecting the earlier clue in its craters.",
-      "Frame 4 — The final reflection in the fishbowl joins the opening image to the last one, turning the impossible cloud into a tiny lens for the whole route."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
+      "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
+      "Puff's reflection stitched the first picture to the last one, all inside a small round bowl."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "d,a,f,b": {
     "key": "d,a,f,b",
@@ -3222,14 +3222,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Painted Orbit: Umbrella, Cloud Bowl and Skateboard",
+    "title": "Nova and Brolly",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut notices an open umbrella on the art-room table and paints a careful raindrop pattern around its handle.",
-      "Frame 3 — The fishbowl cloud flashes softly like a weather lantern, projecting the first two frames across the bus-stop glass.",
-      "Frame 4 — The wombat parks beside the orange, and their reflection in the polished floor completes the same shape as the earlier clue, turning the supermarket into a quiet visual puzzle."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
+      "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
+      "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "d,a,f,c": {
     "key": "d,a,f,c",
@@ -3239,14 +3239,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Painted Orbit: Umbrella, Cloud Bowl and Paper Flight",
+    "title": "Nova and Brolly",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut notices an open umbrella on the art-room table and paints a careful raindrop pattern around its handle.",
-      "Frame 3 — The cloud swirls in the fishbowl and forms a miniature map; its raindrops fall upward, carrying the earlier clue toward the timetable.",
-      "Frame 4 — The final wide view shows the library lamp casting all four images onto one wall; the aeroplane has been arranging the moving shadow story."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
+      "Puff swirled into a tiny map, and its raindrops fell upwards towards the timetable.",
+      "The lamp threw all four scenes onto one wall, with Pip quietly arranging the shadows."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "d,a,f,e": {
     "key": "d,a,f,e",
@@ -3256,14 +3256,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Painted Orbit: Umbrella, Cloud Bowl and Cardboard Moon",
+    "title": "Nova and Brolly",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut notices an open umbrella on the art-room table and paints a careful raindrop pattern around its handle.",
-      "Frame 3 — The cloud inside the fishbowl becomes a tiny stage curtain, revealing the first two images in a misty, upside-down sky.",
-      "Frame 4 — A tram window reflects the cardboard moon beside the opening image, revealing that the strange adventure has been travelling through a paper night sky."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova noticed Brolly on the table and painted a careful raindrop pattern around its handle.",
+      "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
+      "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "d,b,a,c": {
     "key": "d,b,a,c",
@@ -3273,14 +3273,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Painted Orbit: Skateboard, Umbrella and Paper Flight",
+    "title": "Nova and Womby",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut's painted arrow points to a supermarket, where a friendly wombat in a yellow raincoat rolls a red skateboard beside an orange.",
-      "Frame 3 — The open umbrella gathers a shower of paint-speckled raindrops that float upward, making the art room look briefly underwater.",
-      "Frame 4 — The paper aeroplane settles in a book's gutter, where the left and right pages hold the first and last images together like a visual reveal."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
+      "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
+      "Pip settled into a book's gutter, where the two pages held the first and last scenes together."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "d,b,a,e": {
     "key": "d,b,a,e",
@@ -3290,14 +3290,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Painted Orbit: Skateboard, Umbrella and Cardboard Moon",
+    "title": "Nova and Womby",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut's painted arrow points to a supermarket, where a friendly wombat in a yellow raincoat rolls a red skateboard beside an orange.",
-      "Frame 3 — A gust lifts the umbrella's edge; its inside becomes a night sky, and the earlier clue appears as a constellation on the fabric.",
-      "Frame 4 — The final view shows the wet pavement reflecting the cardboard moon and the earlier clue together; the two reflections make one complete night-time picture."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
+      "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
+      "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "d,b,a,f": {
     "key": "d,b,a,f",
@@ -3307,14 +3307,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Painted Orbit: Skateboard, Umbrella and Cloud Bowl",
+    "title": "Nova and Womby",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut's painted arrow points to a supermarket, where a friendly wombat in a yellow raincoat rolls a red skateboard beside an orange.",
-      "Frame 3 — The umbrella tilts by itself and pours not rain but a fluttering stream of paper shapes, each one matching a detail from the journey so far.",
-      "Frame 4 — The cloud settles into the shape of the first clue, so the bus stop becomes the visual punchline: every earlier detour was hiding in one drifting puff."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
+      "Brolly tilted and poured out paper shapes instead of rain, each one from the trip so far.",
+      "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "d,b,c,a": {
     "key": "d,b,c,a",
@@ -3324,14 +3324,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Painted Orbit: Skateboard, Paper Flight and Umbrella",
+    "title": "Nova and Womby",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut's painted arrow points to a supermarket, where a friendly wombat in a yellow raincoat rolls a red skateboard beside an orange.",
-      "Frame 3 — A warm gust from the lamp lifts the aeroplane into a spiral, and its folded wings briefly become the outline of a moonlit map.",
-      "Frame 4 — The umbrella now sits exactly where the adventure began, but its curved handle is revealed as the missing loop of the route, making every impossible detour read like one carefully drawn line."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
+      "A warm gust from the lamp spun Pip upwards, its wings shaped like a moonlit map.",
+      "Brolly stood exactly where it all began, its curved handle finishing the loop of the route."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a paper aeroplane flying through a library with a lamp make sense in the final frame?"
+    "readerQuestion": "What helped Pip's picture make sense by the end?"
   },
   "d,b,c,e": {
     "key": "d,b,c,e",
@@ -3341,14 +3341,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Painted Orbit: Skateboard, Paper Flight and Cardboard Moon",
+    "title": "Nova and Womby",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut's painted arrow points to a supermarket, where a friendly wombat in a yellow raincoat rolls a red skateboard beside an orange.",
-      "Frame 3 — The aeroplane turns a tight circle around the lamp; its shadow becomes enormous and carries the earlier clue across the ceiling.",
-      "Frame 4 — A tram window reflects the cardboard moon beside the opening image, revealing that the strange adventure has been travelling through a paper night sky."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
+      "Pip turned a tight circle around the lamp, and its huge shadow carried the clue across the ceiling.",
+      "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a paper aeroplane flying through a library with a lamp make sense in the final frame?"
+    "readerQuestion": "What helped Pip's picture make sense by the end?"
   },
   "d,b,c,f": {
     "key": "d,b,c,f",
@@ -3358,14 +3358,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Painted Orbit: Skateboard, Paper Flight and Cloud Bowl",
+    "title": "Nova and Womby",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut's painted arrow points to a supermarket, where a friendly wombat in a yellow raincoat rolls a red skateboard beside an orange.",
-      "Frame 3 — A warm gust from the lamp lifts the aeroplane into a spiral, and its folded wings briefly become the outline of a moonlit map.",
-      "Frame 4 — The fishbowl is placed beside the first scene, and the cloud's reflection fills the missing shape, revealing that the whole adventure has been a weather forecast drawn in pictures."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
+      "A warm gust from the lamp spun Pip upwards, its wings shaped like a moonlit map.",
+      "Puff sat beside the first scene, and the cloud's reflection filled the last missing shape perfectly."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a paper aeroplane flying through a library with a lamp make sense in the final frame?"
+    "readerQuestion": "What helped Pip's picture make sense by the end?"
   },
   "d,b,e,a": {
     "key": "d,b,e,a",
@@ -3375,14 +3375,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Painted Orbit: Skateboard, Cardboard Moon and Umbrella",
+    "title": "Nova and Womby",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut's painted arrow points to a supermarket, where a friendly wombat in a yellow raincoat rolls a red skateboard beside an orange.",
-      "Frame 3 — The cardboard moon catches a breeze and rotates; a painted door on its back opens onto a tiny version of the first two frames.",
-      "Frame 4 — The final view pulls back: the umbrella is the roof of a tiny model world, and the earlier characters and objects fit beneath it as if they have always belonged there."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
+      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
+      "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "d,b,e,c": {
     "key": "d,b,e,c",
@@ -3392,14 +3392,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Painted Orbit: Skateboard, Cardboard Moon and Paper Flight",
+    "title": "Nova and Womby",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut's painted arrow points to a supermarket, where a friendly wombat in a yellow raincoat rolls a red skateboard beside an orange.",
-      "Frame 3 — The teenager lifts the cardboard moon against the grey sky, and its circular cut-out frames the first two images as though they are on another planet.",
-      "Frame 4 — The aeroplane finally lands on an open book whose illustration is the opening scene, revealing that the whole adventure has been a paper flight between its pages."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
+      "Milo lifted the moon against the grey sky, and its cut-out framed the earlier scenes perfectly.",
+      "Pip landed on an open book, and the picture underneath was the opening scene all along."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "d,b,e,f": {
     "key": "d,b,e,f",
@@ -3409,14 +3409,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Painted Orbit: Skateboard, Cardboard Moon and Cloud Bowl",
+    "title": "Nova and Womby",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut's painted arrow points to a supermarket, where a friendly wombat in a yellow raincoat rolls a red skateboard beside an orange.",
-      "Frame 3 — The cardboard moon catches a breeze and rotates; a painted door on its back opens onto a tiny version of the first two frames.",
-      "Frame 4 — The fishbowl catches the library-like light from the earlier scene, and its curved glass turns all four frames into one round, floating panorama."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
+      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
+      "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "d,b,f,a": {
     "key": "d,b,f,a",
@@ -3426,14 +3426,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Painted Orbit: Skateboard, Cloud Bowl and Umbrella",
+    "title": "Nova and Womby",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut's painted arrow points to a supermarket, where a friendly wombat in a yellow raincoat rolls a red skateboard beside an orange.",
-      "Frame 3 — The cloud swirls in the fishbowl and forms a miniature map; its raindrops fall upward, carrying the earlier clue toward the timetable.",
-      "Frame 4 — The umbrella folds down to reveal that its coloured panels make the same picture seen in the earlier reflection, turning the journey into a clever art-room collage."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
+      "Puff swirled into a tiny map, and its raindrops fell upwards towards the timetable.",
+      "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "d,b,f,c": {
     "key": "d,b,f,c",
@@ -3443,14 +3443,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Painted Orbit: Skateboard, Cloud Bowl and Paper Flight",
+    "title": "Nova and Womby",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut's painted arrow points to a supermarket, where a friendly wombat in a yellow raincoat rolls a red skateboard beside an orange.",
-      "Frame 3 — The cloud inside the fishbowl becomes a tiny stage curtain, revealing the first two images in a misty, upside-down sky.",
-      "Frame 4 — The paper aeroplane settles in a book's gutter, where the left and right pages hold the first and last images together like a visual reveal."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
+      "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
+      "Pip settled into a book's gutter, where the two pages held the first and last scenes together."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "d,b,f,e": {
     "key": "d,b,f,e",
@@ -3460,14 +3460,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Painted Orbit: Skateboard, Cloud Bowl and Cardboard Moon",
+    "title": "Nova and Womby",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut's painted arrow points to a supermarket, where a friendly wombat in a yellow raincoat rolls a red skateboard beside an orange.",
-      "Frame 3 — The fishbowl cloud flashes softly like a weather lantern, projecting the first two frames across the bus-stop glass.",
-      "Frame 4 — The final view shows the wet pavement reflecting the cardboard moon and the earlier clue together; the two reflections make one complete night-time picture."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova's painted arrow pointed to the supermarket, where Womby was rolling along beside an orange.",
+      "Puff flashed softly like a lantern, throwing the earlier scenes across the bus-stop glass.",
+      "Milo stopped, and the wet pavement held the moon and the earlier clue in one picture."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "d,c,a,b": {
     "key": "d,c,a,b",
@@ -3477,14 +3477,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Painted Orbit: Paper Flight, Umbrella and Skateboard",
+    "title": "Nova and Pip",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — A dab of blue paint becomes a paper aeroplane, which lifts from the art table and threads between library shelves and a lamp.",
-      "Frame 3 — The umbrella suddenly opens wider than the table and catches a swirl of coloured paper, turning the room into a safe little weather system.",
-      "Frame 4 — The final image reveals the red skateboard's path as a curved arrow pointing back to the opening scene; the orange has been rolling along as the bright marker all along."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
+      "Brolly opened wider than the table and caught a swirl of coloured paper, like friendly weather.",
+      "Womby's skateboard path curved back to the opening scene, with the orange marking the way."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "d,c,a,e": {
     "key": "d,c,a,e",
@@ -3494,14 +3494,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Painted Orbit: Paper Flight, Umbrella and Cardboard Moon",
+    "title": "Nova and Pip",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — A dab of blue paint becomes a paper aeroplane, which lifts from the art table and threads between library shelves and a lamp.",
-      "Frame 3 — The umbrella becomes a portable doorway: its patterned underside frames the earlier scene as a tiny, upside-down world.",
-      "Frame 4 — The moon leans against the tram-stop sign, and its craters line up with the route from the first frame, making the detours read like a playful lunar map."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
+      "Brolly became a portable doorway, its patterned underside framing the earlier scene upside down.",
+      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "d,c,a,f": {
     "key": "d,c,a,f",
@@ -3511,14 +3511,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Painted Orbit: Paper Flight, Umbrella and Cloud Bowl",
+    "title": "Nova and Pip",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — A dab of blue paint becomes a paper aeroplane, which lifts from the art table and threads between library shelves and a lamp.",
-      "Frame 3 — The open umbrella gathers a shower of paint-speckled raindrops that float upward, making the art room look briefly underwater.",
-      "Frame 4 — The fishbowl cloud clears for a moment, revealing a small paper-like route inside it; the journey is recontextualised as a pocket-sized sky."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
+      "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
+      "Puff cleared for a second, showing a tiny paper route folded inside the pocket-sized sky."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "d,c,b,a": {
     "key": "d,c,b,a",
@@ -3528,14 +3528,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Painted Orbit: Paper Flight, Skateboard and Umbrella",
+    "title": "Nova and Pip",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — A dab of blue paint becomes a paper aeroplane, which lifts from the art table and threads between library shelves and a lamp.",
-      "Frame 3 — The friendly wombat coasts past the shelves and the orange begins orbiting the skateboard, turning an ordinary shopping trip into a small solar system.",
-      "Frame 4 — The final view pulls back: the umbrella is the roof of a tiny model world, and the earlier characters and objects fit beneath it as if they have always belonged there."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
+      "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
+      "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "d,c,b,e": {
     "key": "d,c,b,e",
@@ -3545,14 +3545,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Painted Orbit: Paper Flight, Skateboard and Cardboard Moon",
+    "title": "Nova and Pip",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — A dab of blue paint becomes a paper aeroplane, which lifts from the art table and threads between library shelves and a lamp.",
-      "Frame 3 — The wombat's skateboard leaves a neat red trail that becomes a map across the floor, while the orange bounces from square to square like a compass.",
-      "Frame 4 — The teenager turns the cardboard moon around, revealing it as a giant theatre prop whose painted backdrops have quietly anticipated every frame."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
+      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
+      "Milo turned the moon around, and the back was a painted theatre backdrop for every scene."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "d,c,b,f": {
     "key": "d,c,b,f",
@@ -3562,14 +3562,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Painted Orbit: Paper Flight, Skateboard and Cloud Bowl",
+    "title": "Nova and Pip",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — A dab of blue paint becomes a paper aeroplane, which lifts from the art table and threads between library shelves and a lamp.",
-      "Frame 3 — The friendly wombat coasts past the shelves and the orange begins orbiting the skateboard, turning an ordinary shopping trip into a small solar system.",
-      "Frame 4 — The fishbowl catches the library-like light from the earlier scene, and its curved glass turns all four frames into one round, floating panorama."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
+      "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
+      "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "d,c,e,a": {
     "key": "d,c,e,a",
@@ -3579,14 +3579,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Painted Orbit: Paper Flight, Cardboard Moon and Umbrella",
+    "title": "Nova and Pip",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — A dab of blue paint becomes a paper aeroplane, which lifts from the art table and threads between library shelves and a lamp.",
-      "Frame 3 — The teenager lifts the cardboard moon against the grey sky, and its circular cut-out frames the first two images as though they are on another planet.",
-      "Frame 4 — The umbrella now sits exactly where the adventure began, but its curved handle is revealed as the missing loop of the route, making every impossible detour read like one carefully drawn line."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
+      "Milo lifted the moon against the grey sky, and its cut-out framed the earlier scenes perfectly.",
+      "Brolly stood exactly where it all began, its curved handle finishing the loop of the route."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "d,c,e,b": {
     "key": "d,c,e,b",
@@ -3596,14 +3596,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Painted Orbit: Paper Flight, Cardboard Moon and Skateboard",
+    "title": "Nova and Pip",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — A dab of blue paint becomes a paper aeroplane, which lifts from the art table and threads between library shelves and a lamp.",
-      "Frame 3 — A tram passes behind the cardboard moon, making it look as if the moon is rolling along the rails and collecting the earlier clue in its craters.",
-      "Frame 4 — The wombat parks beside the orange, and their reflection in the polished floor completes the same shape as the earlier clue, turning the supermarket into a quiet visual puzzle."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
+      "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
+      "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "d,c,e,f": {
     "key": "d,c,e,f",
@@ -3613,14 +3613,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "f"
     ],
-    "title": "Painted Orbit: Paper Flight, Cardboard Moon and Cloud Bowl",
+    "title": "Nova and Pip",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — A dab of blue paint becomes a paper aeroplane, which lifts from the art table and threads between library shelves and a lamp.",
-      "Frame 3 — The teenager lifts the cardboard moon against the grey sky, and its circular cut-out frames the first two images as though they are on another planet.",
-      "Frame 4 — The fishbowl is placed beside the first scene, and the cloud's reflection fills the missing shape, revealing that the whole adventure has been a weather forecast drawn in pictures."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
+      "Milo lifted the moon against the grey sky, and its cut-out framed the earlier scenes perfectly.",
+      "Puff sat beside the first scene, and the cloud's reflection filled the last missing shape perfectly."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "d,c,f,a": {
     "key": "d,c,f,a",
@@ -3630,14 +3630,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Painted Orbit: Paper Flight, Cloud Bowl and Umbrella",
+    "title": "Nova and Pip",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — A dab of blue paint becomes a paper aeroplane, which lifts from the art table and threads between library shelves and a lamp.",
-      "Frame 3 — The cloud inside the fishbowl becomes a tiny stage curtain, revealing the first two images in a misty, upside-down sky.",
-      "Frame 4 — When the umbrella is lifted, its underside matches the route overhead, so the odd weather was really a painted ceiling brought down to eye level."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
+      "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
+      "Someone lifted Brolly, and its underside matched the route overhead like a painted ceiling."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "d,c,f,b": {
     "key": "d,c,f,b",
@@ -3647,14 +3647,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Painted Orbit: Paper Flight, Cloud Bowl and Skateboard",
+    "title": "Nova and Pip",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — A dab of blue paint becomes a paper aeroplane, which lifts from the art table and threads between library shelves and a lamp.",
-      "Frame 3 — The cloud inside the fishbowl puffs into the shape of the earlier scene, then releases a gentle indoor drizzle that stops at the edge of the bus shelter.",
-      "Frame 4 — The final image reveals the red skateboard's path as a curved arrow pointing back to the opening scene; the orange has been rolling along as the bright marker all along."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
+      "Puff copied the earlier scene, then let a gentle drizzle fall that stopped at the shelter's edge.",
+      "Womby's skateboard path curved back to the opening scene, with the orange marking the way."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "d,c,f,e": {
     "key": "d,c,f,e",
@@ -3664,14 +3664,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "e"
     ],
-    "title": "Painted Orbit: Paper Flight, Cloud Bowl and Cardboard Moon",
+    "title": "Nova and Pip",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — A dab of blue paint becomes a paper aeroplane, which lifts from the art table and threads between library shelves and a lamp.",
-      "Frame 3 — The fishbowl cloud grows a small silver lining, and the bus-stop reflection turns the earlier scene into a floating postcard.",
-      "Frame 4 — The moon leans against the tram-stop sign, and its craters line up with the route from the first frame, making the detours read like a playful lunar map."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "A dab of blue paint became Pip, who lifted off the table and threaded past the library lamp.",
+      "Puff grew a small silver lining, and the bus-stop glass turned the earlier scene into a postcard.",
+      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "d,e,a,b": {
     "key": "d,e,a,b",
@@ -3681,14 +3681,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Painted Orbit: Cardboard Moon, Umbrella and Skateboard",
+    "title": "Nova and Milo",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a round moon, then spots a teenager at the wet tram stop carrying an oversized cardboard version of the same shape.",
-      "Frame 3 — The open umbrella gathers a shower of paint-speckled raindrops that float upward, making the art room look briefly underwater.",
-      "Frame 4 — The red skateboard stops at the first image's edge, and the orange rolls neatly into the missing space, giving the whole four-frame journey a playful visual full stop."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
+      "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
+      "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "d,e,a,c": {
     "key": "d,e,a,c",
@@ -3698,14 +3698,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Painted Orbit: Cardboard Moon, Umbrella and Paper Flight",
+    "title": "Nova and Milo",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a round moon, then spots a teenager at the wet tram stop carrying an oversized cardboard version of the same shape.",
-      "Frame 3 — The umbrella suddenly opens wider than the table and catches a swirl of coloured paper, turning the room into a safe little weather system.",
-      "Frame 4 — The aeroplane finally lands on an open book whose illustration is the opening scene, revealing that the whole adventure has been a paper flight between its pages."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
+      "Brolly opened wider than the table and caught a swirl of coloured paper, like friendly weather.",
+      "Pip landed on an open book, and the picture underneath was the opening scene all along."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "d,e,a,f": {
     "key": "d,e,a,f",
@@ -3715,14 +3715,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Painted Orbit: Cardboard Moon, Umbrella and Cloud Bowl",
+    "title": "Nova and Milo",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a round moon, then spots a teenager at the wet tram stop carrying an oversized cardboard version of the same shape.",
-      "Frame 3 — The umbrella becomes a portable doorway: its patterned underside frames the earlier scene as a tiny, upside-down world.",
-      "Frame 4 — The fishbowl catches the library-like light from the earlier scene, and its curved glass turns all four frames into one round, floating panorama."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
+      "Brolly became a portable doorway, its patterned underside framing the earlier scene upside down.",
+      "Puff's curved glass caught the library light and wrapped all four scenes into one round view."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "d,e,b,a": {
     "key": "d,e,b,a",
@@ -3732,14 +3732,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Painted Orbit: Cardboard Moon, Skateboard and Umbrella",
+    "title": "Nova and Milo",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a round moon, then spots a teenager at the wet tram stop carrying an oversized cardboard version of the same shape.",
-      "Frame 3 — The wombat's skateboard leaves a neat red trail that becomes a map across the floor, while the orange bounces from square to square like a compass.",
-      "Frame 4 — The umbrella folds down to reveal that its coloured panels make the same picture seen in the earlier reflection, turning the journey into a clever art-room collage."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
+      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
+      "Brolly folded down, and its coloured panels made the same picture as the earlier reflection."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "d,e,b,c": {
     "key": "d,e,b,c",
@@ -3749,14 +3749,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Painted Orbit: Cardboard Moon, Skateboard and Paper Flight",
+    "title": "Nova and Milo",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a round moon, then spots a teenager at the wet tram stop carrying an oversized cardboard version of the same shape.",
-      "Frame 3 — The skateboard rolls over a puddle-shaped reflection; the wombat, raincoat, and orange appear to sail through the earlier scene without getting anything wet.",
-      "Frame 4 — The paper aeroplane settles in a book's gutter, where the left and right pages hold the first and last images together like a visual reveal."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
+      "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
+      "Pip settled into a book's gutter, where the two pages held the first and last scenes together."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "d,e,b,f": {
     "key": "d,e,b,f",
@@ -3766,14 +3766,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Painted Orbit: Cardboard Moon, Skateboard and Cloud Bowl",
+    "title": "Nova and Milo",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a round moon, then spots a teenager at the wet tram stop carrying an oversized cardboard version of the same shape.",
-      "Frame 3 — The wombat's skateboard leaves a neat red trail that becomes a map across the floor, while the orange bounces from square to square like a compass.",
-      "Frame 4 — The cloud settles into the shape of the first clue, so the bus stop becomes the visual punchline: every earlier detour was hiding in one drifting puff."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
+      "Womby's skateboard left a neat red trail, and the orange bounced along it like a compass.",
+      "Puff settled into the exact shape of the very first clue, hiding everything in one puff."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "d,e,c,a": {
     "key": "d,e,c,a",
@@ -3783,14 +3783,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Painted Orbit: Cardboard Moon, Paper Flight and Umbrella",
+    "title": "Nova and Milo",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a round moon, then spots a teenager at the wet tram stop carrying an oversized cardboard version of the same shape.",
-      "Frame 3 — The aeroplane lands on the lamp shade, which spins gently and sends a moving pool of library light back toward the earlier scene.",
-      "Frame 4 — In the final image, the umbrella is not shelter at all but a giant pop-up bookmark, keeping the whole strange journey safely between two art-room pages."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
+      "Pip landed on the lampshade, which spun gently and swept light back across the earlier scene.",
+      "Brolly turned out to be a giant pop-up bookmark, holding the whole strange trip between two pages."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a paper aeroplane flying through a library with a lamp make sense in the final frame?"
+    "readerQuestion": "What helped Pip's picture make sense by the end?"
   },
   "d,e,c,b": {
     "key": "d,e,c,b",
@@ -3800,14 +3800,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Painted Orbit: Cardboard Moon, Paper Flight and Skateboard",
+    "title": "Nova and Milo",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a round moon, then spots a teenager at the wet tram stop carrying an oversized cardboard version of the same shape.",
-      "Frame 3 — The paper aeroplane sweeps through the library lamp's beam and projects the earlier scene in shadow across the books, as if the story has folded itself into flight.",
-      "Frame 4 — From above, the skateboard, raincoat, and orange form a tiny rocket; the earlier adventure is recontextualised as the wombat's carefully arranged grocery-floor artwork."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
+      "Pip swept through the lamp beam and cast the earlier scene in shadow across the books.",
+      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a paper aeroplane flying through a library with a lamp make sense in the final frame?"
+    "readerQuestion": "What helped Pip's picture make sense by the end?"
   },
   "d,e,c,f": {
     "key": "d,e,c,f",
@@ -3817,14 +3817,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Painted Orbit: Cardboard Moon, Paper Flight and Cloud Bowl",
+    "title": "Nova and Milo",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a round moon, then spots a teenager at the wet tram stop carrying an oversized cardboard version of the same shape.",
-      "Frame 3 — The aeroplane lands on the lamp shade, which spins gently and sends a moving pool of library light back toward the earlier scene.",
-      "Frame 4 — The final reflection in the fishbowl joins the opening image to the last one, turning the impossible cloud into a tiny lens for the whole route."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
+      "Pip landed on the lampshade, which spun gently and swept light back across the earlier scene.",
+      "Puff's reflection stitched the first picture to the last one, all inside a small round bowl."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a paper aeroplane flying through a library with a lamp make sense in the final frame?"
+    "readerQuestion": "What helped Pip's picture make sense by the end?"
   },
   "d,e,f,a": {
     "key": "d,e,f,a",
@@ -3834,14 +3834,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Painted Orbit: Cardboard Moon, Cloud Bowl and Umbrella",
+    "title": "Nova and Milo",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a round moon, then spots a teenager at the wet tram stop carrying an oversized cardboard version of the same shape.",
-      "Frame 3 — The fishbowl cloud grows a small silver lining, and the bus-stop reflection turns the earlier scene into a floating postcard.",
-      "Frame 4 — The final view pulls back: the umbrella is the roof of a tiny model world, and the earlier characters and objects fit beneath it as if they have always belonged there."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
+      "Puff grew a small silver lining, and the bus-stop glass turned the earlier scene into a postcard.",
+      "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "d,e,f,b": {
     "key": "d,e,f,b",
@@ -3851,14 +3851,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Painted Orbit: Cardboard Moon, Cloud Bowl and Skateboard",
+    "title": "Nova and Milo",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a round moon, then spots a teenager at the wet tram stop carrying an oversized cardboard version of the same shape.",
-      "Frame 3 — The cloud inside the fishbowl becomes a tiny stage curtain, revealing the first two images in a misty, upside-down sky.",
-      "Frame 4 — The red skateboard stops at the first image's edge, and the orange rolls neatly into the missing space, giving the whole four-frame journey a playful visual full stop."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
+      "Puff parted like a stage curtain, showing the first two scenes in a misty, upside-down sky.",
+      "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "d,e,f,c": {
     "key": "d,e,f,c",
@@ -3868,14 +3868,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Painted Orbit: Cardboard Moon, Cloud Bowl and Paper Flight",
+    "title": "Nova and Milo",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a round moon, then spots a teenager at the wet tram stop carrying an oversized cardboard version of the same shape.",
-      "Frame 3 — The cloud inside the fishbowl puffs into the shape of the earlier scene, then releases a gentle indoor drizzle that stops at the edge of the bus shelter.",
-      "Frame 4 — The aeroplane finally lands on an open book whose illustration is the opening scene, revealing that the whole adventure has been a paper flight between its pages."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a round moon, then spotted Milo at the tram stop carrying the very same shape.",
+      "Puff copied the earlier scene, then let a gentle drizzle fall that stopped at the shelter's edge.",
+      "Pip landed on an open book, and the picture underneath was the opening scene all along."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a fishbowl containing a cloud at a bus stop make sense in the final frame?"
+    "readerQuestion": "What helped Puff's picture make sense by the end?"
   },
   "d,f,a,b": {
     "key": "d,f,a,b",
@@ -3885,14 +3885,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Painted Orbit: Cloud Bowl, Umbrella and Skateboard",
+    "title": "Nova and Puff",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a soft cloud, then follows it to a bus stop where a fishbowl is holding a real cloud like a tiny weather report.",
-      "Frame 3 — A gust lifts the umbrella's edge; its inside becomes a night sky, and the earlier clue appears as a constellation on the fabric.",
-      "Frame 4 — The wombat parks beside the orange, and their reflection in the polished floor completes the same shape as the earlier clue, turning the supermarket into a quiet visual puzzle."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
+      "A gust lifted Brolly's edge, and the inside became a night sky with the clue as stars.",
+      "Womby parked beside the orange, and their reflection on the polished floor finished the earlier shape."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "d,f,a,c": {
     "key": "d,f,a,c",
@@ -3902,14 +3902,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Painted Orbit: Cloud Bowl, Umbrella and Paper Flight",
+    "title": "Nova and Puff",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a soft cloud, then follows it to a bus stop where a fishbowl is holding a real cloud like a tiny weather report.",
-      "Frame 3 — The umbrella tilts by itself and pours not rain but a fluttering stream of paper shapes, each one matching a detail from the journey so far.",
-      "Frame 4 — The final wide view shows the library lamp casting all four images onto one wall; the aeroplane has been arranging the moving shadow story."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
+      "Brolly tilted and poured out paper shapes instead of rain, each one from the trip so far.",
+      "The lamp threw all four scenes onto one wall, with Pip quietly arranging the shadows."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "d,f,a,e": {
     "key": "d,f,a,e",
@@ -3919,14 +3919,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "Painted Orbit: Cloud Bowl, Umbrella and Cardboard Moon",
+    "title": "Nova and Puff",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a soft cloud, then follows it to a bus stop where a fishbowl is holding a real cloud like a tiny weather report.",
-      "Frame 3 — The open umbrella gathers a shower of paint-speckled raindrops that float upward, making the art room look briefly underwater.",
-      "Frame 4 — A tram window reflects the cardboard moon beside the opening image, revealing that the strange adventure has been travelling through a paper night sky."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
+      "Brolly gathered paint-speckled raindrops that floated upwards, making the art room look briefly underwater.",
+      "A tram window caught Milo's moon beside the opening scene, the whole trip travelling through paper sky."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual an umbrella open on a table in an art room make sense in the final frame?"
+    "readerQuestion": "What helped Brolly's picture make sense by the end?"
   },
   "d,f,b,a": {
     "key": "d,f,b,a",
@@ -3936,14 +3936,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Painted Orbit: Cloud Bowl, Skateboard and Umbrella",
+    "title": "Nova and Puff",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a soft cloud, then follows it to a bus stop where a fishbowl is holding a real cloud like a tiny weather report.",
-      "Frame 3 — The skateboard rolls over a puddle-shaped reflection; the wombat, raincoat, and orange appear to sail through the earlier scene without getting anything wet.",
-      "Frame 4 — When the umbrella is lifted, its underside matches the route overhead, so the odd weather was really a painted ceiling brought down to eye level."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
+      "Womby sailed over a puddle reflection and crossed the whole earlier scene without getting wet.",
+      "Someone lifted Brolly, and its underside matched the route overhead like a painted ceiling."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "d,f,b,c": {
     "key": "d,f,b,c",
@@ -3953,14 +3953,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Painted Orbit: Cloud Bowl, Skateboard and Paper Flight",
+    "title": "Nova and Puff",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a soft cloud, then follows it to a bus stop where a fishbowl is holding a real cloud like a tiny weather report.",
-      "Frame 3 — The wombat pushes off on the red skateboard and the orange rolls alongside like a tiny sun, sending the earlier clue gliding down the supermarket aisle.",
-      "Frame 4 — In the punchline, the aeroplane's shadow completes the outline of the earlier object, so the impossible trip becomes a single folded-paper design."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
+      "Womby pushed off, and the orange rolled alongside like a tiny sun down the supermarket aisle.",
+      "Pip's shadow completed the outline of the earlier object, making the whole trip one folded design."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "d,f,b,e": {
     "key": "d,f,b,e",
@@ -3970,14 +3970,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "Painted Orbit: Cloud Bowl, Skateboard and Cardboard Moon",
+    "title": "Nova and Puff",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a soft cloud, then follows it to a bus stop where a fishbowl is holding a real cloud like a tiny weather report.",
-      "Frame 3 — The friendly wombat coasts past the shelves and the orange begins orbiting the skateboard, turning an ordinary shopping trip into a small solar system.",
-      "Frame 4 — The moon leans against the tram-stop sign, and its craters line up with the route from the first frame, making the detours read like a playful lunar map."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
+      "Womby coasted past the shelves while the orange orbited the skateboard like a small planet.",
+      "Milo leaned the moon against the tram sign, and its craters matched the route exactly."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a friendly wombat in a yellow raincoat on a red skateboard beside an orange in a supermarket make sense in the final frame?"
+    "readerQuestion": "What helped Womby's picture make sense by the end?"
   },
   "d,f,c,a": {
     "key": "d,f,c,a",
@@ -3987,14 +3987,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Painted Orbit: Cloud Bowl, Paper Flight and Umbrella",
+    "title": "Nova and Puff",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a soft cloud, then follows it to a bus stop where a fishbowl is holding a real cloud like a tiny weather report.",
-      "Frame 3 — The aeroplane loops around the lamp and shakes loose tiny paper stars, making the shelves look like a night sky built from pages.",
-      "Frame 4 — The final view pulls back: the umbrella is the roof of a tiny model world, and the earlier characters and objects fit beneath it as if they have always belonged there."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
+      "Pip looped the lamp and shook loose tiny paper stars, turning the shelves into a night sky.",
+      "The view pulled back: Brolly was the roof of a tiny model world, everyone tucked underneath."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a paper aeroplane flying through a library with a lamp make sense in the final frame?"
+    "readerQuestion": "What helped Pip's picture make sense by the end?"
   },
   "d,f,c,b": {
     "key": "d,f,c,b",
@@ -4004,14 +4004,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Painted Orbit: Cloud Bowl, Paper Flight and Skateboard",
+    "title": "Nova and Puff",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a soft cloud, then follows it to a bus stop where a fishbowl is holding a real cloud like a tiny weather report.",
-      "Frame 3 — The aeroplane turns a tight circle around the lamp; its shadow becomes enormous and carries the earlier clue across the ceiling.",
-      "Frame 4 — The red skateboard stops at the first image's edge, and the orange rolls neatly into the missing space, giving the whole four-frame journey a playful visual full stop."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
+      "Pip turned a tight circle around the lamp, and its huge shadow carried the clue across the ceiling.",
+      "Womby's skateboard stopped at the edge, and the orange rolled neatly into the last empty space."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a paper aeroplane flying through a library with a lamp make sense in the final frame?"
+    "readerQuestion": "What helped Pip's picture make sense by the end?"
   },
   "d,f,c,e": {
     "key": "d,f,c,e",
@@ -4021,14 +4021,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "Painted Orbit: Cloud Bowl, Paper Flight and Cardboard Moon",
+    "title": "Nova and Puff",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a soft cloud, then follows it to a bus stop where a fishbowl is holding a real cloud like a tiny weather report.",
-      "Frame 3 — The paper aeroplane sweeps through the library lamp's beam and projects the earlier scene in shadow across the books, as if the story has folded itself into flight.",
-      "Frame 4 — The teenager turns the cardboard moon around, revealing it as a giant theatre prop whose painted backdrops have quietly anticipated every frame."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
+      "Pip swept through the lamp beam and cast the earlier scene in shadow across the books.",
+      "Milo turned the moon around, and the back was a painted theatre backdrop for every scene."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a paper aeroplane flying through a library with a lamp make sense in the final frame?"
+    "readerQuestion": "What helped Pip's picture make sense by the end?"
   },
   "d,f,e,a": {
     "key": "d,f,e,a",
@@ -4038,14 +4038,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "Painted Orbit: Cloud Bowl, Cardboard Moon and Umbrella",
+    "title": "Nova and Puff",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a soft cloud, then follows it to a bus stop where a fishbowl is holding a real cloud like a tiny weather report.",
-      "Frame 3 — A tram passes behind the cardboard moon, making it look as if the moon is rolling along the rails and collecting the earlier clue in its craters.",
-      "Frame 4 — In the final image, the umbrella is not shelter at all but a giant pop-up bookmark, keeping the whole strange journey safely between two art-room pages."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
+      "A tram slid past, and Milo's moon looked like it was rolling along the rails.",
+      "Brolly turned out to be a giant pop-up bookmark, holding the whole strange trip between two pages."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "d,f,e,b": {
     "key": "d,f,e,b",
@@ -4055,14 +4055,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "Painted Orbit: Cloud Bowl, Cardboard Moon and Skateboard",
+    "title": "Nova and Puff",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a soft cloud, then follows it to a bus stop where a fishbowl is holding a real cloud like a tiny weather report.",
-      "Frame 3 — The wet pavement mirrors the cardboard moon so perfectly that two moons appear, with the earlier scene drifting between them like a dream.",
-      "Frame 4 — From above, the skateboard, raincoat, and orange form a tiny rocket; the earlier adventure is recontextualised as the wombat's carefully arranged grocery-floor artwork."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
+      "The pavement mirrored Milo's moon so well that two moons appeared, with the story drifting between them.",
+      "From above, Womby's skateboard, raincoat and orange made a tiny rocket on the supermarket floor."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "d,f,e,c": {
     "key": "d,f,e,c",
@@ -4072,14 +4072,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "Painted Orbit: Cloud Bowl, Cardboard Moon and Paper Flight",
+    "title": "Nova and Puff",
     "beats": [
-      "Frame 1 — A small astronaut paints patiently at the art table, adding stars to a square of blue paper.",
-      "Frame 2 — The astronaut paints a soft cloud, then follows it to a bus stop where a fishbowl is holding a real cloud like a tiny weather report.",
-      "Frame 3 — The cardboard moon catches a breeze and rotates; a painted door on its back opens onto a tiny version of the first two frames.",
-      "Frame 4 — The aeroplane rests beside the lamp, and its creases match the route from the first frame, transforming the journey into an ingenious folded map."
+      "Nova painted patiently at the art table, adding one careful star after another to blue paper.",
+      "Nova painted a soft cloud, then followed it to the bus stop where Puff was waiting.",
+      "Milo's moon spun in the breeze, and a painted door on its back opened onto the earlier scenes.",
+      "Pip rested beside the lamp, and its creases matched the route exactly, like a folded map."
     ],
-    "readerQuestion": "Which visual detail from the first two frames helps the unusual a teenager carrying an oversized cardboard moon at a wet tram stop make sense in the final frame?"
+    "readerQuestion": "What helped Milo's picture make sense by the end?"
   },
   "e,a,b,c": {
     "key": "e,a,b,c",
@@ -4089,14 +4089,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Cardboard Moon, Umbrella and Wombat: Paper Flight Reframe",
+    "title": "Milo and Pip",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
-      "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the umbrella. The supermarket scene has become a tiny visual parade.",
-      "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the umbrella and the wombat. The punchline is that its flight path is a pencil line showing the intended reading order."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
+      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Brolly.",
+      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
     ],
-    "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the umbrella and the wombat?"
+    "readerQuestion": "How does Pip's picture change everything before it?"
   },
   "e,a,b,d": {
     "key": "e,a,b,d",
@@ -4106,14 +4106,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Cardboard Moon, Umbrella and Wombat: Small Astronaut Reframe",
+    "title": "Milo and Nova",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
-      "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the umbrella. The supermarket scene has become a tiny visual parade.",
-      "Frame 4: The astronaut stands beside an art-table collage of the moon, the umbrella and the wombat. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
+      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Brolly.",
+      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
     ],
-    "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the umbrella and the wombat?"
+    "readerQuestion": "How does Nova's picture change everything before it?"
   },
   "e,a,b,f": {
     "key": "e,a,b,f",
@@ -4123,14 +4123,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Cardboard Moon, Umbrella and Wombat: Cloud Fishbowl Reframe",
+    "title": "Milo and Puff",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
-      "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the umbrella. The supermarket scene has become a tiny visual parade.",
-      "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the umbrella and the wombat. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
+      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Brolly.",
+      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
     ],
-    "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the umbrella and the wombat?"
+    "readerQuestion": "How does Puff's picture change everything before it?"
   },
   "e,a,c,b": {
     "key": "e,a,c,b",
@@ -4140,14 +4140,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Cardboard Moon, Umbrella and Paper Flight: Wombat Reframe",
+    "title": "Milo and Womby",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
-      "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the umbrella. Its shadow becomes a giant arrow across the table.",
-      "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the umbrella and the paper aeroplane thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
+      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
+      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
     ],
-    "readerQuestion": "How does the final wombat image reframe the cardboard moon, the umbrella and the paper aeroplane?"
+    "readerQuestion": "How does Womby's picture change everything before it?"
   },
   "e,a,c,d": {
     "key": "e,a,c,d",
@@ -4157,14 +4157,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "Cardboard Moon, Umbrella and Paper Flight: Small Astronaut Reframe",
+    "title": "Milo and Nova",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
-      "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the umbrella. Its shadow becomes a giant arrow across the table.",
-      "Frame 4: The astronaut stands beside an art-table collage of the moon, the umbrella and the paper aeroplane. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
+      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
+      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
     ],
-    "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the umbrella and the paper aeroplane?"
+    "readerQuestion": "How does Nova's picture change everything before it?"
   },
   "e,a,c,f": {
     "key": "e,a,c,f",
@@ -4174,14 +4174,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Cardboard Moon, Umbrella and Paper Flight: Cloud Fishbowl Reframe",
+    "title": "Milo and Puff",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
-      "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the umbrella. Its shadow becomes a giant arrow across the table.",
-      "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the umbrella and the paper aeroplane. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
+      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
+      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
     ],
-    "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the umbrella and the paper aeroplane?"
+    "readerQuestion": "How does Puff's picture change everything before it?"
   },
   "e,a,d,b": {
     "key": "e,a,d,b",
@@ -4191,14 +4191,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Cardboard Moon, Umbrella and Small Astronaut: Wombat Reframe",
+    "title": "Milo and Womby",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
-      "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the umbrella. The tabletop suddenly reads like a tiny map of an impossible trip.",
-      "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the umbrella and the small astronaut thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
+      "Nova painted a silver path between the moon and Brolly, and the table became a little map.",
+      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
     ],
-    "readerQuestion": "How does the final wombat image reframe the cardboard moon, the umbrella and the small astronaut?"
+    "readerQuestion": "How does Womby's picture change everything before it?"
   },
   "e,a,d,c": {
     "key": "e,a,d,c",
@@ -4208,14 +4208,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "Cardboard Moon, Umbrella and Small Astronaut: Paper Flight Reframe",
+    "title": "Milo and Pip",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
-      "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the umbrella. The tabletop suddenly reads like a tiny map of an impossible trip.",
-      "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the umbrella and the small astronaut. The punchline is that its flight path is a pencil line showing the intended reading order."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
+      "Nova painted a silver path between the moon and Brolly, and the table became a little map.",
+      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
     ],
-    "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the umbrella and the small astronaut?"
+    "readerQuestion": "How does Pip's picture change everything before it?"
   },
   "e,a,d,f": {
     "key": "e,a,d,f",
@@ -4225,14 +4225,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Cardboard Moon, Umbrella and Small Astronaut: Cloud Fishbowl Reframe",
+    "title": "Milo and Puff",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
-      "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the umbrella. The tabletop suddenly reads like a tiny map of an impossible trip.",
-      "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the umbrella and the small astronaut. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
+      "Nova painted a silver path between the moon and Brolly, and the table became a little map.",
+      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
     ],
-    "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the umbrella and the small astronaut?"
+    "readerQuestion": "How does Puff's picture change everything before it?"
   },
   "e,a,f,b": {
     "key": "e,a,f,b",
@@ -4242,14 +4242,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Cardboard Moon, Umbrella and Cloud Fishbowl: Wombat Reframe",
+    "title": "Milo and Womby",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
-      "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the umbrella. The tiny weather system makes the larger scene seem strangely calm.",
-      "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the umbrella and the cloud fishbowl thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
+      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
+      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
     ],
-    "readerQuestion": "How does the final wombat image reframe the cardboard moon, the umbrella and the cloud fishbowl?"
+    "readerQuestion": "How does Womby's picture change everything before it?"
   },
   "e,a,f,c": {
     "key": "e,a,f,c",
@@ -4259,14 +4259,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Cardboard Moon, Umbrella and Cloud Fishbowl: Paper Flight Reframe",
+    "title": "Milo and Pip",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
-      "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the umbrella. The tiny weather system makes the larger scene seem strangely calm.",
-      "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the umbrella and the cloud fishbowl. The punchline is that its flight path is a pencil line showing the intended reading order."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
+      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
+      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
     ],
-    "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the umbrella and the cloud fishbowl?"
+    "readerQuestion": "How does Pip's picture change everything before it?"
   },
   "e,a,f,d": {
     "key": "e,a,f,d",
@@ -4276,14 +4276,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Cardboard Moon, Umbrella and Cloud Fishbowl: Small Astronaut Reframe",
+    "title": "Milo and Nova",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: In the art room, an umbrella is open on a table. Its curved canopy echoes the cardboard moon from the wet tram stop, making the two ordinary objects look connected.",
-      "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the umbrella. The tiny weather system makes the larger scene seem strangely calm.",
-      "Frame 4: The astronaut stands beside an art-table collage of the moon, the umbrella and the cloud fishbowl. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Brolly sat open on the art-room table, curved exactly like the cardboard moon from earlier.",
+      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
+      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
     ],
-    "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the umbrella and the cloud fishbowl?"
+    "readerQuestion": "How does Nova's picture change everything before it?"
   },
   "e,b,a,c": {
     "key": "e,b,a,c",
@@ -4293,14 +4293,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Cardboard Moon, Wombat and Umbrella: Paper Flight Reframe",
+    "title": "Milo and Pip",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
-      "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the wombat. Its black canopy turns the little scene into a night stage.",
-      "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the wombat and the umbrella. The punchline is that its flight path is a pencil line showing the intended reading order."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
+      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
+      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
     ],
-    "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the wombat and the umbrella?"
+    "readerQuestion": "How does Pip's picture change everything before it?"
   },
   "e,b,a,d": {
     "key": "e,b,a,d",
@@ -4310,14 +4310,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Cardboard Moon, Wombat and Umbrella: Small Astronaut Reframe",
+    "title": "Milo and Nova",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
-      "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the wombat. Its black canopy turns the little scene into a night stage.",
-      "Frame 4: The astronaut stands beside an art-table collage of the moon, the wombat and the umbrella. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
+      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
+      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
     ],
-    "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the wombat and the umbrella?"
+    "readerQuestion": "How does Nova's picture change everything before it?"
   },
   "e,b,a,f": {
     "key": "e,b,a,f",
@@ -4327,14 +4327,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Cardboard Moon, Wombat and Umbrella: Cloud Fishbowl Reframe",
+    "title": "Milo and Puff",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
-      "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the wombat. Its black canopy turns the little scene into a night stage.",
-      "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the wombat and the umbrella. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
+      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
+      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
     ],
-    "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the wombat and the umbrella?"
+    "readerQuestion": "How does Puff's picture change everything before it?"
   },
   "e,b,c,a": {
     "key": "e,b,c,a",
@@ -4344,14 +4344,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Cardboard Moon, Wombat and Paper Flight: Umbrella Reframe",
+    "title": "Milo and Brolly",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
-      "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the wombat. Its shadow becomes a giant arrow across the table.",
-      "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the wombat and the paper aeroplane. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
+      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
+      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
     ],
-    "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the wombat and the paper aeroplane?"
+    "readerQuestion": "How does Brolly's picture change everything before it?"
   },
   "e,b,c,d": {
     "key": "e,b,c,d",
@@ -4361,14 +4361,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "Cardboard Moon, Wombat and Paper Flight: Small Astronaut Reframe",
+    "title": "Milo and Nova",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
-      "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the wombat. Its shadow becomes a giant arrow across the table.",
-      "Frame 4: The astronaut stands beside an art-table collage of the moon, the wombat and the paper aeroplane. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
+      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
+      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
     ],
-    "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the wombat and the paper aeroplane?"
+    "readerQuestion": "How does Nova's picture change everything before it?"
   },
   "e,b,c,f": {
     "key": "e,b,c,f",
@@ -4378,14 +4378,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Cardboard Moon, Wombat and Paper Flight: Cloud Fishbowl Reframe",
+    "title": "Milo and Puff",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
-      "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the wombat. Its shadow becomes a giant arrow across the table.",
-      "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the wombat and the paper aeroplane. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
+      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
+      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
     ],
-    "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the wombat and the paper aeroplane?"
+    "readerQuestion": "How does Puff's picture change everything before it?"
   },
   "e,b,d,a": {
     "key": "e,b,d,a",
@@ -4395,14 +4395,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Cardboard Moon, Wombat and Small Astronaut: Umbrella Reframe",
+    "title": "Milo and Brolly",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
-      "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the wombat. The tabletop suddenly reads like a tiny map of an impossible trip.",
-      "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the wombat and the small astronaut. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
+      "Nova painted a silver path between the moon and Womby, and the table became a little map.",
+      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
     ],
-    "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the wombat and the small astronaut?"
+    "readerQuestion": "How does Brolly's picture change everything before it?"
   },
   "e,b,d,c": {
     "key": "e,b,d,c",
@@ -4412,14 +4412,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "Cardboard Moon, Wombat and Small Astronaut: Paper Flight Reframe",
+    "title": "Milo and Pip",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
-      "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the wombat. The tabletop suddenly reads like a tiny map of an impossible trip.",
-      "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the wombat and the small astronaut. The punchline is that its flight path is a pencil line showing the intended reading order."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
+      "Nova painted a silver path between the moon and Womby, and the table became a little map.",
+      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
     ],
-    "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the wombat and the small astronaut?"
+    "readerQuestion": "How does Pip's picture change everything before it?"
   },
   "e,b,d,f": {
     "key": "e,b,d,f",
@@ -4429,14 +4429,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Cardboard Moon, Wombat and Small Astronaut: Cloud Fishbowl Reframe",
+    "title": "Milo and Puff",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
-      "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the wombat. The tabletop suddenly reads like a tiny map of an impossible trip.",
-      "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the wombat and the small astronaut. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
+      "Nova painted a silver path between the moon and Womby, and the table became a little map.",
+      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
     ],
-    "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the wombat and the small astronaut?"
+    "readerQuestion": "How does Puff's picture change everything before it?"
   },
   "e,b,f,a": {
     "key": "e,b,f,a",
@@ -4446,14 +4446,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Cardboard Moon, Wombat and Cloud Fishbowl: Umbrella Reframe",
+    "title": "Milo and Brolly",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
-      "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the wombat. The tiny weather system makes the larger scene seem strangely calm.",
-      "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the wombat and the cloud fishbowl. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
+      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
+      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
     ],
-    "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the wombat and the cloud fishbowl?"
+    "readerQuestion": "How does Brolly's picture change everything before it?"
   },
   "e,b,f,c": {
     "key": "e,b,f,c",
@@ -4463,14 +4463,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Cardboard Moon, Wombat and Cloud Fishbowl: Paper Flight Reframe",
+    "title": "Milo and Pip",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
-      "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the wombat. The tiny weather system makes the larger scene seem strangely calm.",
-      "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the wombat and the cloud fishbowl. The punchline is that its flight path is a pencil line showing the intended reading order."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
+      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
+      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
     ],
-    "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the wombat and the cloud fishbowl?"
+    "readerQuestion": "How does Pip's picture change everything before it?"
   },
   "e,b,f,d": {
     "key": "e,b,f,d",
@@ -4480,14 +4480,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Cardboard Moon, Wombat and Cloud Fishbowl: Small Astronaut Reframe",
+    "title": "Milo and Nova",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket. The orange gives the cardboard moon a small, cheerful echo.",
-      "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the wombat. The tiny weather system makes the larger scene seem strangely calm.",
-      "Frame 4: The astronaut stands beside an art-table collage of the moon, the wombat and the cloud fishbowl. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Womby rode past with an orange that echoed the cardboard moon, just much smaller and sweeter.",
+      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
+      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
     ],
-    "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the wombat and the cloud fishbowl?"
+    "readerQuestion": "How does Nova's picture change everything before it?"
   },
   "e,c,a,b": {
     "key": "e,c,a,b",
@@ -4497,14 +4497,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Cardboard Moon, Paper Flight and Umbrella: Wombat Reframe",
+    "title": "Milo and Womby",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
-      "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the paper aeroplane. Its black canopy turns the little scene into a night stage.",
-      "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the paper aeroplane and the umbrella thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
+      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
+      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
     ],
-    "readerQuestion": "How does the final wombat image reframe the cardboard moon, the paper aeroplane and the umbrella?"
+    "readerQuestion": "How does Womby's picture change everything before it?"
   },
   "e,c,a,d": {
     "key": "e,c,a,d",
@@ -4514,14 +4514,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Cardboard Moon, Paper Flight and Umbrella: Small Astronaut Reframe",
+    "title": "Milo and Nova",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
-      "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the paper aeroplane. Its black canopy turns the little scene into a night stage.",
-      "Frame 4: The astronaut stands beside an art-table collage of the moon, the paper aeroplane and the umbrella. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
+      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
+      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
     ],
-    "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the paper aeroplane and the umbrella?"
+    "readerQuestion": "How does Nova's picture change everything before it?"
   },
   "e,c,a,f": {
     "key": "e,c,a,f",
@@ -4531,14 +4531,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Cardboard Moon, Paper Flight and Umbrella: Cloud Fishbowl Reframe",
+    "title": "Milo and Puff",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
-      "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the paper aeroplane. Its black canopy turns the little scene into a night stage.",
-      "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the paper aeroplane and the umbrella. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
+      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
+      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
     ],
-    "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the paper aeroplane and the umbrella?"
+    "readerQuestion": "How does Puff's picture change everything before it?"
   },
   "e,c,b,a": {
     "key": "e,c,b,a",
@@ -4548,14 +4548,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Cardboard Moon, Paper Flight and Wombat: Umbrella Reframe",
+    "title": "Milo and Brolly",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
-      "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the paper aeroplane. The supermarket scene has become a tiny visual parade.",
-      "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the paper aeroplane and the wombat. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
+      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Pip.",
+      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
     ],
-    "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the paper aeroplane and the wombat?"
+    "readerQuestion": "How does Brolly's picture change everything before it?"
   },
   "e,c,b,d": {
     "key": "e,c,b,d",
@@ -4565,14 +4565,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Cardboard Moon, Paper Flight and Wombat: Small Astronaut Reframe",
+    "title": "Milo and Nova",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
-      "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the paper aeroplane. The supermarket scene has become a tiny visual parade.",
-      "Frame 4: The astronaut stands beside an art-table collage of the moon, the paper aeroplane and the wombat. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
+      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Pip.",
+      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
     ],
-    "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the paper aeroplane and the wombat?"
+    "readerQuestion": "How does Nova's picture change everything before it?"
   },
   "e,c,b,f": {
     "key": "e,c,b,f",
@@ -4582,14 +4582,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Cardboard Moon, Paper Flight and Wombat: Cloud Fishbowl Reframe",
+    "title": "Milo and Puff",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
-      "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the paper aeroplane. The supermarket scene has become a tiny visual parade.",
-      "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the paper aeroplane and the wombat. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
+      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Pip.",
+      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
     ],
-    "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the paper aeroplane and the wombat?"
+    "readerQuestion": "How does Puff's picture change everything before it?"
   },
   "e,c,d,a": {
     "key": "e,c,d,a",
@@ -4599,14 +4599,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Cardboard Moon, Paper Flight and Small Astronaut: Umbrella Reframe",
+    "title": "Milo and Brolly",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
-      "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the paper aeroplane. The tabletop suddenly reads like a tiny map of an impossible trip.",
-      "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the paper aeroplane and the small astronaut. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
+      "Nova painted a silver path between the moon and Pip, and the table became a little map.",
+      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
     ],
-    "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the paper aeroplane and the small astronaut?"
+    "readerQuestion": "How does Brolly's picture change everything before it?"
   },
   "e,c,d,b": {
     "key": "e,c,d,b",
@@ -4616,14 +4616,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Cardboard Moon, Paper Flight and Small Astronaut: Wombat Reframe",
+    "title": "Milo and Womby",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
-      "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the paper aeroplane. The tabletop suddenly reads like a tiny map of an impossible trip.",
-      "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the paper aeroplane and the small astronaut thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
+      "Nova painted a silver path between the moon and Pip, and the table became a little map.",
+      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
     ],
-    "readerQuestion": "How does the final wombat image reframe the cardboard moon, the paper aeroplane and the small astronaut?"
+    "readerQuestion": "How does Womby's picture change everything before it?"
   },
   "e,c,d,f": {
     "key": "e,c,d,f",
@@ -4633,14 +4633,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "f"
     ],
-    "title": "Cardboard Moon, Paper Flight and Small Astronaut: Cloud Fishbowl Reframe",
+    "title": "Milo and Puff",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
-      "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the paper aeroplane. The tabletop suddenly reads like a tiny map of an impossible trip.",
-      "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the paper aeroplane and the small astronaut. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
+      "Nova painted a silver path between the moon and Pip, and the table became a little map.",
+      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
     ],
-    "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the paper aeroplane and the small astronaut?"
+    "readerQuestion": "How does Puff's picture change everything before it?"
   },
   "e,c,f,a": {
     "key": "e,c,f,a",
@@ -4650,14 +4650,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Cardboard Moon, Paper Flight and Cloud Fishbowl: Umbrella Reframe",
+    "title": "Milo and Brolly",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
-      "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the paper aeroplane. The tiny weather system makes the larger scene seem strangely calm.",
-      "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the paper aeroplane and the cloud fishbowl. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
+      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
+      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
     ],
-    "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the paper aeroplane and the cloud fishbowl?"
+    "readerQuestion": "How does Brolly's picture change everything before it?"
   },
   "e,c,f,b": {
     "key": "e,c,f,b",
@@ -4667,14 +4667,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Cardboard Moon, Paper Flight and Cloud Fishbowl: Wombat Reframe",
+    "title": "Milo and Womby",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
-      "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the paper aeroplane. The tiny weather system makes the larger scene seem strangely calm.",
-      "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the paper aeroplane and the cloud fishbowl thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
+      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
+      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
     ],
-    "readerQuestion": "How does the final wombat image reframe the cardboard moon, the paper aeroplane and the cloud fishbowl?"
+    "readerQuestion": "How does Womby's picture change everything before it?"
   },
   "e,c,f,d": {
     "key": "e,c,f,d",
@@ -4684,14 +4684,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "d"
     ],
-    "title": "Cardboard Moon, Paper Flight and Cloud Fishbowl: Small Astronaut Reframe",
+    "title": "Milo and Nova",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A paper aeroplane flies through a library beneath a lamp. Its pointed fold seems to point the cardboard moon away from the tram stop and into a new scene.",
-      "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the paper aeroplane. The tiny weather system makes the larger scene seem strangely calm.",
-      "Frame 4: The astronaut stands beside an art-table collage of the moon, the paper aeroplane and the cloud fishbowl. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Pip flew under the library lamp, its pointed nose aiming the cardboard moon towards somewhere new.",
+      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
+      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
     ],
-    "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the paper aeroplane and the cloud fishbowl?"
+    "readerQuestion": "How does Nova's picture change everything before it?"
   },
   "e,d,a,b": {
     "key": "e,d,a,b",
@@ -4701,14 +4701,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Cardboard Moon, Small Astronaut and Umbrella: Wombat Reframe",
+    "title": "Milo and Womby",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
-      "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the small astronaut. Its black canopy turns the little scene into a night stage.",
-      "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the small astronaut and the umbrella thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
+      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
+      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
     ],
-    "readerQuestion": "How does the final wombat image reframe the cardboard moon, the small astronaut and the umbrella?"
+    "readerQuestion": "How does Womby's picture change everything before it?"
   },
   "e,d,a,c": {
     "key": "e,d,a,c",
@@ -4718,14 +4718,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Cardboard Moon, Small Astronaut and Umbrella: Paper Flight Reframe",
+    "title": "Milo and Pip",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
-      "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the small astronaut. Its black canopy turns the little scene into a night stage.",
-      "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the small astronaut and the umbrella. The punchline is that its flight path is a pencil line showing the intended reading order."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
+      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
+      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
     ],
-    "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the small astronaut and the umbrella?"
+    "readerQuestion": "How does Pip's picture change everything before it?"
   },
   "e,d,a,f": {
     "key": "e,d,a,f",
@@ -4735,14 +4735,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "f"
     ],
-    "title": "Cardboard Moon, Small Astronaut and Umbrella: Cloud Fishbowl Reframe",
+    "title": "Milo and Puff",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
-      "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the small astronaut. Its black canopy turns the little scene into a night stage.",
-      "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the small astronaut and the umbrella. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
+      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
+      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
     ],
-    "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the small astronaut and the umbrella?"
+    "readerQuestion": "How does Puff's picture change everything before it?"
   },
   "e,d,b,a": {
     "key": "e,d,b,a",
@@ -4752,14 +4752,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Cardboard Moon, Small Astronaut and Wombat: Umbrella Reframe",
+    "title": "Milo and Brolly",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
-      "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the small astronaut. The supermarket scene has become a tiny visual parade.",
-      "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the small astronaut and the wombat. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
+      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Nova.",
+      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
     ],
-    "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the small astronaut and the wombat?"
+    "readerQuestion": "How does Brolly's picture change everything before it?"
   },
   "e,d,b,c": {
     "key": "e,d,b,c",
@@ -4769,14 +4769,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Cardboard Moon, Small Astronaut and Wombat: Paper Flight Reframe",
+    "title": "Milo and Pip",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
-      "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the small astronaut. The supermarket scene has become a tiny visual parade.",
-      "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the small astronaut and the wombat. The punchline is that its flight path is a pencil line showing the intended reading order."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
+      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Nova.",
+      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
     ],
-    "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the small astronaut and the wombat?"
+    "readerQuestion": "How does Pip's picture change everything before it?"
   },
   "e,d,b,f": {
     "key": "e,d,b,f",
@@ -4786,14 +4786,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "f"
     ],
-    "title": "Cardboard Moon, Small Astronaut and Wombat: Cloud Fishbowl Reframe",
+    "title": "Milo and Puff",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
-      "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the small astronaut. The supermarket scene has become a tiny visual parade.",
-      "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the small astronaut and the wombat. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
+      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Nova.",
+      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
     ],
-    "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the small astronaut and the wombat?"
+    "readerQuestion": "How does Puff's picture change everything before it?"
   },
   "e,d,c,a": {
     "key": "e,d,c,a",
@@ -4803,14 +4803,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Cardboard Moon, Small Astronaut and Paper Flight: Umbrella Reframe",
+    "title": "Milo and Brolly",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
-      "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the small astronaut. Its shadow becomes a giant arrow across the table.",
-      "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the small astronaut and the paper aeroplane. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
+      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
+      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
     ],
-    "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the small astronaut and the paper aeroplane?"
+    "readerQuestion": "How does Brolly's picture change everything before it?"
   },
   "e,d,c,b": {
     "key": "e,d,c,b",
@@ -4820,14 +4820,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Cardboard Moon, Small Astronaut and Paper Flight: Wombat Reframe",
+    "title": "Milo and Womby",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
-      "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the small astronaut. Its shadow becomes a giant arrow across the table.",
-      "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the small astronaut and the paper aeroplane thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
+      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
+      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
     ],
-    "readerQuestion": "How does the final wombat image reframe the cardboard moon, the small astronaut and the paper aeroplane?"
+    "readerQuestion": "How does Womby's picture change everything before it?"
   },
   "e,d,c,f": {
     "key": "e,d,c,f",
@@ -4837,14 +4837,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "f"
     ],
-    "title": "Cardboard Moon, Small Astronaut and Paper Flight: Cloud Fishbowl Reframe",
+    "title": "Milo and Puff",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
-      "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the small astronaut. Its shadow becomes a giant arrow across the table.",
-      "Frame 4: At the bus stop, the fishbowl sits beside a sequence card showing the moon, the small astronaut and the paper aeroplane. The punchline is that the cloud was a reflection study for the comic, not a weather warning."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
+      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
+      "Puff sat beside the sequence card, more of a reflection study than any weather warning."
     ],
-    "readerQuestion": "How does the final cloud fishbowl image reframe the cardboard moon, the small astronaut and the paper aeroplane?"
+    "readerQuestion": "How does Puff's picture change everything before it?"
   },
   "e,d,f,a": {
     "key": "e,d,f,a",
@@ -4854,14 +4854,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "a"
     ],
-    "title": "Cardboard Moon, Small Astronaut and Cloud Fishbowl: Umbrella Reframe",
+    "title": "Milo and Brolly",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
-      "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the small astronaut. The tiny weather system makes the larger scene seem strangely calm.",
-      "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the small astronaut and the cloud fishbowl. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
+      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
+      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
     ],
-    "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the small astronaut and the cloud fishbowl?"
+    "readerQuestion": "How does Brolly's picture change everything before it?"
   },
   "e,d,f,b": {
     "key": "e,d,f,b",
@@ -4871,14 +4871,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "b"
     ],
-    "title": "Cardboard Moon, Small Astronaut and Cloud Fishbowl: Wombat Reframe",
+    "title": "Milo and Womby",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
-      "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the small astronaut. The tiny weather system makes the larger scene seem strangely calm.",
-      "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the small astronaut and the cloud fishbowl thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
+      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
+      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
     ],
-    "readerQuestion": "How does the final wombat image reframe the cardboard moon, the small astronaut and the cloud fishbowl?"
+    "readerQuestion": "How does Womby's picture change everything before it?"
   },
   "e,d,f,c": {
     "key": "e,d,f,c",
@@ -4888,14 +4888,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "f",
       "c"
     ],
-    "title": "Cardboard Moon, Small Astronaut and Cloud Fishbowl: Paper Flight Reframe",
+    "title": "Milo and Pip",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: A small astronaut paints at an art table. The silver curve on the page looks like a miniature version of the cardboard moon from the tram stop.",
-      "Frame 3: The cloud in the fishbowl puffs against the glass beside an image of the cardboard moon and the small astronaut. The tiny weather system makes the larger scene seem strangely calm.",
-      "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the small astronaut and the cloud fishbowl. The punchline is that its flight path is a pencil line showing the intended reading order."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Nova painted a silver curve that looked exactly like Milo's cardboard moon, only much, much smaller.",
+      "Puff pressed against the glass beside the pictures, a tiny storm making everything else look calm.",
+      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
     ],
-    "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the small astronaut and the cloud fishbowl?"
+    "readerQuestion": "How does Pip's picture change everything before it?"
   },
   "e,f,a,b": {
     "key": "e,f,a,b",
@@ -4905,14 +4905,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "Cardboard Moon, Cloud Fishbowl and Umbrella: Wombat Reframe",
+    "title": "Milo and Womby",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
-      "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the cloud fishbowl. Its black canopy turns the little scene into a night stage.",
-      "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the cloud fishbowl and the umbrella thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
+      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
+      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
     ],
-    "readerQuestion": "How does the final wombat image reframe the cardboard moon, the cloud fishbowl and the umbrella?"
+    "readerQuestion": "How does Womby's picture change everything before it?"
   },
   "e,f,a,c": {
     "key": "e,f,a,c",
@@ -4922,14 +4922,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "Cardboard Moon, Cloud Fishbowl and Umbrella: Paper Flight Reframe",
+    "title": "Milo and Pip",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
-      "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the cloud fishbowl. Its black canopy turns the little scene into a night stage.",
-      "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the cloud fishbowl and the umbrella. The punchline is that its flight path is a pencil line showing the intended reading order."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
+      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
+      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
     ],
-    "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the cloud fishbowl and the umbrella?"
+    "readerQuestion": "How does Pip's picture change everything before it?"
   },
   "e,f,a,d": {
     "key": "e,f,a,d",
@@ -4939,14 +4939,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Cardboard Moon, Cloud Fishbowl and Umbrella: Small Astronaut Reframe",
+    "title": "Milo and Nova",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
-      "Frame 3: The umbrella is suddenly open on the art-room table beside a tiny paper model of the cardboard moon and the cloud fishbowl. Its black canopy turns the little scene into a night stage.",
-      "Frame 4: The astronaut stands beside an art-table collage of the moon, the cloud fishbowl and the umbrella. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
+      "Brolly popped open beside the little paper models, its black canopy turning them into a night stage.",
+      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
     ],
-    "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the cloud fishbowl and the umbrella?"
+    "readerQuestion": "How does Nova's picture change everything before it?"
   },
   "e,f,b,a": {
     "key": "e,f,b,a",
@@ -4956,14 +4956,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "Cardboard Moon, Cloud Fishbowl and Wombat: Umbrella Reframe",
+    "title": "Milo and Brolly",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
-      "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the cloud fishbowl. The supermarket scene has become a tiny visual parade.",
-      "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the cloud fishbowl and the wombat. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
+      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Puff.",
+      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
     ],
-    "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the cloud fishbowl and the wombat?"
+    "readerQuestion": "How does Brolly's picture change everything before it?"
   },
   "e,f,b,c": {
     "key": "e,f,b,c",
@@ -4973,14 +4973,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "Cardboard Moon, Cloud Fishbowl and Wombat: Paper Flight Reframe",
+    "title": "Milo and Pip",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
-      "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the cloud fishbowl. The supermarket scene has become a tiny visual parade.",
-      "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the cloud fishbowl and the wombat. The punchline is that its flight path is a pencil line showing the intended reading order."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
+      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Puff.",
+      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
     ],
-    "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the cloud fishbowl and the wombat?"
+    "readerQuestion": "How does Pip's picture change everything before it?"
   },
   "e,f,b,d": {
     "key": "e,f,b,d",
@@ -4990,14 +4990,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "Cardboard Moon, Cloud Fishbowl and Wombat: Small Astronaut Reframe",
+    "title": "Milo and Nova",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
-      "Frame 3: The wombat rolls past a puddle reflecting the cardboard moon while carrying a cut-out of the cloud fishbowl. The supermarket scene has become a tiny visual parade.",
-      "Frame 4: The astronaut stands beside an art-table collage of the moon, the cloud fishbowl and the wombat. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
+      "Womby rolled past a puddle full of moon, carrying a paper cut-out of Puff.",
+      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
     ],
-    "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the cloud fishbowl and the wombat?"
+    "readerQuestion": "How does Nova's picture change everything before it?"
   },
   "e,f,c,a": {
     "key": "e,f,c,a",
@@ -5007,14 +5007,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "Cardboard Moon, Cloud Fishbowl and Paper Flight: Umbrella Reframe",
+    "title": "Milo and Brolly",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
-      "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the cloud fishbowl. Its shadow becomes a giant arrow across the table.",
-      "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the cloud fishbowl and the paper aeroplane. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
+      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
+      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
     ],
-    "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the cloud fishbowl and the paper aeroplane?"
+    "readerQuestion": "How does Brolly's picture change everything before it?"
   },
   "e,f,c,b": {
     "key": "e,f,c,b",
@@ -5024,14 +5024,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "Cardboard Moon, Cloud Fishbowl and Paper Flight: Wombat Reframe",
+    "title": "Milo and Womby",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
-      "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the cloud fishbowl. Its shadow becomes a giant arrow across the table.",
-      "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the cloud fishbowl and the paper aeroplane thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
+      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
+      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
     ],
-    "readerQuestion": "How does the final wombat image reframe the cardboard moon, the cloud fishbowl and the paper aeroplane?"
+    "readerQuestion": "How does Womby's picture change everything before it?"
   },
   "e,f,c,d": {
     "key": "e,f,c,d",
@@ -5041,14 +5041,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "Cardboard Moon, Cloud Fishbowl and Paper Flight: Small Astronaut Reframe",
+    "title": "Milo and Nova",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
-      "Frame 3: The paper aeroplane sweeps through the library lamp glow above a sketch of the cardboard moon and the cloud fishbowl. Its shadow becomes a giant arrow across the table.",
-      "Frame 4: The astronaut stands beside an art-table collage of the moon, the cloud fishbowl and the paper aeroplane. The punchline is that the helmet reflection reveals paint brushes, so the space mission is a studio experiment."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
+      "Pip swept through the lamp glow above the sketches, and its shadow became a giant arrow.",
+      "Nova stood beside the collage, and the helmet reflection showed paintbrushes instead of stars."
     ],
-    "readerQuestion": "How does the final small astronaut image reframe the cardboard moon, the cloud fishbowl and the paper aeroplane?"
+    "readerQuestion": "How does Nova's picture change everything before it?"
   },
   "e,f,d,a": {
     "key": "e,f,d,a",
@@ -5058,14 +5058,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "Cardboard Moon, Cloud Fishbowl and Small Astronaut: Umbrella Reframe",
+    "title": "Milo and Brolly",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
-      "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the cloud fishbowl. The tabletop suddenly reads like a tiny map of an impossible trip.",
-      "Frame 4: Back at the art-room table, the umbrella shelters a pinboard of the moon, the cloud fishbowl and the small astronaut. The punchline is that the dramatic journey is a set of reference pictures for a classroom storyboard."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
+      "Nova painted a silver path between the moon and Puff, and the table became a little map.",
+      "Brolly sheltered a pinboard of pictures — the whole dramatic trip was just storyboard reference."
     ],
-    "readerQuestion": "How does the final umbrella image reframe the cardboard moon, the cloud fishbowl and the small astronaut?"
+    "readerQuestion": "How does Brolly's picture change everything before it?"
   },
   "e,f,d,b": {
     "key": "e,f,d,b",
@@ -5075,14 +5075,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "Cardboard Moon, Cloud Fishbowl and Small Astronaut: Wombat Reframe",
+    "title": "Milo and Womby",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
-      "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the cloud fishbowl. The tabletop suddenly reads like a tiny map of an impossible trip.",
-      "Frame 4: In the supermarket, the wombat parks the red skateboard beside a folder of moon, the cloud fishbowl and the small astronaut thumbnails. The punchline is that the orange was the colour test for the four-picture story."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
+      "Nova painted a silver path between the moon and Puff, and the table became a little map.",
+      "Womby parked beside a folder of thumbnails, where the orange had only ever been the colour test."
     ],
-    "readerQuestion": "How does the final wombat image reframe the cardboard moon, the cloud fishbowl and the small astronaut?"
+    "readerQuestion": "How does Womby's picture change everything before it?"
   },
   "e,f,d,c": {
     "key": "e,f,d,c",
@@ -5092,14 +5092,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "Cardboard Moon, Cloud Fishbowl and Small Astronaut: Paper Flight Reframe",
+    "title": "Milo and Pip",
     "beats": [
-      "Frame 1: At a wet tram stop, a teenager carries an oversized cardboard moon carefully above the puddles.",
-      "Frame 2: At a bus stop, a fishbowl holds a cloud. Its round glass shape reflects the cardboard moon from the tram stop, though one is heavy with rain and one is only cardboard.",
-      "Frame 3: The small astronaut paints a silver path linking the cardboard moon to the cloud fishbowl. The tabletop suddenly reads like a tiny map of an impossible trip.",
-      "Frame 4: The paper aeroplane lands on a library display beside pictures of the moon, the cloud fishbowl and the small astronaut. The punchline is that its flight path is a pencil line showing the intended reading order."
+      "Milo carried the huge cardboard moon carefully above the puddles at the wet tram stop.",
+      "Puff's round bowl reflected the cardboard moon, though one held rain and the other held nothing.",
+      "Nova painted a silver path between the moon and Puff, and the table became a little map.",
+      "Pip landed on a library display, and its flight path was a pencil line numbering the pictures."
     ],
-    "readerQuestion": "How does the final paper aeroplane image reframe the cardboard moon, the cloud fishbowl and the small astronaut?"
+    "readerQuestion": "How does Pip's picture change everything before it?"
   },
   "f,a,b,c": {
     "key": "f,a,b,c",
@@ -5109,14 +5109,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "The cloud needs a runway",
+    "title": "Puff needs a runway",
     "beats": [
-      "Frame 1 At a bus stop, a fishbowl holds one small cloud.",
-      "Frame 2 An umbrella is open on the art-room table beneath a window.",
-      "Frame 3 A friendly wombat in a yellow raincoat rolls a red skateboard beside an orange in a supermarket.",
-      "Frame 4 A paper aeroplane flies through the library, showing the cloud has used the umbrella as its runway."
+      "Puff drifted quietly inside a fishbowl at the bus stop, waiting for a bus.",
+      "Brolly stood open on the art-room table, right beneath the window.",
+      "Womby rolled through the supermarket on the red skateboard, keeping one eye on the orange.",
+      "Pip zoomed through the library, proving Puff had used Brolly as a launch runway."
     ],
-    "readerQuestion": "Why was the umbrella open indoors?"
+    "readerQuestion": "Why was Brolly left open indoors?"
   },
   "f,a,b,d": {
     "key": "f,a,b,d",
@@ -5126,14 +5126,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "The cloud gets a portrait",
+    "title": "Puff gets a portrait",
     "beats": [
-      "Frame 1 At a bus stop, a fishbowl holds one small cloud.",
-      "Frame 2 An umbrella waits open on an art-room table.",
-      "Frame 3 A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket.",
-      "Frame 4 A small astronaut paints at the art table, revealing that the umbrella was catching a cloud for the painting."
+      "Puff drifted quietly inside a fishbowl at the bus stop, waiting for a bus.",
+      "Brolly waited open on the art-room table, expecting weather that never came.",
+      "Womby rode through the supermarket on the red skateboard, keeping pace with the orange.",
+      "Nova painted at the table, and Brolly had been catching a cloud for the picture."
     ],
-    "readerQuestion": "What will the astronaut paint next?"
+    "readerQuestion": "What will Nova paint next in the story?"
   },
   "f,a,b,e": {
     "key": "f,a,b,e",
@@ -5143,14 +5143,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "The moon cover",
+    "title": "Milo's cover",
     "beats": [
-      "Frame 1 At a bus stop, a fishbowl holds one small cloud.",
-      "Frame 2 An umbrella is open on an art-room table.",
-      "Frame 3 A friendly wombat in a yellow raincoat skateboards beside an orange in a supermarket.",
-      "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the umbrella was a tiny weather prop."
+      "Puff drifted quietly inside a fishbowl at the bus stop, waiting for a bus.",
+      "Brolly sat open on the art-room table, taking up far too much space.",
+      "Womby skateboarded down the supermarket aisle beside one very patient orange.",
+      "Milo carried the cardboard moon through the rain, and Brolly had only ever been a prop."
     ],
-    "readerQuestion": "Which weather prop belongs with the cardboard moon?"
+    "readerQuestion": "Which weather prop belongs with Milo's moon?"
   },
   "f,a,c,b": {
     "key": "f,a,c,b",
@@ -5160,14 +5160,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "The library forecast",
+    "title": "Pip's library forecast",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at a bus stop.",
-      "Frame 2 An open umbrella sits on an art-room table.",
-      "Frame 3 A paper aeroplane flies through the library carrying a drop of water.",
-      "Frame 4 A wombat in a yellow raincoat on a red skateboard passes an orange in a supermarket, showing the forecast has arrived early."
+      "A fishbowl waited at the bus stop with Puff curled up inside it.",
+      "Brolly sat open on the art-room table, ready for indoor rain.",
+      "Pip flew through the library carrying one single drop of water on its wing.",
+      "Womby rolled past the orange in a yellow raincoat, because the forecast had arrived early."
     ],
-    "readerQuestion": "Why is the wombat wearing a raincoat indoors?"
+    "readerQuestion": "Why is Womby wearing a raincoat indoors?"
   },
   "f,a,c,d": {
     "key": "f,a,c,d",
@@ -5177,14 +5177,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "A cloud-study flight",
+    "title": "Pip studies Puff",
     "beats": [
-      "Frame 1 At the bus stop, a fishbowl contains a small cloud.",
-      "Frame 2 An umbrella is open on the art-room table.",
-      "Frame 3 A paper aeroplane loops through the library under a cloudy trail.",
-      "Frame 4 A small astronaut paints at the art table, revealing that the flying paper plane was tracing the cloud shape."
+      "At the bus stop, Puff floated inside a fishbowl like a very small weather report.",
+      "Brolly stood open on the art-room table, shading absolutely nothing.",
+      "Pip looped through the library, trailing a small cloudy streak behind it.",
+      "Nova painted at the table, and Pip had been tracing that exact cloud shape."
     ],
-    "readerQuestion": "What shape did the plane trace?"
+    "readerQuestion": "What shape did Pip trace in the sky?"
   },
   "f,a,c,e": {
     "key": "f,a,c,e",
@@ -5194,12 +5194,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "The moon catches the weather",
+    "title": "Milo catches the weather",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud beside the bus stop.",
-      "Frame 2 An umbrella is open on an art-room table.",
-      "Frame 3 A paper aeroplane flies through the library with a damp wingtip.",
-      "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the moon is part of the same rainy set."
+      "A fishbowl sat beside the bus stop with Puff drifting slowly inside.",
+      "Brolly sat open on the art-room table, taking up far too much space.",
+      "Pip flew through the library with one wingtip suspiciously damp.",
+      "Milo carried the cardboard moon through the wet tram stop, part of the same rainy afternoon."
     ],
     "readerQuestion": "What other prop could finish the weather set?"
   },
@@ -5211,14 +5211,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "The astronaut's weather test",
+    "title": "Nova's weather test",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud sits at a bus stop.",
-      "Frame 2 An open umbrella waits on an art-room table.",
-      "Frame 3 A small astronaut paints a cloud that starts spilling over the table edge.",
-      "Frame 4 A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, showing who has come prepared for the spill."
+      "A fishbowl sat at the bus stop, holding Puff and nothing else.",
+      "Brolly waited open on the art-room table, patient as ever.",
+      "Nova painted a cloud that promptly began spilling over the edge of the table.",
+      "Womby rolled in wearing the yellow raincoat, the only one prepared for a spill."
     ],
-    "readerQuestion": "What does the raincoat tell you about the astronaut's painting?"
+    "readerQuestion": "What does the raincoat tell you about Nova's painting?"
   },
   "f,a,d,c": {
     "key": "f,a,d,c",
@@ -5228,14 +5228,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "The astronaut's paper weather",
+    "title": "Nova's paper weather",
     "beats": [
-      "Frame 1 A fishbowl with a cloud waits at the bus stop.",
-      "Frame 2 An umbrella is open on the art-room table.",
-      "Frame 3 A small astronaut paints a gust that lifts loose paper.",
-      "Frame 4 A paper aeroplane flies through the library, revealing it was launched by the painted weather."
+      "A fishbowl waited at the bus stop with Puff floating gently inside.",
+      "Brolly stood open on the art-room table, shading absolutely nothing.",
+      "Nova painted a gust, and every loose sheet on the table lifted at once.",
+      "Pip zipped through the library, launched by Nova's painted weather."
     ],
-    "readerQuestion": "Which frame makes the paper plane surprising?"
+    "readerQuestion": "Which picture makes Pip so surprising?"
   },
   "f,a,d,e": {
     "key": "f,a,d,e",
@@ -5245,12 +5245,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "Painting a tram-stop sky",
+    "title": "Painting Milo's sky",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud at the bus stop.",
-      "Frame 2 An umbrella is open on an art-room table.",
-      "Frame 3 A small astronaut paints rain that appears to run off the canvas.",
-      "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the painted scene has become the tram-stop weather."
+      "A fishbowl held Puff at the bus stop, quiet and slightly foggy.",
+      "Brolly sat open on the art-room table, taking up far too much space.",
+      "Nova painted rain, and it looked like it was running straight off the canvas.",
+      "Milo reached the wet tram stop with the cardboard moon, standing in Nova's painted weather."
     ],
     "readerQuestion": "Where did the painted rain end up?"
   },
@@ -5262,14 +5262,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "A moon for the cloud",
+    "title": "A moon for Puff",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud is left at a bus stop.",
-      "Frame 2 An umbrella waits open on the art-room table.",
-      "Frame 3 A teenager carries an oversized cardboard moon through a wet tram stop.",
-      "Frame 4 A wombat in a yellow raincoat rolls a red skateboard beside an orange in a supermarket, revealing the orange is the moon's tiny sun."
+      "A fishbowl was left at the bus stop with Puff still inside.",
+      "Brolly waited open on the art-room table, hoping something interesting would happen.",
+      "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
+      "Womby rolled past with the orange, which was the tiny sun for Milo's cardboard moon."
     ],
-    "readerQuestion": "Why does the orange make the cardboard moon funnier?"
+    "readerQuestion": "Why does the orange make Milo's moon funnier?"
   },
   "f,a,e,c": {
     "key": "f,a,e,c",
@@ -5279,14 +5279,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "The moon's umbrella flight",
+    "title": "Milo's umbrella flight",
     "beats": [
-      "Frame 1 A fishbowl holding a cloud waits at the bus stop.",
-      "Frame 2 An umbrella is open on the art-room table.",
-      "Frame 3 A teenager with an oversized cardboard moon reaches a wet tram stop.",
-      "Frame 4 A paper aeroplane flies through the library, revealing it is carrying the umbrella to the moon scene."
+      "A fishbowl waited at the bus stop, Puff drifting inside it.",
+      "Brolly stood open on the art-room table, shading absolutely nothing.",
+      "Milo reached the wet tram stop, still holding the oversized cardboard moon steady.",
+      "Pip flew through the library, carrying Brolly off towards the moon scene."
     ],
-    "readerQuestion": "What has the paper aeroplane delivered?"
+    "readerQuestion": "What has Pip delivered so far?"
   },
   "f,a,e,d": {
     "key": "f,a,e,d",
@@ -5296,12 +5296,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "A painted moon forecast",
+    "title": "Nova's moon forecast",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 An umbrella is open on the art-room table.",
-      "Frame 3 A teenager carries an oversized cardboard moon at a wet tram stop.",
-      "Frame 4 A small astronaut paints at the art table, revealing the tram-stop moon was a model for the painting."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Brolly stood open on the art-room table, shading absolutely nothing.",
+      "Milo carried the oversized cardboard moon at the wet tram stop, arms getting tired.",
+      "Nova painted at the art table, using Milo's cardboard moon as the model."
     ],
     "readerQuestion": "What part of the model explains the wet tram stop?"
   },
@@ -5313,14 +5313,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "The wombat's cloud parcel",
+    "title": "Womby's cloud parcel",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at a bus stop.",
-      "Frame 2 A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket.",
-      "Frame 3 The wombat opens an umbrella on an art-room table, and the cloud begins to rain upward.",
-      "Frame 4 A paper aeroplane flies through the library, revealing it is collecting the upward raindrops."
+      "A fishbowl waited at the bus stop with Puff curled up inside it.",
+      "Womby rode the red skateboard through the supermarket beside one orange.",
+      "Womby opened Brolly on the art-room table, and the cloud began raining upwards.",
+      "Pip flew through the library, collecting every upward raindrop as it went."
     ],
-    "readerQuestion": "Why is the paper aeroplane flying through the library?"
+    "readerQuestion": "Why is Pip flying through the library?"
   },
   "f,b,a,d": {
     "key": "f,b,a,d",
@@ -5330,14 +5330,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "Raincoat model",
+    "title": "Womby's raincoat",
     "beats": [
-      "Frame 1 A fishbowl holding a cloud waits at the bus stop.",
-      "Frame 2 A wombat in a yellow raincoat on a red skateboard rolls beside an orange in a supermarket.",
-      "Frame 3 An umbrella opens on the art-room table and catches a cloud-shadow.",
-      "Frame 4 A small astronaut paints at the table, revealing the wombat's raincoat is a model for the picture."
+      "A fishbowl waited at the bus stop, Puff drifting inside it.",
+      "Womby rolled the red skateboard past an orange in the supermarket, going slowly.",
+      "Brolly opened on the art-room table and caught a cloud-shadow instead of rain.",
+      "Nova painted at the table, using Womby's yellow raincoat as the model."
     ],
-    "readerQuestion": "What detail did the astronaut borrow from the wombat?"
+    "readerQuestion": "What did Nova borrow from Womby?"
   },
   "f,b,a,e": {
     "key": "f,b,a,e",
@@ -5347,12 +5347,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "The orange moon substitute",
+    "title": "Womby's moon substitute",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket.",
-      "Frame 3 An umbrella opens on an art-room table and the orange rolls into its centre.",
-      "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the orange was a practice moon."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Womby rode the red skateboard beside an orange, taking the supermarket aisle slowly.",
+      "Brolly opened on the art-room table, and the orange rolled straight into its centre.",
+      "Milo carried the cardboard moon through the rain, and the orange had been the practice run."
     ],
     "readerQuestion": "Why was the orange under the umbrella?"
   },
@@ -5364,14 +5364,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "A raincoat for the library",
+    "title": "Womby visits the library",
     "beats": [
-      "Frame 1 A fishbowl with a cloud sits at a bus stop.",
-      "Frame 2 A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket.",
-      "Frame 3 A paper aeroplane flies through the library, leaving a cloud-shaped trail.",
-      "Frame 4 An umbrella opens on the art-room table, revealing it is the landing pad for the plane."
+      "A fishbowl sat at the bus stop with Puff drifting inside.",
+      "Womby rode the red skateboard through the supermarket beside one orange.",
+      "Pip flew through the library, leaving a cloud-shaped trail behind it.",
+      "Brolly opened on the art-room table, exactly where Pip had been planning to land."
     ],
-    "readerQuestion": "Why does the plane need an umbrella landing pad?"
+    "readerQuestion": "Why does Pip need an umbrella landing pad?"
   },
   "f,b,c,d": {
     "key": "f,b,c,d",
@@ -5381,12 +5381,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "The wombat's flying sketch",
+    "title": "Womby's flying sketch",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at the bus stop.",
-      "Frame 2 A wombat in a yellow raincoat skateboards beside an orange in a supermarket.",
-      "Frame 3 A paper aeroplane flies through the library with the orange balanced on one wing.",
-      "Frame 4 A small astronaut paints at an art table, revealing the impossible flight is the astronaut's sketch idea."
+      "A fishbowl waited at the bus stop, Puff fogging up the glass.",
+      "Womby skateboarded through the supermarket beside one orange, taking the corners gently.",
+      "Pip flew through the library with the orange balanced neatly on one wing.",
+      "Nova painted at the art table, where that impossible flight had started as a sketch."
     ],
     "readerQuestion": "Which object makes the flight impossible?"
   },
@@ -5398,12 +5398,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "The supermarket moon flight",
+    "title": "Milo's supermarket flight",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud at a bus stop.",
-      "Frame 2 A wombat in a yellow raincoat rolls a red skateboard beside an orange in a supermarket.",
-      "Frame 3 A paper aeroplane flies through the library carrying the orange like a moon.",
-      "Frame 4 A teenager arrives at a wet tram stop with an oversized cardboard moon, revealing the orange was its tiny rehearsal."
+      "A fishbowl held Puff at the bus stop, waiting patiently.",
+      "Womby rolled the red skateboard beside an orange in the supermarket.",
+      "Pip flew through the library carrying the orange along like a small orange moon.",
+      "Milo arrived at the wet tram stop with the cardboard moon, the orange being the rehearsal."
     ],
     "readerQuestion": "What is the orange practising to be?"
   },
@@ -5415,14 +5415,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "The astronaut borrows a raincoat",
+    "title": "Nova borrows a raincoat",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 A wombat in a yellow raincoat on a red skateboard passes an orange in a supermarket.",
-      "Frame 3 A small astronaut paints rain across the art table until the paint becomes a real puddle.",
-      "Frame 4 An umbrella opens over the table, revealing why the wombat came dressed for rain."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Womby passed an orange in the supermarket, riding the red skateboard as usual.",
+      "Nova painted rain across the art table until the paint turned into an actual puddle.",
+      "Brolly opened over the table, which explained why Womby had dressed for rain."
     ],
-    "readerQuestion": "What changed the painted rain into a problem?"
+    "readerQuestion": "What turned Nova's painted rain into a problem?"
   },
   "f,b,d,c": {
     "key": "f,b,d,c",
@@ -5432,14 +5432,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "The painted launch",
+    "title": "Nova's painted launch",
     "beats": [
-      "Frame 1 A fishbowl holding a cloud sits at a bus stop.",
-      "Frame 2 A friendly wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket.",
-      "Frame 3 A small astronaut paints a strong gust across the art table.",
-      "Frame 4 A paper aeroplane flies through the library, revealing the painted gust has launched it."
+      "A fishbowl sat at the bus stop, holding Puff quietly.",
+      "Womby rode the red skateboard through the supermarket beside one orange.",
+      "Nova painted a strong gust right across the art table.",
+      "Pip flew through the library, launched by Nova's painted gust."
     ],
-    "readerQuestion": "What caused the paper aeroplane to move?"
+    "readerQuestion": "What made Pip start flying in the first place?"
   },
   "f,b,d,e": {
     "key": "f,b,d,e",
@@ -5449,14 +5449,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "The astronaut's wet moon",
+    "title": "Nova's wet moon",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits by a bus stop.",
-      "Frame 2 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket.",
-      "Frame 3 A small astronaut paints a moon that starts dripping rain.",
-      "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the astronaut painted the real model too accurately."
+      "A fishbowl waited by the bus stop with Puff inside.",
+      "Womby rode the red skateboard beside an orange, taking the supermarket aisle slowly.",
+      "Nova painted a moon, and it immediately started dripping rain down the page.",
+      "Milo carried the cardboard moon through real rain, because Nova had painted it far too accurately."
     ],
-    "readerQuestion": "Why is the tram stop wet?"
+    "readerQuestion": "Why is the tram stop wet in this story?"
   },
   "f,b,e,a": {
     "key": "f,b,e,a",
@@ -5466,14 +5466,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "The moon's tiny umbrella",
+    "title": "Milo's tiny umbrella",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 A wombat in a yellow raincoat skateboards beside an orange in a supermarket.",
-      "Frame 3 A teenager carries an oversized cardboard moon through a wet tram stop.",
-      "Frame 4 An umbrella opens on the art-room table, revealing the orange has been used as a tiny moon under it."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Womby skateboarded through the supermarket beside one orange, taking the corners gently.",
+      "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
+      "Brolly opened on the art-room table, with the orange sitting underneath as a tiny moon."
     ],
-    "readerQuestion": "What makes the umbrella seem giant in the last frame?"
+    "readerQuestion": "What makes Brolly seem giant in the last picture?"
   },
   "f,b,e,c": {
     "key": "f,b,e,c",
@@ -5483,14 +5483,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "A paper plane for the moon",
+    "title": "A plane for Milo",
     "beats": [
-      "Frame 1 A fishbowl holding a cloud waits at a bus stop.",
-      "Frame 2 A wombat in a yellow raincoat on a red skateboard rides beside an orange in a supermarket.",
-      "Frame 3 A teenager carries an oversized cardboard moon into a wet tram stop.",
-      "Frame 4 A paper aeroplane flies through the library, revealing it is headed for the moon prop."
+      "A fishbowl waited at the bus stop, Puff turning slowly inside.",
+      "Womby rode the red skateboard beside an orange through the supermarket.",
+      "Milo carried the oversized cardboard moon into the wet tram stop, shoulders already aching.",
+      "Pip flew through the library, heading straight for Milo's cardboard moon."
     ],
-    "readerQuestion": "What might the paper aeroplane carry to the moon?"
+    "readerQuestion": "What might Pip carry to Milo?"
   },
   "f,b,e,d": {
     "key": "f,b,e,d",
@@ -5500,14 +5500,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "The moon rehearsal painting",
+    "title": "Milo's rehearsal painting",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 A wombat in a yellow raincoat rolls a red skateboard beside an orange in a supermarket.",
-      "Frame 3 A teenager carries an oversized cardboard moon through a wet tram stop.",
-      "Frame 4 A small astronaut paints at an art table, revealing the whole rainy moon trip is a rehearsal for the painting."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Womby rolled the red skateboard beside an orange in the supermarket.",
+      "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
+      "Nova painted at the art table, and the whole rainy moon trip had been rehearsal."
     ],
-    "readerQuestion": "Which prop helps the astronaut plan the painting?"
+    "readerQuestion": "Which prop helps Nova plan the painting?"
   },
   "f,c,a,b": {
     "key": "f,c,a,b",
@@ -5517,14 +5517,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "The umbrella air mail",
+    "title": "Brolly's air mail",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at a bus stop.",
-      "Frame 2 A paper aeroplane flies through the library.",
-      "Frame 3 An umbrella opens on an art-room table and catches the plane, which is now carrying a cloud-drop.",
-      "Frame 4 A wombat in a yellow raincoat rolls a red skateboard beside an orange in a supermarket, revealing the raincoat was needed for the delivery."
+      "A fishbowl waited at the bus stop with Puff curled up inside it.",
+      "Pip flew a lazy lap through the library, in no hurry at all.",
+      "Brolly opened on the art-room table and caught Pip, who was carrying one cloud-drop.",
+      "Womby rolled past the orange in the yellow raincoat, exactly right for a damp delivery."
     ],
-    "readerQuestion": "What did the paper aeroplane deliver?"
+    "readerQuestion": "What did Pip deliver in the end?"
   },
   "f,c,a,d": {
     "key": "f,c,a,d",
@@ -5534,14 +5534,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "The umbrella flight study",
+    "title": "Brolly's flight study",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud beside a bus stop.",
-      "Frame 2 A paper aeroplane flies through the library.",
-      "Frame 3 An open umbrella on the art-room table pulls the plane down like a magnet.",
-      "Frame 4 A small astronaut paints at the table, revealing the umbrella and plane are a test for a space-weather picture."
+      "A fishbowl sat beside the bus stop with Puff drifting inside.",
+      "Pip flew a lazy lap through the library, in no hurry at all.",
+      "Brolly sat open on the table and pulled Pip down like a very polite magnet.",
+      "Nova painted at the table, testing Brolly and Pip for a space-weather picture."
     ],
-    "readerQuestion": "What is the astronaut testing?"
+    "readerQuestion": "What is Nova testing with her painting?"
   },
   "f,c,a,e": {
     "key": "f,c,a,e",
@@ -5551,14 +5551,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "The umbrella moon landing",
+    "title": "Brolly's moon landing",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud sits at a bus stop.",
-      "Frame 2 A paper aeroplane flies through the library.",
-      "Frame 3 An umbrella opens on an art-room table and the plane lands on its curved surface.",
-      "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the umbrella landing was moon practice."
+      "A fishbowl sat at the bus stop, holding Puff and nothing else.",
+      "Pip flew a lazy lap through the library, in no hurry at all.",
+      "Brolly opened on the art-room table, and Pip landed neatly on its curved surface.",
+      "Milo carried the cardboard moon at the wet tram stop, and that landing had been practice."
     ],
-    "readerQuestion": "Why does the umbrella look like a moon surface?"
+    "readerQuestion": "Why does Brolly look like a moon surface?"
   },
   "f,c,b,a": {
     "key": "f,c,b,a",
@@ -5568,14 +5568,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "A skateboarding weather report",
+    "title": "Womby's weather report",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud at a bus stop.",
-      "Frame 2 A paper aeroplane flies through the library.",
-      "Frame 3 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket while a cloud forms above the aisle.",
-      "Frame 4 An umbrella opens on an art-room table, revealing it was waiting for the wombat's weather report."
+      "A fishbowl held Puff at the bus stop, waiting patiently.",
+      "Pip flew a lazy lap through the library, in no hurry at all.",
+      "Womby rode past the orange while a small cloud gathered above the supermarket aisle.",
+      "Brolly opened on the art-room table, waiting patiently for Womby's weather report."
     ],
-    "readerQuestion": "What tells you the wombat brought weather inside?"
+    "readerQuestion": "What tells you Womby brought weather inside?"
   },
   "f,c,b,d": {
     "key": "f,c,b,d",
@@ -5585,14 +5585,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "The flying orange sketch",
+    "title": "Womby's orange sketch",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at a bus stop.",
-      "Frame 2 A paper aeroplane flies through the library.",
-      "Frame 3 A wombat in a yellow raincoat puts the supermarket orange onto the plane's nose.",
-      "Frame 4 A small astronaut paints at an art table, revealing the strange flying orange is the astronaut's new sketch."
+      "A fishbowl waited at the bus stop with Puff curled up inside it.",
+      "Pip flew a lazy lap through the library, in no hurry at all.",
+      "Womby balanced the supermarket orange right on Pip's paper nose.",
+      "Nova painted at the art table, where the flying orange was the newest sketch."
     ],
-    "readerQuestion": "Which detail turns the plane into a sketch idea?"
+    "readerQuestion": "Which detail turns Pip into a sketch idea?"
   },
   "f,c,b,e": {
     "key": "f,c,b,e",
@@ -5602,14 +5602,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "The tiny moon takes off",
+    "title": "Milo takes off",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 A paper aeroplane flies through the library.",
-      "Frame 3 A wombat in a yellow raincoat sends a red skateboard rolling after an orange in a supermarket.",
-      "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the orange was the moon's tiny version."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Pip flew a lazy lap through the library, in no hurry at all.",
+      "Womby sent the red skateboard rolling after a runaway orange down the supermarket aisle.",
+      "Milo carried the cardboard moon through the rain, and the orange had been its tiny twin."
     ],
-    "readerQuestion": "Which two objects make the moon joke?"
+    "readerQuestion": "Which two objects make Milo's joke work?"
   },
   "f,c,d,a": {
     "key": "f,c,d,a",
@@ -5619,12 +5619,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "The astronaut's paper storm",
+    "title": "Nova's paper storm",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at a bus stop.",
-      "Frame 2 A paper aeroplane flies through the library.",
-      "Frame 3 A small astronaut paints a storm that makes library pages flutter like wings.",
-      "Frame 4 An umbrella opens on the art-room table, revealing it is protecting the astronaut's wet painting."
+      "A fishbowl waited at the bus stop with Puff curled up inside it.",
+      "Pip flew a lazy lap through the library, in no hurry at all.",
+      "Nova painted a storm, and library pages started fluttering like wings.",
+      "Brolly opened on the art-room table, sheltering Nova's very wet painting."
     ],
     "readerQuestion": "What made the library pages flutter?"
   },
@@ -5636,14 +5636,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "The astronaut's raincoat test",
+    "title": "Nova's raincoat test",
     "beats": [
-      "Frame 1 A fishbowl with a cloud waits at a bus stop.",
-      "Frame 2 A paper aeroplane flies through the library.",
-      "Frame 3 A small astronaut paints rain onto the plane's paper wings.",
-      "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the astronaut has found a rain-proof helper."
+      "A fishbowl waited at the bus stop with Puff inside, softly grey.",
+      "Pip flew a lazy lap through the library, in no hurry at all.",
+      "Nova painted rain straight onto Pip's paper wings, which seemed slightly unfair.",
+      "Womby rolled past the orange in the yellow raincoat, the only rain-proof helper available."
     ],
-    "readerQuestion": "Why is the wombat the right helper?"
+    "readerQuestion": "Why is Womby the right helper here?"
   },
   "f,c,d,e": {
     "key": "f,c,d,e",
@@ -5653,14 +5653,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "e"
     ],
-    "title": "A moon painted from paper",
+    "title": "A paper moon",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud beside a bus stop.",
-      "Frame 2 A paper aeroplane flies through the library.",
-      "Frame 3 A small astronaut paints the plane's shadow into a moon shape.",
-      "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the shadow became the prop design."
+      "A fishbowl sat beside the bus stop with Puff drifting inside.",
+      "Pip flew a lazy lap through the library, in no hurry at all.",
+      "Nova painted Pip's shadow until it turned into a proper moon shape.",
+      "Milo carried the cardboard moon at the wet tram stop, built straight from that shadow."
     ],
-    "readerQuestion": "How did a plane shadow become a moon?"
+    "readerQuestion": "How did Pip's shadow turn into a moon?"
   },
   "f,c,e,a": {
     "key": "f,c,e,a",
@@ -5670,14 +5670,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "The paper plane's moon stop",
+    "title": "Pip's moon stop",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud sits at a bus stop.",
-      "Frame 2 A paper aeroplane flies through the library.",
-      "Frame 3 A teenager carries an oversized cardboard moon into a wet tram stop.",
-      "Frame 4 An umbrella opens on an art-room table, revealing it is the paper plane's next stop after the moon."
+      "A fishbowl sat at the bus stop, holding Puff and nothing else.",
+      "Pip flew a lazy lap through the library, in no hurry at all.",
+      "Milo carried the oversized cardboard moon into the wet tram stop, shoulders already aching.",
+      "Brolly opened on the art-room table, Pip's next stop after the moon."
     ],
-    "readerQuestion": "What makes the umbrella seem like a destination?"
+    "readerQuestion": "What makes Brolly seem like a destination?"
   },
   "f,c,e,b": {
     "key": "f,c,e,b",
@@ -5687,14 +5687,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "The moon's supermarket route",
+    "title": "Milo's supermarket route",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud at a bus stop.",
-      "Frame 2 A paper aeroplane flies through the library.",
-      "Frame 3 A teenager carries an oversized cardboard moon at a wet tram stop.",
-      "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the orange is the moon's route marker."
+      "A fishbowl held Puff at the bus stop, waiting patiently.",
+      "Pip flew a lazy lap through the library, in no hurry at all.",
+      "Milo carried the oversized cardboard moon at the wet tram stop, arms getting tired.",
+      "Womby rolled past the orange in the supermarket, using it as the moon's route marker."
     ],
-    "readerQuestion": "Why does the orange link to the cardboard moon?"
+    "readerQuestion": "Why does the orange link to Milo's moon?"
   },
   "f,c,e,d": {
     "key": "f,c,e,d",
@@ -5704,14 +5704,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "d"
     ],
-    "title": "The moon-message painting",
+    "title": "Milo's message painting",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at a bus stop.",
-      "Frame 2 A paper aeroplane flies through the library.",
-      "Frame 3 A teenager carries an oversized cardboard moon at a wet tram stop.",
-      "Frame 4 A small astronaut paints at an art table, revealing the paper plane has delivered the moon sketch."
+      "A fishbowl waited at the bus stop with Puff curled up inside it.",
+      "Pip flew a lazy lap through the library, in no hurry at all.",
+      "Milo carried the oversized cardboard moon at the wet tram stop, arms getting tired.",
+      "Nova painted at the art table, where Pip had just delivered the moon sketch."
     ],
-    "readerQuestion": "What did the paper aeroplane bring to the astronaut?"
+    "readerQuestion": "What did Pip bring to Nova?"
   },
   "f,d,a,b": {
     "key": "f,d,a,b",
@@ -5721,14 +5721,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "The astronaut paints a raincoat",
+    "title": "Nova paints a raincoat",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at a bus stop.",
-      "Frame 2 A small astronaut paints at an art table.",
-      "Frame 3 An umbrella opens over the astronaut's paint and the cloud floats into it.",
-      "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the raincoat is the astronaut's finished design."
+      "A fishbowl waited at the bus stop with Puff curled up inside it.",
+      "Nova painted quietly at the art table, sleeves already covered in silver.",
+      "Brolly opened over Nova's paint, and the cloud floated straight up into it.",
+      "Womby rolled past the orange wearing the yellow raincoat Nova had just finished designing."
     ],
-    "readerQuestion": "Why did the astronaut need an umbrella?"
+    "readerQuestion": "Why did Nova need an umbrella at all?"
   },
   "f,d,a,c": {
     "key": "f,d,a,c",
@@ -5738,14 +5738,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "The painted umbrella launch",
+    "title": "Brolly's painted launch",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud at a bus stop.",
-      "Frame 2 A small astronaut paints at an art table.",
-      "Frame 3 An umbrella opens beside the paint and catches a sudden cloud gust.",
-      "Frame 4 A paper aeroplane flies through the library, revealing the gust has given it a launch."
+      "A fishbowl held Puff at the bus stop, waiting patiently.",
+      "Nova painted quietly at the art table, sleeves already covered in silver.",
+      "Brolly opened beside the paint and caught a sudden gust of cloud.",
+      "Pip flew through the library, given a decent launch by that gust."
     ],
-    "readerQuestion": "What launched the paper aeroplane?"
+    "readerQuestion": "What launched Pip into the air?"
   },
   "f,d,a,e": {
     "key": "f,d,a,e",
@@ -5755,12 +5755,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "e"
     ],
-    "title": "The astronaut's wet moon model",
+    "title": "Nova's wet moon model",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 A small astronaut paints at an art table.",
-      "Frame 3 An umbrella opens over the painting, but a cardboard circle underneath begins to look like a moon.",
-      "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the astronaut used the real prop as a model."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Nova painted quietly at the art table, sleeves already covered in silver.",
+      "Brolly opened over the painting, and a cardboard circle underneath started looking suspiciously like a moon.",
+      "Milo carried the cardboard moon at the wet tram stop, the model Nova had borrowed."
     ],
     "readerQuestion": "Which object connects the art table to the tram stop?"
   },
@@ -5772,14 +5772,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "The astronaut's supermarket storm",
+    "title": "Nova's supermarket storm",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at a bus stop.",
-      "Frame 2 A small astronaut paints at an art table.",
-      "Frame 3 A wombat in a yellow raincoat rolls a red skateboard through a supermarket as a painted cloud rains on the orange.",
-      "Frame 4 An umbrella opens on the art-room table, revealing where the rain came from."
+      "A fishbowl waited at the bus stop with Puff curled up inside it.",
+      "Nova painted quietly at the art table, sleeves already covered in silver.",
+      "Womby rolled through the supermarket while a painted cloud rained gently on the orange.",
+      "Brolly opened on the art-room table, which explained exactly where that rain came from."
     ],
-    "readerQuestion": "What connects the supermarket rain to the art table?"
+    "readerQuestion": "What connects the supermarket rain to Nova's table?"
   },
   "f,d,b,c": {
     "key": "f,d,b,c",
@@ -5789,12 +5789,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "The orange flight plan",
+    "title": "Womby's flight plan",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud at a bus stop.",
-      "Frame 2 A small astronaut paints at an art table.",
-      "Frame 3 A wombat in a yellow raincoat puts an orange on a red skateboard in a supermarket, and it rolls away like a planet.",
-      "Frame 4 A paper aeroplane flies through the library, revealing it is chasing the rolling planet for the astronaut's plan."
+      "A fishbowl held Puff at the bus stop, waiting patiently.",
+      "Nova painted quietly at the art table, sleeves already covered in silver.",
+      "Womby set the orange on the red skateboard, and it rolled off like a planet.",
+      "Pip flew through the library, chasing that rolling planet for Nova's plan."
     ],
     "readerQuestion": "What makes the orange seem like a planet?"
   },
@@ -5806,12 +5806,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "e"
     ],
-    "title": "The astronaut's moon delivery",
+    "title": "Nova's moon delivery",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 A small astronaut paints at an art table.",
-      "Frame 3 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket while rain appears above the aisle.",
-      "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the astronaut was painting the weather for the moon scene."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Nova painted quietly at the art table, sleeves already covered in silver.",
+      "Womby rode past the orange while rain appeared above the supermarket aisle.",
+      "Milo carried the cardboard moon through the rain Nova had painted for exactly this scene."
     ],
     "readerQuestion": "Where did the supermarket rain belong all along?"
   },
@@ -5823,14 +5823,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "The astronaut's library umbrella",
+    "title": "Nova's library umbrella",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at a bus stop.",
-      "Frame 2 A small astronaut paints at an art table.",
-      "Frame 3 A paper aeroplane flies through the library, trailing paint that becomes a cloud.",
-      "Frame 4 An umbrella opens on the art-room table, revealing it is catching the astronaut's flying paint cloud."
+      "A fishbowl waited at the bus stop with Puff curled up inside it.",
+      "Nova painted quietly at the art table, sleeves already covered in silver.",
+      "Pip flew through the library, trailing paint that gathered itself into a cloud.",
+      "Brolly opened on the art-room table, catching Nova's flying paint cloud."
     ],
-    "readerQuestion": "What is the umbrella catching?"
+    "readerQuestion": "What is Brolly catching in the picture?"
   },
   "f,d,c,b": {
     "key": "f,d,c,b",
@@ -5840,14 +5840,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "The painted library delivery",
+    "title": "Nova's library delivery",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud at a bus stop.",
-      "Frame 2 A small astronaut paints at an art table.",
-      "Frame 3 A paper aeroplane flies through the library with a painted orange circle on its wing.",
-      "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the plane has delivered the painting idea."
+      "A fishbowl held Puff at the bus stop, waiting patiently.",
+      "Nova painted quietly at the art table, sleeves already covered in silver.",
+      "Pip flew through the library with a painted orange circle on one wing.",
+      "Womby rolled past the orange in the supermarket, the idea Pip had just delivered."
     ],
-    "readerQuestion": "Which object is repeated from the plane to the supermarket?"
+    "readerQuestion": "Which object repeats between Pip's picture and the supermarket?"
   },
   "f,d,c,e": {
     "key": "f,d,c,e",
@@ -5857,14 +5857,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "e"
     ],
-    "title": "The astronaut's moon mail",
+    "title": "Nova's moon mail",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 A small astronaut paints at an art table.",
-      "Frame 3 A paper aeroplane flies through the library carrying a wet moon drawing.",
-      "Frame 4 A teenager carries an oversized cardboard moon at a wet tram stop, revealing the drawing has arrived as the real prop."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Nova painted quietly at the art table, sleeves already covered in silver.",
+      "Pip flew through the library carrying a slightly wet moon drawing.",
+      "Milo carried the cardboard moon at the wet tram stop, the drawing turned real."
     ],
-    "readerQuestion": "What did the paper aeroplane deliver?"
+    "readerQuestion": "What did Pip deliver in the end?"
   },
   "f,d,e,a": {
     "key": "f,d,e,a",
@@ -5874,14 +5874,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "a"
     ],
-    "title": "The umbrella moon painting",
+    "title": "Brolly's moon painting",
     "beats": [
-      "Frame 1 A fishbowl holding a cloud waits at a bus stop.",
-      "Frame 2 A small astronaut paints at an art table.",
-      "Frame 3 A teenager carries an oversized cardboard moon through a wet tram stop.",
-      "Frame 4 An umbrella opens on the art-room table, revealing it is the astronaut's stand for the moon model."
+      "A fishbowl waited at the bus stop, Puff turning slowly inside.",
+      "Nova painted quietly at the art table, sleeves already covered in silver.",
+      "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
+      "Brolly opened on the art-room table, holding up Nova's moon model like a stand."
     ],
-    "readerQuestion": "What turns the umbrella into an art tool?"
+    "readerQuestion": "What turns Brolly into an art tool?"
   },
   "f,d,e,b": {
     "key": "f,d,e,b",
@@ -5891,14 +5891,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "b"
     ],
-    "title": "The raincoat moon rehearsal",
+    "title": "Womby's moon rehearsal",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 A small astronaut paints at an art table.",
-      "Frame 3 A teenager carries an oversized cardboard moon at a wet tram stop.",
-      "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the moon scene was rehearsed at tiny scale."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Nova painted quietly at the art table, sleeves already covered in silver.",
+      "Milo carried the oversized cardboard moon at the wet tram stop, arms getting tired.",
+      "Womby rolled past the orange in the supermarket, where the moon scene got its tiny rehearsal."
     ],
-    "readerQuestion": "Which tiny object copies the cardboard moon?"
+    "readerQuestion": "Which tiny object copies Milo's moon?"
   },
   "f,d,e,c": {
     "key": "f,d,e,c",
@@ -5908,14 +5908,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "e",
       "c"
     ],
-    "title": "The moon sends a sketch",
+    "title": "Milo sends a sketch",
     "beats": [
-      "Frame 1 A fishbowl with a cloud waits at a bus stop.",
-      "Frame 2 A small astronaut paints at an art table.",
-      "Frame 3 A teenager carries an oversized cardboard moon through a wet tram stop.",
-      "Frame 4 A paper aeroplane flies through the library, revealing it has carried the astronaut's moon sketch ahead."
+      "A fishbowl waited at the bus stop with Puff inside, softly grey.",
+      "Nova painted quietly at the art table, sleeves already covered in silver.",
+      "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
+      "Pip flew through the library, carrying Nova's moon sketch on ahead."
     ],
-    "readerQuestion": "Where is the paper aeroplane taking the sketch?"
+    "readerQuestion": "Where is Pip taking the sketch?"
   },
   "f,e,a,b": {
     "key": "f,e,a,b",
@@ -5925,14 +5925,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "b"
     ],
-    "title": "The moon's weather rehearsal",
+    "title": "Milo's weather rehearsal",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at a bus stop.",
-      "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.",
-      "Frame 3 An umbrella opens on an art-room table and the cloud floats beneath it like a tiny storm.",
-      "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the orange is the moon rehearsal."
+      "A fishbowl waited at the bus stop with Puff curled up inside it.",
+      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
+      "Brolly opened on the art-room table, and the cloud settled underneath like a tiny storm.",
+      "Womby rolled past the orange in the supermarket, the moon's smaller, rounder rehearsal."
     ],
-    "readerQuestion": "What makes the orange part of the moon rehearsal?"
+    "readerQuestion": "What makes the orange part of Milo's rehearsal?"
   },
   "f,e,a,c": {
     "key": "f,e,a,c",
@@ -5942,12 +5942,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "c"
     ],
-    "title": "The moon's umbrella message",
+    "title": "Milo's umbrella message",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud at a bus stop.",
-      "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.",
-      "Frame 3 An umbrella opens on an art-room table and the cloud rains upward into it.",
-      "Frame 4 A paper aeroplane flies through the library, revealing it is taking the strange weather message away."
+      "A fishbowl held Puff at the bus stop, waiting patiently.",
+      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
+      "Brolly opened on the art-room table, and the cloud rained upwards straight into it.",
+      "Pip flew through the library, carrying the strange weather message away with it."
     ],
     "readerQuestion": "What makes the weather message strange?"
   },
@@ -5959,14 +5959,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "a",
       "d"
     ],
-    "title": "The moon model catches weather",
+    "title": "Milo's model catches weather",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits by a bus stop.",
-      "Frame 2 A teenager carries an oversized cardboard moon through a wet tram stop.",
-      "Frame 3 An umbrella opens on the art-room table and catches a cloud-shadow that looks like the moon.",
-      "Frame 4 A small astronaut paints at the table, revealing the moon and umbrella are a weather-study model."
+      "A fishbowl waited by the bus stop with Puff inside.",
+      "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
+      "Brolly opened on the table and caught a cloud-shadow shaped exactly like the moon.",
+      "Nova painted at the table, using Milo's moon and Brolly as a weather study."
     ],
-    "readerQuestion": "What is the astronaut studying with the moon model?"
+    "readerQuestion": "What is Nova studying with the moon model?"
   },
   "f,e,b,a": {
     "key": "f,e,b,a",
@@ -5976,12 +5976,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "a"
     ],
-    "title": "The moon's supermarket weather",
+    "title": "Milo's supermarket weather",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud at a bus stop.",
-      "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.",
-      "Frame 3 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket as a cloud appears above the aisle.",
-      "Frame 4 An umbrella opens on the art-room table, revealing it is the missing weather prop for the moon scene."
+      "A fishbowl held Puff at the bus stop, waiting patiently.",
+      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
+      "Womby rode past the orange as a cloud appeared above the supermarket aisle.",
+      "Brolly opened on the art-room table, the missing weather prop for the moon scene."
     ],
     "readerQuestion": "Which prop completes the rainy moon scene?"
   },
@@ -5993,14 +5993,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "c"
     ],
-    "title": "The moon's orange flight",
+    "title": "Milo's orange flight",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at a bus stop.",
-      "Frame 2 A teenager carries an oversized cardboard moon through a wet tram stop.",
-      "Frame 3 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, and the orange rolls into a paper-flight path.",
-      "Frame 4 A paper aeroplane flies through the library, revealing it is carrying the tiny moon-orange."
+      "A fishbowl waited at the bus stop with Puff curled up inside it.",
+      "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
+      "Womby rode past the orange, which rolled neatly into a paper aeroplane's flight path.",
+      "Pip flew through the library, carrying that tiny moon-orange carefully on one wing."
     ],
-    "readerQuestion": "Which object becomes a tiny moon?"
+    "readerQuestion": "Which object becomes a tiny moon here?"
   },
   "f,e,b,d": {
     "key": "f,e,b,d",
@@ -6010,14 +6010,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "b",
       "d"
     ],
-    "title": "The moon rehearsal becomes art",
+    "title": "Milo's rehearsal becomes art",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.",
-      "Frame 3 A wombat in a yellow raincoat skateboards beside an orange in a supermarket while rain starts above the aisle.",
-      "Frame 4 A small astronaut paints at an art table, revealing the odd supermarket scene is the astronaut's moon rehearsal."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
+      "Womby skateboarded past the orange while rain started falling above the supermarket aisle.",
+      "Nova painted at the art table, where that odd supermarket scene was the moon rehearsal."
     ],
-    "readerQuestion": "Which frame recontextualises the supermarket rain?"
+    "readerQuestion": "Which picture explains the supermarket rain?"
   },
   "f,e,c,a": {
     "key": "f,e,c,a",
@@ -6027,14 +6027,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "a"
     ],
-    "title": "The moon's paper landing",
+    "title": "Milo's paper landing",
     "beats": [
-      "Frame 1 A fishbowl holding a cloud waits at a bus stop.",
-      "Frame 2 A teenager carries an oversized cardboard moon through a wet tram stop.",
-      "Frame 3 A paper aeroplane flies through the library and circles the cardboard moon.",
-      "Frame 4 An umbrella opens on the art-room table, revealing it is the moon's soft landing surface."
+      "A fishbowl waited at the bus stop, Puff turning slowly inside.",
+      "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
+      "Pip flew through the library and circled Milo's cardboard moon twice.",
+      "Brolly opened on the art-room table, a soft landing surface for one cardboard moon."
     ],
-    "readerQuestion": "Why does the umbrella make a good moon landing?"
+    "readerQuestion": "Why does Brolly make a good moon landing?"
   },
   "f,e,c,b": {
     "key": "f,e,c,b",
@@ -6044,12 +6044,12 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "b"
     ],
-    "title": "The moon's paper courier",
+    "title": "Milo's paper courier",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.",
-      "Frame 3 A paper aeroplane flies through the library with a cloud-shaped wet mark.",
-      "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the plane has delivered weather for the tiny moon."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
+      "Pip flew through the library with a cloud-shaped wet mark on its wing.",
+      "Womby rolled past the orange in the raincoat, since Pip had delivered weather for the moon."
     ],
     "readerQuestion": "What is the orange standing in for?"
   },
@@ -6061,14 +6061,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "c",
       "d"
     ],
-    "title": "The moon sketch flies home",
+    "title": "Milo's sketch flies home",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits by a bus stop.",
-      "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.",
-      "Frame 3 A paper aeroplane flies through the library with a moon shape drawn on its wing.",
-      "Frame 4 A small astronaut paints at an art table, revealing the plane has brought the moon model back as a sketch."
+      "A fishbowl waited by the bus stop with Puff inside.",
+      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
+      "Pip flew through the library with a moon shape drawn neatly on one wing.",
+      "Nova painted at the art table, where Pip had brought the moon back as a sketch."
     ],
-    "readerQuestion": "What did the astronaut receive from the paper aeroplane?"
+    "readerQuestion": "What did Nova get from Pip?"
   },
   "f,e,d,a": {
     "key": "f,e,d,a",
@@ -6078,14 +6078,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "a"
     ],
-    "title": "The moon painting needs shelter",
+    "title": "Milo's painting needs shelter",
     "beats": [
-      "Frame 1 A fishbowl holds a cloud at a bus stop.",
-      "Frame 2 A teenager carries an oversized cardboard moon through a wet tram stop.",
-      "Frame 3 A small astronaut paints the moon and the paint begins to rain down the page.",
-      "Frame 4 An umbrella opens on the art-room table, revealing it is sheltering the wet moon painting."
+      "A fishbowl held Puff at the bus stop, waiting patiently.",
+      "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
+      "Nova painted the moon, and the paint started raining gently down the page.",
+      "Brolly opened on the art-room table, sheltering one very wet moon painting."
     ],
-    "readerQuestion": "Why did the astronaut need the umbrella?"
+    "readerQuestion": "Why did Nova really need Brolly?"
   },
   "f,e,d,b": {
     "key": "f,e,d,b",
@@ -6095,14 +6095,14 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "b"
     ],
-    "title": "The moon's tiny stand-in",
+    "title": "Milo's tiny stand-in",
     "beats": [
-      "Frame 1 A fishbowl containing a cloud waits at a bus stop.",
-      "Frame 2 A teenager carries an oversized cardboard moon at a wet tram stop.",
-      "Frame 3 A small astronaut paints a moon that starts rolling off the art table.",
-      "Frame 4 A wombat in a yellow raincoat rides a red skateboard beside an orange in a supermarket, revealing the orange is the small rolling moon."
+      "A fishbowl waited at the bus stop with Puff curled up inside it.",
+      "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
+      "Nova painted a moon that promptly rolled off the edge of the art table.",
+      "Womby rolled past the orange in the supermarket, which was the small rolling moon."
     ],
-    "readerQuestion": "Which object is the moon's small stand-in?"
+    "readerQuestion": "Which object stands in for Milo's moon?"
   },
   "f,e,d,c": {
     "key": "f,e,d,c",
@@ -6112,13 +6112,13 @@ window.FOUR_FRAMES_STORY_BANK = {
       "d",
       "c"
     ],
-    "title": "The painted moon takes flight",
+    "title": "Milo takes flight",
     "beats": [
-      "Frame 1 A fishbowl contains a cloud at a bus stop.",
-      "Frame 2 A teenager carries an oversized cardboard moon through a wet tram stop.",
-      "Frame 3 A small astronaut paints a moon-shaped gust at an art table.",
-      "Frame 4 A paper aeroplane flies through the library, revealing the painted gust has sent the moon message onward."
+      "A fishbowl held Puff at the bus stop, going nowhere in particular.",
+      "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
+      "Nova painted a moon-shaped gust across the art table.",
+      "Pip flew through the library, sent onward by Nova's painted gust."
     ],
-    "readerQuestion": "What sent the paper aeroplane onward?"
+    "readerQuestion": "What sent Pip onward on its journey?"
   }
 };
