@@ -1707,10 +1707,13 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
    short 1024 x 768 classroom canvas, keep every beat and question visible by
    tightening this one dense evidence view rather than letting it disappear
    under the pager. Portrait has more vertical room and keeps the roomier base. */
-@media (min-width: 48.0625rem) and (max-width: 70rem) and (max-height: 50rem) {
-  /* The 1024 × 768 school-laptop view needs both the six source pictures and
-     the four-frame comic at once. The images remain recognisable while the
-     compact 2 × 2 preview retains its visual sequencing role. */
+@media (min-width: 48.0625rem) and (max-height: 50rem) {
+  /* The school-laptop view (1366 x 768, and 1024 x 768 as fallback) needs both
+     the six source pictures and the four-frame comic at once. The images stay
+     recognisable while the compact 2 x 2 preview keeps its sequencing role.
+     Keyed on HEIGHT only: 1366 x 768 is just as short as 1024 x 768, and the
+     old max-width: 70rem ceiling meant the wider laptop lost this tuning and
+     overflowed. */
   body.fit.has-drawer .story-card img { aspect-ratio: 16 / 9; }
   body.fit.has-drawer .story-sequence__bar { gap: var(--s1); margin-bottom: var(--s1); }
   body.fit.has-drawer .story-sequence__bar h3 { font-size: var(--t-h3); }
