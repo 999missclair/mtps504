@@ -26,7 +26,9 @@
     background:repeating-linear-gradient(135deg,#FFF3D6 0 10px,var(--paper) 10px 20px);
     cursor:pointer; overflow:hidden; aspect-ratio:1; }
   .gif-results button:hover { border-color:var(--slate); }
-  .gif-results button:focus-visible { border-color:var(--sun); box-shadow:0 0 0 3px var(--sun); outline:none; }
+  /* No outline:none — the site's two-tone focus ring (§6.2) does the work;
+     the border swap is a bonus cue, not a replacement. */
+  .gif-results button:focus-visible { border-color:var(--sun); }
   .gif-results img { width:100%; height:100%; object-fit:cover; display:block; background:var(--paper); }
   .giphy-mark { font-size:var(--t-sm); color:var(--slate); margin-top:var(--s3); }
 
@@ -40,6 +42,39 @@
   .motion__seg input { position:absolute; opacity:0; width:1px; height:1px; }
   .motion__seg input:checked + label { background:var(--sun); font-weight:700; }
   .motion__seg input:focus-visible + label { outline:3px solid var(--punch); outline-offset:-3px; }
+
+  /* --- the picture picker: a popover over the builder, not a separate step.
+     Native <dialog> (same pattern as the route-choice dialog): focus is
+     trapped by showModal(), Escape closes it, and js/canvas.js returns focus
+     to the button that opened it. --- */
+  .picker { width:min(680px, calc(100vw - 2 * var(--s5))); max-height:min(85vh, calc(100vh - 2 * var(--s5)));
+    border:3px solid var(--ink); border-radius:var(--r-lg); background:var(--paper); color:var(--ink);
+    padding:var(--s5); overflow-y:auto; }
+  .picker::backdrop { background:rgba(20,20,28,.55); }
+  .picker__head { display:flex; align-items:flex-start; justify-content:space-between; gap:var(--s3); }
+  .picker__head h2 { margin:0; font-size:var(--t-h3); }
+  .picker__close { flex:0 0 auto; width:44px; height:44px; padding:0; border:2px solid var(--ink);
+    border-radius:50%; background:var(--paper); font-size:20px; font-weight:700; line-height:1; cursor:pointer; }
+  .picker__close:hover { background:#FFF3D6; }
+  .picker__frames { display:flex; gap:var(--s2); margin:var(--s3) 0; }
+  .picker__frames button { min-width:44px; min-height:44px; padding:0 var(--s3); border:2px solid var(--ink);
+    border-radius:var(--r-sm); background:var(--paper); color:var(--ink); font-family:var(--font-display);
+    font-weight:700; cursor:pointer; }
+  .picker__frames button[aria-pressed="true"] { background:var(--sun); }
+  .picker__where { border:0; padding:0; margin:0 0 var(--s4); }
+  /* three options in one segment: the divider sits on each label after the first
+     (the generic `label + label` rule can't match across the hidden radios) */
+  .picker__where .motion__seg input:not(:first-child) + label { border-left:2px solid var(--ink); }
+  .picker__where .motion__seg { flex-wrap:wrap; }
+  .picker__where legend { font-family:var(--font-display); font-size:var(--t-sm); padding:0 0 var(--s2); }
+  .picker__panel > :first-child { margin-top:0; }
+
+  /* --- inline confirms (no modal confirm(): the question appears in place,
+     with two labelled buttons, and focus lands on the safe choice) --- */
+  .inline-confirm { margin-top:var(--s3); padding:var(--s3) var(--s4); border:2px solid var(--punch);
+    border-radius:var(--r-md); background:#fff; }
+  .inline-confirm p { margin:0 0 var(--s3); font-weight:700; }
+  .inline-confirm div { display:flex; gap:var(--s3); flex-wrap:wrap; }
 
   /* --- builder toolbar --- */
   .builder-tools { display:flex; gap:var(--s3); flex-wrap:wrap; align-items:center; margin:var(--s4) 0; }
@@ -174,48 +209,21 @@
       download is still and has no character dialogue.</p>
     </details>
 
-    <p class="card small" id="guest-note" hidden><strong>Guest mode:</strong> add your own picture
-    or paste one. GIF search needs the class password.</p>
-
-    <section class="section" id="search-section">
-      <h2>1 &#183; Find a picture</h2>
-      <p class="lead">Search a feeling or a thing &#8212; <em>surprise</em>, <em>slow clap</em>,
-      <em>cat</em>. Everything here is rated G.</p>
-      <form class="gif-search" id="search-form" role="search">
-        <label class="visually-hidden" for="search-input">Search for a GIF</label>
-        <input type="search" id="search-input" placeholder="Try: surprise" autocomplete="off">
-        <button type="submit" class="btn-primary">Search</button>
-      </form>
-      <p class="small" id="search-msg" aria-live="polite"></p>
-      <fieldset class="motion">
-        <legend>Final comic format</legend>
-        <div class="motion__seg">
-          <input type="radio" name="motion" id="motion-still" value="still" checked>
-          <label for="motion-still">Still</label>
-        </div>
-        <details style="margin-top:var(--s3)">
-          <summary>Practice option: use animation while testing</summary>
-          <div class="motion__seg" style="margin-top:var(--s2)">
-            <input type="radio" name="motion" id="motion-animated" value="animated">
-            <label for="motion-animated">Animated practice</label>
-          </div>
-        </details>
-      </fieldset>
-      <div class="gif-results" id="results" aria-label="Search results"></div>
-      <p class="giphy-mark">Powered by GIPHY. G-rated only. Tap a result to drop it into the active frame.</p>
-    </section>
+    <p class="card small" id="guest-note" hidden><strong>Guest mode:</strong> use the class image
+    bank or your own picture. GIF search needs the class password.</p>
 
     <section class="section" id="build-comic">
-      <h2>2 &#183; Build your four frames</h2>
-      <p class="lead">Click a frame to make it active (it lights up yellow). Everything you add lands
-      there. Drag to move, drag the corner to resize, tap the <strong>&times;</strong> to delete.
-      Set-up, build-up, build-up, punchline.</p>
+      <h2>Build your four frames</h2>
+      <p class="lead">Click a frame to make it active (it lights up yellow), then
+      <strong>Add a picture</strong> &#8212; the finder opens over your comic, so your frames
+      stay in sight. Drag to move, drag the corner to resize, tap the <strong>&times;</strong>
+      to delete. Set-up, build-up, build-up, punchline.</p>
       <p class="small" id="place-msg" aria-live="polite">Frame 1 is active. Add a picture or a short caption.</p>
       <p class="small">Your final comic is wordless: no character dialogue or real names. Use a short caption only to explain what a panel shows.</p>
 
       <div class="builder-tools">
         <input type="file" id="add-pic" accept="image/*" class="visually-hidden">
-        <button type="button" class="btn-secondary" id="add-pic-btn">Add a picture</button>
+        <button type="button" class="btn-primary" id="open-picker">Add a picture</button>
         <button type="button" class="btn-secondary" id="add-caption">Add caption</button>
       </div>
 
@@ -226,6 +234,86 @@
       </details>
 
       <div class="frames" id="frames"><!-- four frames injected by js/canvas.js --></div>
+    </section>
+
+    <!-- THE PICTURE PICKER — a popover over the builder (the frames stay underneath),
+         not a separate step. Three sources: the class image bank, GIF search
+         (class password only) and the student's own file or paste. -->
+    <dialog id="picker" class="picker" aria-labelledby="picker-title">
+      <div class="picker__head">
+        <h2 id="picker-title">Add a picture</h2>
+        <button type="button" class="picker__close" id="picker-close" aria-label="Close and go back to your comic">&times;</button>
+      </div>
+      <p class="small">It drops into the frame that is lit yellow. Adding to
+      <strong id="picker-frame">Frame 1</strong>.</p>
+      <div class="picker__frames" role="group" aria-label="Choose which frame to add to">
+        <button type="button" data-pick-frame="0" aria-pressed="true" aria-label="Add to Frame 1 (setup)">1</button>
+        <button type="button" data-pick-frame="1" aria-pressed="false" aria-label="Add to Frame 2 (escalation)">2</button>
+        <button type="button" data-pick-frame="2" aria-pressed="false" aria-label="Add to Frame 3 (escalation)">3</button>
+        <button type="button" data-pick-frame="3" aria-pressed="false" aria-label="Add to Frame 4 (punchline)">4</button>
+      </div>
+      <fieldset class="picker__where">
+        <legend>Where is your picture from?</legend>
+        <div class="motion__seg">
+          <input type="radio" name="pick-src" id="src-bank" value="pick-bank" checked>
+          <label for="src-bank">Class image bank</label>
+          <input type="radio" name="pick-src" id="src-gif" value="pick-gif">
+          <label for="src-gif">GIF search</label>
+          <input type="radio" name="pick-src" id="src-own" value="pick-own">
+          <label for="src-own">My own picture</label>
+        </div>
+      </fieldset>
+
+      <div id="pick-bank" class="picker__panel" data-pick-panel>
+        <p class="small" id="bank-msg" aria-live="polite"></p>
+        <div class="gif-results" id="bank-results" aria-label="Class image bank pictures"></div>
+        <p class="small">Every picture here is free to use, and choosing one fills in its credit
+        line for that frame. <a href="bank.html">Open the full Class Image Bank</a> to read about
+        each picture first.</p>
+      </div>
+
+      <div id="pick-gif" class="picker__panel" data-pick-panel hidden>
+        <p class="card small" id="gif-locked" hidden>GIF search needs the class password, so it
+        stays in class. Use the image bank or your own picture instead.</p>
+        <div id="gif-open">
+          <p class="small">Search a feeling or a thing &#8212; <em>surprise</em>, <em>slow clap</em>,
+          <em>cat</em>. Everything here is rated G.</p>
+          <form class="gif-search" id="search-form" role="search">
+            <label class="visually-hidden" for="search-input">Search for a GIF</label>
+            <input type="search" id="search-input" placeholder="Try: surprise" autocomplete="off">
+            <button type="submit" class="btn-primary">Search</button>
+          </form>
+          <p class="small" id="search-msg" aria-live="polite"></p>
+          <fieldset class="motion">
+            <legend>Final comic format</legend>
+            <div class="motion__seg">
+              <input type="radio" name="motion" id="motion-still" value="still" checked>
+              <label for="motion-still">Still</label>
+            </div>
+            <details style="margin-top:var(--s3)">
+              <summary>Practice option: use animation while testing</summary>
+              <div class="motion__seg" style="margin-top:var(--s2)">
+                <input type="radio" name="motion" id="motion-animated" value="animated">
+                <label for="motion-animated">Animated practice</label>
+              </div>
+            </details>
+          </fieldset>
+          <div class="gif-results" id="results" aria-label="Search results"></div>
+          <p class="giphy-mark">Powered by GIPHY. G-rated only. Tap a result to drop it into the active frame.</p>
+        </div>
+      </div>
+
+      <div id="pick-own" class="picker__panel" data-pick-panel hidden>
+        <p>Use a picture from this device &#8212; a drawing you photographed, or something you saved
+        from the Class Image Bank.</p>
+        <p><button type="button" class="btn-secondary" id="add-pic-btn">Choose a file</button></p>
+        <p class="small">Or copy a picture, close this window, and press <strong>Ctrl+V</strong>
+        (<strong>Cmd+V</strong> on a Mac) &#8212; it drops straight into the active frame.</p>
+      </div>
+    </dialog>
+
+    <section class="section" id="finish">
+      <h2>Credits and download</h2>
 
       <section class="card credits" aria-labelledby="credits-heading">
         <h3 id="credits-heading">Keep your four credits for the class wall</h3>
@@ -271,6 +359,22 @@
         <button type="button" class="btn-secondary" id="clear-btn">Clear all</button>
         <button type="button" class="btn-secondary" id="undo-clear" hidden>Undo clear</button>
       </div>
+      <div class="inline-confirm" id="name-check" hidden>
+        <p>Quick name check: are all names made-up characters &#8212; not students, teachers,
+        friends or anyone you know?</p>
+        <div>
+          <button type="button" class="btn-primary" id="name-check-yes">Yes, all made up &#8212; download</button>
+          <button type="button" class="btn-secondary" id="name-check-no">Let me edit first</button>
+        </div>
+      </div>
+      <div class="inline-confirm" id="clear-confirm" hidden>
+        <p>Clear every frame, its credits and its comic description? You can undo once,
+        until you refresh.</p>
+        <div>
+          <button type="button" class="btn-secondary" id="clear-confirm-no">Keep my comic</button>
+          <button type="button" class="btn-secondary" id="clear-confirm-yes">Yes, clear everything</button>
+        </div>
+      </div>
       <p class="small" id="export-msg" aria-live="polite"></p>
       <p class="save-notice" id="save-notice" aria-live="polite"></p>
     </section>
@@ -311,8 +415,8 @@
   <a class="botnav__back" href="plan.html"><span aria-hidden="true">&#8592;</span><span class="label" aria-hidden="true">3 Plan</span><span class="visually-hidden">Back to 3 Plan</span></a>
   <ul class="botnav__steps">
     <li><a class="step-pill" href="#gate-section" aria-current="step">Unlock</a></li>
-    <li><a class="step-pill" href="#search-section">Find a picture</a></li>
     <li><a class="step-pill" href="#build-comic">Build your comic</a></li>
+    <li><a class="step-pill" href="#finish">Credits &amp; download</a></li>
   </ul>
   <p class="botnav__counter"><span class="name">Comic builder</span></p>
   <a class="btn-primary" href="build.html">On to 4 Build &#8594;</a>

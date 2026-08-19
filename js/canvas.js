@@ -162,34 +162,47 @@
     var line = brief && (brief.text ||
       [brief.character, brief.situation, brief.problem].filter(Boolean).join(' · '));
     box.innerHTML = '';
+    function rollLink(words) {
+      var p = document.createElement('p'); p.className = 'small';
+      p.style.margin = 'var(--s2) 0 0';
+      var a = document.createElement('a'); a.href = 'roll.html';
+      a.textContent = words;
+      p.appendChild(a);
+      return p;
+    }
     if (line) {
       var lab = document.createElement('p'); lab.className = 'cb-brief__label';
       lab.textContent = 'Your story — put this across the four frames';
       var val = document.createElement('p'); val.className = 'cb-brief__line';
       val.textContent = line;
       box.appendChild(lab); box.appendChild(val);
+      box.appendChild(rollLink('Change it on 2 Roll'));
     } else {
+      // Nothing rolled on this device yet — fall back to a type-it-yourself box.
       var l = document.createElement('label'); l.className = 'cb-brief__label';
       l.setAttribute('for', 'cb-brief-in');
-      l.textContent = 'Your story (paste it from 2 Roll — or type it here)';
+      l.textContent = 'Your story (type it here — or roll one on 2 Roll and it follows you back)';
       var inp = document.createElement('input'); inp.id = 'cb-brief-in'; inp.type = 'text';
       inp.placeholder = 'character · situation · problem';
       inp.addEventListener('input', function () {
         try { localStorage.setItem('ff-brief', JSON.stringify({ text: inp.value })); } catch (e) {}
       });
       box.appendChild(l); box.appendChild(inp);
+      box.appendChild(rollLink('Roll your story on 2 Roll'));
     }
   }
 
   function unlock(guest) {
     $('#gate-section').hidden = true;
     $('#tool').hidden = false;
-    $('#search-section').hidden = !!guest;
-    $('#build-comic').hidden = !guest;
     $('#guest-note').hidden = !guest;
+    // In guest mode the GIF panel of the picker shows a "needs the class
+    // password" note instead of the search form. Bank and own-picture work.
+    $('#gif-locked').hidden = !guest;
+    $('#gif-open').hidden = !!guest;
     renderBrief();
     renderFrames();
-    var step = document.querySelector('.step-pill[href="' + (guest ? '#build-comic' : '#search-section') + '"]');
+    var step = document.querySelector('.step-pill[href="#build-comic"]');
     if (step) step.click();
   }
 
@@ -199,7 +212,7 @@
   }
 
   if (pass) { unlock(); }
-  else if (location.hash === '#search-section' || location.hash === '#build-comic') {
+  else if (location.hash === '#build-comic' || location.hash === '#finish') {
     // A guest preview is deliberately not remembered. On refresh, return a locked visitor to
     // the visible gate instead of letting the pager hide it behind a stale preview fragment.
     history.replaceState(null, '', location.pathname + location.search);
@@ -217,8 +230,111 @@
 
   $('#guest-mode').addEventListener('click', function () {
     unlock(true);
-    announce('Guest mode is open. Add your own picture or a short caption.');
+    announce('Guest mode is open. Add a bank picture, your own picture or a short caption.');
   });
+
+  // ---- the picture picker — a popover over the builder --------------------
+  // Native <dialog>. showModal() traps focus and Escape closes it; on close,
+  // focus goes back to the button that opened it, so a keyboard user never
+  // loses their place in the comic.
+  var picker = $('#picker');
+  var pickerOpener = null;
+  var bankLoaded = false;
+
+  function pickerFrameLabel() {
+    var strong = $('#picker-frame');
+    if (strong) strong.textContent = 'Frame ' + (active + 1);
+    Array.prototype.forEach.call(document.querySelectorAll('[data-pick-frame]'), function (b) {
+      b.setAttribute('aria-pressed', String(+b.getAttribute('data-pick-frame') === active));
+    });
+  }
+  function showPanel(id) {
+    Array.prototype.forEach.call(document.querySelectorAll('[data-pick-panel]'), function (p) {
+      p.hidden = p.id !== id;
+    });
+    var radio = document.querySelector('input[name="pick-src"][value="' + id + '"]');
+    if (radio && !radio.checked) radio.checked = true;
+    if (id === 'pick-bank') loadBank();
+  }
+  function openPicker() {
+    if (!picker || !picker.showModal) { $('#add-pic').click(); return; } // no <dialog>? go straight to a file
+    pickerOpener = document.activeElement;
+    pickerFrameLabel();
+    // With the class password, GIF search is the drawcard; guests land on the bank.
+    showPanel(pass ? 'pick-gif' : 'pick-bank');
+    picker.showModal();
+  }
+  function closePicker() { if (picker && picker.open) picker.close(); }
+
+  $('#open-picker').addEventListener('click', openPicker);
+  $('#picker-close').addEventListener('click', closePicker);
+  picker.addEventListener('close', function () {
+    var back = pickerOpener || $('#open-picker');
+    pickerOpener = null;
+    if (back && back.focus) back.focus();
+  });
+  // a tap on the dimmed page around the panel closes it too
+  picker.addEventListener('click', function (e) { if (e.target === picker) closePicker(); });
+
+  Array.prototype.forEach.call(document.querySelectorAll('input[name="pick-src"]'), function (r) {
+    r.addEventListener('change', function () { if (r.checked) showPanel(r.value); });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('[data-pick-frame]'), function (b) {
+    b.addEventListener('click', function () {
+      activate(+b.getAttribute('data-pick-frame'));
+      pickerFrameLabel();
+    });
+  });
+
+  // The bank panel reads bank.html itself (same origin, no new data file to
+  // keep in sync). Picking a picture also fills that frame's credit slot.
+  function fillCredit(fi, line) {
+    if (!line) return;
+    var slot = creditSlots()[fi];
+    if (!slot || slot.value.trim()) return;
+    slot.value = line;
+    saveCredits();
+    var m = $('#credit-msg');
+    if (m) m.textContent = 'The credit for Frame ' + (fi + 1) + ' is filled in from the bank — check it on the Credits step.';
+  }
+  function loadBank() {
+    if (bankLoaded) return;
+    var msg = $('#bank-msg'); var grid = $('#bank-results');
+    msg.textContent = 'Loading the class image bank…';
+    fetch('bank.html')
+      .then(function (r) { if (!r.ok) throw new Error('bank'); return r.text(); })
+      .then(function (html) {
+        var doc = new DOMParser().parseFromString(html, 'text/html');
+        var entries = doc.querySelectorAll('.bank-entry');
+        grid.innerHTML = '';
+        Array.prototype.forEach.call(entries, function (entry) {
+          var img = entry.querySelector('.bank-entry__img');
+          if (!img) return;
+          var src = img.getAttribute('src');
+          var titleEl = entry.querySelector('.bank-entry__title');
+          var name = titleEl ? titleEl.textContent.trim() : 'Bank picture';
+          var creditEl = entry.querySelector('.copyable code');
+          var credit = creditEl ? creditEl.textContent.trim() : '';
+          var b = document.createElement('button');
+          b.type = 'button';
+          b.setAttribute('aria-label', 'Add to the active frame: ' + name);
+          var im = document.createElement('img');
+          im.src = src; im.alt = ''; im.loading = 'lazy';
+          b.appendChild(im);
+          b.addEventListener('click', function () {
+            var fi = active;
+            addImageItem(src, name);
+            fillCredit(fi, credit);
+          });
+          grid.appendChild(b);
+        });
+        bankLoaded = grid.children.length > 0;
+        msg.textContent = bankLoaded ? '' : 'The bank looks empty — open the full Class Image Bank below instead.';
+      })
+      .catch(function () {
+        msg.textContent = 'Couldn’t load the bank in here. Open the full Class Image Bank below, download a picture, then add it with My own picture.';
+      });
+  }
 
   // ---- motion choice (animated / still) -----------------------------------
   function motionStill() { var el = $('#motion-still'); return !!(el && el.checked); }
@@ -268,6 +384,7 @@
     var it = { id: nextId(), type: 'image', src: src, text: title || '', x: 20, y: 18, w: 50, h: 55, z: nextZ() };
     comic[active].items.push(it);
     renderFrames(); save();
+    closePicker(); // the picker's job is done — show the picture landing in its frame
     announce('Added a picture to frame ' + (active + 1) + '.');
     $('#place-msg').textContent = 'Added to frame ' + (active + 1) + '. Drag it, resize the corner, or add more.';
   }
@@ -320,6 +437,7 @@
   function activate(i) {
     active = i;
     frameEls.forEach(function (fe, idx) { fe.classList.toggle('is-active', idx === i); });
+    pickerFrameLabel(); // keep the picker's "Adding to Frame N" honest
     announce('Frame ' + (i + 1) + ' is active.');
     $('#place-msg').textContent = 'Frame ' + (i + 1) + ' is active. Add a picture or a short caption.';
   }
@@ -519,8 +637,19 @@
   }
 
   // ---- clear all ----------------------------------------------------------
+  // No modal confirm(): the question appears in place with two labelled
+  // buttons, and focus lands on the safe choice.
   $('#clear-btn').addEventListener('click', function () {
-    if (!window.confirm('Clear every frame, its credits and its comic description? You can undo once until you refresh.')) return;
+    var ask = $('#clear-confirm');
+    ask.hidden = false;
+    $('#clear-confirm-no').focus();
+  });
+  $('#clear-confirm-no').addEventListener('click', function () {
+    $('#clear-confirm').hidden = true;
+    $('#clear-btn').focus();
+  });
+  $('#clear-confirm-yes').addEventListener('click', function () {
+    $('#clear-confirm').hidden = true;
     lastClear = {
       comic: JSON.parse(JSON.stringify(comic)),
       active: active,
@@ -532,6 +661,7 @@
     try { localStorage.removeItem(EXPORT_KEY); } catch (e) {}
     renderFrames(); save(); clearCredits(); clearComicDescription();
     $('#undo-clear').hidden = false;
+    $('#undo-clear').focus(); // the confirm buttons just vanished — don't strand keyboard focus
     announce('Cleared all four frames, credits and comic description. Undo clear is available until you refresh.');
     $('#place-msg').textContent = 'Frame 1 is active. Add a picture or a short caption.';
   });
@@ -603,7 +733,10 @@
     ctx.textAlign = 'start'; ctx.textBaseline = 'alphabetic';
   }
 
-  function textIsSafeToExport() {
+  // No modal confirm(): the name check is an in-page question with two
+  // labelled buttons. "Yes, all made up" re-runs the export with the check
+  // already answered.
+  function textIsSafeToExport(nameCheckPassed) {
     var hasPracticeBubble = comic.some(function (frame) {
       return frame.items.some(function (item) { return item.type === 'bubble'; });
     });
@@ -620,20 +753,34 @@
       $('#export-msg').textContent = 'Take out contact details before you download. Keep real people private.';
       return false;
     }
-    if (!window.confirm('Quick name check: are all names made-up characters, not students, teachers, friends or anyone you know?')) {
-      $('#export-msg').textContent = 'Edit the words first. Keep real people out of the comic.';
+    if (!nameCheckPassed) {
+      $('#export-msg').textContent = '';
+      $('#name-check').hidden = false;
+      $('#name-check-yes').focus();
       return false;
     }
     return true;
   }
 
-  $('#export-btn').addEventListener('click', function () {
+  $('#name-check-yes').addEventListener('click', function () {
+    $('#name-check').hidden = true;
+    startExport(true);
+  });
+  $('#name-check-no').addEventListener('click', function () {
+    $('#name-check').hidden = true;
+    $('#export-msg').textContent = 'Edit the words first. Keep real people out of the comic.';
+    $('#export-btn').focus();
+  });
+
+  $('#export-btn').addEventListener('click', function () { startExport(false); });
+  function startExport(nameCheckPassed) {
+    $('#name-check').hidden = true;
     var msg = $('#export-msg'); msg.textContent = 'Building your comic…';
     var CELL_W = 600, CELL_H = 450, GAP = 18;
     var W = CELL_W * 2 + GAP * 3, H = CELL_H * 2 + GAP * 3;
     var anyItem = comic.some(function (f) { return f.items.length; });
     if (!anyItem) { msg.textContent = 'Add a picture or caption to a frame first.'; return; }
-    if (!textIsSafeToExport()) return;
+    if (!textIsSafeToExport(nameCheckPassed)) return;
 
     var cv = document.createElement('canvas'); cv.width = W; cv.height = H;
     var ctx = cv.getContext('2d');
@@ -692,7 +839,7 @@
         ? 'Saved your comic — but a picture was skipped. Screenshot if you need it exact.'
         : 'Saved your comic to Downloads. Final submission is now open on 5 Share.';
     }
-  });
+  }
 
   // first paint if already unlocked
   startCredits();
