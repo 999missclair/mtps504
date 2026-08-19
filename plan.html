@@ -239,10 +239,13 @@
           </ul>
 
           <h3 style="margin-top:var(--s5)">Where does it happen?</h3>
-          <p class="small">One place. A library, a bus stop, a supermarket, a gallery, a kitchen &#8212;
-          anywhere you can picture.</p>
-          <p><input type="text" id="place-in" data-place placeholder="e.g. a wet bus stop"
-             autocomplete="off" style="max-width:24rem;width:100%"></p>
+          <div class="place-row">
+            <p class="small" style="margin:0">One place. A library, a bus stop, a supermarket,
+            a gallery, a kitchen &#8212; anywhere you can picture.</p>
+            <label class="visually-hidden" for="place-in">Where does it happen?</label>
+            <input type="text" id="place-in" data-place placeholder="e.g. a wet bus stop"
+                   autocomplete="off">
+          </div>
 
           <p class="small" role="status" aria-live="polite" data-mood-note>Nothing chosen yet.</p>
           <p class="small">These follow you into the Comic Builder as one-tap search words.</p>

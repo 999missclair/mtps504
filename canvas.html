@@ -256,6 +256,10 @@
         </div>
       </fieldset>
 
+      <!-- The rolled story, above all three source panels so it is visible whichever
+           one is open — it previously sat inside the GIF panel, invisible to guests. -->
+      <p class="picker-brief" data-picker-brief hidden></p>
+
       <div id="pick-bank" class="picker__panel" data-pick-panel>
         <p class="small" id="bank-msg" aria-live="polite"></p>
         <div class="gif-results" id="bank-results" aria-label="Class image bank pictures"></div>
@@ -284,18 +288,18 @@
           </div>
           <p class="small" id="search-msg" aria-live="polite"></p>
           <fieldset class="motion">
-            <legend>Final comic format</legend>
+            <legend class="visually-hidden">Final comic format</legend>
             <div class="motion__seg">
               <input type="radio" name="motion" id="motion-still" value="still" checked>
               <label for="motion-still">Still</label>
             </div>
-            <details style="margin-top:var(--s3)">
-              <summary>Practice option: use animation while testing</summary>
-              <div class="motion__seg" style="margin-top:var(--s2)">
-                <input type="radio" name="motion" id="motion-animated" value="animated">
-                <label for="motion-animated">Animated practice</label>
-              </div>
-            </details>
+            <!-- Kept in the DOM so js/canvas.js's motion handling still resolves,
+                 but out of sight: the animation option was a distraction from a
+                 comic that is still and wordless by design. -->
+            <div class="motion__seg" hidden>
+              <input type="radio" name="motion" id="motion-animated" value="animated">
+              <label for="motion-animated">Animated practice</label>
+            </div>
           </fieldset>
           <div class="gif-results" id="results" aria-label="Search results"></div>
           <p class="giphy-mark">Powered by GIPHY. G-rated only. Tap a result to drop it into the active frame.</p>
@@ -311,18 +315,14 @@
       </div>
     </dialog>
 
-    <!-- Moved below the frames: it is an optional aside, and above the frames it
-         was part of the 593px that pushed the comic off the first screen. -->
-    <details class="card" style="margin:var(--s5) 0">
-      <summary>Practice only: animated GIFs and speech bubbles</summary>
-      <p>Animated GIFs and speech bubbles can help you test an idea in class. The comic you
-      download is still and has no character dialogue.</p>
-    </details>
-
     <section class="section" id="finish">
-      <h2>Credits and download</h2>
+      <h2>Download your comic</h2>
 
-      <section class="card credits" aria-labelledby="credits-heading">
+      <!-- Hidden, not deleted. Students are no longer asked to paste credit
+           lines by hand — the class bank fills these when a picture is chosen,
+           and 5 Share shows them at posting time. Attribution still happens; the
+           clerical work does not. -->
+      <section class="card credits" aria-labelledby="credits-heading" hidden>
         <h3 id="credits-heading">Keep your four credits for the class wall</h3>
         <p>For each picture, paste its <strong>exact credit line</strong> from the Class Image Bank.
         Match the credit slot to the frame where you used that picture. These stay on this device
@@ -384,6 +384,16 @@
       </div>
       <p class="small" id="export-msg" aria-live="polite"></p>
       <p class="save-notice" id="save-notice" aria-live="polite"></p>
+
+      <section class="card" id="enhance-card" aria-labelledby="enhance-heading" style="margin-top:var(--s5)">
+        <h3 id="enhance-heading">See it as one artist&#8217;s page</h3>
+        <p class="small">The class illustrator tool redraws <strong>your</strong> four frames and
+        your rolled story as one cohesive page &#8212; same panels, same beats, one art style.
+        It is a preview to compare against, not your submission. Takes about 15 seconds.</p>
+        <p><button type="button" class="btn-secondary" id="enhance-btn">Enhance my comic (preview)</button></p>
+        <p class="small" id="enhance-msg" aria-live="polite"></p>
+        <div id="enhance-out" hidden></div>
+      </section>
     </section>
 
   </div>
@@ -423,10 +433,10 @@
   <ul class="botnav__steps">
     <li><a class="step-pill" href="#gate-section" aria-current="step">Unlock</a></li>
     <li><a class="step-pill" href="#build-comic">Build your comic</a></li>
-    <li><a class="step-pill" href="#finish">Credits &amp; download</a></li>
+    <li><a class="step-pill" href="#finish">Download</a></li>
   </ul>
   <p class="botnav__counter"><span class="name">Comic builder</span></p>
-  <a class="btn-primary" href="build.html">On to 4 Build &#8594;</a>
+  <a class="btn-primary" href="share.html">On to 5 Share &#8594;</a>
 </nav>
 
 <script src="js/canvas.js" defer></script>

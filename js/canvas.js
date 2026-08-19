@@ -186,6 +186,20 @@
     return { words: words.filter(Boolean).slice(0, 6), fromPlan: fromPlan };
   }
 
+  function paintPickerBrief() {
+    var el = document.querySelector('[data-picker-brief]');
+    if (!el) { return; }
+    var brief = null;
+    try { brief = JSON.parse(localStorage.getItem('ff-brief') || 'null'); } catch (e) {}
+    var line = '';
+    if (brief) {
+      line = brief.text || [brief.character, brief.situation, brief.problem].filter(Boolean).join(' · ');
+    }
+    if (!line) { el.hidden = true; return; }
+    el.textContent = 'Your story: ' + line;
+    el.hidden = false;
+  }
+
   function paintStimulus() {
     var row = document.querySelector('[data-stim]');
     var list = document.querySelector('[data-stim-chips]');
@@ -267,6 +281,8 @@
     // password" note instead of the search form. Bank and own-picture work.
     $('#gif-locked').hidden = !guest;
     $('#gif-open').hidden = !!guest;
+    // The enhance preview calls /api too, so it is class-password only.
+    var ec = $('#enhance-card'); if (ec) { ec.hidden = !!guest; }
     renderBrief();
     renderFrames();
     var step = document.querySelector('.step-pill[href="#build-comic"]');
@@ -325,6 +341,7 @@
   }
   function openPicker() {
     paintStimulus();
+    paintPickerBrief();
     if (!picker || !picker.showModal) { $('#add-pic').click(); return; } // no <dialog>? go straight to a file
     pickerOpener = document.activeElement;
     pickerFrameLabel();
@@ -913,3 +930,65 @@
   startCredits();
   if (pass) renderFrames();
 })();
+
+  // ---- AI enhance preview (class password only) ---------------------------
+  // Sends the SAME composed image the download makes, plus the rolled story,
+  // to /api/render, which asks the model to enhance the student's submission
+  // rather than redraw from scratch. The result is a preview on this page —
+  // the student's own comic stays the real submission.
+  function briefLine() {
+    var brief = null;
+    try { brief = JSON.parse(localStorage.getItem('ff-brief') || 'null'); } catch (e) {}
+    return brief ? (brief.text ||
+      [brief.character, brief.situation, brief.problem].filter(Boolean).join(' · ')) : '';
+  }
+
+  function planPlace() {
+    try {
+      var st = JSON.parse(localStorage.getItem('ff-stimulus') || 'null');
+      return (st && st.place) ? st.place : '';
+    } catch (e) { return ''; }
+  }
+
+  $('#enhance-btn').addEventListener('click', function () {
+    var placeText = planPlace();
+    var msg = $('#enhance-msg'); var out = $('#enhance-out');
+    var anyItem = comic.some(function (f) { return f.items.length; });
+    if (!anyItem) { msg.textContent = 'Add a picture or caption to a frame first.'; return; }
+    msg.textContent = 'Sending your comic to the illustrator… this takes about 15 seconds.';
+    $('#enhance-btn').disabled = true;
+    composeComic(function (url) {
+      if (!url) {
+        msg.textContent = 'Couldn’t package your comic (a picture blocked it). The download above still works.';
+        $('#enhance-btn').disabled = false;
+        return;
+      }
+      fetch('/api/render', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'x-class-pass': pass },
+        body: JSON.stringify({ place: placeText, brief: briefLine(), submissionDataUri: url })
+      }).then(function (r) { return r.json().then(function (data) { return { ok: r.ok, status: r.status, data: data }; }); })
+        .then(function (res) {
+          $('#enhance-btn').disabled = false;
+          if (res.status === 401) { msg.textContent = 'The class password expired. Reload and enter it again.'; return; }
+          if (!res.ok || !res.data.image) { msg.textContent = res.data.error || 'The enhancer is unavailable right now.'; return; }
+          out.innerHTML = '';
+          var img = document.createElement('img');
+          img.src = res.data.image;
+          img.alt = 'AI-enhanced preview of your four-frame comic';
+          img.style.maxWidth = '100%'; img.style.border = '3px solid #14141C'; img.style.borderRadius = '8px';
+          var save = document.createElement('a');
+          save.href = res.data.image; save.download = 'four-frames-enhanced.png';
+          save.className = 'btn-secondary'; save.style.display = 'inline-block'; save.style.marginTop = 'var(--s3)';
+          save.textContent = 'Save the enhanced preview';
+          out.appendChild(img); out.appendChild(save);
+          out.hidden = false;
+          msg.textContent = 'Here is the enhanced preview. Notice what the illustrator kept and what it changed — your own comic is still the submission.';
+          announce('The enhanced preview of your comic is ready.');
+        })
+        .catch(function () {
+          $('#enhance-btn').disabled = false;
+          msg.textContent = 'Couldn’t reach the class server. Try again in a moment.';
+        });
+    });
+  });

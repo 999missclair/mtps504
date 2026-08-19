@@ -507,8 +507,12 @@
         var el = postBanner && postBanner.querySelector('.brief-banner__line');
         if (el) { line = el.textContent; }
         if (!line) { return; }
+        /* Hand them the whole post, not just the brief: the board asks for the
+           rolled story AND one thought, so the copy includes the sentence
+           opener they are meant to finish. */
+        line = line + '\n\nMy first thought is: ';
         function ok() {
-          if (postNote) { postNote.textContent = 'Copied.'; }
+          if (postNote) { postNote.textContent = 'Copied — finish the sentence on the board.'; }
           say('Brief copied. Paste it on the board.');
         }
         function no() {

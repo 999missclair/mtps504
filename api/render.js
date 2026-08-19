@@ -9,10 +9,47 @@ const SYSTEM = `You are a comic illustrator. You render a single image that is a
 Follow the student's per-panel directions exactly. Keep it classroom-appropriate: no text/speech bubbles unless asked
 (the student adds lettering later), no gore, no real logos. Consistent character design across all four panels.`;
 
+// Enhance mode — the student has already BUILT the comic; the model polishes it.
+// Their framing, panel order and story beats are the creative work being kept.
+const ENHANCE_SYSTEM = `You are a comic illustrator. A student has assembled a four-panel comic (2x2 grid)
+from found pictures — photos, engravings, paintings mixed together. FULLY REPAINT every one of the four
+panels in ONE shared illustration style of your choosing: same linework, same palette, same rendering in
+all four. No panel may remain photographic, engraved, or in its original medium. Keep the student's panel
+order, compositions, subjects and story beats exactly as submitted, and keep the same main character
+recognisable in every panel where it appears. Keep it wordless — no speech bubbles or added text.
+Classroom-appropriate: no gore, no real logos, no real people.`;
+
 module.exports = async function handler(req, res) {
   const body = await guard(req, res);
   if (!body) return;
-  const { brief, panels, style } = body;
+  const { brief, panels, style, place, submissionDataUri } = body;
+
+  // --- Enhance mode: a completed submission image + the rolled story ---
+  if (typeof submissionDataUri === 'string' && submissionDataUri.startsWith('data:image/')) {
+    let ePrompt = `Repaint the attached student-made four-panel comic (2x2 grid) as one cohesive,
+polished strip in a single unified illustration style — every panel redrawn, none left in its original
+medium. Preserve the student's framing choices, panel order and story beats.`;
+    if (brief) ePrompt += `\nThe story it tells (make the four panels clearly land these beats): ${String(brief).slice(0, 300)}`;
+    if (place) ePrompt += `\nWhere it happens: ${String(place).slice(0, 80)}`;
+    if (style) ePrompt += `\nArt style: ${String(style).slice(0, 120)}`;
+    ePrompt += `\nOutput a single 2x2 comic page with panels numbered 1-4. One consistent character design and palette across all four panels. Wordless.`;
+    try {
+      const imageUrl = await chatImage({
+        system: ENHANCE_SYSTEM,
+        contentParts: [
+          { type: 'text', text: ePrompt },
+          { type: 'image_url', image_url: { url: submissionDataUri } },
+        ],
+        // 55s: below Vercel's 60s maxDuration, so a slow render gets the friendly 502
+        // below instead of a platform timeout.
+        timeoutMs: 55000,
+      });
+      return res.status(200).json({ image: imageUrl });
+    } catch (e) {
+      return res.status(502).json({ error: 'The enhancer is unavailable right now. Your own comic is the real submission — this preview is a bonus.', detail: String(e).slice(0, 200) });
+    }
+  }
+
   // Validate the same four entries the renderer will use. A sparse array like
   // [null, p1..p4] passed the old count check, then threw outside the try/catch.
   if (!Array.isArray(panels) || panels.length < 4 ||

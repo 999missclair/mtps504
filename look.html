@@ -179,6 +179,44 @@
             Panel Scramble.</p>
           </div>
         </div>
+
+        <!-- A three-item check, not a test: name the shot in each picture. It uses
+             pictures the student meets again in the Panel Scramble, so the words
+             arrive attached to images they will actually use. -->
+        <div class="card shotquiz" data-shotquiz style="margin-top:var(--s4)">
+          <h3>Quick check: name the shot</h3>
+          <p class="small">Three pictures. Pick the shot each one uses. Wrong answers just try again.</p>
+          <ol class="shotquiz__items">
+            <li data-sq-item data-sq-answer="wide">
+              <img src="img/panel-scramble/01-umbrella-artroom.jpg" alt="A whole art room, with an open umbrella on a table and a student by the window." loading="lazy">
+              <div class="shotquiz__opts">
+                <button type="button" data-sq-pick="wide">Wide</button>
+                <button type="button" data-sq-pick="mid">Mid</button>
+                <button type="button" data-sq-pick="close">Close-up</button>
+              </div>
+              <p class="small" data-sq-msg role="status" aria-live="polite"></p>
+            </li>
+            <li data-sq-item data-sq-answer="mid">
+              <img src="img/panel-scramble/02-wombat-supermarket.jpg" alt="A wombat on a skateboard in a supermarket aisle, shown from about the waist up." loading="lazy">
+              <div class="shotquiz__opts">
+                <button type="button" data-sq-pick="wide">Wide</button>
+                <button type="button" data-sq-pick="mid">Mid</button>
+                <button type="button" data-sq-pick="close">Close-up</button>
+              </div>
+              <p class="small" data-sq-msg role="status" aria-live="polite"></p>
+            </li>
+            <li data-sq-item data-sq-answer="close">
+              <img src="img/panel-scramble/06-cloud-fishbowl.jpg" alt="A fishbowl with a small cloud inside it, filling most of the picture." loading="lazy">
+              <div class="shotquiz__opts">
+                <button type="button" data-sq-pick="wide">Wide</button>
+                <button type="button" data-sq-pick="mid">Mid</button>
+                <button type="button" data-sq-pick="close">Close-up</button>
+              </div>
+              <p class="small" data-sq-msg role="status" aria-live="polite"></p>
+            </li>
+          </ol>
+          <p class="small" data-sq-score role="status" aria-live="polite">0 of 3 named.</p>
+        </div>
       </section>
 
       <div class="story-scramble" data-story-scramble>
@@ -253,6 +291,8 @@
           <p class="story-scramble__prompt" data-story-route-prompt>There are no pictures in your order yet.
           <a class="tap-link" href="#scramble">Go back to Panel Scramble and choose four.</a></p>
         </div>
+
+        <p class="story-reorder"><a class="btn-secondary" href="#scramble">&#8592; Re-order the pictures and generate again</a></p>
 
         <section class="story-reading" data-story-reading hidden aria-labelledby="story-reading-heading">
           <h3 id="story-reading-heading" data-story-reading-title>One possible reading</h3>
@@ -714,6 +754,7 @@
   <span aria-hidden="true">&#9755;</span> Stuck?
 </button>
 
+<script src="js/shotquiz.js" defer></script>
 <script src="js/story-bank.js" defer></script>
 <script src="js/panel-story.js" defer></script>
 
