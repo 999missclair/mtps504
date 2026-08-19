@@ -240,8 +240,12 @@
         <h2>3 &#183; Read the story</h2>
         <p class="lead">Here&#8217;s one way your order could be read. Swap a picture to change it.</p>
         <div class="story-scramble__intro" data-story-intro>
-          <p>Choose four pictures first, then press the button.</p>
-          <button type="button" class="btn-secondary" data-story-think disabled>Read this story</button>
+          <p>Your four pictures, in your order:</p>
+          <!-- The chosen four stay visible here so a student can see what they
+               are about to generate a story from, and change it without
+               going back a step blind. Painted by js/panel-story.js. -->
+          <ol class="story-picked" data-story-picked aria-label="Your four chosen pictures"></ol>
+          <button type="button" class="btn-primary" data-story-think disabled>Generate story</button>
           <p class="small" role="status" aria-live="polite" data-story-timer>Choose four pictures to reveal a reading.</p>
           <p class="story-scramble__prompt" data-story-route-prompt>There are no pictures in your order yet.
           <a class="tap-link" href="#scramble">Go back to Panel Scramble and choose four.</a></p>

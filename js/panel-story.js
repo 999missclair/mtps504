@@ -24,6 +24,7 @@
     var readingImages = root.querySelector('[data-story-reading-images]');
     var routePrompt = root.querySelector('[data-story-route-prompt]');
     var intro = root.querySelector('[data-story-intro]');
+    var picked = root.querySelector('[data-story-picked]');
     var bank = window.FOUR_FRAMES_STORY_BANK || {};
     var chosen = [];
     var timerId = null;
@@ -32,7 +33,38 @@
       if (live) { live.textContent = message; }
     }
 
+    /* Step 3 mirrors the four chosen pictures so the student can see what they
+       are generating from without stepping back to Panel Scramble. */
+    function paintPicked() {
+      if (!picked) return;
+      picked.innerHTML = '';
+      for (var i = 0; i < 4; i++) {
+        var card = chosen[i];
+        var li = document.createElement('li');
+        li.className = 'story-picked__item' + (card ? '' : ' is-empty');
+        var num = document.createElement('span');
+        num.className = 'story-picked__num';
+        num.textContent = String(i + 1);
+        li.appendChild(num);
+        if (card) {
+          var src = card.querySelector('img');
+          var img = document.createElement('img');
+          img.src = src.src;
+          img.alt = src.alt;
+          img.loading = 'lazy';
+          li.appendChild(img);
+        } else {
+          var dash = document.createElement('span');
+          dash.className = 'story-picked__empty';
+          dash.textContent = 'Not chosen';
+          li.appendChild(dash);
+        }
+        picked.appendChild(li);
+      }
+    }
+
     function paintSlots() {
+      paintPicked();
       slots.forEach(function (slot, index) {
         var card = chosen[index];
         var line = slot.querySelector('[data-story-slot-line]');
@@ -89,7 +121,7 @@
       if (reading) { reading.hidden = true; }
       if (completion) { completion.hidden = true; }
       if (intro) { intro.hidden = false; }
-      if (timer) { timer.textContent = chosen.length === 4 ? 'Four pictures ready. Read one possible story.' : 'Choose four pictures to reveal a reading.'; }
+      if (timer) { timer.textContent = chosen.length === 4 ? 'Four pictures ready.' : 'Chosen ' + chosen.length + ' of 4. Go back to Panel Scramble to choose more.'; }
       paintSlots();
     }
 
