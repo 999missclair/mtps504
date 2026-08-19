@@ -124,12 +124,12 @@
   .citem.is-selected .citem__del { display:block; }
 
   .save-notice { color:var(--punch); font-size:var(--t-sm); margin-top:var(--s3); min-height:1.2em; }
-  .cb-brief { margin-bottom:var(--s5); padding:var(--s4) var(--s5); background:rgba(255,195,0,.18);
+  .cb-brief { margin-bottom:var(--s4); padding:var(--s3) var(--s4); background:rgba(255,195,0,.18);
     border:2px solid var(--ink); border-radius:var(--r-md); box-shadow:inset 6px 0 0 var(--sun); }
   .cb-brief:empty { display:none; }
   .cb-brief__label { margin:0 0 var(--s2); font-size:var(--t-xs); font-weight:800; text-transform:uppercase;
     letter-spacing:.08em; color:var(--slate); display:block; }
-  .cb-brief__line { margin:0; font-family:var(--font-display); font-weight:700; font-size:1.3rem;
+  .cb-brief__line { margin:0; font-family:var(--font-display); font-weight:700; font-size:1.05rem;
     line-height:1.25; letter-spacing:-0.01em; color:var(--ink); }
   .cb-brief input { width:100%; padding:var(--s3); font:inherit; color:var(--ink); background:#fff;
     border:2px solid var(--ink); border-radius:var(--r-sm); }
@@ -173,7 +173,6 @@
   <header class="page-header">
     <p class="phase-tag">Producing &#8212; the comic builder</p>
     <h1>Comic Builder</h1>
-    <p class="page-question">Build your four frames &#8212; drop in pictures, add short captions, and export your comic.</p>
   </header>
 
   <!-- CLASS PASSWORD GATE. Shown until unlocked. The tools call /api, which the server
@@ -202,12 +201,6 @@
          js/canvas.js fills it (or offers a paste box if they came straight in). -->
     <div id="cb-brief" class="cb-brief" aria-live="polite"></div>
 
-
-    <details class="card" style="margin-bottom:var(--s5)">
-      <summary>Practice only: animated GIFs and speech bubbles</summary>
-      <p>Animated GIFs and speech bubbles can help you test an idea in class. The comic you
-      download is still and has no character dialogue.</p>
-    </details>
 
     <p class="card small" id="guest-note" hidden><strong>Guest mode:</strong> use the class image
     bank or your own picture. GIF search needs the class password.</p>
@@ -310,6 +303,14 @@
         (<strong>Cmd+V</strong> on a Mac) &#8212; it drops straight into the active frame.</p>
       </div>
     </dialog>
+
+    <!-- Moved below the frames: it is an optional aside, and above the frames it
+         was part of the 593px that pushed the comic off the first screen. -->
+    <details class="card" style="margin:var(--s5) 0">
+      <summary>Practice only: animated GIFs and speech bubbles</summary>
+      <p>Animated GIFs and speech bubbles can help you test an idea in class. The comic you
+      download is still and has no character dialogue.</p>
+    </details>
 
     <section class="section" id="finish">
       <h2>Credits and download</h2>
