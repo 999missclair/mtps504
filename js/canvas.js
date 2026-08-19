@@ -929,7 +929,61 @@
   // first paint if already unlocked
   startCredits();
   if (pass) renderFrames();
-})();
+
+  /* Draws the four frames onto one canvas — the same picture the download makes.
+     Ported alongside the enhance preview so the model is sent exactly what the
+     student would hand in, not a second, differently-drawn version. */
+  function composeComic(done) {
+    var CELL_W = 600, CELL_H = 450, GAP = 18;
+    var W = CELL_W * 2 + GAP * 3, H = CELL_H * 2 + GAP * 3;
+    var cv = document.createElement('canvas'); cv.width = W; cv.height = H;
+    var ctx = cv.getContext('2d');
+    ctx.fillStyle = '#FFF9F0'; ctx.fillRect(0, 0, W, H);
+
+    // preload all image items, then draw everything in z-order
+    var imgItems = [];
+    comic.forEach(function (f) { f.items.forEach(function (it) { if (it.type === 'image') imgItems.push(it); }); });
+    var loaded = {}, pending = imgItems.length, anyFail = false;
+
+    function afterLoad() { try { draw(); } catch (e) { done(null, true); } }
+
+    if (pending === 0) afterLoad();
+    else imgItems.forEach(function (it) {
+      var im = new Image();
+      im.crossOrigin = 'anonymous';
+      im.onload = function () { loaded[it.id] = im; if (--pending === 0) afterLoad(); };
+      im.onerror = function () { anyFail = true; if (--pending === 0) afterLoad(); };
+      im.src = it.src;
+    });
+
+    function draw() {
+      for (var i = 0; i < NFRAMES; i++) {
+        var col = i % 2, row = Math.floor(i / 2);
+        var fx = GAP + col * (CELL_W + GAP), fy = GAP + row * (CELL_H + GAP);
+        ctx.fillStyle = '#FFF9F0'; ctx.fillRect(fx, fy, CELL_W, CELL_H);
+        ctx.strokeStyle = '#14141C'; ctx.lineWidth = 6; ctx.strokeRect(fx + 3, fy + 3, CELL_W - 6, CELL_H - 6);
+
+        var items = comic[i].items.slice().sort(function (a, b) { return a.z - b.z; });
+        items.forEach(function (it) {
+          var dx = fx + (it.x / 100) * CELL_W, dy = fy + (it.y / 100) * CELL_H;
+          var dw = (it.w / 100) * CELL_W, dh = (it.h / 100) * CELL_H;
+          if (it.type === 'image') {
+            var im = loaded[it.id];
+            if (im && im.width) {
+              var s = Math.min(dw / im.width, dh / im.height);
+              var iw = im.width * s, ih = im.height * s;
+              try { ctx.drawImage(im, dx + (dw - iw) / 2, dy + (dh - ih) / 2, iw, ih); } catch (e) { anyFail = true; }
+            }
+          } else {
+            drawBubble(ctx, it, dx, dy, dw, dh);
+          }
+        });
+      }
+      var url = null;
+      try { url = cv.toDataURL('image/png'); } catch (e) { url = null; }
+      done(url, anyFail);
+    }
+  }
 
   // ---- AI enhance preview (class password only) ---------------------------
   // Sends the SAME composed image the download makes, plus the rolled story,
@@ -992,3 +1046,4 @@
         });
     });
   });
+})();
