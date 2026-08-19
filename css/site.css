@@ -3388,6 +3388,7 @@ body.fit.has-drawer #post .final-padlet-frame { height: min(38vh, 20rem); }
 }
 .mood-chip[aria-pressed="true"] { background: var(--sun); box-shadow: 2px 2px 0 var(--ink); }
 .mood-chip[disabled] { opacity: .4; cursor: default; }
+.stim-chip.is-yours { background: var(--sun); }
 .stim-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s2); margin-top: var(--s3); }
 
 

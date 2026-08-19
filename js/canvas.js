@@ -152,34 +152,66 @@
   }); });
 
   // ---- gate ---------------------------------------------------------------
-  // The feeling and place picked on 3 Plan become one-tap searches here, so the
-  // planning step pays off instead of being a form they never see again.
-  function paintStimulus() {
-    var row = document.querySelector('[data-stim]');
-    var list = document.querySelector('[data-stim-chips]');
-    var input = document.getElementById('search-input');
-    var form = document.getElementById('search-form');
-    if (!row || !list || !input) { return; }
+  // Search words for the finder. A student's own choices from 3 Plan come first;
+  // if they skipped it, words from their rolled brief and a few starters take
+  // over, because an empty search box with no ideas is where a Year 8 stalls.
+  var STARTER_WORDS = ['surprised', 'confused', 'proud', 'annoyed', 'excited', 'lonely'];
+  var STOP_WORDS = ('a an the and or of in on at is are was were being their there they it its'
+    + ' with for to from by very only can be has have had that this these those something someone'
+    + ' everyone everything goes wrong about into over under across').split(' ');
+
+  function briefWords() {
+    var brief = null;
+    try { brief = JSON.parse(localStorage.getItem('ff-brief') || 'null'); } catch (e) {}
+    if (!brief) { return []; }
+    var text = [brief.character, brief.situation, brief.problem]
+      .filter(Boolean).join(' ') || brief.text || '';
+    return text.toLowerCase().replace(/[^a-z' ]+/g, ' ').split(/\s+/)
+      .filter(function (w) { return w.length > 3 && STOP_WORDS.indexOf(w) === -1; });
+  }
+
+  function searchWords() {
+    var words = [];
     var stim = null;
     try { stim = JSON.parse(localStorage.getItem('ff-stimulus') || 'null'); } catch (e) {}
-    var words = [];
     if (stim) {
       if (Array.isArray(stim.moods)) { words = words.concat(stim.moods); }
       if (stim.place) { words.push(stim.place); }
     }
-    words = words.filter(Boolean).slice(0, 4);
-    if (!words.length) { row.hidden = true; return; }
+    var fromPlan = words.length;
+    // Top up from the rolled brief, then from starters, without repeating.
+    briefWords().concat(STARTER_WORDS).forEach(function (w) {
+      if (words.length < 6 && words.indexOf(w) === -1) { words.push(w); }
+    });
+    return { words: words.filter(Boolean).slice(0, 6), fromPlan: fromPlan };
+  }
+
+  function paintStimulus() {
+    var row = document.querySelector('[data-stim]');
+    var list = document.querySelector('[data-stim-chips]');
+    var label = document.querySelector('[data-stim-label]');
+    var input = document.getElementById('search-input');
+    var form = document.getElementById('search-form');
+    if (!row || !list || !input) { return; }
+    var result = searchWords();
+    if (!result.words.length) { row.hidden = true; return; }
+    if (label) {
+      label.textContent = result.fromPlan ? 'From your plan:' : 'Try one of these:';
+    }
     list.innerHTML = '';
-    words.forEach(function (w) {
+    result.words.forEach(function (w, i) {
       var li = document.createElement('li');
       var b = document.createElement('button');
       b.type = 'button';
-      b.className = 'stim-chip';
+      b.className = 'stim-chip' + (i < result.fromPlan ? ' is-yours' : '');
       b.textContent = w;
       b.setAttribute('aria-label', 'Search for ' + w);
       b.addEventListener('click', function () {
         input.value = w;
-        if (form) { form.requestSubmit ? form.requestSubmit() : form.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true })); }
+        if (form) {
+          if (form.requestSubmit) { form.requestSubmit(); }
+          else { form.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true })); }
+        }
       });
       li.appendChild(b);
       list.appendChild(li);
