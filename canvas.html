@@ -275,6 +275,13 @@
             <input type="search" id="search-input" placeholder="Try: surprise" autocomplete="off">
             <button type="submit" class="btn-primary">Search</button>
           </form>
+          <!-- The feeling and place chosen on 3 Plan, as one-tap searches. Filled by
+               js/canvas.js from localStorage['ff-stimulus']; hidden if nothing was
+               chosen, so it never shows an empty row. -->
+          <div class="stim-row" data-stim hidden>
+            <p class="small" style="margin:0">From your plan:</p>
+            <ul class="stim-chips" data-stim-chips></ul>
+          </div>
           <p class="small" id="search-msg" aria-live="polite"></p>
           <fieldset class="motion">
             <legend>Final comic format</legend>

@@ -152,6 +152,41 @@
   }); });
 
   // ---- gate ---------------------------------------------------------------
+  // The feeling and place picked on 3 Plan become one-tap searches here, so the
+  // planning step pays off instead of being a form they never see again.
+  function paintStimulus() {
+    var row = document.querySelector('[data-stim]');
+    var list = document.querySelector('[data-stim-chips]');
+    var input = document.getElementById('search-input');
+    var form = document.getElementById('search-form');
+    if (!row || !list || !input) { return; }
+    var stim = null;
+    try { stim = JSON.parse(localStorage.getItem('ff-stimulus') || 'null'); } catch (e) {}
+    var words = [];
+    if (stim) {
+      if (Array.isArray(stim.moods)) { words = words.concat(stim.moods); }
+      if (stim.place) { words.push(stim.place); }
+    }
+    words = words.filter(Boolean).slice(0, 4);
+    if (!words.length) { row.hidden = true; return; }
+    list.innerHTML = '';
+    words.forEach(function (w) {
+      var li = document.createElement('li');
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'stim-chip';
+      b.textContent = w;
+      b.setAttribute('aria-label', 'Search for ' + w);
+      b.addEventListener('click', function () {
+        input.value = w;
+        if (form) { form.requestSubmit ? form.requestSubmit() : form.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true })); }
+      });
+      li.appendChild(b);
+      list.appendChild(li);
+    });
+    row.hidden = false;
+  }
+
   // Show the rolled story (from 2 Roll, via localStorage 'ff-brief') pinned at
   // the top, so the student always knows what goes in the four frames. If they
   // came straight here without rolling, offer a box to paste/type it.
@@ -257,6 +292,7 @@
     if (id === 'pick-bank') loadBank();
   }
   function openPicker() {
+    paintStimulus();
     if (!picker || !picker.showModal) { $('#add-pic').click(); return; } // no <dialog>? go straight to a file
     pickerOpener = document.activeElement;
     pickerFrameLabel();

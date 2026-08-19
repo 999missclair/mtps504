@@ -3371,3 +3371,21 @@ body.fit.has-drawer #post .final-padlet-frame { height: min(38vh, 20rem); }
 
 /* Tighter, more even spacing under a page's opening question. */
 .page-header .page-question { text-wrap: pretty; }
+
+
+/* ---- 3 Plan: feeling chips, and their echo in the Builder's finder ---- */
+.mood-chips, .stim-chips {
+  display: flex; flex-wrap: wrap; gap: var(--s2);
+  list-style: none; margin: var(--s2) 0 0; padding: 0;
+}
+.mood-chip, .stim-chip {
+  padding: var(--s2) var(--s3);
+  font: 700 var(--t-sm)/1 var(--font-body);
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.mood-chip[aria-pressed="true"] { background: var(--sun); box-shadow: 2px 2px 0 var(--ink); }
+.mood-chip[disabled] { opacity: .4; cursor: default; }
+.stim-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s2); margin-top: var(--s3); }

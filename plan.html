@@ -211,36 +211,42 @@
         </div>
       </section>
 
-      <section class="section" id="plan">
-        <h2>2 &#183; Plan your four beats</h2>
-        <p class="lead">Your rolled story is up the top. Now give it four beats &#8212;
-        one line each. Jot one line per frame &#8212; on paper or in your head &#8212; then go build.</p>
+      <!-- Step 2 replaces "plan four beats", which asked a Year 8 to write four
+           lines of story before they had any pictures. Choosing a feeling and a
+           place is concrete, quick, and — the point — it becomes the search terms
+           they use in the Comic Builder, so the planning does real work later. -->
+      <section class="section" id="mood">
+        <h2>2 &#183; Pick a feeling and a place</h2>
+        <p class="lead">You don't have to write the story yet. Just decide how it feels and where
+        it happens &#8212; that's what you'll go looking for pictures of.</p>
 
-        <div class="card plan-beats-card">
-          <h3>One line per frame</h3>
-          <ol class="plan-beats">
-            <li><strong>Frame 1 &#8212; Set-up</strong><span class="detail">Who, where, what&#8217;s
-            normal.</span></li>
-            <li><strong>Frame 2 &#8212; Build-up</strong><span class="detail">The problem shows
-            up.</span></li>
-            <li><strong>Frame 3 &#8212; Build-up</strong><span class="detail">It gets worse, or
-            it turns.</span></li>
-            <li><strong>Frame 4 &#8212; Punchline</strong><span class="detail">The payoff. The
-            funny one lands last.</span></li>
-          </ol>
-        </div>
-      </section>
+        <div class="card">
+          <h3>How does it feel?</h3>
+          <p class="small">Choose up to three.</p>
+          <ul class="mood-chips" data-mood-list>
+            <li><button type="button" class="mood-chip" data-mood>surprised</button></li>
+            <li><button type="button" class="mood-chip" data-mood>confused</button></li>
+            <li><button type="button" class="mood-chip" data-mood>proud</button></li>
+            <li><button type="button" class="mood-chip" data-mood>embarrassed</button></li>
+            <li><button type="button" class="mood-chip" data-mood>excited</button></li>
+            <li><button type="button" class="mood-chip" data-mood>annoyed</button></li>
+            <li><button type="button" class="mood-chip" data-mood>lonely</button></li>
+            <li><button type="button" class="mood-chip" data-mood>relieved</button></li>
+            <li><button type="button" class="mood-chip" data-mood>suspicious</button></li>
+            <li><button type="button" class="mood-chip" data-mood>delighted</button></li>
+            <li><button type="button" class="mood-chip" data-mood>worried</button></li>
+            <li><button type="button" class="mood-chip" data-mood>smug</button></li>
+          </ul>
 
-      <section class="section" id="check">
-        <h2>3 &#183; Set your shots</h2>
-        <p class="lead">Use at least two shot types. Change how close the camera is when the
-        reader needs to notice something new.</p>
-        <div class="shot-grid">
-          <article><h3>Wide</h3><p>Show the place and who is there.</p></article>
-          <article><h3>Mid</h3><p>Show the action or the problem.</p></article>
-          <article><h3>Close-up</h3><p>Show the clue, turn or reaction.</p></article>
+          <h3 style="margin-top:var(--s5)">Where does it happen?</h3>
+          <p class="small">One place. A library, a bus stop, a supermarket, a gallery, a kitchen &#8212;
+          anywhere you can picture.</p>
+          <p><input type="text" id="place-in" data-place placeholder="e.g. a wet bus stop"
+             autocomplete="off" style="max-width:24rem;width:100%"></p>
+
+          <p class="small" role="status" aria-live="polite" data-mood-note>Nothing chosen yet.</p>
+          <p class="small">These follow you into the Comic Builder as one-tap search words.</p>
         </div>
-        <p class="small">A useful start: wide in frame 1, then move closer when the unusual thing arrives.</p>
       </section>
 
       <section class="legacy-plan__source" id="preview" hidden>
@@ -394,11 +400,10 @@
   </a>
   <ul class="botnav__steps">
     <li><a class="step-pill" href="#structure" aria-current="step">1 Story structure</a></li>
-    <li><a class="step-pill" href="#plan">2 Plan four beats</a></li>
-    <li><a class="step-pill" href="#check">3 Set your shots</a></li>
+    <li><a class="step-pill" href="#mood">2 Feeling &amp; place</a></li>
   </ul>
   <p class="botnav__counter">
-    <span class="count">1 / 3</span>
+    <span class="count">1 / 2</span>
     <span class="name">Story structure</span>
   </p>
   <a class="btn-primary" href="canvas.html">Start building &#8594;</a>
@@ -414,6 +419,7 @@
 <script src="js/drawer.js" defer></script>
 <script src="js/ai.js" defer></script>
 <script src="js/brief.js" defer></script>
+<script src="js/stimulus.js" defer></script>
 <script src="js/route.js" defer></script>
 
 </body>
