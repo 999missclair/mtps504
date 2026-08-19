@@ -187,13 +187,22 @@
                 <li><strong>Title it with your rolled brief.</strong>
                   <span class="detail">Use your fictional character name and table code. Never
                   use the name of a student, teacher, friend or real person.</span></li>
-                <li><strong>Paste your four copied credit lines underneath</strong>
-                  <span class="detail">One per frame: title, creator, source and licence.</span></li>
+                <li><strong>Paste your four credit lines underneath</strong>
+                  <span class="detail">They are below, with a Copy button. One per frame: title, creator, source and licence.</span></li>
                 <li><strong>Add your comic description and one evaluation note</strong>
-                  <span class="detail">Paste the description from the Builder, then finish:
+                  <span class="detail">Your description is below with its own Copy button. Then finish:
                   <em>I learned my sequence or shot choice worked because…</em></span></li>
               </ol>
             </div>
+            <!-- Everything the student needs to paste, shown here rather than
+                 depending on the clipboard still holding what the Builder put in
+                 it two pages ago. Filled by js/carry.js from ff-brief,
+                 ff-credits and ff-comic-description. -->
+            <div class="carry" data-carry hidden>
+              <h3>Your work, ready to paste</h3>
+              <div data-carry-body></div>
+            </div>
+
             <div data-final-padlet-mount style="margin-top:var(--s5)"></div>
           </div>
         </div>
@@ -382,6 +391,7 @@
 <script src="js/drawer.js" defer></script>
 <script src="js/ai.js" defer></script>
 <script src="js/route.js" defer></script>
+<script src="js/carry.js" defer></script>
 <script src="js/submission.js" defer></script>
 
 </body>

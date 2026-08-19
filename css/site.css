@@ -3389,3 +3389,25 @@ body.fit.has-drawer #post .final-padlet-frame { height: min(38vh, 20rem); }
 .mood-chip[aria-pressed="true"] { background: var(--sun); box-shadow: 2px 2px 0 var(--ink); }
 .mood-chip[disabled] { opacity: .4; cursor: default; }
 .stim-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s2); margin-top: var(--s3); }
+
+
+/* ---- 5 Share: the student's own work, ready to paste ---- */
+.carry {
+  margin-top: var(--s5);
+  padding: var(--s4);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  background: #FFF3D6;
+}
+.carry h3 { margin: 0 0 var(--s3); }
+.carry__block + .carry__block { margin-top: var(--s4); padding-top: var(--s4); border-top: 2px solid var(--ink); }
+.carry__block h4 { margin: 0 0 var(--s2); font-family: var(--font-display); }
+.carry__text {
+  margin: 0 0 var(--s2);
+  padding: var(--s3);
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
