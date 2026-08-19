@@ -286,6 +286,20 @@ a:hover { text-decoration-thickness: 2px; }
   border-radius: var(--r-sm);
 }
 
+/* The one deliberate exception to the no-outline rule, and why it is safe.
+   steps.js moves focus to the step heading so a screen reader announces where
+   it landed. Chrome matches :focus-visible on a script-focused tabindex="-1"
+   element, so a sighted student saw a loud ring drawn around a heading they
+   never interacted with. A heading used as an announce target is not a control,
+   so WCAG 2.4.7 (Focus Visible) does not apply to it — it applies to things you
+   operate. Every actual control keeps its full two-tone ring. */
+h1[tabindex="-1"]:focus-visible,
+h2[tabindex="-1"]:focus-visible,
+h3[tabindex="-1"]:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
 /* On the Ink bar the rings swap order so the Ink edge stays visible. */
 .topnav :focus-visible {
   outline: 2px solid var(--sun);
@@ -2844,6 +2858,10 @@ body.fit.has-drawer .rail-scrim {
 body.fit.has-drawer .rail-scrim.is-open { opacity: 1; pointer-events: auto; }
 
 /* the drawer toggle — pinned above the bottom bar, left side (clear of the → button) */
+/* Reserve the toggle's footprint so a step that does overflow never runs its
+   text underneath the floating Stuck? button. */
+body.fit.has-drawer .step-panel,
+body.fit.has-drawer .section { scroll-padding-bottom: 4rem; }
 body.fit.has-drawer .rail-toggle {
   position: fixed;
   left: var(--s4);
@@ -2971,16 +2989,36 @@ body.fit.has-drawer .rail__close { display: block; }
 .brief-mascot figcaption { margin-top: var(--s2); font-size: var(--t-sm); color: var(--slate); }
 /* The "You will / You have" block. The mascot is decorative, so it sits loose in
    the white space beside the lists rather than boxed up like a resource card. */
-.brief-overview-grid--open { align-items: center; }
+.brief-overview-grid--open {
+  grid-template-columns: 1fr 1fr minmax(0, 0.9fr);
+  align-items: start;
+  gap: var(--s4) var(--s5);
+}
 .brief-mascot-art {
   width: 100%;
-  max-width: 22rem;
+  max-width: 16rem;
   height: auto;
-  justify-self: center;
+  align-self: center;
+  justify-self: end;
   mix-blend-mode: multiply;
 }
+/* Below the two-column breakpoint the lists stack and the mascot goes. */
+@media (max-width: 60rem) {
+  .brief-overview-grid--open { grid-template-columns: 1fr 1fr; }
+  .brief-mascot-art { display: none; }
+}
+@media (max-width: 40rem) {
+  .brief-overview-grid--open { grid-template-columns: 1fr; }
+}
+.brief-you {
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  padding: var(--s4);
+  background: var(--paper);
+}
+.brief-you h3 { margin: 0 0 var(--s2); }
 .brief-list {
-  margin: var(--s2) 0 0;
+  margin: 0;
   padding-left: 1.1em;
 }
 .brief-list li { margin-bottom: var(--s2); }

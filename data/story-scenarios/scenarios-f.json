@@ -10,14 +10,14 @@
     "b",
     "c"
    ],
-   "title": "The cloud needs a runway",
+   "title": "Puff needs a runway",
    "beats": [
     "Puff drifted quietly inside a fishbowl at the bus stop, waiting for a bus.",
     "Brolly stood open on the art-room table, right beneath the window.",
     "Womby rolled through the supermarket on the red skateboard, keeping one eye on the orange.",
     "Pip zoomed through the library, proving Puff had used Brolly as a launch runway."
    ],
-   "readerQuestion": "Why was the umbrella open indoors?"
+   "readerQuestion": "Why was Brolly left open indoors?"
   },
   {
    "key": "f,a,b,d",
@@ -27,14 +27,14 @@
     "b",
     "d"
    ],
-   "title": "The cloud gets a portrait",
+   "title": "Puff gets a portrait",
    "beats": [
     "Puff drifted quietly inside a fishbowl at the bus stop, waiting for a bus.",
     "Brolly waited open on the art-room table, expecting weather that never came.",
     "Womby rode through the supermarket on the red skateboard, keeping pace with the orange.",
     "Nova painted at the table, and Brolly had been catching a cloud for the picture."
    ],
-   "readerQuestion": "What will the astronaut paint next?"
+   "readerQuestion": "What will Nova paint next in the story?"
   },
   {
    "key": "f,a,b,e",
@@ -44,14 +44,14 @@
     "b",
     "e"
    ],
-   "title": "The moon cover",
+   "title": "Milo's cover",
    "beats": [
     "Puff drifted quietly inside a fishbowl at the bus stop, waiting for a bus.",
     "Brolly sat open on the art-room table, taking up far too much space.",
     "Womby skateboarded down the supermarket aisle beside one very patient orange.",
     "Milo carried the cardboard moon through the rain, and Brolly had only ever been a prop."
    ],
-   "readerQuestion": "Which weather prop belongs with the cardboard moon?"
+   "readerQuestion": "Which weather prop belongs with Milo's moon?"
   },
   {
    "key": "f,a,c,b",
@@ -61,14 +61,14 @@
     "c",
     "b"
    ],
-   "title": "The library forecast",
+   "title": "Pip's library forecast",
    "beats": [
     "A fishbowl waited at the bus stop with Puff curled up inside it.",
     "Brolly sat open on the art-room table, ready for indoor rain.",
     "Pip flew through the library carrying one single drop of water on its wing.",
     "Womby rolled past the orange in a yellow raincoat, because the forecast had arrived early."
    ],
-   "readerQuestion": "Why is the wombat wearing a raincoat indoors?"
+   "readerQuestion": "Why is Womby wearing a raincoat indoors?"
   },
   {
    "key": "f,a,c,d",
@@ -78,14 +78,14 @@
     "c",
     "d"
    ],
-   "title": "A cloud-study flight",
+   "title": "Pip studies Puff",
    "beats": [
     "At the bus stop, Puff floated inside a fishbowl like a very small weather report.",
     "Brolly stood open on the art-room table, shading absolutely nothing.",
     "Pip looped through the library, trailing a small cloudy streak behind it.",
     "Nova painted at the table, and Pip had been tracing that exact cloud shape."
    ],
-   "readerQuestion": "What shape did the plane trace?"
+   "readerQuestion": "What shape did Pip trace in the sky?"
   },
   {
    "key": "f,a,c,e",
@@ -95,7 +95,7 @@
     "c",
     "e"
    ],
-   "title": "The moon catches the weather",
+   "title": "Milo catches the weather",
    "beats": [
     "A fishbowl sat beside the bus stop with Puff drifting slowly inside.",
     "Brolly sat open on the art-room table, taking up far too much space.",
@@ -112,14 +112,14 @@
     "d",
     "b"
    ],
-   "title": "The astronaut's weather test",
+   "title": "Nova's weather test",
    "beats": [
     "A fishbowl sat at the bus stop, holding Puff and nothing else.",
     "Brolly waited open on the art-room table, patient as ever.",
     "Nova painted a cloud that promptly began spilling over the edge of the table.",
     "Womby rolled in wearing the yellow raincoat, the only one prepared for a spill."
    ],
-   "readerQuestion": "What does the raincoat tell you about the astronaut's painting?"
+   "readerQuestion": "What does the raincoat tell you about Nova's painting?"
   },
   {
    "key": "f,a,d,c",
@@ -129,14 +129,14 @@
     "d",
     "c"
    ],
-   "title": "The astronaut's paper weather",
+   "title": "Nova's paper weather",
    "beats": [
     "A fishbowl waited at the bus stop with Puff floating gently inside.",
     "Brolly stood open on the art-room table, shading absolutely nothing.",
     "Nova painted a gust, and every loose sheet on the table lifted at once.",
     "Pip zipped through the library, launched by Nova's painted weather."
    ],
-   "readerQuestion": "Which frame makes the paper plane surprising?"
+   "readerQuestion": "Which picture makes Pip so surprising?"
   },
   {
    "key": "f,a,d,e",
@@ -146,7 +146,7 @@
     "d",
     "e"
    ],
-   "title": "Painting a tram-stop sky",
+   "title": "Painting Milo's sky",
    "beats": [
     "A fishbowl held Puff at the bus stop, quiet and slightly foggy.",
     "Brolly sat open on the art-room table, taking up far too much space.",
@@ -163,14 +163,14 @@
     "e",
     "b"
    ],
-   "title": "A moon for the cloud",
+   "title": "A moon for Puff",
    "beats": [
     "A fishbowl was left at the bus stop with Puff still inside.",
     "Brolly waited open on the art-room table, hoping something interesting would happen.",
     "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
     "Womby rolled past with the orange, which was the tiny sun for Milo's cardboard moon."
    ],
-   "readerQuestion": "Why does the orange make the cardboard moon funnier?"
+   "readerQuestion": "Why does the orange make Milo's moon funnier?"
   },
   {
    "key": "f,a,e,c",
@@ -180,14 +180,14 @@
     "e",
     "c"
    ],
-   "title": "The moon's umbrella flight",
+   "title": "Milo's umbrella flight",
    "beats": [
     "A fishbowl waited at the bus stop, Puff drifting inside it.",
     "Brolly stood open on the art-room table, shading absolutely nothing.",
     "Milo reached the wet tram stop, still holding the oversized cardboard moon steady.",
     "Pip flew through the library, carrying Brolly off towards the moon scene."
    ],
-   "readerQuestion": "What has the paper aeroplane delivered?"
+   "readerQuestion": "What has Pip delivered so far?"
   },
   {
    "key": "f,a,e,d",
@@ -197,7 +197,7 @@
     "e",
     "d"
    ],
-   "title": "A painted moon forecast",
+   "title": "Nova's moon forecast",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Brolly stood open on the art-room table, shading absolutely nothing.",
@@ -214,14 +214,14 @@
     "a",
     "c"
    ],
-   "title": "The wombat's cloud parcel",
+   "title": "Womby's cloud parcel",
    "beats": [
     "A fishbowl waited at the bus stop with Puff curled up inside it.",
     "Womby rode the red skateboard through the supermarket beside one orange.",
     "Womby opened Brolly on the art-room table, and the cloud began raining upwards.",
     "Pip flew through the library, collecting every upward raindrop as it went."
    ],
-   "readerQuestion": "Why is the paper aeroplane flying through the library?"
+   "readerQuestion": "Why is Pip flying through the library?"
   },
   {
    "key": "f,b,a,d",
@@ -231,14 +231,14 @@
     "a",
     "d"
    ],
-   "title": "Raincoat model",
+   "title": "Womby's raincoat",
    "beats": [
     "A fishbowl waited at the bus stop, Puff drifting inside it.",
     "Womby rolled the red skateboard past an orange in the supermarket, going slowly.",
     "Brolly opened on the art-room table and caught a cloud-shadow instead of rain.",
     "Nova painted at the table, using Womby's yellow raincoat as the model."
    ],
-   "readerQuestion": "What detail did the astronaut borrow from the wombat?"
+   "readerQuestion": "What did Nova borrow from Womby?"
   },
   {
    "key": "f,b,a,e",
@@ -248,7 +248,7 @@
     "a",
     "e"
    ],
-   "title": "The orange moon substitute",
+   "title": "Womby's moon substitute",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Womby rode the red skateboard beside an orange, taking the supermarket aisle slowly.",
@@ -265,14 +265,14 @@
     "c",
     "a"
    ],
-   "title": "A raincoat for the library",
+   "title": "Womby visits the library",
    "beats": [
     "A fishbowl sat at the bus stop with Puff drifting inside.",
     "Womby rode the red skateboard through the supermarket beside one orange.",
     "Pip flew through the library, leaving a cloud-shaped trail behind it.",
     "Brolly opened on the art-room table, exactly where Pip had been planning to land."
    ],
-   "readerQuestion": "Why does the plane need an umbrella landing pad?"
+   "readerQuestion": "Why does Pip need an umbrella landing pad?"
   },
   {
    "key": "f,b,c,d",
@@ -282,7 +282,7 @@
     "c",
     "d"
    ],
-   "title": "The wombat's flying sketch",
+   "title": "Womby's flying sketch",
    "beats": [
     "A fishbowl waited at the bus stop, Puff fogging up the glass.",
     "Womby skateboarded through the supermarket beside one orange, taking the corners gently.",
@@ -299,7 +299,7 @@
     "c",
     "e"
    ],
-   "title": "The supermarket moon flight",
+   "title": "Milo's supermarket flight",
    "beats": [
     "A fishbowl held Puff at the bus stop, waiting patiently.",
     "Womby rolled the red skateboard beside an orange in the supermarket.",
@@ -316,14 +316,14 @@
     "d",
     "a"
    ],
-   "title": "The astronaut borrows a raincoat",
+   "title": "Nova borrows a raincoat",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Womby passed an orange in the supermarket, riding the red skateboard as usual.",
     "Nova painted rain across the art table until the paint turned into an actual puddle.",
     "Brolly opened over the table, which explained why Womby had dressed for rain."
    ],
-   "readerQuestion": "What changed the painted rain into a problem?"
+   "readerQuestion": "What turned Nova's painted rain into a problem?"
   },
   {
    "key": "f,b,d,c",
@@ -333,14 +333,14 @@
     "d",
     "c"
    ],
-   "title": "The painted launch",
+   "title": "Nova's painted launch",
    "beats": [
     "A fishbowl sat at the bus stop, holding Puff quietly.",
     "Womby rode the red skateboard through the supermarket beside one orange.",
     "Nova painted a strong gust right across the art table.",
     "Pip flew through the library, launched by Nova's painted gust."
    ],
-   "readerQuestion": "What caused the paper aeroplane to move?"
+   "readerQuestion": "What made Pip start flying in the first place?"
   },
   {
    "key": "f,b,d,e",
@@ -350,14 +350,14 @@
     "d",
     "e"
    ],
-   "title": "The astronaut's wet moon",
+   "title": "Nova's wet moon",
    "beats": [
     "A fishbowl waited by the bus stop with Puff inside.",
     "Womby rode the red skateboard beside an orange, taking the supermarket aisle slowly.",
     "Nova painted a moon, and it immediately started dripping rain down the page.",
     "Milo carried the cardboard moon through real rain, because Nova had painted it far too accurately."
    ],
-   "readerQuestion": "Why is the tram stop wet?"
+   "readerQuestion": "Why is the tram stop wet in this story?"
   },
   {
    "key": "f,b,e,a",
@@ -367,14 +367,14 @@
     "e",
     "a"
    ],
-   "title": "The moon's tiny umbrella",
+   "title": "Milo's tiny umbrella",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Womby skateboarded through the supermarket beside one orange, taking the corners gently.",
     "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
     "Brolly opened on the art-room table, with the orange sitting underneath as a tiny moon."
    ],
-   "readerQuestion": "What makes the umbrella seem giant in the last frame?"
+   "readerQuestion": "What makes Brolly seem giant in the last picture?"
   },
   {
    "key": "f,b,e,c",
@@ -384,14 +384,14 @@
     "e",
     "c"
    ],
-   "title": "A paper plane for the moon",
+   "title": "A plane for Milo",
    "beats": [
     "A fishbowl waited at the bus stop, Puff turning slowly inside.",
     "Womby rode the red skateboard beside an orange through the supermarket.",
     "Milo carried the oversized cardboard moon into the wet tram stop, shoulders already aching.",
     "Pip flew through the library, heading straight for Milo's cardboard moon."
    ],
-   "readerQuestion": "What might the paper aeroplane carry to the moon?"
+   "readerQuestion": "What might Pip carry to Milo?"
   },
   {
    "key": "f,b,e,d",
@@ -401,14 +401,14 @@
     "e",
     "d"
    ],
-   "title": "The moon rehearsal painting",
+   "title": "Milo's rehearsal painting",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Womby rolled the red skateboard beside an orange in the supermarket.",
     "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
     "Nova painted at the art table, and the whole rainy moon trip had been rehearsal."
    ],
-   "readerQuestion": "Which prop helps the astronaut plan the painting?"
+   "readerQuestion": "Which prop helps Nova plan the painting?"
   },
   {
    "key": "f,c,a,b",
@@ -418,14 +418,14 @@
     "a",
     "b"
    ],
-   "title": "The umbrella air mail",
+   "title": "Brolly's air mail",
    "beats": [
     "A fishbowl waited at the bus stop with Puff curled up inside it.",
     "Pip flew a lazy lap through the library, in no hurry at all.",
     "Brolly opened on the art-room table and caught Pip, who was carrying one cloud-drop.",
     "Womby rolled past the orange in the yellow raincoat, exactly right for a damp delivery."
    ],
-   "readerQuestion": "What did the paper aeroplane deliver?"
+   "readerQuestion": "What did Pip deliver in the end?"
   },
   {
    "key": "f,c,a,d",
@@ -435,14 +435,14 @@
     "a",
     "d"
    ],
-   "title": "The umbrella flight study",
+   "title": "Brolly's flight study",
    "beats": [
     "A fishbowl sat beside the bus stop with Puff drifting inside.",
     "Pip flew a lazy lap through the library, in no hurry at all.",
     "Brolly sat open on the table and pulled Pip down like a very polite magnet.",
     "Nova painted at the table, testing Brolly and Pip for a space-weather picture."
    ],
-   "readerQuestion": "What is the astronaut testing?"
+   "readerQuestion": "What is Nova testing with her painting?"
   },
   {
    "key": "f,c,a,e",
@@ -452,14 +452,14 @@
     "a",
     "e"
    ],
-   "title": "The umbrella moon landing",
+   "title": "Brolly's moon landing",
    "beats": [
     "A fishbowl sat at the bus stop, holding Puff and nothing else.",
     "Pip flew a lazy lap through the library, in no hurry at all.",
     "Brolly opened on the art-room table, and Pip landed neatly on its curved surface.",
     "Milo carried the cardboard moon at the wet tram stop, and that landing had been practice."
    ],
-   "readerQuestion": "Why does the umbrella look like a moon surface?"
+   "readerQuestion": "Why does Brolly look like a moon surface?"
   },
   {
    "key": "f,c,b,a",
@@ -469,14 +469,14 @@
     "b",
     "a"
    ],
-   "title": "A skateboarding weather report",
+   "title": "Womby's weather report",
    "beats": [
     "A fishbowl held Puff at the bus stop, waiting patiently.",
     "Pip flew a lazy lap through the library, in no hurry at all.",
     "Womby rode past the orange while a small cloud gathered above the supermarket aisle.",
     "Brolly opened on the art-room table, waiting patiently for Womby's weather report."
    ],
-   "readerQuestion": "What tells you the wombat brought weather inside?"
+   "readerQuestion": "What tells you Womby brought weather inside?"
   },
   {
    "key": "f,c,b,d",
@@ -486,14 +486,14 @@
     "b",
     "d"
    ],
-   "title": "The flying orange sketch",
+   "title": "Womby's orange sketch",
    "beats": [
     "A fishbowl waited at the bus stop with Puff curled up inside it.",
     "Pip flew a lazy lap through the library, in no hurry at all.",
     "Womby balanced the supermarket orange right on Pip's paper nose.",
     "Nova painted at the art table, where the flying orange was the newest sketch."
    ],
-   "readerQuestion": "Which detail turns the plane into a sketch idea?"
+   "readerQuestion": "Which detail turns Pip into a sketch idea?"
   },
   {
    "key": "f,c,b,e",
@@ -503,14 +503,14 @@
     "b",
     "e"
    ],
-   "title": "The tiny moon takes off",
+   "title": "Milo takes off",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Pip flew a lazy lap through the library, in no hurry at all.",
     "Womby sent the red skateboard rolling after a runaway orange down the supermarket aisle.",
     "Milo carried the cardboard moon through the rain, and the orange had been its tiny twin."
    ],
-   "readerQuestion": "Which two objects make the moon joke?"
+   "readerQuestion": "Which two objects make Milo's joke work?"
   },
   {
    "key": "f,c,d,a",
@@ -520,7 +520,7 @@
     "d",
     "a"
    ],
-   "title": "The astronaut's paper storm",
+   "title": "Nova's paper storm",
    "beats": [
     "A fishbowl waited at the bus stop with Puff curled up inside it.",
     "Pip flew a lazy lap through the library, in no hurry at all.",
@@ -537,14 +537,14 @@
     "d",
     "b"
    ],
-   "title": "The astronaut's raincoat test",
+   "title": "Nova's raincoat test",
    "beats": [
     "A fishbowl waited at the bus stop with Puff inside, softly grey.",
     "Pip flew a lazy lap through the library, in no hurry at all.",
     "Nova painted rain straight onto Pip's paper wings, which seemed slightly unfair.",
     "Womby rolled past the orange in the yellow raincoat, the only rain-proof helper available."
    ],
-   "readerQuestion": "Why is the wombat the right helper?"
+   "readerQuestion": "Why is Womby the right helper here?"
   },
   {
    "key": "f,c,d,e",
@@ -554,14 +554,14 @@
     "d",
     "e"
    ],
-   "title": "A moon painted from paper",
+   "title": "A paper moon",
    "beats": [
     "A fishbowl sat beside the bus stop with Puff drifting inside.",
     "Pip flew a lazy lap through the library, in no hurry at all.",
     "Nova painted Pip's shadow until it turned into a proper moon shape.",
     "Milo carried the cardboard moon at the wet tram stop, built straight from that shadow."
    ],
-   "readerQuestion": "How did a plane shadow become a moon?"
+   "readerQuestion": "How did Pip's shadow turn into a moon?"
   },
   {
    "key": "f,c,e,a",
@@ -571,14 +571,14 @@
     "e",
     "a"
    ],
-   "title": "The paper plane's moon stop",
+   "title": "Pip's moon stop",
    "beats": [
     "A fishbowl sat at the bus stop, holding Puff and nothing else.",
     "Pip flew a lazy lap through the library, in no hurry at all.",
     "Milo carried the oversized cardboard moon into the wet tram stop, shoulders already aching.",
     "Brolly opened on the art-room table, Pip's next stop after the moon."
    ],
-   "readerQuestion": "What makes the umbrella seem like a destination?"
+   "readerQuestion": "What makes Brolly seem like a destination?"
   },
   {
    "key": "f,c,e,b",
@@ -588,14 +588,14 @@
     "e",
     "b"
    ],
-   "title": "The moon's supermarket route",
+   "title": "Milo's supermarket route",
    "beats": [
     "A fishbowl held Puff at the bus stop, waiting patiently.",
     "Pip flew a lazy lap through the library, in no hurry at all.",
     "Milo carried the oversized cardboard moon at the wet tram stop, arms getting tired.",
     "Womby rolled past the orange in the supermarket, using it as the moon's route marker."
    ],
-   "readerQuestion": "Why does the orange link to the cardboard moon?"
+   "readerQuestion": "Why does the orange link to Milo's moon?"
   },
   {
    "key": "f,c,e,d",
@@ -605,14 +605,14 @@
     "e",
     "d"
    ],
-   "title": "The moon-message painting",
+   "title": "Milo's message painting",
    "beats": [
     "A fishbowl waited at the bus stop with Puff curled up inside it.",
     "Pip flew a lazy lap through the library, in no hurry at all.",
     "Milo carried the oversized cardboard moon at the wet tram stop, arms getting tired.",
     "Nova painted at the art table, where Pip had just delivered the moon sketch."
    ],
-   "readerQuestion": "What did the paper aeroplane bring to the astronaut?"
+   "readerQuestion": "What did Pip bring to Nova?"
   },
   {
    "key": "f,d,a,b",
@@ -622,14 +622,14 @@
     "a",
     "b"
    ],
-   "title": "The astronaut paints a raincoat",
+   "title": "Nova paints a raincoat",
    "beats": [
     "A fishbowl waited at the bus stop with Puff curled up inside it.",
     "Nova painted quietly at the art table, sleeves already covered in silver.",
     "Brolly opened over Nova's paint, and the cloud floated straight up into it.",
     "Womby rolled past the orange wearing the yellow raincoat Nova had just finished designing."
    ],
-   "readerQuestion": "Why did the astronaut need an umbrella?"
+   "readerQuestion": "Why did Nova need an umbrella at all?"
   },
   {
    "key": "f,d,a,c",
@@ -639,14 +639,14 @@
     "a",
     "c"
    ],
-   "title": "The painted umbrella launch",
+   "title": "Brolly's painted launch",
    "beats": [
     "A fishbowl held Puff at the bus stop, waiting patiently.",
     "Nova painted quietly at the art table, sleeves already covered in silver.",
     "Brolly opened beside the paint and caught a sudden gust of cloud.",
     "Pip flew through the library, given a decent launch by that gust."
    ],
-   "readerQuestion": "What launched the paper aeroplane?"
+   "readerQuestion": "What launched Pip into the air?"
   },
   {
    "key": "f,d,a,e",
@@ -656,7 +656,7 @@
     "a",
     "e"
    ],
-   "title": "The astronaut's wet moon model",
+   "title": "Nova's wet moon model",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Nova painted quietly at the art table, sleeves already covered in silver.",
@@ -673,14 +673,14 @@
     "b",
     "a"
    ],
-   "title": "The astronaut's supermarket storm",
+   "title": "Nova's supermarket storm",
    "beats": [
     "A fishbowl waited at the bus stop with Puff curled up inside it.",
     "Nova painted quietly at the art table, sleeves already covered in silver.",
     "Womby rolled through the supermarket while a painted cloud rained gently on the orange.",
     "Brolly opened on the art-room table, which explained exactly where that rain came from."
    ],
-   "readerQuestion": "What connects the supermarket rain to the art table?"
+   "readerQuestion": "What connects the supermarket rain to Nova's table?"
   },
   {
    "key": "f,d,b,c",
@@ -690,7 +690,7 @@
     "b",
     "c"
    ],
-   "title": "The orange flight plan",
+   "title": "Womby's flight plan",
    "beats": [
     "A fishbowl held Puff at the bus stop, waiting patiently.",
     "Nova painted quietly at the art table, sleeves already covered in silver.",
@@ -707,7 +707,7 @@
     "b",
     "e"
    ],
-   "title": "The astronaut's moon delivery",
+   "title": "Nova's moon delivery",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Nova painted quietly at the art table, sleeves already covered in silver.",
@@ -724,14 +724,14 @@
     "c",
     "a"
    ],
-   "title": "The astronaut's library umbrella",
+   "title": "Nova's library umbrella",
    "beats": [
     "A fishbowl waited at the bus stop with Puff curled up inside it.",
     "Nova painted quietly at the art table, sleeves already covered in silver.",
     "Pip flew through the library, trailing paint that gathered itself into a cloud.",
     "Brolly opened on the art-room table, catching Nova's flying paint cloud."
    ],
-   "readerQuestion": "What is the umbrella catching?"
+   "readerQuestion": "What is Brolly catching in the picture?"
   },
   {
    "key": "f,d,c,b",
@@ -741,14 +741,14 @@
     "c",
     "b"
    ],
-   "title": "The painted library delivery",
+   "title": "Nova's library delivery",
    "beats": [
     "A fishbowl held Puff at the bus stop, waiting patiently.",
     "Nova painted quietly at the art table, sleeves already covered in silver.",
     "Pip flew through the library with a painted orange circle on one wing.",
     "Womby rolled past the orange in the supermarket, the idea Pip had just delivered."
    ],
-   "readerQuestion": "Which object is repeated from the plane to the supermarket?"
+   "readerQuestion": "Which object repeats between Pip's picture and the supermarket?"
   },
   {
    "key": "f,d,c,e",
@@ -758,14 +758,14 @@
     "c",
     "e"
    ],
-   "title": "The astronaut's moon mail",
+   "title": "Nova's moon mail",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Nova painted quietly at the art table, sleeves already covered in silver.",
     "Pip flew through the library carrying a slightly wet moon drawing.",
     "Milo carried the cardboard moon at the wet tram stop, the drawing turned real."
    ],
-   "readerQuestion": "What did the paper aeroplane deliver?"
+   "readerQuestion": "What did Pip deliver in the end?"
   },
   {
    "key": "f,d,e,a",
@@ -775,14 +775,14 @@
     "e",
     "a"
    ],
-   "title": "The umbrella moon painting",
+   "title": "Brolly's moon painting",
    "beats": [
     "A fishbowl waited at the bus stop, Puff turning slowly inside.",
     "Nova painted quietly at the art table, sleeves already covered in silver.",
     "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
     "Brolly opened on the art-room table, holding up Nova's moon model like a stand."
    ],
-   "readerQuestion": "What turns the umbrella into an art tool?"
+   "readerQuestion": "What turns Brolly into an art tool?"
   },
   {
    "key": "f,d,e,b",
@@ -792,14 +792,14 @@
     "e",
     "b"
    ],
-   "title": "The raincoat moon rehearsal",
+   "title": "Womby's moon rehearsal",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Nova painted quietly at the art table, sleeves already covered in silver.",
     "Milo carried the oversized cardboard moon at the wet tram stop, arms getting tired.",
     "Womby rolled past the orange in the supermarket, where the moon scene got its tiny rehearsal."
    ],
-   "readerQuestion": "Which tiny object copies the cardboard moon?"
+   "readerQuestion": "Which tiny object copies Milo's moon?"
   },
   {
    "key": "f,d,e,c",
@@ -809,14 +809,14 @@
     "e",
     "c"
    ],
-   "title": "The moon sends a sketch",
+   "title": "Milo sends a sketch",
    "beats": [
     "A fishbowl waited at the bus stop with Puff inside, softly grey.",
     "Nova painted quietly at the art table, sleeves already covered in silver.",
     "Milo carried the huge cardboard moon through the wet tram stop, dodging every puddle.",
     "Pip flew through the library, carrying Nova's moon sketch on ahead."
    ],
-   "readerQuestion": "Where is the paper aeroplane taking the sketch?"
+   "readerQuestion": "Where is Pip taking the sketch?"
   },
   {
    "key": "f,e,a,b",
@@ -826,14 +826,14 @@
     "a",
     "b"
    ],
-   "title": "The moon's weather rehearsal",
+   "title": "Milo's weather rehearsal",
    "beats": [
     "A fishbowl waited at the bus stop with Puff curled up inside it.",
     "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
     "Brolly opened on the art-room table, and the cloud settled underneath like a tiny storm.",
     "Womby rolled past the orange in the supermarket, the moon's smaller, rounder rehearsal."
    ],
-   "readerQuestion": "What makes the orange part of the moon rehearsal?"
+   "readerQuestion": "What makes the orange part of Milo's rehearsal?"
   },
   {
    "key": "f,e,a,c",
@@ -843,7 +843,7 @@
     "a",
     "c"
    ],
-   "title": "The moon's umbrella message",
+   "title": "Milo's umbrella message",
    "beats": [
     "A fishbowl held Puff at the bus stop, waiting patiently.",
     "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
@@ -860,14 +860,14 @@
     "a",
     "d"
    ],
-   "title": "The moon model catches weather",
+   "title": "Milo's model catches weather",
    "beats": [
     "A fishbowl waited by the bus stop with Puff inside.",
     "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
     "Brolly opened on the table and caught a cloud-shadow shaped exactly like the moon.",
     "Nova painted at the table, using Milo's moon and Brolly as a weather study."
    ],
-   "readerQuestion": "What is the astronaut studying with the moon model?"
+   "readerQuestion": "What is Nova studying with the moon model?"
   },
   {
    "key": "f,e,b,a",
@@ -877,7 +877,7 @@
     "b",
     "a"
    ],
-   "title": "The moon's supermarket weather",
+   "title": "Milo's supermarket weather",
    "beats": [
     "A fishbowl held Puff at the bus stop, waiting patiently.",
     "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
@@ -894,14 +894,14 @@
     "b",
     "c"
    ],
-   "title": "The moon's orange flight",
+   "title": "Milo's orange flight",
    "beats": [
     "A fishbowl waited at the bus stop with Puff curled up inside it.",
     "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
     "Womby rode past the orange, which rolled neatly into a paper aeroplane's flight path.",
     "Pip flew through the library, carrying that tiny moon-orange carefully on one wing."
    ],
-   "readerQuestion": "Which object becomes a tiny moon?"
+   "readerQuestion": "Which object becomes a tiny moon here?"
   },
   {
    "key": "f,e,b,d",
@@ -911,14 +911,14 @@
     "b",
     "d"
    ],
-   "title": "The moon rehearsal becomes art",
+   "title": "Milo's rehearsal becomes art",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
     "Womby skateboarded past the orange while rain started falling above the supermarket aisle.",
     "Nova painted at the art table, where that odd supermarket scene was the moon rehearsal."
    ],
-   "readerQuestion": "Which frame recontextualises the supermarket rain?"
+   "readerQuestion": "Which picture explains the supermarket rain?"
   },
   {
    "key": "f,e,c,a",
@@ -928,14 +928,14 @@
     "c",
     "a"
    ],
-   "title": "The moon's paper landing",
+   "title": "Milo's paper landing",
    "beats": [
     "A fishbowl waited at the bus stop, Puff turning slowly inside.",
     "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
     "Pip flew through the library and circled Milo's cardboard moon twice.",
     "Brolly opened on the art-room table, a soft landing surface for one cardboard moon."
    ],
-   "readerQuestion": "Why does the umbrella make a good moon landing?"
+   "readerQuestion": "Why does Brolly make a good moon landing?"
   },
   {
    "key": "f,e,c,b",
@@ -945,7 +945,7 @@
     "c",
     "b"
    ],
-   "title": "The moon's paper courier",
+   "title": "Milo's paper courier",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
@@ -962,14 +962,14 @@
     "c",
     "d"
    ],
-   "title": "The moon sketch flies home",
+   "title": "Milo's sketch flies home",
    "beats": [
     "A fishbowl waited by the bus stop with Puff inside.",
     "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
     "Pip flew through the library with a moon shape drawn neatly on one wing.",
     "Nova painted at the art table, where Pip had brought the moon back as a sketch."
    ],
-   "readerQuestion": "What did the astronaut receive from the paper aeroplane?"
+   "readerQuestion": "What did Nova get from Pip?"
   },
   {
    "key": "f,e,d,a",
@@ -979,14 +979,14 @@
     "d",
     "a"
    ],
-   "title": "The moon painting needs shelter",
+   "title": "Milo's painting needs shelter",
    "beats": [
     "A fishbowl held Puff at the bus stop, waiting patiently.",
     "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
     "Nova painted the moon, and the paint started raining gently down the page.",
     "Brolly opened on the art-room table, sheltering one very wet moon painting."
    ],
-   "readerQuestion": "Why did the astronaut need the umbrella?"
+   "readerQuestion": "Why did Nova really need Brolly?"
   },
   {
    "key": "f,e,d,b",
@@ -996,14 +996,14 @@
     "d",
     "b"
    ],
-   "title": "The moon's tiny stand-in",
+   "title": "Milo's tiny stand-in",
    "beats": [
     "A fishbowl waited at the bus stop with Puff curled up inside it.",
     "Milo carried the oversized cardboard moon at the wet tram stop, hood pulled right up.",
     "Nova painted a moon that promptly rolled off the edge of the art table.",
     "Womby rolled past the orange in the supermarket, which was the small rolling moon."
    ],
-   "readerQuestion": "Which object is the moon's small stand-in?"
+   "readerQuestion": "Which object stands in for Milo's moon?"
   },
   {
    "key": "f,e,d,c",
@@ -1013,14 +1013,14 @@
     "d",
     "c"
    ],
-   "title": "The painted moon takes flight",
+   "title": "Milo takes flight",
    "beats": [
     "A fishbowl held Puff at the bus stop, going nowhere in particular.",
     "Milo carried the oversized cardboard moon through the wet tram stop, dodging the puddles.",
     "Nova painted a moon-shaped gust across the art table.",
     "Pip flew through the library, sent onward by Nova's painted gust."
    ],
-   "readerQuestion": "What sent the paper aeroplane onward?"
+   "readerQuestion": "What sent Pip onward on its journey?"
   }
  ]
 }
