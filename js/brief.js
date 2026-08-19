@@ -26,6 +26,10 @@
       slot.appendChild(lab);
       slot.appendChild(val);
       slot.classList.add('is-set');
+      /* If this slot has a paired Copy control (2 Roll step 3), it is only useful
+         once there is something to copy. */
+      var pairedCopy = document.querySelector('[data-dice-copy-post]');
+      if (pairedCopy) { pairedCopy.hidden = false; }
     } else {
       if (slot.hasAttribute('data-brief-recovery')) {
         var recovery = document.createElement('a');

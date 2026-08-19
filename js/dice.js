@@ -250,6 +250,11 @@
     var briefText  = document.querySelector('[data-dice-brief-text]');
     var briefSpark = document.querySelector('[data-dice-brief-spark]');
     var copyBtn    = document.querySelector('[data-dice-copy]');
+    /* Step 3 shows the locked brief again with its own Copy, so the student is
+       never asked to remember or retype something the site already holds. */
+    var postBanner = document.querySelector('[data-brief-banner]');
+    var postCopy   = document.querySelector('[data-dice-copy-post]');
+    var postNote   = document.querySelector('[data-dice-copy-post-note]');
 
     var rollsUsed = 0;                                   /* 0, 1, then spent */
     var chosen    = { character: null, situation: null, problem: null };
@@ -424,12 +429,30 @@
       } catch (e) {}
     }
 
+    /* js/brief.js paints this on page load; the student who locks in during this
+       visit needs it repainted without a reload. Same markup either way. */
+    function paintPostBanner() {
+      if (!postBanner) { return; }
+      postBanner.innerHTML = '';
+      var lab = document.createElement('p');
+      lab.className = 'brief-banner__label';
+      lab.textContent = 'Your story';
+      var val = document.createElement('p');
+      val.className = 'brief-banner__line';
+      val.textContent = briefString();
+      postBanner.appendChild(lab);
+      postBanner.appendChild(val);
+      postBanner.classList.add('is-set');
+      if (postCopy) { postCopy.hidden = false; }
+    }
+
     function lock() {
       if (chosenCount() < 3 || !briefBox || !briefText) { return; }
       briefText.textContent = briefString();
       if (briefSpark) { briefSpark.textContent = sparkString(); }
       briefBox.hidden = false;
       saveBrief();
+      paintPostBanner();
       say('Locked in. ' + sparkString() + ' Copy your brief, then put it on the board.');
       /* Move the eye and the reading order to the thing that just appeared. */
       if (copyBtn) { copyBtn.focus(); }
@@ -476,6 +499,26 @@
 
     if (lockBtn) { lockBtn.addEventListener('click', lock); }
     if (copyBtn) { copyBtn.addEventListener('click', copyBrief); }
+    /* The step-3 copy works from stored text, because a student may arrive here
+       on a later visit when nothing has been rolled in this session. */
+    if (postCopy) {
+      postCopy.addEventListener('click', function () {
+        var line = '';
+        var el = postBanner && postBanner.querySelector('.brief-banner__line');
+        if (el) { line = el.textContent; }
+        if (!line) { return; }
+        function ok() {
+          if (postNote) { postNote.textContent = 'Copied.'; }
+          say('Brief copied. Paste it on the board.');
+        }
+        function no() {
+          if (postNote) { postNote.textContent = 'Select the line above and press Control-C or Command-C.'; }
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(line).then(ok, no);
+        } else { no(); }
+      });
+    }
 
     updateLock();
   }

@@ -233,9 +233,18 @@
         <p><strong>This is your idea post, not your final comic submission.</strong></p>
         <p class="lead">Post your roll plus one thought, question, or picture idea.</p>
 
+        <!-- The locked brief follows the student to this step. Telling a Year 8 to
+             "paste your brief" when the site already knows it is an instruction to
+             remember something; showing it with a Copy button is not. Painted on
+             page load by js/brief.js, and repainted by js/dice.js the moment they
+             lock in, so it is right whether they arrive fresh or straight from the dice. -->
+        <div class="brief-banner" data-brief-banner></div>
+        <p><button type="button" class="btn-secondary" data-dice-copy-post hidden>Copy my brief</button>
+        <span class="small" role="status" aria-live="polite" data-dice-copy-post-note></span></p>
+
         <div class="card">
           <ol class="steps">
-            <li>Paste your brief.</li>
+            <li>Copy your brief above.</li>
             <li>Add one line: a thought, a question, or a picture idea.</li>
           </ol>
           <p><strong>Use your fictional character name and table code.</strong> Never use the
@@ -404,6 +413,7 @@
   <span aria-hidden="true">&#9755;</span> Stuck?
 </button>
 
+<script src="js/brief.js" defer></script>
 <script src="js/dice.js" defer></script>
 
 <script src="js/steps.js" defer></script>
