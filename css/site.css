@@ -330,8 +330,37 @@ a:hover { text-decoration-thickness: 2px; }
   padding: var(--s6) var(--s6) var(--s7);
 }
 
-.page-header { margin-bottom: var(--s6); }
-.page-header .phase-tag { margin-bottom: var(--s3); }
+/* Compact page header. The phase tag sits ON the title line rather than above
+   it, and the question is a quiet sub-line — the header is signposting, and it
+   was eating the top third of every screen at 1024x768 before the content
+   started. One rule, all nine phase pages. */
+.page-header {
+  margin-bottom: var(--s4);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: var(--s3);
+  row-gap: var(--s2);
+}
+.page-header .phase-tag {
+  margin-bottom: 0;
+  order: 2;
+  font-size: 0.72rem;
+  padding: 2px var(--s2);
+}
+.page-header h1 { order: 1; margin: 0; }
+.page-header .page-question {
+  order: 3;
+  flex-basis: 100%;
+  margin: 0;
+  font-size: var(--t-body);
+  font-weight: 400;
+}
+/* Narrow screens: let the tag drop under the title rather than squeeze it. */
+@media (max-width: 30rem) {
+  .page-header .phase-tag { order: 3; }
+  .page-header .page-question { order: 4; }
+}
 
 /* Content column 8 of 12, sticky rail 9–12 (§4.3). */
 .with-rail {
@@ -1550,7 +1579,10 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
 .story-reading__images img {
   width: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
+  /* contain, not cover: this is the student's own chosen story, so they need to
+     see the whole picture they picked rather than a crop of it. */
+  object-fit: contain;
+  background: var(--paper);
   border-radius: calc(var(--r-sm) - 2px);
 }
 .story-reading__images span { font: 800 var(--t-meta)/1.1 var(--font-display); }
@@ -1642,7 +1674,7 @@ body.is-home .exemplar .placeholder { max-height: 40vh; }
   body.fit.has-drawer .story-reading h3 { font-size: var(--t-h3); }
   body.fit.has-drawer .story-reading > p.small:first-of-type { display: none; }
   body.fit.has-drawer .story-reading__images li { padding: var(--s1); }
-  body.fit.has-drawer .story-reading__images img { aspect-ratio: 16 / 5; }
+  body.fit.has-drawer .story-reading__images img { aspect-ratio: 4 / 3; }
   body.fit.has-drawer .story-reading > ol:not(.story-reading__images) li {
     min-height: 0;
     padding: var(--s1);
@@ -2937,6 +2969,23 @@ body.fit.has-drawer .rail__close { display: block; }
 }
 .brief-mascot img { width: 100%; align-self: center; }
 .brief-mascot figcaption { margin-top: var(--s2); font-size: var(--t-sm); color: var(--slate); }
+/* The "You will / You have" block. The mascot is decorative, so it sits loose in
+   the white space beside the lists rather than boxed up like a resource card. */
+.brief-overview-grid--open { align-items: center; }
+.brief-mascot-art {
+  width: 100%;
+  max-width: 22rem;
+  height: auto;
+  justify-self: center;
+  mix-blend-mode: multiply;
+}
+.brief-list {
+  margin: var(--s2) 0 0;
+  padding-left: 1.1em;
+}
+.brief-list li { margin-bottom: var(--s2); }
+@media (max-width: 48rem) { .brief-mascot-art { display: none; } }
+
 .brief-finish-at-a-glance { margin-top: var(--s5); }
 .brief-finish-at-a-glance h3 { margin-bottom: var(--s3); }
 .brief-finish-at-a-glance ul,

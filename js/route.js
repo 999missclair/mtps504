@@ -55,7 +55,10 @@
   }
   function allowed(file) {
     if (mode() !== 'guided') return true;
-    if (Object.prototype.hasOwnProperty.call(buildTools, file)) return highest() >= buildTools[file];
+    /* Build's own tools unlock when Build itself becomes reachable, not when it is
+       finished. The Builder IS the first step of Build, so requiring Build to be
+       complete locked students out of the step that completes it. */
+    if (Object.prototype.hasOwnProperty.call(buildTools, file)) return highest() + 1 >= buildTools[file];
     if (!Object.prototype.hasOwnProperty.call(phaseByFile, file)) return true;
     return phaseByFile[file] <= highest() + 1;
   }
