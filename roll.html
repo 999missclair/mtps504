@@ -104,8 +104,37 @@
              [data-dice-live]           aria-live="polite"
            Deck, deal rules and the one-re-roll ruling: dice-roll-options.md.
            ============================================================= -->
+      <!-- Step 1: the idea behind the roll. It comes BEFORE the dice because a
+           student who understands why a limit helps uses the roll differently
+           from one who is just told to press a button. -->
+      <section class="section" id="why-limits">
+        <h2>1 &#183; Why a limit helps</h2>
+        <p class="lead">Sometimes &#8220;do anything you like&#8221; is the hardest brief there is.
+        You stare at the page and nothing comes.</p>
+        <p>A limit takes most of the options away, and what is left is small enough to actually
+        start on. You are choosing between a few things instead of everything. That is what the
+        roll on the next step does for you &#8212; it hands you a character, a place and a
+        problem, and your job becomes the interesting part: what happens between them.</p>
+
+        <div class="resource roll-watch-video" style="margin-top:var(--s4)">
+          <div class="resource__header">
+            <span class="chip">Video</span>
+            <h3>The power of creative constraints</h3>
+            <p class="resource__who">Brandon Rodriguez &#183; TED-Ed &#183; 5 minutes</p>
+          </div>
+          <iframe src="https://www.youtube-nocookie.com/embed/v5FL9VTBZzQ?cc_load_policy=1"
+                  title="The power of creative constraints | TED-Ed"
+                  loading="lazy" allowfullscreen></iframe>
+          <div class="resource__body">
+            <p>Watch for the moment he says having <em>every</em> option is what makes people
+            freeze. Then go and roll.</p>
+            <p class="captions-line">Captions start on.</p>
+          </div>
+        </div>
+      </section>
+
       <section class="section" id="roll">
-        <h2>1 &#183; Roll for your story</h2>
+        <h2>2 &#183; Roll for your story</h2>
         <p class="lead">You get a character, a situation and a problem &#8212; two of each.
         Pick one from each column. You can&#8217;t type your own.</p>
 
@@ -182,25 +211,6 @@
           <p class="small">Copy it once, then keep it for your class-wall post and comic.</p>
         </div>
 
-        <details class="card" style="margin-top:var(--s4)">
-          <summary>Watch: why a limit gives you somewhere to start (5 min)</summary>
-          <div class="resource roll-watch-video" style="margin-top:var(--s3)">
-            <div class="resource__header">
-              <span class="chip">Video</span>
-              <h3>The power of creative constraints</h3>
-              <p class="resource__who">Brandon Rodriguez &#183; TED-Ed &#183; 5 minutes</p>
-            </div>
-            <iframe src="https://www.youtube-nocookie.com/embed/v5FL9VTBZzQ?cc_load_policy=1"
-                    title="The power of creative constraints | TED-Ed"
-                    loading="lazy" allowfullscreen></iframe>
-            <div class="resource__body">
-              <p>Watch for the idea that having <em>every</em> option is what makes people
-              freeze. That is exactly what your roll is for &#8212; it hands you a starting
-              point so you are choosing, not staring.</p>
-              <p class="captions-line">Captions start on.</p>
-            </div>
-          </div>
-        </details>
 
         <!-- AI idea helper — a DIVERGENT scaffold. It asks about the locked brief,
              never writes the comic. Wired by js/ai.js ([data-ai-idea]). Fallback
@@ -219,7 +229,7 @@
       </section>
 
       <section class="section" id="post">
-        <h2>2 &#183; Post your story starter</h2>
+        <h2>3 &#183; Post your story starter</h2>
         <p><strong>This is your idea post, not your final comic submission.</strong></p>
         <p class="lead">Post your roll plus one thought, question, or picture idea.</p>
 
@@ -377,12 +387,13 @@
     <span class="visually-hidden">Back to Roll for your story</span>
   </a>
   <ul class="botnav__steps">
-    <li><a class="step-pill" href="#roll" aria-current="step">1 Roll &amp; lock in</a></li>
-    <li><a class="step-pill" href="#post">2 Post your story starter</a></li>
+    <li><a class="step-pill" href="#why-limits" aria-current="step">1 Why a limit helps</a></li>
+    <li><a class="step-pill" href="#roll">2 Roll &amp; lock in</a></li>
+    <li><a class="step-pill" href="#post">3 Post your story starter</a></li>
   </ul>
   <p class="botnav__counter">
-    <span class="count">1 / 2</span>
-    <span class="name">Roll &amp; lock in</span>
+    <span class="count">1 / 3</span>
+    <span class="name">Why a limit helps</span>
   </p>
   <a class="btn-primary" href="#post">Post your story starter &#8594;</a>
 </nav>
