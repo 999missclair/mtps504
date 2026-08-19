@@ -23,7 +23,8 @@ the **cancelled** drag-and-arrange studio. Build page 6 from §4.4 of the design
 |---|---|
 | Deployed | **Yes.** [Four-Frame Comic Creator](https://four-frame-comic-creator.vercel.app) is live on Vercel. |
 | Pushed | **Yes.** `main` is on GitHub; use `git log -1 --oneline` for the current revision. |
-| Deploy command | Production deployment completed after the required environment variables were configured. |
+| Deploy command | `npx vercel --prod --yes` |
+| ⚠️ **In sync?** | **No, as at 19 Aug 2026.** The live build is **one commit behind** local `main` — the homepage still carries the "Why four frames?" beats block that `3ce1b46` removed. **Redeploy before recording the video rationale**, or the run-sheet will not match what is on screen. |
 
 The production project has teacher-owned `OPENROUTER_API_KEY`, `GIPHY_API_KEY` and
 `CLASS_PASSWORD` environment variables. Change them only in Vercel, then redeploy.
@@ -48,9 +49,15 @@ Three rules the site keeps, because each one is a claim made in the video ration
 and each has to be true in the code:
 
 1. **No third-party libraries, CDNs, remote fonts or analytics.** Type is two system
-   stacks. The optional class-approved GIF and AI helpers call the site's `/api` routes.
+   stacks. The optional class-approved GIF and AI helpers call the site's own `/api` routes,
+   which hold the keys server-side. **Note the nuance for the video rationale:** the site does
+   embed a `youtube-nocookie` player on `2 Roll` and two Padlet boards (`2 Roll`, `5 Share`), and
+   `3 Plan` links out to Khan Academy. The claim to make on camera is "no third-party *libraries*,
+   trackers or analytics" — **not** "no external requests of any kind", which is no longer true.
 2. **Device-only drafts.** No account or cookies. The locked roll and comic-in-progress use
    browser storage on this device so students can move between pages; they are not durable work.
+   The older "nothing is saved anywhere" phrasing is **wrong** and must not be reused in the
+   written plan or the video — use the device-only wording (`CODEX-FIXES.md` 5.6).
 3. **No `outline: none`.** Focus is a two-tone ring (Sun inner + Ink outer) so it
    reads on both the dark bar and the light page.
 
@@ -58,7 +65,7 @@ and each has to be true in the code:
 
 ## Pages
 
-All eight live at the repo root. Every page carries the full template.
+**Eleven pages**, all at the repo root. Every page carries the full template.
 
 | File | Nav label | WA sub-strand | State |
 |---|---|---|---|
@@ -70,14 +77,21 @@ All eight live at the repo root. Every page carries the full template.
 | `build.html` | 4 BUILD | Producing & implementing | **Built** |
 | `share.html` | 5 SHARE | Evaluating | **Built** |
 | `help.html` | HELP | — | **Built** |
+| `canvas.html` | (from Build) | Producing & implementing | **Built** — the Comic Builder; activity 3 |
+| `bank.html` | (from Build) | Producing & implementing | **Built** — the curated class image bank |
+| `safety.html` | (from Help) | — | **Built** — linked from Help, full bottom nav |
 
 `css/site.css` is the whole design system. It is sectioned and commented; read the
 section map at the top before adding anything.
 
 ## Scripts
 
-Four small files, no dependencies, all deferred, none of them required for the page
-to read. Each carries its markup contract in a header comment.
+**Fourteen** small files, no dependencies, all deferred, none of them required for the page
+to read. Each carries its markup contract in a header comment. The five below do the heavy
+lifting; the rest (`ai.js`, `brief.js`, `drawer.js`, `panel-story.js`, `route.js`, `steps.js`,
+`story-bank.js`, `submission.js`) handle the AI helpers, the step pager, the support drawer, the
+story bank and the submission gate. `dev-comments.js` is a reviewer tool and is **referenced by no
+page** — nothing from it reaches a student or a marker.
 
 | File | What it runs | Used on |
 |---|---|---|
@@ -85,6 +99,12 @@ to read. Each carries its markup contract in a header comment.
 | `js/dice.js` | The roll: the V3 deck, the two-per-column deal without replacement, the one re-roll, the lock and the copy string. | `roll.html` |
 | `js/copy.js` | The copyable boxes — Clipboard API, then select-the-text, then a spoken instruction. | `build.html`, `help.html` |
 | `js/help.js` | The `?topic=` landing highlight and `← Back to where I was`. | `help.html` |
+| `js/canvas.js` | The Comic Builder — frame choice, captions, credit slots, undo, export. | `canvas.html` |
+
+Plus the serverless layer in `api/`: `idea.js`, `alt-text.js`, `render.js`, `gifs.js` and the shared
+`_openrouter.js`. All four routes return **401** to an unauthenticated POST, which confirms the
+class-password gate is live in production. That does **not** prove the OpenRouter and Giphy keys are
+valid — one supervised authenticated call is still outstanding.
 
 ---
 
@@ -169,8 +189,13 @@ PY
   teapot example. It appears on Home, the brief and Build with descriptive alt text.
 - **Home hero.** `img/home-hero.png` is a local illustration that introduces the four-panel
   idea without adding another block of instructions.
-- **The Padlet boards and the Google Form.** Marked
-  `⚠️ CONFIRM` in the design doc; the pages ship with the slot, not the URL.
+- **The Padlet boards are live and embedded**, not placeholders: Roll Call
+  (`padlet.com/embed/xgv9pa9bf9197dav`) on `2 Roll`, and the final submission board
+  (`padlet.com/embed/bimq0a9uiwaw10zr`) on `5 Share`, gated behind a recorded comic download.
+- **The Google Form and Google Slides workflow are retired** (16 Aug 2026). Any document in the
+  assignment workspace still describing them is stale — see
+  `.../assignments/planned/mtps504-a2/START-HERE.md`.
+- **One `CONFIRM` remains:** an optional Khan Academy embed on `plan.html:160`, currently a link card.
 
 ---
 
